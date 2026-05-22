@@ -7,7 +7,7 @@
     "morning": null,
     "midday": null,
     "evening": null,
-    "night": "The Northern Limit of Monsoon continues to pass through 6°N/70°E, 6°N/75°E, 7°N/80°E , 9°N/85°E, 12°N/90°E , 14°N/93°E , 16°N/96°E and 17. Conditions are favourable for further advance of southwest monsoon into some more parts of southeast Arabian Sea, Comorin Area, southwest and southeast Bay of Bengal, remaining parts of Andaman Sea, and some more parts of eastcentral Bay of Bengal during next 2-3 days."
+    "night": "The Northern Limit of Monsoon continues to pass through 6°N/70°E, 6°N/75°E, 7°N/80°E , 9°N/85°E, 12°N/90°E , 14°N/93°E , 16°N/96°E and 17.5°N/98°E . Conditions are favourable for further advance of southwest monsoon into some more parts of southeast Arabian Sea, Comorin Area, southwest and southeast Bay of Bengal, remaining parts of Andaman Sea, and some more parts of eastcentral Bay of Bengal during next 2-3 days."
   },
   "nlm_coords": [
     {
@@ -37,6 +37,10 @@
     {
       "lat": 16.0,
       "lon": 96.0
+    },
+    {
+      "lat": 17.5,
+      "lon": 98.0
     }
   ],
   "systems": {
@@ -141,5 +145,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-23 00:47 IST"
+  "fetched_at": "2026-05-23 02:47 IST"
 }
