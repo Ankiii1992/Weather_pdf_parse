@@ -1,1 +1,49 @@
+name: Parse IMD Monsoon Bulletin
 
+on:
+  schedule:
+    # All times in UTC — IST is UTC+5:30
+    - cron: '45 3 * * *'    # 09:15 IST — Morning bulletin buffer
+    - cron: '15 9 * * *'    # 14:45 IST — Midday bulletin buffer
+    - cron: '15 11 * * *'   # 16:45 IST — Evening bulletin buffer
+    - cron: '15 15 * * *'   # 20:45 IST — Night bulletin buffer
+
+  # Allow manual trigger from GitHub Actions UI anytime
+  workflow_dispatch:
+
+jobs:
+  parse-bulletin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pdfplumber requests pytz beautifulsoup4
+
+      - name: Run parser
+        env:
+          GITHUB_TOKEN: ${{ secrets.WEATHER_PAT }}
+          GITHUB_REPO:  ${{ github.repository }}
+        run: |
+          python pdf_parser.py
+
+      - name: Show result
+        run: |
+          echo "Parser completed"
+          cat weather_pdf/latest.json | python3 -c "
+          import json, sys
+          d = json.load(sys.stdin)
+          print(f'Slot: {d.get(\"slot\")}')
+          print(f'Updated: {d.get(\"last_updated\")}')
+          print(f'Systems: {len(d.get(\"systems\", {}).get(\"priority\", []))} priority')
+          print(f'Success: {d.get(\"success\")}')
+          " 2>/dev/null || echo "Could not read latest.json"
