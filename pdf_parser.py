@@ -524,8 +524,8 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
             advance_part = None
 
             nlm_m = re.search(
-                r'(The\s+Northern\s+Limit\s+of\s+Monsoon[^.]+\.)',
-                clean, re.IGNORECASE
+               r'(The\s+Northern\s+Limit\s+of\s+Monsoon.+?(?:°E|°e)\s*\.)',
+               clean, re.IGNORECASE
             )
             if nlm_m:
                 nlm_part = nlm_m.group(1).strip()
