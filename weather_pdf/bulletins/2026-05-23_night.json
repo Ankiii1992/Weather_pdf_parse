@@ -1,84 +1,68 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/252766c4e1b9123a532d68e599d95f5c.pdf",
-  "last_updated": "08:00 PM IST",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/dde2da2d55d7339b110c72fef30355f0.pdf",
+  "last_updated": "08:06 PM IST",
   "slot": "night",
   "bulletin": {
     "morning": null,
     "midday": null,
     "evening": null,
-    "night": "The Northern Limit of Monsoon continues to pass through 6°N/70°E, 6°N/75°E, 7°N/80°E , 9°N/85°E, 12°N/90°E , 14°N/93°E , 16°N/96°E and 17.5°N/98°E . Conditions are favourable for further advance of southwest monsoon into some more parts of southeast Arabian Sea, Comorin Area, southwest and southeast Bay of Bengal, remaining parts of Andaman Sea, and some more parts of eastcentral Bay of Bengal during next 2-3 days."
+    "night": "Southwest monsoon has further advanced into some parts of southwest Arabian Sea, some more parts of southeast Arabian Sea, Comorin area, southwest, southeast and eastcentral Bay of Bengal and most parts of Andaman Sea today, the 23rd May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Comorin Area, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 3-4 days."
   },
-  "nlm_coords": [
-    {
-      "lat": 6.0,
-      "lon": 70.0
-    },
-    {
-      "lat": 6.0,
-      "lon": 75.0
-    },
-    {
-      "lat": 7.0,
-      "lon": 80.0
-    },
-    {
-      "lat": 9.0,
-      "lon": 85.0
-    },
-    {
-      "lat": 12.0,
-      "lon": 90.0
-    },
-    {
-      "lat": 14.0,
-      "lon": 93.0
-    },
-    {
-      "lat": 16.0,
-      "lon": 96.0
-    },
-    {
-      "lat": 17.5,
-      "lon": 98.0
-    }
-  ],
+  "nlm_coords": null,
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
         "form": "cyclonic_circulation",
-        "location": "north Pakistan & neighbourhood",
+        "location": "Jammu & neighbourhood",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
-        },
-        "trough_aloft": {
-          "axis": "along Long. 75°E to the north of Lat. 25°N",
-          "level": "5.8 km above MSL"
         }
       }
     ],
     "uac": [
       {
-        "location": "northwest Uttar Pradesh & neighbourhood",
+        "location": "south Bihar & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
-        }
-      },
-      {
-        "location": "interior Odisha & neighbourhood",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         }
       },
       {
         "location": "central Assam & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "Southeast adjoining central Bay of Bengal between 3.1 & 5.8 km above mean sea level tilting southwestwards with height",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      },
+      {
+        "location": "Southwest Arabian sea between 3.1 & 5.8 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from Punjab to Southwest Rajasthan",
         "level": {
           "type": "single",
           "min": 1.5,
@@ -86,64 +70,17 @@
         }
       },
       {
-        "location": "Southeast Bay of Bengal & neighbourhood",
+        "subtype": "westerlies",
+        "extent": "along Long. 90°E to the north of Lat. 23°N",
         "level": {
           "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        }
-      },
-      {
-        "location": "eastcentral Arabian Sea & neighbourhood",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
-        }
-      },
-      {
-        "location": "southeast Arabian Sea & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        }
-      }
-    ],
-    "other_troughs": [
-      {
-        "subtype": "general",
-        "extent": "from the upper air cyclonic circulation over northwest Uttar Pradesh to the upper air cyclonic circulation over interior Odisha",
-        "via": "East Uttar Pradesh and Chhattisgarh",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
-        }
-      },
-      {
-        "subtype": "general",
-        "extent": "from the upper air cyclonic circulation over Southeast Bay of Bengal to north Kerala",
-        "via": "Southwest Bay of Bengal and Tamilnadu",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        }
-      },
-      {
-        "subtype": "general",
-        "extent": "from the upper air cyclonic circulation over Southeast Arabian Sea to Comorin area",
-        "via": "Kerala and south Tamil Nadu",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         }
       }
     ],
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-23 02:47 IST"
+  "fetched_at": "2026-05-23 21:42 IST"
 }
