@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/803d4c0bca008a67ceb4ba3f971972a3.pdf",
-  "last_updated": "04:45 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/dde2da2d55d7339b110c72fef30355f0.pdf",
+  "last_updated": "08:06 PM IST",
+  "slot": "night",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "Southwest monsoon has further advanced into some parts of southwest Arabian Sea, some more parts of southeast Arabian Sea, Comorin area, southwest, southeast and eastcentral Bay of Bengal and most parts of Andaman Sea today, the 23rd May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Comorin Area, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 3-4 days.",
-    "night": null
+    "evening": null,
+    "night": "Southwest monsoon has further advanced into some parts of southwest Arabian Sea, some more parts of southeast Arabian Sea, Comorin area, southwest, southeast and eastcentral Bay of Bengal and most parts of Andaman Sea today, the 23rd May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Comorin Area, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 3-4 days."
   },
   "nlm_coords": null,
   "systems": {
@@ -82,5 +82,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-23 17:37 IST"
+  "fetched_at": "2026-05-23 21:42 IST"
 }
