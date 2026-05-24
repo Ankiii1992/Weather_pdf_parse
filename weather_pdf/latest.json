@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/aaad24350b6c8fa05b1ade8f997d1ab6.pdf",
-  "last_updated": "08:00 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/59bd1d01cd912429ee834d4e5291221e.pdf",
+  "last_updated": "02:10 PM IST",
+  "slot": null,
   "bulletin": {
     "morning": "Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Comorin Area, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 2-3 days.",
     "midday": null,
@@ -11,7 +11,18 @@
   },
   "nlm_coords": null,
   "systems": {
-    "priority": [],
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "cyclonic_circulation",
+        "location": "Jammu & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      }
+    ],
     "uac": [
       {
         "location": "south Bihar & neighbourhood",
@@ -30,7 +41,7 @@
         }
       },
       {
-        "location": "Southeast adjoining central Bay of Bengal between 3.1 & 5.8 km above mean sea level tilting southwestwards with height",
+        "location": "Southeast adjoining central Bay of Bengal",
         "level": {
           "type": "range",
           "min": 3.1,
@@ -39,7 +50,6 @@
         }
       },
       {
-        "location": "Southwest Arabian sea between 3.1 & 5.8 km above mean sea level",
         "level": {
           "type": "range",
           "min": 3.1,
@@ -50,17 +60,7 @@
     ],
     "other_troughs": [
       {
-        "subtype": "general",
-        "extent": "from Punjab to Southwest Rajasthan",
-        "level": {
-          "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
-        }
-      },
-      {
         "subtype": "westerlies",
-        "extent": "along Long. 90°E to the north of Lat. 23°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -68,8 +68,8 @@
         }
       }
     ],
-    "suppressed_count": 0
+    "suppressed_count": 1
   },
   "mjo": null,
-  "fetched_at": "2026-05-24 12:21 IST"
+  "fetched_at": "2026-05-24 14:59 IST"
 }
