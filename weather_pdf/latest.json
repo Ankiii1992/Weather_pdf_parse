@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/59bd1d01cd912429ee834d4e5291221e.pdf",
-  "last_updated": "02:10 PM IST",
-  "slot": null,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2d744e0c64d09ab75e060f571409a383.pdf",
+  "last_updated": "08:12 PM IST",
+  "slot": "night",
   "bulletin": {
-    "morning": "Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Comorin Area, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 2-3 days.",
+    "morning": null,
     "midday": null,
     "evening": null,
-    "night": null
+    "night": "Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Comorin Area, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 2-3 days."
   },
   "nlm_coords": null,
   "systems": {
@@ -41,15 +41,7 @@
         }
       },
       {
-        "location": "Southeast adjoining central Bay of Bengal",
-        "level": {
-          "type": "range",
-          "min": 3.1,
-          "max": 5.8,
-          "display": "3.1–5.8 km above MSL"
-        }
-      },
-      {
+        "location": "southwest Bay of Bengal & neighbourhood between 3.1 & 5.8 km above mean sea level tilting southwestwards with height",
         "level": {
           "type": "range",
           "min": 3.1,
@@ -58,18 +50,9 @@
         }
       }
     ],
-    "other_troughs": [
-      {
-        "subtype": "westerlies",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        }
-      }
-    ],
-    "suppressed_count": 1
+    "other_troughs": [],
+    "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-24 17:41 IST"
+  "fetched_at": "2026-05-24 21:44 IST"
 }
