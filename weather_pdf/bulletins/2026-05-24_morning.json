@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/aaad24350b6c8fa05b1ade8f997d1ab6.pdf",
+  "last_updated": "08:00 AM IST",
+  "slot": "morning",
+  "bulletin": {
+    "morning": "Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Comorin Area, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 2-3 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "location": "south Bihar & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "central Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "location": "Southeast adjoining central Bay of Bengal between 3.1 & 5.8 km above mean sea level tilting southwestwards with height",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      },
+      {
+        "location": "Southwest Arabian sea between 3.1 & 5.8 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from Punjab to Southwest Rajasthan",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
+      },
+      {
+        "subtype": "westerlies",
+        "extent": "along Long. 90°E to the north of Lat. 23°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-05-24 11:49 IST"
+}
