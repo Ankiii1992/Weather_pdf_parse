@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/afd9b79d612080a66b15b0bc180b6799.pdf",
+  "last_updated": "02:59 PM IST",
+  "slot": null,
+  "bulletin": {
+    "morning": "Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Comorin Area, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 2-3 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "cyclonic_circulation",
+        "location": "Jammu & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "location": "south Bihar & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "central Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from Punjab to northeast Arbian Sea",
+        "via": "Pakistan",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
+      }
+    ],
+    "suppressed_count": 1
+  },
+  "mjo": null,
+  "fetched_at": "2026-05-25 15:03 IST"
+}
