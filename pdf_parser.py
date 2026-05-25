@@ -2,18 +2,6 @@
 # =============================================================================
 # pdf_parser.py
 # Standalone IMD Bulletin Parser — runs via GitHub Actions cron
-#
-# What it does:
-#   1. Fetches latest IMD All India Weather Forecast Bulletin PDF
-#   2. Parses: slot, bulletin text, NLM coords, active weather systems
-#   3. Pushes to GitHub repo (Ankiii1992/Weather_pdf_parse):
-#      - weather_pdf/latest.json               (always overwritten)
-#      - weather_pdf/bulletins/DATE_SLOT.json   (archive)
-#      - weather_pdf/pdfs/DATE_SLOT.pdf         (raw PDF archive)
-#
-# Environment variables (injected by GitHub Actions):
-#   GITHUB_TOKEN — PAT with repo scope (secret: WEATHER_PAT)
-#   GITHUB_REPO  — set to "Ankiii1992/Weather_pdf_parse"
 # =============================================================================
 
 import os
@@ -21,12 +9,11 @@ import re
 import sys
 import json
 import base64
-import hashlib
 import requests
 import pdfplumber
 import pytz
 from io import BytesIO
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # -----------------------------------------------------------------------------
 # CONFIGURATION
@@ -70,7 +57,6 @@ SYSTEM_PRIORITY = {
 # -----------------------------------------------------------------------------
 
 def github_get_sha(path):
-    """Get SHA of existing file — needed to update it via API."""
     url  = f'{GITHUB_API}/repos/{GITHUB_REPO}/contents/{path}'
     resp = requests.get(url, headers=HEADERS_GH, timeout=15)
     if resp.status_code == 200:
@@ -79,19 +65,16 @@ def github_get_sha(path):
 
 
 def github_push_file(path, content_bytes, commit_message):
-    """Push any file (bytes) to GitHub repo via Contents API."""
     url     = f'{GITHUB_API}/repos/{GITHUB_REPO}/contents/{path}'
     encoded = base64.b64encode(content_bytes).decode()
     sha     = github_get_sha(path)
-
     payload = {
         'message': commit_message,
         'content': encoded,
         'branch':  GITHUB_BRANCH,
     }
     if sha:
-        payload['sha'] = sha  # required for updates, omit for new files
-
+        payload['sha'] = sha
     resp = requests.put(url, headers=HEADERS_GH, json=payload, timeout=30)
     if resp.status_code in (200, 201):
         print(f'[GITHUB] ✅ Pushed: {path}')
@@ -102,7 +85,6 @@ def github_push_file(path, content_bytes, commit_message):
 
 
 def github_push_json(path, data, commit_message):
-    """Push a Python dict as JSON to GitHub repo."""
     content = json.dumps(data, ensure_ascii=False, indent=2).encode('utf-8')
     return github_push_file(path, content, commit_message)
 
@@ -112,15 +94,9 @@ def github_push_json(path, data, commit_message):
 # -----------------------------------------------------------------------------
 
 def fetch_imd_pdf_url():
-    """
-    Scrape IMD bulletin page to find latest PDF URL.
-    Pattern confirmed from live HTML:
-    href="../backend/assets/aiwfb_pdf/{32-char-hex}.pdf"
-    """
     try:
         resp = requests.get(IMD_BULLETIN_PAGE, headers=HEADERS_IMD, timeout=15)
         resp.raise_for_status()
-
         match = re.search(
             r'href=["\']\.\.\/backend\/assets\/aiwfb_pdf\/([a-f0-9]+\.pdf)["\']',
             resp.text
@@ -130,18 +106,15 @@ def fetch_imd_pdf_url():
             pdf_url  = f'https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/{pdf_path}'
             print(f'[IMD] Found PDF URL: {pdf_url}')
             return pdf_url
-
         print('[IMD] PDF link not found in page HTML')
         print(f'[IMD] Page snippet: {resp.text[2000:2500]}')
         return None
-
     except Exception as e:
         print(f'[IMD] Error fetching bulletin page: {e}')
         return None
 
 
 def download_pdf(pdf_url):
-    """Download PDF bytes from URL."""
     try:
         resp = requests.get(pdf_url, headers=HEADERS_IMD, timeout=30, stream=True)
         resp.raise_for_status()
@@ -156,69 +129,41 @@ def download_pdf(pdf_url):
 # -----------------------------------------------------------------------------
 
 def parse_level(text):
-    """
-    Parse level string into structured object.
-    Handles all IMD variants:
-      "at 0.9 km above mean sea level"
-      "extending upto 1.5 km above mean sea level"
-      "extends upto 1.5 km above mean sea level"
-      "upto 1.5 km above mean sea level"
-      "between 3.1 & 4.5 km above mean sea level"
-      "between 3.1 to 5.8 km above mean sea level"
-    """
     if not text:
         return None
     t = text.lower()
-
-    # Range: "between X & Y km" or "between X to Y km"
-    range_match = re.search(
-        r'between\s+([\d.]+)\s*(?:&|to|and)\s*([\d.]+)\s*km', t
-    )
+    range_match = re.search(r'between\s+([\d.]+)\s*(?:&|to|and)\s*([\d.]+)\s*km', t)
     if range_match:
         lo, hi = float(range_match.group(1)), float(range_match.group(2))
         return {'type': 'range', 'min': lo, 'max': hi, 'display': f'{lo}–{hi} km above MSL'}
-
-    # Upto: "extending upto", "extends upto", "upto", "up to"
     upto_match = re.search(
         r'(?:extending\s+|extends\s+)?up\s*to\s+([\d.]+)\s*km'
-        r'|(?:extending\s+)?upto\s+([\d.]+)\s*km',
-        t
+        r'|(?:extending\s+)?upto\s+([\d.]+)\s*km', t
     )
     if upto_match:
         val = float(upto_match.group(1) or upto_match.group(2))
         return {'type': 'upto', 'max': val, 'display': f'up to {val} km above MSL'}
-
-    # Single: "at X km above"
     single_match = re.search(r'(?:at\s+)?([\d.]+)\s*km\s*above', t)
     if single_match:
         val = float(single_match.group(1))
         return {'type': 'single', 'min': val, 'display': f'{val} km above MSL'}
-
     return None
 
 
 def parse_coords(text):
-    """
-    Extract coords {lat, lon} from text.
-    Handles: "Lat. 28°N / Long. 68°E", "20.5°N/87.2°E"
-    """
     if not text:
         return None
-
     lat_m = re.search(r'[Ll]at(?:itude)?\.?\s*([\d.]+)°?\s*N', text)
     lon_m = re.search(r'[Ll]on(?:g(?:itude)?)?\.?\s*([\d.]+)°?\s*E', text)
     if lat_m and lon_m:
         return {'lat': float(lat_m.group(1)), 'lon': float(lon_m.group(1))}
-
     slash_m = re.search(r'([\d.]+)°?\s*N\s*/\s*([\d.]+)°?\s*E', text)
     if slash_m:
         return {'lat': float(slash_m.group(1)), 'lon': float(slash_m.group(2))}
-
     return None
 
 
 def parse_nlm_coords(text):
-    """Parse NLM waypoint coordinates from text."""
     coords  = []
     matches = re.findall(r'([\d.]+)°?\s*N\s*/\s*([\d.]+)°?\s*E', text)
     for lat_s, lon_s in matches:
@@ -227,55 +172,41 @@ def parse_nlm_coords(text):
 
 
 def extract_over_location(text):
-    """
-    Extract location after 'over' keyword using lookahead terminators.
-    Handles shifted locations ("now lies over X") and standard ("over X").
-    """
     shifted = re.search(
         r'now\s+lies?\s+over\s+(.+?)(?=\s+(?:at\s+[\d.]|extending|extends|upto|up\s+to|persists|and\s+extend|now\b|\.))',
         text, re.IGNORECASE
     )
     if shifted:
         return shifted.group(1).strip()
-
     standard = re.search(
         r'\bover\s+(.+?)(?=\s+(?:at\s+[\d.]|extending|extends|upto|up\s+to|persists|and\s+extend|now\b|\.))',
         text, re.IGNORECASE
     )
     if standard:
         return standard.group(1).strip()
-
     return None
 
 
 # -----------------------------------------------------------------------------
-# CORE: Classify a single sentence into a system dict
-# KEY: classify by SENTENCE SUBJECT — not keyword search anywhere in sentence
-# This prevents trough sentences containing "upper air cyclonic circulation"
-# from being misclassified as UACs
+# SYSTEM CLASSIFIER
 # -----------------------------------------------------------------------------
 
 def classify_system(sentence):
     s     = sentence.strip()
     lower = s.lower()
 
-    # SUPPRESS: less marked / weakening systems
     if 'has become less marked' in lower:
         return None
-
-    # SUPPRESS: NLM / advance conditions (bulletin text, not systems)
     if 'northern limit of monsoon' in lower:
         return None
     if lower.lstrip().startswith('conditions are') and 'monsoon' in lower:
         return None
 
-    # Extract sentence subject (strip leading The/A/An)
     subject = re.sub(r'^(The|An?)\s+', '', s, flags=re.IGNORECASE).lower().strip()
 
     # ── WESTERN DISTURBANCE ──────────────────────────────────────────────
     if subject.startswith('western disturbance'):
         system = {'tier': 1, 'type': 'Western Disturbance'}
-
         if 'cyclonic circulation' in lower:
             system['form'] = 'cyclonic_circulation'
             loc = re.search(
@@ -285,10 +216,9 @@ def classify_system(sentence):
             if loc:
                 system['location'] = loc.group(1).strip()
             system['level'] = parse_level(s)
-
             if 'trough aloft' in lower:
-                aloft    = {}
-                axis_m   = re.search(
+                aloft  = {}
+                axis_m = re.search(
                     r'(?:roughly\s+)?along\s+(Long\.?\s*[\d.]+°?\s*E[^.]+?Lat\.?\s*[\d.]+°?\s*N[^.]*)',
                     s, re.IGNORECASE
                 )
@@ -314,10 +244,9 @@ def classify_system(sentence):
             if coords:
                 system['coords'] = coords
             system['level'] = parse_level(s)
-
         return {k: v for k, v in system.items() if v is not None}
 
-    # ── EAST-WEST TROUGH (always Tier 1) ────────────────────────────────
+    # ── EAST-WEST TROUGH ────────────────────────────────────────────────
     if subject.startswith('east-west trough') or subject.startswith('east west trough'):
         system = {'tier': 1, 'type': 'East-West Trough'}
         extent_m = re.search(
@@ -448,6 +377,65 @@ def classify_system(sentence):
 
 
 # -----------------------------------------------------------------------------
+# BULLETIN TEXT EXTRACTOR — FIX: captures all sentences until section header
+# -----------------------------------------------------------------------------
+
+def extract_monsoon_text(text):
+    """
+    Extracts all monsoon-related sentences from the PDF text.
+    Strategy:
+      1. Find 'Advance of Southwest Monsoon' section
+      2. Capture everything until next known section header
+      3. Remove bullet points (• - *) from extracted text
+      4. Return clean combined text
+    """
+    # Normalize whitespace — preserve line breaks for section detection
+    clean = re.sub(r'[ \t]+', ' ', text)
+    clean = re.sub(r'\r\n|\r', '\n', clean)
+    clean = re.sub(r'\n{3,}', '\n\n', clean)
+
+    # ── Try to find "Advance of Southwest Monsoon" section ───────────────
+    adv_section_m = re.search(
+        r'Advance\s+of\s+Southwest\s+Monsoon[^\n]*\n(.*?)'
+        r'(?=\n\s*(?:Weather\s+Forecast|Main\s+Features|Significant\s+Weather'
+        r'|Northeast\s+India|Northwest\s+India|South\s+Peninsular'
+        r'|Central\s+India|East\s+India|West\s+India|\Z))',
+        clean, re.IGNORECASE | re.DOTALL
+    )
+
+    if adv_section_m:
+        section_text = adv_section_m.group(1)
+    else:
+        # ── Fallback: find NLM sentence directly ─────────────────────────
+        nlm_m = re.search(
+            r'((?:[•\-\*]\s*)?The\s+Northern\s+Limit\s+of\s+Monsoon.+?)'
+            r'(?=\n\s*(?:Weather\s+Forecast|Main\s+Features|\Z))',
+            clean, re.IGNORECASE | re.DOTALL
+        )
+        if nlm_m:
+            section_text = nlm_m.group(1)
+        else:
+            # ── Last fallback: conditions sentence only ───────────────────
+            cond_m = re.search(
+                r'((?:[•\-\*]\s*)?Conditions\s+are\s+(?:favourable|not\s+favourable).+?)'
+                r'(?=\n\s*(?:Weather\s+Forecast|Main\s+Features|\Z))',
+                clean, re.IGNORECASE | re.DOTALL
+            )
+            if cond_m:
+                section_text = cond_m.group(1)
+            else:
+                return None
+
+    # Remove bullet points (•, -, *) at start of lines
+    section_text = re.sub(r'^\s*[•\-\*]\s*', '', section_text, flags=re.MULTILINE)
+
+    # Collapse into single clean string
+    section_text = re.sub(r'\s+', ' ', section_text).strip()
+
+    return section_text if section_text else None
+
+
+# -----------------------------------------------------------------------------
 # CORE PDF PARSER
 # -----------------------------------------------------------------------------
 
@@ -494,21 +482,20 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
             except Exception:
                 result['last_updated'] = raw_time + ' IST'
 
+        # ── FIX 1: Broader slot regex — handles Mid-Day, Mid-day, Midday ──
         slot_m = re.search(
-            r'\((Morning|Midday|Afternoon|Evening|Night)\)',
+            r'\((Morning|Mid[\s\-]?[Dd]ay|Evening|Night)\)',
             page1, re.IGNORECASE
         )
         if slot_m:
             slot_raw = slot_m.group(1).lower()
-            # Clean 1-to-1 slot mapping — no merging
-            slot_map = {
-                'morning':   'morning',
-                'midday':    'midday',
-                'afternoon': 'midday',  # IMD sometimes says afternoon for midday
-                'evening':   'evening',
-                'night':     'night',
-            }
-            result['slot'] = slot_map.get(slot_raw, slot_raw)
+            # Normalize all mid-day variants to 'midday'
+            slot_raw = re.sub(r'mid[\s\-]?day', 'midday', slot_raw)
+            result['slot'] = slot_raw
+            print(f'[PARSE] Detected slot: {slot_raw}')
+        else:
+            print('[PARSE] ⚠️ Could not detect slot from page 1')
+            print(f'[PARSE] Page 1 text snippet: {page1[:500]}')
 
         # ── STEP 2: Find Meteorological Analysis page ─────────────────────
         meteo_text = None
@@ -518,57 +505,34 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
                 break
 
         # ── STEP 3: Extract bulletin text ─────────────────────────────────
-        def extract_monsoon_text(text):
-            clean        = re.sub(r'\s+', ' ', text).strip()
-            nlm_part     = None
-            advance_part = None
-
-            nlm_m = re.search(
-               r'(The\s+Northern\s+Limit\s+of\s+Monsoon.+?(?:°E|°e)\s*\.)',
-               clean, re.IGNORECASE
-            )
-            if nlm_m:
-                nlm_part = nlm_m.group(1).strip()
-
-            adv_m = re.search(
-                r'(Conditions\s+are\s+(?:favourable|not\s+favourable).+?)(?=\s+The\s+[A-Z]|$)',
-                clean, re.IGNORECASE
-            )
-            if adv_m:
-                advance_part = adv_m.group(1).strip()
-
-            # Also capture "Southwest monsoon has further advanced" sentence
-            sw_m = re.search(
-                r'([Ss]outhwest\s+[Mm]onsoon\s+has\s+further\s+advanced[^.]+\.)',
-                clean, re.IGNORECASE
-            )
-
-            parts = [p for p in [nlm_part, sw_m.group(1) if sw_m else None, advance_part] if p]
-            return ' '.join(parts) if parts else None
-
+        # FIX 2: Use new extract_monsoon_text that handles bullets + section headers
         bulletin_text = None
         if meteo_text:
             bulletin_text = extract_monsoon_text(meteo_text)
+            if bulletin_text:
+                print(f'[PARSE] Extracted bulletin text ({len(bulletin_text)} chars) from meteo page')
+            else:
+                print('[PARSE] ⚠️ No bulletin text found in meteo page')
 
-        # Fallback: "Advance of Southwest Monsoon" section
+        # Fallback: try full text
         if not bulletin_text:
-            adv_section = re.search(
-                r'Advance\s+of\s+Southwest\s+Monsoon[^\n]*\n(.*?)(?=\n(?:Weather\s+Forecast|Main\s+Weather|Meteorological|\Z))',
-                full_text, re.DOTALL | re.IGNORECASE
-            )
-            if adv_section:
-                bulletin_text = extract_monsoon_text(adv_section.group(1))
+            bulletin_text = extract_monsoon_text(full_text)
+            if bulletin_text:
+                print(f'[PARSE] Extracted bulletin text from full text fallback')
 
         if bulletin_text and result['slot']:
             result['bulletin'][result['slot']] = bulletin_text
         elif bulletin_text:
+            # No slot detected — store in morning as fallback
             result['bulletin']['morning'] = bulletin_text
+            print('[PARSE] ⚠️ No slot detected, storing bulletin in morning slot')
 
         # ── STEP 4: NLM coordinates ───────────────────────────────────────
         coord_source = bulletin_text or full_text
         nlm_coords   = parse_nlm_coords(coord_source)
         if nlm_coords:
             result['nlm_coords'] = nlm_coords
+            print(f'[PARSE] Found {len(nlm_coords)} NLM coordinates')
 
         # ── STEP 5: Parse systems from Meteorological Analysis page ───────
         if meteo_text:
@@ -603,7 +567,6 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
                     continue
                 all_systems.append(system)
 
-            # Sort priority systems
             tier1 = [s for s in all_systems if s.get('tier') == 1]
             tier2 = [s for s in all_systems if s.get('tier') == 2]
             tier1.sort(key=lambda s: SYSTEM_PRIORITY.get(s.get('type', ''), 99))
@@ -627,6 +590,7 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
                 for s in other_troughs
             ]
             result['systems']['suppressed_count'] = suppressed_count
+            print(f'[PARSE] Systems: {len(tier1)} priority, {len(uacs)} UAC, {len(other_troughs)} troughs')
 
     except Exception as e:
         print(f'[PARSE] Error: {e}')
@@ -639,7 +603,7 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
 
 
 # -----------------------------------------------------------------------------
-# MAIN — orchestrates fetch → parse → push
+# MAIN
 # -----------------------------------------------------------------------------
 
 def main():
@@ -649,13 +613,11 @@ def main():
         print('[MAIN] ❌ GITHUB_TOKEN not set — cannot push to GitHub')
         sys.exit(1)
 
-    # ── Fetch PDF URL ─────────────────────────────────────────────────────
     pdf_url = fetch_imd_pdf_url()
     if not pdf_url:
         print('[MAIN] ❌ Could not find PDF URL — aborting')
         sys.exit(1)
 
-    # ── Download PDF ──────────────────────────────────────────────────────
     pdf_bytes = download_pdf(pdf_url)
     if not pdf_bytes:
         print('[MAIN] ❌ Could not download PDF — aborting')
@@ -663,7 +625,6 @@ def main():
 
     print(f'[MAIN] Downloaded PDF — {len(pdf_bytes):,} bytes')
 
-    # ── Parse PDF ─────────────────────────────────────────────────────────
     parsed = parse_monsoon_pdf(pdf_bytes, pdf_url)
     if not parsed['success']:
         print(f'[MAIN] ❌ Parse failed: {parsed.get("error")}')
@@ -677,20 +638,18 @@ def main():
     parsed['fetched_at'] = timestamp
     print(f'[MAIN] Parsed successfully — slot: {slot}')
 
-    # ── Push to GitHub ────────────────────────────────────────────────────
     commit_msg = f'Monsoon bulletin {date_str} {slot} ({now_ist.strftime("%H:%M IST")})'
 
-    # 1. Archive JSON
     json_path = f'weather_pdf/bulletins/{date_str}_{slot}.json'
     github_push_json(json_path, parsed, commit_msg)
 
-    # 2. Archive raw PDF
     pdf_path = f'weather_pdf/pdfs/{date_str}_{slot}.pdf'
     github_push_file(pdf_path, pdf_bytes, commit_msg)
 
-    # 3. latest.json — always overwrite with current
     github_push_json('weather_pdf/latest.json', parsed, f'Update latest.json — {timestamp}')
 
     print(f'[MAIN] ✅ Done — {timestamp}')
+
+
 if __name__ == '__main__':
     main()
