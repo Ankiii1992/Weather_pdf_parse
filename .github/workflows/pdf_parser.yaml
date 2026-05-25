@@ -3,10 +3,7 @@ name: Parse IMD Monsoon Bulletin
 on:
   schedule:
     # All times in UTC — IST is UTC+5:30
-    - cron: '45 3 * * *'    # 09:15 IST — Morning bulletin buffer
-    - cron: '15 9 * * *'    # 14:45 IST — Midday bulletin buffer
-    - cron: '15 11 * * *'   # 16:45 IST — Evening bulletin buffer
-    - cron: '15 15 * * *'   # 20:45 IST — Night bulletin buffer
+    - cron: '0 */3 * * *'  
 
   # Allow manual trigger from GitHub Actions UI anytime
   workflow_dispatch:
