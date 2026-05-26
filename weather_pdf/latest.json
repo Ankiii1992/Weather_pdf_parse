@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/cb5ec83fbb0d542d714a6e34128faefb.pdf",
-  "last_updated": "04:42 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9b4700c7a99d219dbc757a2bf3e7d0de.pdf",
+  "last_updated": "08:04 PM IST",
+  "slot": "night",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Northern Limit of Monsoon continues to pass through 7°N/60°E, 7°N/70°E, 7°N/75°E, 8°N/80°E, 10°N/85°E, 13.5°N/90°E, and 17°N/95°E as on 26 th May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 2-3 days.",
-    "night": null
+    "evening": null,
+    "night": "The Northern Limit of Monsoon continues to pass through 7°N/60°E, 7°N/70°E, 7°N/75°E, 8°N/80°E, 10°N/85°E, 13.5°N/90°E, and 17°N/95°E as on 26 th May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 2-3 days."
   },
   "nlm_coords": [
     {
@@ -79,6 +79,14 @@
     ],
     "other_troughs": [
       {
+        "subtype": "westerlies",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      },
+      {
         "subtype": "general",
         "extent": "from Punjab to northeast Arabian Sea",
         "via": "Pakistan",
@@ -92,5 +100,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-26 20:00 IST"
+  "fetched_at": "2026-05-26 21:17 IST"
 }
