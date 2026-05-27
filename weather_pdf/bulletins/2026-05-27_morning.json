@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0009fd765468b5746af74447dccea1b1.pdf",
+  "last_updated": "08:01 AM IST",
+  "slot": "morning",
+  "bulletin": {
+    "morning": "Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, southwest, southeast & eastcentral Bay of Bengal and remaining parts of Andaman Sea during next 2-3 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "location": "north Chhattisgarh & adjoining interior Odisha",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "location": "north Tamil Nadu coast and neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      },
+      {
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        }
+      },
+      {
+        "location": "Westcentral Bay of Bengal & neighbourhood between 3.1 & 7.6 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from northwest Uttar Pradesh to south coastal Odisha",
+        "via": "cyclonic circulation over central parts of Uttar Pradesh & neighbourhood, northeast Madhya Pradesh and cyclonic circulation over north Chhattisgarh & adjoining interior Odisha",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      }
+    ],
+    "suppressed_count": 1
+  },
+  "mjo": null,
+  "fetched_at": "2026-05-27 12:21 IST"
+}
