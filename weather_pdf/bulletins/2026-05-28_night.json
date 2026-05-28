@@ -1,7 +1,7 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c31401544f29c743e7604b52376b955f.pdf",
-  "last_updated": "07:48 PM IST",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ddd061153fa1b60f380f6f013ad1862d.pdf",
+  "last_updated": "09:45 PM IST",
   "slot": "night",
   "bulletin": {
     "morning": null,
@@ -102,5 +102,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-28 21:45 IST"
+  "fetched_at": "2026-05-28 23:24 IST"
 }
