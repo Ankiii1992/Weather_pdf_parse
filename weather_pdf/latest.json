@@ -1,11 +1,11 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7bc2f8972a5386c74e39134e09833c76.pdf",
-  "last_updated": "08:09 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c105f8566aa27be4976c003d9dd3cec5.pdf",
+  "last_updated": "03:28 PM IST",
+  "slot": "midday",
   "bulletin": {
-    "morning": "The Northern Limit of Monsoon continues to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E as on 28 th May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days.",
-    "midday": null,
+    "morning": null,
+    "midday": "The Northern Limit of Monsoon continues to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E as on 28 th May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days.",
     "evening": null,
     "night": null
   },
@@ -62,6 +62,7 @@
     ],
     "uac": [
       {
+        "location": "northwest Uttar Pradesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 1.5,
@@ -69,7 +70,7 @@
         }
       },
       {
-        "location": "central parts of Uttar Pradesh & neighbourhoodat 0.9 km above mean sea level",
+        "location": "central parts of Uttar Pradesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 0.9,
@@ -77,46 +78,53 @@
         }
       },
       {
-        "location": "Northwest Odisha & neighbourhood",
+        "location": "central Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      },
+      {
+        "location": "Southeast Arabian Sea & neighbourhood",
         "level": {
           "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
+          "max": 5.8,
+          "display": "up to 5.8 km above MSL"
         }
       },
       {
-        "location": "north Tamil Nadu coast and neighbourhood",
+        "location": "Eastcentral & Southeast Bay of Bengal",
         "level": {
           "type": "range",
-          "min": 3.1,
+          "min": 1.5,
           "max": 7.6,
-          "display": "3.1–7.6 km above MSL"
-        }
-      },
-      {
-        "location": "Eastcentral & Southeast Bay of Bengal between 3.1 & 7.6 km above mean sea level",
-        "level": {
-          "type": "range",
-          "min": 3.1,
-          "max": 7.6,
-          "display": "3.1–7.6 km above MSL"
+          "display": "1.5–7.6 km above MSL"
         }
       }
     ],
     "other_troughs": [
       {
         "subtype": "general",
-        "extent": "from northwest Uttar Pradesh to south coastal Odisha",
-        "via": "the cyclonic circulation over central parts of Uttar Pradesh, northeast Madhya Pradesh, the cyclonic circulation over Northwest Odisha",
+        "extent": "from northwest Uttar Pradesh to north Coastal Andhra Pradesh",
+        "via": "the cyclonic circulation over northwest Uttar Pradesh & neighbourhood, the cyclonic circulation over north Jharkhand & neighbourhood and",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "up to 1.5 km above MSL"
         }
+      },
+      {
+        "subtype": "westerlies",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
       }
     ],
-    "suppressed_count": 0
+    "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-05-28 12:11 IST"
+  "fetched_at": "2026-05-28 15:54 IST"
 }
