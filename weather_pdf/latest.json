@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9319109a45bb885c49d39499a21b8573.pdf",
-  "last_updated": "08:18 PM IST",
-  "slot": "night",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7bc2f8972a5386c74e39134e09833c76.pdf",
+  "last_updated": "08:09 AM IST",
+  "slot": "morning",
   "bulletin": {
-    "morning": null,
+    "morning": "The Northern Limit of Monsoon continues to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E as on 28 th May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days.",
     "midday": null,
     "evening": null,
-    "night": "Southwest monsoon has further advanced into some more parts of southwest & southeast Arabian Sea, some parts of Lakshadweep area, some more parts of southwest, southeast and eastcentral Bay of Bengal, remaining parts of Andaman Sea and some parts of westcentral Bay of Bengal on today, the 27th May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days. The Northern Limit of Monsoon passes through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E as on 27 th May 2026."
+    "night": null
   },
   "nlm_coords": [
     {
@@ -48,10 +48,28 @@
     }
   ],
   "systems": {
-    "priority": [],
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "cyclonic_circulation",
+        "location": "north Pakistan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      }
+    ],
     "uac": [
       {
-        "location": "central parts of Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
+      },
+      {
+        "location": "central parts of Uttar Pradesh & neighbourhoodat 0.9 km above mean sea level",
         "level": {
           "type": "single",
           "min": 0.9,
@@ -68,22 +86,6 @@
       },
       {
         "location": "north Tamil Nadu coast and neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        }
-      },
-      {
-        "location": "central Assam & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        }
-      },
-      {
-        "location": "Southeast Arabian Sea & neighbourhood between 3.1 & 7.6 km above mean sea level",
         "level": {
           "type": "range",
           "min": 3.1,
@@ -111,19 +113,10 @@
           "max": 1.5,
           "display": "up to 1.5 km above MSL"
         }
-      },
-      {
-        "subtype": "westerlies",
-        "extent": "along Long. 89°E to the north of Lat. 21°N",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        }
       }
     ],
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-28 07:01 IST"
+  "fetched_at": "2026-05-28 12:11 IST"
 }
