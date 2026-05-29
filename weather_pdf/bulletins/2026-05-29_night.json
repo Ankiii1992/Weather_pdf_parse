@@ -1,13 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ddd061153fa1b60f380f6f013ad1862d.pdf",
-  "last_updated": "09:45 PM IST",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c511be77123fc86262977d5587d3cc55.pdf",
+  "last_updated": "08:11 PM IST",
   "slot": "night",
+  "bulletin_date": "2026-05-29",
   "bulletin": {
     "morning": null,
     "midday": null,
     "evening": null,
-    "night": "The Northern Limit of Monsoon continues to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E as on 28 th May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days."
+    "night": "The Northern Limit of Monsoon continue to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days."
   },
   "nlm_coords": [
     {
@@ -47,34 +48,40 @@
       "lon": 97.0
     }
   ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 77°E to the north of Lat. 30°N .\nThe upper air cyclonic circulation over Central Pakistan & neighbourhood and extending upto 1.5 km above mean sea level persists.\nThe trough from the cyclonic circulation over Central Pakistan to northeast Arabian sea across West Rajasthan, Saurashtra & Kutch at 0.9 km above men sea level persists.\nThe trough from the cyclonic circulation over Central Pakistan to interior Odisha across Rajasthan, Madhya Pradesh, north Chhattisgarh at 0.9 km above mean sea level persists.\nThe trough in westerlies with its axis at 5.8 km above mean sea level roughly along Long. 90°E to the north of Lat. 21°N persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Bay of Bengal and adjoining Tamil Nadu coast between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast ArabianSea & neighbourhood extending upto5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral & Southeast Bay of Bengal between 1.5 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood at 1.5 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
-        "form": "cyclonic_circulation",
-        "location": "north Pakistan & neighbourhood",
+        "form": "trough_in_westerlies",
+        "location": "along Long. 77°E to the north of Lat. 30°N",
+        "coords": {
+          "lat": 30.0,
+          "lon": 77.0
+        },
         "level": {
           "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         }
       }
     ],
     "uac": [
       {
-        "location": "northwest Uttar Pradesh & neighbourhoodat 1.5 km above mean sea level",
+        "location": "Central Pakistan & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
         }
       },
       {
-        "location": "north Jharkhand & neighbourhoodat 0.9 km above mean sea level",
+        "location": "Southwest Bay of Bengal and adjoining Tamil Nadu coast between 3.1 & 5.8 km above mean sea level",
         "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
         }
       },
       {
@@ -85,22 +92,40 @@
           "max": 7.6,
           "display": "1.5–7.6 km above MSL"
         }
+      },
+      {
+        "location": "east Bangladesh & neighbourhoodat 1.5 km above mean sea level",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
       }
     ],
     "other_troughs": [
       {
         "subtype": "general",
-        "extent": "from northwest Uttar Pradesh to north Coastal Andhra Pradesh",
-        "via": "the cyclonic circulation over northwest Uttar Pradesh & neighbourhood, the cyclonic circulation over north Jharkhand & neighbourhood and",
+        "extent": "from the cyclonic circulation over Central Pakistan to northeast Arabian sea",
+        "via": "West Rajasthan, Saurashtra & Kutch",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from the cyclonic circulation over Central Pakistan to interior Odisha",
+        "via": "Rajasthan, Madhya Pradesh, north Chhattisgarh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         }
       }
     ],
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-29 07:23 IST"
+  "fetched_at": "2026-05-29 20:48 IST"
 }
