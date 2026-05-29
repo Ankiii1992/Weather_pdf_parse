@@ -1,11 +1,11 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/91d59c1da7ca5dc81b9995741257fbfa.pdf",
-  "last_updated": "08:02 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/20225f9078385c5cd23daa40e4437918.pdf",
+  "last_updated": "02:10 PM IST",
+  "slot": "midday",
   "bulletin": {
-    "morning": "The Northern Limit of Monsoon continues to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days.",
-    "midday": null,
+    "morning": null,
+    "midday": "The Northern Limit of Monsoon continue to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days.",
     "evening": null,
     "night": null
   },
@@ -52,10 +52,10 @@
       {
         "type": "Western Disturbance",
         "form": "trough_in_westerlies",
-        "location": "along Long. 74°E to the north of Lat. 32°N",
+        "location": "along Long. 75°E to the north of Lat. 32°N",
         "coords": {
           "lat": 32.0,
-          "lon": 74.0
+          "lon": 75.0
         },
         "level": {
           "type": "single",
@@ -82,27 +82,12 @@
         }
       },
       {
-        "location": "central Assam & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        }
-      },
-      {
         "location": "Southwest Bay of Bengal and adjoining Tamil Nadu coast",
         "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        }
-      },
-      {
-        "location": "Southeast Arabian Sea & neighbourhood",
-        "level": {
-          "type": "upto",
+          "type": "range",
+          "min": 3.1,
           "max": 5.8,
-          "display": "up to 5.8 km above MSL"
+          "display": "3.1–5.8 km above MSL"
         }
       },
       {
@@ -112,6 +97,13 @@
           "min": 1.5,
           "max": 7.6,
           "display": "1.5–7.6 km above MSL"
+        }
+      },
+      {
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
         }
       }
     ],
@@ -128,26 +120,17 @@
       },
       {
         "subtype": "general",
-        "extent": "from the cyclonic circulation over Central Pakistan to the cyclonic circulation over north interior Odisha",
+        "extent": "from the cyclonic circulation over Central Pakistan to interior Odisha",
         "via": "Rajasthan, Madhya Pradesh, north Chhattisgarh",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         }
-      },
-      {
-        "subtype": "westerlies",
-        "extent": "along Long. 90°E to the north of Lat. 21°N",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        }
       }
     ],
-    "suppressed_count": 1
+    "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-29 12:13 IST"
+  "fetched_at": "2026-05-29 14:54 IST"
 }
