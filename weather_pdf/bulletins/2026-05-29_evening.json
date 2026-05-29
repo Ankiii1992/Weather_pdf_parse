@@ -1,0 +1,129 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c353eef3b817cee8feea1e6b8ad3d97a.pdf",
+  "last_updated": "04:51 PM IST",
+  "slot": "evening",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": "The Northern Limit of Monsoon continue to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days.",
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 9.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 8.5,
+      "lon": 65.0
+    },
+    {
+      "lat": 8.0,
+      "lon": 70.0
+    },
+    {
+      "lat": 7.5,
+      "lon": 75.0
+    },
+    {
+      "lat": 8.0,
+      "lon": 80.0
+    },
+    {
+      "lat": 11.0,
+      "lon": 85.0
+    },
+    {
+      "lat": 15.0,
+      "lon": 90.0
+    },
+    {
+      "lat": 19.0,
+      "lon": 95.0
+    },
+    {
+      "lat": 21.0,
+      "lon": 97.0
+    }
+  ],
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "trough_in_westerlies",
+        "location": "along Long. 75°E to the north of Lat. 32°N",
+        "coords": {
+          "lat": 32.0,
+          "lon": 75.0
+        },
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "location": "Central Pakistan & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "Southwest Bay of Bengal and adjoining Tamil Nadu coast between 3.1 & 5.8 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      },
+      {
+        "location": "Eastcentral & Southeast Bay of Bengal between 1.5 & 7.6 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 7.6,
+          "display": "1.5–7.6 km above MSL"
+        }
+      },
+      {
+        "location": "east Bangladesh & neighbourhoodat 1.5 km above mean sea level",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from the cyclonic circulation over Central Pakistan to northeast Arabian sea",
+        "via": "West Rajasthan, Saurashtra & Kutch",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from the cyclonic circulation over Central Pakistan to interior Odisha",
+        "via": "Rajasthan, Madhya Pradesh, north Chhattisgarh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      }
+    ],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-05-29 17:30 IST"
+}
