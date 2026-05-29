@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ddd061153fa1b60f380f6f013ad1862d.pdf",
-  "last_updated": "09:45 PM IST",
-  "slot": "night",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/91d59c1da7ca5dc81b9995741257fbfa.pdf",
+  "last_updated": "08:02 AM IST",
+  "slot": "morning",
   "bulletin": {
-    "morning": null,
+    "morning": "The Northern Limit of Monsoon continues to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days.",
     "midday": null,
     "evening": null,
-    "night": "The Northern Limit of Monsoon continues to pass through 9°N/60°E, 8.5°N/65°E, 8°N/70°E, 7.5°N/75°E, 8°N/80°E, 11°N/85°E, 15°N/90°E, 19°N/95°E and 21°N/97°E as on 28 th May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep area, southwest, eastcentral & westcentral Bay of Bengal, remaining parts of southeast Bay of Bengal and some parts of northeast Bay of Bengal during next 2-3 days."
+    "night": null
   },
   "nlm_coords": [
     {
@@ -51,30 +51,58 @@
     "priority": [
       {
         "type": "Western Disturbance",
-        "form": "cyclonic_circulation",
-        "location": "north Pakistan & neighbourhood",
+        "form": "trough_in_westerlies",
+        "location": "along Long. 74°E to the north of Lat. 32°N",
+        "coords": {
+          "lat": 32.0,
+          "lon": 74.0
+        },
         "level": {
           "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         }
       }
     ],
     "uac": [
       {
-        "location": "northwest Uttar Pradesh & neighbourhoodat 1.5 km above mean sea level",
+        "location": "Central Pakistan & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
         }
       },
       {
-        "location": "north Jharkhand & neighbourhoodat 0.9 km above mean sea level",
+        "location": "north interior Odisha & neighbourhood",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "location": "central Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      },
+      {
+        "location": "Southwest Bay of Bengal and adjoining Tamil Nadu coast",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      },
+      {
+        "location": "Southeast Arabian Sea & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "up to 5.8 km above MSL"
         }
       },
       {
@@ -90,17 +118,36 @@
     "other_troughs": [
       {
         "subtype": "general",
-        "extent": "from northwest Uttar Pradesh to north Coastal Andhra Pradesh",
-        "via": "the cyclonic circulation over northwest Uttar Pradesh & neighbourhood, the cyclonic circulation over north Jharkhand & neighbourhood and",
+        "extent": "from the cyclonic circulation over Central Pakistan to northeast Arabian sea",
+        "via": "West Rajasthan, Saurashtra & Kutch",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from the cyclonic circulation over Central Pakistan to the cyclonic circulation over north interior Odisha",
+        "via": "Rajasthan, Madhya Pradesh, north Chhattisgarh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "subtype": "westerlies",
+        "extent": "along Long. 90°E to the north of Lat. 21°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         }
       }
     ],
-    "suppressed_count": 0
+    "suppressed_count": 1
   },
   "mjo": null,
-  "fetched_at": "2026-05-29 07:23 IST"
+  "fetched_at": "2026-05-29 12:13 IST"
 }
