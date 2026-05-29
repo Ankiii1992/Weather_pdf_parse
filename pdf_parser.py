@@ -188,6 +188,87 @@ def extract_over_location(text):
 
 
 # -----------------------------------------------------------------------------
+# MET ANALYSIS EXTRACTOR  ← NEW
+# -----------------------------------------------------------------------------
+
+def extract_met_analysis(page_text):
+    """
+    Extracts and cleans the full text of the Meteorological Analysis page.
+    - Removes the page header line and footer
+    - Removes bullet points
+    - Fixes run-together words caused by PDF extraction
+    - Returns one sentence per line as a single string
+    """
+    # Remove footer
+    text = re.sub(r'\*Red color warning.*$', '', page_text, flags=re.IGNORECASE | re.DOTALL).strip()
+    # Remove title line
+    text = re.sub(r'^Meteorological\s+Analysis[^\n]*\n', '', text, flags=re.IGNORECASE).strip()
+    # Remove bullet points
+    text = re.sub(r'^\s*[•\-\*]\s*', '', text, flags=re.MULTILINE)
+
+    # ── Fix fully-merged patterns (PDF extraction artefacts) ─────────────
+    run_together_fixes = [
+        # Specific fully-merged sentences
+        (r'Thetroughinwesterlieswithitsaxisat([\d.]+)km abovemeansealevelroughlyalongLong\.',
+         r'The trough in westerlies with its axis at \1 km above mean sea level roughly along Long.'),
+        (r'Thetroughinwesterlieswithitsaxisat([\d.]+)kmabovemeansealevelroughlyalongLong\.',
+         r'The trough in westerlies with its axis at \1 km above mean sea level roughly along Long.'),
+        (r'Theupperaircycloniccirculationovercentral([A-Za-z])',
+         r'The upper air cyclonic circulation over central \1'),
+        (r'Theupperaircycloniccirculationover([A-Z])',
+         r'The upper air cyclonic circulation over \1'),
+        (r'Theupperair cycloniccirculationover',
+         'The upper air cyclonic circulation over'),
+        (r'Theupperair\b', 'The upper air'),
+        # Common merged fragments
+        (r'\bextendingupto\b', 'extending upto'),
+        (r'\bupto([\d.]+)km\b', r'upto \1 km'),
+        (r'\b([\d.]+)kmabovemeansealevel\b', r'\1 km above mean sea level'),
+        (r'\bkmabovemeansealevel\b', 'km above mean sea level'),
+        (r'\babovemeansealevel\b', 'above mean sea level'),
+        (r'\bmeansealevel\b', 'mean sea level'),
+        (r'\broughlyalong\b', 'roughly along'),
+        (r'\bwithitsaxis\b', 'with its axis'),
+        (r'\bitsaxisat\b', 'its axis at'),
+        (r'\binwesterlies\b', 'in westerlies'),
+        (r'\bwesterlieswith\b', 'westerlies with'),
+        (r'\bcycloniccirculation\b', 'cyclonic circulation'),
+        (r'\bcirculationover\b', 'circulation over'),
+        (r'\bneighbourhoodat\b', 'neighbourhood at'),
+        (r'\bneighbourhood at\b', 'neighbourhood at'),
+        (r'([A-Za-z])&neighbourhood\b', r'\1 & neighbourhood'),
+        (r'([A-Za-z])&\b', r'\1 & '),
+        (r'\bSoutheastArabian\b', 'Southeast Arabian'),
+        (r'\bArabianSea\b', 'Arabian Sea'),
+        (r'\b([\d.]+)km\b', r'\1 km'),
+        (r'\bkm(above|below|at|between|extending|roughly|along)\b', r'km \1'),
+        # General: insert space before capital letter after lowercase (last resort)
+        (r'([a-z])([A-Z][a-z]{2,})', r'\1 \2'),
+        # Collapse multiple spaces
+        (r' {2,}', ' '),
+    ]
+    for pattern, repl in run_together_fixes:
+        text = re.sub(pattern, repl, text)
+
+    # ── Insert newline at sentence boundaries ────────────────────────────
+    text = re.sub(r'\.\s*(The |Conditions )', r'.\n\1', text)
+
+    # ── Build final sentence list ─────────────────────────────────────────
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    sentences = []
+    current = ''
+    for line in lines:
+        current = (current + ' ' + line).strip() if current else line
+        if re.search(r'\.\s*$', current):
+            sentences.append(re.sub(r' {2,}', ' ', current).strip())
+            current = ''
+    if current.strip():
+        sentences.append(current.strip())
+
+    return '\n'.join(sentences)
+
+
+# -----------------------------------------------------------------------------
 # SYSTEM CLASSIFIER
 # -----------------------------------------------------------------------------
 
@@ -377,24 +458,14 @@ def classify_system(sentence):
 
 
 # -----------------------------------------------------------------------------
-# BULLETIN TEXT EXTRACTOR — FIX: captures all sentences until section header
+# BULLETIN TEXT EXTRACTOR
 # -----------------------------------------------------------------------------
 
 def extract_monsoon_text(text):
-    """
-    Extracts all monsoon-related sentences from the PDF text.
-    Strategy:
-      1. Find 'Advance of Southwest Monsoon' section
-      2. Capture everything until next known section header
-      3. Remove bullet points (• - *) from extracted text
-      4. Return clean combined text
-    """
-    # Normalize whitespace — preserve line breaks for section detection
     clean = re.sub(r'[ \t]+', ' ', text)
     clean = re.sub(r'\r\n|\r', '\n', clean)
     clean = re.sub(r'\n{3,}', '\n\n', clean)
 
-    # ── Try to find "Advance of Southwest Monsoon" section ───────────────
     adv_section_m = re.search(
         r'Advance\s+of\s+Southwest\s+Monsoon[^\n]*\n(.*?)'
         r'(?=\n\s*(?:Weather\s+Forecast|Main\s+Features|Significant\s+Weather'
@@ -406,7 +477,6 @@ def extract_monsoon_text(text):
     if adv_section_m:
         section_text = adv_section_m.group(1)
     else:
-        # ── Fallback: find NLM sentence directly ─────────────────────────
         nlm_m = re.search(
             r'((?:[•\-\*]\s*)?The\s+Northern\s+Limit\s+of\s+Monsoon.+?)'
             r'(?=\n\s*(?:Weather\s+Forecast|Main\s+Features|\Z))',
@@ -415,7 +485,6 @@ def extract_monsoon_text(text):
         if nlm_m:
             section_text = nlm_m.group(1)
         else:
-            # ── Last fallback: conditions sentence only ───────────────────
             cond_m = re.search(
                 r'((?:[•\-\*]\s*)?Conditions\s+are\s+(?:favourable|not\s+favourable).+?)'
                 r'(?=\n\s*(?:Weather\s+Forecast|Main\s+Features|\Z))',
@@ -426,12 +495,8 @@ def extract_monsoon_text(text):
             else:
                 return None
 
-    # Remove bullet points (•, -, *) at start of lines
     section_text = re.sub(r'^\s*[•\-\*]\s*', '', section_text, flags=re.MULTILINE)
-
-    # Collapse into single clean string
     section_text = re.sub(r'\s+', ' ', section_text).strip()
-
     return section_text if section_text else None
 
 
@@ -441,17 +506,19 @@ def extract_monsoon_text(text):
 
 def parse_monsoon_pdf(pdf_bytes, pdf_url):
     result = {
-        'success':      True,
-        'pdf_url':      pdf_url,
-        'last_updated': None,
-        'slot':         None,
+        'success':       True,
+        'pdf_url':       pdf_url,
+        'last_updated':  None,
+        'slot':          None,
+        'bulletin_date': None,
         'bulletin': {
             'morning': None,
             'midday':  None,
             'evening': None,
             'night':   None,
         },
-        'nlm_coords': None,
+        'nlm_coords':   None,
+        'met_analysis': None,   # ← NEW field
         'systems': {
             'priority':        [],
             'uac':             [],
@@ -467,8 +534,24 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
 
         full_text = '\n'.join(pages_text)
 
-        # ── STEP 1: Slot and timestamp from Page 1 ───────────────────────
+        # ── STEP 1: Slot, timestamp and bulletin date from Page 1 ──────────
         page1 = pages_text[0] if pages_text else ''
+
+        # Extract bulletin date — e.g. "2026-05-28" at top of page 1
+        # Use simple string search to avoid regex word-boundary issues
+        date_m = re.search(r'(20[0-9]{2}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12][0-9]|3[01]))', page1)
+        if date_m:
+            result['bulletin_date'] = date_m.group(1)
+            print(f'[PARSE] Bulletin date from PDF: {date_m.group(1)}')
+        else:
+            # Fallback: try DD-MM-YYYY format
+            alt_m = re.search(r'(\d{2})-(\d{2})-(20[0-9]{2})', page1)
+            if alt_m:
+                result['bulletin_date'] = f'{alt_m.group(3)}-{alt_m.group(2)}-{alt_m.group(1)}'
+                print(f'[PARSE] Bulletin date (alt format): {result["bulletin_date"]}')
+            else:
+                result['bulletin_date'] = None
+                print('[PARSE] ⚠️ Could not extract bulletin date from PDF')
 
         time_m = re.search(
             r'Time\s+of\s+Issue:\s*(\d{2}:\d{2}(?::\d{2})?)\s*hours\s*IST',
@@ -482,20 +565,17 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
             except Exception:
                 result['last_updated'] = raw_time + ' IST'
 
-        # ── FIX 1: Broader slot regex — handles Mid-Day, Mid-day, Midday ──
         slot_m = re.search(
             r'\((Morning|Mid[\s\-]?[Dd]ay|Evening|Night)\)',
             page1, re.IGNORECASE
         )
         if slot_m:
             slot_raw = slot_m.group(1).lower()
-            # Normalize all mid-day variants to 'midday'
             slot_raw = re.sub(r'mid[\s\-]?day', 'midday', slot_raw)
             result['slot'] = slot_raw
             print(f'[PARSE] Detected slot: {slot_raw}')
         else:
             print('[PARSE] ⚠️ Could not detect slot from page 1')
-            print(f'[PARSE] Page 1 text snippet: {page1[:500]}')
 
         # ── STEP 2: Find Meteorological Analysis page ─────────────────────
         meteo_text = None
@@ -504,37 +584,41 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
                 meteo_text = page_text
                 break
 
-        # ── STEP 3: Extract bulletin text ─────────────────────────────────
-        # FIX 2: Use new extract_monsoon_text that handles bullets + section headers
+        # ── STEP 3: Extract met_analysis full text  ← NEW ─────────────────
+        if meteo_text:
+            met_analysis = extract_met_analysis(meteo_text)
+            if met_analysis:
+                result['met_analysis'] = met_analysis
+                print(f'[PARSE] Extracted met_analysis ({len(met_analysis.splitlines())} sentences)')
+            else:
+                print('[PARSE] ⚠️ Could not extract met_analysis text')
+
+        # ── STEP 4: Extract bulletin text ─────────────────────────────────
         bulletin_text = None
         if meteo_text:
             bulletin_text = extract_monsoon_text(meteo_text)
             if bulletin_text:
-                print(f'[PARSE] Extracted bulletin text ({len(bulletin_text)} chars) from meteo page')
-            else:
-                print('[PARSE] ⚠️ No bulletin text found in meteo page')
+                print(f'[PARSE] Extracted bulletin text ({len(bulletin_text)} chars)')
 
-        # Fallback: try full text
         if not bulletin_text:
             bulletin_text = extract_monsoon_text(full_text)
             if bulletin_text:
-                print(f'[PARSE] Extracted bulletin text from full text fallback')
+                print('[PARSE] Extracted bulletin text from full text fallback')
 
         if bulletin_text and result['slot']:
             result['bulletin'][result['slot']] = bulletin_text
         elif bulletin_text:
-            # No slot detected — store in morning as fallback
             result['bulletin']['morning'] = bulletin_text
             print('[PARSE] ⚠️ No slot detected, storing bulletin in morning slot')
 
-        # ── STEP 4: NLM coordinates ───────────────────────────────────────
+        # ── STEP 5: NLM coordinates ───────────────────────────────────────
         coord_source = bulletin_text or full_text
         nlm_coords   = parse_nlm_coords(coord_source)
         if nlm_coords:
             result['nlm_coords'] = nlm_coords
             print(f'[PARSE] Found {len(nlm_coords)} NLM coordinates')
 
-        # ── STEP 5: Parse systems from Meteorological Analysis page ───────
+        # ── STEP 6: Parse systems from Meteorological Analysis page ───────
         if meteo_text:
             clean = re.sub(r'\s+', ' ', meteo_text).strip()
 
@@ -632,7 +716,16 @@ def main():
 
     now_ist   = datetime.now(IST)
     slot      = parsed.get('slot') or 'unknown'
-    date_str  = now_ist.strftime('%Y-%m-%d')
+
+    # ── Use actual bulletin date from PDF, not script run time ────────────
+    bulletin_date = parsed.get('bulletin_date')
+    if bulletin_date:
+        date_str = bulletin_date
+        print(f'[MAIN] Using bulletin date from PDF: {date_str}')
+    else:
+        date_str = now_ist.strftime('%Y-%m-%d')
+        print(f'[MAIN] ⚠️ Bulletin date not found in PDF — falling back to today: {date_str}')
+
     timestamp = now_ist.strftime('%Y-%m-%d %H:%M IST')
 
     parsed['fetched_at'] = timestamp
