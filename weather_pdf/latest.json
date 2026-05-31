@@ -1,12 +1,12 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ba61506a610582e12f711f4a811ec3fa.pdf",
-  "last_updated": "08:21 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/792d2c7529c01f5378b2f1bb64ff85ab.pdf",
+  "last_updated": "01:52 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-05-31",
   "bulletin": {
-    "morning": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E as on 30 th May 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 4-5 days.",
-    "midday": null,
+    "morning": null,
+    "midday": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E . Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 4-5 days.",
     "evening": null,
     "night": null
   },
@@ -52,33 +52,26 @@
       "lon": 97.0
     }
   ],
-  "met_analysis": "The Northern Limit of Monsoon passes through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E as on 30 th May 2026.\nConditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 4-5 days.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long 77°E to the north of Lat 20°N.\nThe upper air cyclonic circulation over Central Pakistan & neighbourhood extending upto 1.5 km above mean sea level persists.\nAn upper air cyclonic circulation lies over Haryana at 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over coastal Gangetic West Bengal and neighbourhood and extends upto 1.5 km above mean sea level.\nThe trough from the cyclonic circulation over Central Pakistan to north Coastal Andhra Pradesh now runs from central Pakistan to cyclonic circulation over Gangetic West Bengal & neighbourhood across north Rajasthan, Haryana, south Uttar Pradesh, Jharkhand and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over central Bangladesh & neighbourhood now lies over northeast Bangladesh and neighbourhood at 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Vidarbha and adjoining north Telangana at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over northwest Bay of Bengal off south Odisha coast at 0.9 km above mean sea level.\nThetroughinwesterlieswithitsaxisat5.8 km above mean sea level now runs roughlyalong Long. 90°E to the north of Lat. 23°N.\nThe upper air cyclonic circulation over Eastcentral & Southeast Bay of Bengal between 1.5 & 7.6 km above mean sea level persists.\nThe trough from the above cyclonic circulation over Eastcentral Bay & Southeast Bay of Bengal to Lakshadweep area across Westcentral Bay of Bengal, Southwest Bay of Bengal and Comorin area at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast ArabianSea & neighbourhood persists at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Arabian Sea & neighbourhoodbetween 3.1 & 5.8 km above mean sea level persists.\nThe trough from the cyclonic circulation over Central Pakistan to northeast Arabian sea across West Rajasthan, Saurashtra & Kutch at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over northwest Bay of Bengal & adjoining north Odisha-south West Bengal coasts persists at 5.8 km above mean sea level has become less marked.",
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 3-4 days.\nThe Western Disturbance now seen as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 3.1 & 7.6 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long 77°E to the north of Lat 20°N.\nThe upper air cyclonic circulation over Haryana at 3.1 km above mean sea level has merged with the above system.\nThe upper air cyclonic circulation over Central Pakistan & neighbourhood extending upto 1.5 km above mean sea level persists.\nA trough runs from the above cyclonic circulation over central Pakistan to north Arabian sea upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over northeast Bangladesh & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Vidarbha & adjoining north Telangana at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral adjoining northeast Bay of Bengal extending upto 5.8 km above mean sea level persists.\nA trough runs from the above cyclonic circulation over Vidarbha to the cyclonic circulation over Eastcentral Bay of Bengal across south Chhattisgarh, south Odisha, north Coastal Andhra Pradesh & westcentral adjoining northwest Bay of Bengal at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over northwest Bay of Bengal off south Odisha coast at 0.9 km above mean sea level has merged with the above trough.\nThe trough now runs from the above cyclonic circulation over Eastcentral adjoining northeast Bay of Bengal to southwest Bay of Bengal adjoining Sri Lanka coast across Westcentral Bay of Bengal between 4.5 & 5.8 km above mean sea level.\nThe trough in westerlies with its axis at 5.8 km above mean sea level roughly along Long. 90°E to the north of Lat. 23°N persists.\nThe upper air cyclonic circulation over Southeast ArabianSea & neighbourhood now lies over Southeast ArabianSea adjoining south Kerala between 3.1 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Southwest Arabian Sea & neighbourhood persists and now seen between 3.1 & 7.6 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
-        "form": "trough_in_westerlies",
-        "location": "along Long 77°E to the north of Lat 20°N",
-        "coords": {
-          "lat": 20.0,
-          "lon": 77.0
-        },
+        "form": "cyclonic_circulation",
+        "location": "northwest Uttar Pradesh & neighbourhood between 3.1 & 7.6 km above mean sea level",
         "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "along Long 77°E to the north of Lat 20°N",
+          "level": "5.8 km above MSL"
         }
       }
     ],
     "uac": [
-      {
-        "location": "Central Pakistan & neighbourhood",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
-        }
-      },
       {
         "location": "Haryana",
         "level": {
@@ -88,7 +81,7 @@
         }
       },
       {
-        "location": "coastal Gangetic West Bengal and neighbourhood",
+        "location": "Central Pakistan & neighbourhood",
         "level": {
           "type": "upto",
           "max": 1.5,
@@ -96,7 +89,7 @@
         }
       },
       {
-        "location": "northeast Bangladesh and neighbourhood",
+        "location": "northeast Bangladesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 1.5,
@@ -104,11 +97,19 @@
         }
       },
       {
-        "location": "Vidarbha and adjoining north Telangana",
+        "location": "Vidarbha & adjoining north Telangana",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "location": "Eastcentral adjoining northeast Bay of Bengal",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "up to 5.8 km above MSL"
         }
       },
       {
@@ -120,29 +121,19 @@
         }
       },
       {
-        "location": "Eastcentral & Southeast Bay of Bengal between 1.5 & 7.6 km above mean sea level",
-        "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 7.6,
-          "display": "1.5–7.6 km above MSL"
-        }
-      },
-      {
-        "location": "Southwest Arabian Sea & neighbourhoodbetween 3.1 & 5.8 km above mean sea level",
+        "location": "Southwest Arabian Sea & neighbourhood",
         "level": {
           "type": "range",
           "min": 3.1,
-          "max": 5.8,
-          "display": "3.1–5.8 km above MSL"
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
         }
       }
     ],
     "other_troughs": [
       {
         "subtype": "general",
-        "extent": "from the cyclonic circulation over Central Pakistan to north Coastal Andhra Pradesh now runs from central Pakistan to cyclonic circulation over Gangetic West Bengal & neighbourhood",
-        "via": "north Rajasthan, Haryana, south Uttar Pradesh, Jharkhand and",
+        "extent": "from the above cyclonic circulation over central Pakistan to north Arabian sea upto 1",
         "level": {
           "type": "upto",
           "max": 1.5,
@@ -151,17 +142,28 @@
       },
       {
         "subtype": "general",
-        "extent": "from the above cyclonic circulation over Eastcentral Bay & Southeast Bay of Bengal to Lakshadweep area",
-        "via": "Westcentral Bay of Bengal, Southwest Bay of Bengal and Comorin area",
+        "extent": "from the above cyclonic circulation over Vidarbha to the cyclonic circulation over Eastcentral Bay of Bengal",
+        "via": "south Chhattisgarh, south Odisha, north Coastal Andhra Pradesh & westcentral adjoining northwest Bay of Bengal",
         "level": {
           "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from the above cyclonic circulation over Eastcentral adjoining northeast Bay of Bengal to southwest Bay of Bengal adjoining Sri Lanka coast",
+        "via": "Westcentral Bay of Bengal between 4.5 & 5.8 km above mean sea level. Thetroughinwesterlieswithitsaxisat5.8kmabovemeansealevelroughlyalongLong. 90°E to the north of Lat. 23°N",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
         }
       }
     ],
-    "suppressed_count": 2
+    "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-05-31 12:15 IST"
+  "fetched_at": "2026-05-31 14:14 IST"
 }
