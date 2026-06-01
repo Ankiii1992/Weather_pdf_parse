@@ -1,0 +1,135 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/412f0f6ce023eeeca61e22eabaa15371.pdf",
+  "last_updated": "08:11 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-01",
+  "bulletin": {
+    "morning": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 4-5 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 10.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 8.5,
+      "lon": 70.0
+    },
+    {
+      "lat": 8.0,
+      "lon": 75.0
+    },
+    {
+      "lat": 7.8,
+      "lon": 78.0
+    },
+    {
+      "lat": 8.0,
+      "lon": 80.0
+    },
+    {
+      "lat": 10.0,
+      "lon": 80.0
+    },
+    {
+      "lat": 13.0,
+      "lon": 87.0
+    },
+    {
+      "lat": 16.0,
+      "lon": 90.0
+    },
+    {
+      "lat": 19.0,
+      "lon": 93.0
+    },
+    {
+      "lat": 22.0,
+      "lon": 97.0
+    }
+  ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 3-4 days.\nThe Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 3.1 & 7.6 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long 78°E to the north of Lat 20°N persists.\nThe upper air cyclonic circulation over Central Pakistan & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from the above cyclonic circulation over central Pakistan to north Arabian sea extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Bangladesh & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Vidarbha & adjoining north Telangana now lies over east Vidarbha adjoining Chhattisgarh and extends upto 1.5 km above mean sea level.\nA trough runs from the above cyclonic circulation over east Vidarbha adjoining Chhattisgarh to south Coastal Andhra Pradesh across Telangana at 0.9 km above mean sea level The upper air cyclonic circulation over Eastcentral adjoining northeast Bay of Bengal extending upto 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast ArabianSea adjoining south Kerala persists and now seen between 1.5 & 5.8 km above mean sea level tilting southwestwards with height.\nThe upper air cyclonic circulation over Southwest Arabian Sea & neighbourhoodbetween 3.1 & 7.6 km above mean sea level persists.\nThe trough from the above cyclonic circulation over Vidarbha to the cyclonic circulation over Eastcentral Bay of Bengal across south Chhattisgarh, south Odisha, north Coastal Andhra Pradesh & westcentral adjoining northwest Bay of Bengal at 0.9 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "cyclonic_circulation",
+        "location": "northwest Uttar Pradesh & neighbourhood between 3.1 & 7.6 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "along Long 78°E to the north of Lat 20°N persists",
+          "level": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "location": "Central Pakistan & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "northeast Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
+      },
+      {
+        "location": "east Vidarbha adjoining Chhattisgarh",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "Southwest Arabian Sea & neighbourhoodbetween 3.1 & 7.6 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from the above cyclonic circulation over central Pakistan to north Arabian sea",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from the above cyclonic circulation over east Vidarbha adjoining Chhattisgarh to south Coastal Andhra Pradesh",
+        "via": "Telangana",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 5.8,
+          "display": "1.5–5.8 km above MSL"
+        }
+      }
+    ],
+    "suppressed_count": 1
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-01 10:50 IST"
+}
