@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3112435ceaa68844ecbe45780c1782f0.pdf",
-  "last_updated": "04:35 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/60b4d86c9fc1b342927fdffccd90779a.pdf",
+  "last_updated": "08:12 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-06-01",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 2-3 days.",
-    "night": null
+    "evening": null,
+    "night": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 2-3 days."
   },
   "nlm_coords": [
     {
@@ -148,5 +148,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-06-01 20:14 IST"
+  "fetched_at": "2026-06-02 00:18 IST"
 }
