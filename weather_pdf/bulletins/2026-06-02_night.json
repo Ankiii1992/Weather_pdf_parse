@@ -1,0 +1,138 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d0082291b94f47e0f4d2f72ba4002d5d.pdf",
+  "last_updated": "08:11 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-06-02",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal around 4th June."
+  },
+  "nlm_coords": [
+    {
+      "lat": 10.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 8.5,
+      "lon": 70.0
+    },
+    {
+      "lat": 8.0,
+      "lon": 75.0
+    },
+    {
+      "lat": 7.8,
+      "lon": 78.0
+    },
+    {
+      "lat": 8.0,
+      "lon": 80.0
+    },
+    {
+      "lat": 10.0,
+      "lon": 80.0
+    },
+    {
+      "lat": 13.0,
+      "lon": 87.0
+    },
+    {
+      "lat": 16.0,
+      "lon": 90.0
+    },
+    {
+      "lat": 19.0,
+      "lon": 93.0
+    },
+    {
+      "lat": 22.0,
+      "lon": 97.0
+    }
+  ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal around 4th June.\nThe Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 3.1 & 9.4 km above mean sea level persists.\nThe upper air cycloniccirculationover southeast Arabian sea off south Kerala coast extending upto 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast & adjoining eastcentral Bay of Bengal & extending upto 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Central Parts of Assam at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over East Madhya Pradesh and adjoining Chhattisgarh extending upto 1.5 km above mean sea level persists.\nThe trough from above cyclonic circulation over East Madhya Pradesh & adjoining Chhattisgarh to northeast Tamil Nadu across Vidarbha, Telangana and Rayalaseema at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Rajasthan & neighbourhood at 1.5 km above mean sea level persists.\nThe trough from Central Pakistan to West Bengal coast across cyclonic circulation over northeast Rajasthan, cyclonic circulation over East Madhya Pradesh and adjoining Chhattisgarh & Jharkhand extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Central Pakistan and adjoining northwest Rajasthan at 0.9 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect northwest India from 3rd June.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "cyclonic_circulation",
+        "location": "northwest Uttar Pradesh & neighbourhood between 3.1 & 9.4 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 9.4,
+          "display": "3.1–9.4 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "location": "northeast & adjoining eastcentral Bay of Bengal &",
+        "level": {
+          "type": "upto",
+          "max": 4.5,
+          "display": "up to 4.5 km above MSL"
+        }
+      },
+      {
+        "location": "Central Parts of Assam",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      },
+      {
+        "location": "East Madhya Pradesh and adjoining Chhattisgarh",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "Northeast Rajasthan & neighbourhoodat 1.5 km above mean sea level",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
+      },
+      {
+        "location": "Central Pakistan and adjoining northwest Rajasthan",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from above cyclonic circulation over East Madhya Pradesh & adjoining Chhattisgarh to northeast Tamil Nadu",
+        "via": "Vidarbha, Telangana and Rayalaseema",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from Central Pakistan to West Bengal coast",
+        "via": "cyclonic circulation over northeast Rajasthan, cyclonic circulation over East Madhya Pradesh and adjoining Chhattisgarh & Jharkhand",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      }
+    ],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-02 23:58 IST"
+}
