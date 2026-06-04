@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/32dc191030bb4364400f25335d2f50e2.pdf",
-  "last_updated": "07:44 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-06-03",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/65b6a1dfa4f8889940484b6a9d0841a0.pdf",
+  "last_updated": "08:20 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-04",
   "bulletin": {
-    "morning": null,
+    "morning": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 24 hours.",
     "midday": null,
     "evening": null,
-    "night": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 24 hours."
+    "night": null
   },
   "nlm_coords": [
     {
@@ -52,28 +52,18 @@
       "lon": 97.0
     }
   ],
-  "met_analysis": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 24 hours.\nThe Western Disturbance as a cyclonic circulation over West Uttar Pradesh & neighbourhood between 1.5 & 5.8 km above mean sea level persists.\nThe trough from the above cyclonic circulation over West Uttar Pradesh to north Tamil Nadu across Madhya Pradesh, Vidarbha, Telangana and Rayalaseema at 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric levels with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over northeast Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nAn upper air cyclonic circulation lies over central Assam & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Eastcentral Arabian sea & adjoining Coastal Karnataka between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Andaman Sea & neighbourhood between 3.1 & 7.6 km above mean sea level persists.",
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal today, the 4th June.\nThe upper air cyclonic circulation over Eastcentral Arabian sea & adjoining Coastal Karnataka lay over Goa adjoining Eastcentral Arabian sea between 3.1 & 4.5 km above mean sea level.\nAn upper air cyclonic circulation lies over north Bangladesh & adjoining Gangetic West Bengal at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over south Telangana & adjoining Coastal Andhra Pradesh & Yanam at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over north Andaman Sea & neighbourhood between 3.1 & 7.6 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood lay over north Haryana & neighbourhood between 3.1 and 5.8 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N.\nAn upper air cyclonic circulation lies over central Uttar Pradesh and extends upto 1.5 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over West Uttar Pradesh & neighbourhood between 1.5 & 5.8 km above mean sea level has become less marked.\nThe trough from the above cyclonic circulation over West Uttar Pradesh to north Tamil Nadu across Madhya Pradesh, Vidarbha, Telangana and Rayalaseema at 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over northeast Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over central Assam & neighbourhood at 0.9 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
         "form": "cyclonic_circulation",
-        "location": "West Uttar Pradesh & neighbourhood between 1.5 & 5.8 km above mean sea level",
+        "location": "north Pakistan & neighbourhood lay over north Haryana & neighbourhood between 3.1 and 5.8 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis",
         "level": {
           "type": "range",
-          "min": 1.5,
-          "max": 5.8,
-          "display": "1.5–5.8 km above MSL"
-        }
-      },
-      {
-        "type": "Western Disturbance",
-        "form": "cyclonic_circulation",
-        "location": "north Pakistan & neighbourhood",
-        "level": {
-          "type": "single",
           "min": 3.1,
-          "display": "3.1 km above MSL"
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
         },
         "trough_aloft": {
           "axis": "along Long. 72°E to the north of Lat. 30°N",
@@ -83,15 +73,7 @@
     ],
     "uac": [
       {
-        "location": "northeast Uttar Pradesh & neighbourhood",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
-        }
-      },
-      {
-        "location": "central Assam & neighbourhood",
+        "location": "north Bangladesh & adjoining Gangetic West Bengal",
         "level": {
           "type": "single",
           "min": 0.9,
@@ -99,12 +81,11 @@
         }
       },
       {
-        "location": "Eastcentral Arabian sea & adjoining Coastal Karnataka between 3.1 & 4.5 km above mean sea level",
+        "location": "south Telangana & adjoining Coastal Andhra Pradesh & Yanam",
         "level": {
-          "type": "range",
+          "type": "single",
           "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
+          "display": "3.1 km above MSL"
         }
       },
       {
@@ -115,22 +96,19 @@
           "max": 7.6,
           "display": "3.1–7.6 km above MSL"
         }
-      }
-    ],
-    "other_troughs": [
+      },
       {
-        "subtype": "general",
-        "extent": "from the above cyclonic circulation over West Uttar Pradesh to north Tamil Nadu",
-        "via": "Madhya Pradesh, Vidarbha, Telangana and Rayalaseema",
+        "location": "central Uttar Pradesh",
         "level": {
-          "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
         }
       }
     ],
-    "suppressed_count": 0
+    "other_troughs": [],
+    "suppressed_count": 4
   },
   "mjo": null,
-  "fetched_at": "2026-06-04 07:45 IST"
+  "fetched_at": "2026-06-04 12:43 IST"
 }
