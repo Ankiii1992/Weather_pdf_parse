@@ -1,0 +1,114 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/65b6a1dfa4f8889940484b6a9d0841a0.pdf",
+  "last_updated": "08:20 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-04",
+  "bulletin": {
+    "morning": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E. Conditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 24 hours.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 10.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 8.5,
+      "lon": 70.0
+    },
+    {
+      "lat": 8.0,
+      "lon": 75.0
+    },
+    {
+      "lat": 7.8,
+      "lon": 78.0
+    },
+    {
+      "lat": 8.0,
+      "lon": 80.0
+    },
+    {
+      "lat": 10.0,
+      "lon": 80.0
+    },
+    {
+      "lat": 13.0,
+      "lon": 87.0
+    },
+    {
+      "lat": 16.0,
+      "lon": 90.0
+    },
+    {
+      "lat": 19.0,
+      "lon": 93.0
+    },
+    {
+      "lat": 22.0,
+      "lon": 97.0
+    }
+  ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 10°N/60°E, 9°/65°E, 8.5°N/70°E, 8°N/75°E, 7.8°N/78°E, 8°N/80°E, 10°N/80°E, 13°N/87°E, 16°N/90°E, 19°N/93°E and 22°N/97°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of southwest & southeast Arabian Sea, Lakshadweep Islands, some parts of Kerala & Tamil Nadu, some more parts of southwest, westcentral, eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal today, the 4th June.\nThe upper air cyclonic circulation over Eastcentral Arabian sea & adjoining Coastal Karnataka lay over Goa adjoining Eastcentral Arabian sea between 3.1 & 4.5 km above mean sea level.\nAn upper air cyclonic circulation lies over north Bangladesh & adjoining Gangetic West Bengal at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over south Telangana & adjoining Coastal Andhra Pradesh & Yanam at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over north Andaman Sea & neighbourhood between 3.1 & 7.6 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood lay over north Haryana & neighbourhood between 3.1 and 5.8 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N.\nAn upper air cyclonic circulation lies over central Uttar Pradesh and extends upto 1.5 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over West Uttar Pradesh & neighbourhood between 1.5 & 5.8 km above mean sea level has become less marked.\nThe trough from the above cyclonic circulation over West Uttar Pradesh to north Tamil Nadu across Madhya Pradesh, Vidarbha, Telangana and Rayalaseema at 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over northeast Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over central Assam & neighbourhood at 0.9 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "cyclonic_circulation",
+        "location": "north Pakistan & neighbourhood lay over north Haryana & neighbourhood between 3.1 and 5.8 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "along Long. 72°E to the north of Lat. 30°N",
+          "level": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "location": "north Bangladesh & adjoining Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "location": "south Telangana & adjoining Coastal Andhra Pradesh & Yanam",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      },
+      {
+        "location": "north Andaman Sea & neighbourhood between 3.1 & 7.6 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        }
+      },
+      {
+        "location": "central Uttar Pradesh",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 4
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-04 12:43 IST"
+}
