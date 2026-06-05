@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/20a7de02dae161b470cd96ce90b66253.pdf",
-  "last_updated": "07:55 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-06-04",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5989601376e3bcea34fd740c7bcb1db6.pdf",
+  "last_updated": "08:00 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-05",
   "bulletin": {
-    "morning": null,
+    "morning": "The Northern Limit of Monsoon continues to pass through 14°N/60°E, 13.5°N/65°E, 13°N/70°E, Mangalore, Uthagamandalam, Kodaikanal, Thoothukudi, 8.8°N/79°E, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 5th June 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, entire Goa, some parts of Maharashtra and Andhra Pradesh, some more parts of Karnataka, remaining parts of Tamil Nadu, Southwest Bay of Bengal, some more parts of Westcentral, Eastcentral and Northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days.",
     "midday": null,
     "evening": null,
-    "night": "The Southwest Monsoon has further advanced into remaining parts of Southwest & Southeast Arabian Sea, some parts of westcentral & eastcentral Arabian Sea, entire Lakshadweep islands, Kerala & Mahe, some parts of Karnataka, Tamil Nadu, remaining parts of Comorin area, southeast Bay of Bengal and some more parts of southwest, westcentral, eastcentral and northeast Bay of Bengal today the 4th June, 2026. The Northern Limit of Monsoon passes through 14°N/60°E, 13.5°N/65°E, 13°N/70°E, Mangalore, Uthagamandalam, Kodaikanal, Thoothukudi, 8.8°N/79°E, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 4th June 2026. eastcentral & northeast Bay of Bengal, and remaining parts of southeast Bay of Bengal during next 24 hours."
+    "night": null
   },
   "nlm_coords": [
     {
@@ -48,7 +48,7 @@
       "lon": 95.0
     }
   ],
-  "met_analysis": "The Southwest Monsoon has further advanced into remaining parts of Southwest & Southeast Arabian Sea, some parts of westcentral & eastcentral Arabian Sea, entire Lakshadweep islands, Kerala & Mahe, some parts of Karnataka, Tamil Nadu, remaining parts of Comorin area, southeast Bay of Bengal and some more parts of southwest, westcentral, eastcentral and northeast Bay of Bengal today the 4th June, 2026.\nThe Northern Limit of Monsoon passes through 14°N/60°E, 13.5°N/65°E, 13°N/70°E, Mangalore, Uthagamandalam, Kodaikanal, Thoothukudi, 8.8°N/79°E, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 4th June 2026.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, entire Goa, some parts of Maharashtra and Andhra Pradesh, some more parts of Karnataka, remaining parts of Tamil Nadu, Southwest Bay of Bengal, some more parts of Westcentral, Eastcentral and Northeast Bay of Bengal, some parts of Northeastern state during next 2-3 days.\nThe Western Disturbance as anupper air cyclonic circulation over North Pakistan & neighbourhood between 3.1 and 5.8 km above mean sea level persists.\nThe induced upper air cyclonic circulation over Central Pakistan & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from upper air cyclonic circulation over Central Pakistan & neighbourhood to Northeast Arabian Sea extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood between 3.1 and 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Uttar Pradesh extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Sub-Himalayan West Bengal & adjoining Bihar at 0.9 km above mean sea level persists.\nTheupper air cyclonic circulation over Goa adjoining East central Arabian sea between 3.1 & 4.5 km above mean sea level persists.\nThe trough from Marathwada to Southwest Arabian Sea across Konkan & Goa at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over south Telangana & adjoining Coastal Andhra Pradesh & Yanam at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over north Andaman Sea & neighbourhood between 3.1 & 7.6 km above mean sea level persists.",
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 14°N/60°E, 13.5°N/65°E, 13°N/70°E, Mangalore, Uthagamandalam, Kodaikanal, Thoothukudi, 8.8°N/79°E, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 5th June 2026.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, entire Goa, some parts of Maharashtra and Andhra Pradesh, some more parts of Karnataka, remaining parts of Tamil Nadu, Southwest Bay of Bengal, some more parts of Westcentral, Eastcentral and Northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days.\nThe Western Disturbance as anupper air cyclonic circulation over North Pakistan & neighbourhood between 3.1 and 5.8 km above mean sea level persists.\nThe induced upper air cyclonic circulation over Central Pakistan & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from upper air cyclonic circulation over Central Pakistan & neighbourhood to Northeast Arabian Sea extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood between 3.1 and 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Uttar Pradesh now lies over East Uttar Pradesh and extends upto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over southeast Rajasthan and adjoining Gujrat region at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Sub-Himalayan West Bengal & adjoining Bihar at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Goa adjoining Eastcentral Arabian sea between 3.1 & 4.5 km above mean sea level persists.\nThe trough from Marathwada to Southwest Arabian Sea across Konkan & Goa at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north Andaman Sea & neighbourhood between 3.1 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over south Telangana & adjoining Coastal Andhra Pradesh & Yanam at 3.1 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
@@ -74,11 +74,19 @@
         }
       },
       {
-        "location": "central Uttar Pradesh",
+        "location": "East Uttar Pradesh",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "southeast Rajasthan and adjoining Gujrat region",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
         }
       },
       {
@@ -88,14 +96,6 @@
           "min": 3.1,
           "max": 4.5,
           "display": "3.1–4.5 km above MSL"
-        }
-      },
-      {
-        "location": "south Telangana & adjoining Coastal Andhra Pradesh & Yanam",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
         }
       },
       {
@@ -129,8 +129,8 @@
         }
       }
     ],
-    "suppressed_count": 0
+    "suppressed_count": 1
   },
   "mjo": null,
-  "fetched_at": "2026-06-05 07:29 IST"
+  "fetched_at": "2026-06-05 11:17 IST"
 }
