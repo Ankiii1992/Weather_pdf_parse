@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/f7ff7e3ed54a3c95cfb7bc240c0a7e12.pdf",
-  "last_updated": "04:46 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/32477368c282960821734505fe638118.pdf",
+  "last_updated": "07:55 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-06-05",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The southwest monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, some parts of Goa, some more parts of Karnataka, Tamil Nadu, southwest Bay of Bengal, today the 5th June, 2026. The Northern Limit of Monsoon continues to pass through 16.5°N/60°E, 16.5°N/65°E, 16.2°N/70°E, Panjim, Bengaluru, Salem, Pamban, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 5th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Karnataka, some parts of Maharashtra and Andhra Pradesh, remaining parts of Goa, Tamil Nadu, southwest Bay of Bengal, some more parts of westcentral, eastcentral and northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days..",
-    "night": null
+    "evening": null,
+    "night": "The southwest monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, some parts of Goa, some more parts of Karnataka, Tamil Nadu, southwest Bay of Bengal, today the 5th June, 2026. The Northern Limit of Monsoon continues to pass through 16.5°N/60°E, 16.5°N/65°E, 16.2°N/70°E, Panjim, Bengaluru, Salem, Pamban, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 5th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Karnataka, some parts of Maharashtra and Andhra Pradesh, remaining parts of Goa, Tamil Nadu, southwest Bay of Bengal, some more parts of westcentral, eastcentral and northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days.."
   },
   "nlm_coords": [
     {
@@ -120,5 +120,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-06-05 19:46 IST"
+  "fetched_at": "2026-06-05 22:36 IST"
 }
