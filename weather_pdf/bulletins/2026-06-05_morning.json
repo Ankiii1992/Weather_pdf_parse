@@ -1,0 +1,136 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5989601376e3bcea34fd740c7bcb1db6.pdf",
+  "last_updated": "08:00 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-05",
+  "bulletin": {
+    "morning": "The Northern Limit of Monsoon continues to pass through 14°N/60°E, 13.5°N/65°E, 13°N/70°E, Mangalore, Uthagamandalam, Kodaikanal, Thoothukudi, 8.8°N/79°E, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 5th June 2026. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, entire Goa, some parts of Maharashtra and Andhra Pradesh, some more parts of Karnataka, remaining parts of Tamil Nadu, Southwest Bay of Bengal, some more parts of Westcentral, Eastcentral and Northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 14.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 13.5,
+      "lon": 65.0
+    },
+    {
+      "lat": 13.0,
+      "lon": 70.0
+    },
+    {
+      "lat": 8.8,
+      "lon": 79.0
+    },
+    {
+      "lat": 11.0,
+      "lon": 83.0
+    },
+    {
+      "lat": 14.5,
+      "lon": 87.0
+    },
+    {
+      "lat": 17.5,
+      "lon": 90.0
+    },
+    {
+      "lat": 20.0,
+      "lon": 93.0
+    },
+    {
+      "lat": 22.0,
+      "lon": 95.0
+    }
+  ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 14°N/60°E, 13.5°N/65°E, 13°N/70°E, Mangalore, Uthagamandalam, Kodaikanal, Thoothukudi, 8.8°N/79°E, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 5th June 2026.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, entire Goa, some parts of Maharashtra and Andhra Pradesh, some more parts of Karnataka, remaining parts of Tamil Nadu, Southwest Bay of Bengal, some more parts of Westcentral, Eastcentral and Northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days.\nThe Western Disturbance as anupper air cyclonic circulation over North Pakistan & neighbourhood between 3.1 and 5.8 km above mean sea level persists.\nThe induced upper air cyclonic circulation over Central Pakistan & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from upper air cyclonic circulation over Central Pakistan & neighbourhood to Northeast Arabian Sea extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood between 3.1 and 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Uttar Pradesh now lies over East Uttar Pradesh and extends upto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over southeast Rajasthan and adjoining Gujrat region at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Sub-Himalayan West Bengal & adjoining Bihar at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Goa adjoining Eastcentral Arabian sea between 3.1 & 4.5 km above mean sea level persists.\nThe trough from Marathwada to Southwest Arabian Sea across Konkan & Goa at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north Andaman Sea & neighbourhood between 3.1 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over south Telangana & adjoining Coastal Andhra Pradesh & Yanam at 3.1 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "cyclonic_circulation",
+        "location": "North Pakistan & neighbourhood between 3.1 and 5.8 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "location": "north Haryana & neighbourhood between 3.1 and 5.8 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      },
+      {
+        "location": "East Uttar Pradesh",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "southeast Rajasthan and adjoining Gujrat region",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      },
+      {
+        "location": "Sub-Himalayan West Bengal&adjoining Bihar",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        }
+      },
+      {
+        "location": "north Andaman Sea & neighbourhood between 3.1 & 7.6 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from upper air cyclonic circulation over Central Pakistan & neighbourhood to Northeast Arabian Sea",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from Marathwada to Southwest Arabian Sea",
+        "via": "Konkan & Goa",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "suppressed_count": 1
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-05 11:17 IST"
+}
