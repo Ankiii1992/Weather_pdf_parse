@@ -1,0 +1,124 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/f7ff7e3ed54a3c95cfb7bc240c0a7e12.pdf",
+  "last_updated": "04:46 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-06-05",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": "The southwest monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, some parts of Goa, some more parts of Karnataka, Tamil Nadu, southwest Bay of Bengal, today the 5th June, 2026. The Northern Limit of Monsoon continues to pass through 16.5°N/60°E, 16.5°N/65°E, 16.2°N/70°E, Panjim, Bengaluru, Salem, Pamban, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 5th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Karnataka, some parts of Maharashtra and Andhra Pradesh, remaining parts of Goa, Tamil Nadu, southwest Bay of Bengal, some more parts of westcentral, eastcentral and northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days..",
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 16.5,
+      "lon": 60.0
+    },
+    {
+      "lat": 16.5,
+      "lon": 65.0
+    },
+    {
+      "lat": 16.2,
+      "lon": 70.0
+    },
+    {
+      "lat": 11.0,
+      "lon": 83.0
+    },
+    {
+      "lat": 14.5,
+      "lon": 87.0
+    },
+    {
+      "lat": 17.5,
+      "lon": 90.0
+    },
+    {
+      "lat": 20.0,
+      "lon": 93.0
+    },
+    {
+      "lat": 22.0,
+      "lon": 95.0
+    }
+  ],
+  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, some parts of Goa, some more parts of Karnataka, Tamil Nadu, southwest Bay of Bengal, today the 5th June, 2026.\nThe Northern Limit of Monsoon continues to pass through 16.5°N/60°E, 16.5°N/65°E, 16.2°N/70°E, Panjim, Bengaluru, Salem, Pamban, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E as on 5th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Karnataka, some parts of Maharashtra and Andhra Pradesh, remaining parts of Goa, Tamil Nadu, southwest Bay of Bengal, some more parts of westcentral, eastcentral and northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days.\nThe Western Disturbance as a cyclonic circulation Jammu division & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long 72°E to the north of Lat 31°N persists.\nThe induced upper air cyclonic circulation over Central Pakistan & adjoining northwest Rajasthan and extending upto 1.5 km above mean sea level persists.\nThe trough from upper air cyclonic circulation over Central Pakistan & adjoining northwest Rajasthan to Northeast Arabian Sea and extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 3.1 and 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Rajasthan & adjoining West Madhya Pradesh and extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over coastal Karnataka & neighbourhood between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Myanmar & adjoining Andaman Sea and extending upto 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north east Bangladesh & neighbourhood at 0.9 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "cyclonic_circulation",
+        "location": "Central Pakistan & adjoining northwest Rajasthan and",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "along Long 72°E to the north of Lat 31°N persists",
+          "level": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "location": "northwest Uttar Pradesh & neighbourhood between 3.1 and 5.8 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      },
+      {
+        "location": "East Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "southeast Rajasthan & adjoining West Madhya Pradesh",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        }
+      },
+      {
+        "location": "Myanmar & adjoining Andaman Sea",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "up to 5.8 km above MSL"
+        }
+      },
+      {
+        "location": "north east Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from upper air cyclonic circulation over Central Pakistan & adjoining northwest Rajasthan to Northeast Arabian Sea and",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      }
+    ],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-05 17:25 IST"
+}
