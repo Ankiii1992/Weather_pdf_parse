@@ -1,0 +1,125 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1a5f8c58f7eb4ba8a17920212cc58c90.pdf",
+  "last_updated": "08:05 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-06",
+  "bulletin": {
+    "morning": "The Northern Limit of Monsoon continues to pass through 16.5°N/60°E, 16.5°N/65°E, 16.2°N/70°E, Panjim, Bengaluru, Salem, Pamban, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Karnataka, some parts of Maharashtra and Andhra Pradesh, remaining parts of Goa, Tamil Nadu, southwest Bay of Bengal, some more parts of westcentral, eastcentral and northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days..",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 16.5,
+      "lon": 60.0
+    },
+    {
+      "lat": 16.5,
+      "lon": 65.0
+    },
+    {
+      "lat": 16.2,
+      "lon": 70.0
+    },
+    {
+      "lat": 11.0,
+      "lon": 83.0
+    },
+    {
+      "lat": 14.5,
+      "lon": 87.0
+    },
+    {
+      "lat": 17.5,
+      "lon": 90.0
+    },
+    {
+      "lat": 20.0,
+      "lon": 93.0
+    },
+    {
+      "lat": 22.0,
+      "lon": 95.0
+    }
+  ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 16.5°N/60°E, 16.5°N/65°E, 16.2°N/70°E, Panjim, Bengaluru, Salem, Pamban, 11°N/83°E, 14.5°N/87°E, 17.5°N/90°E,20°N/93°E and 22°N/95°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Karnataka, some parts of Maharashtra and Andhra Pradesh, remaining parts of Goa, Tamil Nadu, southwest Bay of Bengal, some more parts of westcentral, eastcentral and northeast Bay of Bengal, some parts of Northeastern states during next 2-3 days.\nThe Western Disturbance as a cyclonic circulation Jammu division & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long 78°E to the north of Lat 28°N.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 3.1 and 5.8 km above mean sea level has merged with the above trough of Western Disturbance.\nThe induced upper air cyclonic circulation over Central Pakistan & adjoining northwest Rajasthan extending upto 1.5 km above mean sea level persists.\nThe trough from upper air cyclonic circulation over Central Pakistan & adjoining northwest Rajasthan to Northeast Arabian Sea extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nAn upper air cyclonic circulation lies over Jharkhand & neighbourhood at 0.9 km above mean sea level.\nThe trough from the upper air cyclonic circulation over Jharkhand & neighbourhood to Rayalaseema across Odisha and Telangana at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over coastal Karnataka & neighbourhood between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Myanmar & adjoining Andaman Sea extending upto 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Rajasthan & adjoining West Madhya Pradesh extending upto 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over north east Bangladesh & neighbourhood at 0.9 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "form": "cyclonic_circulation",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "along Long 78°E to the north of Lat 28°N",
+          "level": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "location": "northwest Uttar Pradesh & neighbourhood between 3.1 and 5.8 km above mean sea level has merged with the above trough of Western Disturbance. The induced upper air cyclonic circulation over Central Pakistan & adjoining northwest Rajasthan",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      },
+      {
+        "location": "East Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "location": "Jharkhand & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        }
+      },
+      {
+        "location": "Myanmar & adjoining Andaman Sea",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "up to 5.8 km above MSL"
+        }
+      }
+    ],
+    "other_troughs": [
+      {
+        "subtype": "general",
+        "extent": "from upper air cyclonic circulation over Central Pakistan & adjoining northwest Rajasthan to Northeast Arabian Sea",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from the upper air cyclonic circulation over Jharkhand & neighbourhood to Rayalaseema",
+        "via": "Odisha and Telangana",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        }
+      }
+    ],
+    "suppressed_count": 2
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-06 10:57 IST"
+}
