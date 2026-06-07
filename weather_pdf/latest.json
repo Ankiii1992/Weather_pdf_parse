@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/31e80509becc99d338f2b1388a77855c.pdf",
-  "last_updated": "04:35 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/76e6893ab2429142fe36cc73b949492b.pdf",
+  "last_updated": "07:48 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-06-07",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Southwest Monsoon has further advanced into some more parts of westcentral & entire northeast Bay of Bengal, and some more parts of northwest Bay of Bengal, entire Nagaland, Manipur and Mizoram, some parts of Tripura, Assam and Arunachal Pradesh today the 7th June, 2026. The Northern Limit of Monsoon now passes through 17.5°N/60°E, 17.5°N/65°E, 17°N/70°E, Devgad, Koppal, Ananthapuramu, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 7th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, some parts of Telangana, some more parts of Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal and some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh & Odisha, remaining parts of Northeastern states and some parts of Sub-Himalayan West Bengal & Sikkim during next 3-4 days.",
-    "night": null
+    "evening": null,
+    "night": "The Southwest Monsoon has further advanced into some more parts of westcentral & entire northeast Bay of Bengal, and some more parts of northwest Bay of Bengal, entire Nagaland, Manipur and Mizoram, some parts of Tripura, Assam and Arunachal Pradesh today the 7th June, 2026. The Northern Limit of Monsoon now passes through 17.5°N/60°E, 17.5°N/65°E, 17°N/70°E, Devgad, Koppal, Ananthapuramu, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 7th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, some parts of Telangana, some more parts of Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal and some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh & Odisha, remaining parts of Northeastern states and some parts of Sub-Himalayan West Bengal & Sikkim during next 3-4 days."
   },
   "nlm_coords": [
     {
@@ -108,5 +108,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-06-07 18:43 IST"
+  "fetched_at": "2026-06-07 21:35 IST"
 }
