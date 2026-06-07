@@ -1,12 +1,12 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8f8c60229f8d10fafe58cd27a355c63e.pdf",
-  "last_updated": "08:13 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/74757813306a221a5888091fbca5c6dc.pdf",
+  "last_updated": "02:06 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-06-07",
   "bulletin": {
-    "morning": "The Southwest Monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, Karnataka, entire Goa, some parts of Maharashtra and Andhra Pradesh, most parts of Tamil Nadu and southwest Bay of Bengal, some more parts of westcentral & northeast Bay of Bengal, entire eastcentral Bay of Bengal and some parts of northwest Bay of Bengal, Mizoram and Manipur, today the 6th June, 2026. The Northern Limit of Monsoon continues to pass through 17.5°N/60°E, 17.5°N/65°E, 17°N/70°E, Devgad, Koppal, Ananthapuramu, Chennai, 15.5°N/85°E, 20°N/89.5°E, Aizawl and 25°N/95°E as on 6 th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka and Andhra Pradesh, some parts of Telangana, remaining parts of Tamil Nadu and southwest Bay of Bengal, some more parts of westcentral & north Bay of Bengal and Northeastern states during next 2-3 days, also entire Central Arabian Sea, some more parts of Maharashtra, remaining parts of Karnataka, some more parts of Telangana & Andhra Pradesh, some parts of Chhattisgarh & Odisha, some more parts of Northeast India and some parts of Sub-Himalayan West Bengal & Sikkim during subsequent 4-5days. The Seasonal trough at mean sea level continues to pass through Suratgarh, Rohtak, Rewa, Ranchi, Canning and thence Southeastwards to Northeast Bay of Bengal.",
-    "midday": null,
+    "morning": null,
+    "midday": "The Southwest Monsoon has further advanced into some more parts of westcentral & entire northeast Bay of Bengal, and some more parts of northwest Bay of Bengal, entire Nagaland, Manipur and Mizoram, some parts of Tripura, Assam and Arunachal Pradesh today the 7th June, 2026. The Northern Limit of Monsoon now passes through 17.5°N/60°E, 17.5°N/65°E, 17°N/70°E, Devgad, Koppal, Ananthapuramu, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 7th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, some parts of Telangana, some more parts of Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal and some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh & Odisha, remaining parts of Northeastern states and some parts of Sub-Himalayan West Bengal & Sikkim during next 3-4 days.",
     "evening": null,
     "night": null
   },
@@ -28,15 +28,15 @@
       "lon": 85.0
     },
     {
-      "lat": 20.0,
-      "lon": 89.5
+      "lat": 22.0,
+      "lon": 90.0
     },
     {
-      "lat": 25.0,
+      "lat": 29.0,
       "lon": 95.0
     }
   ],
-  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, Karnataka, entire Goa, some parts of Maharashtra and Andhra Pradesh, most parts of Tamil Nadu and southwest Bay of Bengal, some more parts of westcentral & northeast Bay of Bengal, entire eastcentral Bay of Bengal and some parts of northwest Bay of Bengal, Mizoram and Manipur, today the 6th June, 2026.\nThe Northern Limit of Monsoon continues to pass through 17.5°N/60°E, 17.5°N/65°E, 17°N/70°E, Devgad, Koppal, Ananthapuramu, Chennai, 15.5°N/85°E, 20°N/89.5°E, Aizawl and 25°N/95°E as on 6 th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka and Andhra Pradesh, some parts of Telangana, remaining parts of Tamil Nadu and southwest Bay of Bengal, some more parts of westcentral & north Bay of Bengal and Northeastern states during next 2-3 days, also entire Central Arabian Sea, some more parts of Maharashtra, remaining parts of Karnataka, some more parts of Telangana & Andhra Pradesh, some parts of Chhattisgarh & Odisha, some more parts of Northeast India and some parts of Sub-Himalayan West Bengal & Sikkim during subsequent 4-5days.\nThe Seasonal trough at mean sea level continues to pass through Suratgarh, Rohtak, Rewa, Ranchi, Canning and thence Southeastwards to Northeast Bay of Bengal.\nAn east-west trough runs roughly along Lat. 13°N from Coastal Karnataka & neighbourhood to Coastal Andhra Pradesh between 3.1 & 4.6 km above mean sea level.\nThe upper air cyclonic circulation over north Kerala & neighbourhood at 3.1 km above mean sea level has merged with the above trough.\nThe Western Disturbance as a cyclonic circulation over Jammu division & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long 75°E to the north of Lat 32°N.\nThe trough now runs from Punjab & neighbourhood to Northeast Arabian Sea at 0.9 km above mean sea level.\nA trough runs East Uttar Pradesh to Telangana across Chhattisgarh at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over East Uttar Pradesh and adjoining Bihar at 0.9 km above mean sea level has merged with the above trough.\nThe upper air cyclonic circulation over Myanmar & adjoining Andaman Sea extending upto 5.8 km above mean sea level persists.\nA fresh western Disturbance is likely to affect Western Himalayan Region from 11th June.\nThe upper air cyclonic circulation over interior Odisha & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Jharkhand & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe trough from the upper air cyclonic circulation over Jharkhand & neighbourhood to Telangana across Chhattisgarh at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe induced upper air cyclonic circulation over Punjab & neighbourhood at 0.9 km above mean sea level has become less marked.",
+  "met_analysis": "An upper air cyclonic circulation lies over East Uttar Pradesh & neighbourhoodbetween 1.5 & 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over north Haryana & neighbourhood extending upto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Eastcentral Arabian Sea off south Konkan coast at 5.8 km above mean sea level.\nThe east-west trough now runs roughly along Lat. 14°N from Coastal Karnataka & neighbourhood to Coastal Andhra Pradesh between 3.1 & 4.6 km above mean sea level.\nThe trough from East Uttar Pradesh to Telangana across Chhattisgarh at 0.9 km above mean sea level persists.\nAn upper air cyclonic circulation lies over northeast assam & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Myanmar & adjoining Andaman Sea extending upto 5.8 km above mean sea level persists.\nA fresh western Disturbance is likely to affect Western Himalayan Region from 11th June.\nThe Seasonal trough at mean sea level through Suratgarh, Rohtak, Rewa, Ranchi, Canning and thence Southeastwards to Northeast Bay of Bengal has become less marked.\nThe Western Disturbance as a cyclonic circulation over Jammu division & neighbourhood at 3.1 km above mean sea level has become less marked with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long 75°E to the north of Lat 32°N moved away northeastwards.\nThe trough from Punjab & neighbourhood to Northeast Arabian Sea at 0.9 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
@@ -48,60 +48,37 @@
           "max": 4.6,
           "display": "3.1–4.6 km above MSL"
         }
-      },
-      {
-        "type": "Western Disturbance",
-        "form": "cyclonic_circulation",
-        "location": "Jammu division & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "trough_aloft": {
-          "axis": "along Long 75°E to the north of Lat 32°N",
-          "level": "5.8 km above MSL"
-        }
       }
     ],
     "uac": [
       {
-        "location": "north Kerala & neighbourhood",
+        "location": "north Haryana & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "type": "upto",
+          "max": 1.5,
+          "display": "up to 1.5 km above MSL"
         }
       },
       {
-        "location": "East Uttar Pradesh and adjoining Bihar",
+        "location": "Eastcentral Arabian Sea off south Konkan coast",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      },
+      {
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
-        }
-      },
-      {
-        "location": "Myanmar & adjoining Andaman Sea",
-        "level": {
-          "type": "upto",
-          "max": 5.8,
-          "display": "up to 5.8 km above MSL"
         }
       }
     ],
     "other_troughs": [
       {
         "subtype": "general",
-        "extent": "from Punjab & neighbourhood to Northeast Arabian Sea",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        }
-      },
-      {
-        "subtype": "general",
+        "extent": "from East Uttar Pradesh to Telangana",
         "via": "Chhattisgarh",
         "level": {
           "type": "single",
@@ -110,8 +87,8 @@
         }
       }
     ],
-    "suppressed_count": 4
+    "suppressed_count": 3
   },
   "mjo": null,
-  "fetched_at": "2026-06-07 12:25 IST"
+  "fetched_at": "2026-06-07 14:30 IST"
 }
