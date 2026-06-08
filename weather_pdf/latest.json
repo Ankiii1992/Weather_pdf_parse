@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e969588261c415d6bb1a7455f7718a0c.pdf",
-  "last_updated": "04:59 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2646e35dde029f847a50fb44449bca25.pdf",
+  "last_updated": "08:13 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-06-08",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Southwest Monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, Maharashtra, Karnataka & Andhra Pradesh, some parts of Telangana, today the 8th June, 2026. The Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 8th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh, Odisha, West Bengal & Sikkim, remaining parts of Northeastern states during next 2-3 days.",
-    "night": null
+    "evening": null,
+    "night": "The Southwest Monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, Maharashtra, Karnataka & Andhra Pradesh, some parts of Telangana, today the 8th June, 2026. The Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 8th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh, Odisha, West Bengal & Sikkim, remaining parts of Northeastern states during next 2-3 days."
   },
   "nlm_coords": [
     {
@@ -100,5 +100,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-06-08 18:25 IST"
+  "fetched_at": "2026-06-08 23:12 IST"
 }
