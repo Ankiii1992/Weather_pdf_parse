@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/76e6893ab2429142fe36cc73b949492b.pdf",
-  "last_updated": "07:48 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-06-07",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/17bd22900e0e80a7b5696b3841855fe4.pdf",
+  "last_updated": "08:53 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-08",
   "bulletin": {
-    "morning": null,
+    "morning": "The Northern Limit of Monsoon passes through 17.5°N/60°E, 17.5°N/65°E, 17°N/70°E, Devgad, Koppal, Ananthapuramu, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, some parts of Telangana, some more parts of Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal and some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh & Odisha, remaining parts of Northeastern states and some parts of Sub-Himalayan West Bengal & Sikkim during next 3-4 days.",
     "midday": null,
     "evening": null,
-    "night": "The Southwest Monsoon has further advanced into some more parts of westcentral & entire northeast Bay of Bengal, and some more parts of northwest Bay of Bengal, entire Nagaland, Manipur and Mizoram, some parts of Tripura, Assam and Arunachal Pradesh today the 7th June, 2026. The Northern Limit of Monsoon now passes through 17.5°N/60°E, 17.5°N/65°E, 17°N/70°E, Devgad, Koppal, Ananthapuramu, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 7th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, some parts of Telangana, some more parts of Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal and some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh & Odisha, remaining parts of Northeastern states and some parts of Sub-Himalayan West Bengal & Sikkim during next 3-4 days."
+    "night": null
   },
   "nlm_coords": [
     {
@@ -36,36 +36,26 @@
       "lon": 95.0
     }
   ],
-  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of westcentral & entire northeast Bay of Bengal, and some more parts of northwest Bay of Bengal, entire Nagaland, Manipur and Mizoram, some parts of Tripura, Assam and Arunachal Pradesh today the 7th June, 2026.\nThe Northern Limit of Monsoon now passes through 17.5°N/60°E, 17.5°N/65°E, 17°N/70°E, Devgad, Koppal, Ananthapuramu, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 7th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, some parts of Telangana, some more parts of Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal and some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh & Odisha, remaining parts of Northeastern states and some parts of Sub-Himalayan West Bengal & Sikkim during next 3-4 days.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhoodbetween 1.5 & 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea off south Konkan coast at 5.8 km above mean sea level persists.\nThe east-west trough now runs roughly along Lat. 14°N from Coastal Karnataka & neighbourhood to Coastal Andhra Pradesh between 3.1 & 4.6 km above mean sea level persists.\nThe trough from East Uttar Pradesh to Telangana across Chhattisgarh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast assam & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Myanmar & adjoining Andaman Sea extending upto 5.8 km above mean sea level persists.\nA fresh western Disturbance is likely to affect Western Himalayan Region from 11th June.",
+  "met_analysis": "The Northern Limit of Monsoon passes through 17.5°N/60°E, 17.5°N/65°E, 17°N/70°E, Devgad, Koppal, Ananthapuramu, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, some parts of Telangana, some more parts of Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal and some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh & Odisha, remaining parts of Northeastern states and some parts of Sub-Himalayan West Bengal & Sikkim during next 3-4 days.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood persists and now extends upto1.5 km above mean sea level.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea off south Konkan coast at 5.8 km above mean sea level persists.\nThe east-west trough now runs roughly along Lat. 15°N from Coastal Karnataka & neighbourhood to Coastal Andhra Pradesh at 3.1 km above mean sea level.\nThe trough from the cyclonic circulation over East Uttar Pradesh & neighbourhood to Telangana now runs from the cyclonic circulation East Uttar Pradesh & neighbourhood to south Odisha across Chhattisgarh and northeast Madhya Pradesh at 1.5 km above mean sea level.\nA trough runs from east Bihar to northwest Bay of Bengal across Gangetic West Bengal at 1.5 km above mean sea level.\nA trough runs from south Punjab to northeast Arabian Sea at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over northeast assam & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Myanmar & adjoining Andaman Sea extending upto 5.8 km above mean sea level persists.\nA fresh western Disturbance is likely to affect Western Himalayan Region from 11th June.\nThe upper air cyclonic circulation over north Haryana & neighbourhood extending upto 1.5 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "East-West Trough",
-        "extent": "from Coastal Karnataka & neighbourhood to Coastal Andhra Pradesh between 3",
+        "extent": "from Coastal Karnataka & neighbourhood to Coastal Andhra Pradesh",
         "level": {
-          "type": "range",
+          "type": "single",
           "min": 3.1,
-          "max": 4.6,
-          "display": "3.1–4.6 km above MSL"
+          "display": "3.1 km above MSL"
         }
       }
     ],
     "uac": [
       {
-        "location": "East Uttar Pradesh & neighbourhoodbetween 1.5 & 3.1 km above mean sea level",
+        "location": "East Uttar Pradesh & neighbourhood",
         "level": {
-          "type": "range",
+          "type": "single",
           "min": 1.5,
-          "max": 3.1,
-          "display": "1.5–3.1 km above MSL"
-        }
-      },
-      {
-        "location": "north Haryana & neighbourhood",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "up to 1.5 km above MSL"
+          "display": "1.5 km above MSL"
         }
       },
       {
@@ -96,17 +86,36 @@
     "other_troughs": [
       {
         "subtype": "general",
-        "extent": "from East Uttar Pradesh to Telangana",
-        "via": "Chhattisgarh",
+        "extent": "from the cyclonic circulation over East Uttar Pradesh & neighbourhood to Telangana now runs from the cyclonic circulation East Uttar Pradesh & neighbourhood to south Odisha",
+        "via": "Chhattisgarh and northeast Madhya Pradesh",
         "level": {
           "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from east Bihar to northwest Bay of Bengal",
+        "via": "Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
+      },
+      {
+        "subtype": "general",
+        "extent": "from south Punjab to northeast Arabian Sea",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
         }
       }
     ],
-    "suppressed_count": 0
+    "suppressed_count": 1
   },
   "mjo": null,
-  "fetched_at": "2026-06-08 07:40 IST"
+  "fetched_at": "2026-06-08 12:39 IST"
 }
