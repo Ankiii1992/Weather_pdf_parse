@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1818a42257bacfaf682c0f6e8ca52157.pdf",
-  "last_updated": "01:39 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e969588261c415d6bb1a7455f7718a0c.pdf",
+  "last_updated": "04:59 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-06-08",
   "bulletin": {
     "morning": null,
-    "midday": "The Southwest Monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, Maharashtra, Karnataka & Andhra Pradesh, some parts of Telangana, today the 8th June, 2026. The Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 8th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh, Odisha, West Bengal & Sikkim, remaining parts of Northeastern states during next 2-3 days.",
-    "evening": null,
+    "midday": null,
+    "evening": "The Southwest Monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, Maharashtra, Karnataka & Andhra Pradesh, some parts of Telangana, today the 8th June, 2026. The Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 8th June. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh, Odisha, West Bengal & Sikkim, remaining parts of Northeastern states during next 2-3 days.",
     "night": null
   },
   "nlm_coords": [
@@ -36,12 +36,12 @@
       "lon": 95.0
     }
   ],
-  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, Maharashtra, Karnataka & Andhra Pradesh, some parts of Telangana, today the 8th June, 2026.\nThe Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 8th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh, Odisha, West Bengal & Sikkim, remaining parts of Northeastern states during next 2-3 days.\nAn upper air cyclonic circulation lies over North Haryana & neighbourhood at 1.5 km above mean sea level The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto1.5 km above mean sea level persists.\nThe trough from the above cyclonic circulation over East Uttar Pradesh & neighbourhood to North Coastal Andhra Pradesh & Yanam across northeast Madhya Pradesh, Chhattisgarh and Odisha at 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 15°N over Indian region persists and now runs between 3.1 km to 4.5 km above mean sea level.\nThe trough runs from east Bihar to northwest Bay of Bengal across Gangetic West Bengal at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea off south Konkan coast at 5.8 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Western Himalayan region from 11th June.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Myanmar & adjoining Andaman Sea extending upto 5.8 km above mean sea level has become less marked.",
+  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of westcentral & eastcentral Arabian Sea, Maharashtra, Karnataka & Andhra Pradesh, some parts of Telangana, today the 8th June, 2026.\nThe Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90.0°E, Kailashahar, Lamding, North Lakhimpur and 29°N/95°E as on 8th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal, some parts of Chhattisgarh, Odisha, West Bengal & Sikkim, remaining parts of Northeastern states during next 2-3 days.\nThe upper air cyclonic circulation over North Haryana & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto1.5 km above mean sea level persists.\nThe trough from the above cyclonic circulation over East Uttar Pradesh & neighbourhood to North Coastal Andhra Pradesh & Yanam across northeast Madhya Pradesh, Chhattisgarh and Odisha at 1.5 km above mean sea level persists.\nThe Shear Zone roughly along Lat. 15°N over Indian region between 3.1 km to 4.5 km above mean sea level persists.\nThe trough from east Bihar to northwest Bay of Bengal across Gangetic West Bengal at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea off south Konkan coast at 5.8 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Western Himalayan region from 11th June.",
   "systems": {
     "priority": [
       {
         "type": "Shear Zone",
-        "location": "Indian region",
+        "location": "Indian region between 3.1 km to 4.5 km above mean sea level",
         "level": {
           "type": "single",
           "min": 4.5,
@@ -52,6 +52,14 @@
     "uac": [
       {
         "location": "North Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        }
+      },
+      {
+        "location": "East Uttar Pradesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 1.5,
@@ -89,8 +97,8 @@
         }
       }
     ],
-    "suppressed_count": 2
+    "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-06-08 14:58 IST"
+  "fetched_at": "2026-06-08 18:25 IST"
 }
