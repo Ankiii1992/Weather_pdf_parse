@@ -100,10 +100,10 @@ SYSTEM_FIELDS = {
         'east_end_system', 'across', 'level', 'raw_text',
     ],
     'Shear Zone': [
-        'type', 'along', 'across', 'level', 'tilt', 'raw_text',
+        'type', 'location', 'across', 'level', 'tilt', 'raw_text',
     ],
     'Offshore Trough': [
-        'type', 'along', 'level', 'raw_text',
+        'type', 'extent', 'level', 'raw_text',
     ],
     'East-West Trough': [
         'type', 'extent', 'across', 'level', 'tilt', 'raw_text',
@@ -225,7 +225,7 @@ def parse_level(text):
     )
     if ext_label:
         label = re.sub(r'\s+', ' ', ext_label.group(1)).strip().lower()
-        return {'type': 'label', 'display': label}
+        return label  # plain string fallback
 
     # at X km above MSL
     single_m = re.search(r'at\s+([\d.]+)\s*km\s*above', t, re.IGNORECASE)
@@ -233,7 +233,7 @@ def parse_level(text):
         val = float(single_m.group(1))
         return {'type': 'single', 'min': val, 'display': f'{val} km above MSL'}
 
-    # in lower/middle/upper tropospheric levels
+    # in lower/middle/upper tropospheric levels — return plain string (no numeric values)
     tropo_m = re.search(
         r'in\s+(lower\s*(?:&|and)?\s*(?:middle\s*)?(?:&|and)?\s*(?:upper\s*)?tropospheric)\s*levels?',
         t, re.IGNORECASE
@@ -241,11 +241,11 @@ def parse_level(text):
     if tropo_m:
         label = re.sub(r'\s+', ' ', tropo_m.group(1)).strip().lower()
         label = re.sub(r'\s*(and|&)\s*', ' & ', label)
-        return {'type': 'label', 'display': label}
+        return label  # plain string fallback
 
-    # mean sea level
+    # mean sea level — plain string
     if re.search(r'at\s+mean\s+sea\s+level|mean\s+sea\s+level', t, re.IGNORECASE):
-        return {'type': 'label', 'display': 'mean sea level'}
+        return 'mean sea level'  # plain string fallback
 
     return None
 
@@ -466,6 +466,7 @@ def split_sentences(text):
     """
     Split Met Analysis text into individual system sentences.
     Handles bullet points, merged sentences, and all known starters.
+    Accepts either raw multi-line PDF text or pre-processed single-line-per-sentence text.
     """
     # Normalise first
     text = normalise_text(text)
@@ -473,7 +474,7 @@ def split_sentences(text):
     # Remove bullet characters
     text = re.sub(r'^\s*[❖•\-\*✦◆]\s*', '', text, flags=re.MULTILINE)
 
-    # Insert newline before each known system starter
+    # Insert newline before each known system starter (handles merged paragraphs)
     text = re.sub(
         r'(?<=[.!?])\s+(?=' + _SYSTEM_STARTERS + r')',
         '\n',
@@ -481,8 +482,20 @@ def split_sentences(text):
         flags=re.IGNORECASE
     )
 
-    # Split on newlines
-    raw = [s.strip() for s in text.splitlines() if s.strip()]
+    # Join lines that don't end with period back to previous line
+    # (fixes PDF line-wrap fragments like "...above\nmean sea level persists.")
+    joined_lines = []
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        if joined_lines and not joined_lines[-1].endswith('.'):
+            # Previous line didn't end with period — this is a continuation
+            joined_lines[-1] = joined_lines[-1] + ' ' + line
+        else:
+            joined_lines.append(line)
+
+    raw = [s.strip() for s in joined_lines if s.strip()]
 
     # Handle "and another over X" — two UACs in one sentence
     expanded = []
@@ -736,86 +749,206 @@ def classify_lpa(sent, raw, stype='Low Pressure Area'):
 
 
 def classify_monsoon_trough(sent, raw):
-    """Classify Monsoon Trough / Seasonal Trough."""
+    """
+    Classify Monsoon Trough / Seasonal Trough.
+
+    5 cases:
+    1. City list: passes_through = full list including terminus
+    2. West/East end explicitly mentioned (rare): west_end{position,passes_through}, east_end{position,passes_through}
+    3. Whole trough position only: position field
+    4. Foothills: position = "foothills of Himalayas"
+    5. Minimum: just type + level
+    """
     system = {'type': 'Monsoon Trough', 'raw_text': raw}
 
-    # Position descriptor
-    if re.search(r'south\s+of\s+(?:its\s+)?normal', sent, re.IGNORECASE):
-        system['position'] = 'south of normal'
-    elif re.search(r'north\s+of\s+(?:its\s+)?normal', sent, re.IGNORECASE):
-        system['position'] = 'north of normal'
-    elif re.search(r'foothills', sent, re.IGNORECASE):
+    # ── Whole trough position ────────────────────────────────────────────────
+    if re.search(r'foothills\s+of\s+himalaya', sent, re.IGNORECASE) or \
+       re.search(r'(?:running|shifted|lying)\s+(?:close\s+to|along|near)\s+foothills', sent, re.IGNORECASE):
         system['position'] = 'foothills of Himalayas'
-    elif re.search(r'normal\s+position', sent, re.IGNORECASE):
-        system['position'] = 'normal position'
 
-    # Western end + eastern end positional variant
-    # e.g. "Western end runs south of normal... eastern end runs near normal"
-    west_end_m = re.search(r'[Ww]estern\s+end\s+(?:of\s+monsoon\s+trough\s+)?runs\s+(.+?)(?:\s+and\s+eastern|\s+at\s+|$)', sent)
-    if west_end_m:
-        system['west_end'] = west_end_m.group(1).strip().rstrip(' ,')
+    elif re.search(r'south\s+of\s+(?:its\s+)?normal', sent, re.IGNORECASE) and \
+         not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        system['position'] = 'south of normal'
 
-    east_end_m_pos = re.search(r'[Ee]astern\s+end\s+runs\s+(.+?)(?:\s+at\s+mean|\.$|$)', sent)
-    if east_end_m_pos:
-        system['east_end'] = east_end_m_pos.group(1).strip().rstrip(' ,.')
+    elif re.search(r'north\s+of\s+(?:its\s+)?normal', sent, re.IGNORECASE) and \
+         not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        system['position'] = 'north of normal'
 
-    # City list: "passes through X, Y, Z and thence..."
-    passes_m = re.search(
-        r'(?:passes|pass)\s+through\s+(.+?)'
-        r'(?=\s+and\s+thence|\s+extending|\s+extends|\s+upto|\.$|$)',
-        sent, re.IGNORECASE
-    )
-    if passes_m:
-        cities_raw = passes_m.group(1)
-        # Remove "center of..." references for city list
-        cities_raw = re.sub(r'(?:and\s+)?center\s+of\s+.+', '', cities_raw, flags=re.IGNORECASE)
-        cities_raw = re.sub(r'\s+and\s*$', '', cities_raw.strip())  # strip trailing "and"
-        cities = [c.strip().rstrip(', ') for c in re.split(r',\s*', cities_raw) if c.strip()]
-        cities = [c for c in cities if c]  # remove empty
-        if cities:
-            system['passes_through'] = cities
-            system['west_end'] = system.get('west_end') or cities[0]
+    elif re.search(r'near\s+(?:its\s+)?normal', sent, re.IGNORECASE) and \
+         not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        system['position'] = 'near normal'
 
-    # East end / terminus
-    thence_m = re.search(
-        r'thence\s+[\w\-]+wards?\s+to\s+(.+?)(?:\s+extending|\s+extends|\s+upto|\.$|$)',
-        sent, re.IGNORECASE
-    )
-    if thence_m:
-        east_raw = thence_m.group(1).strip().rstrip(' ,.')
-        # Check if east end is at a system center
-        center_m = re.search(r'center\s+of\s+(.+)', east_raw, re.IGNORECASE)
-        if center_m:
-            system['east_end_system'] = center_m.group(1).strip().rstrip(' ,.')
-            system['east_end'] = system.get('east_end') or east_raw.split('center')[0].strip().rstrip(' ,of')
-        else:
-            system['east_end'] = east_raw
+    elif re.search(r'normal\s+position', sent, re.IGNORECASE) and \
+         not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        system['position'] = 'normal'
 
-    # across — when trough passes through multiple locations not in city list
-    across_m = re.search(
-        r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|upto|persists|\.$|$))',
-        sent, re.IGNORECASE
-    )
-    if across_m:
-        system['across'] = across_m.group(1).strip().rstrip(' ,')
+    # ── West/East end explicitly mentioned (Case 2 — rare) ──────────────────
+    if re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        west_end = {}
+        east_end = {}
+
+        # West end position
+        wp = re.search(
+            r'[Ww]estern\s+end\s+(?:of\s+monsoon\s+trough\s+)?(?:runs?|lies?)\s+(.+?)'
+            r'(?:\s+and\s+eastern|\s+at\s+mean|\.$|$)',
+            sent, re.IGNORECASE
+        )
+        if wp:
+            wp_text = wp.group(1).strip().rstrip(' ,')
+            # Check if position or city list
+            if re.search(r'normal|foothills', wp_text, re.IGNORECASE):
+                west_end['position'] = _normalise_position(wp_text)
+            else:
+                # City list
+                cities = _split_city_list(wp_text)
+                if cities: west_end['passes_through'] = cities
+
+        # West end passes_through if also has "passes through"
+        wp_cities_m = re.search(
+            r'[Ww]estern\s+end.+?(?:passes|pass)\s+through\s+(.+?)'
+            r'(?:\s+and\s+eastern|\s+and\s+thence|\s+at\s+mean|\.$|$)',
+            sent, re.IGNORECASE
+        )
+        if wp_cities_m:
+            cities = _split_city_list(wp_cities_m.group(1))
+            if cities: west_end['passes_through'] = cities
+
+        # East end position
+        ep = re.search(
+            r'[Ee]astern\s+end\s+(?:runs?|lies?)\s+(.+?)(?:\s+at\s+mean|\.$|$)',
+            sent, re.IGNORECASE
+        )
+        if ep:
+            ep_text = ep.group(1).strip().rstrip(' ,.')
+            if re.search(r'normal|foothills', ep_text, re.IGNORECASE):
+                east_end['position'] = _normalise_position(ep_text)
+            else:
+                cities = _split_city_list(ep_text)
+                if cities: east_end['passes_through'] = cities
+
+        if west_end: system['west_end'] = west_end
+        if east_end: system['east_end'] = east_end
+
+    # ── City list (Case 1 — most common) ────────────────────────────────────
+    elif re.search(r'(?:passes|pass|continues?)\s+(?:to\s+pass\s+)?through', sent, re.IGNORECASE):
+        # Extract everything between "passes through" and level/end markers
+        cities_m = re.search(
+            r'(?:passes|pass|continues?)\s+(?:to\s+pass\s+)?through\s+(.+?)'
+            r'(?=\s+(?:extending|extends|upto\s+[\d.]|at\s+[\d.]|between\s+[\d.]|\.$|$)|$)',
+            sent, re.IGNORECASE
+        )
+        if cities_m:
+            raw_cities = cities_m.group(1)
+            # Extract "thence...to TERMINUS" and append to city list
+            thence_m = re.search(
+                r'(?:and\s+)?thence\s+[\w\-]+wards?\s+to\s+(.+?)$',
+                raw_cities, re.IGNORECASE
+            )
+            terminus = None
+            if thence_m:
+                terminus = thence_m.group(1).strip().rstrip(' ,.')
+                # Strip trailing "and" from terminus
+                terminus = re.sub(r'\s+and\s*$', '', terminus, flags=re.IGNORECASE).strip()
+                # Strip leading "the" from terminus
+                terminus = re.sub(r'^the\s+', '', terminus, flags=re.IGNORECASE).strip()
+                # Remove thence part from cities raw
+                raw_cities = raw_cities[:thence_m.start()].strip()
+
+            cities = _split_city_list(raw_cities)
+            if terminus:
+                cities.append(terminus)
+            if cities:
+                system['passes_through'] = cities
 
     system['level'] = parse_level(sent)
     return {k: v for k, v in system.items() if v is not None}
 
 
-def classify_shear_zone(sent, raw):
-    """Classify Shear Zone."""
-    # Location is a latitude line
-    lat_m = re.search(r'(?:roughly\s+)?along\s+([\d.]+°?\s*N)', sent, re.IGNORECASE)
-    location = lat_m.group(1).strip() if lat_m else extract_location(sent)
+def _normalise_position(text):
+    """Normalise position description to standard value."""
+    t = text.lower().strip()
+    if 'foothills' in t: return 'foothills of Himalayas'
+    if 'south' in t and 'normal' in t: return 'south of normal'
+    if 'north' in t and 'normal' in t: return 'north of normal'
+    if 'near' in t and 'normal' in t: return 'near normal'
+    if 'normal' in t: return 'normal'
+    return text.strip()
 
-    # Across
-    across_m = re.search(r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.))', sent, re.IGNORECASE)
+
+def _split_city_list(text):
+    """
+    Split a city list by comma, treating system references as single items.
+    e.g. "Jaisalmer, Kota, center of LPA over NW MP, Sagar, Puri"
+    → ["Jaisalmer", "Kota", "center of LPA over NW MP", "Sagar", "Puri"]
+    """
+    if not text:
+        return []
+    # Clean up
+    text = re.sub(r'\s+and\s*$', '', text.strip())  # strip trailing "and"
+    text = text.strip().rstrip(' ,.')
+
+    # Split by comma
+    raw_items = re.split(r',\s*', text)
+    items = []
+    current = ''
+    for item in raw_items:
+        item = item.strip()
+        if not item:
+            continue
+        # If current is accumulating a system reference, check if complete
+        if current:
+            current = current + ', ' + item
+            # System reference ends when we have a standalone location
+            # Heuristic: if item doesn't look like continuation of "over X"
+            if not re.search(r'^(?:and\s+)?adjoining|^&', item, re.IGNORECASE):
+                items.append(current.strip())
+                current = ''
+        elif re.search(r'^center\s+of|^(?:the\s+)?(?:well\s+marked\s+)?low\s+pressure|^(?:the\s+)?(?:upper\s+air\s+)?cyclonic\s+circulation', item, re.IGNORECASE):
+            # Start accumulating system reference
+            current = item
+        else:
+            items.append(item)
+    if current:
+        items.append(current.strip())
+    return [i for i in items if i]
+
+
+
+def classify_shear_zone(sent, raw):
+    """Classify Shear Zone.
+    location = full descriptive string: "roughly along 15°N over Indian region"
+    """
+    # Extract latitude line: "roughly along Lat. 15°N" or "roughly along 22°N"
+    lat_m = re.search(r'(?:roughly\s+)?along\s+(?:Lat\.?\s*)?([\.\d]+°?\s*N)', sent, re.IGNORECASE)
+    lat_line = lat_m.group(1).strip() if lat_m else None
+
+    # Extract "over X" region
+    over_m = re.search(
+        r'\bover\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|roughly|across|\.$))',
+        sent, re.IGNORECASE
+    )
+    over_loc = _clean_loc(over_m.group(1)) if over_m else None
+
+    # Build location: combine lat line + over region into full descriptive string
+    if lat_line and over_loc:
+        location = f'roughly along {lat_line} over {over_loc}'
+    elif lat_line:
+        location = f'roughly along {lat_line}'
+    elif over_loc:
+        location = over_loc
+    else:
+        location = None
+
+    # Across — passing through multiple locations
+    across_m = re.search(
+        r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$))',
+        sent, re.IGNORECASE
+    )
     across = across_m.group(1).strip() if across_m else None
 
     return _build_system(
         type     = 'Shear Zone',
-        along    = location,
+        location = location,
         across   = across,
         level    = parse_level(sent),
         tilt     = extract_tilt(sent),
@@ -834,7 +967,7 @@ def classify_offshore_trough(sent, raw):
 
     return _build_system(
         type     = 'Offshore Trough',
-        along    = extent,
+        extent   = extent,
         level    = parse_level(sent),
         raw_text = raw,
     )
@@ -890,13 +1023,39 @@ def classify_ns_trough(sent, raw):
         r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|extending|persists|\.$|$))',
         sent, re.IGNORECASE
     )
+    ns_extent = None
+    if extent_m:
+        w = _clean_extent(extent_m.group(1).strip())
+        e = _clean_extent(extent_m.group(2).strip())
+        ns_extent = f"{w} to {e}" if w and e else None
+
     return _build_system(
         type     = 'North-South Trough',
-        extent   = f"{extent_m.group(1).strip()} to {extent_m.group(2).strip()}" if extent_m else None,
+        extent   = ns_extent,
         across   = via_m.group(1).strip() if via_m else None,
         level    = parse_level(sent),
         raw_text = raw,
     )
+
+
+def _clean_extent(extent):
+    """
+    Strip 'the above cyclonic circulation over' and similar prefixes from extent.
+    Keeps only the meaningful location part.
+    """
+    if not extent:
+        return None
+    # Strip common prefixes
+    prefixes = [
+        r'^the\s+above\s+(?:upper\s+air\s+)?cyclonic\s+circulation\s+over\s+',
+        r'^(?:upper\s+air\s+)?cyclonic\s+circulation\s+over\s+',
+        r'^the\s+above\s+',
+        r'^above\s+',
+    ]
+    result = extent.strip()
+    for prefix in prefixes:
+        result = re.sub(prefix, '', result, flags=re.IGNORECASE).strip()
+    return result if result else None
 
 
 def classify_generic_trough(sent, raw):
@@ -915,7 +1074,12 @@ def classify_generic_trough(sent, raw):
             r'from\s+(.+?)\s+to\s+(.+?)(?=\s+(?:across|at\s+[\d.]|extending|persists|\.$|$))',
             sent, re.IGNORECASE
         )
-        extent   = f"{extent_m.group(1).strip()} to {extent_m.group(2).strip()}" if extent_m else None
+        if extent_m:
+            west = _clean_extent(extent_m.group(1).strip())
+            east = _clean_extent(extent_m.group(2).strip())
+            extent = f"{west} to {east}" if west and east else None
+        else:
+            extent = None
         via_m    = re.search(
             r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|extending|persists|\.$|$))',
             sent, re.IGNORECASE
@@ -1269,8 +1433,10 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
         result['nlm_coords'] = parse_nlm_coords(coord_source)
 
         # ── STEP 6: Parse systems ──────────────────────────────────────────
-        if meteo_text:
-            systems = parse_met_analysis(meteo_text)
+        # Use pre-processed met_analysis (multi-line sentences already joined)
+        parse_source = result.get('met_analysis') or meteo_text
+        if parse_source:
+            systems = parse_met_analysis(parse_source)
             result['systems'] = systems
             print(f'[PARSE] Systems: {len(systems["priority"])} priority, '
                   f'{len(systems["uac"])} UAC, {len(systems["other_troughs"])} troughs, '
