@@ -1,12 +1,12 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c81c10b9207bee77f986a16c10299892.pdf",
-  "last_updated": "07:55 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/242b3583b8c4e49a11c8c4706ad18b03.pdf",
+  "last_updated": "01:46 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-06-10",
   "bulletin": {
-    "morning": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90°E, 23.5°N/91°E, 25°N/90°E, Siliguri and 27.5°N/87.5°E. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal and West Bengal, some parts of Chhattisgarh, Bihar, Jharkhand & Odisha during next 4-5 days.",
-    "midday": null,
+    "morning": null,
+    "midday": "The Northern Limit of Monsoon continue to passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90°E, 23.5°N/91°E, 25°N/90°E, Siliguri and 27.5°N/87.5°E. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal and West Bengal, some parts of Chhattisgarh, Bihar, Jharkhand & Odisha during next 3-4 days.",
     "evening": null,
     "night": null
   },
@@ -44,9 +44,26 @@
       "lon": 87.5
     }
   ],
-  "met_analysis": "The Northern Limit of Monsoon continue to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90°E, 23.5°N/91°E, 25°N/90°E, Siliguri and 27.5°N/87.5°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal and West Bengal, some parts of Chhattisgarh, Bihar, Jharkhand & Odisha during next 4-5 days.\nThe trough at mean sea level from Punjab to Bihar across Haryana, Uttar Pradesh persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nA trough runs from the cyclonic circulation over East Uttar Pradesh to Vidarbha across Chhattisgarh and East Madhya Pradesh and extends upto 1.5 km above mean sea level.\nA trough runs from central Bay of Bengal to Coastal Karnataka across Coastal Andhra Pradesh, Telangana and Interior Karnataka between 3.1 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over North Interior Karnataka & neighbourhood between 4.5 & 5.8 km above mean sea level has merged with the above system.\nA fresh Western Disturbance is likely to affect Western Himalayan region from 11th June.\nThe upper air cyclonic circulation over Sub-Himalayan West Bengal & Sikkim & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe trough from east Bihar to coastal parts of Gangetic West Bengal at 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The Northern Limit of Monsoon continue to passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Kalaburagi, Nandyal, Chennai, 15.5°N/85°E, 22°N/90°E, 23.5°N/91°E, 25°N/90°E, Siliguri and 27.5°N/87.5°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, Karnataka, Telangana, Andhra Pradesh, remaining parts of Tamil Nadu & southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal and West Bengal, some parts of Chhattisgarh, Bihar, Jharkhand & Odisha during next 3-4 days.\nThe seasonal trough at mean sea level from Punjab to Bihar now runs from Punjab to Gangetic West Bengal across Haryana, Uttar Pradesh, Bihar and Jharkhand.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from the cyclonic circulation over East Uttar Pradesh to Vidarbha across Chhattisgarh and East Madhya Pradesh persists and now seen at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over northwest Bihar & neighbourhoodat 0.9 km above mean sea level.\nThe trough from central Bay of Bengal to Coastal Karnataka across Coastal Andhra Pradesh, Telangana and Interior Karnataka now seen between 3.1 & 5.8km above mean sea level persists.\nA Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 60°E to the north of Lat. 32°N.",
   "systems": {
-    "priority": [],
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level from Punjab to Bihar now runs from Punjab to Gangetic West Bengal across Haryana, Uttar Pradesh, Bihar and Jharkhand.",
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "A Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 60°E to the north of Lat. 32°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 60°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -70,51 +87,44 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "North Interior Karnataka & neighbourhood",
+        "location": "northwest Bihar & neighbourhood",
         "level": {
-          "type": "range",
-          "min": 4.5,
-          "max": 5.8,
-          "display": "4.5–5.8 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over North Interior Karnataka & neighbourhood between 4.5 & 5.8 km above mean sea level has merged with the above system."
+        "raw_text": "An upper air cyclonic circulation lies over northwest Bihar & neighbourhoodat 0.9 km above mean sea level."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "Punjab to Bihar",
-        "across": "Haryana, Uttar Pradesh",
-        "level": "mean sea level",
-        "raw_text": "The trough at mean sea level from Punjab to Bihar across Haryana, Uttar Pradesh persists."
-      },
-      {
-        "type": "Trough",
-        "subtype": "general",
         "extent": "the cyclonic circulation over East Uttar Pradesh to Vidarbha",
+        "across": "Chhattisgarh and East Madhya Pradesh",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "A trough runs from the cyclonic circulation over East Uttar Pradesh to Vidarbha across Chhattisgarh and East Madhya Pradesh and extends upto 1.5 km above mean sea level."
+        "raw_text": "The trough from the cyclonic circulation over East Uttar Pradesh to Vidarbha across Chhattisgarh and East Madhya Pradesh persists and now seen at 0.9 km above mean sea level."
       },
       {
         "type": "Trough",
         "subtype": "general",
         "extent": "central Bay of Bengal to Coastal Karnataka",
+        "across": "Coastal Andhra Pradesh, Telangana and Interior Karnataka now seen between 3.1 & 5.8 km above mean sea level",
         "level": {
           "type": "range",
           "min": 3.1,
           "max": 5.8,
           "display": "3.1–5.8 km above MSL"
         },
-        "raw_text": "A trough runs from central Bay of Bengal to Coastal Karnataka across Coastal Andhra Pradesh, Telangana and Interior Karnataka between 3.1 & 5.8 km above mean sea level."
+        "raw_text": "The trough from central Bay of Bengal to Coastal Karnataka across Coastal Andhra Pradesh, Telangana and Interior Karnataka now seen between 3.1 & 5.8 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 5
+    "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-06-10 12:25 IST"
+  "fetched_at": "2026-06-10 16:33 IST"
 }
