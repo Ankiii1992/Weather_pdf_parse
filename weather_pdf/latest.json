@@ -1,7 +1,7 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3c441be40e13b1919cefefbaf36f7b08.pdf",
-  "last_updated": "04:25 PM IST",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8a407336f7bfd40c25fb44bb59fd5bd6.pdf",
+  "last_updated": "07:44 PM IST",
   "slot": "evening",
   "bulletin_date": "2026-06-11",
   "bulletin": {
@@ -40,7 +40,7 @@
       "lon": 83.0
     }
   ],
-  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of Karnataka, Telangana & Andhra Pradesh, remaining parts of Tamil Nadu & Puducherry, southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal and West Bengal, and some parts of Bihar, today the 11th June, 2026.\nThe Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, 21.5°N/89°E, 23°N/90°E, Raiganj, 26°N/87°E, Madhubani and 28.5°N/83°E as on 11th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea & Maharashtra, remaining parts of Karnataka, Telangana, Andhra Pradesh, westcentral & northwest Bay of Bengal, some more parts of West Bengal & Bihar, some parts of Chhattisgarh, Odisha, Jharkhand & Uttar Pradesh during next 2-3 days.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over Haryana & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from the above cyclonic circulation over Haryana to northeast Arabian Sea across West Rajasthan, Gujarat and Saurashtra & Kutch at 0.9 km above mean sea level persists.\nThe seasonal trough at mean sea level from south Punjab to south Bangladesh across the above cyclonic circulation over Haryana, west Uttar Pradesh, north Madhya Pradesh, north Chhattisgarh, Jharkhand & Gangetic West Bengal extending upto 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Uttar Pradesh & neighbourhoodat 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over westcentral Bay of Bengal adjoining north Coastal Andhra Pradesh at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Coastal Andhra Pradesh & neighbourhood at 3.1 km above mean sea level persists.\nThe trough from Eastcentral Arabian Sea to Westcentral Bay of Bengal across south Konkan, Madhya Maharashtra, North Interior Karnataka, Telangana and the above cyclonic circulation over south Coastal Andhra Pradesh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over North Interior Karnataka & neighbourhood at 4.5 km above mean sea level persists.",
+  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of Karnataka, Telangana & Andhra Pradesh, remaining parts of Tamil Nadu & Puducherry, southwest Bay of Bengal, some more parts of westcentral & northwest Bay of Bengal and West Bengal, and some parts of Bihar, today the 11th June, 2026.\nThe Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, 21.5°N/89°E, 23°N/90°E, Raiganj, 26°N/87°E, Madhubani and 28.5°N/83°E as on 11th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea & Maharashtra, remaining parts of Karnataka, Telangana, Andhra Pradesh, westcentral & northwest Bay of Bengal, some more parts of West Bengal & Bihar, some parts of Chhattisgarh, Odisha, Jharkhand & Uttar Pradesh during next 2-3 days.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 75°E to the north of Lat. 28°N .\nThe upper air cyclonic circulation over Haryana & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from the above cyclonic circulation over Haryana to northeast Arabian Sea across West Rajasthan, Gujarat and Saurashtra & Kutch at 0.9 km above mean sea level persists.\nThe seasonal trough at mean sea level from south Punjab to south Bangladesh across the above cyclonic circulation over Haryana, west Uttar Pradesh, north Madhya Pradesh, north Chhattisgarh, Jharkhand & Gangetic West Bengal extending upto 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Uttar Pradesh & neighbourhoodat 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over westcentral Bay of Bengal adjoining north Coastal Andhra Pradesh at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Coastal Andhra Pradesh & neighbourhood at 3.1 km above mean sea level persists.\nThe trough from Eastcentral Arabian Sea to Westcentral Bay of Bengal across south Konkan, Madhya Maharashtra, North Interior Karnataka, Telangana and the above cyclonic circulation over south Coastal Andhra Pradesh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over North Interior Karnataka & neighbourhood at 4.5 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -54,9 +54,9 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 75°E to the north of Lat. 28°N .",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 70°E to the north of Lat. 30°N",
+        "axis": "along Long. 75°E to the north of Lat. 28°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -145,5 +145,5 @@
     "suppressed_count": 3
   },
   "mjo": null,
-  "fetched_at": "2026-06-11 18:05 IST"
+  "fetched_at": "2026-06-11 23:04 IST"
 }
