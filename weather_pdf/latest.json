@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5ab639d47ba3897bd8e8c128c4938c1f.pdf",
-  "last_updated": "04:50 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c1674267d85cba79d6b6b5c68541d857.pdf",
+  "last_updated": "07:50 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-06-12",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Southwest Monsoon has further advanced into entire northwest Bay of Bengal, some more parts of westcentral Bay of Bengal, West Bengal & Bihar, and some parts of Odisha & Jharkhand, today the 12th June, 2026. The Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, Paradeep, Baripada, Purulia, Dhanbad, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, remaining parts of Karnataka, Telangana, Andhra Pradesh, West Bengal & westcentral Bay of Bengal, some more parts of Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 2-3 days.",
-    "night": null
+    "evening": null,
+    "night": "The Southwest Monsoon has further advanced into entire northwest Bay of Bengal, some more parts of westcentral Bay of Bengal, West Bengal & Bihar, and some parts of Odisha & Jharkhand, today the 12th June, 2026. The Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, Paradeep, Baripada, Purulia, Dhanbad, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, remaining parts of Karnataka, Telangana, Andhra Pradesh, West Bengal & westcentral Bay of Bengal, some more parts of Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 2-3 days."
   },
   "nlm_coords": [
     {
@@ -28,7 +28,7 @@
       "lon": 83.0
     }
   ],
-  "met_analysis": "The Southwest Monsoon has further advanced into entire northwest Bay of Bengal, some more parts of westcentral Bay of Bengal, West Bengal & Bihar, and some parts of Odisha & Jharkhand, today the 12th June, 2026.\nThe Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, Paradeep, Baripada, Purulia, Dhanbad, Muzaffarpur and 28.3°N/83°E as on 12 th June, 2026.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, remaining parts of Karnataka, Telangana, Andhra Pradesh, West Bengal & westcentral Bay of Bengal, some more parts of Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 2-3 days.\nThe Western Disturbance as cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 76°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over central Pakistan adjoining Northwest Rajasthan extending upto 1.5 km above mean sea level persists.\nThe seasonal trough at mean sea level from the above cyclonic circulation over central Pakistan adjoining Northwest Rajasthan to south Gangetic West Bengal across north Rajasthan, north Madhya Pradesh, north Chhattisgarh& Jharkhand persists.\nThe trough from central Pakistan adjoining Northwest Rajasthan to northwest Bay of Bengal across north Madhya Pradesh, north Chhattisgarh, Jharkhand, Gangetic West Bengal at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Rajasthan & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over coastal Bangladesh & adjoining north Bay of Bengal extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over north coastal Tamil Nadu at 3.1 km above mean sea level persists.\nThe shear zone around 11°N across the above cyclonic circulation over north coastal Tamil Nadu at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over south Coastal Andhra Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam at 3.1 km above mean sea level persists.",
+  "met_analysis": "The Southwest Monsoon has further advanced into entire northwest Bay of Bengal, some more parts of westcentral Bay of Bengal, West Bengal & Bihar, and some parts of Odisha & Jharkhand, today the 12th June, 2026.\nThe Northern Limit of Monsoon passes through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, Paradeep, Baripada, Purulia, Dhanbad, Muzaffarpur and 28.3°N/83°E as on 12 th June, 2026.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, remaining parts of Karnataka, Telangana, Andhra Pradesh, West Bengal & westcentral Bay of Bengal, some more parts of Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 2-3 days.\nThe Western Disturbance as cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over central Pakistan adjoining Northwest Rajasthan extending upto 1.5 km above mean sea level persists.\nThe seasonal trough at mean sea level from the above cyclonic circulation over central Pakistan adjoining Northwest Rajasthan to south Gangetic West Bengal across north Rajasthan, north Madhya Pradesh, north Chhattisgarh& Jharkhand persists.\nThe trough from central Pakistan adjoining Northwest Rajasthan to northwest Bay of Bengal across north Madhya Pradesh, north Chhattisgarh, Jharkhand, Gangetic West Bengal at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Rajasthan & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over coastal Bangladesh & adjoining north Bay of Bengal extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over north coastal Tamil Nadu at 3.1 km above mean sea level persists.\nThe shear zone around 11°N across the above cyclonic circulation over north coastal Tamil Nadu at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over south Coastal Andhra Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -49,7 +49,7 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 76°E to the north of Lat. 28°N.",
+        "raw_text": "The Western Disturbance as cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 28°N.",
         "form": "cyclonic_circulation",
         "location": "north Haryana & neighbourhood",
         "level": {
@@ -146,5 +146,5 @@
     "suppressed_count": 3
   },
   "mjo": null,
-  "fetched_at": "2026-06-12 17:40 IST"
+  "fetched_at": "2026-06-12 23:00 IST"
 }
