@@ -1,0 +1,132 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c5f08aebdb3e9073eb850032c14ee918.pdf",
+  "last_updated": "08:14 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-12",
+  "bulletin": {
+    "morning": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, 21.5°N/89°E, 23°N/90°E, Raiganj, 26°N/87°E, Madhubani and 28.5°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea & Maharashtra, remaining parts of Karnataka, Telangana, Andhra Pradesh, westcentral & northwest Bay of Bengal, some more parts of West Bengal & Bihar, some parts of Chhattisgarh, Odisha, Jharkhand & Uttar Pradesh during next 2-3 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 18.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 18.0,
+      "lon": 65.0
+    },
+    {
+      "lat": 18.0,
+      "lon": 70.0
+    },
+    {
+      "lat": 21.5,
+      "lon": 89.0
+    },
+    {
+      "lat": 23.0,
+      "lon": 90.0
+    },
+    {
+      "lat": 26.0,
+      "lon": 87.0
+    },
+    {
+      "lat": 28.5,
+      "lon": 83.0
+    }
+  ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, 21.5°N/89°E, 23°N/90°E, Raiganj, 26°N/87°E, Madhubani and 28.5°N/83°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea & Maharashtra, remaining parts of Karnataka, Telangana, Andhra Pradesh, westcentral & northwest Bay of Bengal, some more parts of West Bengal & Bihar, some parts of Chhattisgarh, Odisha, Jharkhand & Uttar Pradesh during next 2-3 days.\nThe Western Disturbance now seen as cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 28°N.\nAn upper air cyclonic circulation lies over central Pakistan & adjoining Punjab and extends upto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over east Vidarbha & adjoining Chhattisgarh at 0.9 km above mean sea level.\nThe seasonal trough at mean sea level now runs from the above cyclonic circulation over central Pakistan & adjoining Punjab to south Gangetic West Bengal across north Rajasthan, north Madhya Pradesh, north Chhattisgarh& Jharkhand and extends upto 1.5 km above mean sea level persists.\nAn upper air cyclonic circulation lies over coastal Bangladesh & adjoining northeast Bay of Bengal and extends upto 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over north Tamil Nadu coast at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over south Coastal Andhra Pradesh & neighbourhood persists and now seen at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over North Interior Karnataka & neighbourhood at 4.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Haryana & neighbourhood extending upto 1.5 km above mean sea level has become less marked.\nThe trough from the above cyclonic circulation over Haryana to northeast Arabian Sea across West Rajasthan, Gujarat and Saurashtra & Kutch at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over southeast Uttar Pradesh & neighbourhoodat 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over westcentral Bay of Bengal adjoining north Coastal Andhra Pradesh at 1.5 km above mean sea level has become less marked.\nThe trough from Eastcentral Arabian Sea to Westcentral Bay of Bengal across south Konkan, Madhya Maharashtra, North Interior Karnataka, Telangana and the above cyclonic circulation over south Coastal Andhra Pradesh at 3.1 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now runs from the above cyclonic circulation over central Pakistan & adjoining Punjab to south Gangetic West Bengal across north Rajasthan, north Madhya Pradesh, north Chhattisgarh& Jharkhand and extends upto 1.5 km above mean sea level persists.",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance now seen as cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 28°N.",
+        "form": "cyclonic_circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Pakistan & adjoining Punjab",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over central Pakistan & adjoining Punjab and extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "east Vidarbha & adjoining Chhattisgarh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over east Vidarbha & adjoining Chhattisgarh at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "coastal Bangladesh & adjoining northeast Bay of Bengal",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over coastal Bangladesh & adjoining northeast Bay of Bengal and extends upto 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Tamil Nadu coast",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over north Tamil Nadu coast at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Coastal Andhra Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Coastal Andhra Pradesh & neighbourhood persists and now seen at 5.8 km above mean sea level."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 8
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-12 12:04 IST"
+}
