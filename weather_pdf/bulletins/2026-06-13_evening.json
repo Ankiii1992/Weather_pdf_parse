@@ -1,0 +1,133 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2e1603f7cb9277e54c1f1f6858f158ed.pdf",
+  "last_updated": "04:30 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-06-13",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, Paradeep, Baripada, Purulia, Dhanbad, Muzaffarpur and 28.3°N/83°E as on 13 th June, 2026. Conditions are favourable for further advance of southwest monsoon into remaining parts of Karnataka, Telangana, Andhra Pradesh, some more parts of Odisha and some parts of South Chhattisgarh during next 2-3 days.",
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 18.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 18.0,
+      "lon": 65.0
+    },
+    {
+      "lat": 18.0,
+      "lon": 70.0
+    },
+    {
+      "lat": 28.3,
+      "lon": 83.0
+    }
+  ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadradri Kothagudem, Kalingapatnam, Paradeep, Baripada, Purulia, Dhanbad, Muzaffarpur and 28.3°N/83°E as on 13 th June, 2026.\nConditions are favourable for further advance of southwest monsoon into remaining parts of Karnataka, Telangana, Andhra Pradesh, West Bengal, some more parts of Odisha and some parts of South Chhattisgarh during next 2-3 days.\nThe Western Disturbance as cyclonic circulation over north Haryana & neighbourhood between 3.1 & 4.5 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 28°N persists.\nThe induced cyclonic circulation over Haryana & neighbourhood and extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over central Pakistan adjoining West Rajasthan and extends upto 1.5 km above mean sea level persists.\nThe seasonal trough from the above cyclonic circulation over central Pakistan adjoining West Rajasthan to Bangladesh across Rajasthan, Madhya Pradesh, north Chhattisgarh, Jharkhand & Gangetic West Bengal and extending upto 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over East Assam & neighbourhood and extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north coastal Tamil Nadu at 3.1 km above mean sea level persists.\nThe shear zone around 11°N across the above cyclonic circulation over north coastal Tamil Nadu at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over south Telangana & neighbourhood at 5.8 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough from the above cyclonic circulation over central Pakistan adjoining West Rajasthan to Bangladesh across Rajasthan, Madhya Pradesh, north Chhattisgarh, Jharkhand & Gangetic West Bengal and extending upto 0.9 km above mean sea level persists.",
+        "level": {
+          "type": "upto",
+          "max": 0.9,
+          "display": "upto 0.9 km above MSL"
+        }
+      },
+      {
+        "type": "Shear Zone",
+        "location": "north coastal Tamil Nadu",
+        "across": "the above cyclonic circulation over north coastal Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The shear zone around 11°N across the above cyclonic circulation over north coastal Tamil Nadu at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as cyclonic circulation over north Haryana & neighbourhood between 3.1 & 4.5 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 28°N persists.",
+        "form": "cyclonic_circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Haryana & neighbourhood and",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "induced": true,
+        "raw_text": "The induced cyclonic circulation over Haryana & neighbourhood and extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Pakistan adjoining West Rajasthan",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Pakistan adjoining West Rajasthan and extends upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Assam & neighbourhood and",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Assam & neighbourhood and extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north coastal Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north coastal Tamil Nadu at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Telangana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Telangana & neighbourhood at 5.8 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 2
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-13 16:37 IST"
+}
