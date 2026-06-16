@@ -1,0 +1,130 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/54a8a976593efd295d75b7601474eb6b.pdf",
+  "last_updated": "08:05 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-16",
+  "bulletin": {
+    "morning": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, remaining parts of Karnataka, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 4-5 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 18.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 18.0,
+      "lon": 65.0
+    },
+    {
+      "lat": 18.0,
+      "lon": 70.0
+    },
+    {
+      "lat": 28.3,
+      "lon": 83.0
+    }
+  ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of central Arabian Sea, Maharashtra, remaining parts of Karnataka, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 4-5 days.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nAn upper air cyclonic circulation lies over East Uttar Pradesh at 0.9 km above mean sea level.\nA trough runs from above cyclonic circulation over East Uttar Pradesh to south Coastal Andhra Pradesh across East Madhya Pradesh, east Vidarbha and Telangana at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over central Assam at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over south Madhya Maharashtra & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over south Punjab & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan adjoining Jammu & Kashmir lay over south Himachal Pradesh & neighbourhood at 4.5 km above mean sea level with a trough aloft in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 75°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over Ladakh & neighbourhood between 5.8 & 9.4 km above mean sea level merged with system.\nA fresh Western Disturbance likely to affect Northwest India from 18th June, 2026.\nThe upper air cyclonic circulation over southeast Pakistan adjoining southwest Rajasthan extending upto 3.1 km above mean sea level has become less marked.\nThe trough from east Bihar to south Chhattisgarh extending upto 1.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.",
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan adjoining Jammu & Kashmir lies over south Himachal Pradesh & neighbourhood at 4.5 km above mean sea level with a trough aloft in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 75°E to the north of Lat. 28°N.",
+        "form": "cyclonic_circulation",
+        "location": "south Himachal Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 4.5,
+          "display": "4.5 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over East Uttar Pradesh at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Assam",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over central Assam at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Madhya Maharashtra & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Madhya Maharashtra & neighbourhood at 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Punjab & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Punjab & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Ladakh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 9.4,
+          "display": "5.8–9.4 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Ladakh & neighbourhood between 5.8 & 9.4 km above mean sea level merged with system."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "cyclonic circulation over East Uttar Pradesh to south Coastal Andhra Pradesh",
+        "across": "East Madhya Pradesh, east Vidarbha and Telangana",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "A trough runs from above cyclonic circulation over East Uttar Pradesh to south Coastal Andhra Pradesh across East Madhya Pradesh, east Vidarbha and Telangana at 0.9 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 5
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-16 13:17 IST"
+}
