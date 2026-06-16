@@ -1,0 +1,133 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/88abcfb91def9b906b29d0e1af7a368e.pdf",
+  "last_updated": "04:34 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-06-16",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 4-5 days.",
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 18.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 18.0,
+      "lon": 65.0
+    },
+    {
+      "lat": 18.0,
+      "lon": 70.0
+    },
+    {
+      "lat": 28.3,
+      "lon": 83.0
+    }
+  ],
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 4-5 days.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe upper air cyclonic circulation over Haryana & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over south Himachal Pradesh & neighbourhood between 4.5 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh at 0.9 km above mean sea level persists.\nThe trough from above cyclonic circulation over East Uttar Pradesh to south Coastal Andhra Pradesh across East Madhya Pradesh, east Vidarbha and Telangana at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Bihar adjoining Jharkhand at 0.9 km above mean sea level persists.\nThe trough from Westcentral Bay of Bengal to Coastal Karala at 3.1 Km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Madhya Maharashtra & neighbourhood at 5.8 km above mean sea level persists.\nA fresh Western Disturbance likely to affect Northwest India from 18th June, 2026.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.",
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over south Himachal Pradesh & neighbourhood between 4.5 & 7.6 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "south Himachal Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 7.6,
+          "display": "4.5–7.6 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Haryana & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Haryana & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Bihar adjoining Jharkhand",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Bihar adjoining Jharkhand at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Assam",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Assam at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Madhya Maharashtra & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Madhya Maharashtra & neighbourhood at 5.8 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "cyclonic circulation over East Uttar Pradesh to south Coastal Andhra Pradesh",
+        "across": "East Madhya Pradesh, east Vidarbha and Telangana",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from above cyclonic circulation over East Uttar Pradesh to south Coastal Andhra Pradesh across East Madhya Pradesh, east Vidarbha and Telangana at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Westcentral Bay of Bengal to Coastal Karala",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from Westcentral Bay of Bengal to Coastal Karala at 3.1 Km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 3
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-16 18:51 IST"
+}
