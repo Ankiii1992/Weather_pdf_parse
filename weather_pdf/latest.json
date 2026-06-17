@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/05938a3d370e4d29cd5d0de655c3ccc9.pdf",
-  "last_updated": "04:44 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9eb2f955bb023d6f7a250451723ce169.pdf",
+  "last_updated": "07:50 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-06-17",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 4-5 days.",
-    "night": null
+    "evening": null,
+    "night": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 4-5 days."
   },
   "nlm_coords": [
     {
@@ -28,7 +28,7 @@
       "lon": 83.0
     }
   ],
-  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 4-5 days.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric levels with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 32°N persists.\nThe induced upper air cyclonic circulation over south Punjab & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe trough from East Uttar Pradesh to south Coastal Andhra Pradesh across East Madhya Pradesh, East Vidarbha and Telangana persists extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over East Vidarbha & adjoining South Chhattisgarh at 5.8 km above mean sea level persists.\nThe trough from North Tamil Nadu to Lakshadweep at 3.1 Km above mean sea level persists.\nA fresh Western Disturbance likely to affect Northwest India from 18th June, 2026.",
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh during next 4-5 days.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric levels with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 32°N persists.\nThe induced upper air cyclonic circulation over south Punjab & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe trough from East Uttar Pradesh to south Coastal Andhra Pradesh across East Madhya Pradesh, East Vidarbha and Telangana extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over East Vidarbha & adjoining South Chhattisgarh at 5.8 km above mean sea level persists.\nThe trough from North Tamil Nadu to Lakshadweep at 3.1 Km above mean sea level persists.\nA fresh Western Disturbance likely to affect Northwest India from 18th June, 2026.",
   "systems": {
     "priority": [
       {
@@ -101,7 +101,7 @@
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The trough from East Uttar Pradesh to south Coastal Andhra Pradesh across East Madhya Pradesh, East Vidarbha and Telangana persists extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The trough from East Uttar Pradesh to south Coastal Andhra Pradesh across East Madhya Pradesh, East Vidarbha and Telangana extending upto 1.5 km above mean sea level persists."
       },
       {
         "type": "Trough",
@@ -118,5 +118,5 @@
     "suppressed_count": 3
   },
   "mjo": null,
-  "fetched_at": "2026-06-17 18:13 IST"
+  "fetched_at": "2026-06-17 23:11 IST"
 }
