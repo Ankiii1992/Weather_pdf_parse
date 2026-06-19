@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d6e2035ac6253ab9c44a2b0f8e26d9f6.pdf",
-  "last_updated": "01:56 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ebb44ec82e64b68d03a5110d39c51e96.pdf",
+  "last_updated": "05:02 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-06-19",
   "bulletin": {
     "morning": null,
-    "midday": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026.",
-    "evening": null,
+    "midday": null,
+    "evening": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026.",
     "night": null
   },
   "nlm_coords": [
@@ -28,7 +28,7 @@
       "lon": 83.0
     }
   ],
-  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe Western Disturbance now seen as a cyclonic circulation over north Punjab & neighbourhood between 3.1 & 5.8 km above mean sea level tilting northwestwards with height.\nAn induced upper air cyclonic circulation lies over Punjab & neighbourhood at 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over southwest Madhya Pradesh & neighbourhoodat 5.8 km above mean sea level.\nThe trough from the above cyclonic circulation over Southwest Madhya Pradesh to East Central Arabian Sea across Madhya Maharashtra and Konkan at 5.8 km above mean sea level persists.\nThe trough from east Vidarbha to Tamil Nadu across Telangana and Andhra Pradesh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over South East Arabian Sea & adjoining Kerala now lies over north Lakshadweep & neighbourhoodat 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over north Gujarat adjoining southeast Rajasthan at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Central parts of Assam at 0.9 km above mean sea level has become less marked.",
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe Western Disturbance as a cyclonic circulation over north Punjab & neighbourhood between 3.1 & 5.8 km above mean sea level tilting northwestwards with height persists.\nThe induced upper air cyclonic circulation over Punjab & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Madhya Pradesh & neighbourhoodat 5.8 km above mean sea level persists.\nThe trough from the above cyclonic circulation over Southwest Madhya Pradesh to East Central Arabian Sea across Madhya Maharashtra and Konkan at 5.8 km above mean sea level persists.\nThe trough from east Vidarbha to Tamil Nadu across Telangana and Andhra Pradesh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over north Lakshadweep & neighbourhoodat 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -38,7 +38,7 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance now seen as a cyclonic circulation over north Punjab & neighbourhood between 3.1 & 5.8 km above mean sea level tilting northwestwards with height.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Punjab & neighbourhood between 3.1 & 5.8 km above mean sea level tilting northwestwards with height persists.",
         "form": "cyclonic_circulation",
         "location": "north Punjab & neighbourhood",
         "level": {
@@ -59,7 +59,7 @@
           "display": "1.5 km above MSL"
         },
         "induced": true,
-        "raw_text": "An induced upper air cyclonic circulation lies over Punjab & neighbourhood at 1.5 km above mean sea level."
+        "raw_text": "The induced upper air cyclonic circulation over Punjab & neighbourhood at 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -69,7 +69,7 @@
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over southwest Madhya Pradesh & neighbourhoodat 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over southwest Madhya Pradesh & neighbourhoodat 5.8 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -79,7 +79,7 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over South East Arabian Sea & adjoining Kerala now lies over north Lakshadweep & neighbourhoodat 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over north Lakshadweep & neighbourhoodat 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [
@@ -108,8 +108,8 @@
         "raw_text": "The trough from east Vidarbha to Tamil Nadu across Telangana and Andhra Pradesh at 0.9 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 5
+    "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-06-19 15:55 IST"
+  "fetched_at": "2026-06-19 18:09 IST"
 }
