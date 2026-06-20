@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bfb59ea70462359747aa4b45a83a4905.pdf",
-  "last_updated": "02:11 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/292894576c7ed449fed1d46c395b0e4b.pdf",
+  "last_updated": "05:03 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-06-20",
   "bulletin": {
     "morning": null,
-    "midday": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026.",
-    "evening": null,
+    "midday": null,
+    "evening": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026.",
     "night": null
   },
   "nlm_coords": [
@@ -28,7 +28,7 @@
       "lon": 83.0
     }
   ],
-  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists.\nThe troughfrom the above cyclonic circulation over East Uttar Pradesh to Coastal Andhra Pradesh across East Madhya Pradesh, east Vidarbha, and south Chhattisgarh at 0.9 km above mean sea level persists.\nThe trough in lower tropospheric westerlies with its axis at 1.5 km above mean sea level runs roughly along Long. 87 °E to the north of Lat.21°N persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu between 3.1 & 5.8 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long 70°E to the north of Lat 30°N.\nThe upper air cyclonic circulationover Gujarat & neighbourhoodat 5.8 km above mean sea level persists.\nThe trough now runs from North Telangana to East Central Arabian Sea across above cyclonic circulation over Gujarat and neighbourhood at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over north Kerala at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north Lakshadweep & neighbourhoodat 3.1 km above mean sea level persists.",
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E.\nConditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from the above cyclonic circulation over East Uttar Pradesh to Coastal Andhra Pradesh across East Madhya Pradesh, east Vidarbha, and south Chhattisgarh at 0.9 km above mean sea level persists.\nThe trough in lower tropospheric westerlies with its axis at 1.5 km above mean sea level along Long. 87 °E to the north of Lat.21°N persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu between 3.1 & 5.8 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long 70°E to the north of Lat 30°N persists.\nThe upper air cyclonic circulationover Gujarat & neighbourhoodat 5.8 km above mean sea level persists.\nThe trough from North Telangana to East Central Arabian Sea across above cyclonic circulation over Gujarat and neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north Kerala at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north Lakshadweep & neighbourhoodat 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -38,7 +38,7 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu between 3.1 & 5.8 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long 70°E to the north of Lat 30°N.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu between 3.1 & 5.8 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long 70°E to the north of Lat 30°N persists.",
         "form": "cyclonic_circulation",
         "location": "north Pakistan & adjoining Jammu",
         "level": {
@@ -48,7 +48,7 @@
           "display": "3.1–5.8 km above MSL"
         },
         "trough_aloft": {
-          "axis": "Long 70°E to the north of Lat 30°N",
+          "axis": "Long 70°E to the north of Lat 30°N persists",
           "level": {
             "type": "single",
             "min": 7.6,
@@ -109,7 +109,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The troughfrom the above cyclonic circulation over East Uttar Pradesh to Coastal Andhra Pradesh across East Madhya Pradesh, east Vidarbha, and south Chhattisgarh at 0.9 km above mean sea level persists."
+        "raw_text": "The trough from the above cyclonic circulation over East Uttar Pradesh to Coastal Andhra Pradesh across East Madhya Pradesh, east Vidarbha, and south Chhattisgarh at 0.9 km above mean sea level persists."
       },
       {
         "type": "Trough",
@@ -120,7 +120,7 @@
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The trough in lower tropospheric westerlies with its axis at 1.5 km above mean sea level runs roughly along Long. 87 °E to the north of Lat.21°N persists."
+        "raw_text": "The trough in lower tropospheric westerlies with its axis at 1.5 km above mean sea level along Long. 87 °E to the north of Lat.21°N persists."
       },
       {
         "type": "Trough",
@@ -132,11 +132,11 @@
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The trough now runs from North Telangana to East Central Arabian Sea across above cyclonic circulation over Gujarat and neighbourhood at 5.8 km above mean sea level."
+        "raw_text": "The trough from North Telangana to East Central Arabian Sea across above cyclonic circulation over Gujarat and neighbourhood at 5.8 km above mean sea level persists."
       }
     ],
     "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-06-20 16:36 IST"
+  "fetched_at": "2026-06-20 18:49 IST"
 }
