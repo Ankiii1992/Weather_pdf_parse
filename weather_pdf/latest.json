@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/25fe71f8ae91c3954ae9e87f13707a6a.pdf",
-  "last_updated": "04:39 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/06937eeaa7f822dd83160a3354c51818.pdf",
+  "last_updated": "08:06 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-06-21",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026.",
-    "night": null
+    "evening": null,
+    "night": "The Northern Limit of Monsoon continues to pass through 18°N/60°E, 18°N/65°E, 18°N/70°E, Harnai, Solapur, Hyderabad, Bhadrachalam, Koraput, Phulbani, Ranchi, Jamui, Muzaffarpur and 28.3°N/83°E. Conditions are favourable for further advance of southwest monsoon into some more parts of Maharashtra, Telangana, Odisha, Jharkhand & Bihar, and some parts of Chhattisgarh around 23rd June, 2026."
   },
   "nlm_coords": [
     {
@@ -119,5 +119,5 @@
     "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-06-21 18:59 IST"
+  "fetched_at": "2026-06-21 21:54 IST"
 }
