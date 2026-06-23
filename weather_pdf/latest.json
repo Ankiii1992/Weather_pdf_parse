@@ -1,26 +1,26 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/88abdc8d90a11df3856d1ec287f1733f.pdf",
-  "last_updated": "07:52 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/169368a389abf24520d660f22358b86d.pdf",
+  "last_updated": "01:46 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-06-23",
   "bulletin": {
-    "morning": "The Southwest Monsoon has further advanced into some more parts of central Arabian Sea, Maharashtra, Telangana, remaining parts of Karnataka, some parts of Chhattisgarh, some more parts of Odisha, Jharkhand & Bihar, yesterday the 22nd June, 2026. The Northern Limit of Monsoon continues to pass through 19°N/60°E, 19°N/65°E, 18.8°N/70°E, Alibag, Pune, Nizamabad, Dantewada, Balangir, Sundargarh, Chatra, Gaya, Muzaffarpur and 28.3°N/83°E as on 22nd June, 2026. Conditions are favourable for further advance of southwest monsoon into remaining parts of central Arabian Sea, some more parts of Maharashtra including Mumbai, remaining parts of Telangana and Odisha, some more parts of Chhattisgarh, Jharkhand and Bihar during next 48 hours.",
-    "midday": null,
+    "morning": null,
+    "midday": "The Southwest Monsoon has further advanced into remaining parts of central Arabian Sea, some more parts of Maharashtra including Mumbai, remaining parts of Telangana & Odisha, some more parts of Chhattisgarh, Jharkhand & Bihar, today the 23rd June, 2026. The Northern Limit of Monsoon passes through 20°N/60°E, 20°N/65°E, 20°N/70°E, Dahanu, Wardha, Raipur, Daltonganj, Motihari and 28.3°N/83°E as on 23 rd June, 2026. Conditions are favourable for further advance of southwest monsoon into some parts of North Arabian Sea & Gujarat, some more parts of Maharashtra and Chhattisgarh, some parts of Madhya Pradesh during next 2-3 days; remaining parts of Jharkhand & Bihar, some parts of Uttar Pradesh during subsequent 3-4 days.",
     "evening": null,
     "night": null
   },
   "nlm_coords": [
     {
-      "lat": 19.0,
+      "lat": 20.0,
       "lon": 60.0
     },
     {
-      "lat": 19.0,
+      "lat": 20.0,
       "lon": 65.0
     },
     {
-      "lat": 18.8,
+      "lat": 20.0,
       "lon": 70.0
     },
     {
@@ -28,119 +28,95 @@
       "lon": 83.0
     }
   ],
-  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of central Arabian Sea, Maharashtra, Telangana, remaining parts of Karnataka, some parts of Chhattisgarh, some more parts of Odisha, Jharkhand & Bihar, yesterday the 22nd June, 2026.\nThe Northern Limit of Monsoon continues to pass through 19°N/60°E, 19°N/65°E, 18.8°N/70°E, Alibag, Pune, Nizamabad, Dantewada, Balangir, Sundargarh, Chatra, Gaya, Muzaffarpur and 28.3°N/83°E as on 22nd June, 2026.\nConditions are favourable for further advance of southwest monsoon into remaining parts of central Arabian Sea, some more parts of Maharashtra including Mumbai, remaining parts of Telangana and Odisha, some more parts of Chhattisgarh, Jharkhand and Bihar during next 48 hours.\nThe seasonal trough at mean sea level from Rajasthan to Bihar across Uttar Pradesh persists.\nThe upper air cyclonic circulation over northwest Bihar & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from north Bihar to north coastal Odisha across Jharkhand & Gangetic West Bengal extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over central parts of North & adjoining Central Bay of Bengal between 3.1 & 5.8 km above mean sea level persists.\nThe trough from Rayalaseema to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam & neighbourhoodat 0.9 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over northeast Punjab & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulationover Haryana extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 1.5 km above mean sea level persists.\nThe trough from north Gujarat to West Central Arabian Sea across Saurashtra at 3.1 km above mean sea level persists.",
+  "met_analysis": "The Southwest Monsoon has further advanced into remaining parts of central Arabian Sea, some more parts of Maharashtra including Mumbai, remaining parts of Telangana & Odisha, some more parts of Chhattisgarh, Jharkhand & Bihar, today the 23rd June, 2026.\nThe Northern Limit of Monsoon passes through 20°N/60°E, 20°N/65°E, 20°N/70°E, Dahanu, Wardha, Raipur, Daltonganj, Motihari and 28.3°N/83°E as on 23 rd June, 2026.\nConditions are favourable for further advance of southwest monsoon into some parts of North Arabian Sea & Gujarat, some more parts of Maharashtra and Chhattisgarh, some parts of Madhya Pradesh during next 2-3 days; remaining parts of Jharkhand & Bihar, some parts of Uttar Pradesh during subsequent 3-4 days.\nThe seasonal trough at mean sea level now runs from north Rajasthan to Bihar across Uttar Pradesh.\nThe trough from north Bihar to north coastal Odisha now runs from north Bihar to northwest Bay of Bengal across Jharkhand, Gangetic West Bengal and Odisha at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over central parts of North & adjoining Central Bay of Bengal persists and now lies between 4.5 & 5.8 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over northeast Punjab & neighbourhood now lies over northwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level.\nA trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs from northern parts of central Uttar Pradesh to north Gujarat across Rajasthan.\nThe upper air cyclonic circulationover Haryana now lies over north Haryana at 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Lakshadweep area & neighbourhood at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over north Gujarat & neighbourhood at 3.1 km above mean sea level.\nThe trough from north Gujarat to West Central Arabian Sea across Saurashtra at 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over northwest Bihar & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe trough from Rayalaseema to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over central Assam & neighbourhoodat 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 1.5 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level from Rajasthan to Bihar across Uttar Pradesh persists.",
+        "raw_text": "The Monsoon trough at mean sea level now runs from north Rajasthan to Bihar across Uttar Pradesh.",
         "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over northeast Punjab & neighbourhood between 3.1 & 5.8 km above mean sea level persists.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over northeast Punjab & neighbourhood now lies over northwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level.",
         "form": "cyclonic_circulation",
-        "location": "northeast Punjab & neighbourhood",
+        "location": "northwest Uttar Pradesh & neighbourhood",
         "level": {
-          "type": "range",
+          "type": "single",
           "min": 3.1,
-          "max": 5.8,
-          "display": "3.1–5.8 km above MSL"
+          "display": "3.1 km above MSL"
         }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Bihar & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over northwest Bihar & neighbourhood at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
         "location": "central parts of North & adjoining Central Bay of Bengal",
         "level": {
           "type": "range",
-          "min": 3.1,
+          "min": 4.5,
           "max": 5.8,
-          "display": "3.1–5.8 km above MSL"
+          "display": "4.5–5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central parts of North & adjoining Central Bay of Bengal between 3.1 & 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over central parts of North & adjoining Central Bay of Bengal persists and now lies between 4.5 & 5.8 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "central Assam & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over central Assam & neighbourhoodat 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulationover Haryana extending upto 1.5 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Uttar Pradesh & neighbourhood",
+        "location": "north Haryana",
         "level": {
           "type": "single",
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulationover Haryana now lies over north Haryana at 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Lakshadweep area & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Lakshadweep area & neighbourhood at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Gujarat & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over north Gujarat & neighbourhood at 3.1 km above mean sea level."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "north Bihar to north coastal Odisha",
-        "across": "Jharkhand & Gangetic West Bengal",
+        "extent": "north Bihar to north coastal Odisha now runs from north Bihar to northwest Bay of Bengal",
+        "across": "Jharkhand, Gangetic West Bengal and Odisha",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
         },
-        "raw_text": "The trough from north Bihar to north coastal Odisha across Jharkhand & Gangetic West Bengal extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The trough from north Bihar to north coastal Odisha now runs from north Bihar to northwest Bay of Bengal across Jharkhand, Gangetic West Bengal and Odisha at 1.5 km above mean sea level."
       },
       {
         "type": "Trough",
-        "subtype": "general",
-        "extent": "Rayalaseema to Gulf of Mannar",
-        "across": "Tamil Nadu",
+        "subtype": "westerlies",
         "level": {
           "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         },
-        "raw_text": "The trough from Rayalaseema to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "north Gujarat to West Central Arabian Sea",
-        "across": "Saurashtra",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The trough from north Gujarat to West Central Arabian Sea across Saurashtra at 3.1 km above mean sea level persists."
+        "raw_text": "A trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs from northern parts of central Uttar Pradesh to north Gujarat across Rajasthan."
       }
     ],
-    "suppressed_count": 3
+    "suppressed_count": 8
   },
   "mjo": null,
-  "fetched_at": "2026-06-23 12:06 IST"
+  "fetched_at": "2026-06-23 14:46 IST"
 }
