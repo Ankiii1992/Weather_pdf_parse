@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/12daa82934cc8c1caf8d5a299b29d3a0.pdf",
-  "last_updated": "04:24 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/90e81c49f09c75f8af1ae6cc649b5d24.pdf",
+  "last_updated": "07:46 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-06-24",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Southwest Monsoon has further advanced into some parts of Northeast Arabian Sea, Gujarat & Madhya Pradesh, remaining parts of Maharashtra, and some more parts of Chhattisgarh & Jharkhand, today the 24th June, 2026. The Northern Limit of Monsoon passes through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 24 th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh during next 2-3 days; some more parts of Gujarat, Madhya Pradesh & Uttar Pradesh, and some parts of Uttarakhand during subsequent 2-3 days.",
-    "night": null
+    "evening": null,
+    "night": "The Southwest Monsoon has further advanced into some parts of Northeast Arabian Sea, Gujarat & Madhya Pradesh, remaining parts of Maharashtra, and some more parts of Chhattisgarh & Jharkhand, today the 24th June, 2026. The Northern Limit of Monsoon passes through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 24 th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh during next 2-3 days; some more parts of Gujarat, Madhya Pradesh & Uttar Pradesh, and some parts of Uttarakhand during subsequent 2-3 days."
   },
   "nlm_coords": [
     {
@@ -118,5 +118,5 @@
     "suppressed_count": 3
   },
   "mjo": null,
-  "fetched_at": "2026-06-24 19:29 IST"
+  "fetched_at": "2026-06-24 22:29 IST"
 }
