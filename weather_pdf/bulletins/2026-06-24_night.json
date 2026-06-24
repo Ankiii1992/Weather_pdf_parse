@@ -1,0 +1,122 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/90e81c49f09c75f8af1ae6cc649b5d24.pdf",
+  "last_updated": "07:46 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-06-24",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": "The Southwest Monsoon has further advanced into some parts of Northeast Arabian Sea, Gujarat & Madhya Pradesh, remaining parts of Maharashtra, and some more parts of Chhattisgarh & Jharkhand, today the 24th June, 2026. The Northern Limit of Monsoon passes through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 24 th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh during next 2-3 days; some more parts of Gujarat, Madhya Pradesh & Uttar Pradesh, and some parts of Uttarakhand during subsequent 2-3 days."
+  },
+  "nlm_coords": [
+    {
+      "lat": 20.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 20.0,
+      "lon": 65.0
+    },
+    {
+      "lat": 20.0,
+      "lon": 70.0
+    },
+    {
+      "lat": 28.3,
+      "lon": 83.0
+    }
+  ],
+  "met_analysis": "The Southwest Monsoon has further advanced into some parts of Northeast Arabian Sea, Gujarat & Madhya Pradesh, remaining parts of Maharashtra, and some more parts of Chhattisgarh & Jharkhand, today the 24th June, 2026.\nThe Northern Limit of Monsoon passes through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 24 th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh during next 2-3 days; some more parts of Gujarat, Madhya Pradesh & Uttar Pradesh, and some parts of Uttarakhand during subsequent 2-3 days.\nThe seasonal trough at mean sea level from Rajasthan to Gangetic West Bengal across north Madhya Pradesh, south Uttar Pradesh, Bihar, and Jharkhand persists.\nThe upper air cyclonic circulation over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bay of Bengal & adjoining coastal Bangladesh between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast parts of Madhya Pradesh at 3.1 km above mean sea level persists.\nThe trough from southeast parts of Madhya Pradesh to Eastcentral Arabian Sea across North Maharashtra at 3.1 km above mean sea level persists.\nThe Western Disturbance asa cyclonic circulation over Haryana & neighbourhood between 5.8 & 7.6 km above mean sea level persists.\nThe trough in middle level westerlies with its axis at 5.8 km above mean sea level from southeast Rajasthan to Eastcentral Arabian Sea across Gujrat and north Maharashtra persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level from Rajasthan to Gangetic West Bengal across north Madhya Pradesh, south Uttar Pradesh, Bihar, and Jharkhand persists.",
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance asa cyclonic circulation over Haryana & neighbourhood between 5.8 & 7.6 km above mean sea level persists.",
+        "form": "trough_in_westerlies",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Assam",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Assam at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Bay of Bengal & adjoining coastal Bangladesh",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Bay of Bengal & adjoining coastal Bangladesh between 3.1 & 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast parts of Madhya Pradesh",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast parts of Madhya Pradesh at 3.1 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "southeast parts of Madhya Pradesh to Eastcentral Arabian Sea",
+        "across": "North Maharashtra",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from southeast parts of Madhya Pradesh to Eastcentral Arabian Sea across North Maharashtra at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "westerlies",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough in middle level westerlies with its axis at 5.8 km above mean sea level from southeast Rajasthan to Eastcentral Arabian Sea across Gujrat and north Maharashtra persists."
+      }
+    ],
+    "suppressed_count": 3
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-24 22:29 IST"
+}
