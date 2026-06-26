@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/435ad6d9aef21faaabc01f3604b9bf7a.pdf",
-  "last_updated": "07:58 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-06-25",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/50873a0e7b7c0b059f693c0e8ccf57b7.pdf",
+  "last_updated": "07:56 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-26",
   "bulletin": {
-    "morning": null,
+    "morning": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 25 th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 3-4 days.",
     "midday": null,
     "evening": null,
-    "night": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 25 th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 3-4 days."
+    "night": null
   },
   "nlm_coords": [
     {
@@ -124,5 +124,5 @@
     "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-06-26 07:28 IST"
+  "fetched_at": "2026-06-26 12:11 IST"
 }
