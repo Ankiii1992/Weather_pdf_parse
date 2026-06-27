@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/161329c11b5c4b96eb7881cdedfd5e6f.pdf",
-  "last_updated": "07:58 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4e813b1d88cddbedce0eec35de8143a9.pdf",
+  "last_updated": "04:13 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-06-27",
   "bulletin": {
-    "morning": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 27 th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 3-4 days.",
+    "morning": null,
     "midday": null,
-    "evening": null,
+    "evening": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 27 th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 3-4 days.",
     "night": null
   },
   "nlm_coords": [
@@ -28,53 +28,73 @@
       "lon": 83.0
     }
   ],
-  "met_analysis": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 27 th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 3-4 days.\nThe seasonal trough at mean sea level from Rajasthan to Odisha across north Madhya Pradesh and Chhattisgarh persists.\nThe upper air cyclonic circulation over Northeast Bay of Bengal and adjoining Myanmar coast between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north Telangana & neighbourhood between 1.5 to 5.8 above mean sea level titling southwards with height persists.\nThe trough from coastal Andhra Pradesh to Madhya Maharashtra across cyclonic circulation over north Telangana & neighbourhood and Marathawada between 3.1 km & 4.5 km above mean sea level persists.\nThe trough from east Uttar Pradesh to Telangana across East Madhya Pradesh, Vidarbha and Chhattisgarh extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance asa cyclonic circulation over Haryana & neighbourhood between 3.1 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over north Punjab and adjoining Pakistan at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Gujarat & Saurashtra between 3.1 & 5.8 km above mean sea level has become less marked.",
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 27 th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 3-4 days.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persist.\nThe upper air cyclonic circulation over north Telangana & neighbourhood between 3.1 to 4.5 km above mean sea level persists.\nThe trough from coastal Andhra Pradesh to Madhya Maharashtra across cyclonic circulation over north Telangana & neighbourhood and Marathawada between 3.1 km & 4.5 km above mean sea level persists.\nThe trough from northern parts of central Uttar Pradesh to Telangana across East Madhya Pradesh, Vidarbha and Chhattisgarh at 1.5 km above mean sea level persists.\nThe Western Disturbance asa cyclonic circulation over Haryana & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Punjab and adjoining Pakistan at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation lies over north Gujarat & neighbourhood between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over westcentral Bay of Bengal & adjoining south Coastal Andhra Pradesh at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Chhattisgarh & adjoining Odisha at 0.9 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level from Rajasthan to Odisha across north Madhya Pradesh and Chhattisgarh persists.",
+        "raw_text": "The Monsoon trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persist.",
         "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance asa cyclonic circulation over Haryana & neighbourhood between 3.1 & 7.6 km above mean sea level persists.",
+        "raw_text": "The Western Disturbance asa cyclonic circulation over Haryana & neighbourhood between 3.1 & 5.8 km above mean sea level persists.",
         "form": "trough_in_westerlies",
         "level": {
           "type": "range",
           "min": 3.1,
-          "max": 7.6,
-          "display": "3.1–7.6 km above MSL"
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
         }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Northeast Bay of Bengal and adjoining Myanmar coast",
-        "level": {
-          "type": "range",
-          "min": 3.1,
-          "max": 5.8,
-          "display": "3.1–5.8 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Northeast Bay of Bengal and adjoining Myanmar coast between 3.1 & 5.8 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
         "location": "north Telangana & neighbourhood",
         "level": "mean sea level",
-        "raw_text": "The upper air cyclonic circulation over north Telangana & neighbourhood between 1.5 to 5.8 above mean sea level titling southwards with height persists."
+        "raw_text": "The upper air cyclonic circulation over north Telangana & neighbourhood between 3.1 to 4.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "north Punjab and adjoining Pakistan",
+        "location": "Punjab and adjoining Pakistan",
         "level": {
           "type": "single",
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Punjab and adjoining Pakistan at 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Punjab and adjoining Pakistan at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Gujarat & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation lies over north Gujarat & neighbourhood between 4.5 & 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "westcentral Bay of Bengal & adjoining south Coastal Andhra Pradesh",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over westcentral Bay of Bengal & adjoining south Coastal Andhra Pradesh at 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Chhattisgarh & adjoining Odisha",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Chhattisgarh & adjoining Odisha at 0.9 km above mean sea level persists."
       }
     ],
     "other_troughs": [
@@ -89,18 +109,18 @@
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "east Uttar Pradesh to Telangana",
+        "extent": "northern parts of central Uttar Pradesh to Telangana",
         "across": "East Madhya Pradesh, Vidarbha and Chhattisgarh",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
         },
-        "raw_text": "The trough from east Uttar Pradesh to Telangana across East Madhya Pradesh, Vidarbha and Chhattisgarh extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The trough from northern parts of central Uttar Pradesh to Telangana across East Madhya Pradesh, Vidarbha and Chhattisgarh at 1.5 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 3
+    "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-06-27 11:49 IST"
+  "fetched_at": "2026-06-27 16:21 IST"
 }
