@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/dd9804d29e3c47bc963a186ff822f91b.pdf",
-  "last_updated": "07:54 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-06-27",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2ff86a39ae4760bf106cc94f74efa9d5.pdf",
+  "last_updated": "08:11 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-06-28",
   "bulletin": {
-    "morning": null,
+    "morning": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E on 28th June Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 3-4 days.",
     "midday": null,
     "evening": null,
-    "night": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 27 th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 3-4 days."
+    "night": null
   },
   "nlm_coords": [
     {
@@ -28,7 +28,7 @@
       "lon": 83.0
     }
   ],
-  "met_analysis": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 27 th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 3-4 days.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe upper air cyclonic circulation over north Telangana & neighbourhood between 3.1 to 4.5 km above mean sea level persists.\nThe trough from coastal Andhra Pradesh to Madhya Maharashtra now runs from northern parts of Coastal Andhra Pradesh to Marathwada across Chhattisgarh, cyclonic circulation over north Telangana & neighbourhood between 3.1 km & 4.5 km above mean sea level.\nThe trough from northern parts of central Uttar Pradesh to Telangana now runs from northern parts of central Uttar Pradesh to west Vidarbha across Madhya Pradesh at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over north Gujarat & neighbourhood persists and now seen between 3.1 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over westcentral Bay of Bengal & adjoining south Coastal Andhra Pradesh at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Chhattisgarh & adjoining Odisha at 0.9 km above mean sea level persists.\nAn upper air cyclonic circulation lies over east Bihar & neighbourhood at 0.9 km above mean sea level.\nThe Western Disturbance asa cyclonic circulation over Haryana & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Punjab and adjoining Pakistan at 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 28 th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 2-3 days.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe upper air cyclonic circulation over north Telangana & neighbourhood between 3.1 to 4.5 km above mean sea level persists.\nThe trough from northern parts of Coastal Andhra Pradesh to Marathwada across Chhattisgarh, cyclonic circulation over north Telangana & neighbourhood between 3.1 km & 4.5 km above mean sea level persists.\nThe trough from northern parts of central Uttar Pradesh to west Vidarbha across Madhya Pradesh at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Gujarat & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over westcentral Bay of Bengal & adjoining south Coastal Andhra Pradesh at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Chhattisgarh & adjoining Odisha at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over east Bihar & neighbourhood at 0.9 km above mean sea level persists.\nThe Western Disturbance asa cyclonic circulation over Haryana & neighbourhood between 3.1 & 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -64,7 +64,7 @@
           "max": 5.8,
           "display": "3.1–5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Gujarat & neighbourhood persists and now seen between 3.1 & 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over north Gujarat & neighbourhood between 3.1 & 5.8 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -94,32 +94,33 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over east Bihar & neighbourhood at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over east Bihar & neighbourhood at 0.9 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "coastal Andhra Pradesh to Madhya Maharashtra now runs from northern parts of Coastal Andhra Pradesh to Marathwada",
+        "extent": "northern parts of Coastal Andhra Pradesh to Marathwada",
+        "across": "Chhattisgarh, cyclonic circulation over north Telangana & neighbourhood between 3.1 km & 4.5 km above mean sea level",
         "level": "mean sea level",
-        "raw_text": "The trough from coastal Andhra Pradesh to Madhya Maharashtra now runs from northern parts of Coastal Andhra Pradesh to Marathwada across Chhattisgarh, cyclonic circulation over north Telangana & neighbourhood between 3.1 km & 4.5 km above mean sea level."
+        "raw_text": "The trough from northern parts of Coastal Andhra Pradesh to Marathwada across Chhattisgarh, cyclonic circulation over north Telangana & neighbourhood between 3.1 km & 4.5 km above mean sea level persists."
       },
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "northern parts of central Uttar Pradesh to Telangana now runs from northern parts of central Uttar Pradesh to west Vidarbha",
+        "extent": "northern parts of central Uttar Pradesh to west Vidarbha",
         "across": "Madhya Pradesh",
         "level": {
           "type": "single",
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The trough from northern parts of central Uttar Pradesh to Telangana now runs from northern parts of central Uttar Pradesh to west Vidarbha across Madhya Pradesh at 1.5 km above mean sea level."
+        "raw_text": "The trough from northern parts of central Uttar Pradesh to west Vidarbha across Madhya Pradesh at 1.5 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 3
+    "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-06-28 07:32 IST"
+  "fetched_at": "2026-06-28 12:19 IST"
 }
