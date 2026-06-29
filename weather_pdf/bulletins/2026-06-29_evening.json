@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/15ba88d4b0fc90fabb006348a60ea32b.pdf",
+  "last_updated": null,
+  "slot": "evening",
+  "bulletin_date": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": "Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 2 days and over some more parts of Madhya Pradesh, Uttar Pradesh, Uttarakhand, some parts of Himachal Pradesh, Jammu & Kashmir, Ladakh, southeast Rajasthan and remaining parts of Gujarat during subsequent 2-3 days. The seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists. The trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long 80°E to the north of Lat 27°N persists. The upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists. The upper air cyclonic circulation over Eastcentral Arabian sea off Maharashtra coast at 5.8 km above mean sea level persists The upper air cyclonic circulation over north Telangana & neighbourhood at 5.8 km above mean sea level persists. The east-west trough from East Uttar Pradesh to Manipur across Bihar, Sub-Himalayan West Bengal & Sikkim & Assam at 0.9 km above mean sea level persists. The trough in westerlies with its axis at 3.1 km above mean sea level roughly along Long. 90°E to the north of Lat. 21°N persists. The upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood at 1.5 km above mean sea level persists. The trough from north central Madhya Pradesh to Eastcentral Arabian Sea across north Maharashtra between 3.1 & 4.5 km above mean sea level persists. A fresh Western Disturbance is likely to affect Northwest India from 02nd July, 2026. Red colour warning does not mean \"Red Alert\", Red colour warning means \"Take Action\". Forecast and Warning for any day is valid from 0830 hours IST of day till 0830 hours IST of next day. For more details, kindly visit https://mausam.imd.gov.in or contact: 011-2434-4599 (Service to the Nation since 1875)",
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Mandla, Daltonganj, Motihari and 28.3°N/83°E as on 29th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh & Uttarakhand during next 2 days and over some more parts of Madhya Pradesh, Uttar Pradesh, Uttarakhand, some parts of Himachal Pradesh, Jammu & Kashmir, Ladakh, southeast Rajasthan and remaining parts of Gujarat during subsequent 2-3 days.\nThe seasonal trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.\nThe trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long 80°E to the north of Lat 27°N persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian sea off Maharashtra coast at 5.8 km above mean sea level persists The upper air cyclonic circulation over north Telangana & neighbourhood at 5.8 km above mean sea level persists.\nThe east-west trough from East Uttar Pradesh to Manipur across Bihar, Sub-Himalayan West Bengal & Sikkim & Assam at 0.9 km above mean sea level persists.\nThe trough in westerlies with its axis at 3.1 km above mean sea level roughly along Long. 90°E to the north of Lat. 21°N persists.\nThe upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood at 1.5 km above mean sea level persists.\nThe trough from north central Madhya Pradesh to Eastcentral Arabian Sea across north Maharashtra between 3.1 & 4.5 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Northwest India from 02nd July, 2026.\nRed colour warning does not mean \"Red Alert\", Red colour warning means \"Take Action\".\nForecast and Warning for any day is valid from 0830 hours IST of day till 0830 hours IST of next day.\nFor more details, kindly visit https://mausam.imd.gov.in or contact: 011-2434-4599 (Service to the Nation since 1875)",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level from Punjab to Bihar across Haryana and Uttar Pradesh persists.",
+        "level": "mean sea level"
+      },
+      {
+        "type": "East-West Trough",
+        "extent": "East Uttar Pradesh to Manipur",
+        "across": "Bihar, Sub-Himalayan West Bengal & Sikkim & Assam",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The east-west trough from East Uttar Pradesh to Manipur across Bihar, Sub-Himalayan West Bengal & Sikkim & Assam at 0.9 km above mean sea level persists."
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Eastcentral Arabian sea off Maharashtra coast",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Eastcentral Arabian sea off Maharashtra coast at 5.8 km above mean sea level persists The upper air cyclonic circulation over north Telangana & neighbourhood at 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northwest Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood at 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "westerlies",
+        "extent": "along Long 80°E to the north of Lat 27°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long 80°E to the north of Lat 27°N persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "westerlies",
+        "extent": "along Long. 90°E to the north of Lat. 21°N",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough in westerlies with its axis at 3.1 km above mean sea level roughly along Long. 90°E to the north of Lat. 21°N persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "north central Madhya Pradesh to Eastcentral Arabian Sea",
+        "across": "north Maharashtra between 3.1 & 4.5 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "The trough from north central Madhya Pradesh to Eastcentral Arabian Sea across north Maharashtra between 3.1 & 4.5 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 6
+  },
+  "mjo": null,
+  "fetched_at": "2026-06-29 18:25 IST"
+}
