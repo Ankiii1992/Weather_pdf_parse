@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bf6ce8c65268e5048df6c3363904a363.pdf",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/de67a661c243a7bb240feb21ce8e7642.pdf",
   "last_updated": null,
-  "slot": "evening",
+  "slot": "night",
   "bulletin_date": "2026-06-30",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Sagar, Sidhi, Azamgarh, Ayodhya, Bareilly, Dehradun, Mandi, 33.5°N/76.8°E and 35°N/80°E as on 30th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, Uttar Pradesh, entire Daman & Diu, remaining parts of Uttarakhand, Himachal Pradesh & Ladakh, entire Jammu & Kashmir, most parts of Haryana-Chandigarh- Delhi & Punjab, and some parts of Rajasthan during next 2-3 days.",
-    "night": null
+    "evening": null,
+    "night": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Sagar, Sidhi, Azamgarh, Ayodhya, Bareilly, Dehradun, Mandi, 33.5°N/76.8°E and 35°N/80°E as on 30th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, Uttar Pradesh, entire Daman & Diu, remaining parts of Uttarakhand, Himachal Pradesh & Ladakh, entire Jammu & Kashmir, most parts of Haryana-Chandigarh- Delhi & Punjab, and some parts of Rajasthan during next 2-3 days."
   },
   "nlm_coords": [
     {
@@ -113,5 +113,5 @@
     "suppressed_count": 4
   },
   "mjo": null,
-  "fetched_at": "2026-06-30 19:19 IST"
+  "fetched_at": "2026-06-30 22:30 IST"
 }
