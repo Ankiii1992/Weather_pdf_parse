@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/de67a661c243a7bb240feb21ce8e7642.pdf",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5e6770cd8e20dbdf0abb5ea4d1bd7bbd.pdf",
   "last_updated": null,
-  "slot": "night",
-  "bulletin_date": "2026-06-30",
+  "slot": "morning",
+  "bulletin_date": "2026-07-01",
   "bulletin": {
-    "morning": null,
+    "morning": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Sagar, Sidhi, Azamgarh, Ayodhya, Bareilly, Dehradun, Mandi, 33.5°N/76.8°E and 35°N/80°E as on 30th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, Uttar Pradesh, entire Daman & Diu, remaining parts of Uttarakhand, Himachal Pradesh & Ladakh, entire Jammu & Kashmir, most parts of Haryana-Chandigarh-Delhi & Punjab, and some parts of Rajasthan during next 2-3 days.",
     "midday": null,
     "evening": null,
-    "night": "The Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Sagar, Sidhi, Azamgarh, Ayodhya, Bareilly, Dehradun, Mandi, 33.5°N/76.8°E and 35°N/80°E as on 30th June. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, Uttar Pradesh, entire Daman & Diu, remaining parts of Uttarakhand, Himachal Pradesh & Ladakh, entire Jammu & Kashmir, most parts of Haryana-Chandigarh- Delhi & Punjab, and some parts of Rajasthan during next 2-3 days."
+    "night": null
   },
   "nlm_coords": [
     {
@@ -32,7 +32,7 @@
       "lon": 80.0
     }
   ],
-  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh, most parts of Uttarakhand, and some parts of Himachal Pradesh & Ladakh, today the 30th June, 2026.\nThe Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Sagar, Sidhi, Azamgarh, Ayodhya, Bareilly, Dehradun, Mandi, 33.5°N/76.8°E and 35°N/80°E as on 30th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, Uttar Pradesh, entire Daman & Diu, remaining parts of Uttarakhand, Himachal Pradesh & Ladakh, entire Jammu & Kashmir, most parts of Haryana-Chandigarh- Delhi & Punjab, and some parts of Rajasthan during next 2-3 days.\nThe Monsoon trough at mean sea level from Punjab to north Bay of Bengal and extends upto 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bay of Bengal adjoining south Bangladesh between 1.5 & 5.8 km above mean sea level titling southwestwards with height persists. Under its influence, a Low- Pressure Area is likely to form over northwest Bay of Bengal & neighbourhood around 3rd July, 2026.\nThe upper air cyclonic circulation over east Bihar & neighbourhood at 1.5 km above mean sea level persists.\nThe offshore trough at mean sea level from Maharashtra to north Kerala persists.\nThe trough from south central Madhya Pradesh to Eastcentral Arabian Sea across Marathwada, Madhya Maharashtra & Konkan & Goa between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe trough in middle tropospheric westerlies with its axis at 4.5 km above mean sea level roughly along Long 86°E to the north of Lat 25°N persists.\nA fresh Western Disturbance is likely to affect Northwest India from 02nd July, 2026. *Red color warning does not mean \"Red Alert\" Red color warning means \"Take Action\" Forecast and warning for any day is valid from 0830 hours IST of day till 0830 hours IST of next day For more details kindly visit https://mausam.imd.gov.in or contact 011-2434-4599 (Service to the nation since 1875) Page 5",
+  "met_analysis": "The Southwest Monsoon has further advanced into some more parts of Madhya Pradesh, remaining parts of Chhattisgarh, Jharkhand & Bihar, some parts of Uttar Pradesh, most parts of Uttarakhand, and some parts of Himachal Pradesh & Ladakh, yesterday the 30th June, 2026.\nThe Northern Limit of Monsoon continues to pass through 20°N/60°E, 20°N/65°E, 20°N/70°E, Surat, Indore, Sagar, Sidhi, Azamgarh, Ayodhya, Bareilly, Dehradun, Mandi, 33.5°N/76.8°E and 35°N/80°E as on 30th June.\nConditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, Madhya Pradesh, Uttar Pradesh, entire Daman & Diu, remaining parts of Uttarakhand, Himachal Pradesh & Ladakh, entire Jammu & Kashmir, most parts of Haryana-Chandigarh-Delhi & Punjab, and some parts of Rajasthan during next 2-3 days.\nThe Monsoon trough at mean sea level from Punjab to north Bay of Bengal and extends upto 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bay of Bengal adjoining south Bangladesh between 1.5 & 5.8 km above mean sea level titling southwestwards with height persists. Under its influence, a Low-Pressure Area is likely to form over northwest Bay of Bengal & neighbourhood around 3rd July, 2026.\nThe upper air cyclonic circulation over east Bihar & neighbourhood at 1.5 km above mean sea level persists.\nThe offshore trough at mean sea level from Maharashtra to north Kerala persists.\nThe trough from south central Madhya Pradesh to Eastcentral Arabian Sea across Marathwada, Madhya Maharashtra & Konkan & Goa between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe trough in middle tropospheric westerlies with its axis at 4.5 km above mean sea level roughly along Long 86°E to the north of Lat 25°N persists.\nA fresh Western Disturbance is likely to affect Northwest India from 02nd July, 2026. *Red color warning does not mean \"Red Alert\" Red color warning means \"Take Action\" Forecast and warning for any day is valid from 0830 hours IST of day till 0830 hours IST of next day For more details kindly visit https://mausam.imd.gov.in or contact 011-2434-4599 (Service to the nation since 1875) Page 5",
   "systems": {
     "priority": [
       {
@@ -61,7 +61,7 @@
           "max": 5.8,
           "display": "1.5–5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Bay of Bengal adjoining south Bangladesh between 1.5 & 5.8 km above mean sea level titling southwestwards with height persists. Under its influence, a Low- Pressure Area is likely to form over northwest Bay of Bengal & neighbourhood around 3rd July, 2026."
+        "raw_text": "The upper air cyclonic circulation over north Bay of Bengal adjoining south Bangladesh between 1.5 & 5.8 km above mean sea level titling southwestwards with height persists. Under its influence, a Low-Pressure Area is likely to form over northwest Bay of Bengal & neighbourhood around 3rd July, 2026."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -113,5 +113,5 @@
     "suppressed_count": 4
   },
   "mjo": null,
-  "fetched_at": "2026-07-01 07:33 IST"
+  "fetched_at": "2026-07-01 12:31 IST"
 }
