@@ -176,79 +176,69 @@ def normalise_text(text):
 def parse_level(text):
     """
     Extract level info from a sentence.
-    Returns a level dict or None.
-    Handles: at X km, between X & Y km, extending upto X km,
-             now seen at/between, tropospheric labels.
+    Priority order matters — numeric matches always win over plain string labels.
+    Handles: upto X km, at X km, between X & Y km, now seen at/between,
+             extends upto X km (morning UAC phrasing), tropospheric labels.
     """
     if not text:
         return None
     t = normalise_text(text)
 
-    # now seen at / now seen between (level update sentences)
-    now_seen_range = re.search(
-        r'now\s+seen\s+between\s+([\d.]+)\s*(?:&|and)\s*([\d.]+)\s*km\s*above',
-        t, re.IGNORECASE
-    )
-    if now_seen_range:
-        lo, hi = float(now_seen_range.group(1)), float(now_seen_range.group(2))
-        return {'type': 'range', 'min': lo, 'max': hi,
-                'display': f'{lo}–{hi} km above MSL'}
+    # now seen at / now seen between
+    m = re.search(r'now\s+seen\s+between\s+([\d.]+)\s*(?:&|and)\s*([\d.]+)\s*km\s*above', t, re.IGNORECASE)
+    if m:
+        lo, hi = float(m.group(1)), float(m.group(2))
+        return {'type': 'range', 'min': lo, 'max': hi, 'display': f'{lo}–{hi} km above MSL'}
 
-    now_seen_single = re.search(
-        r'now\s+seen\s+at\s+([\d.]+)\s*km\s*above',
-        t, re.IGNORECASE
-    )
-    if now_seen_single:
-        val = float(now_seen_single.group(1))
+    m = re.search(r'now\s+seen\s+at\s+([\d.]+)\s*km\s*above', t, re.IGNORECASE)
+    if m:
+        val = float(m.group(1))
         return {'type': 'single', 'min': val, 'display': f'{val} km above MSL'}
 
     # between X & Y km above MSL
-    range_m = re.search(
-        r'between\s+([\d.]+)\s*(?:&|and)\s*([\d.]+)\s*km\s*above',
-        t, re.IGNORECASE
-    )
-    if range_m:
-        lo, hi = float(range_m.group(1)), float(range_m.group(2))
-        return {'type': 'range', 'min': lo, 'max': hi,
-                'display': f'{lo}–{hi} km above MSL'}
+    m = re.search(r'between\s+([\d.]+)\s*(?:&|and)\s*([\d.]+)\s*km\s*above', t, re.IGNORECASE)
+    if m:
+        lo, hi = float(m.group(1)), float(m.group(2))
+        return {'type': 'range', 'min': lo, 'max': hi, 'display': f'{lo}–{hi} km above MSL'}
 
-    # extending upto X km above MSL
-    upto_m = re.search(
-        r'(?:extending\s+|extends\s+)?upto\s+([\d.]+)\s*km\s*above',
+    # extending/extends upto X km above MSL — matches BEFORE 'at X km' so that
+    # "at mean sea level ... extending upto 0.9 km" returns the upto value, not MSL
+    m = re.search(
+        r'(?:and\s+)?(?:extending\s+|extends\s+)?upto\s+([\d.]+)\s*km\s*above',
         t, re.IGNORECASE
     )
-    if upto_m:
-        val = float(upto_m.group(1))
+    if m:
+        val = float(m.group(1))
         return {'type': 'upto', 'max': val, 'display': f'upto {val} km above MSL'}
 
     # extends upto [tropospheric label]
-    ext_label = re.search(
-        r'extends?\s+upto\s+(lower\s*(?:&|and)?\s*(?:middle|upper)?\s*tropospheric)',
+    m = re.search(
+        r'(?:and\s+)?extends?\s+upto\s+(lower\s*(?:&|and)?\s*(?:middle|upper)?\s*tropospheric)',
         t, re.IGNORECASE
     )
-    if ext_label:
-        label = re.sub(r'\s+', ' ', ext_label.group(1)).strip().lower()
-        return label  # plain string fallback
+    if m:
+        label = re.sub(r'\s+', ' ', m.group(1)).strip().lower()
+        return label
 
     # at X km above MSL
-    single_m = re.search(r'at\s+([\d.]+)\s*km\s*above', t, re.IGNORECASE)
-    if single_m:
-        val = float(single_m.group(1))
+    m = re.search(r'at\s+([\d.]+)\s*km\s*above', t, re.IGNORECASE)
+    if m:
+        val = float(m.group(1))
         return {'type': 'single', 'min': val, 'display': f'{val} km above MSL'}
 
-    # in lower/middle/upper tropospheric levels — return plain string (no numeric values)
-    tropo_m = re.search(
+    # in lower/middle/upper tropospheric levels
+    m = re.search(
         r'in\s+(lower\s*(?:&|and)?\s*(?:middle\s*)?(?:&|and)?\s*(?:upper\s*)?tropospheric)\s*levels?',
         t, re.IGNORECASE
     )
-    if tropo_m:
-        label = re.sub(r'\s+', ' ', tropo_m.group(1)).strip().lower()
+    if m:
+        label = re.sub(r'\s+', ' ', m.group(1)).strip().lower()
         label = re.sub(r'\s*(and|&)\s*', ' & ', label)
-        return label  # plain string fallback
+        return label
 
-    # mean sea level — plain string
+    # mean sea level — only if no numeric level found above
     if re.search(r'at\s+mean\s+sea\s+level|mean\s+sea\s+level', t, re.IGNORECASE):
-        return 'mean sea level'  # plain string fallback
+        return 'mean sea level'
 
     return None
 
@@ -403,11 +393,8 @@ def parse_distance_from(text):
 
 
 # -----------------------------------------------------------------------------
-# SENTENCE SPLITTER
-# -----------------------------------------------------------------------------
-
-# -----------------------------------------------------------------------------
-# BULLET-BASED SPLITTER — robust against missing terminal periods and footer leak
+# SENTENCE SPLITTER — keyword-based, works for all IMD bulletin formats
+# (morning/midday bulletins have NO glyph characters in pdfplumber output)
 # -----------------------------------------------------------------------------
 
 # Continuation sentences — attach to parent system as forecast
@@ -426,11 +413,6 @@ _SUPPRESS_PATTERNS = [
     r'A\s+fresh\s+[Ww]estern\s+[Dd]isturbance',
     r'has\s+moved\s+away\s+(?:north|south|east|west)',
 ]
-# Real IMD bulletins use the ❖ glyph to start every genuine statement, and wrap
-# long statements across multiple physical PDF lines with NO glyph on the
-# continuation lines. Relying on terminal periods to detect sentence boundaries
-# breaks whenever IMD itself omits a period (which happens) and also fails to
-# bound the footer disclaimer. Splitting on the glyph instead fixes both.
 
 RUN_FIXES = [
     (r'TheWesternDisturbance', 'The Western Disturbance'),
@@ -447,101 +429,132 @@ RUN_FIXES = [
     (r' {2,}', ' '),
 ]
 
-# Footer/disclaimer marker — once a line starting like this is seen, everything
-# from here to the end of the page is boilerplate and must be discarded.
-_FOOTER_MARKER = re.compile(r'^\*\s*Red\s+colour\s+warning', re.IGNORECASE)
+# Footer marker — everything from this line onwards is boilerplate
+_FOOTER_RE = re.compile(r'^\*\s*Red\s+colo(?:u|u?)r?\s+warning', re.IGNORECASE)
 
-# Genuine bullet glyphs used by IMD for real content lines (NOT '*' — that is
-# reserved for the footer marker above and must never be treated as a bullet).
-_BULLET_GLYPH = re.compile(r'^[❖•✦◆]\s*')
+# Known system sentence starters — a new sentence begins when a line
+# starts with any of these (case-insensitive). This is the ONLY reliable
+# cross-format delimiter; glyphs are absent in morning/midday bulletins.
+_SYSTEM_START_RE = re.compile(
+    r'^(?:The|An?|A)\s+(?:fresh\s+)?(?:'
+    r'(?:upper\s+air\s+)?cyclonic\s+circulation'
+    r'|induced\s+(?:upper\s+air\s+)?cyclonic'
+    r'|Western\s+Disturbance'
+    r'|(?:well[\s\-]?marked\s+)?[Ll]ow[\s\-]?[Pp]ressure\s+[Aa]rea'
+    r'|[Dd]eep\s+[Dd]epression'
+    r'|[Dd]epression'
+    r'|(?:very\s+severe|extremely\s+severe|severe|super)\s+cyclonic\s+storm'
+    r'|[Cc]yclonic\s+[Ss]torm'
+    r'|(?:monsoon|seasonal)\s+trough'
+    r'|(?:east[\s\-]west|north[\s\-]south)\s+trough'
+    r'|(?:offshore|off[\s\-]shore)\s+trough'
+    r'|shear\s+(?:zone|line)'
+    r'|trough'
+    r')'
+    r'|^(?:The|A)\s+(?:western\s+end|eastern\s+end)\s+of\s+(?:monsoon|seasonal)\s+trough'
+    r'|^Yesterday\'s\s+(?:depression|low\s+pressure)'
+    r'|^However,\s+the\s+associated\s+cyclonic',
+    re.IGNORECASE
+)
+
+# Lines to discard entirely (non-system content that appears in the Met Analysis block)
+_SKIP_LINE_RE = re.compile(
+    r'^Meteorological\s+Analysis'
+    r'|^Conditions\s+are\s+favourable'
+    r'|^The\s+Northern\s+Limit\s+of\s+Monsoon'
+    r'|^Page\s+\d+'
+    r'|\(Service\s+to\s+the\s+nation'
+    r'|^\d{4}-\d{2}-\d{2}$'
+    r'|^For\s+more\s+details'
+    r'|^Forecast\s+and\s+[Ww]arning\s+for',
+    re.IGNORECASE
+)
 
 
-def split_bulletin_items(page_text):
+def _apply_run_fixes(text):
+    for pattern, repl in RUN_FIXES:
+        text = re.sub(pattern, repl, text)
+    return normalise_text(text)
+
+
+def extract_met_sentences(page_text):
     """
-    Split a raw IMD bulletin page into individual statement strings.
-    Each statement starts at a ❖ (or •/✦/◆) glyph and absorbs any wrapped
-    continuation lines that follow (lines with no glyph), regardless of
-    whether the previous line ended with a period. Stops permanently at
-    the first footer/disclaimer line.
+    Extract individual system sentences from a Met Analysis page.
+    Works regardless of whether the page uses bullet glyphs (❖/•) or plain
+    paragraph text. Strategy:
+      1. Strip page header and footer
+      2. Join physical PDF line-wraps back into logical sentences using
+         _SYSTEM_START_RE to detect where a new sentence begins
+      3. Return one clean sentence per list item
     """
-    items = []
-    current = ''
-    for raw_line in page_text.splitlines():
-        line = raw_line.strip()
+    lines = []
+    for raw in page_text.splitlines():
+        line = raw.strip()
         if not line:
             continue
-        if _FOOTER_MARKER.match(line):
-            break  # everything after this is boilerplate — discard for good
-        if _BULLET_GLYPH.match(line):
+        if _FOOTER_RE.match(line):
+            break
+        # Strip bullet glyphs if present
+        line = re.sub(r'^[❖•✦◆\-]\s*', '', line)
+        line = line.strip()
+        if not line:
+            continue
+        if _SKIP_LINE_RE.match(line):
+            continue
+        lines.append(line)
+
+    # Join wrapped lines into complete sentences
+    sentences = []
+    current = ''
+    for line in lines:
+        if _SYSTEM_START_RE.match(line):
             if current:
-                items.append(current.strip())
-            current = _BULLET_GLYPH.sub('', line)
+                sentences.append(current.strip())
+            current = line
         else:
             if current:
                 current = current + ' ' + line
-            # else: stray line before the first bullet (e.g. page header) — ignore
-    if current:
-        items.append(current.strip())
+            # else: stray pre-content line, ignore
 
-    cleaned = []
-    for item in items:
-        text = item
-        for pattern, repl in RUN_FIXES:
-            text = re.sub(pattern, repl, text)
-        text = normalise_text(text)
-        if text:
-            cleaned.append(text)
-    return cleaned
+    if current:
+        sentences.append(current.strip())
+
+    return [_apply_run_fixes(s) for s in sentences if s.strip()]
 
 
 def is_continuation(sentence):
-    """Returns True if sentence is a continuation of the previous system."""
     s = sentence.strip()
     return any(re.match(p, s, re.IGNORECASE) for p in _CONTINUATION_PATTERNS)
 
 
 def is_suppressed(sentence):
-    """Returns True if sentence should be completely ignored."""
     s = sentence.strip()
     return any(re.search(p, s, re.IGNORECASE) for p in _SUPPRESS_PATTERNS)
 
 
 def split_sentences(text):
     """
-    Split Met Analysis text into individual system sentences.
-    If raw bullet glyphs are present, splits on them directly (line-wrap safe,
-    doesn't depend on terminal punctuation). Otherwise treats the text as
-    already pre-split, one statement per line (e.g. extract_met_analysis output).
+    Split pre-extracted met_analysis text (one sentence per line) into list.
+    Handles the "and another over X" merged-UAC pattern.
     """
-    if re.search(r'[❖•✦◆]', text):
-        raw = split_bulletin_items(text)
-    else:
-        text = normalise_text(text)
-        raw = [s.strip() for s in text.splitlines() if s.strip()]
+    text = normalise_text(text)
+    raw = [s.strip() for s in text.splitlines() if s.strip()]
 
-    # Handle "and another over X" — two UACs merged into a single bullet by IMD itself
     expanded = []
     for sent in raw:
         parts = re.split(r'\s+and\s+another\s+over\s+', sent, flags=re.IGNORECASE)
         if len(parts) == 2:
-            # Extract shared level from end of sentence
-            level_text = ''
             level_m = re.search(
                 r'(?:at\s+[\d.]|between\s+[\d.]|extending\s+upto|in\s+\w+\s+tropospheric).*$',
                 parts[1], re.IGNORECASE
             )
-            if level_m:
-                level_text = level_m.group(0)
-            # First UAC — keep as is (level already in sentence)
+            level_text = level_m.group(0) if level_m else ''
             expanded.append(parts[0].rstrip(' ,') + (' ' + level_text if level_text and level_text not in parts[0] else ''))
-            # Second UAC — rebuild sentence
-            # Determine prefix from first part
             prefix_m = re.match(r'^(An?\s+(?:upper\s+air\s+)?cyclonic\s+circulation\s+\w+)', parts[0], re.IGNORECASE)
             prefix = prefix_m.group(1) if prefix_m else 'An upper air cyclonic circulation lies'
             expanded.append(f'{prefix} over {parts[1]}')
         else:
             expanded.append(sent)
-
     return expanded
 
 
@@ -552,10 +565,10 @@ def split_sentences(text):
 def extract_met_analysis(page_text):
     """
     Extract and clean the full Meteorological Analysis page text.
-    Returns one statement per line as a single string.
+    Returns one sentence per line as a single string.
     """
-    items = split_bulletin_items(page_text)
-    return '\n'.join(items)
+    sentences = extract_met_sentences(page_text)
+    return '\n'.join(sentences) if sentences else None
 
 
 # -----------------------------------------------------------------------------
@@ -564,30 +577,40 @@ def extract_met_analysis(page_text):
 
 def extract_monsoon_text(page_text):
     """
-    Extract the Northern Limit of Monsoon / Advance of Southwest Monsoon text.
-    Takes only the LEADING run of bullets that mention NLM/monsoon-advance,
-    stopping as soon as a bullet describing an actual weather system
-    (trough/UAC/WD/LPA/etc.) begins. This avoids accidentally matching the
-    phrase "advance of southwest monsoon" when it appears mid-sentence in
-    prose rather than as a section header, and avoids ever swallowing the
-    footer or later system sentences.
+    Extract the NLM / Advance of Southwest Monsoon text from page 1.
+    Looks for the NLM sentence and the 'Conditions are favourable' sentence,
+    joining wrapped lines, stopping before any system sentence.
     """
-    items = split_bulletin_items(page_text)
-    selected  = []
-    started   = False
+    # Remove footer first
+    clean_lines = []
+    for raw in page_text.splitlines():
+        line = raw.strip()
+        if _FOOTER_RE.match(line):
+            break
+        clean_lines.append(line)
+
+    text = ' '.join(clean_lines)
+    text = re.sub(r'[❖•✦◆\-]\s*', ' ', text)
+    text = re.sub(r'\s{2,}', ' ', text).strip()
+
     nlm_re = re.compile(
-        r'northern\s+limit\s+of\s+monsoon'
-        r'|advance\s+of\s+(?:the\s+)?southwest\s+monsoon'
-        r'|conditions?\s+(?:are\s+|is\s+)?(?:favourable|unfavourable)\s+for\s+(?:further\s+)?advance',
-        re.IGNORECASE
+        r'(?:The\s+)?Northern\s+Limit\s+of\s+Monsoon.+?(?=\.\s|$)',
+        re.IGNORECASE | re.DOTALL
     )
-    for item in items:
-        if nlm_re.search(item):
-            selected.append(item)
-            started = True
-        elif started:
-            break  # first non-NLM bullet after the NLM run — stop here
-    return ' '.join(selected) if selected else None
+    cond_re = re.compile(
+        r'Conditions?\s+are\s+favourable.+?(?=\.\s|$)',
+        re.IGNORECASE | re.DOTALL
+    )
+
+    parts = []
+    m = nlm_re.search(text)
+    if m:
+        parts.append(m.group(0).strip().rstrip('.') + '.')
+    m = cond_re.search(text)
+    if m:
+        parts.append(m.group(0).strip().rstrip('.') + '.')
+
+    return ' '.join(parts) if parts else None
 
 
 # -----------------------------------------------------------------------------
@@ -845,14 +868,22 @@ def classify_monsoon_trough(sent, raw):
             if cities:
                 system['passes_through'] = cities
 
-    # ── "from WEST to EAST across REGION" (Case — common, e.g. early monsoon
-    #     when the trough is described start/end-to-end rather than a city list)
-    elif re.search(r'\bfrom\b.+?\bto\b', sent, re.IGNORECASE):
+    # ── Extent: "from X to Y" or "now runs X to Y" or "runs X to Y"
+    #    Common in active-monsoon and morning bulletins
+    elif re.search(r'\bto\b.+?\bacross\b|\bfrom\b.+?\bto\b|(?:now\s+)?runs\b', sent, re.IGNORECASE):
+        # Try "from X to Y" first
         extent_m = re.search(
             r'from\s+(.+?)\s+to\s+(.+?)'
             r'(?=\s+(?:across|at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
             sent, re.IGNORECASE
         )
+        if not extent_m:
+            # "now runs X to Y" or "runs X to Y" (no leading 'from')
+            extent_m = re.search(
+                r'(?:now\s+)?runs\s+(.+?)\s+to\s+(.+?)'
+                r'(?=\s+(?:across|at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
+                sent, re.IGNORECASE
+            )
         if extent_m:
             w = extent_m.group(1).strip().rstrip(' ,')
             e = extent_m.group(2).strip().rstrip(' ,')
@@ -922,8 +953,11 @@ def classify_shear_zone(sent, raw):
     """Classify Shear Zone.
     location = full descriptive string: "roughly along 15°N over Indian region"
     """
-    # Extract latitude line: "roughly along Lat. 15°N" or "roughly along 22°N"
-    lat_m = re.search(r'(?:roughly\s+)?along\s+(?:Lat\.?\s*)?([\.\d]+°?\s*N)', sent, re.IGNORECASE)
+    # Extract latitude line: "along Lat. 15°N", "along latitude 21°N", "along 22°N"
+    lat_m = re.search(
+        r'(?:roughly\s+)?along\s+(?:Lat(?:itude)?\.?\s*)?([\.\d]+°?\s*N)',
+        sent, re.IGNORECASE
+    )
     lat_line = lat_m.group(1).strip() if lat_m else None
 
     # Extract "over X" region
@@ -962,12 +996,24 @@ def classify_shear_zone(sent, raw):
 
 def classify_offshore_trough(sent, raw):
     """Classify Offshore Trough."""
-    # Extent: "along X to Y" or "along X-Y"
-    extent_m = re.search(
+    extent = None
+
+    # "along X" phrasing
+    m = re.search(
         r'along\s+(.+?)(?=\s+(?:persists|at\s+[\d.]|extending|\.$|$))',
         sent, re.IGNORECASE
     )
-    extent = extent_m.group(1).strip().rstrip(' ,') if extent_m else None
+    if m:
+        extent = m.group(1).strip().rstrip(' ,')
+
+    # "runs from X to Y" phrasing (morning bulletins)
+    if not extent:
+        m = re.search(
+            r'runs\s+from\s+(.+?)\s+to\s+(.+?)(?=\s+(?:persists|at\s+[\d.]|extending|\.$|$))',
+            sent, re.IGNORECASE
+        )
+        if m:
+            extent = f'{m.group(1).strip()} to {m.group(2).strip()}'
 
     return _build_system(
         type     = 'Offshore Trough',
@@ -1357,8 +1403,11 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
                     result['bulletin_date'] = None
         print(f'[PARSE] Bulletin date: {result["bulletin_date"]}')
 
-        # Real IMD format: "Time of Issue: 1950 hours IST" (4 digits, no colon)
-        time_m = re.search(r'Time\s+of\s+Issue:\s*(\d{2}):?(\d{2})\s*hours', page1, re.IGNORECASE)
+        # Time: handles "1950 hours" (no colon), "08:46:00 hours" (HH:MM:SS), "19:50 hours"
+        time_m = re.search(
+            r'Time\s+of\s+Issue:\s*(\d{2}):?(\d{2})(?::\d{2})?\s*hours',
+            page1, re.IGNORECASE
+        )
         if time_m:
             try:
                 t_obj = datetime.strptime(f'{time_m.group(1)}:{time_m.group(2)}', '%H:%M')
@@ -1376,33 +1425,32 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
             (p for p in pages_text if 'meteorological analysis' in p.lower()), None
         )
 
-        # ── STEP 3: Extract met_analysis full text ─────────────────────────
+        # ── STEP 3: Extract met_analysis and systems ───────────────────────
         if meteo_text:
-            met_analysis = extract_met_analysis(meteo_text)
-            if met_analysis:
-                result['met_analysis'] = met_analysis
-                print(f'[PARSE] met_analysis: {len(met_analysis.splitlines())} sentences')
+            sentences = extract_met_sentences(meteo_text)
+            if sentences:
+                result['met_analysis'] = '\n'.join(sentences)
+                print(f'[PARSE] met_analysis: {len(sentences)} sentences')
+                systems = parse_met_analysis(result['met_analysis'])
+                result['systems'] = systems
+                print(f'[PARSE] Systems: {len(systems["priority"])} priority, '
+                      f'{len(systems["uac"])} UAC, {len(systems["other_troughs"])} troughs, '
+                      f'{systems["suppressed_count"]} suppressed')
 
-        # ── STEP 4: Extract bulletin text ──────────────────────────────────
-        bulletin_text = extract_monsoon_text(meteo_text or '') or extract_monsoon_text(full_text)
+        # ── STEP 4: Extract bulletin (NLM) text ───────────────────────────
+        # NLM is on page 1 for morning bulletins, on the met page for night/evening
+        bulletin_text = (
+            extract_monsoon_text(pages_text[0])
+            or (extract_monsoon_text(meteo_text) if meteo_text else None)
+        )
         if bulletin_text and result['slot']:
             result['bulletin'][result['slot']] = bulletin_text
         elif bulletin_text:
             result['bulletin']['morning'] = bulletin_text
 
         # ── STEP 5: NLM coordinates ────────────────────────────────────────
-        coord_source   = bulletin_text or full_text
+        coord_source = bulletin_text or full_text
         result['nlm_coords'] = parse_nlm_coords(coord_source)
-
-        # ── STEP 6: Parse systems ──────────────────────────────────────────
-        # Use pre-processed met_analysis (multi-line sentences already joined)
-        parse_source = result.get('met_analysis') or meteo_text
-        if parse_source:
-            systems = parse_met_analysis(parse_source)
-            result['systems'] = systems
-            print(f'[PARSE] Systems: {len(systems["priority"])} priority, '
-                  f'{len(systems["uac"])} UAC, {len(systems["other_troughs"])} troughs, '
-                  f'{systems["suppressed_count"]} suppressed')
 
     except Exception as e:
         import traceback
