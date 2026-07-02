@@ -1,0 +1,103 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/da8a8acc386baea724cba1df7f59c973.pdf",
+  "last_updated": "04:53 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-07-02",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": "The Northern Limit of Monsoon passes through 22°N/60°E, 22°N/65°E, Porbandar, Vallabh Vidyanagar, Neemuch, Tonk, Bhiwani, Bhatinda and 32.5°N/70°E as on 02nd July. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, remaining parts of Madhya Pradesh, Haryana & Punjab, and some more parts of Rajasthan during next 2 3 days.",
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 22.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 22.0,
+      "lon": 65.0
+    },
+    {
+      "lat": 32.5,
+      "lon": 70.0
+    }
+  ],
+  "met_analysis": "The Low Pressure Area over northwest Bay of Bengal and adjoining north Odisha-West Bengal coasts persists over the same region. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It’s likely to become more marked during next 2-3 days.\nThe upper air cyclonic circulation over southwest Uttar Pradesh extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over central Pakistan and adjoining northwest Rajasthan extending upto 1.5 km above mean sea level persists.\nThe Monsoon trough at mean sea level from northwest Rajasthan to the centre of Low-Pressure Area over northwest Bay of Bengal adjoining north Odisha-West Bengal coasts across with embedded cyclonic circulation over southwest Uttar Pradesh, north Madhya Pradesh, north Chhattisgarh extending upto 1.5 km above mean sea level persists.\nThe offshore trough at mean sea level runs from south Gujarat to Karnataka persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 62°E to the north of Lat. 32°N persists.\nThe shear zone roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "northwest Bay of Bengal and adjoining north Odisha-West Bengal coasts",
+        "raw_text": "The Low Pressure Area over northwest Bay of Bengal and adjoining north Odisha-West Bengal coasts persists over the same region. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It’s likely to become more marked during next 2-3 days."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level from northwest Rajasthan to the centre of Low-Pressure Area over northwest Bay of Bengal adjoining north Odisha-West Bengal coasts across with embedded cyclonic circulation over southwest Uttar Pradesh, north Madhya Pradesh, north Chhattisgarh extending upto 1.5 km above mean sea level persists.",
+        "extent": "northwest Rajasthan to the centre of Low-Pressure Area over northwest Bay of Bengal adjoining north Odisha-West Bengal coasts",
+        "across": "with embedded cyclonic circulation over southwest Uttar Pradesh, north Madhya Pradesh, north Chhattisgarh",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
+      },
+      {
+        "type": "Shear Zone",
+        "location": "roughly along 21°N",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "raw_text": "The shear zone roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level persists."
+      },
+      {
+        "type": "Offshore Trough",
+        "extent": "south Gujarat to Karnataka",
+        "level": "mean sea level",
+        "raw_text": "The offshore trough at mean sea level runs from south Gujarat to Karnataka persists."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 62°E to the north of Lat. 32°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 62°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Uttar Pradesh",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southwest Uttar Pradesh extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Pakistan and adjoining northwest Rajasthan",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Pakistan and adjoining northwest Rajasthan extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-02 17:56 IST"
+}
