@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c6e32fd03d8e815fe1329ba41ecef8f3.pdf",
-  "last_updated": "04:19 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3b90efd7f73e43b4e772a6283a5776d3.pdf",
+  "last_updated": "09:50 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-03",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Northern Limit of Monsoon passes through 22°N/60°E, 22°N/65°E, Jamnagar, Udaipur, Ajmer, Jhunjhunu, Hissar, Bhatinda and 32.5°N/70°E as on 03rd July. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, remaining parts of Haryana & Punjab, and some more parts of Rajasthan during next 4 5 days.",
-    "night": null
+    "evening": null,
+    "night": "The Northern Limit of Monsoon passes through 22°N/60°E, 22°N/65°E, Jamnagar, Udaipur, Ajmer, Jhunjhunu, Hissar, Bhatinda and 32.5°N/70°E as on 03rd July. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, remaining parts of Haryana & Punjab, and some more parts of Rajasthan during next 4 5 days."
   },
   "nlm_coords": [
     {
@@ -88,5 +88,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-03 21:47 IST"
+  "fetched_at": "2026-07-04 00:26 IST"
 }
