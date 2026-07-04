@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/639d6af974ef90d19781ab38dc695ce6.pdf",
+  "last_updated": "09:59 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-04",
+  "bulletin": {
+    "morning": "The Northern Limit of Monsoon continues to pass through 22°N/60°E, 22°N/65°E, Jamnagar, Udaipur, Ajmer, Jhunjhunu, Hisar, Bhatinda and 32.5°N/70°E as on 03rd July. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, remaining parts of Haryana & Punjab, and some more parts of Rajasthan during next 4 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 22.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 22.0,
+      "lon": 65.0
+    },
+    {
+      "lat": 32.5,
+      "lon": 70.0
+    }
+  ],
+  "met_analysis": "The Monsoon trough at mean sea level from northwest Rajasthan to the centre of Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts across Madhya Pradesh, Chhattisgarh, Odisha extending upto 1.5 km above mean sea level.\nThe shear zone now runs roughly along latitude 20°N between 3.1 & 7.6 km above mean sea level.\nThe offshore trough at mean sea level from south Gujarat to Karnataka from Maharashtra to Karnataka coast persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over West Rajasthan & neighbourhood at 5.8 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level from northwest Rajasthan to the centre of Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts across Madhya Pradesh, Chhattisgarh, Odisha extending upto 1.5 km above mean sea level.",
+        "extent": "northwest Rajasthan to the centre of Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts",
+        "across": "Madhya Pradesh, Chhattisgarh, Odisha",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
+      },
+      {
+        "type": "Shear Zone",
+        "location": "roughly along 20°N",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "raw_text": "The shear zone now runs roughly along latitude 20°N between 3.1 & 7.6 km above mean sea level."
+      },
+      {
+        "type": "Offshore Trough",
+        "level": "mean sea level",
+        "raw_text": "The offshore trough at mean sea level from south Gujarat to Karnataka from Maharashtra to Karnataka coast persists."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 29°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 70°E to the north of Lat. 29°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [],
+    "other_troughs": [],
+    "suppressed_count": 1
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-04 11:37 IST"
+}
