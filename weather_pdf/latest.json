@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/441fe7b0d3f6e368769191a91cbaccf3.pdf",
-  "last_updated": "01:45 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1a946229548cfd2b27001d223c3219b7.pdf",
+  "last_updated": "04:35 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-07-04",
   "bulletin": {
     "morning": null,
-    "midday": "The Northern Limit of Monsoon continues to pass through 22°N/60°E, 22°N/65°E, Jamnagar, Udaipur, Ajmer, Jhunjhunu, Hisar, Bhatinda and 32.5°N/70°E as on 04 th July. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, remaining parts of Haryana & Punjab, and some more parts of Rajasthan during next 4 days.",
-    "evening": null,
+    "midday": null,
+    "evening": "The Northern Limit of Monsoon continues to pass through 22°N/60°E, 22°N/65°E, Jamnagar, Udaipur, Ajmer, Jhunjhunu, Hisar, Bhatinda and 32.5°N/70°E as on 04 th July. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, remaining parts of Haryana & Punjab, and some more parts of Rajasthan during next 4 days.",
     "night": null
   },
   "nlm_coords": [
@@ -24,19 +24,19 @@
       "lon": 70.0
     }
   ],
-  "met_analysis": "The Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts persists over the same region at 0830 hrs IST of today, 04th July, 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestward across north Odisha and north Chhattisgarh during next 3 days.\nThe Monsoon trough at mean sea level now runs from southwest Rajasthan to the centre of Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts across Madhya Pradesh, north Chhattisgarh, north Odisha extending upto 1.5 km above mean sea level.\nThe shear zone now runs roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level.\nThe offshore trough at mean sea level now runs from south Gujarat to Karnataka coast.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 29°N persists.",
+  "met_analysis": "The Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts persisted over the same region at 1430 hrs IST of today, 04th July, 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestward across north Odisha and north Chhattisgarh during next 3 days.\nThe Monsoon trough at mean sea level from southwest Rajasthan to the centre of Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts across Madhya Pradesh, north Chhattisgarh, north Odisha extending upto 1.5 km above mean sea level persists.\nThe shear zone roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level persists.\nThe offshore trough at mean sea level from south Gujarat to Karnataka coast persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 29°N persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts",
+        "location": "Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts persisted over the same region",
         "movement": "west-northwestward",
-        "raw_text": "The Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts persists over the same region at 0830 hrs IST of today, 04th July, 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestward across north Odisha and north Chhattisgarh during next 3 days."
+        "raw_text": "The Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts persisted over the same region at 1430 hrs IST of today, 04th July, 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestward across north Odisha and north Chhattisgarh during next 3 days."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now runs from southwest Rajasthan to the centre of Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts across Madhya Pradesh, north Chhattisgarh, north Odisha extending upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level from southwest Rajasthan to the centre of Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts across Madhya Pradesh, north Chhattisgarh, north Odisha extending upto 1.5 km above mean sea level persists.",
         "extent": "southwest Rajasthan to the centre of Well Marked Low Pressure Area over Northwest Bay of Bengal & adjoining north Odisha-West Bengal coasts",
         "across": "Madhya Pradesh, north Chhattisgarh, north Odisha",
         "level": {
@@ -54,12 +54,12 @@
           "max": 7.6,
           "display": "3.1–7.6 km above MSL"
         },
-        "raw_text": "The shear zone now runs roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level."
+        "raw_text": "The shear zone roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level persists."
       },
       {
         "type": "Offshore Trough",
         "level": "mean sea level",
-        "raw_text": "The offshore trough at mean sea level now runs from south Gujarat to Karnataka coast."
+        "raw_text": "The offshore trough at mean sea level from south Gujarat to Karnataka coast persists."
       },
       {
         "type": "Western Disturbance",
@@ -78,5 +78,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-04 16:42 IST"
+  "fetched_at": "2026-07-04 18:23 IST"
 }
