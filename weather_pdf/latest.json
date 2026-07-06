@@ -1,14 +1,14 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5dac6eadcb40d621890f21a4d42f7a8e.pdf",
-  "last_updated": "04:36 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/41705fcc31f06717bffb41e1c8b06c4e.pdf",
+  "last_updated": "09:32 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-06",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "The Northern Limit of Monsoon continues to pass through 22°N/60°E, 22°N/65°E, Jamnagar, Udaipur, Ajmer, Jhunjhunu, Hisar, Bhatinda and 32.5°N/70°E. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, remaining parts of Haryana & Punjab, and some more parts of Rajasthan during next 3 days.",
-    "night": null
+    "evening": null,
+    "night": "The Northern Limit of Monsoon continues to pass through 22°N/60°E, 22°N/65°E, Jamnagar, Udaipur, Ajmer, Jhunjhunu, Hisar, Bhatinda and 32.5°N/70°E. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, remaining parts of Haryana & Punjab, and some more parts of Rajasthan during next 3 days."
   },
   "nlm_coords": [
     {
@@ -24,35 +24,36 @@
       "lon": 70.0
     }
   ],
-  "met_analysis": "The depression over south Jharkhand and adjoining north interior Odisha moved west- northwestwards with a speed of 25 kmph during past 6 hours, and lay centred at 1130 hrs IST of today, the 6th July 2026, over south Jharkhand and adjoining north Chhattisgarh near latitude 23.1°N and longitude 84.4°E, about 40 km east- southeast of Jashpurnagar (Chhattisgarh), 100 km west-southwest of Ranchi (Jharkhand), 110 km south- southeast of Daltonganj (Jharkhand) and 120 km east of Ambikapur (Chhattisgarh). It is very likely to move nearly northwestwards across Jharkhand, North Chhattisgarh and adjoining areas of east Uttar Pradesh & east Madhya Pradesh during next 24 hours.\nThe Monsoon trough at mean sea level from southwest Rajasthan to eastcentral Bay of Bengal across Madhya Pradesh, north Chhattisgarh and the centre of Depression over south Jharkhand and adjoining north interior Odisha extending upto 1.5 km above mean sea level persists.\nThe shear zone roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level persists.\nThe offshore trough at mean sea level from south Gujarat to North Kerala coast persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.",
+  "met_analysis": "The depression over south Jharkhand and adjoining north Chhattisgarh moved west-northwestwards with a speed of 32 kmph during past 6 hours, and lay centred at 1730 hrs IST of today, the 6th July 2026, over north Chhattisgarh and adjoining areas of southeast Uttar Pradesh and northeast Madhya Pradesh, near latitude 23.8°N and longitude 82.7°E, about 90 km northwest of Ambikapur (Chhattisgarh), 110 km southeast of Sidhi (Uttar Pradesh), 190 km east of Umaria (Madhya Pradesh) and 210 km east-southeast of Satna (Madhya Pradesh). It is very likely to move nearly west-northwestwards across North Chhattisgarh & east Madhya Pradesh and weaken into a well marked low pressure area during next 24 hours.\nThe Monsoon trough at mean sea level from southwest Rajasthan to eastcentral Bay of Bengal across Madhya Pradesh, north Chhattisgarh and the centre of Depression over south Jharkhand and adjoining north interior Odisha extending upto 1.5 km above mean sea level persists.\nThe shear zone roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level persists.\nThe offshore trough at mean sea level from south Gujarat to North Kerala coast persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.",
   "systems": {
     "priority": [
       {
         "type": "Depression",
         "status": "active",
-        "location": "south Jharkhand and adjoining north interior Odisha moved west- northwestwards with a speed of 25 kmph during past 6 hours, and lay centred",
+        "location": "south Jharkhand and adjoining north Chhattisgarh moved west-northwestwards with a speed of 32 kmph during past 6 hours, and lay centred",
         "coords": {
-          "lat": 23.1,
-          "lon": 84.4
+          "lat": 23.8,
+          "lon": 82.7
         },
         "distance_from": [
           {
-            "place": "Jashpurnagar (Chhattisgarh",
-            "distance_km": 40,
-            "direction": "east- southeast"
+            "place": "Ambikapur (Chhattisgarh",
+            "distance_km": 90,
+            "direction": "northwest"
           },
           {
-            "place": "Ranchi (Jharkhand",
-            "distance_km": 100,
-            "direction": "west-southwest"
-          },
-          {
-            "place": "Daltonganj (Jharkhand) and 120 km east of Ambikapur (Chhattisgarh",
+            "place": "Sidhi (Uttar Pradesh",
             "distance_km": 110,
-            "direction": "south- southeast"
+            "direction": "southeast"
+          },
+          {
+            "place": "Satna (Madhya Pradesh",
+            "distance_km": 210,
+            "direction": "east-southeast"
           }
         ],
-        "raw_text": "The depression over south Jharkhand and adjoining north interior Odisha moved west- northwestwards with a speed of 25 kmph during past 6 hours, and lay centred at 1130 hrs IST of today, the 6th July 2026, over south Jharkhand and adjoining north Chhattisgarh near latitude 23.1°N and longitude 84.4°E, about 40 km east- southeast of Jashpurnagar (Chhattisgarh), 100 km west-southwest of Ranchi (Jharkhand), 110 km south- southeast of Daltonganj (Jharkhand) and 120 km east of Ambikapur (Chhattisgarh). It is very likely to move nearly northwestwards across Jharkhand, North Chhattisgarh and adjoining areas of east Uttar Pradesh & east Madhya Pradesh during next 24 hours."
+        "movement": "west-northwestwards",
+        "raw_text": "The depression over south Jharkhand and adjoining north Chhattisgarh moved west-northwestwards with a speed of 32 kmph during past 6 hours, and lay centred at 1730 hrs IST of today, the 6th July 2026, over north Chhattisgarh and adjoining areas of southeast Uttar Pradesh and northeast Madhya Pradesh, near latitude 23.8°N and longitude 82.7°E, about 90 km northwest of Ambikapur (Chhattisgarh), 110 km southeast of Sidhi (Uttar Pradesh), 190 km east of Umaria (Madhya Pradesh) and 210 km east-southeast of Satna (Madhya Pradesh). It is very likely to move nearly west-northwestwards across North Chhattisgarh & east Madhya Pradesh and weaken into a well marked low pressure area during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
@@ -98,5 +99,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-06 18:03 IST"
+  "fetched_at": "2026-07-06 23:04 IST"
 }
