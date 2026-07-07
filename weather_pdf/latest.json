@@ -1,13 +1,13 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a1bd6d1a6140e29f702a459197ce46ba.pdf",
-  "last_updated": "01:02 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/62b253def14714548b7369f8cd1767fc.pdf",
+  "last_updated": "04:37 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-07-07",
   "bulletin": {
     "morning": null,
-    "midday": "The Northern Limit of Monsoon passes through 24.5°N/65°E, Barmer, Jodhpur, Rajgarh (Dist. Conditions are favourable for further advance of southwest monsoon into remaining parts of North Arabian Sea, Rajasthan, Haryana and Punjab, and hence entire country during next 2 3 days.",
-    "evening": null,
+    "midday": null,
+    "evening": "The Northern Limit of Monsoon continue to pass through 24.5°N/65°E, Barmer, Jodhpur, Rajgarh (Dist. Conditions are favourable for further advance of southwest monsoon into remaining parts of North Arabian Sea, Rajasthan, Haryana and Punjab, and hence entire country during next 2 3 days.",
     "night": null
   },
   "nlm_coords": [
@@ -16,7 +16,7 @@
       "lon": 65.0
     }
   ],
-  "met_analysis": "The Well-Marked Low Pressure area over East Madhya Pradesh and neighbourhood persists over the same region at 0830 hrs IST of today, the 7th July 2026. The associated cyclonic circulation extends upto 9.6 km above mean sea level tilting southwards with height. It is very likely to move slowly west-northwestwards across Madhya Pradesh and adjoining areas of southwest Uttar Pradesh and weaken during next 24 hours.\nThe Monsoon trough at mean sea level now runs from southwest Rajasthan to Bangladesh across the centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengal.\nThe offshore trough at mean sea level now runs from south Gujarat to central Kerala.\nA trough runs from Northeast Arabian sea to Bangladesh across Gujarat state, centre of Well Marked Low Pressure area over east Madhya Pradesh, north Chhattisgarh,Jharkhand & Gangetic West Bengaland extends upto 7.6 km above mean sea level.\nAn upper air cyclonic circulation lies over Southwest Rajasthan & neighbourhoodat 1.5 km above mean sea level.\nThe shear zone now seen as a trough from Northeast Arabian sea to Bangladesh across centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengalbetween 0.9 &7.6 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.",
+  "met_analysis": "The Well-Marked Low Pressure area over East Madhya Pradesh and neighbourhood persists over the same region at 1430 hrs IST of today, the 7th July 2026. The associated cyclonic circulation extends upto 9.6 km above mean sea level tilting southwards with height. It is very likely to move slowly west-northwestwards across Madhya Pradesh and adjoining areas of southwest Uttar Pradesh and weaken during next 24 hours.\nThe Monsoon trough at mean sea level from southwest Rajasthan to Bangladesh across the centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengal persists.\nThe offshore trough at mean sea levelfrom south Gujarat to central Kerala persists.\nThe upper air cyclonic circulation over Southwest Rajasthan & neighbourhoodat 1.5 km above mean sea level persists.\nThe trough from Northeast Arabian sea to Bangladesh across centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengalbetween 0.9 &7.6 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.",
   "systems": {
     "priority": [
       {
@@ -24,28 +24,19 @@
         "status": "active",
         "location": "East Madhya Pradesh and neighbourhood",
         "on_land": true,
-        "raw_text": "The Well-Marked Low Pressure area over East Madhya Pradesh and neighbourhood persists over the same region at 0830 hrs IST of today, the 7th July 2026. The associated cyclonic circulation extends upto 9.6 km above mean sea level tilting southwards with height. It is very likely to move slowly west-northwestwards across Madhya Pradesh and adjoining areas of southwest Uttar Pradesh and weaken during next 24 hours."
+        "raw_text": "The Well-Marked Low Pressure area over East Madhya Pradesh and neighbourhood persists over the same region at 1430 hrs IST of today, the 7th July 2026. The associated cyclonic circulation extends upto 9.6 km above mean sea level tilting southwards with height. It is very likely to move slowly west-northwestwards across Madhya Pradesh and adjoining areas of southwest Uttar Pradesh and weaken during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now runs from southwest Rajasthan to Bangladesh across the centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level from southwest Rajasthan to Bangladesh across the centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengal persists.",
         "extent": "southwest Rajasthan to Bangladesh",
+        "across": "the centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengal",
         "level": "mean sea level"
-      },
-      {
-        "type": "Shear Zone",
-        "level": {
-          "type": "range",
-          "min": 0.9,
-          "max": 7.6,
-          "display": "0.9–7.6 km above MSL"
-        },
-        "raw_text": "The shear zone now seen as a trough from Northeast Arabian sea to Bangladesh across centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengalbetween 0.9 &7.6 km above mean sea level."
       },
       {
         "type": "Offshore Trough",
         "level": "mean sea level",
-        "raw_text": "The offshore trough at mean sea level now runs from south Gujarat to central Kerala."
+        "raw_text": "The offshore trough at mean sea levelfrom south Gujarat to central Kerala persists."
       },
       {
         "type": "Western Disturbance",
@@ -68,7 +59,7 @@
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Southwest Rajasthan & neighbourhoodat 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Southwest Rajasthan & neighbourhoodat 1.5 km above mean sea level persists."
       }
     ],
     "other_troughs": [
@@ -76,16 +67,18 @@
         "type": "Trough",
         "subtype": "general",
         "extent": "Northeast Arabian sea to Bangladesh",
+        "across": "centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengalbetween 0.9 &7.6 km above mean sea level",
         "level": {
-          "type": "upto",
+          "type": "range",
+          "min": 0.9,
           "max": 7.6,
-          "display": "upto 7.6 km above MSL"
+          "display": "0.9–7.6 km above MSL"
         },
-        "raw_text": "A trough runs from Northeast Arabian sea to Bangladesh across Gujarat state, centre of Well Marked Low Pressure area over east Madhya Pradesh, north Chhattisgarh,Jharkhand & Gangetic West Bengaland extends upto 7.6 km above mean sea level."
+        "raw_text": "The trough from Northeast Arabian sea to Bangladesh across centre of Well Marked Low Pressure area over East Madhya Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengalbetween 0.9 &7.6 km above mean sea level persists."
       }
     ],
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-07 14:51 IST"
+  "fetched_at": "2026-07-07 17:05 IST"
 }
