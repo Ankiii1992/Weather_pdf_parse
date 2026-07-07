@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0707735363bccd9c3d5c82e1513c5d92.pdf",
+  "last_updated": "08:18 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-07",
+  "bulletin": {
+    "morning": "The Northern Limit of Monsoon continues to pass through 22°N/60°E, 22°N/65°E, Jamnagar, Udaipur, Ajmer, Jhunjhunu, Hisar, Bhatinda and 32.5°N/70°E. Conditions are favourable for further advance of southwest monsoon into some more parts of North Arabian Sea, Gujarat, remaining parts of Haryana & Punjab, and some more parts of Rajasthan during next 3 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 22.0,
+      "lon": 60.0
+    },
+    {
+      "lat": 22.0,
+      "lon": 65.0
+    },
+    {
+      "lat": 32.5,
+      "lon": 70.0
+    }
+  ],
+  "met_analysis": "The depression over north Chhattisgarh and adjoining areas of southeast Uttar Pradesh and northeast Madhya Pradesh weakened into a Well-Marked Low Pressure area over east Madhya Pradesh and neighbourhood at 0530 hrs IST of today, the 7th July 2026. The associated cyclonic circulation extends upto 9.6 km above mean sea level tilting southwards with height. It is very likely to move slowly west-northwestwards across Madhya Pradesh and adjoining areas of southwest Uttar Pradesh and weaken further during next 24 hours.\nThe Monsoon trough at mean sea level now runs from southwest Rajasthan to eastcentral Bay of Bengal across the centre of Well Marked Low Pressure area over east Madhya Pradesh , north Chhattisgarh, south Jharkhand & north Odisha and extends upto 1.5 km above mean sea level persists.\nThe shear zone roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level persists.\nThe offshore trough at mean sea level from south Gujarat to North Kerala coast persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Depression",
+        "status": "active",
+        "location": "north Chhattisgarh and adjoining areas of southeast Uttar Pradesh and northeast Madhya Pradesh weakened into a Well-Marked Low Pressure area over east Madhya Pradesh and neighbourhood",
+        "on_land": true,
+        "raw_text": "The depression over north Chhattisgarh and adjoining areas of southeast Uttar Pradesh and northeast Madhya Pradesh weakened into a Well-Marked Low Pressure area over east Madhya Pradesh and neighbourhood at 0530 hrs IST of today, the 7th July 2026. The associated cyclonic circulation extends upto 9.6 km above mean sea level tilting southwards with height. It is very likely to move slowly west-northwestwards across Madhya Pradesh and adjoining areas of southwest Uttar Pradesh and weaken further during next 24 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now runs from southwest Rajasthan to eastcentral Bay of Bengal across the centre of Well Marked Low Pressure area over east Madhya Pradesh , north Chhattisgarh, south Jharkhand & north Odisha and extends upto 1.5 km above mean sea level persists.",
+        "extent": "southwest Rajasthan to eastcentral Bay of Bengal",
+        "across": "the centre of Well Marked Low Pressure area over east Madhya Pradesh , north Chhattisgarh, south Jharkhand & north Odisha and extends upto 1.5 km above mean sea level",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
+      },
+      {
+        "type": "Shear Zone",
+        "location": "roughly along 21°N",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "raw_text": "The shear zone roughly along latitude 21°N between 3.1 & 7.6 km above mean sea level persists."
+      },
+      {
+        "type": "Offshore Trough",
+        "level": "mean sea level",
+        "raw_text": "The offshore trough at mean sea level from south Gujarat to North Kerala coast persists."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 72°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [],
+    "other_troughs": [],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-07 12:04 IST"
+}
