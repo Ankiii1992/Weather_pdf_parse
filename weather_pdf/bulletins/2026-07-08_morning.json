@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6df542f3e8fda4a9d5f3e95cd700d2cb.pdf",
+  "last_updated": "07:57 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-08",
+  "bulletin": {
+    "morning": "The Northern Limit of Monsoon continue to pass through 24.5°N/65°E, Barmer, Jodhpur, Rajgarh (Dist. Conditions are favourable for further advance of southwest monsoon into remaining parts of North Arabian Sea, Rajasthan, Haryana and Punjab, and hence entire country during next 2 3 days.",
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 24.5,
+      "lon": 65.0
+    }
+  ],
+  "met_analysis": "The Well-Marked Low Pressure area over Northeast Madhya Pradesh & adjoining Southeast Uttar Pradesh lies over Northwest Madhya Pradesh & adjoining Southwest Uttar Pradesh at 0530 hrs IST of today, the 8th July 2026. The associated cyclonic circulation extends upto 9.6 km above mean sea level tilting southwards with height. It is very likely to weaken during next 12 hours.\nThe Monsoon trough at mean sea level now runs from southwest Rajasthan to Bangladesh across the centre of Well Marked Low Pressure area over Northwest Madhya Pradesh & adjoining Southwest Uttar Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengal.\nThe offshore trough at mean sea levelfrom south Gujarat to central Kerala persists.\nThe trough from Northeast Arabian sea to Bangladesh across centre of Well Marked Low Pressure area over Northeast Madhya Pradesh & adjoining Southeast Uttar Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengalbetween 0.9 &7.6 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over Southwest Rajasthan & neighbourhoodat 1.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Northwest Madhya Pradesh & adjoining Southwest Uttar Pradesh",
+        "on_land": true,
+        "raw_text": "The Well-Marked Low Pressure area over Northeast Madhya Pradesh & adjoining Southeast Uttar Pradesh lies over Northwest Madhya Pradesh & adjoining Southwest Uttar Pradesh at 0530 hrs IST of today, the 8th July 2026. The associated cyclonic circulation extends upto 9.6 km above mean sea level tilting southwards with height. It is very likely to weaken during next 12 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now runs from southwest Rajasthan to Bangladesh across the centre of Well Marked Low Pressure area over Northwest Madhya Pradesh & adjoining Southwest Uttar Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengal.",
+        "extent": "southwest Rajasthan to Bangladesh",
+        "level": "mean sea level"
+      },
+      {
+        "type": "Offshore Trough",
+        "level": "mean sea level",
+        "raw_text": "The offshore trough at mean sea levelfrom south Gujarat to central Kerala persists."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 72°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Northeast Arabian sea to Bangladesh",
+        "across": "centre of Well Marked Low Pressure area over Northeast Madhya Pradesh & adjoining Southeast Uttar Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengalbetween 0.9 &7.6 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 0.9,
+          "max": 7.6,
+          "display": "0.9–7.6 km above MSL"
+        },
+        "raw_text": "The trough from Northeast Arabian sea to Bangladesh across centre of Well Marked Low Pressure area over Northeast Madhya Pradesh & adjoining Southeast Uttar Pradesh, North Chhattisgarh,Jharkhand & Gangetic West Bengalbetween 0.9 &7.6 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 1
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-08 11:10 IST"
+}
