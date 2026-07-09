@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b7dfbb7bc5c2938359b0a1973cdaf047.pdf",
-  "last_updated": "04:28 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ff34469e32c66e524665601eda1446db.pdf",
+  "last_updated": "08:44 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-09",
   "monsoon_advance": "The Southwest Monsoon has further advanced into remaining parts of north Arabian Sea, Rajasthan, Haryana & Punjab, today the 09th July, 2026. Thus, it has covered the entire country on 09th July, 2026, against the normal date of 08th July (1 day after the normal date of covering the entire India). Weather forecast and Warnings: Northwest India: Fairly Widespread to Widespread rainfall likely over Jammu Kashmir Ladakh Gilgit Baltistan Muzaffarabad during 9th 12th July; Himachal Pradesh and Uttarakhand during 9th 15th July. Fairly Widespread to Widespread rainfall likely over Haryana Chandigarh & Delhi during 9th 10th July; West Uttar Pradesh during 9th 11th July; East Uttar Pradesh during 9th 13th July. Isolated to Scattered rainfall likely over Jammu Kashmir Ladakh Gilgit Baltistan Muzaffarabad during 13th 15th July. Isolated to Scattered rainfall likely over East Rajasthan, Punjab and West Rajasthan during 9th 15th July; Haryana Chandigarh & Delhi during 11th 15th July; West Uttar Pradesh during 12th 15th July; East Uttar Pradesh during 14th 15th July. Isolated thunderstorm, lightning & gusty winds (speed reaching 40 50 kmph gusting to 60 kmph) likely over Jammu Kashmir Ladakh Gilgit Baltistan Muzaffarabad during 9th 15th July. Isolated thunderstorm, lightning & gusty winds (speed reaching 30 40 kmph gusting to 50 kmph) likely over West Rajasthan on 9th July. Isolated thunderstorm & lightning likely over Uttarakhand during 9th 15th July; East Uttar Pradesh and West Uttar Pradesh on 9th July; East Rajasthan during 9th 10th July. Isolated heavy rainfall likely over Jammu Kashmir Ladakh Gilgit Baltistan Muzaffarabad during 11th 12th July; and Uttarakhand during 9th 15th July; Punjab on 9th July and during 11th 12th July; Haryana Chandigarh & Delhi during 10th 13th July; West Uttar Pradesh on 9th July and on 11th July; East Uttar Pradesh during 12th 13th July; East Rajasthan on 9th July with isolated very heavy rainfall also likely over Himachal Pradesh, Haryana Chandigarh & Delhi on 9th July; West Uttar Pradesh on 10th July; East Uttar Pradesh during 9th 11th July. Heavy to very heavy rainfall with extremely heavy rainfall likely at isolated places over Uttarakhand on 09th & 10th; over West Uttar Pradesh on 09th July. Moderate to intense lightning activity over Jammu Kashmir Ladakh Gilgit Baltistan Muzaffarabad on 11th; East Uttar Pradesh on 12th July. Central India: Fairly Widespread to Widespread rainfall likely over West Madhya Pradesh on 9th July; East Madhya Pradesh during 9th 10th July and on 15th July; Vidarbha on 9th July and during 14th 15th July; Chhattisgarh on 9th July and during 13th 15th July. Isolated to Scattered rainfall likely over West Madhya Pradesh during 10th 15th July; East Madhya Pradesh during 11th 14th July; Vidarbha during 10th 13th July; Chhattisgarh during 10th 12th July. Isolated thunderstorm, lightning & gusty winds (speed reaching 40 50 kmph gusting to 60 kmph) likely over East Madhya Pradesh and West Madhya Pradesh during 9th 13th July, with gusty winds (speed reaching 30 40 kmph gusting to 50 kmph) likely over Vidarbha during 10th 13th July. Isolated thunderstorm & lightning likely over Chhattisgarh during 9th 13th July. Isolated heavy rainfall likely over Chhattisgarh and West Madhya Pradesh on 9th July; East Madhya Pradesh during 9th 10th July. East India: *Red color warning does not mean \"Red Alert\" Red color warning means \"Take Action\" Forecast and warning for any day is valid from 0830 hours IST of day till 0830 hours IST of next day For more details kindly visit https://mausam.imd.gov.in or contact 011 2434 4599 (Service to the nation since 1875) Page 1.",
   "bulletin": {
@@ -12,7 +12,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well Marked Low Pressure area over southwest Uttar Pradesh & neighbourhood persists at 1430 hrs IST of today, the 9th July 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level. It is very likely to move slowly northeastwards and weaken gradually during next 24 hours.\nThe Monsoon trough at mean sea level continues to pass through Anupgarh, Rohtak, centre of the Well Marked low pressure area over southwest Uttar Pradesh, Fursatganj, Dehri, Dhanbad, Bankura, Digha and thence east-southeastwards to northeast Bay of Bengal.\nThe offshore trough at mean sea levelfrom south Gujarat to north Kerala persists.\nThe Western Disturbance as cyclonic circulation over North Pakistan & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bihar & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe upper air cyclonic circulation over northeast Assam at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Well Marked Low Pressure area over southwest Uttar Pradesh & neighbourhood at 1730 hrs IST of today, the 9th July 2026 persists. The associated cyclonic circulation extending upto 7.6 km above mean sea level. It is very likely to move slowly northeastwards and weaken gradually during next 24 hours.\nThe Monsoon trough at mean sea level passes through Ganganagar, Rohtak, centre of the Well Marked low pressure area over southwest Uttar Pradesh, Prayagraj, Malda, thence eastward to Manipur.\nAn upper air cyclonic circulation lies over northwest Bay of Bengal & neighbourhood at 5.8 km above mean sea level.\nThe offshore trough at mean sea levelfrom south Gujarat to north Kerala persists.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood now seen between 3.1 & 4.5 km above mean sea level tilting southwards with height.\nThe upper air cyclonic circulation over north Bihar & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam at 0.9 km above mean sea level persists.\nThe Western Disturbance as cyclonic circulation over North Pakistan & neighbourhood at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -20,21 +20,18 @@
         "status": "weakening",
         "location": "southwest Uttar Pradesh & neighbourhood",
         "on_land": true,
-        "raw_text": "The Well Marked Low Pressure area over southwest Uttar Pradesh & neighbourhood persists at 1430 hrs IST of today, the 9th July 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level. It is very likely to move slowly northeastwards and weaken gradually during next 24 hours."
+        "raw_text": "The Well Marked Low Pressure area over southwest Uttar Pradesh & neighbourhood at 1730 hrs IST of today, the 9th July 2026 persists. The associated cyclonic circulation extending upto 7.6 km above mean sea level. It is very likely to move slowly northeastwards and weaken gradually during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Anupgarh, Rohtak, centre of the Well Marked low pressure area over southwest Uttar Pradesh, Fursatganj, Dehri, Dhanbad, Bankura, Digha and thence east-southeastwards to northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level passes through Ganganagar, Rohtak, centre of the Well Marked low pressure area over southwest Uttar Pradesh, Prayagraj, Malda, thence eastward to Manipur.",
         "passes_through": [
-          "Anupgarh",
+          "Ganganagar",
           "Rohtak",
           "centre of the Well Marked low pressure area over southwest Uttar Pradesh",
-          "Fursatganj",
-          "Dehri",
-          "Dhanbad",
-          "Bankura",
-          "Digha",
-          "northeast Bay of Bengal"
+          "Prayagraj",
+          "Malda",
+          "Manipur"
         ],
         "level": "mean sea level"
       },
@@ -59,13 +56,13 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "north Bihar & neighbourhood",
+        "location": "northwest Bay of Bengal & neighbourhood",
         "level": {
           "type": "single",
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Bihar & neighbourhood at 5.8 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over northwest Bay of Bengal & neighbourhood at 5.8 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -73,11 +70,21 @@
         "level": {
           "type": "range",
           "min": 3.1,
-          "max": 7.6,
-          "display": "3.1–7.6 km above MSL"
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
         },
         "tilt": "tilting southwards with height",
-        "raw_text": "The upper air cyclonic circulation over east Bangladesh & neighbourhood between 3.1 & 7.6 km above mean sea level tilting southwards with height persists."
+        "raw_text": "The upper air cyclonic circulation over east Bangladesh & neighbourhood now seen between 3.1 & 4.5 km above mean sea level tilting southwards with height."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Bihar & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Bihar & neighbourhood at 5.8 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -94,5 +101,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-09 17:12 IST"
+  "fetched_at": "2026-07-09 22:40 IST"
 }
