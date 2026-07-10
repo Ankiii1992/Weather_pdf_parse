@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a1287c301587b67de798249ff72a92ea.pdf",
-  "last_updated": "08:01 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/766edcf4d36e7c8cdda4dcd3866a5c0f.pdf",
+  "last_updated": "04:25 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-07-10",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,39 +12,33 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well Marked Low Pressure area over southwest Uttar Pradesh & neighbourhood lay as a Low-pressure area over northern parts of central Uttar Pradesh at 0530 hrs IST of today, the 10th July 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hours.\nThe Monsoon trough at mean sea level passes through Ganganagar, Hisar, centre of the low pressure area over northern parts of central Uttar Pradesh, Gorakhpur, Purnea and thence east southwest towards Mizoram.\nA trough in westerlies runs roughly along Long. 88°E to the north of Lat. 21°N at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over northwest Bay of Bengal & neighbourhood lies over Gangetic West Bengal & adjoining Bangladesh at 5.8 km above mean sea level.\nThe offshore trough at mean sea level now runs from Gujarat to Maharashtra.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood between 3.1 & 4.5 km above mean sea level tilting southwards with height persists.\nThe upper air cyclonic circulation over northeast Assam at 0.9 km above mean sea level persists.\nThe Western Disturbance as cyclonic circulation over North Pakistan & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bihar & neighbourhood at 5.8 km above mean sea level has become less marked.",
+  "met_analysis": "The Low Pressure Area over northern parts of central Uttar Pradesh persisted over the same region at 1430 hrs IST of today, the 10th July 2026. However, The associated cyclonic circulation extended upto 9.5 km above mean sea levels. It is very likely to weaken gradually during next 24 hours.\nThe Monsoon trough at mean sea level passes through Ganganagar, Rohtak, centre of the low pressure area over northern parts of central Uttar Pradesh, Gorakhpur, Muzaffarpur and thence east-southeast towards Mizoram.\nThe trough in westerlies roughly along Long. 88°E to the north of Lat. 21°N at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gangetic West Bengal & adjoining Bangladesh between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over west Assam & neighbourhood at 3.1 km above mean sea level tilting southwards with height persists.\nThe upper air cyclonic circulation over northeast Assam at 0.9 km above mean sea level persists.\nThe trough from Telangana to east-central Arabian sea off Karnataka coast between 1.5 & 3.1 km above mean sea level persists.\nThe Western Disturbance as cyclonic circulation over North Pakistan & Punjab at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "weakening",
-        "location": "southwest Uttar Pradesh & neighbourhood lay as a Low-pressure area over northern parts of central Uttar Pradesh",
+        "location": "northern parts of central Uttar Pradesh persisted over the same region",
         "on_land": true,
-        "raw_text": "The Well Marked Low Pressure area over southwest Uttar Pradesh & neighbourhood lay as a Low-pressure area over northern parts of central Uttar Pradesh at 0530 hrs IST of today, the 10th July 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hours."
+        "raw_text": "The Low Pressure Area over northern parts of central Uttar Pradesh persisted over the same region at 1430 hrs IST of today, the 10th July 2026. However, The associated cyclonic circulation extended upto 9.5 km above mean sea levels. It is very likely to weaken gradually during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level passes through Ganganagar, Hisar, centre of the low pressure area over northern parts of central Uttar Pradesh, Gorakhpur, Purnea and thence east southwest towards Mizoram.",
+        "raw_text": "The Monsoon trough at mean sea level passes through Ganganagar, Rohtak, centre of the low pressure area over northern parts of central Uttar Pradesh, Gorakhpur, Muzaffarpur and thence east-southeast towards Mizoram.",
         "passes_through": [
           "Ganganagar",
-          "Hisar",
+          "Rohtak",
           "centre of the low pressure area over northern parts of central Uttar Pradesh",
           "Gorakhpur",
-          "Purnea and thence east southwest towards Mizoram"
+          "Muzaffarpur and thence east-southeast towards Mizoram"
         ],
         "level": "mean sea level"
       },
       {
-        "type": "Offshore Trough",
-        "extent": "Gujarat to Maharashtra",
-        "level": "mean sea level",
-        "raw_text": "The offshore trough at mean sea level now runs from Gujarat to Maharashtra."
-      },
-      {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as cyclonic circulation over North Pakistan & neighbourhood at 5.8 km above mean sea level persists.",
+        "raw_text": "The Western Disturbance as cyclonic circulation over North Pakistan & Punjab at 5.8 km above mean sea level persists.",
         "form": "cyclonic_circulation",
-        "location": "North Pakistan & neighbourhood",
+        "location": "North Pakistan & Punjab",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -57,23 +51,23 @@
         "type": "Upper Air Cyclonic Circulation",
         "location": "Gangetic West Bengal & adjoining Bangladesh",
         "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northwest Bay of Bengal & neighbourhood lies over Gangetic West Bengal & adjoining Bangladesh at 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Gangetic West Bengal & adjoining Bangladesh between 4.5 & 5.8 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "east Bangladesh & neighbourhood",
+        "location": "west Assam & neighbourhood",
         "level": {
-          "type": "range",
+          "type": "single",
           "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
+          "display": "3.1 km above MSL"
         },
         "tilt": "tilting southwards with height",
-        "raw_text": "The upper air cyclonic circulation over east Bangladesh & neighbourhood between 3.1 & 4.5 km above mean sea level tilting southwards with height persists."
+        "raw_text": "The upper air cyclonic circulation over west Assam & neighbourhood at 3.1 km above mean sea level tilting southwards with height persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -96,11 +90,23 @@
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "A trough in westerlies runs roughly along Long. 88°E to the north of Lat. 21°N at 1.5 km above mean sea level."
+        "raw_text": "The trough in westerlies roughly along Long. 88°E to the north of Lat. 21°N at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Telangana to east-central Arabian sea off Karnataka coast between 1.5 & 3.1 km above mean sea level",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "The trough from Telangana to east-central Arabian sea off Karnataka coast between 1.5 & 3.1 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 1
+    "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-10 12:01 IST"
+  "fetched_at": "2026-07-10 17:10 IST"
 }
