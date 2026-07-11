@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a777f4643d10365c0b9740fdec91b761.pdf",
+  "last_updated": "01:18 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-07-11",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Rohtak, Shahjahanpur, Basti, Muzaffarpur and thence east-southeastwards towards Manipur.\nThe upper air cyclonic circulation over the East Uttar Pradesh persists and now seen at 5.8 km above mean sea level.\nThe Western Disturbance as cyclonic circulation over Punjab & neighbourhood now lies over Northeast Punjab & neighbourhood at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over north Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nA trough runs from Northwest Bihar to Manipur across upper air cyclonic circulation over north Bangladesh & neighbourhood at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over Northwest Bihar & neighbourhood between 3.1 & 4.5 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam at 0.9 km above mean sea level has become less marked.\nThe trough from Telangana to east-central Arabian sea off Karnataka coast between 1.5 & 3.1 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Rohtak, Shahjahanpur, Basti, Muzaffarpur and thence east-southeastwards towards Manipur.",
+        "passes_through": [
+          "Sri Ganganagar",
+          "Rohtak",
+          "Shahjahanpur",
+          "Basti",
+          "Muzaffarpur and thence east-southeastwards towards Manipur"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as cyclonic circulation over Punjab & neighbourhood now lies over Northeast Punjab & neighbourhood at 5.8 km above mean sea level.",
+        "form": "cyclonic_circulation",
+        "location": "Northeast Punjab & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "the East Uttar Pradesh",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over the East Uttar Pradesh persists and now seen at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Bangladesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northwest Bihar & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Northwest Bihar & neighbourhood between 3.1 & 4.5 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Northwest Bihar to Manipur",
+        "across": "upper air cyclonic circulation over north Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "A trough runs from Northwest Bihar to Manipur across upper air cyclonic circulation over north Bangladesh & neighbourhood at 0.9 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 2
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-11 15:38 IST"
+}
