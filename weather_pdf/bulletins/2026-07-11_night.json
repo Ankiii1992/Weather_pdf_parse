@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/525a4fb2fca5f7bac569706da5b18dd2.pdf",
+  "last_updated": "08:49 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-07-11",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level continue to pass through Sri Ganganagar, Rohtak, Shahjahanpur, Gorakhpur, Dehri, Bankura, Contai and thence east-southeastwards towards Northeast Bay of Bengal.\nThe Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 71°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over north Bangladesh & neighbourhood now lies over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level.\nA trough in westerlies runs roughly along Long. 87°E to the north of Lat. 24°N between 5.8 & 7.6 km above mean sea level.\nThe upper air cyclonic circulation over Northwest Bihar & neighbourhood persists and now seen at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over the East Uttar Pradesh at 5.8 km above mean sea level has become less marked.\nThe trough from Northwest Bihar to Manipur at 0.9 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continue to pass through Sri Ganganagar, Rohtak, Shahjahanpur, Gorakhpur, Dehri, Bankura, Contai and thence east-southeastwards towards Northeast Bay of Bengal.",
+        "passes_through": [
+          "Sri Ganganagar",
+          "Rohtak",
+          "Shahjahanpur",
+          "Gorakhpur",
+          "Dehri",
+          "Bankura",
+          "Contai and thence east-southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 71°E to the north of Lat. 30°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 71°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Bangladesh & neighbourhood now lies over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northwest Bihar & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northwest Bihar & neighbourhood persists and now seen at 3.1 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "westerlies",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        },
+        "raw_text": "A trough in westerlies runs roughly along Long. 87°E to the north of Lat. 24°N between 5.8 & 7.6 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 2
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-11 21:12 IST"
+}
