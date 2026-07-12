@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a6897708caee70476c12e1c0c1cab4c5.pdf",
-  "last_updated": "01:32 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8823dfa1358c80e74a42c7b30452788b.pdf",
+  "last_updated": "04:46 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-07-12",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,12 +12,12 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Hissar, Meerut, Shahjahanpur, Gorakhpur, Muzaffarpur and thence east-southeastwards to south Assam.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulationover Northeast Bihar & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation lies over South Bangladesh & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation lies over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nA trough in westerlies runs roughly along Long. 89°E to the north of Lat. 21°N upto 1.5 km above mean sea level.\nThe trough from North Bangladesh to North Bay of Bengal merged with the above trough.",
+  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Hissar, Meerut, Shahjahanpur, Gorakhpur, Muzaffarpur and thence east-southeastwards to south Assam.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulationover Northeast Bihar & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Bangladesh & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe trough in westerlies roughly along Long. 89°E to the north of Lat. 21°N upto 1.5 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Hissar, Meerut, Shahjahanpur, Gorakhpur, Muzaffarpur and thence east-southeastwards to south Assam.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Hissar, Meerut, Shahjahanpur, Gorakhpur, Muzaffarpur and thence east-southeastwards to south Assam.",
         "passes_through": [
           "Sri Ganganagar",
           "Hissar",
@@ -59,7 +59,7 @@
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation lies over South Bangladesh & neighbourhood at 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over South Bangladesh & neighbourhood at 5.8 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -70,28 +70,24 @@
           "max": 3.1,
           "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation lies over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "westerlies",
+        "extent": "along Long. 89°E to the north of Lat. 21°N upto 1.5 km above mean sea level",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "A trough in westerlies runs roughly along Long. 89°E to the north of Lat. 21°N upto 1.5 km above mean sea level."
-      },
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "raw_text": "The trough from North Bangladesh to North Bay of Bengal merged with the above trough."
+        "raw_text": "The trough in westerlies roughly along Long. 89°E to the north of Lat. 21°N upto 1.5 km above mean sea level persists."
       }
     ],
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-12 15:47 IST"
+  "fetched_at": "2026-07-12 18:16 IST"
 }
