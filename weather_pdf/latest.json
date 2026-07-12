@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8823dfa1358c80e74a42c7b30452788b.pdf",
-  "last_updated": "04:46 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/11918babf6fae038771b1d59556fee5a.pdf",
+  "last_updated": "08:38 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-12",
   "monsoon_advance": null,
   "bulletin": {
@@ -89,5 +89,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-12 18:16 IST"
+  "fetched_at": "2026-07-12 21:16 IST"
 }
