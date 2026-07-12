@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/525a4fb2fca5f7bac569706da5b18dd2.pdf",
-  "last_updated": "08:49 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-07-11",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d4d39c5aac88f158b4ae78fa66d205f2.pdf",
+  "last_updated": "08:00 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-12",
   "monsoon_advance": null,
   "bulletin": {
     "morning": null,
@@ -12,28 +12,27 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level continue to pass through Sri Ganganagar, Rohtak, Shahjahanpur, Gorakhpur, Dehri, Bankura, Contai and thence east-southeastwards towards Northeast Bay of Bengal.\nThe Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 71°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over north Bangladesh & neighbourhood now lies over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level.\nA trough in westerlies runs roughly along Long. 87°E to the north of Lat. 24°N between 5.8 & 7.6 km above mean sea level.\nThe upper air cyclonic circulation over Northwest Bihar & neighbourhood persists and now seen at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over the East Uttar Pradesh at 5.8 km above mean sea level has become less marked.\nThe trough from Northwest Bihar to Manipur at 0.9 km above mean sea level has become less marked.",
+  "met_analysis": "The Monsoon trough at mean sea level passes through Firozpur, Ambala, Bareilly, Gorakhpur, Purnea and thence eastwards to Manipur.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Northwest Bihar & neighbourhood now lies over Northeast Bihar & neighbourhood at 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over South Bangladesh & neighbourhood at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level.\nA trough runs from North Bangladesh to North Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe trough in westerlies along Long. 87°E to the north of Lat. 24°N between 5.8 & 7.6 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continue to pass through Sri Ganganagar, Rohtak, Shahjahanpur, Gorakhpur, Dehri, Bankura, Contai and thence east-southeastwards towards Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level passes through Firozpur, Ambala, Bareilly, Gorakhpur, Purnea and thence eastwards to Manipur.",
         "passes_through": [
-          "Sri Ganganagar",
-          "Rohtak",
-          "Shahjahanpur",
+          "Firozpur",
+          "Ambala",
+          "Bareilly",
           "Gorakhpur",
-          "Dehri",
-          "Bankura",
-          "Contai and thence east-southeastwards towards Northeast Bay of Bengal"
+          "Purnea",
+          "Manipur"
         ],
         "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 71°E to the north of Lat. 30°N.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 71°E to the north of Lat. 30°N",
+        "axis": "along Long. 72°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -44,40 +43,50 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Bangladesh & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over north Bangladesh & neighbourhood now lies over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Northwest Bihar & neighbourhood",
+        "location": "Northeast Bihar & neighbourhood",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northwest Bihar & neighbourhood persists and now seen at 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Northwest Bihar & neighbourhood now lies over Northeast Bihar & neighbourhood at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over South Bangladesh & neighbourhood at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Assam & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
-        "subtype": "westerlies",
+        "subtype": "general",
         "level": {
-          "type": "range",
-          "min": 5.8,
-          "max": 7.6,
-          "display": "5.8–7.6 km above MSL"
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "A trough in westerlies runs roughly along Long. 87°E to the north of Lat. 24°N between 5.8 & 7.6 km above mean sea level."
+        "raw_text": "A trough runs from North Bangladesh to North Bay of Bengal and extends upto 1.5 km above mean sea level."
       }
     ],
     "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-07-12 06:49 IST"
+  "fetched_at": "2026-07-12 11:16 IST"
 }
