@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d4d39c5aac88f158b4ae78fa66d205f2.pdf",
+  "last_updated": "08:00 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-12",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level passes through Firozpur, Ambala, Bareilly, Gorakhpur, Purnea and thence eastwards to Manipur.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Northwest Bihar & neighbourhood now lies over Northeast Bihar & neighbourhood at 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over South Bangladesh & neighbourhood at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level.\nA trough runs from North Bangladesh to North Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe trough in westerlies along Long. 87°E to the north of Lat. 24°N between 5.8 & 7.6 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level passes through Firozpur, Ambala, Bareilly, Gorakhpur, Purnea and thence eastwards to Manipur.",
+        "passes_through": [
+          "Firozpur",
+          "Ambala",
+          "Bareilly",
+          "Gorakhpur",
+          "Purnea",
+          "Manipur"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 72°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Bihar & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northwest Bihar & neighbourhood now lies over Northeast Bihar & neighbourhood at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over South Bangladesh & neighbourhood at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Assam & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "A trough runs from North Bangladesh to North Bay of Bengal and extends upto 1.5 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 2
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-12 11:16 IST"
+}
