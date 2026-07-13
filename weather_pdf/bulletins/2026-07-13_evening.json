@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/cb384b3acdfd54502183b1a4d73226dd.pdf",
+  "last_updated": "04:46 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-07-13",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Hissar, Moradabad, Gorakhpur, Muzaffarpur, Balurghat and thence east-southeastwards to Manipur.\nThe Western Disturbance as cyclonic circulation over central Pakistan & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over East Bangladesh & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe Trough from North west Bihar to Manipur across upper air cyclonic circulation over East Bangladesh & Tripura at 0.9 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Hissar, Moradabad, Gorakhpur, Muzaffarpur, Balurghat and thence east-southeastwards to Manipur.",
+        "passes_through": [
+          "Sri Ganganagar",
+          "Hissar",
+          "Moradabad",
+          "Gorakhpur",
+          "Muzaffarpur",
+          "Balurghat",
+          "Manipur"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as cyclonic circulation over central Pakistan & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 32°N persists.",
+        "form": "cyclonic_circulation",
+        "location": "central Pakistan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Bay of Bengal & adjoining South Bangladesh",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh between 4.5 & 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Bangladesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Bangladesh & neighbourhood extending upto 3.1 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "North west Bihar to Manipur",
+        "across": "upper air cyclonic circulation over East Bangladesh & Tripura",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The Trough from North west Bihar to Manipur across upper air cyclonic circulation over East Bangladesh & Tripura at 0.9 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-13 17:17 IST"
+}
