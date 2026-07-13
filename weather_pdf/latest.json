@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/cb384b3acdfd54502183b1a4d73226dd.pdf",
-  "last_updated": "04:46 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/29173ea02e1a09703805800474620666.pdf",
+  "last_updated": "08:32 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-13",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,20 +12,21 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Hissar, Moradabad, Gorakhpur, Muzaffarpur, Balurghat and thence east-southeastwards to Manipur.\nThe Western Disturbance as cyclonic circulation over central Pakistan & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over East Bangladesh & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe Trough from North west Bihar to Manipur across upper air cyclonic circulation over East Bangladesh & Tripura at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Amritsar, Chandigarh, Najibabad, Shahjahanpur, Gorakhpur, Chapra, Malda and thence east-southeastwards to Mizoram.\nThe Western Disturbance as cyclonic circulation over central Pakistan & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh lies over North Bay of Bengal & neighbourhood between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over East Bangladesh & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe Trough from North west Bihar to Manipur across upper air cyclonic circulation over East Bangladesh & Tripura at 0.9 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Hissar, Moradabad, Gorakhpur, Muzaffarpur, Balurghat and thence east-southeastwards to Manipur.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Chandigarh, Najibabad, Shahjahanpur, Gorakhpur, Chapra, Malda and thence east-southeastwards to Mizoram.",
         "passes_through": [
-          "Sri Ganganagar",
-          "Hissar",
-          "Moradabad",
+          "Amritsar",
+          "Chandigarh",
+          "Najibabad",
+          "Shahjahanpur",
           "Gorakhpur",
-          "Muzaffarpur",
-          "Balurghat",
-          "Manipur"
+          "Chapra",
+          "Malda",
+          "Mizoram"
         ],
         "level": "mean sea level"
       },
@@ -52,14 +53,14 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "North Bay of Bengal & adjoining South Bangladesh",
+        "location": "North Bay of Bengal & neighbourhood",
         "level": {
           "type": "range",
           "min": 4.5,
           "max": 5.8,
           "display": "4.5–5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh between 4.5 & 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh lies over North Bay of Bengal & neighbourhood between 4.5 & 5.8 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -89,5 +90,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-13 19:24 IST"
+  "fetched_at": "2026-07-13 22:34 IST"
 }
