@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/80a1959e5e34ad80537486273d4ed6be.pdf",
-  "last_updated": "04:31 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bc6e8f43537c7ce68a4644b8113e33aa.pdf",
+  "last_updated": "09:17 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-14",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,7 +12,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Jammu, Dehradun, Barabanki, Patna, Bankura, canning and thence southeastwards towards east-central Bay of Bengal.\nThe upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh extending upto 7.6 km above mean sea level tilting southwestwards with height persists. Under its influence, a Low Pressure Area is likely to form over north Bay of Bengal & adjoining west Bengal-Bangladesh coasts during next 24 hours.\nThe upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan at 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulationover Southwest Uttar Pradesh &neighbourhood at 5.8 km above mean sea level persists.",
+  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Jammu, Dehradun, Barabanki, Patna, Bankura, canning and thence southeastwards towards east-central Bay of Bengal.\nThe upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh extending upto 7.6 km above mean sea level tilting southwestwards with height persists. Under its influence, a Low Pressure Area is likely to form over north Bay of Bengal & adjoining west Bengal-Bangladesh coasts during next 24 hours.\nThe upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan at 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulationover Southwest Uttar Pradesh &neighbourhood now lies over East Uttar Pradesh & neighbourhood at 5.8 km above mean sea level..",
   "systems": {
     "priority": [
       {
@@ -64,17 +64,18 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulationover Southwest Uttar Pradesh &neighbourhood at 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulationover Southwest Uttar Pradesh &neighbourhood now lies over East Uttar Pradesh & neighbourhood at 5.8 km above mean sea level.."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-14 18:29 IST"
+  "fetched_at": "2026-07-14 21:38 IST"
 }
