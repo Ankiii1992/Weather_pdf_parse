@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9fb1a987916cb65fe10631c15f97efb1.pdf",
+  "last_updated": "01:33 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-07-14",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Barabanki, Patna, Bankura, canning and thence southeastwards towards east-central Bay of Bengal.\nThe upper air cyclonic circulation over North Bay of Bengal & neighbourhood lies over North Bay of Bengal & adjoining South Bangladesh and extends upto 7.6 km above mean sea level tilting southwestwards with height. Under its influence, a Low Pressure Area is likely to form over north Bay of Bengal & adjoining west Bengal- Bangladesh coasts during next 24 hours.\nThe upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan at 5.8 km above mean sea level persists.\nThe Western Disturbance now seen as a cyclonic circulation over North Pakistan & adjoining Jammu at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Southwest Uttar Pradesh &neighbourhood at 5.8 km above mean sea level.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Barabanki, Patna, Bankura, canning and thence southeastwards towards east-central Bay of Bengal.",
+        "passes_through": [
+          "Jammu",
+          "Dehradun",
+          "Barabanki",
+          "Patna",
+          "Bankura",
+          "canning and thence southeastwards towards east-central Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance now seen as a cyclonic circulation over North Pakistan & adjoining Jammu at 5.8 km above mean sea level.",
+        "form": "cyclonic_circulation",
+        "location": "North Pakistan & adjoining Jammu",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Bay of Bengal & adjoining South Bangladesh",
+        "level": {
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
+        },
+        "tilt": "tilting southwestwards with height",
+        "raw_text": "The upper air cyclonic circulation over North Bay of Bengal & neighbourhood lies over North Bay of Bengal & adjoining South Bangladesh and extends upto 7.6 km above mean sea level tilting southwestwards with height. Under its influence, a Low Pressure Area is likely to form over north Bay of Bengal & adjoining west Bengal- Bangladesh coasts during next 24 hours."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Gujarat & adjoining southwest Rajasthan",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan at 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southwest Uttar Pradesh &neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Southwest Uttar Pradesh &neighbourhood at 5.8 km above mean sea level."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-14 15:59 IST"
+}
