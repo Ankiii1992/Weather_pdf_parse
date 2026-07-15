@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bc6e8f43537c7ce68a4644b8113e33aa.pdf",
-  "last_updated": "09:17 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-07-14",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0baada6d38091b9686b328deb750196d.pdf",
+  "last_updated": "08:09 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-15",
   "monsoon_advance": null,
   "bulletin": {
     "morning": null,
@@ -12,21 +12,27 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Jammu, Dehradun, Barabanki, Patna, Bankura, canning and thence southeastwards towards east-central Bay of Bengal.\nThe upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh extending upto 7.6 km above mean sea level tilting southwestwards with height persists. Under its influence, a Low Pressure Area is likely to form over north Bay of Bengal & adjoining west Bengal-Bangladesh coasts during next 24 hours.\nThe upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan at 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulationover Southwest Uttar Pradesh &neighbourhood now lies over East Uttar Pradesh & neighbourhood at 5.8 km above mean sea level..",
+  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Jammu, Dehradun, Bareilly, Gorakhpur, Patna, Bankura, centre of Low Pressure area over Northwest Bay of Bengal off north Odisha -West Bengal coasts and thence southeastwards towards east-central Bay of Bengal. Under the influence of the yesterday's upper air Cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh, a Low Pressure Area has formed over Northwest Bay of Bengal off north Odisha -West Bengal coasts at 0530 hrs IST of today, 15th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestwards across north Odisha & Gangetic West Bengal during next 2 days\nThe upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan at 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulationover East Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jammu, Dehradun, Barabanki, Patna, Bankura, canning and thence southeastwards towards east-central Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jammu, Dehradun, Bareilly, Gorakhpur, Patna, Bankura, centre of Low Pressure area over Northwest Bay of Bengal off north Odisha -West Bengal coasts and thence southeastwards towards east-central Bay of Bengal. Under the influence of the yesterday's upper air Cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh, a Low Pressure Area has formed over Northwest Bay of Bengal off north Odisha -West Bengal coasts at 0530 hrs IST of today, 15th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestwards across north Odisha & Gangetic West Bengal during next 2 days",
         "passes_through": [
           "Jammu",
           "Dehradun",
-          "Barabanki",
+          "Bareilly",
+          "Gorakhpur",
           "Patna",
           "Bankura",
-          "canning and thence southeastwards towards east-central Bay of Bengal"
+          "centre of Low Pressure area over Northwest Bay of Bengal off north Odisha -West Bengal coasts and thence southeastwards towards east-central Bay of Bengal. Under the influence of the yesterday's upper air Cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh",
+          "a Low Pressure Area has formed over Northwest Bay of Bengal off north Odisha -West Bengal coasts"
         ],
-        "level": "mean sea level"
+        "level": {
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
+        }
       },
       {
         "type": "Western Disturbance",
@@ -43,17 +49,6 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "North Bay of Bengal & adjoining South Bangladesh",
-        "level": {
-          "type": "upto",
-          "max": 7.6,
-          "display": "upto 7.6 km above MSL"
-        },
-        "tilt": "tilting southwestwards with height",
-        "raw_text": "The upper air cyclonic circulation over North Bay of Bengal & adjoining South Bangladesh extending upto 7.6 km above mean sea level tilting southwestwards with height persists. Under its influence, a Low Pressure Area is likely to form over north Bay of Bengal & adjoining west Bengal-Bangladesh coasts during next 24 hours."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
         "location": "north Gujarat & adjoining southwest Rajasthan",
         "level": {
           "type": "single",
@@ -64,18 +59,17 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "East Uttar Pradesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulationover Southwest Uttar Pradesh &neighbourhood now lies over East Uttar Pradesh & neighbourhood at 5.8 km above mean sea level.."
+        "raw_text": "The upper air cyclonic circulationover East Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-15 06:37 IST"
+  "fetched_at": "2026-07-15 10:50 IST"
 }
