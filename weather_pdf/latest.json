@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/28435f50dc0b10feb5c05de0b0277d35.pdf",
-  "last_updated": "01:13 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ffb542694f1cbab08f22dbdde608f6ff.pdf",
+  "last_updated": "04:29 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-07-15",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,7 +12,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over Northwest Bay of Bengal off north Odisha -West Bengal coasts now lies over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts at 0830 hrs IST of today, 15th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely become Well Marked Low Pressure Area and move northwestwards across North Odisha & Gangetic West Bengal during next 2 days.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Shahjahanpur, Basti, Patna, Bankura, centre of Low Pressure area over Northwest Bay of Bengal and adjoining north Odisha -West Bengal coasts and thence southeastwards towards east-central Bay of Bengal.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu persists and now seen between 3.1 & 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Northwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over East Uttar Pradesh & adjoining Biharat 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over East Assam & neighbourhood at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan persists and now seen between 3.1 & 5.8 km above mean sea level.\nThe upper air cyclonic circulationover East Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Northwest India from 19th July.",
+  "met_analysis": "The Low Pressure Area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts persists at 1430 hrs IST of today, 15th July, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely become Well Marked Low Pressure Area and move northwestwards across North Odisha & Gangetic West Bengal during next 2 days.\nThe Monsoon trough at mean sea level continues to pass through Jammu, Dehradun, Shahjahanpur, Basti, Patna, Bankura, centre of Low Pressure area over Northwest Bay of Bengal and adjoining north Odisha -West Bengal coasts and thence southeastwards towards east-central Bay of Bengal.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & adjoining Biharat 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over East Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulationover East Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Northwest India from 19th July.",
   "systems": {
     "priority": [
       {
@@ -20,11 +20,11 @@
         "status": "active",
         "location": "Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts",
         "movement": "northwestwards",
-        "raw_text": "The Low Pressure Area over Northwest Bay of Bengal off north Odisha -West Bengal coasts now lies over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts at 0830 hrs IST of today, 15th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely become Well Marked Low Pressure Area and move northwestwards across North Odisha & Gangetic West Bengal during next 2 days."
+        "raw_text": "The Low Pressure Area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts persists at 1430 hrs IST of today, 15th July, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely become Well Marked Low Pressure Area and move northwestwards across North Odisha & Gangetic West Bengal during next 2 days."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Shahjahanpur, Basti, Patna, Bankura, centre of Low Pressure area over Northwest Bay of Bengal and adjoining north Odisha -West Bengal coasts and thence southeastwards towards east-central Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jammu, Dehradun, Shahjahanpur, Basti, Patna, Bankura, centre of Low Pressure area over Northwest Bay of Bengal and adjoining north Odisha -West Bengal coasts and thence southeastwards towards east-central Bay of Bengal.",
         "passes_through": [
           "Jammu",
           "Dehradun",
@@ -38,9 +38,9 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu persists and now seen between 3.1 & 5.8 km above mean sea level.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over North Pakistan & adjoining between 3.1 & 5.8 km above mean sea level persists.",
         "form": "cyclonic_circulation",
-        "location": "North Pakistan & adjoining Jammu",
+        "location": "North Pakistan & adjoining",
         "level": {
           "type": "range",
           "min": 3.1,
@@ -58,7 +58,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Northwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -68,7 +68,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over East Uttar Pradesh & adjoining Biharat 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & adjoining Biharat 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -78,7 +78,7 @@
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over East Assam & neighbourhood at 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over East Assam & neighbourhood at 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -89,7 +89,7 @@
           "max": 5.8,
           "display": "3.1–5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan persists and now seen between 3.1 & 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan between 3.1 & 5.8 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -105,5 +105,5 @@
     "suppressed_count": 1
   },
   "mjo": null,
-  "fetched_at": "2026-07-15 16:11 IST"
+  "fetched_at": "2026-07-15 18:33 IST"
 }
