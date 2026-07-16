@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/914202763a51487fc83b8ef4f0b5ecdf.pdf",
-  "last_updated": "02:20 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9c32f0e5ea63074793993da1c90b56f1.pdf",
+  "last_updated": "04:31 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-07-16",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,12 +12,19 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level now passes through Jammu, Bareilly, Basti, Daltonganj, centre of well Marked Low Pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts and thence east-southeastwards towards Northeast Bay of Bengal.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu lies over Jammu division & neighbourhood between 4.5 & 5.8 km above mean sea level with the trough aloft with axis at 7.6 km above mean sea level now runs roughly along Long. 75°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood lies over north Haryana & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over East Uttar Pradesh & adjoining Bihar and extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan lies over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level.\nA trough runs from the cyclonic circulation associated the Well marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts to east-central Arabian Sea across coastal Andhra Pradesh, Telangana and Maharashtra between 5.8 & 7.6 km above mean sea level.\nA fresh Western Disturbance is likely to affect Northwest India from 19th July, 2026.\nThe upper air cyclonic circulationover East Uttar Pradesh & neighbourhood at 5.8 km above mean sea level has become less marked.\nThe upper air cyclonic circulation lies over North Bihar & neighbourhood at 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over East Assam & neighbourhood at 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The Well-marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts persisted over the same region at 1430 hrs IST of today, 16th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move northwestwards across North Odisha & Gangetic West Bengal during next 2 days.\nThe trough from the above cyclonic circulation associated the Well marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts to east-central Arabian Sea across coastal Andhra Pradesh, Telangana and Maharashtra between 5.8 & 7.6 km above mean sea level persists.\nThe Monsoon trough at mean sea level continues to pass through Jammu, Bareilly, Basti, Daltonganj, centre of well Marked Low Pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts and thence east-southeastwards towards Northeast Bay of Bengal.\nThe Western Disturbance as a cyclonic circulation over Jammu division & neighbourhood between 4.5 & 5.8 km above mean sea level with the trough aloft with its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & adjoining Bihar and extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Northwest India from 19th July, 2026.",
   "systems": {
     "priority": [
       {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts persisted over the same region",
+        "movement": "northwestwards",
+        "raw_text": "The Well-marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts persisted over the same region at 1430 hrs IST of today, 16th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move northwestwards across North Odisha & Gangetic West Bengal during next 2 days."
+      },
+      {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Bareilly, Basti, Daltonganj, centre of well Marked Low Pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts and thence east-southeastwards towards Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jammu, Bareilly, Basti, Daltonganj, centre of well Marked Low Pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts and thence east-southeastwards towards Northeast Bay of Bengal.",
         "passes_through": [
           "Jammu",
           "Bareilly",
@@ -29,7 +36,7 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu lies over Jammu division & neighbourhood between 4.5 & 5.8 km above mean sea level with the trough aloft with axis at 7.6 km above mean sea level now runs roughly along Long. 75°E to the north of Lat. 30°N.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu division & neighbourhood between 4.5 & 5.8 km above mean sea level with the trough aloft with its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 30°N persists.",
         "form": "cyclonic_circulation",
         "location": "Jammu division & neighbourhood",
         "level": {
@@ -57,7 +64,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northwest Uttar Pradesh & neighbourhood lies over north Haryana & neighbourhood at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -77,14 +84,14 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Gujarat & adjoining southwest Rajasthan lies over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the cyclonic circulation associated the Well marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts to east-central Arabian Sea",
+        "extent": "cyclonic circulation associated the Well marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts to east-central Arabian Sea",
         "across": "coastal Andhra Pradesh, Telangana and Maharashtra",
         "level": {
           "type": "range",
@@ -92,11 +99,11 @@
           "max": 7.6,
           "display": "5.8–7.6 km above MSL"
         },
-        "raw_text": "A trough runs from the cyclonic circulation associated the Well marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts to east-central Arabian Sea across coastal Andhra Pradesh, Telangana and Maharashtra between 5.8 & 7.6 km above mean sea level."
+        "raw_text": "The trough from the above cyclonic circulation associated the Well marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts to east-central Arabian Sea across coastal Andhra Pradesh, Telangana and Maharashtra between 5.8 & 7.6 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 4
+    "suppressed_count": 1
   },
   "mjo": null,
-  "fetched_at": "2026-07-16 16:18 IST"
+  "fetched_at": "2026-07-16 18:41 IST"
 }
