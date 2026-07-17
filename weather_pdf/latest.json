@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/84652adfabba0ea83bc4cca8e19f3528.pdf",
-  "last_updated": "08:45 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-07-16",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c19c7d4faaef33808a9b2a2886c6d62c.pdf",
+  "last_updated": "07:57 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-17",
   "monsoon_advance": null,
   "bulletin": {
     "morning": null,
@@ -12,25 +12,25 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well-marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts moved north-westwards and lay centred over North Odisha and adjoining Jharkhand & Gangetic West Bengal at 1730 hrs IST of today, 16th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move North-westwards across North Odisha & Jharkhand during next 2 days and weaken gradually.\nThe trough now runs from the above cyclonic circulation associated the Well marked low pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal to east-central Arabian Sea across Chhattisgarh, Vidarbha, Madhya Maharashtra, south Gujarat State between 5.8 & 7.6 km above mean sea level.\nThe Monsoon trough at mean sea level continues to pass through Jammu, Bareilly, Basti, Daltonganj, centre of well Marked Low Pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal and thence east-southeastwards towards Northeast Bay of Bengal.\nThe Western Disturbance as a cyclonic circulation over Jammu division & neighbourhood between 4.5 & 5.8 km above mean sea level with the trough aloft with its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & adjoining Bihar and extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Northwest India from 19th July, 2026.",
+  "met_analysis": "The Well-marked low pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal weakened into Low Pressure area over the same region at 0530 hrs IST of today, 17th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hrs.\nThe trough now runs from the above cyclonic circulation associated the Low Pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal to east-central Arabian Sea across Chhattisgarh, Vidarbha, Madhya Maharashtra, south Gujarat State between 5.8 & 7.6 km above mean sea level.\nThe Monsoon trough at mean sea level continues to pass through Jammu, Bareilly, Basti, Daltonganj, centre of Low Pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal and thence east- southeastwards towards Northeast Bay of Bengal.\nThe Western Disturbance as a cyclonic circulation over Jammu division & neighbourhood between 4.5 & 5.8 km above mean sea level with the trough aloft with its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & adjoining Bihar and extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Northwest India from 19th July, 2026.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "weakening",
-        "location": "Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts moved north-westwards and lay centred over North Odisha and adjoining Jharkhand & Gangetic West Bengal",
-        "movement": "north-westwards",
-        "raw_text": "The Well-marked low pressure area over Northwest Bay of Bengal and adjoining North Odisha -West Bengal coasts moved north-westwards and lay centred over North Odisha and adjoining Jharkhand & Gangetic West Bengal at 1730 hrs IST of today, 16th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move North-westwards across North Odisha & Jharkhand during next 2 days and weaken gradually."
+        "location": "North Odisha and adjoining Jharkhand & Gangetic West Bengal weakened into Low Pressure area over the same region",
+        "on_land": true,
+        "raw_text": "The Well-marked low pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal weakened into Low Pressure area over the same region at 0530 hrs IST of today, 17th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hrs."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jammu, Bareilly, Basti, Daltonganj, centre of well Marked Low Pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal and thence east-southeastwards towards Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jammu, Bareilly, Basti, Daltonganj, centre of Low Pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal and thence east- southeastwards towards Northeast Bay of Bengal.",
         "passes_through": [
           "Jammu",
           "Bareilly",
           "Basti",
           "Daltonganj",
-          "centre of well Marked Low Pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal and thence east-southeastwards towards Northeast Bay of Bengal"
+          "centre of Low Pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal and thence east- southeastwards towards Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
       },
@@ -91,7 +91,7 @@
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "cyclonic circulation associated the Well marked low pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal to east-central Arabian Sea",
+        "extent": "cyclonic circulation associated the Low Pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal to east-central Arabian Sea",
         "across": "Chhattisgarh, Vidarbha, Madhya Maharashtra, south Gujarat State",
         "level": {
           "type": "range",
@@ -99,11 +99,11 @@
           "max": 7.6,
           "display": "5.8–7.6 km above MSL"
         },
-        "raw_text": "The trough now runs from the above cyclonic circulation associated the Well marked low pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal to east-central Arabian Sea across Chhattisgarh, Vidarbha, Madhya Maharashtra, south Gujarat State between 5.8 & 7.6 km above mean sea level."
+        "raw_text": "The trough now runs from the above cyclonic circulation associated the Low Pressure area over North Odisha and adjoining Jharkhand & Gangetic West Bengal to east-central Arabian Sea across Chhattisgarh, Vidarbha, Madhya Maharashtra, south Gujarat State between 5.8 & 7.6 km above mean sea level."
       }
     ],
     "suppressed_count": 1
   },
   "mjo": null,
-  "fetched_at": "2026-07-17 06:50 IST"
+  "fetched_at": "2026-07-17 11:02 IST"
 }
