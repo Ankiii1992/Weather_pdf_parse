@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/dd4700f906decf3677ae19e0ee31bb26.pdf",
-  "last_updated": "04:32 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2c1ef4eb26b26be54211b655142030af.pdf",
+  "last_updated": "09:08 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-18",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,17 +12,19 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level continue to pass through Amritsar, Karnal, Hardoi, Ranchi, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Western parts of Gangetic West Bengal & adjoining north Jharkhand extending upto 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhoodextending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over east Uttar Pradesh between 1.5 & 3.1 km above mean sea level persists.\nThe trough from North Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic west Bengal between 1.5 & 3.1 Km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Odisha & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar adjoining south Tamil Nadu between 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over north Kerala & neighbourhood between 5.8 & 7.6 km above mean sea level persists.\nThe Western Disturbance as a trough in upper level westerlies with its axis at 7.6 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.",
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Amritsar, Karnal, Muzaffarnagar, Varanasi, Dehri, Jamshedpur, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Western parts of Gangetic West Bengal & adjoining north Jharkhand extending upto 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhoodextending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over east Uttar Pradesh between 1.5 & 3.1 km above mean sea level persists.\nThe trough from North Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic west Bengal between 1.5 & 3.1 Km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Odisha & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar adjoining south Tamil Nadu between 5.8 & 7.6 km above mean sea level persists.\nThe Western Disturbance as a trough in upper level westerlies with its axis at 7.6 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over north Kerala & neighbourhood between 5.8 & 7.6 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continue to pass through Amritsar, Karnal, Hardoi, Ranchi, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 0.9 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Karnal, Muzaffarnagar, Varanasi, Dehri, Jamshedpur, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 0.9 km above mean sea level.",
         "passes_through": [
           "Amritsar",
           "Karnal",
-          "Hardoi",
-          "Ranchi",
+          "Muzaffarnagar",
+          "Varanasi",
+          "Dehri",
+          "Jamshedpur",
           "Digha and thence southeastwards towards Northwest Bay of Bengal"
         ],
         "level": {
@@ -115,17 +117,6 @@
           "display": "5.8–7.6 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over Gulf of Mannar adjoining south Tamil Nadu between 5.8 & 7.6 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "north Kerala & neighbourhood",
-        "level": {
-          "type": "range",
-          "min": 5.8,
-          "max": 7.6,
-          "display": "5.8–7.6 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over north Kerala & neighbourhood between 5.8 & 7.6 km above mean sea level persists."
       }
     ],
     "other_troughs": [
@@ -143,8 +134,8 @@
         "raw_text": "The trough from North Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic west Bengal between 1.5 & 3.1 Km above mean sea level persists."
       }
     ],
-    "suppressed_count": 0
+    "suppressed_count": 1
   },
   "mjo": null,
-  "fetched_at": "2026-07-18 18:13 IST"
+  "fetched_at": "2026-07-18 21:13 IST"
 }
