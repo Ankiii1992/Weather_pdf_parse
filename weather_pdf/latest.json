@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3d4c44e528cea377ca7d8ee2e4e3b6aa.pdf",
-  "last_updated": "08:30 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-07-17",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bfb3b848eb4f1324364f91e2ac424e86.pdf",
+  "last_updated": "08:36 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-18",
   "monsoon_advance": null,
   "bulletin": {
     "morning": null,
@@ -12,27 +12,26 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure area over Gangetic West Bengal and adjoining Jharkhand & north Odisha moved Northwestwards and lies over Western parts of Gangetic West Bengal & neighbourhood at 1730 hrs IST of today, 17th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hrs.\nThe Monsoon trough at mean sea level continues to pass through Amritsar, Muzaffarnagar, Shahjahanpur, Basti, Patna, centre of Low Pressure area over Western parts of Gangetic West Bengal & neighbourhood, Diamond harbour and thence southeastwards towards Northeast Bay of Bengal extending upto 0.9 km above mean sea level.\nThe Western Disturbance as cyclonic circulation over north Pakistan & neighbourhood at 5.8 km above mean sea level with a trough aloft with its axis at 7.6 km above mean sea level roughly along Long. 67°E to the north of Lat. 30°N persists.\nAn upper air cyclonic circulation lies over east Uttar Pradesh at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from North Lakshadweep area to southwest Bay of Bengal across north Kerala, South Interior Karnataka and north Tamilnadu at 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The Low Pressure area over Western parts of Gangetic West Bengal & neighbourhood lies over Western parts of Gangetic West Bengal & adjoining north Jharkhand at 0530 hrs IST of today, 18th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hrs.\nThe Monsoon trough at mean sea level now passes through Amritsar, Karnal, Bareilly, Lucknow, Patna, centre of Low Pressure area over Western parts of Gangetic West Bengal & adjoining north Jharkhand, Diamond harbour and thence southeastwards towards Northeast Bay of Bengal and extends upto 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over north Haryana & neighbourhoodupto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over east Uttar Pradesh persists now seen between 1.5 & 3.1 km above mean sea level.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation lies over Gulf of Mannar adjoining south Tamil Nadu at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over north Kerala & neighbourhood at 5.8 km above mean sea level.\nThe trough from North Lakshadweep area to southwest Bay of Bengal across north Kerala, South Interior Karnataka and north Tamilnadu at 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level has become less marked.\nThe Western Disturbance as cyclonic circulation over north Pakistan & neighbourhood at 5.8 km above mean sea level has become less marked, however the trough aloft in upper level westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 30°N.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "weakening",
-        "location": "Western parts of Gangetic West Bengal & neighbourhood",
+        "location": "Western parts of Gangetic West Bengal & adjoining north Jharkhand",
         "on_land": true,
-        "movement": "Northwestwards",
-        "raw_text": "The Low Pressure area over Gangetic West Bengal and adjoining Jharkhand & north Odisha moved Northwestwards and lies over Western parts of Gangetic West Bengal & neighbourhood at 1730 hrs IST of today, 17th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hrs."
+        "raw_text": "The Low Pressure area over Western parts of Gangetic West Bengal & neighbourhood lies over Western parts of Gangetic West Bengal & adjoining north Jharkhand at 0530 hrs IST of today, 18th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hrs."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Amritsar, Muzaffarnagar, Shahjahanpur, Basti, Patna, centre of Low Pressure area over Western parts of Gangetic West Bengal & neighbourhood, Diamond harbour and thence southeastwards towards Northeast Bay of Bengal extending upto 0.9 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Karnal, Bareilly, Lucknow, Patna, centre of Low Pressure area over Western parts of Gangetic West Bengal & adjoining north Jharkhand, Diamond harbour and thence southeastwards towards Northeast Bay of Bengal and extends upto 0.9 km above mean sea level.",
         "passes_through": [
           "Amritsar",
-          "Muzaffarnagar",
-          "Shahjahanpur",
-          "Basti",
+          "Karnal",
+          "Bareilly",
+          "Lucknow",
           "Patna",
-          "centre of Low Pressure area over Western parts of Gangetic West Bengal & neighbourhood",
+          "centre of Low Pressure area over Western parts of Gangetic West Bengal & adjoining north Jharkhand",
           "Diamond harbour and thence southeastwards towards Northeast Bay of Bengal"
         ],
         "level": {
@@ -40,37 +39,29 @@
           "max": 0.9,
           "display": "upto 0.9 km above MSL"
         }
-      },
-      {
-        "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as cyclonic circulation over north Pakistan & neighbourhood at 5.8 km above mean sea level with a trough aloft with its axis at 7.6 km above mean sea level roughly along Long. 67°E to the north of Lat. 30°N persists.",
-        "form": "cyclonic_circulation",
-        "location": "north Pakistan & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        },
-        "trough_aloft": {
-          "axis": "Long",
-          "level": {
-            "type": "single",
-            "min": 7.6,
-            "display": "7.6 km above MSL"
-          }
-        }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over north Haryana & neighbourhoodupto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
         "location": "east Uttar Pradesh",
         "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over east Uttar Pradesh at 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over east Uttar Pradesh persists now seen between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -84,13 +75,23 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Northeast Assam & neighbourhood",
+        "location": "Gulf of Mannar adjoining south Tamil Nadu",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over Gulf of Mannar adjoining south Tamil Nadu at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Kerala & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over north Kerala & neighbourhood at 5.8 km above mean sea level."
       }
     ],
     "other_troughs": [
@@ -107,8 +108,8 @@
         "raw_text": "The trough from North Lakshadweep area to southwest Bay of Bengal across north Kerala, South Interior Karnataka and north Tamilnadu at 7.6 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 1
+    "suppressed_count": 2
   },
   "mjo": null,
-  "fetched_at": "2026-07-18 06:42 IST"
+  "fetched_at": "2026-07-18 10:45 IST"
 }
