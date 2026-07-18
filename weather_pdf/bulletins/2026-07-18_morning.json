@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bfb3b848eb4f1324364f91e2ac424e86.pdf",
+  "last_updated": "08:36 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-18",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure area over Western parts of Gangetic West Bengal & neighbourhood lies over Western parts of Gangetic West Bengal & adjoining north Jharkhand at 0530 hrs IST of today, 18th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hrs.\nThe Monsoon trough at mean sea level now passes through Amritsar, Karnal, Bareilly, Lucknow, Patna, centre of Low Pressure area over Western parts of Gangetic West Bengal & adjoining north Jharkhand, Diamond harbour and thence southeastwards towards Northeast Bay of Bengal and extends upto 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over north Haryana & neighbourhoodupto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over east Uttar Pradesh persists now seen between 1.5 & 3.1 km above mean sea level.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation lies over Gulf of Mannar adjoining south Tamil Nadu at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over north Kerala & neighbourhood at 5.8 km above mean sea level.\nThe trough from North Lakshadweep area to southwest Bay of Bengal across north Kerala, South Interior Karnataka and north Tamilnadu at 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level has become less marked.\nThe Western Disturbance as cyclonic circulation over north Pakistan & neighbourhood at 5.8 km above mean sea level has become less marked, however the trough aloft in upper level westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 30°N.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "weakening",
+        "location": "Western parts of Gangetic West Bengal & adjoining north Jharkhand",
+        "on_land": true,
+        "raw_text": "The Low Pressure area over Western parts of Gangetic West Bengal & neighbourhood lies over Western parts of Gangetic West Bengal & adjoining north Jharkhand at 0530 hrs IST of today, 18th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hrs."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Karnal, Bareilly, Lucknow, Patna, centre of Low Pressure area over Western parts of Gangetic West Bengal & adjoining north Jharkhand, Diamond harbour and thence southeastwards towards Northeast Bay of Bengal and extends upto 0.9 km above mean sea level.",
+        "passes_through": [
+          "Amritsar",
+          "Karnal",
+          "Bareilly",
+          "Lucknow",
+          "Patna",
+          "centre of Low Pressure area over Western parts of Gangetic West Bengal & adjoining north Jharkhand",
+          "Diamond harbour and thence southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 0.9,
+          "display": "upto 0.9 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over north Haryana & neighbourhoodupto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "east Uttar Pradesh",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over east Uttar Pradesh persists now seen between 1.5 & 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gulf of Mannar adjoining south Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Gulf of Mannar adjoining south Tamil Nadu at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Kerala & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over north Kerala & neighbourhood at 5.8 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "North Lakshadweep area to southwest Bay of Bengal",
+        "across": "north Kerala, South Interior Karnataka and north Tamilnadu",
+        "level": {
+          "type": "single",
+          "min": 7.6,
+          "display": "7.6 km above MSL"
+        },
+        "raw_text": "The trough from North Lakshadweep area to southwest Bay of Bengal across north Kerala, South Interior Karnataka and north Tamilnadu at 7.6 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 2
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-18 10:45 IST"
+}
