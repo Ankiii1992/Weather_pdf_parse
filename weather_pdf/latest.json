@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2c1ef4eb26b26be54211b655142030af.pdf",
-  "last_updated": "09:08 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-07-18",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b38b3246433c88f4245a5ee0d87a3d3b.pdf",
+  "last_updated": "08:08 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-19",
   "monsoon_advance": null,
   "bulletin": {
     "morning": null,
@@ -12,12 +12,12 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level now passes through Amritsar, Karnal, Muzaffarnagar, Varanasi, Dehri, Jamshedpur, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Western parts of Gangetic West Bengal & adjoining north Jharkhand extending upto 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhoodextending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over east Uttar Pradesh between 1.5 & 3.1 km above mean sea level persists.\nThe trough from North Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic west Bengal between 1.5 & 3.1 Km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Odisha & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar adjoining south Tamil Nadu between 5.8 & 7.6 km above mean sea level persists.\nThe Western Disturbance as a trough in upper level westerlies with its axis at 7.6 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over north Kerala & neighbourhood between 5.8 & 7.6 km above mean sea level has become less marked.",
+  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Amritsar, Karnal, Muzaffarnagar, Varanasi, Dehri, Jamshedpur, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Western parts of Gangetic West Bengal & adjoining north Jharkhand persists and extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over north Haryana & neighbourhoodextending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe trough from North Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic west Bengal between 1.5 & 3.1 Km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Odisha & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood persists and extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Gulf of Mannar adjoining south Tamil Nadu between 5.8 & 7.6 km above mean sea level persists.\nThe Western Disturbance as a trough in upper level westerlies with its axis at 7.6 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Karnal, Muzaffarnagar, Varanasi, Dehri, Jamshedpur, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 0.9 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Amritsar, Karnal, Muzaffarnagar, Varanasi, Dehri, Jamshedpur, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 0.9 km above mean sea level.",
         "passes_through": [
           "Amritsar",
           "Karnal",
@@ -51,10 +51,10 @@
         "location": "Western parts of Gangetic West Bengal & adjoining north Jharkhand",
         "level": {
           "type": "upto",
-          "max": 4.5,
-          "display": "upto 4.5 km above MSL"
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Western parts of Gangetic West Bengal & adjoining north Jharkhand extending upto 4.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Western parts of Gangetic West Bengal & adjoining north Jharkhand persists and extends upto 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -68,14 +68,14 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "east Uttar Pradesh",
+        "location": "East Uttar Pradesh & neighbourhood",
         "level": {
           "type": "range",
           "min": 1.5,
           "max": 3.1,
           "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over east Uttar Pradesh between 1.5 & 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -101,11 +101,11 @@
         "type": "Upper Air Cyclonic Circulation",
         "location": "Northeast Assam & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood persists and extends upto 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -134,8 +134,8 @@
         "raw_text": "The trough from North Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic west Bengal between 1.5 & 3.1 Km above mean sea level persists."
       }
     ],
-    "suppressed_count": 1
+    "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-19 06:47 IST"
+  "fetched_at": "2026-07-19 11:11 IST"
 }
