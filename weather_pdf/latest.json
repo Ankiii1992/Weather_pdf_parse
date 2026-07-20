@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/88cbdc6f5bff98e1389ef21e4bc46720.pdf",
-  "last_updated": "04:35 PM IST",
-  "slot": "evening",
-  "bulletin_date": "2026-07-19",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ca4a3e61d32363dd267cd78fcad24646.pdf",
+  "last_updated": "08:09 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-20",
   "monsoon_advance": null,
   "bulletin": {
     "morning": null,
@@ -12,37 +12,52 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Rohtak, Hardoi, Varanasi, Ranchi, Sagar Island and thence southeastwards towards Northwest Bay of Bengal extending upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over North Punjab & adjoining Pakistan at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over North Jharkhand and adjoining Bihar extending upto 1.5 km above mean sea level persists.\nThe trough from North Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic west Bengal between 1.5 & 3.1 Km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulationover North Coastal Andhra Pradesh & adjoining South Chhattisgarhat 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Central Assam & adjoining Nagaland between 1.5 & 3.1 km above mean sea level persists.",
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Ganganagar, Delhi, Lucknow, Ranchi, Digha and thence southeastwards towards Northeast Bay of Bengal.\nThe upper air cyclonic circulation over North Punjab & adjoining Pakistan now lies over Punjab & neighbourhood and extends upto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Southwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood now lies over Southeast Uttar Pradesh & neighbourhood and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over North Jharkhand and adjoining Bihar extending upto 1.5 km above mean sea level has merged with the above system.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood persists and now seen between 4.5 & 5.8 km above mean sea level.\nThe upper air cyclonic circulationover North Coastal Andhra Pradesh & adjoining South Chhattisgarh now lies over south Chhattisgarh & adjoining Telangana at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Central Assam & adjoining Nagaland between 1.5 & 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation lies over Westcentral Bay of Bengal & adjoining Coastal Andhra Pradesh between 5.8 & 7.6 km above mean sea level.\nThe trough from North Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic west Bengal between 1.5 & 3.1 Km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Rohtak, Hardoi, Varanasi, Ranchi, Sagar Island and thence southeastwards towards Northwest Bay of Bengal extending upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Ganganagar, Delhi, Lucknow, Ranchi, Digha and thence southeastwards towards Northeast Bay of Bengal.",
         "passes_through": [
-          "Sri Ganganagar",
-          "Rohtak",
-          "Hardoi",
-          "Varanasi",
+          "Ganganagar",
+          "Delhi",
+          "Lucknow",
           "Ranchi",
-          "Sagar Island and thence southeastwards towards Northwest Bay of Bengal"
+          "Digha and thence southeastwards towards Northeast Bay of Bengal"
         ],
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
-        }
+        "level": "mean sea level"
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "North Punjab & adjoining Pakistan",
+        "location": "Punjab & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over North Punjab & adjoining Pakistan now lies over Punjab & neighbourhood and extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southwest Uttar Pradesh & neighbourhood",
         "level": {
           "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "min": 3.1,
+          "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over North Punjab & adjoining Pakistan at 0.9 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over Southwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood now lies over Southeast Uttar Pradesh & neighbourhood and extends upto 1.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -52,26 +67,38 @@
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over North Jharkhand and adjoining Bihar extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over North Jharkhand and adjoining Bihar extending upto 1.5 km above mean sea level has merged with the above system."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Southwest Madhya Pradesh & neighbourhood",
+        "location": "southwest Rajasthan & neighbourhood",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
+        "location": "Southwest Madhya Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood persists and now seen between 4.5 & 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Chhattisgarh & adjoining Telangana",
         "level": {
           "type": "single",
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulationover North Coastal Andhra Pradesh & adjoining South Chhattisgarhat 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulationover North Coastal Andhra Pradesh & adjoining South Chhattisgarh now lies over south Chhattisgarh & adjoining Telangana at 5.8 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -83,25 +110,22 @@
           "display": "1.5–3.1 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over Central Assam & adjoining Nagaland between 1.5 & 3.1 km above mean sea level persists."
-      }
-    ],
-    "other_troughs": [
+      },
       {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "North Bihar to Northwest Bay of Bengal",
-        "across": "Jharkhand and Gangetic west Bengal",
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Westcentral Bay of Bengal & adjoining Coastal Andhra Pradesh",
         "level": {
           "type": "range",
-          "min": 1.5,
-          "max": 3.1,
-          "display": "1.5–3.1 km above MSL"
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
         },
-        "raw_text": "The trough from North Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic west Bengal between 1.5 & 3.1 Km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over Westcentral Bay of Bengal & adjoining Coastal Andhra Pradesh between 5.8 & 7.6 km above mean sea level."
       }
     ],
-    "suppressed_count": 0
+    "other_troughs": [],
+    "suppressed_count": 1
   },
   "mjo": null,
-  "fetched_at": "2026-07-20 06:51 IST"
+  "fetched_at": "2026-07-20 11:28 IST"
 }
