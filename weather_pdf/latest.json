@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/574e0895e58258d9d5790d724f8490e6.pdf",
-  "last_updated": "02:02 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5192d17b32d2b7aa13449bc086cc5094.pdf",
+  "last_updated": "04:28 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-07-21",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,12 +12,12 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Rohtak, Hamirpur, Sidhi, Ranchi, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Punjab & neighbourhood now lies over Haryana & neighbourhood and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over central parts of south Uttar Pradesh now lies over northeast Madhya Pradesh & neighbourhood and extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh between 5.8 & 7.6 km above mean sea level persists.\nThe trough now runs from the above upper air cyclonic circulation over Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh to Northeast Arabian sea across south Odisha, Chhattisgarh, Madhya Pradesh, south Rajasthan and Gujarat between 3.1 & 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over north Chhattisgarh & neighbourhood and extends upto 7.6 km above mean sea level tilting southward with height.\nThe upper air cyclonic circulation over North Jharkhand and adjoining Bihar extending upto 1.5 km above mean sea level has become less marked.\nThe trough from the West Uttar Pradesh to North Gangetic West Bengal has merged with the Monsoon trough.\nThe upper air cyclonic circulation over Central Assam & adjoining Nagaland between 1.5 & 3.1 km above mean sea level has become less marked.",
+  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Rohtak, Hamirpur, Sidhi, Ranchi, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Haryana & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Madhya Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh between 5.8 & 7.6 km above mean sea level persists.\nThe trough runs from the above upper air cyclonic circulation over Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh to Northeast Arabian sea across south Odisha, Chhattisgarh, Madhya Pradesh, south Rajasthan and Gujarat between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north Chhattisgarh & neighbourhood extending upto 7.6 km above mean sea level tilting southwards with height persists.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Rohtak, Hamirpur, Sidhi, Ranchi, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Rohtak, Hamirpur, Sidhi, Ranchi, Digha and thence southeastwards towards Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.",
         "passes_through": [
           "Sri Ganganagar",
           "Rohtak",
@@ -42,7 +42,7 @@
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Punjab & neighbourhood now lies over Haryana & neighbourhood and extends upto 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Haryana & neighbourhood extending upto 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -52,7 +52,7 @@
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central parts of south Uttar Pradesh now lies over northeast Madhya Pradesh & neighbourhood and extends upto 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over northeast Madhya Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -84,8 +84,8 @@
           "max": 7.6,
           "display": "upto 7.6 km above MSL"
         },
-        "tilt": "tilting southward with height",
-        "raw_text": "An upper air cyclonic circulation lies over north Chhattisgarh & neighbourhood and extends upto 7.6 km above mean sea level tilting southward with height."
+        "tilt": "tilting southwards with height",
+        "raw_text": "The upper air cyclonic circulation over north Chhattisgarh & neighbourhood extending upto 7.6 km above mean sea level tilting southwards with height persists."
       }
     ],
     "other_troughs": [
@@ -100,16 +100,11 @@
           "max": 5.8,
           "display": "3.1–5.8 km above MSL"
         },
-        "raw_text": "The trough now runs from the above upper air cyclonic circulation over Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh to Northeast Arabian sea across south Odisha, Chhattisgarh, Madhya Pradesh, south Rajasthan and Gujarat between 3.1 & 5.8 km above mean sea level."
-      },
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "raw_text": "The trough from the West Uttar Pradesh to North Gangetic West Bengal has merged with the Monsoon trough."
+        "raw_text": "The trough runs from the above upper air cyclonic circulation over Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh to Northeast Arabian sea across south Odisha, Chhattisgarh, Madhya Pradesh, south Rajasthan and Gujarat between 3.1 & 5.8 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 2
+    "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-21 16:26 IST"
+  "fetched_at": "2026-07-21 18:40 IST"
 }
