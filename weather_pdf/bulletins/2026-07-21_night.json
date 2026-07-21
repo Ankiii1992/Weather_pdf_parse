@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/066e7382fce6ecd39558d23ce19b985e.pdf",
+  "last_updated": "08:48 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-07-21",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Bikaner, Sikar, Gwalior, Sidhi, Ranchi, Digha and thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Haryana & neighbourhood extending upto 1.5 km above mean sea level persists.\nAn upper air cyclonic circulation lies over north Pakistan & adjoining north Punjab between 1.5 & 3.1 km above mean sea level. An east-west shear zone runs roughly along 21°N Lat. between 3.1 km & 7.6 km above mean sea level.\nThe upper air cyclonic circulation over Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh between 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood between 3.1 & 4.5 km above mean sea level has merged with above shear zone.\nThe upper air cyclonic circulation over north Chhattisgarh & neighbourhood extending upto 7.6 km above mean sea level has merged with above shear zone\nThe upper air cyclonic circulation over northeast Madhya Pradesh & neighbourhood extending upto 3.1 km above mean sea level has merged with the shear zone.\nThe trough from the above upper air cyclonic circulation over Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh to Northeast Arabian sea across south Odisha, Chhattisgarh, Madhya Pradesh, south Rajasthan and Gujarat between 3.1 & 5.8 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, Sikar, Gwalior, Sidhi, Ranchi, Digha and thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "passes_through": [
+          "Bikaner",
+          "Sikar",
+          "Gwalior",
+          "Sidhi",
+          "Ranchi",
+          "Digha and thence southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Haryana & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Haryana & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Pakistan & adjoining north Punjab",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over north Pakistan & adjoining north Punjab between 1.5 & 3.1 km above mean sea level. An east-west shear zone runs roughly along 21°N Lat. between 3.1 km & 7.6 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Westcentral Bay of Bengal & adjoining north Coastal Andhra Pradesh between 5.8 & 7.6 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Rajasthan & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan & neighbourhood between 3.1 & 4.5 km above mean sea level has merged with above shear zone."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Chhattisgarh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Chhattisgarh & neighbourhood extending upto 7.6 km above mean sea level has merged with above shear zone"
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Madhya Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Madhya Pradesh & neighbourhood extending upto 3.1 km above mean sea level has merged with the shear zone."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 1
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-21 21:43 IST"
+}
