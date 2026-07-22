@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/93fa675d260a25b49c2d9ee34567d766.pdf",
+  "last_updated": "04:21 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-07-22",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level continue to pass through Bikaner, Banasthali Vidyapeeth, Guna, Damoh, Pendra Road, Midnapore and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level titling southwards with height across the above cyclonic circulation.\nThe upper air cyclonic circulation over Central parts of north Madhya Pradesh extending upto 7.6 km above mean sea level tilting southeastwards with height persists. The east-west shear zone roughly along 22°N Lat. between 5.8 & 7.6 km above mean sea level titling southwards with height across the above cyclonic circulation persists.\nThe Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continue to pass through Bikaner, Banasthali Vidyapeeth, Guna, Damoh, Pendra Road, Midnapore and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level titling southwards with height across the above cyclonic circulation.",
+        "passes_through": [
+          "Bikaner",
+          "Banasthali Vidyapeeth",
+          "Guna",
+          "Damoh",
+          "Pendra Road",
+          "Midnapore and thence southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        }
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 32°N persists.",
+        "form": "cyclonic_circulation",
+        "location": "Jammu & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Central parts of north Madhya Pradesh",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        },
+        "tilt": "tilting southeastwards with height",
+        "raw_text": "The upper air cyclonic circulation over Central parts of north Madhya Pradesh extending upto 7.6 km above mean sea level tilting southeastwards with height persists. The east-west shear zone roughly along 22°N Lat. between 5.8 & 7.6 km above mean sea level titling southwards with height across the above cyclonic circulation persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-22 16:27 IST"
+}
