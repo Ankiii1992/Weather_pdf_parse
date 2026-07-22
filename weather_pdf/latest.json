@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/93fa675d260a25b49c2d9ee34567d766.pdf",
-  "last_updated": "04:21 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/88afa0ef70392c02ae13afa88e08a3ef.pdf",
+  "last_updated": "09:52 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-22",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,29 +12,31 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level continue to pass through Bikaner, Banasthali Vidyapeeth, Guna, Damoh, Pendra Road, Midnapore and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level titling southwards with height across the above cyclonic circulation.\nThe upper air cyclonic circulation over Central parts of north Madhya Pradesh extending upto 7.6 km above mean sea level tilting southeastwards with height persists. The east-west shear zone roughly along 22°N Lat. between 5.8 & 7.6 km above mean sea level titling southwards with height across the above cyclonic circulation persists.\nThe Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Bikaner, Banasthali Vidyapeeth, Guna, Damoh, Pendra Road, Rourkela, Digha and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level titling southwards with height. The east-west shear zone now runs roughly along 23°N Lat. between 3.1 & 7.6 km above mean sea level tilting southwards with height across north peninsular India.\nThe upper air cyclonic circulation over Central parts of north Madhya Pradesh has merged with above shear zone.\nThe Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.\nAn upper air cyclonic circulation lies over northwest Bay of Bengal & adjoining north Odisha coast between 5.8 and 7.6 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continue to pass through Bikaner, Banasthali Vidyapeeth, Guna, Damoh, Pendra Road, Midnapore and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level titling southwards with height across the above cyclonic circulation.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, Banasthali Vidyapeeth, Guna, Damoh, Pendra Road, Rourkela, Digha and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level titling southwards with height. The east-west shear zone now runs roughly along 23°N Lat. between 3.1 & 7.6 km above mean sea level tilting southwards with height across north peninsular India.",
         "passes_through": [
           "Bikaner",
           "Banasthali Vidyapeeth",
           "Guna",
           "Damoh",
           "Pendra Road",
-          "Midnapore and thence southeastwards towards Northeast Bay of Bengal"
+          "Rourkela",
+          "Digha and thence southeastwards towards Northeast Bay of Bengal"
         ],
         "level": {
-          "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
         }
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 32°N persists.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.",
         "form": "cyclonic_circulation",
         "location": "Jammu & neighbourhood",
         "level": {
@@ -46,8 +48,8 @@
           "axis": "Long",
           "level": {
             "type": "single",
-            "min": 5.8,
-            "display": "5.8 km above MSL"
+            "min": 7.6,
+            "display": "7.6 km above MSL"
           }
         }
       }
@@ -55,15 +57,19 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Central parts of north Madhya Pradesh",
+        "location": "Central parts of north Madhya Pradesh has merged with above shear zone",
+        "raw_text": "The upper air cyclonic circulation over Central parts of north Madhya Pradesh has merged with above shear zone."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Bay of Bengal & adjoining north Odisha coast",
         "level": {
           "type": "range",
           "min": 5.8,
           "max": 7.6,
           "display": "5.8–7.6 km above MSL"
         },
-        "tilt": "tilting southeastwards with height",
-        "raw_text": "The upper air cyclonic circulation over Central parts of north Madhya Pradesh extending upto 7.6 km above mean sea level tilting southeastwards with height persists. The east-west shear zone roughly along 22°N Lat. between 5.8 & 7.6 km above mean sea level titling southwards with height across the above cyclonic circulation persists."
+        "raw_text": "An upper air cyclonic circulation lies over northwest Bay of Bengal & adjoining north Odisha coast between 5.8 and 7.6 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -80,5 +86,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-22 21:43 IST"
+  "fetched_at": "2026-07-23 00:24 IST"
 }
