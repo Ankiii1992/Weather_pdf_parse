@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0118eee1ed1a52600de9316463808411.pdf",
+  "last_updated": "04:41 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-07-23",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Jaisalmer, Kota, Guna, Damoh, Daltonganj, Contai and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level. The east-west shear zone roughly along 23°N Lat. from Northeast Arabian sea to Manipur across south Gujarat, Madhya Pradesh, north Chhattisgarh, Jharkhand, Gangetic West Bengal, Bangladesh between 4.5 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 68°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Rajasthan & adjoining Northwest Madhya Pradesh persists and now extends upto 7.6 km above mean sea level.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jaisalmer, Kota, Guna, Damoh, Daltonganj, Contai and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level. The east-west shear zone roughly along 23°N Lat. from Northeast Arabian sea to Manipur across south Gujarat, Madhya Pradesh, north Chhattisgarh, Jharkhand, Gangetic West Bengal, Bangladesh between 4.5 & 7.6 km above mean sea level tilting southwards with height persists.",
+        "passes_through": [
+          "Jaisalmer",
+          "Kota",
+          "Guna",
+          "Damoh",
+          "Daltonganj",
+          "Contai and thence southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 7.6,
+          "display": "4.5–7.6 km above MSL"
+        }
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 68°E to the north of Lat. 29°N persists.",
+        "form": "cyclonic_circulation",
+        "location": "Jammu & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 7.6,
+            "display": "7.6 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Assam & neighbourhood at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Rajasthan & adjoining Northwest Madhya Pradesh",
+        "level": {
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southeast Rajasthan & adjoining Northwest Madhya Pradesh persists and now extends upto 7.6 km above mean sea level."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-23 18:48 IST"
+}
