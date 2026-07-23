@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7b7436d2c2c3c542ae4092e05d194573.pdf",
-  "last_updated": "01:36 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0118eee1ed1a52600de9316463808411.pdf",
+  "last_updated": "04:41 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-07-23",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,12 +12,12 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level now passes through Jaisalmer, Kota, Guna, Damoh, Daltonganj, Contai and thence southeastwards towards Northeast Bay of Bengal and extends upto 3.1 km above mean sea level. The east-west shear zone roughly along 23°N Lat. now runs from Northeast Arabian sea to Manipur across South Gujarat, Madhya Pradesh, North Chhattisgarh, Jharkhand, Gangetic West Bengal, Bangladesh between 4.5 & 7.6 km above mean sea level tilting southwards with height.\nThe Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 68°E to the north of Lat. 29°N.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood now lies over central Assam & neighbourhood at 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Southeast Rajasthan & adjoining Northwest Madhya Pradeshat 3.1 km above mean sea level.\nThe upper air cyclonic circulation over northwest Bay of Bengal & adjoining north Odisha coast between 5.8 and 7.6 km above mean sea level has become less marked.",
+  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Jaisalmer, Kota, Guna, Damoh, Daltonganj, Contai and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level. The east-west shear zone roughly along 23°N Lat. from Northeast Arabian sea to Manipur across south Gujarat, Madhya Pradesh, north Chhattisgarh, Jharkhand, Gangetic West Bengal, Bangladesh between 4.5 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 68°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Rajasthan & adjoining Northwest Madhya Pradesh persists and now extends upto 7.6 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, Kota, Guna, Damoh, Daltonganj, Contai and thence southeastwards towards Northeast Bay of Bengal and extends upto 3.1 km above mean sea level. The east-west shear zone roughly along 23°N Lat. now runs from Northeast Arabian sea to Manipur across South Gujarat, Madhya Pradesh, North Chhattisgarh, Jharkhand, Gangetic West Bengal, Bangladesh between 4.5 & 7.6 km above mean sea level tilting southwards with height.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jaisalmer, Kota, Guna, Damoh, Daltonganj, Contai and thence southeastwards towards Northeast Bay of Bengal extending upto 3.1 km above mean sea level. The east-west shear zone roughly along 23°N Lat. from Northeast Arabian sea to Manipur across south Gujarat, Madhya Pradesh, north Chhattisgarh, Jharkhand, Gangetic West Bengal, Bangladesh between 4.5 & 7.6 km above mean sea level tilting southwards with height persists.",
         "passes_through": [
           "Jaisalmer",
           "Kota",
@@ -35,7 +35,7 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 68°E to the north of Lat. 29°N.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 68°E to the north of Lat. 29°N persists.",
         "form": "cyclonic_circulation",
         "location": "Jammu & neighbourhood",
         "level": {
@@ -62,22 +62,22 @@
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood now lies over central Assam & neighbourhood at 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over central Assam & neighbourhood at 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "Southeast Rajasthan & adjoining Northwest Madhya Pradesh",
         "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Southeast Rajasthan & adjoining Northwest Madhya Pradeshat 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Southeast Rajasthan & adjoining Northwest Madhya Pradesh persists and now extends upto 7.6 km above mean sea level."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 1
+    "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-23 16:27 IST"
+  "fetched_at": "2026-07-23 18:48 IST"
 }
