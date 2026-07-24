@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/beb49b1438580d310a64eb4f6a1ecd38.pdf",
+  "last_updated": "04:34 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-07-24",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low-Pressure area oversoutheast Rajasthan & neighbourhood now lies over southwest Rajasthan & neighbourhood at 1430 Hrs IST of today, 24th July, 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting south-westwards with height.\nThe Monsoon trough at mean sea level now passes through Jaisalmer, centre of low-pressure area over southwest Rajasthan & neighbourhood, Kota, Guna, Sidhi, Daltonganj & thence southeastwards towards Northeast Bay of Bengal.\nThe upper air cyclonic circulation over Northern parts of Gangetic West Bengal & adjoining Bangladesh extending upto 9.4 km above mean sea level tilting southwestwards with height persists. Under its influence a low pressure area likely to form over the same region during next 24 hours.\nThe trough now runs from cyclonic circulation associated with the Low-Pressure area over southwest Rajasthan & neighbourhood to Jammu across West Rajasthan, Haryana & Punjab between 3.1 & 4.5 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists. The weak offshore trough at the mean sea level from Gujarat to Karnataka coast persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "southwest Rajasthan & neighbourhood",
+        "on_land": true,
+        "raw_text": "The Low-Pressure area oversoutheast Rajasthan & neighbourhood now lies over southwest Rajasthan & neighbourhood at 1430 Hrs IST of today, 24th July, 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting south-westwards with height."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, centre of low-pressure area over southwest Rajasthan & neighbourhood, Kota, Guna, Sidhi, Daltonganj & thence southeastwards towards Northeast Bay of Bengal.",
+        "passes_through": [
+          "Jaisalmer",
+          "centre of low-pressure area over southwest Rajasthan & neighbourhood",
+          "Kota",
+          "Guna",
+          "Sidhi",
+          "Daltonganj & thence southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists. The weak offshore trough at the mean sea level from Gujarat to Karnataka coast persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 70°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northern parts of Gangetic West Bengal & adjoining Bangladesh",
+        "level": {
+          "type": "upto",
+          "max": 9.4,
+          "display": "upto 9.4 km above MSL"
+        },
+        "tilt": "tilting southwestwards with height",
+        "raw_text": "The upper air cyclonic circulation over Northern parts of Gangetic West Bengal & adjoining Bangladesh extending upto 9.4 km above mean sea level tilting southwestwards with height persists. Under its influence a low pressure area likely to form over the same region during next 24 hours."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "cyclonic circulation associated with the Low-Pressure area over southwest Rajasthan & neighbourhood to Jammu",
+        "across": "West Rajasthan, Haryana & Punjab",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "The trough now runs from cyclonic circulation associated with the Low-Pressure area over southwest Rajasthan & neighbourhood to Jammu across West Rajasthan, Haryana & Punjab between 3.1 & 4.5 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-24 18:42 IST"
+}
