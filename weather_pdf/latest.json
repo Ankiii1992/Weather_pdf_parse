@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e75fa4625f0e528090022ae6d7ecbbea.pdf",
-  "last_updated": "09:07 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-07-23",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/100744391cbfd57b83fbe3b13cf23e46.pdf",
+  "last_updated": "08:01 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-24",
   "monsoon_advance": null,
   "bulletin": {
     "morning": null,
@@ -12,20 +12,25 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level now passes through Deesa, centre of Low-Pressure area over southeast Rajasthan & adjoining Madhya Pradesh, Guna, Khajuraho, Dehri, Shantiniketan, & thence eastwards towards Mizoram and extends upto 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over Northwest Bay of Bengal & neighbourhood between 5.8 & 9.6 km above mean sea level. The east-west shear zone roughly along 23°N Lat. between 4.5 & 7.6 km above mean sea level tilting southwards with height persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood now lies over northeast Assam & neighbourhood and extends upto 1.5 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 68°E to the north of Lat. 29°N persists.",
+  "met_analysis": "The Low-Pressure area oversoutheast Rajasthan & adjoining Madhya Pradesh persisted over the same region at 0530 Hrs IST of today, 24th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting south-westwards with height.\nThe Monsoon trough at mean sea level now passes through Deesa, centre of Low-Pressure area over southeast Rajasthan & adjoining Madhya Pradesh, Satna, Ranchi, Digha & thence Southeastwards towards Northeast Bay of Bengal and extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Northwest Bay of Bengal & neighbourhood between 5.8 & 9.6 km above mean sea level persists. The east-west shear zone roughly along 23°N Lat. between 4.5 & 7.6 km above mean sea level tilting southwards with height persists.\nAn upper air cyclonic circulation lies over Northern parts of Gangetic West Bengal between 3.1 & 4.5 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level persists however the trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 30°N.",
   "systems": {
     "priority": [
       {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "the same region",
+        "on_land": true,
+        "raw_text": "The Low-Pressure area oversoutheast Rajasthan & adjoining Madhya Pradesh persisted over the same region at 0530 Hrs IST of today, 24th July, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting south-westwards with height."
+      },
+      {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Deesa, centre of Low-Pressure area over southeast Rajasthan & adjoining Madhya Pradesh, Guna, Khajuraho, Dehri, Shantiniketan, & thence eastwards towards Mizoram and extends upto 3.1 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Deesa, centre of Low-Pressure area over southeast Rajasthan & adjoining Madhya Pradesh, Satna, Ranchi, Digha & thence Southeastwards towards Northeast Bay of Bengal and extends upto 3.1 km above mean sea level.",
         "passes_through": [
           "Deesa",
           "centre of Low-Pressure area over southeast Rajasthan & adjoining Madhya Pradesh",
-          "Guna",
-          "Khajuraho",
-          "Dehri",
-          "Shantiniketan",
-          "& thence eastwards towards Mizoram"
+          "Satna",
+          "Ranchi",
+          "Digha & thence Southeastwards towards Northeast Bay of Bengal"
         ],
         "level": {
           "type": "upto",
@@ -35,7 +40,7 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 68°E to the north of Lat. 29°N persists.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level persists however the trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 30°N.",
         "form": "cyclonic_circulation",
         "location": "Jammu & neighbourhood",
         "level": {
@@ -47,8 +52,8 @@
           "axis": "Long",
           "level": {
             "type": "single",
-            "min": 7.6,
-            "display": "7.6 km above MSL"
+            "min": 5.8,
+            "display": "5.8 km above MSL"
           }
         }
       }
@@ -64,7 +69,18 @@
           "display": "5.8–9.6 km above MSL"
         },
         "tilt": "tilting southwards with height",
-        "raw_text": "An upper air cyclonic circulation lies over Northwest Bay of Bengal & neighbourhood between 5.8 & 9.6 km above mean sea level. The east-west shear zone roughly along 23°N Lat. between 4.5 & 7.6 km above mean sea level tilting southwards with height persists."
+        "raw_text": "The upper air cyclonic circulation over Northwest Bay of Bengal & neighbourhood between 5.8 & 9.6 km above mean sea level persists. The east-west shear zone roughly along 23°N Lat. between 4.5 & 7.6 km above mean sea level tilting southwards with height persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northern parts of Gangetic West Bengal",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Northern parts of Gangetic West Bengal between 3.1 & 4.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -74,12 +90,12 @@
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central Assam & neighbourhood now lies over northeast Assam & neighbourhood and extends upto 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-24 06:50 IST"
+  "fetched_at": "2026-07-24 11:10 IST"
 }
