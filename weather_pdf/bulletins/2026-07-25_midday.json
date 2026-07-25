@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/dc91b4b85dbc3e821e179510a6b58860.pdf",
+  "last_updated": "01:14 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-07-25",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low-Pressure area over southwest Rajasthan & neighbourhood persisted over same region at 0830 Hrs IST of today, 25th July, 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea level tilting southwestwards with height.\nThe Low Pressure Area over Northwest Bay of Bengal and adjoining Gangetic West Bengal-North Odisha coasts now lies over Northwest Bay of Bengal & adjoining West Bengal Coast at 0830 Hrs IST of today, 25th July, 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It’s likely to meander over the same region and become more marked during next 2-3 days.\nThe Monsoon trough at mean sea level now passes through Jaisalmer, centre of Low-pressure area over southwest Rajasthan & neighbourhood, Sheopur, Datia, Siddhi, Daltonganj & centre of Low pressure area over Northwest Bay of Bengal & adjoining West Bengal Coast thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. An east-west shear zone embedded with cyclonic circulations associated with the above two Low Pressure areas, runs roughly along 24°N Lat. across central India between 3.1 & 5.8 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.\nThe trough from cyclonic circulation associated with the Low-Pressure area over southwest Rajasthan & neighbourhood to Jammu division across West Rajasthan, Punjab between 3.1 & 4.5 km above mean sea level has become less marked.\nThe offshore trough at the mean sea level from Gujarat to Karnataka coast has become less marked.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "southwest Rajasthan & neighbourhood persisted over same region",
+        "on_land": true,
+        "raw_text": "The Low-Pressure area over southwest Rajasthan & neighbourhood persisted over same region at 0830 Hrs IST of today, 25th July, 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea level tilting southwestwards with height."
+      },
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Northwest Bay of Bengal & adjoining West Bengal Coast",
+        "raw_text": "The Low Pressure Area over Northwest Bay of Bengal and adjoining Gangetic West Bengal-North Odisha coasts now lies over Northwest Bay of Bengal & adjoining West Bengal Coast at 0830 Hrs IST of today, 25th July, 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It’s likely to meander over the same region and become more marked during next 2-3 days."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, centre of Low-pressure area over southwest Rajasthan & neighbourhood, Sheopur, Datia, Siddhi, Daltonganj & centre of Low pressure area over Northwest Bay of Bengal & adjoining West Bengal Coast thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. An east-west shear zone embedded with cyclonic circulations associated with the above two Low Pressure areas, runs roughly along 24°N Lat. across central India between 3.1 & 5.8 km above mean sea level.",
+        "passes_through": [
+          "Jaisalmer",
+          "centre of Low-pressure area over southwest Rajasthan & neighbourhood",
+          "Sheopur",
+          "Datia",
+          "Siddhi",
+          "Daltonganj & centre of Low pressure area over Northwest Bay of Bengal & adjoining West Bengal Coast thence southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 72°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [],
+    "other_troughs": [],
+    "suppressed_count": 3
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-25 13:19 IST"
+}
