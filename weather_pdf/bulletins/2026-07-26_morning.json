@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0341fbd64af7d3bddc6aea8f68a0919a.pdf",
+  "last_updated": "09:08 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-26",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low-Pressure area over southwest Rajasthan & neighbourhood persisted over same region at 0530 Hrs IST of today, 26th July, 2026. The associated cyclonic circulation extended upto 5.8 km above mean sea level tilting southwestwards with height.\nThe Low Pressure Area over west Bengal coast & adjoining northwest Bay of Bengal lay as a Well-marked Pressure Area over northwest Bay of Bengal & adjoining Odisha-West Bengal coasts at 0530 Hrs IST of today, 26th July 2026. The associated cyclonic circulation extended upto 9.4 km above mean sea level. It is very likely to concentrate into a depression over the same region during next 12 hours. It is likely to move northwestwards and cross North Odisha-West Bengal Coasts around 27th July, 2026 forenoon.\nThe Monsoon trough at mean sea level now passes through centre of Low-pressure area over southwest Rajasthan & neighbourhood, Ajmer, Gwalior, Satna, Keonjhargarh, centre of Well marked Low Pressure area over northwest Bay of Bengal & adjoining Odisha-West Bengal coasts & thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. The east-west shear zone embedded with cyclonic circulations associated with the above two Low Pressure areas now runs roughly along 22°N Lat. across central India between 3.1 & 5.8 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "southwest Rajasthan & neighbourhood persisted over same region",
+        "on_land": true,
+        "raw_text": "The Low-Pressure area over southwest Rajasthan & neighbourhood persisted over same region at 0530 Hrs IST of today, 26th July, 2026. The associated cyclonic circulation extended upto 5.8 km above mean sea level tilting southwestwards with height."
+      },
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "west Bengal coast & adjoining northwest Bay of Bengal lay as a Well-marked Pressure Area over northwest Bay of Bengal & adjoining Odisha-West Bengal coasts",
+        "movement": "northwestwards",
+        "raw_text": "The Low Pressure Area over west Bengal coast & adjoining northwest Bay of Bengal lay as a Well-marked Pressure Area over northwest Bay of Bengal & adjoining Odisha-West Bengal coasts at 0530 Hrs IST of today, 26th July 2026. The associated cyclonic circulation extended upto 9.4 km above mean sea level. It is very likely to concentrate into a depression over the same region during next 12 hours. It is likely to move northwestwards and cross North Odisha-West Bengal Coasts around 27th July, 2026 forenoon."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low-pressure area over southwest Rajasthan & neighbourhood, Ajmer, Gwalior, Satna, Keonjhargarh, centre of Well marked Low Pressure area over northwest Bay of Bengal & adjoining Odisha-West Bengal coasts & thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. The east-west shear zone embedded with cyclonic circulations associated with the above two Low Pressure areas now runs roughly along 22°N Lat. across central India between 3.1 & 5.8 km above mean sea level.",
+        "passes_through": [
+          "centre of Low-pressure area over southwest Rajasthan & neighbourhood",
+          "Ajmer",
+          "Gwalior",
+          "Satna",
+          "Keonjhargarh",
+          "centre of Well marked Low Pressure area over northwest Bay of Bengal & adjoining Odisha-West Bengal coasts & thence southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 72°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [],
+    "other_troughs": [],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-26 11:20 IST"
+}
