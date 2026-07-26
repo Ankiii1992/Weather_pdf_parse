@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/88adf51c47bddd2e511453dda844e221.pdf",
-  "last_updated": "04:40 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6be91b530f137009259d0ce6f396718c.pdf",
+  "last_updated": "08:55 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-26",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,52 +12,56 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts moved northwestwards with a speed of 5 kmph during last 3 hours and lay centred at 1130 hrs IST of today, the 26th July 2026, over the same region near latitude 20.8°N and longitude 88.2°E, about 90 km south of Sagar Island (West Bengal), 110 km southeast of Digha (West Bengal), 150 km east of Chandbali (Odisha) and 150 km east-southeast of Balasore (Odisha). It is very likely to move northwestwards, intensify further into a deep depression during next 24 hrs and cross north Odisha and West Bengal coasts between Paradip and Sagar Island around forenoon/noon of 27th July 2026.\nThe Low-Pressure area over West Rajasthan & neighbourhood persisted over the same region at 1430 Hrs IST of today, 26th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level now passes through centre of Low-pressure area over West Rajasthan & neighbourhood, Guna, Rewa, Ranchi, centre of Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts, thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. The east-west shear zone embedded with cyclonic circulations associated with the Low-Pressure area over West Rajasthan & neighbourhood and Depressionover northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts roughly along 23°N Lat. across central India between 3.1 & 5.8 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 63°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Central parts of Assam at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts moved slowly north-northwestwards with a speed of 5 kmph during past 6 hours and lay centred at 1730 hrs IST of today, the 26th July 2026, over the same region near latitude 21.1°N and longitude 88.1°E, about 60 km south of Sagar Island (West Bengal), 80 km southeast of Digha (West Bengal), 130 km east-southeast of Balasore (Odisha), 140 km south-southwest of Canning (west Bengal) and 150 km east-northeast of Chandbali (Odisha).It is very likely to move nearly northwestwards, intensify further into a deep depression in the morning of tomorrow and cross north Odisha & West Bengal coasts between Chandbali & Canning around forenoon/noon of tomorrow, the 27th July 2026.\nThe Low-Pressure area over West Rajasthan & neighbourhood persisted over the same region at 1730 Hrs IST of today, 26th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level now passes through centre of Low-pressure area over West Rajasthan & neighbourhood, Shivpuri, Sidhi, Jamshedpur, centre of Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts, thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. The east-west shear zone embedded with cyclonic circulations associated with the Low-Pressure area over West Rajasthan & neighbourhood and Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts roughly along 23°N Lat. across central India between 3.1 & 5.8 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 66°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Central parts of Assam at 0.9 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Depression",
         "status": "active",
-        "location": "northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts moved northwestwards with a speed of 5 kmph during last 3 hours and lay centred",
+        "location": "northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts moved slowly north-northwestwards with a speed of 5 kmph during past 6 hours and lay centred",
         "coords": {
-          "lat": 20.8,
-          "lon": 88.2
+          "lat": 21.1,
+          "lon": 88.1
         },
         "distance_from": [
           {
             "place": "Sagar Island (West Bengal",
-            "distance_km": 90,
+            "distance_km": 60,
             "direction": "south"
           },
           {
             "place": "Digha (West Bengal",
-            "distance_km": 110,
+            "distance_km": 80,
             "direction": "southeast"
           },
           {
             "place": "Balasore (Odisha",
-            "distance_km": 150,
+            "distance_km": 130,
             "direction": "east-southeast"
+          },
+          {
+            "place": "Chandbali (Odisha",
+            "distance_km": 150,
+            "direction": "east-northeast"
           }
         ],
-        "movement": "northwestwards",
-        "raw_text": "The Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts moved northwestwards with a speed of 5 kmph during last 3 hours and lay centred at 1130 hrs IST of today, the 26th July 2026, over the same region near latitude 20.8°N and longitude 88.2°E, about 90 km south of Sagar Island (West Bengal), 110 km southeast of Digha (West Bengal), 150 km east of Chandbali (Odisha) and 150 km east-southeast of Balasore (Odisha). It is very likely to move northwestwards, intensify further into a deep depression during next 24 hrs and cross north Odisha and West Bengal coasts between Paradip and Sagar Island around forenoon/noon of 27th July 2026."
+        "raw_text": "The Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts moved slowly north-northwestwards with a speed of 5 kmph during past 6 hours and lay centred at 1730 hrs IST of today, the 26th July 2026, over the same region near latitude 21.1°N and longitude 88.1°E, about 60 km south of Sagar Island (West Bengal), 80 km southeast of Digha (West Bengal), 130 km east-southeast of Balasore (Odisha), 140 km south-southwest of Canning (west Bengal) and 150 km east-northeast of Chandbali (Odisha).It is very likely to move nearly northwestwards, intensify further into a deep depression in the morning of tomorrow and cross north Odisha & West Bengal coasts between Chandbali & Canning around forenoon/noon of tomorrow, the 27th July 2026."
       },
       {
         "type": "Low Pressure Area",
         "status": "active",
         "location": "West Rajasthan & neighbourhood persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low-Pressure area over West Rajasthan & neighbourhood persisted over the same region at 1430 Hrs IST of today, 26th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height."
+        "raw_text": "The Low-Pressure area over West Rajasthan & neighbourhood persisted over the same region at 1730 Hrs IST of today, 26th July, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwestwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low-pressure area over West Rajasthan & neighbourhood, Guna, Rewa, Ranchi, centre of Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts, thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. The east-west shear zone embedded with cyclonic circulations associated with the Low-Pressure area over West Rajasthan & neighbourhood and Depressionover northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts roughly along 23°N Lat. across central India between 3.1 & 5.8 km above mean sea level persists.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low-pressure area over West Rajasthan & neighbourhood, Shivpuri, Sidhi, Jamshedpur, centre of Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts, thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. The east-west shear zone embedded with cyclonic circulations associated with the Low-Pressure area over West Rajasthan & neighbourhood and Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts roughly along 23°N Lat. across central India between 3.1 & 5.8 km above mean sea level persists.",
         "passes_through": [
           "centre of Low-pressure area over West Rajasthan & neighbourhood",
-          "Guna",
-          "Rewa",
-          "Ranchi",
+          "Shivpuri",
+          "Sidhi",
+          "Jamshedpur",
           "centre of Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts",
           "thence southeastwards towards Northeast Bay of Bengal"
         ],
@@ -70,9 +74,9 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 63°E to the north of Lat. 30°N.",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 66°E to the north of Lat. 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 63°E to the north of Lat. 30°N",
+        "axis": "along Long. 66°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -96,5 +100,5 @@
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-26 18:22 IST"
+  "fetched_at": "2026-07-26 21:23 IST"
 }
