@@ -1,0 +1,86 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ec2f56bb4c65047d723506e266f80ae3.pdf",
+  "last_updated": "08:50 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-27",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts moved very slowly northwards with the speed of 3 kmph during past 6 hours, intensified into a Deep Depression and lay centred at 0530 hrs IST of today, the 27th July 2026, over northwest Bay of Bengal and adjoining areas of West Bengal-North Odisha coasts near latitude 21.3°N and longitude 88.1°E, about 40 km south of Sagar Island (West Bengal), 70 km east-southeast of Digha (West Bengal), 100 km south of Diamond Harbour (West Bengal), 120 km east-southeast of Balasore (Odisha) and 120 km south-southwest of Canning (west Bengal). It is very likely to move nearly north-northwestwards and cross West Bengal-north Odisha coasts between Balasore & Canning around afternoon of today, the 27th July 2026.\nThe Low-Pressure area over West Rajasthan & neighbourhood has become less marked. However, the associated cyclonic circulation lies over Southwest Rajasthan & neighbourhood and extends upto 3.1 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Bikaner, Gwalior, Varanasi, Jamshedpur, centre of Deep Depressionover northwest Bay of Bengal and adjoining areas of West Bengal-North Odisha coasts, thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. The east-west shear zone embedded with cyclonic circulation over Southwest Rajasthan and cyclonic circulation associated with Deep Depressionover northwest Bay of Bengal and adjoining areas of West Bengal- North Odisha coasts roughly along 23°N Lat. across central India between 3.1 & 5.8 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 66°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over Central parts of Assam at 0.9 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Depression",
+        "status": "active",
+        "location": "northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts moved very slowly northwards with the speed of 3 kmph during past 6 hours, intensified into a Deep Depression and lay centred",
+        "coords": {
+          "lat": 21.3,
+          "lon": 88.1
+        },
+        "distance_from": [
+          {
+            "place": "Sagar Island (West Bengal",
+            "distance_km": 40,
+            "direction": "south"
+          },
+          {
+            "place": "Digha (West Bengal",
+            "distance_km": 70,
+            "direction": "east-southeast"
+          },
+          {
+            "place": "Diamond Harbour (West Bengal",
+            "distance_km": 100,
+            "direction": "south"
+          },
+          {
+            "place": "Canning (west Bengal",
+            "distance_km": 120,
+            "direction": "south-southwest"
+          }
+        ],
+        "raw_text": "The Depression over northwest Bay of Bengal and adjoining areas of North Odisha-West Bengal coasts moved very slowly northwards with the speed of 3 kmph during past 6 hours, intensified into a Deep Depression and lay centred at 0530 hrs IST of today, the 27th July 2026, over northwest Bay of Bengal and adjoining areas of West Bengal-North Odisha coasts near latitude 21.3°N and longitude 88.1°E, about 40 km south of Sagar Island (West Bengal), 70 km east-southeast of Digha (West Bengal), 100 km south of Diamond Harbour (West Bengal), 120 km east-southeast of Balasore (Odisha) and 120 km south-southwest of Canning (west Bengal). It is very likely to move nearly north-northwestwards and cross West Bengal-north Odisha coasts between Balasore & Canning around afternoon of today, the 27th July 2026."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, Gwalior, Varanasi, Jamshedpur, centre of Deep Depressionover northwest Bay of Bengal and adjoining areas of West Bengal-North Odisha coasts, thence southeastwards towards Northeast Bay of Bengal and extends upto 1.5 km above mean sea level. The east-west shear zone embedded with cyclonic circulation over Southwest Rajasthan and cyclonic circulation associated with Deep Depressionover northwest Bay of Bengal and adjoining areas of West Bengal- North Odisha coasts roughly along 23°N Lat. across central India between 3.1 & 5.8 km above mean sea level persists.",
+        "passes_through": [
+          "Bikaner",
+          "Gwalior",
+          "Varanasi",
+          "Jamshedpur",
+          "centre of Deep Depressionover northwest Bay of Bengal and adjoining areas of West Bengal-North Odisha coasts",
+          "thence southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 66°E to the north of Lat. 30°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 66°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [],
+    "other_troughs": [],
+    "suppressed_count": 2
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-27 11:44 IST"
+}
