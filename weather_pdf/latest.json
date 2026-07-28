@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b7ea2f7dda9d1d9e15c15bada0a204fb.pdf",
-  "last_updated": "04:36 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5c4ed410473715c8f3be8675a681bc91.pdf",
+  "last_updated": "08:33 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-28",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,60 +12,61 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Deep Depression over north interior Odisha and adjoining Gangetic West Bengal moved west- northwestwards with a speed of 12 kmph during past 6 hours, and lay centred at 1130 hrs IST of today, the 28th July 2026, over north interior Odisha and adjoining Jharkhand & Gangetic West Bengal, near latitude 21.9°N and longitude 86.6°E, about 20 km west-southwest of Baripada (Odisha), 50 km north-northwest of Balasore (Odisha), 110 km southeast of Chaibasa (Jharkhand), 110 km south-southeast of Jamshedpur (Jharkhand) and 120 km east-northeast of Keonjhargarh (Odisha). It is very likely to continue to move west- northwestwards across north Odisha, south Jharkhand and north Chhattisgarh during next 24 Hrs.\nThe Monsoon trough at mean sea level now passes through Anupgarh, Pilani, Hamirpur, Daltonganj, centre of Deep Depressionnorth interior Odisha and adjoining Jharkhand & Gangetic West Bengal, Baleshwar, thence southeastwards towards Northeast Bay of Bengal.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Madhya Pradesh at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam and extends upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 32°N persists.",
+  "met_analysis": "The Deep Depression over north interior Odisha and adjoining Jharkhand & Gangetic West Bengal moved westwards with a speed of 18 kmph during past 6 hours, and lay centred at 1730 hrs IST of today, the 28th July 2026, over north interior Odisha and adjoining Jharkhand, near latitude 21.9°N and longitude 85.5°E, about 30 km north of Keonjhargarh (Odisha), 70 km east-southeast of Rourkela (Odisha), 80 km south-southwest of Chaibasa (Jharkhand), 150 km east of Jharsuguda (Odisha) and 170 km east-northeast of Sambalpur (Odisha). It is very likely to continue to move nearly westwards across north Odisha and adjoining south Jharkhand and north Chhattisgarh during next 24 hours.\nThe Monsoon trough at mean sea level continue to pass through Anupgarh, Pilani, Hamirpur, Daltonganj, centre of Deep Depression north interior Odisha and adjoining Jharkhand, Baleshwar, thence southeastwards towards Northeast Bay of Bengal persists.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Madhya Pradesh at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 32°N.",
   "systems": {
     "priority": [
       {
         "type": "Deep Depression",
         "status": "active",
-        "location": "north interior Odisha and adjoining Gangetic West Bengal moved west- northwestwards with a speed of 12 kmph during past 6 hours, and lay centred",
+        "location": "north interior Odisha and adjoining Jharkhand & Gangetic West Bengal moved westwards with a speed of 18 kmph during past 6 hours, and lay centred",
         "coords": {
           "lat": 21.9,
-          "lon": 86.6
+          "lon": 85.5
         },
         "distance_from": [
           {
-            "place": "Baripada (Odisha",
-            "distance_km": 20,
-            "direction": "west-southwest"
+            "place": "Keonjhargarh (Odisha",
+            "distance_km": 30,
+            "direction": "north"
           },
           {
-            "place": "Balasore (Odisha",
-            "distance_km": 50,
-            "direction": "north-northwest"
+            "place": "Rourkela (Odisha",
+            "distance_km": 70,
+            "direction": "east-southeast"
           },
           {
             "place": "Chaibasa (Jharkhand",
-            "distance_km": 110,
-            "direction": "southeast"
+            "distance_km": 80,
+            "direction": "south-southwest"
           },
           {
-            "place": "Keonjhargarh (Odisha",
-            "distance_km": 120,
+            "place": "Sambalpur (Odisha",
+            "distance_km": 170,
             "direction": "east-northeast"
           }
         ],
-        "raw_text": "The Deep Depression over north interior Odisha and adjoining Gangetic West Bengal moved west- northwestwards with a speed of 12 kmph during past 6 hours, and lay centred at 1130 hrs IST of today, the 28th July 2026, over north interior Odisha and adjoining Jharkhand & Gangetic West Bengal, near latitude 21.9°N and longitude 86.6°E, about 20 km west-southwest of Baripada (Odisha), 50 km north-northwest of Balasore (Odisha), 110 km southeast of Chaibasa (Jharkhand), 110 km south-southeast of Jamshedpur (Jharkhand) and 120 km east-northeast of Keonjhargarh (Odisha). It is very likely to continue to move west- northwestwards across north Odisha, south Jharkhand and north Chhattisgarh during next 24 Hrs."
+        "movement": "westwards",
+        "raw_text": "The Deep Depression over north interior Odisha and adjoining Jharkhand & Gangetic West Bengal moved westwards with a speed of 18 kmph during past 6 hours, and lay centred at 1730 hrs IST of today, the 28th July 2026, over north interior Odisha and adjoining Jharkhand, near latitude 21.9°N and longitude 85.5°E, about 30 km north of Keonjhargarh (Odisha), 70 km east-southeast of Rourkela (Odisha), 80 km south-southwest of Chaibasa (Jharkhand), 150 km east of Jharsuguda (Odisha) and 170 km east-northeast of Sambalpur (Odisha). It is very likely to continue to move nearly westwards across north Odisha and adjoining south Jharkhand and north Chhattisgarh during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Anupgarh, Pilani, Hamirpur, Daltonganj, centre of Deep Depressionnorth interior Odisha and adjoining Jharkhand & Gangetic West Bengal, Baleshwar, thence southeastwards towards Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level continue to pass through Anupgarh, Pilani, Hamirpur, Daltonganj, centre of Deep Depression north interior Odisha and adjoining Jharkhand, Baleshwar, thence southeastwards towards Northeast Bay of Bengal persists.",
         "passes_through": [
           "Anupgarh",
           "Pilani",
           "Hamirpur",
           "Daltonganj",
-          "centre of Deep Depressionnorth interior Odisha and adjoining Jharkhand & Gangetic West Bengal",
+          "centre of Deep Depression north interior Odisha and adjoining Jharkhand",
           "Baleshwar",
-          "thence southeastwards towards Northeast Bay of Bengal"
+          "thence southeastwards towards Northeast Bay of Bengal persists"
         ],
         "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 32°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 32°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 70°E to the north of Lat. 32°N",
+        "axis": "along Long. 72°E to the north of Lat. 32°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -102,12 +103,12 @@
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam and extends upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam extending upto 1.5 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 0
   },
   "mjo": null,
-  "fetched_at": "2026-07-28 18:54 IST"
+  "fetched_at": "2026-07-28 21:57 IST"
 }
