@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bfdc1a76b3c46966b0a5a3020ee32c15.pdf",
-  "last_updated": "09:18 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3cb8a8a4be990be6fcfe5371a7fcf077.pdf",
+  "last_updated": "01:43 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-07-28",
   "monsoon_advance": null,
   "bulletin": {
@@ -12,104 +12,102 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Deep Depression over northwest Bay of Bengal close to West Bengal coast moved west-northwestwards with a speed of 7 kmph during past 6 hours, crossed West Bengal-north Odisha coasts close to Digha (near Lat. 21.65°N/Long. 87.50°E), between 0030 to 0130 hrs IST and lay centred at 0530 hrs IST of today, the 28th July 2026, over north coastal Odisha and adjoining Gangetic West Bengal, near latitude 21.7°N and longitude 87.2°E, about 30 km west-northwest of Digha (West Bengal), 30 km northeast of Balasore (Odisha), 50 km east-southeast of Baripada (Odisha), 160 km southeast of Jamshedpur (Jharkhand) and 170 km east of Keonjhargarh (Odisha).It is very likely to continue to move west-northwestwards across north Odisha, south Jharkhand and north Chhattisgarh during next 24 Hrs.\nThe Monsoon trough at mean sea level now passes through Bikaner, Gwalior, Satna, Daltonganj, centre of Deep Depressionover north coastal Odisha and adjoining Gangetic West Bengal, thence southeastwards towards Northeast Bay of Bengal.\nThe upper air cyclonic circulation over Southwest Rajasthan & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe trough from cyclonic circulation over Southwest Rajasthan & neighbourhood to cyclonic circulation associated with Deep Depressionover north coastal Odisha and adjoining Gangetic West Bengal coasts across Madhya Pradesh, Chhattisgarh and Jharkhand at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Northern parts of Central Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over east-central Arabian sea and adjoining Konkan coast at 5.8 km above mean sea level persists.",
+  "met_analysis": "The Deep Depression over north coastal Odisha and adjoining Gangetic West Bengal moved west- northwestwards with a speed of 12 kmph during past 6 hours, and lay centred at 0830 hrs IST of today, the 28th July 2026, over north interior Odisha and adjoining Gangetic West Bengal, near latitude 21.9°N and longitude 86.8°E, about 10 km southeast of Baripada (Odisha), 40 km north-northwest of Balasore (Odisha), 80 km southwest of Midnapore (West Bengal), 120 km south-southeast of Jamshedpur (Jharkhand) and 140 km east-northeast of Keonjhargarh (Odisha).It is very likely to continue to move west-northwestwards across north Odisha, south Jharkhand and north Chhattisgarh during next 24 Hrs.\nThe Monsoon trough at mean sea level now passes through Anupgarh, Pilani, Hamirpur, Daltonganj, centre of Deep Depressionover north interior Odisha and adjoining Gangetic West Bengal, thence southeastwards towards Northeast Bay of Bengal.\nThe upper air cyclonic circulation over Northern parts of Central Uttar Pradesh & neighbourhood now lies over southwest Uttar Pradesh at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over northwest Madhya Pradesh at 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over northeast Assam and extends upto 1.5 km above mean sea level.\nA Western Disturbance seen as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 32°N.\nThe upper air cyclonic circulation over Southwest Rajasthan & neighbourhood extending upto 3.1 km above mean sea level has become less marked.\nThe trough from cyclonic circulation over Southwest Rajasthan & neighbourhood to cyclonic circulation associated with Deep Depressionover north coastal Odisha and adjoining Gangetic West Bengal coasts across Madhya Pradesh, Chhattisgarh and Jharkhand at 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over east-central Arabian sea and adjoining Konkan coast at 5.8 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Deep Depression",
         "status": "active",
-        "location": "northwest Bay of Bengal close to West Bengal coast moved west-northwestwards with a speed of 7 kmph during past 6 hours, crossed West Bengal-north Odisha coasts close to Digha (near Lat. 21.65°N/Long. 87.50°E)",
+        "location": "north coastal Odisha and adjoining Gangetic West Bengal moved west- northwestwards with a speed of 12 kmph during past 6 hours, and lay centred",
         "coords": {
-          "lat": 21.65,
-          "lon": 87.5
+          "lat": 21.9,
+          "lon": 86.8
         },
         "distance_from": [
           {
-            "place": "Digha (West Bengal",
-            "distance_km": 30,
-            "direction": "west-northwest"
+            "place": "Baripada (Odisha",
+            "distance_km": 10,
+            "direction": "southeast"
           },
           {
             "place": "Balasore (Odisha",
-            "distance_km": 30,
-            "direction": "northeast"
+            "distance_km": 40,
+            "direction": "north-northwest"
           },
           {
-            "place": "Baripada (Odisha",
-            "distance_km": 50,
-            "direction": "east-southeast"
+            "place": "Midnapore (West Bengal",
+            "distance_km": 80,
+            "direction": "southwest"
           },
           {
-            "place": "Jamshedpur (Jharkhand) and 170 km east of Keonjhargarh (Odisha",
-            "distance_km": 160,
-            "direction": "southeast"
+            "place": "Keonjhargarh (Odisha",
+            "distance_km": 140,
+            "direction": "east-northeast"
           }
         ],
         "movement": "west-northwestwards",
-        "raw_text": "The Deep Depression over northwest Bay of Bengal close to West Bengal coast moved west-northwestwards with a speed of 7 kmph during past 6 hours, crossed West Bengal-north Odisha coasts close to Digha (near Lat. 21.65°N/Long. 87.50°E), between 0030 to 0130 hrs IST and lay centred at 0530 hrs IST of today, the 28th July 2026, over north coastal Odisha and adjoining Gangetic West Bengal, near latitude 21.7°N and longitude 87.2°E, about 30 km west-northwest of Digha (West Bengal), 30 km northeast of Balasore (Odisha), 50 km east-southeast of Baripada (Odisha), 160 km southeast of Jamshedpur (Jharkhand) and 170 km east of Keonjhargarh (Odisha).It is very likely to continue to move west-northwestwards across north Odisha, south Jharkhand and north Chhattisgarh during next 24 Hrs."
+        "raw_text": "The Deep Depression over north coastal Odisha and adjoining Gangetic West Bengal moved west- northwestwards with a speed of 12 kmph during past 6 hours, and lay centred at 0830 hrs IST of today, the 28th July 2026, over north interior Odisha and adjoining Gangetic West Bengal, near latitude 21.9°N and longitude 86.8°E, about 10 km southeast of Baripada (Odisha), 40 km north-northwest of Balasore (Odisha), 80 km southwest of Midnapore (West Bengal), 120 km south-southeast of Jamshedpur (Jharkhand) and 140 km east-northeast of Keonjhargarh (Odisha).It is very likely to continue to move west-northwestwards across north Odisha, south Jharkhand and north Chhattisgarh during next 24 Hrs."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, Gwalior, Satna, Daltonganj, centre of Deep Depressionover north coastal Odisha and adjoining Gangetic West Bengal, thence southeastwards towards Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Anupgarh, Pilani, Hamirpur, Daltonganj, centre of Deep Depressionover north interior Odisha and adjoining Gangetic West Bengal, thence southeastwards towards Northeast Bay of Bengal.",
         "passes_through": [
-          "Bikaner",
-          "Gwalior",
-          "Satna",
+          "Anupgarh",
+          "Pilani",
+          "Hamirpur",
           "Daltonganj",
-          "centre of Deep Depressionover north coastal Odisha and adjoining Gangetic West Bengal",
+          "centre of Deep Depressionover north interior Odisha and adjoining Gangetic West Bengal",
           "thence southeastwards towards Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "A Western Disturbance seen as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 32°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 70°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Southwest Rajasthan & neighbourhood",
+        "location": "southwest Uttar Pradesh",
         "level": {
-          "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Southwest Rajasthan & neighbourhood extending upto 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northern parts of Central Uttar Pradesh & neighbourhood now lies over southwest Uttar Pradesh at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Northern parts of Central Uttar Pradesh & neighbourhood",
+        "location": "northwest Madhya Pradesh",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over northwest Madhya Pradesh at 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northern parts of Central Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "east-central Arabian sea and adjoining Konkan coast",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over east-central Arabian sea and adjoining Konkan coast at 5.8 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over northeast Assam and extends upto 1.5 km above mean sea level."
       }
     ],
-    "other_troughs": [
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "Southwest Rajasthan & neighbourhood to cyclonic circulation associated with Deep Depressionover north coastal Odisha and adjoining Gangetic West Bengal coasts",
-        "across": "Madhya Pradesh, Chhattisgarh and Jharkhand",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The trough from cyclonic circulation over Southwest Rajasthan & neighbourhood to cyclonic circulation associated with Deep Depressionover north coastal Odisha and adjoining Gangetic West Bengal coasts across Madhya Pradesh, Chhattisgarh and Jharkhand at 3.1 km above mean sea level persists."
-      }
-    ],
-    "suppressed_count": 0
+    "other_troughs": [],
+    "suppressed_count": 3
   },
   "mjo": null,
-  "fetched_at": "2026-07-28 13:39 IST"
+  "fetched_at": "2026-07-28 16:37 IST"
 }
