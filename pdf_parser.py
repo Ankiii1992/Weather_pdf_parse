@@ -38,7 +38,7 @@ HEADERS_GH = {
 }
 
 # -----------------------------------------------------------------------------
-# SYSTEM PRIORITY
+# SYSTEM PRIORITY — Tier 1 sort order
 # -----------------------------------------------------------------------------
 
 SYSTEM_PRIORITY = {
@@ -59,7 +59,7 @@ SYSTEM_PRIORITY = {
 }
 
 # -----------------------------------------------------------------------------
-# SYSTEM FIELDS CONFIG
+# SYSTEM FIELDS CONFIG — remove any field to exclude from JSON output
 # -----------------------------------------------------------------------------
 
 SYSTEM_FIELDS = {
@@ -69,11 +69,11 @@ SYSTEM_FIELDS = {
     ],
     'Depression': [
         'type', 'status', 'location', 'coords', 'distance_from',
-        'on_land', 'movement', 'forecast', 'landfall', 'associated_cc', 'raw_text',
+        'on_land', 'movement', 'forecast', 'landfall', 'raw_text',
     ],
     'Deep Depression': [
         'type', 'status', 'location', 'coords', 'distance_from',
-        'on_land', 'movement', 'forecast', 'landfall', 'associated_cc', 'raw_text',
+        'on_land', 'movement', 'forecast', 'landfall', 'raw_text',
     ],
     'Cyclonic Storm': [
         'type', 'status', 'location', 'coords', 'distance_from',
@@ -96,11 +96,11 @@ SYSTEM_FIELDS = {
         'on_land', 'movement', 'forecast', 'landfall', 'raw_text',
     ],
     'Monsoon Trough': [
-        'type', 'position', 'extent', 'passes_through', 'west_end', 'east_end',
+        'type', 'position', 'passes_through', 'west_end', 'east_end',
         'east_end_system', 'across', 'level', 'raw_text',
     ],
     'Shear Zone': [
-        'type', 'form', 'location', 'extent', 'across', 'level', 'tilt', 'raw_text',
+        'type', 'location', 'across', 'level', 'tilt', 'raw_text',
     ],
     'Offshore Trough': [
         'type', 'extent', 'level', 'raw_text',
@@ -124,14 +124,24 @@ SYSTEM_FIELDS = {
     ],
 }
 
+# 'extent' added here — needed for Monsoon Trough's "from X to Y across Z" phrasing
+SYSTEM_FIELDS['Monsoon Trough'].insert(2, 'extent')
+
 # -----------------------------------------------------------------------------
-# TEXT NORMALISATION
+# TEXT NORMALISATION — fix PDF extraction artefacts before any parsing
 # -----------------------------------------------------------------------------
 
+# Merged words seen in real PDFs
 MERGE_FIXES = [
+    # ── IMD typos / OCR errors ────────────────────────────────────────────────
+    (r'\banove\b',                      'above'),           # "5.8 km anove" → "above"
+    (r'\babov\b',                       'above'),           # partial OCR drop
+    (r'\bcentred\b',                    'centered'),        # British → American for regex consistency
+
+    # ── Word merges caused by PDF extraction ─────────────────────────────────
     (r'\bextendingupto\b',              'extending upto'),
     (r'\bupto([\.\d]+)',                r'upto \1'),
-    (r'\bextending up to\b',            'extending upto'),
+    (r'\bextending up to\b',           'extending upto'),
     (r'\bupto\b',                       'upto'),
     (r'\bup to\b',                      'upto'),
     (r'\b([\d.]+)kmabovemeansealevel\b', r'\1 km above mean sea level'),
@@ -143,21 +153,21 @@ MERGE_FIXES = [
     (r'\bcycloniccirculation\b',        'cyclonic circulation'),
     (r'\bneighbourhood\b',              'neighbourhood'),
     (r'\b([\d.]+)km\b',                 r'\1 km'),
-    # NEW: merged words seen in real PDFs
-    (r'\bneighbourhoodat\b',            'neighbourhood at'),
-    (r'([A-Za-z]{3,})between\b',        r'\1 between'),
-    (r'\bWest\s+Bengaland\b',           'West Bengal and'),
-    (r'\bnorthOdisha\b',                'north Odisha'),
-    (r'\bnorthChhattisgarh\b',          'north Chhattisgarh'),
-    (r'\beastcentral\b',                'east-central'),
-    # Grammar variants
+    # System-name word merges (e.g. "DepressionOver", "TroughRuns")
+    (r'\b(Depression|Circulation|Trough|Disturbance|Zone)(over|across|near|at|lies|runs|persists)\b',
+     r'\1 \2'),
+    # ".It" — period+word merged (no space) between two sentences
+    (r'\.([A-Z][a-z])',                 r'. \1'),
+
+    # ── Grammar / tense normalisation ────────────────────────────────────────
     (r'\brun from\b',                   'runs from'),
     (r'\blay over\b',                   'lies over'),
-    (r'\blay centered',                 'lies centered'),
+    (r'\blay centered\b',               'lies centered'),
     (r'\boff-shore\b',                  'offshore'),
     (r'\boff shore\b',                  'offshore'),
     (r'\bSeasonal trough\b',            'Monsoon trough'),
     (r'\bseasonal trough\b',            'monsoon trough'),
+    # "between X km to Y km" → "between X & Y km"
     (r'between\s+([\d.]+)\s*km\s+to\s+([\d.]+)\s*km', r'between \1 & \2 km'),
     # Collapse spaces
     (r' {2,}', ' '),
@@ -165,76 +175,86 @@ MERGE_FIXES = [
 
 def normalise_text(text):
     """Apply all merge fixes and grammar normalisations."""
-    if not text:
-        return ''
     for pattern, repl in MERGE_FIXES:
-        try:
-            text = re.sub(pattern, repl, text, flags=re.IGNORECASE)
-        except Exception:
-            pass
+        text = re.sub(pattern, repl, text, flags=re.IGNORECASE)
     return text.strip()
 
 
 # -----------------------------------------------------------------------------
 # LEVEL PARSER
 # -----------------------------------------------------------------------------
+# LEVEL PARSER
+# -----------------------------------------------------------------------------
+
+# "above" variants — handles common OCR/IMD typos
+_ABV = r'(?:above|anove|abov|avove)'
 
 def parse_level(text):
+    """
+    Extract level info from a sentence.
+    Priority order matters — numeric matches always win over plain string labels.
+    Uses _ABV pattern to handle OCR typos like 'anove' instead of 'above'.
+    """
     if not text:
         return None
-    try:
-        t = normalise_text(text)
+    t = normalise_text(text)
 
-        m = re.search(r'now\s+seen\s+between\s+([\d.]+)\s*(?:&|and)\s*([\d.]+)\s*km\s*above', t, re.IGNORECASE)
-        if m:
-            lo, hi = float(m.group(1)), float(m.group(2))
-            return {'type': 'range', 'min': lo, 'max': hi, 'display': f'{lo}–{hi} km above MSL'}
+    # now seen at / now seen between
+    m = re.search(rf'now\s+seen\s+between\s+([\d.]+)\s*(?:&|and)\s*([\d.]+)\s*km\s*{_ABV}', t, re.IGNORECASE)
+    if m:
+        lo, hi = float(m.group(1)), float(m.group(2))
+        return {'type': 'range', 'min': lo, 'max': hi, 'display': f'{lo}–{hi} km above MSL'}
 
-        m = re.search(r'now\s+seen\s+at\s+([\d.]+)\s*km\s*above', t, re.IGNORECASE)
-        if m:
-            val = float(m.group(1))
-            return {'type': 'single', 'min': val, 'display': f'{val} km above MSL'}
+    m = re.search(rf'now\s+seen\s+at\s+([\d.]+)\s*km\s*{_ABV}', t, re.IGNORECASE)
+    if m:
+        val = float(m.group(1))
+        return {'type': 'single', 'min': val, 'display': f'{val} km above MSL'}
 
-        m = re.search(r'between\s+([\d.]+)\s*(?:&|and)\s*([\d.]+)\s*km\s*above', t, re.IGNORECASE)
-        if m:
-            lo, hi = float(m.group(1)), float(m.group(2))
-            return {'type': 'range', 'min': lo, 'max': hi, 'display': f'{lo}–{hi} km above MSL'}
+    # between X & Y km above MSL
+    m = re.search(rf'between\s+([\d.]+)\s*(?:&|and)\s*([\d.]+)\s*km\s*{_ABV}', t, re.IGNORECASE)
+    if m:
+        lo, hi = float(m.group(1)), float(m.group(2))
+        return {'type': 'range', 'min': lo, 'max': hi, 'display': f'{lo}–{hi} km above MSL'}
 
-        m = re.search(
-            r'(?:and\s+)?(?:extending\s+|extends\s+)?upto\s+([\d.]+)\s*km\s*above',
-            t, re.IGNORECASE
-        )
-        if m:
-            val = float(m.group(1))
-            return {'type': 'upto', 'max': val, 'display': f'upto {val} km above MSL'}
+    # extending/extends upto X km above MSL — matched BEFORE 'at X km' so that
+    # "at mean sea level ... extending upto 0.9 km" returns the upto value
+    m = re.search(
+        rf'(?:and\s+)?(?:extending\s+|extends\s+)?upto\s+([\d.]+)\s*km\s*{_ABV}',
+        t, re.IGNORECASE
+    )
+    if m:
+        val = float(m.group(1))
+        return {'type': 'upto', 'max': val, 'display': f'upto {val} km above MSL'}
 
-        m = re.search(
-            r'(?:and\s+)?extends?\s+upto\s+(lower\s*(?:&|and)?\s*(?:middle|upper)?\s*tropospheric)',
-            t, re.IGNORECASE
-        )
-        if m:
-            label = re.sub(r'\s+', ' ', m.group(1)).strip().lower()
-            return label
+    # extends upto [tropospheric label]
+    m = re.search(
+        r'(?:and\s+)?extends?\s+upto\s+(lower\s*(?:&|and)?\s*(?:middle|upper)?\s*tropospheric)',
+        t, re.IGNORECASE
+    )
+    if m:
+        label = re.sub(r'\s+', ' ', m.group(1)).strip().lower()
+        return label
 
-        m = re.search(r'at\s+([\d.]+)\s*km\s*above', t, re.IGNORECASE)
-        if m:
-            val = float(m.group(1))
-            return {'type': 'single', 'min': val, 'display': f'{val} km above MSL'}
+    # at X km above MSL
+    m = re.search(rf'at\s+([\d.]+)\s*km\s*{_ABV}', t, re.IGNORECASE)
+    if m:
+        val = float(m.group(1))
+        return {'type': 'single', 'min': val, 'display': f'{val} km above MSL'}
 
-        m = re.search(
-            r'in\s+(lower\s*(?:&|and)?\s*(?:middle\s*)?(?:&|and)?\s*(?:upper\s*)?tropospheric)\s*levels?',
-            t, re.IGNORECASE
-        )
-        if m:
-            label = re.sub(r'\s+', ' ', m.group(1)).strip().lower()
-            label = re.sub(r'\s*(and|&)\s*', ' & ', label)
-            return label
+    # in lower/middle/upper tropospheric levels
+    m = re.search(
+        r'in\s+(lower\s*(?:&|and)?\s*(?:middle\s*)?(?:&|and)?\s*(?:upper\s*)?tropospheric)\s*levels?',
+        t, re.IGNORECASE
+    )
+    if m:
+        label = re.sub(r'\s+', ' ', m.group(1)).strip().lower()
+        label = re.sub(r'\s*(and|&)\s*', ' & ', label)
+        return label
 
-        if re.search(r'at\s+mean\s+sea\s+level|mean\s+sea\s+level', t, re.IGNORECASE):
-            return 'mean sea level'
+    # mean sea level — only if no numeric level found above
+    if re.search(r'at\s+mean\s+sea\s+level|mean\s+sea\s+level', t, re.IGNORECASE):
+        return 'mean sea level'
 
-    except Exception:
-        pass
     return None
 
 
@@ -243,20 +263,19 @@ def parse_level(text):
 # -----------------------------------------------------------------------------
 
 def extract_tilt(text):
-    try:
-        m = re.search(
-            r'tilting\s+(south\w*|north\w*|east\w*|west\w*)\s+with\s+height',
-            text, re.IGNORECASE
-        )
-        return m.group(0).strip() if m else None
-    except Exception:
-        return None
+    """Extract tilt qualifier if present."""
+    m = re.search(
+        r'tilting\s+(south\w*|north\w*|east\w*|west\w*)\s+with\s+height',
+        text, re.IGNORECASE
+    )
+    return m.group(0).strip() if m else None
 
 
 # -----------------------------------------------------------------------------
 # LOCATION EXTRACTOR
 # -----------------------------------------------------------------------------
 
+# Boundary words — location text must stop before any of these
 _LOC_STOP = (
     r'at\s+[\d.]'
     r'|between\s+[\d.]'
@@ -278,51 +297,70 @@ _LOC_STOP = (
 )
 
 def _clean_loc(loc):
+    """Strip trailing punctuation and noise from a captured location string."""
     if not loc:
         return None
-    try:
-        loc = loc.strip().rstrip(' ,&')
-        loc = re.split(r'\s+(?:at\s+[\d.]|between\s+[\d.]|extending|upto|in\s+lower|in\s+middle|in\s+upper|tilting)', loc, flags=re.IGNORECASE)[0]
-        loc = loc.strip().rstrip(' ,&')
-        return loc if loc else None
-    except Exception:
-        return None
+    loc = loc.strip().rstrip(' ,&')
+    # Strip any level text that bled in
+    loc = re.split(r'\s+(?:at\s+[\d.]|between\s+[\d.]|extending|upto|in\s+lower|in\s+middle|in\s+upper|tilting)', loc, flags=re.IGNORECASE)[0]
+    loc = loc.strip().rstrip(' ,&')
+    return loc if loc else None
 
 
 def extract_location(text):
-    try:
-        t = normalise_text(text)
+    """
+    Extract the CURRENT location of a system from a sentence.
+    Priority order:
+      1. 'lies centered...over X near lat Y' — DD/cyclone after movement + timestamp
+      2. 'now lies over X'
+      3. 'over X near latitude Y' — short bounded match, avoids grabbing full sentence
+      4. 'lies over X'
+      5. 'over X'
+    """
+    t = normalise_text(text)
 
-        m = re.search(
-            r'now\s+lies\s+(?:centered\s+)?over\s+(.+?)(?=' + _LOC_STOP + r')',
-            t, re.IGNORECASE
-        )
-        if m:
-            return _clean_loc(m.group(1))
+    # "lies centered...over X near lat Y" — DD/cyclone current position
+    # after a long movement+timestamp clause. 200-char gap covers any timestamp.
+    m = re.search(
+        r'lies\s+centered\s+.{0,200}?\bover\s+(.{3,60}?)\s+near\s+(?:lat(?:itude)?\.?\s*)?[\d.]+',
+        t, re.IGNORECASE
+    )
+    if m:
+        return _clean_loc(m.group(1))
 
-        m = re.search(
-            r'lies\s+centered\s+.{0,40}?over\s+(.+?)(?=' + _LOC_STOP + r')',
-            t, re.IGNORECASE
-        )
-        if m:
-            return _clean_loc(m.group(1))
+    # "now lies over X"
+    m = re.search(
+        r'now\s+lies\s+(?:centered\s+)?over\s+(.+?)(?=' + _LOC_STOP + r')',
+        t, re.IGNORECASE
+    )
+    if m:
+        return _clean_loc(m.group(1))
 
-        m = re.search(
-            r'lies\s+over\s+(.+?)(?=' + _LOC_STOP + r')',
-            t, re.IGNORECASE
-        )
-        if m:
-            return _clean_loc(m.group(1))
+    # "over X near lat Y" — bounded to 60 chars so it only catches short location names,
+    # not the full sentence when multiple 'over' clauses exist
+    m = re.search(
+        r'\bover\s+(.{3,60}?)\s+near\s+(?:lat(?:itude)?\.?\s*)?[\d.]+',
+        t, re.IGNORECASE
+    )
+    if m:
+        return _clean_loc(m.group(1))
 
-        m = re.search(
-            r'\bover\s+(.+?)(?=' + _LOC_STOP + r')',
-            t, re.IGNORECASE
-        )
-        if m:
-            return _clean_loc(m.group(1))
+    # "lies over X"
+    m = re.search(
+        r'lies\s+over\s+(.+?)(?=' + _LOC_STOP + r')',
+        t, re.IGNORECASE
+    )
+    if m:
+        return _clean_loc(m.group(1))
 
-    except Exception:
-        pass
+    # "over X" — standard
+    m = re.search(
+        r'\bover\s+(.+?)(?=' + _LOC_STOP + r')',
+        t, re.IGNORECASE
+    )
+    if m:
+        return _clean_loc(m.group(1))
+
     return None
 
 
@@ -331,60 +369,60 @@ def extract_location(text):
 # -----------------------------------------------------------------------------
 
 def parse_coords(text):
+    """Extract lat/lon coordinates from text."""
     if not text:
         return None
-    try:
-        lat_m = re.search(r'[Ll]at(?:itude)?\.?\s*([\d.]+)°?\s*N', text)
-        lon_m = re.search(r'[Ll]on(?:g(?:itude)?)?\.?\s*([\d.]+)°?\s*E', text)
-        if lat_m and lon_m:
-            return {'lat': float(lat_m.group(1)), 'lon': float(lon_m.group(1))}
-        slash_m = re.search(r'([\d.]+)°?\s*N\s*/\s*([\d.]+)°?\s*E', text)
-        if slash_m:
-            return {'lat': float(slash_m.group(1)), 'lon': float(slash_m.group(2))}
-    except Exception:
-        pass
+    lat_m = re.search(r'[Ll]at(?:itude)?\.?\s*([\d.]+)°?\s*N', text)
+    lon_m = re.search(r'[Ll]on(?:g(?:itude)?)?\.?\s*([\d.]+)°?\s*E', text)
+    if lat_m and lon_m:
+        return {'lat': float(lat_m.group(1)), 'lon': float(lon_m.group(1))}
+    slash_m = re.search(r'([\d.]+)°?\s*N\s*/\s*([\d.]+)°?\s*E', text)
+    if slash_m:
+        return {'lat': float(slash_m.group(1)), 'lon': float(slash_m.group(2))}
     return None
 
 
 def parse_nlm_coords(text):
-    try:
-        coords  = []
-        matches = re.findall(r'([\d.]+)°?\s*N\s*/\s*([\d.]+)°?\s*E', text)
-        for lat_s, lon_s in matches:
-            coords.append({'lat': float(lat_s), 'lon': float(lon_s)})
-        return coords if coords else None
-    except Exception:
-        return None
+    """Extract all NLM lat/lon coordinate pairs."""
+    coords  = []
+    matches = re.findall(r'([\d.]+)°?\s*N\s*/\s*([\d.]+)°?\s*E', text)
+    for lat_s, lon_s in matches:
+        coords.append({'lat': float(lat_s), 'lon': float(lon_s)})
+    return coords if coords else None
 
 
 # -----------------------------------------------------------------------------
-# DISTANCE FROM PARSER
+# DISTANCE FROM PARSER (for Depression / Cyclone)
 # -----------------------------------------------------------------------------
 
 def parse_distance_from(text):
-    try:
-        pattern = r'([\d]+)\s*km\s+([\w\-]+(?:\s+[\w\-]+)?)\s+of\s+([\w\s\(\)&]+?)(?=,\s*[\d]+\s*km|\.|$)'
-        matches = re.findall(pattern, text, re.IGNORECASE)
-        if not matches:
-            return None
-        result = []
-        for dist, direction, place in matches:
-            place = place.strip().rstrip(' )')
-            if place:
-                result.append({
-                    'place':       place.strip(),
-                    'distance_km': int(dist),
-                    'direction':   direction.strip().lower(),
-                })
-        return result if result else None
-    except Exception:
+    """
+    Extract distance references like:
+    '70 km southeast of Puri (Odisha), 130 km East of Gopalpur (Odisha)'
+    Returns list of {place, distance_km, direction} or None.
+    """
+    pattern = r'([\d]+)\s*km\s+([\w\-]+(?:\s+[\w\-]+)?)\s+of\s+([\w\s\(\)&]+?)(?=,\s*[\d]+\s*km|\.|$)'
+    matches = re.findall(pattern, text, re.IGNORECASE)
+    if not matches:
         return None
+    result = []
+    for dist, direction, place in matches:
+        place = place.strip().rstrip(' )')
+        if place:
+            result.append({
+                'place':       place.strip(),
+                'distance_km': int(dist),
+                'direction':   direction.strip().lower(),
+            })
+    return result if result else None
 
 
 # -----------------------------------------------------------------------------
-# SENTENCE SPLITTER
+# SENTENCE SPLITTER — keyword-based, works for all IMD bulletin formats
+# (morning/midday bulletins have NO glyph characters in pdfplumber output)
 # -----------------------------------------------------------------------------
 
+# Continuation sentences — attach to parent system as forecast
 _CONTINUATION_PATTERNS = [
     r'^It\s+is\s+(?:very\s+)?likely\s+to\s+move',
     r'^It\s+is\s+(?:very\s+)?likely\s+to\s+',
@@ -392,6 +430,7 @@ _CONTINUATION_PATTERNS = [
     r'^Subsequently\s+it\s+is',
 ]
 
+# Suppress entirely — not active systems
 _SUPPRESS_PATTERNS = [
     r'Under\s+(?:its|the)\s+influence\s+.{0,60}is\s+likely\s+to\s+form',
     r'Under\s+the\s+influence\s+of\s+these\s+systems',
@@ -405,7 +444,7 @@ RUN_FIXES = [
     (r'Theupperair\b', 'The upper air'),
     (r'Theupperaircycloniccirculationovercentral([A-Za-z])', r'The upper air cyclonic circulation over central \1'),
     (r'TheupperaircycloniccirculationoverSoutheast', 'The upper air cyclonic circulation over Southeast'),
-    (r'TheupperaircycloniccirculationoverEastcentral', 'The upper air cyclonic circulation over East-central'),
+    (r'TheupperaircycloniccirculationoverEastcentral', 'The upper air cyclonic circulation over Eastcentral'),
     (r'Theupperaircycloniccirculationover([A-Z])', r'The upper air cyclonic circulation over \1'),
     (r'Theupperair cycloniccirculationover', 'The upper air cyclonic circulation over'),
     (r'cycloniccirculationover([A-Z])', r'cyclonic circulation over \1'),
@@ -415,37 +454,41 @@ RUN_FIXES = [
     (r' {2,}', ' '),
 ]
 
+# Footer marker — everything from this line onwards is boilerplate
 _FOOTER_RE = re.compile(r'^\*\s*Red\s+colo(?:u|u?)r?\s+warning', re.IGNORECASE)
 
+# Known system sentence starters — a new sentence begins when a line
+# starts with any of these (case-insensitive). This is the ONLY reliable
+# cross-format delimiter; glyphs are absent in morning/midday bulletins.
 _SYSTEM_START_RE = re.compile(
-    r'^(?:The|An?|A)\s+(?:fresh\s+)?(?:'
-    r'(?:upper\s+air\s+)?cyclonic\s+circulation'
-    r'|induced\s+(?:upper\s+air\s+)?cyclonic'
-    r'|Western\s+Disturbance'
-    r'|(?:well[\s\-]?marked\s+)?[Ll]ow[\s\-]?[Pp]ressure\s+[Aa]rea'
-    r'|[Dd]eep\s+[Dd]epression'
-    r'|[Dd]epression'
-    r'|(?:very\s+severe|extremely\s+severe|severe|super)\s+cyclonic\s+storm'
-    r'|[Cc]yclonic\s+[Ss]torm'
-    r'|(?:monsoon|seasonal)\s+trough'
-    r'|(?:east[\s\-]west|north[\s\-]south)\s+trough'
-    r'|(?:offshore|off[\s\-]shore)\s+trough'
-    r'|shear\s+(?:zone|line)'
+    # Core: article + up to 4 optional qualifier words + known meteorological noun.
+    # Generic qualifier matching handles any combination — "east-west shear zone",
+    # "well-marked low pressure area", "very severe cyclonic storm",
+    # "induced upper air cyclonic circulation" — without enumerating every variant.
+    r'^(?:The|An?|A)\s+'
+    r'(?:(?:[\w][\w\-]*)\s+){0,4}'
+    r'(?:'
+    r'cyclonic\s+(?:circulation|storm)'
+    r'|[Ww]estern\s+[Dd]isturbance'
+    r'|low[\s\-]?pressure\s+area'
+    r'|depression'
     r'|trough'
+    r'|shear\s+(?:zone|line)'
     r')'
-    r'|^(?:The|A)\s+(?:western\s+end|eastern\s+end)\s+of\s+(?:monsoon|seasonal)\s+trough'
-    r'|^Yesterday\'s\s+(?:depression|low\s+pressure)'
-    r'|^However,\s+the\s+associated\s+cyclonic',
+    # Special cases
+    r'|^(?:The|A)\s+(?:western|eastern)\s+end\s+of\s+(?:monsoon|seasonal)\s+trough'
+    r"|^Yesterday's\s+(?:depression|low\s+pressure)"
+    r'|^However,\s+the\s+associated\s+cyclonic'
+    r'|^(?:The\s+)?Northern\s+Limit\s+of\s+Monsoon'
+    r'|^Conditions?\s+are\s+(?:favourable|unfavourable)',
     re.IGNORECASE
 )
 
+# Lines to discard entirely (non-system content that appears in the Met Analysis block)
 _SKIP_LINE_RE = re.compile(
     r'^Meteorological\s+Analysis'
-    r'|^Conditions\s+are\s+favourable'
-    r'|^The\s+Northern\s+Limit\s+of\s+Monsoon'
-    r'|^The\s+Southwest\s+Monsoon\s+has'
     r'|^Page\s+\d+'
-    r'|\(Service\s+to\s+the\s+nation'
+    r'|\(Service\s+to\s+the\s+nati'
     r'|^\d{4}-\d{2}-\d{2}$'
     r'|^For\s+more\s+details'
     r'|^Forecast\s+and\s+[Ww]arning\s+for',
@@ -455,17 +498,20 @@ _SKIP_LINE_RE = re.compile(
 
 def _apply_run_fixes(text):
     for pattern, repl in RUN_FIXES:
-        try:
-            text = re.sub(pattern, repl, text)
-        except Exception:
-            pass
+        text = re.sub(pattern, repl, text)
     return normalise_text(text)
 
 
 def extract_met_sentences(page_text):
-    """Extract system sentences from Met Analysis page."""
-    if not page_text:
-        return []
+    """
+    Extract individual system sentences from a Met Analysis page.
+    Works regardless of whether the page uses bullet glyphs (❖/•) or plain
+    paragraph text. Strategy:
+      1. Strip page header and footer
+      2. Join physical PDF line-wraps back into logical sentences using
+         _SYSTEM_START_RE to detect where a new sentence begins
+      3. Return one clean sentence per list item
+    """
     lines = []
     for raw in page_text.splitlines():
         line = raw.strip()
@@ -473,6 +519,7 @@ def extract_met_sentences(page_text):
             continue
         if _FOOTER_RE.match(line):
             break
+        # Strip bullet glyphs if present
         line = re.sub(r'^[❖•✦◆\-]\s*', '', line)
         line = line.strip()
         if not line:
@@ -481,6 +528,7 @@ def extract_met_sentences(page_text):
             continue
         lines.append(line)
 
+    # Join wrapped lines into complete sentences
     sentences = []
     current = ''
     for line in lines:
@@ -491,6 +539,7 @@ def extract_met_sentences(page_text):
         else:
             if current:
                 current = current + ' ' + line
+            # else: stray pre-content line, ignore
 
     if current:
         sentences.append(current.strip())
@@ -509,100 +558,84 @@ def is_suppressed(sentence):
 
 
 def split_sentences(text):
-    if not text:
-        return []
+    """
+    Split pre-extracted met_analysis text (one sentence per line) into list.
+    Handles the "and another over X" merged-UAC pattern.
+    """
     text = normalise_text(text)
     raw = [s.strip() for s in text.splitlines() if s.strip()]
 
     expanded = []
     for sent in raw:
-        try:
-            parts = re.split(r'\s+and\s+another\s+over\s+', sent, flags=re.IGNORECASE)
-            if len(parts) == 2:
-                level_m = re.search(
-                    r'(?:at\s+[\d.]|between\s+[\d.]|extending\s+upto|in\s+\w+\s+tropospheric).*$',
-                    parts[1], re.IGNORECASE
-                )
-                level_text = level_m.group(0) if level_m else ''
-                expanded.append(parts[0].rstrip(' ,') + (' ' + level_text if level_text and level_text not in parts[0] else ''))
-                prefix_m = re.match(r'^(An?\s+(?:upper\s+air\s+)?cyclonic\s+circulation\s+\w+)', parts[0], re.IGNORECASE)
-                prefix = prefix_m.group(1) if prefix_m else 'An upper air cyclonic circulation lies'
-                expanded.append(f'{prefix} over {parts[1]}')
-            else:
-                expanded.append(sent)
-        except Exception:
+        parts = re.split(r'\s+and\s+another\s+over\s+', sent, flags=re.IGNORECASE)
+        if len(parts) == 2:
+            level_m = re.search(
+                r'(?:at\s+[\d.]|between\s+[\d.]|extending\s+upto|in\s+\w+\s+tropospheric).*$',
+                parts[1], re.IGNORECASE
+            )
+            level_text = level_m.group(0) if level_m else ''
+            expanded.append(parts[0].rstrip(' ,') + (' ' + level_text if level_text and level_text not in parts[0] else ''))
+            prefix_m = re.match(r'^(An?\s+(?:upper\s+air\s+)?cyclonic\s+circulation\s+\w+)', parts[0], re.IGNORECASE)
+            prefix = prefix_m.group(1) if prefix_m else 'An upper air cyclonic circulation lies'
+            expanded.append(f'{prefix} over {parts[1]}')
+        else:
             expanded.append(sent)
     return expanded
 
 
 # -----------------------------------------------------------------------------
-# MONSOON TEXT EXTRACTORS
+# MET ANALYSIS EXTRACTOR
 # -----------------------------------------------------------------------------
 
-def extract_monsoon_advance(page_text):
-    """Extract 'SW Monsoon has further advanced into...' sentence."""
-    if not page_text:
-        return None
-    try:
-        clean = ' '.join(page_text.splitlines())
-        clean = re.sub(r'[❖•✦◆\-]\s*', ' ', clean)
-        clean = re.sub(r'\s{2,}', ' ', clean).strip()
-        m = re.search(
-            r'(?:The\s+)?Southwest\s+Monsoon\s+has\s+(?:further\s+)?advanced\s+.+?'
-            r'(?=\.\s+(?:The\s+Northern|Conditions)|\.?\s*$)',
-            clean, re.IGNORECASE | re.DOTALL
-        )
-        if m:
-            return m.group(0).strip().rstrip('.') + '.'
-    except Exception:
-        pass
-    return None
-
-
-def extract_monsoon_text(page_text):
-    """Extract NLM + Conditions text from a page."""
-    if not page_text:
-        return None
-    try:
-        clean_lines = []
-        for raw in page_text.splitlines():
-            line = raw.strip()
-            if _FOOTER_RE.match(line):
-                break
-            clean_lines.append(line)
-
-        text = ' '.join(clean_lines)
-        text = re.sub(r'[❖•✦◆\-]\s*', ' ', text)
-        text = re.sub(r'\s{2,}', ' ', text).strip()
-
-        # NLM regex — stop at sentence boundary but NOT at "Dist." abbreviation
-        nlm_re = re.compile(
-            r'(?:The\s+)?Northern\s+Limit\s+of\s+Monsoon\s+.+?'
-            r'(?=\.\s+(?:Conditions|The\s+(?:Southwest|Well|depression|monsoon|shear|off|Western|seasonal))|\.?\s*$)',
-            re.IGNORECASE | re.DOTALL
-        )
-        cond_re = re.compile(
-            r'Conditions?\s+are\s+favourable\s+.+?'
-            r'(?=\.\s+(?:The\s+|$)|\.?\s*$)',
-            re.IGNORECASE | re.DOTALL
-        )
-
-        parts = []
-        m = nlm_re.search(text)
-        if m:
-            parts.append(m.group(0).strip().rstrip('.') + '.')
-        m = cond_re.search(text)
-        if m:
-            parts.append(m.group(0).strip().rstrip('.') + '.')
-
-        return ' '.join(parts) if parts else None
-    except Exception:
-        return None
-
-
 def extract_met_analysis(page_text):
+    """
+    Extract and clean the full Meteorological Analysis page text.
+    Returns one sentence per line as a single string.
+    """
     sentences = extract_met_sentences(page_text)
     return '\n'.join(sentences) if sentences else None
+
+
+# -----------------------------------------------------------------------------
+# MONSOON TEXT EXTRACTOR
+# -----------------------------------------------------------------------------
+
+def extract_monsoon_text(page_text):
+    """
+    Extract the NLM / Advance of Southwest Monsoon text from page 1.
+    Looks for the NLM sentence and the 'Conditions are favourable' sentence,
+    joining wrapped lines, stopping before any system sentence.
+    """
+    # Remove footer first
+    clean_lines = []
+    for raw in page_text.splitlines():
+        line = raw.strip()
+        if _FOOTER_RE.match(line):
+            break
+        clean_lines.append(line)
+
+    text = ' '.join(clean_lines)
+    text = re.sub(r'[❖•✦◆\-]\s*', ' ', text)
+    text = re.sub(r'\s{2,}', ' ', text).strip()
+
+    nlm_re = re.compile(
+        r'(?:The\s+)?Northern\s+Limit\s+of\s+Monsoon.+?(?=\.\s|$)',
+        re.IGNORECASE | re.DOTALL
+    )
+    cond_re = re.compile(
+        r'Conditions?\s+are\s+favourable.+?(?=\.\s|$)',
+        re.IGNORECASE | re.DOTALL
+    )
+
+    parts = []
+    m = nlm_re.search(text)
+    if m:
+        parts.append(m.group(0).strip().rstrip('.') + '.')
+    m = cond_re.search(text)
+    if m:
+        parts.append(m.group(0).strip().rstrip('.') + '.')
+
+    return ' '.join(parts) if parts else None
 
 
 # -----------------------------------------------------------------------------
@@ -610,305 +643,393 @@ def extract_met_analysis(page_text):
 # -----------------------------------------------------------------------------
 
 def _build_system(**kwargs):
+    """Build a system dict, dropping None values."""
     return {k: v for k, v in kwargs.items() if v is not None}
 
 
 def filter_system(system):
+    """Filter system to allowed fields. raw_text is always preserved."""
     stype   = system.get('type', '')
     allowed = SYSTEM_FIELDS.get(stype, list(system.keys()))
-    return {k: v for k, v in system.items() if k in allowed and v is not None}
+    result  = {k: v for k, v in system.items() if k in allowed and v is not None}
+    # raw_text is guaranteed — always store the original IMD sentence
+    if 'raw_text' in system and system['raw_text']:
+        result['raw_text'] = system['raw_text']
+    return result
+
+
+# -----------------------------------------------------------------------------
+# SCHEMA VALIDATION
+# -----------------------------------------------------------------------------
+
+# Location field should not contain these — indicates extraction grabbed wrong text
+_BAD_LOCATION_RE = re.compile(
+    r'\d+\s*kmph'             # speed: "8 kmph"
+    r'|hrs\s+IST'             # timestamp: "1730 hrs IST"
+    r'|\bmoved\b'             # movement verb
+    r'|\bcentered\b'          # centred verb (should have been extracted beyond)
+    r'|during\s+past'         # time reference
+    r'|\bspeed\s+of\b',       # speed phrase
+    re.IGNORECASE
+)
+
+_VALID_STATUS = {'active', 'forming', 'less_marked', 'weakening'}
+_LPA_TYPES = {
+    'Low Pressure Area', 'Depression', 'Deep Depression',
+    'Cyclonic Storm', 'Severe Cyclonic Storm', 'Very Severe Cyclonic Storm',
+    'Extremely Severe Cyclonic Storm', 'Super Cyclonic Storm',
+}
+
+
+def validate_system(system):
+    """
+    Check a parsed system dict for common extraction errors.
+    Returns a list of warning strings (empty = clean).
+    Does NOT modify the system — read-only check.
+    """
+    warnings = []
+    stype = system.get('type', 'Unknown')
+
+    # raw_text must always be present
+    if not system.get('raw_text'):
+        warnings.append('raw_text missing')
+
+    # Location sanity — should be a place name, not movement/timestamp prose
+    loc = system.get('location', '')
+    if loc and _BAD_LOCATION_RE.search(loc):
+        warnings.append(f'location looks wrong (contains movement/timestamp text): {repr(loc[:80])}')
+
+    # Coordinates must be in India region
+    coords = system.get('coords')
+    if coords:
+        lat, lon = coords.get('lat', 0), coords.get('lon', 0)
+        if not (0 <= lat <= 45):
+            warnings.append(f'coords lat={lat} outside India range (0–45°N)')
+        if not (50 <= lon <= 110):
+            warnings.append(f'coords lon={lon} outside India range (50–110°E)')
+
+    # Level must be a recognised structure
+    level = system.get('level')
+    if level is not None and isinstance(level, dict):
+        if level.get('type') not in ('single', 'range', 'upto'):
+            warnings.append(f'unknown level type: {level.get("type")}')
+
+    # ── Type-specific checks ─────────────────────────────────────────────────
+
+    if stype == 'Upper Air Cyclonic Circulation':
+        if not loc:
+            warnings.append('UAC missing location')
+        if level is None:
+            warnings.append('UAC missing level')
+
+    elif stype == 'Monsoon Trough':
+        if not any(system.get(f) for f in ('passes_through', 'extent', 'position')):
+            warnings.append('Monsoon Trough has no extent / passes_through / position')
+        if level is None:
+            warnings.append('Monsoon Trough missing level')
+
+    elif stype == 'Shear Zone':
+        if not loc:
+            warnings.append('Shear Zone missing location')
+        elif not re.search(r'[\d.]+\s*°?\s*[Nn]', loc):
+            warnings.append('Shear Zone location has no latitude reference')
+        if level is None:
+            warnings.append('Shear Zone missing level')
+
+    elif stype == 'Offshore Trough':
+        if not system.get('extent'):
+            warnings.append('Offshore Trough missing extent')
+        if level is None:
+            warnings.append('Offshore Trough missing level')
+
+    elif stype == 'Western Disturbance':
+        if not system.get('form'):
+            warnings.append('Western Disturbance missing form')
+        if level is None:
+            warnings.append('Western Disturbance missing level')
+
+    elif stype in _LPA_TYPES:
+        if not loc:
+            warnings.append(f'{stype} missing location')
+        status = system.get('status')
+        if status and status not in _VALID_STATUS:
+            warnings.append(f'unknown status value: {repr(status)}')
+
+    return warnings
 
 
 def classify_uac(sent, raw):
-    try:
-        induced       = bool(re.search(r'\binduced\b', sent, re.IGNORECASE))
-        assoc_with_wd = bool(re.search(r'\bwestern\s+disturbance\b', sent, re.IGNORECASE))
-        loc           = extract_location(sent)
-        level         = parse_level(sent)
-        tilt          = extract_tilt(sent)
-        return _build_system(
-            type           = 'Upper Air Cyclonic Circulation',
-            location       = loc,
-            level          = level,
-            tilt           = tilt,
-            induced        = induced if induced else None,
-            associated_with= 'WD' if (induced and assoc_with_wd) else None,
-            raw_text       = raw,
-        )
-    except Exception:
-        return _build_system(type='Upper Air Cyclonic Circulation', raw_text=raw)
+    """Classify Upper Air Cyclonic Circulation."""
+    induced       = bool(re.search(r'\binduced\b', sent, re.IGNORECASE))
+    assoc_with_wd = bool(re.search(r'\bwestern\s+disturbance\b', sent, re.IGNORECASE))
+    loc           = extract_location(sent)
+    level         = parse_level(sent)
+    tilt          = extract_tilt(sent)
+
+    return _build_system(
+        type           = 'Upper Air Cyclonic Circulation',
+        location       = loc,
+        level          = level,
+        tilt           = tilt,
+        induced        = induced if induced else None,
+        associated_with= 'WD' if (induced and assoc_with_wd) else None,
+        raw_text       = raw,
+    )
 
 
 def classify_wd(sent, raw):
-    try:
-        system = {'type': 'Western Disturbance', 'raw_text': raw}
+    """Classify Western Disturbance."""
+    system = {'type': 'Western Disturbance', 'raw_text': raw}
 
-        if re.search(r'as\s+(?:a\s+)?(?:an?\s+)?(?:upper\s+air\s+)?cyclonic\s+circulation|seen\s+as\s+(?:a\s+)?cyclonic', sent, re.IGNORECASE):
-            system['form'] = 'cyclonic_circulation'
-            loc = extract_location(sent)
-            if not loc:
-                cc_loc_m = re.search(
-                    r'as\s+(?:a\s+)?(?:an?\s+)?(?:upper\s+air\s+)?cyclonic\s+circulation\s+(?:over\s+)?(.+?)'
-                    r'(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|with\s+a\s+trough|\.$|$))',
-                    sent, re.IGNORECASE
-                )
-                if cc_loc_m:
-                    loc = cc_loc_m.group(1).strip().rstrip(' ,')
-            system['location'] = loc
-            system['level']    = parse_level(sent)
-
-            aloft_m = re.search(
-                r'trough\s+aloft.+?(?:roughly\s+)?(?:along)\s+(.+?)(?:\.|$)',
+    # Determine form
+    if re.search(r'as\s+(?:a\s+)?(?:an?\s+)?(?:upper\s+air\s+)?cyclonic\s+circulation|seen\s+as\s+(?:a\s+)?cyclonic', sent, re.IGNORECASE):
+        system['form'] = 'cyclonic_circulation'
+        # Try standard "over X" first, then fallback: "as a cyclonic circulation [LOCATION] at/extending"
+        loc = extract_location(sent)
+        if not loc:
+            # Pattern: "as a cyclonic circulation LOCATION at/between/extending/persists"
+            cc_loc_m = re.search(
+                r'as\s+(?:a\s+)?(?:an?\s+)?(?:upper\s+air\s+)?cyclonic\s+circulation\s+(?:over\s+)?(.+?)'
+                r'(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|with\s+a\s+trough|\.$|$))',
                 sent, re.IGNORECASE
             )
-            if aloft_m:
-                aloft_lvl = re.search(r'at\s+([\d.]+)\s*km\s*above', aloft_m.group(0), re.IGNORECASE)
-                system['trough_aloft'] = _build_system(
-                    axis  = aloft_m.group(1).strip().rstrip(' ,'),
-                    level = {'type': 'single', 'min': float(aloft_lvl.group(1)),
-                             'display': f'{aloft_lvl.group(1)} km above MSL'} if aloft_lvl else None,
-                )
-        elif re.search(r'as\s+(?:a\s+)?(?:an?\s+)?(?:upper\s+air\s+)?cyclonic', sent, re.IGNORECASE):
-            system['form']     = 'upper_air_cc'
-            system['location'] = extract_location(sent)
-            system['level']    = parse_level(sent)
-        else:
-            system['form']  = 'trough_in_westerlies'
-            loc_m = re.search(
-                r'(?:now\s+)?runs?\s+(?:roughly\s+)?along\s+(.+?)(?:\s+persists|\s+and\s+|\s+has\s+moved|\.$|$)',
-                sent, re.IGNORECASE
-            )
-            if not loc_m:
-                loc_m = re.search(
-                    r'(?:roughly\s+)?along\s+(.+?)(?:\s+persists|\s+and\s+|\s+has\s+moved|\.$|$)',
-                    sent, re.IGNORECASE
-                )
-            if loc_m:
-                loc_str = loc_m.group(1).strip().rstrip(' ,')
-                loc_str = re.split(r'\s+at\s+[\d.]|\s+between\s+[\d.]', loc_str)[0].strip()
-                system['axis'] = 'along ' + loc_str
-            system['level'] = parse_level(sent)
+            if cc_loc_m:
+                loc = cc_loc_m.group(1).strip().rstrip(' ,')
+        system['location'] = loc
+        system['level']    = parse_level(sent)
 
-        return {k: v for k, v in system.items() if v is not None}
-    except Exception:
-        return _build_system(type='Western Disturbance', raw_text=raw)
+        # Trough aloft
+        aloft_m = re.search(
+            r'trough\s+aloft.+?(?:roughly\s+along|along)\s+(.+?)(?:\.|$)',
+            sent, re.IGNORECASE
+        )
+        if aloft_m:
+            aloft_lvl = re.search(r'at\s+([\d.]+)\s*km\s*above', aloft_m.group(0), re.IGNORECASE)
+            system['trough_aloft'] = _build_system(
+                axis  = aloft_m.group(1).strip().rstrip(' ,'),
+                level = {'type': 'single', 'min': float(aloft_lvl.group(1)),
+                         'display': f'{aloft_lvl.group(1)} km above MSL'} if aloft_lvl else None,
+            )
+    elif re.search(r'as\s+(?:a\s+)?(?:an?\s+)?(?:upper\s+air\s+)?cyclonic', sent, re.IGNORECASE):
+        system['form']     = 'upper_air_cc'
+        system['location'] = extract_location(sent)
+        system['level']    = parse_level(sent)
+    else:
+        system['form']  = 'trough_in_westerlies'
+        loc_m = re.search(
+            r'(?:now\s+runs?\s+)?(?:roughly\s+)?along\s+(.+?)(?:\s+persists|\s+and\s+|\s+has\s+moved|\.$|$)',
+            sent, re.IGNORECASE
+        )
+        if loc_m:
+            loc_str = loc_m.group(1).strip().rstrip(' ,')
+            # Strip level text that may have bled in
+            loc_str = re.split(r'\s+at\s+[\d.]|\s+between\s+[\d.]', loc_str)[0].strip()
+            system['axis'] = 'along ' + loc_str
+        system['level'] = parse_level(sent)
+
+    return {k: v for k, v in system.items() if v is not None}
 
 
 def classify_lpa(sent, raw, stype='Low Pressure Area'):
-    """Classify LPA / Depression / Cyclone variants.
-    
-    Handles the case where a Depression sentence says it weakened into an LPA —
-    in that case we reclassify the output as Low Pressure Area with the current
-    location and inline associated_cc details.
-    """
-    try:
-        s = normalise_text(sent)
+    """Classify LPA / Depression / Cyclone variants."""
+    # Determine status
+    if re.search(r'has\s+concentrated\s+into|has\s+formed', sent, re.IGNORECASE):
+        status = 'forming'
+    elif re.search(r'has\s+become\s+less\s+marked', sent, re.IGNORECASE):
+        status = 'less_marked'
+    elif re.search(r'weaken\s+gradually', sent, re.IGNORECASE):
+        status = 'weakening'
+    else:
+        status = 'active'
 
-        # ── KEY FIX: Depression weakened into LPA → output as LPA ──────────
-        weaken_into_m = re.search(
-            r'weakened\s+into\s+(?:a\s+)?(?:well[\s\-]?marked\s+)?low[\s\-]?pressure\s+area\s+'
-            r'over\s+(.+?)(?:\s+at\s+\d|\s+at\s+0|(?<![Dd]ist)\.\s|\.$|$)',
-            s, re.IGNORECASE
+    loc    = extract_location(sent)
+    coords = parse_coords(sent)
+    dist   = parse_distance_from(sent)
+
+    # on_land — no coords and no distance_from references
+    on_land = True if (not coords and not dist and loc and
+                       not re.search(r'bay\s+of\s+bengal|arabian\s+sea|sea\s+of|ocean|coast\s+off',
+                                     loc, re.IGNORECASE)) else False
+
+    # movement
+    mov_m = re.search(
+        r'(?:moved?|moving)\s+([\w\-]+wards?(?:\s+and\s+[\w\-]+wards?)?)',
+        sent, re.IGNORECASE
+    )
+    movement = mov_m.group(1).strip() if mov_m else None
+
+    # landfall (for DD and stronger)
+    landfall = None
+    if stype not in ('Low Pressure Area', 'Well Marked Low Pressure Area'):
+        lf_m = re.search(
+            r'cross\s+(?:the\s+)?(.+?coast.+?)\s+(?:as\s+a\s+([\w\s]+?))?\s+(?:during|by|on)\s+(.+?)(?:\.|$)',
+            sent, re.IGNORECASE
         )
-        if weaken_into_m and stype in ('Depression', 'Deep Depression'):
-            # Try to capture "and neighbourhood" if present
-            full_m = re.search(
-                r'weakened\s+into\s+(?:a\s+)?(?:well[\s\-]?marked\s+)?low[\s\-]?pressure\s+area\s+'
-                r'over\s+(.+?and\s+neighbourhood)',
-                s, re.IGNORECASE
+        if lf_m:
+            landfall = _build_system(
+                location = lf_m.group(1).strip(),
+                as_      = lf_m.group(2).strip() if lf_m.group(2) else None,
+                time     = lf_m.group(3).strip(),
             )
-            loc_raw = full_m.group(1).strip() if full_m else weaken_into_m.group(1).strip().rstrip(' ,')
 
-            sys = _build_system(
-                type     = 'Low Pressure Area',
-                status   = 'weakened_from_depression',
-                location = loc_raw,
-                on_land  = True,
-                raw_text = raw,
-            )
-            # Inline associated_cc (level + tilt)
-            cc_m = re.search(
-                r'associated\s+cyclonic\s+circulation\s+extends\s+upto\s+([\d.]+)\s*km\s*above',
-                s, re.IGNORECASE
-            )
-            if cc_m:
-                cc = {'level': {'type': 'upto', 'max': float(cc_m.group(1)),
-                                'display': f'upto {cc_m.group(1)} km above MSL'}}
-                tilt_m = re.search(r'tilting\s+(\w+wards?)\s+with\s+height', s, re.IGNORECASE)
-                if tilt_m:
-                    cc['tilt'] = f'tilting {tilt_m.group(1)} with height'
-                sys['associated_cc'] = cc
-            # Forecast
-            fc_m = re.search(r'It\s+is\s+(?:very\s+)?likely\s+to\s+(.+?)(?:\.|$)', s, re.IGNORECASE)
-            if fc_m:
-                sys['forecast'] = 'likely to ' + fc_m.group(1).strip()
-            return sys
-
-        # ── Normal classification ────────────────────────────────────────────
-        if re.search(r'has\s+concentrated\s+into|has\s+formed', s, re.IGNORECASE):
-            status = 'forming'
-        elif re.search(r'has\s+become\s+less\s+marked', s, re.IGNORECASE):
-            status = 'less_marked'
-        elif re.search(r'weaken\s+(?:gradually|further|during)', s, re.IGNORECASE):
-            status = 'weakening'
-        elif re.search(r'weakened\s+into', s, re.IGNORECASE):
-            status = 'weakening'
-        else:
-            status = 'active'
-
-        loc    = extract_location(s)
-        coords = parse_coords(s)
-        dist   = parse_distance_from(s)
-
-        on_land = True if (not coords and not dist and loc and
-                           not re.search(r'bay\s+of\s+bengal|arabian\s+sea|sea\s+of|ocean|coast\s+off',
-                                         loc, re.IGNORECASE)) else False
-
-        mov_m = re.search(
-            r'(?:moved?|moving)\s+([\w\-]+wards?(?:\s+and\s+[\w\-]+wards?)?)',
-            s, re.IGNORECASE
-        )
-        movement = mov_m.group(1).strip() if mov_m else None
-
-        landfall = None
-        if stype not in ('Low Pressure Area', 'Well Marked Low Pressure Area'):
-            lf_m = re.search(
-                r'cross\s+(?:the\s+)?(.+?coast.+?)\s+(?:as\s+a\s+([\w\s]+?))?\s+(?:during|by|on)\s+(.+?)(?:\.|$)',
-                s, re.IGNORECASE
-            )
-            if lf_m:
-                landfall = _build_system(
-                    location = lf_m.group(1).strip(),
-                    as_      = lf_m.group(2).strip() if lf_m.group(2) else None,
-                    time     = lf_m.group(3).strip(),
-                )
-
-        return _build_system(
-            type         = stype,
-            status       = status,
-            location     = loc,
-            coords       = coords,
-            distance_from= dist,
-            on_land      = on_land if on_land else None,
-            movement     = movement,
-            landfall     = landfall,
-            raw_text     = raw,
-        )
-    except Exception:
-        return _build_system(type=stype, raw_text=raw)
+    return _build_system(
+        type         = stype,
+        status       = status,
+        location     = loc,
+        coords       = coords,
+        distance_from= dist,
+        on_land      = on_land if on_land else None,
+        movement     = movement,
+        landfall     = landfall,
+        raw_text     = raw,
+    )
 
 
 def classify_monsoon_trough(sent, raw):
-    try:
-        system = {'type': 'Monsoon Trough', 'raw_text': raw}
+    """
+    Classify Monsoon Trough / Seasonal Trough.
 
-        if re.search(r'foothills\s+of\s+himalaya', sent, re.IGNORECASE) or \
-           re.search(r'(?:running|shifted|lying)\s+(?:close\s+to|along|near)\s+foothills', sent, re.IGNORECASE):
-            system['position'] = 'foothills of Himalayas'
-        elif re.search(r'south\s+of\s+(?:its\s+)?normal', sent, re.IGNORECASE) and \
-             not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
-            system['position'] = 'south of normal'
-        elif re.search(r'north\s+of\s+(?:its\s+)?normal', sent, re.IGNORECASE) and \
-             not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
-            system['position'] = 'north of normal'
-        elif re.search(r'near\s+(?:its\s+)?normal', sent, re.IGNORECASE) and \
-             not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
-            system['position'] = 'near normal'
-        elif re.search(r'normal\s+position', sent, re.IGNORECASE) and \
-             not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
-            system['position'] = 'normal'
+    5 cases:
+    1. City list: passes_through = full list including terminus
+    2. West/East end explicitly mentioned (rare): west_end{position,passes_through}, east_end{position,passes_through}
+    3. Whole trough position only: position field
+    4. Foothills: position = "foothills of Himalayas"
+    5. Minimum: just type + level
+    """
+    system = {'type': 'Monsoon Trough', 'raw_text': raw}
 
-        if re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
-            west_end = {}
-            east_end = {}
-            wp = re.search(
-                r'[Ww]estern\s+end\s+(?:of\s+monsoon\s+trough\s+)?(?:runs?|lies?)\s+(.+?)'
-                r'(?:\s+and\s+eastern|\s+at\s+mean|\.$|$)',
-                sent, re.IGNORECASE
-            )
-            if wp:
-                wp_text = wp.group(1).strip().rstrip(' ,')
-                if re.search(r'normal|foothills', wp_text, re.IGNORECASE):
-                    west_end['position'] = _normalise_position(wp_text)
-                else:
-                    cities = _split_city_list(wp_text)
-                    if cities: west_end['passes_through'] = cities
-            wp_cities_m = re.search(
-                r'[Ww]estern\s+end.+?(?:passes|pass)\s+through\s+(.+?)'
-                r'(?:\s+and\s+eastern|\s+and\s+thence|\s+at\s+mean|\.$|$)',
-                sent, re.IGNORECASE
-            )
-            if wp_cities_m:
-                cities = _split_city_list(wp_cities_m.group(1))
+    # ── Whole trough position ────────────────────────────────────────────────
+    if re.search(r'foothills\s+of\s+himalaya', sent, re.IGNORECASE) or \
+       re.search(r'(?:running|shifted|lying)\s+(?:close\s+to|along|near)\s+foothills', sent, re.IGNORECASE):
+        system['position'] = 'foothills of Himalayas'
+
+    elif re.search(r'south\s+of\s+(?:its\s+)?normal', sent, re.IGNORECASE) and \
+         not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        system['position'] = 'south of normal'
+
+    elif re.search(r'north\s+of\s+(?:its\s+)?normal', sent, re.IGNORECASE) and \
+         not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        system['position'] = 'north of normal'
+
+    elif re.search(r'near\s+(?:its\s+)?normal', sent, re.IGNORECASE) and \
+         not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        system['position'] = 'near normal'
+
+    elif re.search(r'normal\s+position', sent, re.IGNORECASE) and \
+         not re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        system['position'] = 'normal'
+
+    # ── West/East end explicitly mentioned (Case 2 — rare) ──────────────────
+    if re.search(r'western\s+end|eastern\s+end', sent, re.IGNORECASE):
+        west_end = {}
+        east_end = {}
+
+        # West end position
+        wp = re.search(
+            r'[Ww]estern\s+end\s+(?:of\s+monsoon\s+trough\s+)?(?:runs?|lies?)\s+(.+?)'
+            r'(?:\s+and\s+eastern|\s+at\s+mean|\.$|$)',
+            sent, re.IGNORECASE
+        )
+        if wp:
+            wp_text = wp.group(1).strip().rstrip(' ,')
+            # Check if position or city list
+            if re.search(r'normal|foothills', wp_text, re.IGNORECASE):
+                west_end['position'] = _normalise_position(wp_text)
+            else:
+                # City list
+                cities = _split_city_list(wp_text)
                 if cities: west_end['passes_through'] = cities
-            ep = re.search(
-                r'[Ee]astern\s+end\s+(?:runs?|lies?)\s+(.+?)(?:\s+at\s+mean|\.$|$)',
-                sent, re.IGNORECASE
-            )
-            if ep:
-                ep_text = ep.group(1).strip().rstrip(' ,.')
-                if re.search(r'normal|foothills', ep_text, re.IGNORECASE):
-                    east_end['position'] = _normalise_position(ep_text)
-                else:
-                    cities = _split_city_list(ep_text)
-                    if cities: east_end['passes_through'] = cities
-            if west_end: system['west_end'] = west_end
-            if east_end: system['east_end'] = east_end
 
-        elif re.search(r'(?:passes|pass|continues?)\s+(?:to\s+pass\s+)?through', sent, re.IGNORECASE):
-            cities_m = re.search(
-                r'(?:passes|pass|continues?)\s+(?:to\s+pass\s+)?through\s+(.+?)'
-                r'(?=\s+(?:extending|extends|upto\s+[\d.]|at\s+[\d.]|between\s+[\d.]|\.$|$)|$)',
-                sent, re.IGNORECASE
-            )
-            if cities_m:
-                raw_cities = cities_m.group(1)
-                thence_m = re.search(
-                    r'(?:and\s+)?thence\s+[\w\-]+wards?\s+to\s+(.+?)$',
-                    raw_cities, re.IGNORECASE
-                )
-                terminus = None
-                if thence_m:
-                    terminus = thence_m.group(1).strip().rstrip(' ,.')
-                    terminus = re.sub(r'\s+and\s*$', '', terminus, flags=re.IGNORECASE).strip()
-                    terminus = re.sub(r'^the\s+', '', terminus, flags=re.IGNORECASE).strip()
-                    raw_cities = raw_cities[:thence_m.start()].strip()
-                cities = _split_city_list(raw_cities)
-                if terminus:
-                    cities.append(terminus)
-                if cities:
-                    system['passes_through'] = cities
+        # West end passes_through if also has "passes through"
+        wp_cities_m = re.search(
+            r'[Ww]estern\s+end.+?(?:passes|pass)\s+through\s+(.+?)'
+            r'(?:\s+and\s+eastern|\s+and\s+thence|\s+at\s+mean|\.$|$)',
+            sent, re.IGNORECASE
+        )
+        if wp_cities_m:
+            cities = _split_city_list(wp_cities_m.group(1))
+            if cities: west_end['passes_through'] = cities
 
-        elif re.search(r'\bto\b.+?\bacross\b|\bfrom\b.+?\bto\b|(?:now\s+)?runs\b', sent, re.IGNORECASE):
+        # East end position
+        ep = re.search(
+            r'[Ee]astern\s+end\s+(?:runs?|lies?)\s+(.+?)(?:\s+at\s+mean|\.$|$)',
+            sent, re.IGNORECASE
+        )
+        if ep:
+            ep_text = ep.group(1).strip().rstrip(' ,.')
+            if re.search(r'normal|foothills', ep_text, re.IGNORECASE):
+                east_end['position'] = _normalise_position(ep_text)
+            else:
+                cities = _split_city_list(ep_text)
+                if cities: east_end['passes_through'] = cities
+
+        if west_end: system['west_end'] = west_end
+        if east_end: system['east_end'] = east_end
+
+    # ── City list (Case 1 — most common) ────────────────────────────────────
+    elif re.search(r'(?:passes|pass|continues?)\s+(?:to\s+pass\s+)?through', sent, re.IGNORECASE):
+        # Extract everything between "passes through" and level/end markers
+        cities_m = re.search(
+            r'(?:passes|pass|continues?)\s+(?:to\s+pass\s+)?through\s+(.+?)'
+            r'(?=\s+(?:extending|extends|upto\s+[\d.]|at\s+[\d.]|between\s+[\d.]|\.$|$)|$)',
+            sent, re.IGNORECASE
+        )
+        if cities_m:
+            raw_cities = cities_m.group(1)
+            # Extract "thence...to TERMINUS" and append to city list
+            thence_m = re.search(
+                r'(?:and\s+)?thence\s+[\w\-]+wards?\s+(?:to|towards|into|upto)\s+(.+?)$',
+                raw_cities, re.IGNORECASE
+            )
+            terminus = None
+            if thence_m:
+                terminus = thence_m.group(1).strip().rstrip(' ,.')
+                # Strip trailing "and" from terminus
+                terminus = re.sub(r'\s+and\s*$', '', terminus, flags=re.IGNORECASE).strip()
+                # Strip leading "the" from terminus
+                terminus = re.sub(r'^the\s+', '', terminus, flags=re.IGNORECASE).strip()
+                # Remove thence part from cities raw
+                raw_cities = raw_cities[:thence_m.start()].strip()
+
+            cities = _split_city_list(raw_cities)
+            if terminus:
+                cities.append(terminus)
+            if cities:
+                system['passes_through'] = cities
+
+    # ── Extent: "from X to Y" or "now runs X to Y" or "runs X to Y"
+    #    Common in active-monsoon and morning bulletins
+    elif re.search(r'\bto\b.+?\bacross\b|\bfrom\b.+?\bto\b|(?:now\s+)?runs\b', sent, re.IGNORECASE):
+        # Try "from X to Y" first
+        extent_m = re.search(
+            r'from\s+(.+?)\s+to\s+(.+?)'
+            r'(?=\s+(?:across|at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
+            sent, re.IGNORECASE
+        )
+        if not extent_m:
+            # "now runs X to Y" or "runs X to Y" (no leading 'from')
             extent_m = re.search(
-                r'from\s+(.+?)\s+to\s+(.+?)'
+                r'(?:now\s+)?runs\s+(.+?)\s+to\s+(.+?)'
                 r'(?=\s+(?:across|at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
                 sent, re.IGNORECASE
             )
-            if not extent_m:
-                extent_m = re.search(
-                    r'(?:now\s+)?runs\s+(.+?)\s+to\s+(.+?)'
-                    r'(?=\s+(?:across|at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
-                    sent, re.IGNORECASE
-                )
-            if extent_m:
-                w = extent_m.group(1).strip().rstrip(' ,')
-                e = extent_m.group(2).strip().rstrip(' ,')
-                system['extent'] = f'{w} to {e}'
-            across_m = re.search(
-                r'\bacross\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
-                sent, re.IGNORECASE
-            )
-            if across_m:
-                system['across'] = across_m.group(1).strip().rstrip(' ,')
+        if extent_m:
+            w = extent_m.group(1).strip().rstrip(' ,')
+            e = extent_m.group(2).strip().rstrip(' ,')
+            system['extent'] = f'{w} to {e}'
+        across_m = re.search(
+            r'\bacross\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
+            sent, re.IGNORECASE
+        )
+        if across_m:
+            system['across'] = across_m.group(1).strip().rstrip(' ,')
 
-        system['level'] = parse_level(sent)
-        return {k: v for k, v in system.items() if v is not None}
-    except Exception:
-        return _build_system(type='Monsoon Trough', raw_text=raw)
+    system['level'] = parse_level(sent)
+    return {k: v for k, v in system.items() if v is not None}
 
 
 def _normalise_position(text):
+    """Normalise position description to standard value."""
     t = text.lower().strip()
     if 'foothills' in t: return 'foothills of Himalayas'
     if 'south' in t and 'normal' in t: return 'south of normal'
@@ -919,200 +1040,191 @@ def _normalise_position(text):
 
 
 def _split_city_list(text):
+    """
+    Split a city list by comma, treating system references as single items.
+    e.g. "Jaisalmer, Kota, center of LPA over NW MP, Sagar, Puri"
+    → ["Jaisalmer", "Kota", "center of LPA over NW MP", "Sagar", "Puri"]
+    """
     if not text:
         return []
-    try:
-        text = re.sub(r'\s+and\s*$', '', text.strip())
-        text = text.strip().rstrip(' ,.')
-        raw_items = re.split(r',\s*', text)
-        items = []
-        current = ''
-        for item in raw_items:
-            item = item.strip()
-            if not item:
-                continue
-            if current:
-                current = current + ', ' + item
-                if not re.search(r'^(?:and\s+)?adjoining|^&', item, re.IGNORECASE):
-                    items.append(current.strip())
-                    current = ''
-            elif re.search(r'^center\s+of|^(?:the\s+)?(?:well\s+marked\s+)?low\s+pressure|^(?:the\s+)?(?:upper\s+air\s+)?cyclonic\s+circulation', item, re.IGNORECASE):
-                current = item
-            else:
-                items.append(item)
+    # Clean up
+    text = re.sub(r'\s+and\s*$', '', text.strip())  # strip trailing "and"
+    text = text.strip().rstrip(' ,.')
+
+    # Split by comma
+    raw_items = re.split(r',\s*', text)
+    items = []
+    current = ''
+    for item in raw_items:
+        item = item.strip()
+        if not item:
+            continue
+        # If current is accumulating a system reference, check if complete
         if current:
-            items.append(current.strip())
-        return [i for i in items if i]
-    except Exception:
-        return []
+            current = current + ', ' + item
+            # System reference ends when we have a standalone location
+            # Heuristic: if item doesn't look like continuation of "over X"
+            if not re.search(r'^(?:and\s+)?adjoining|^&', item, re.IGNORECASE):
+                items.append(current.strip())
+                current = ''
+        elif re.search(r'^center\s+of|^(?:the\s+)?(?:well\s+marked\s+)?low\s+pressure|^(?:the\s+)?(?:upper\s+air\s+)?cyclonic\s+circulation', item, re.IGNORECASE):
+            # Start accumulating system reference
+            current = item
+        else:
+            items.append(item)
+    if current:
+        items.append(current.strip())
+    return [i for i in items if i]
+
 
 
 def classify_shear_zone(sent, raw):
-    """Classify Shear Zone — handles both standard and 'now seen as a trough' variants."""
-    try:
-        s = normalise_text(sent)
+    """Classify Shear Zone.
+    location = full descriptive string: "roughly along 15°N over Indian region"
+    """
+    # Extract latitude line: "along Lat. 15°N", "along latitude 21°N", "along 22°N"
+    lat_m = re.search(
+        r'(?:roughly\s+)?along\s+(?:Lat(?:itude)?\.?\s*)?([\.\d]+°?\s*N)',
+        sent, re.IGNORECASE
+    )
+    lat_line = lat_m.group(1).strip() if lat_m else None
 
-        # ── KEY FIX: "shear zone now seen as a trough from X to Y across Z between L1 & L2" ──
-        if re.search(r'now\s+seen\s+as\s+a\s+trough', s, re.IGNORECASE):
-            extent_m = re.search(
-                r'(?:now\s+seen\s+as\s+a\s+trough\s+)?from\s+(.+?)\s+to\s+(.+?)'
-                r'(?=\s+(?:across|between\s+[\d.]|at\s+[\d.]|extending|\.$|$))',
-                s, re.IGNORECASE
-            )
-            across_m = re.search(
-                r'\bacross\s+(.+?)(?=\s+(?:between\s+[\d.]|at\s+[\d.]|extending|persists|\.$|$))',
-                s, re.IGNORECASE
-            )
-            return _build_system(
-                type    = 'Shear Zone',
-                form    = 'trough',
-                extent  = f'{extent_m.group(1).strip()} to {extent_m.group(2).strip()}' if extent_m else None,
-                across  = across_m.group(1).strip() if across_m else None,
-                level   = parse_level(s),
-                tilt    = extract_tilt(s),
-                raw_text= raw,
-            )
+    # Extract "over X" region
+    over_m = re.search(
+        r'\bover\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|roughly|across|\.$))',
+        sent, re.IGNORECASE
+    )
+    over_loc = _clean_loc(over_m.group(1)) if over_m else None
 
-        # ── Standard shear zone ──────────────────────────────────────────────
-        lat_m = re.search(
-            r'(?:roughly\s+)?along\s+(?:Lat(?:itude)?\.?\s*)?([\.\d]+°?\s*N)',
-            s, re.IGNORECASE
-        )
-        lat_line = lat_m.group(1).strip() if lat_m else None
+    # Build location: combine lat line + over region into full descriptive string
+    if lat_line and over_loc:
+        location = f'roughly along {lat_line} over {over_loc}'
+    elif lat_line:
+        location = f'roughly along {lat_line}'
+    elif over_loc:
+        location = over_loc
+    else:
+        location = None
 
-        over_m = re.search(
-            r'\bover\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|roughly|across|\.$))',
-            s, re.IGNORECASE
-        )
-        over_loc = _clean_loc(over_m.group(1)) if over_m else None
+    # Across — passing through multiple locations
+    across_m = re.search(
+        r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$))',
+        sent, re.IGNORECASE
+    )
+    across = across_m.group(1).strip() if across_m else None
 
-        if lat_line and over_loc:
-            location = f'roughly along {lat_line} over {over_loc}'
-        elif lat_line:
-            location = f'roughly along {lat_line}'
-        elif over_loc:
-            location = over_loc
-        else:
-            location = None
-
-        across_m = re.search(
-            r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$))',
-            s, re.IGNORECASE
-        )
-
-        return _build_system(
-            type     = 'Shear Zone',
-            location = location,
-            across   = across_m.group(1).strip() if across_m else None,
-            level    = parse_level(s),
-            tilt     = extract_tilt(s),
-            raw_text = raw,
-        )
-    except Exception:
-        return _build_system(type='Shear Zone', raw_text=raw)
+    return _build_system(
+        type     = 'Shear Zone',
+        location = location,
+        across   = across,
+        level    = parse_level(sent),
+        tilt     = extract_tilt(sent),
+        raw_text = raw,
+    )
 
 
 def classify_offshore_trough(sent, raw):
-    """Classify Offshore Trough — handles 'from X to Y', 'now runs from X to Y', 'along X'."""
-    try:
-        s = normalise_text(sent)
-        extent = None
+    """Classify Offshore Trough."""
+    extent = None
 
-        # PRIMARY: "from X to Y" or "now runs from X to Y"
+    # "along X" phrasing
+    m = re.search(
+        r'along\s+(.+?)(?=\s+(?:persists|at\s+[\d.]|extending|\.$|$))',
+        sent, re.IGNORECASE
+    )
+    if m:
+        extent = m.group(1).strip().rstrip(' ,')
+
+    # "runs from X to Y" phrasing (morning bulletins)
+    if not extent:
         m = re.search(
-            r'from\s+(.+?)\s+to\s+(.+?)(?:\s+persists|\s+at\s+[\d.]|\s+extending|\.?\s*$)',
-            s, re.IGNORECASE
+            r'runs\s+from\s+(.+?)\s+to\s+(.+?)(?=\s+(?:persists|at\s+[\d.]|extending|\.$|$))',
+            sent, re.IGNORECASE
         )
         if m:
-            extent = f'{m.group(1).strip().rstrip(",")} to {m.group(2).strip().rstrip(",. ")}'
+            extent = f'{m.group(1).strip()} to {m.group(2).strip()}'
 
-        # FALLBACK: "along X"
-        if not extent:
-            m = re.search(
-                r'along\s+(.+?)(?:\s+persists|\s+at\s+[\d.]|\s+extending|\.?\s*$)',
-                s, re.IGNORECASE
-            )
-            if m:
-                extent = m.group(1).strip().rstrip(' ,')
-
-        return _build_system(
-            type     = 'Offshore Trough',
-            extent   = extent,
-            level    = parse_level(s),
-            raw_text = raw,
-        )
-    except Exception:
-        return _build_system(type='Offshore Trough', raw_text=raw)
+    return _build_system(
+        type     = 'Offshore Trough',
+        extent   = extent,
+        level    = parse_level(sent),
+        raw_text = raw,
+    )
 
 
 def classify_ew_trough(sent, raw):
-    try:
-        lat_m = re.search(r'(?:roughly\s+)?along\s+Lat\.?\s*([\.\d]+°?\s*N)', sent, re.IGNORECASE)
-        lat_label = lat_m.group(1).strip() if lat_m else None
+    """Classify East-West Trough."""
+    # Extract optional lat line: "roughly along Lat. 15°N"
+    lat_m = re.search(r'(?:roughly\s+)?along\s+Lat\.?\s*([\.\d]+°?\s*N)', sent, re.IGNORECASE)
+    lat_label = lat_m.group(1).strip() if lat_m else None
 
-        extent_m = re.search(
-            r'from\s+(.+?)\s+to\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|across|persists|\.$|$))',
-            sent, re.IGNORECASE
-        )
-        if extent_m:
-            w = extent_m.group(1).strip()
-            e = extent_m.group(2).strip()
-            w = re.sub(r'(?:roughly\s+)?along\s+Lat\.?\s*[\.\d]+°?\s*N\s*', '', w, flags=re.IGNORECASE).strip()
-            extent = f"{w} to {e}"
-            if lat_label:
-                extent = f"along {lat_label}: {extent}"
-        elif lat_label:
-            extent = f"along {lat_label}"
-        else:
-            along_m = re.search(r'(?:runs?\s+)?(?:roughly\s+)?along\s+(.+?)(?=\s+(?:at\s+[\d.]|between|\.$|$))', sent, re.IGNORECASE)
-            extent = f"along {along_m.group(1).strip()}" if along_m else None
+    # Extent: "from X to Y"
+    extent_m = re.search(
+        r'from\s+(.+?)\s+to\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|across|persists|\.$|$))',
+        sent, re.IGNORECASE
+    )
+    if extent_m:
+        w = extent_m.group(1).strip()
+        e = extent_m.group(2).strip()
+        # Strip any lat label that bled into west end
+        w = re.sub(r'(?:roughly\s+)?along\s+Lat\.?\s*[\.\d]+°?\s*N\s*', '', w, flags=re.IGNORECASE).strip()
+        extent = f"{w} to {e}"
+        if lat_label:
+            extent = f"along {lat_label}: {extent}"
+    elif lat_label:
+        extent = f"along {lat_label}"
+    else:
+        along_m = re.search(r'(?:runs?\s+)?(?:roughly\s+)?along\s+(.+?)(?=\s+(?:at\s+[\d.]|between|\.$|$))', sent, re.IGNORECASE)
+        extent = f"along {along_m.group(1).strip()}" if along_m else None
 
-        via_m = re.search(
-            r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
-            sent, re.IGNORECASE
-        )
-        return _build_system(
-            type     = 'East-West Trough',
-            extent   = extent,
-            across   = via_m.group(1).strip() if via_m else None,
-            level    = parse_level(sent),
-            tilt     = extract_tilt(sent),
-            raw_text = raw,
-        )
-    except Exception:
-        return _build_system(type='East-West Trough', raw_text=raw)
+    via_m = re.search(
+        r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
+        sent, re.IGNORECASE
+    )
+
+    return _build_system(
+        type     = 'East-West Trough',
+        extent   = extent,
+        across   = via_m.group(1).strip() if via_m else None,
+        level    = parse_level(sent),
+        tilt     = extract_tilt(sent),
+        raw_text = raw,
+    )
 
 
 def classify_ns_trough(sent, raw):
-    try:
-        extent_m = re.search(
-            r'from\s+(.+?)\s+to\s+(.+?)(?=\s+(?:across|at\s+[\d.]|extending|persists|\.$|$))',
-            sent, re.IGNORECASE
-        )
-        via_m = re.search(
-            r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
-            sent, re.IGNORECASE
-        )
-        ns_extent = None
-        if extent_m:
-            w = _clean_extent(extent_m.group(1).strip())
-            e = _clean_extent(extent_m.group(2).strip())
-            ns_extent = f"{w} to {e}" if w and e else None
+    """Classify North-South Trough."""
+    extent_m = re.search(
+        r'from\s+(.+?)\s+to\s+(.+?)(?=\s+(?:across|at\s+[\d.]|extending|persists|\.$|$))',
+        sent, re.IGNORECASE
+    )
+    via_m = re.search(
+        r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
+        sent, re.IGNORECASE
+    )
+    ns_extent = None
+    if extent_m:
+        w = _clean_extent(extent_m.group(1).strip())
+        e = _clean_extent(extent_m.group(2).strip())
+        ns_extent = f"{w} to {e}" if w and e else None
 
-        return _build_system(
-            type     = 'North-South Trough',
-            extent   = ns_extent,
-            across   = via_m.group(1).strip() if via_m else None,
-            level    = parse_level(sent),
-            raw_text = raw,
-        )
-    except Exception:
-        return _build_system(type='North-South Trough', raw_text=raw)
+    return _build_system(
+        type     = 'North-South Trough',
+        extent   = ns_extent,
+        across   = via_m.group(1).strip() if via_m else None,
+        level    = parse_level(sent),
+        raw_text = raw,
+    )
 
 
 def _clean_extent(extent):
+    """
+    Strip 'the above cyclonic circulation over' and similar prefixes from extent.
+    Keeps only the meaningful location part.
+    """
     if not extent:
         return None
+    # Strip common prefixes
     prefixes = [
         r'^the\s+above\s+(?:upper\s+air\s+)?cyclonic\s+circulation\s+over\s+',
         r'^(?:upper\s+air\s+)?cyclonic\s+circulation\s+over\s+',
@@ -1126,48 +1238,48 @@ def _clean_extent(extent):
 
 
 def classify_generic_trough(sent, raw):
-    try:
-        if re.search(r'westerlies|along\s+long\.', sent, re.IGNORECASE):
-            subtype = 'westerlies'
-            loc_m   = re.search(
-                r'(?:roughly\s+)?along\s+(.+?)(?=\s+(?:at\s+[\d.]|extending|persists|\.$|$))',
-                sent, re.IGNORECASE
-            )
-            extent  = f"along {loc_m.group(1).strip()}" if loc_m else None
-            return _build_system(
-                type    = 'Trough',
-                subtype = subtype,
-                extent  = extent,
-                level   = parse_level(sent),
-                raw_text= raw,
-            )
+    """Classify generic unnamed trough (Tier 2)."""
+    if re.search(r'westerlies|along\s+long\.', sent, re.IGNORECASE):
+        subtype = 'westerlies'
+        loc_m   = re.search(
+            r'(?:roughly\s+)?along\s+(.+?)(?=\s+(?:at\s+[\d.]|extending|persists|\.$|$))',
+            sent, re.IGNORECASE
+        )
+        extent  = f"along {loc_m.group(1).strip()}" if loc_m else None
+        via     = None
+    else:
+        subtype  = 'general'
+        extent_m = re.search(
+            r'from\s+(.+?)\s+to\s+(.+?)(?=\s+(?:across|at\s+[\d.]|extending|persists|\.$|$))',
+            sent, re.IGNORECASE
+        )
+        if extent_m:
+            west = _clean_extent(extent_m.group(1).strip())
+            east = _clean_extent(extent_m.group(2).strip())
+            extent = f"{west} to {east}" if west and east else None
         else:
-            subtype  = 'general'
-            extent_m = re.search(
-                r'from\s+(.+?)\s+to\s+(.+?)(?=\s+(?:across|at\s+[\d.]|extending|persists|\.$|$))',
-                sent, re.IGNORECASE
-            )
-            if extent_m:
-                west = _clean_extent(extent_m.group(1).strip())
-                east = _clean_extent(extent_m.group(2).strip())
-                extent = f"{west} to {east}" if west and east else None
-            else:
-                extent = None
-            via_m    = re.search(
-                r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
-                sent, re.IGNORECASE
-            )
-            via      = via_m.group(1).strip() if via_m else None
-            return _build_system(
-                type    = 'Trough',
-                subtype = subtype,
-                extent  = extent,
-                across  = via,
-                level   = parse_level(sent),
-                raw_text= raw,
-            )
-    except Exception:
-        return _build_system(type='Trough', raw_text=raw)
+            extent = None
+        via_m    = re.search(
+            r'across\s+(.+?)(?=\s+(?:at\s+[\d.]|between\s+[\d.]|extending|persists|\.$|$))',
+            sent, re.IGNORECASE
+        )
+        via      = via_m.group(1).strip() if via_m else None
+        return _build_system(
+            type    = 'Trough',
+            subtype = subtype,
+            extent  = extent,
+            across  = via,
+            level   = parse_level(sent),
+            raw_text= raw,
+        )
+
+    return _build_system(
+        type    = 'Trough',
+        subtype = subtype,
+        extent  = extent,
+        level   = parse_level(sent),
+        raw_text= raw,
+    )
 
 
 # -----------------------------------------------------------------------------
@@ -1175,81 +1287,99 @@ def classify_generic_trough(sent, raw):
 # -----------------------------------------------------------------------------
 
 def classify_sentence(sent, raw=None):
+    """
+    Classify a single normalised sentence into a system dict.
+    Returns None if sentence should be skipped.
+    Returns ('continuation', text) if it's a forecast continuation.
+    """
     raw  = raw or sent
-    try:
-        s    = normalise_text(sent)
-        if not s:
-            return None
+    s    = normalise_text(sent)
+    slow = s.lower()
 
-        if is_suppressed(s):
-            return None
+    # Check suppression first
+    if is_suppressed(s):
+        return None
 
-        if is_continuation(s):
-            return ('continuation', s)
+    # Check continuation
+    if is_continuation(s):
+        return ('continuation', s)
 
-        subject = re.sub(r'^(?:The|An?|However,\s+the|Yesterday\'s)\s+', '', s, flags=re.IGNORECASE).lower().strip()
+    # Strip leading articles for subject matching
+    subject = re.sub(r'^(?:The|An?|However,\s+the|Yesterday\'s)\s+', '', s, flags=re.IGNORECASE).lower().strip()
 
-        if re.match(r'western\s+disturbance', subject, re.IGNORECASE):
-            return classify_wd(s, raw)
+    # ── WESTERN DISTURBANCE ─────────────────────────────────────────────────
+    if re.match(r'western\s+disturbance', subject, re.IGNORECASE):
+        return classify_wd(s, raw)
 
-        if re.match(r'(?:induced\s+)?(?:upper\s+air\s+)?cyclonic\s+circulation', subject, re.IGNORECASE):
-            if re.search(r'\bassociated\s+cyclonic', s, re.IGNORECASE):
-                return ('associated_cc', s)
-            return classify_uac(s, raw)
+    # ── UAC — both "upper air cyclonic circulation" and "cyclonic circulation" ─
+    if re.match(r'(?:induced\s+)?(?:upper\s+air\s+)?cyclonic\s+circulation', subject, re.IGNORECASE):
+        # Check if this is "associated cyclonic circulation" (child of LPA)
+        if re.search(r'\bassociated\s+cyclonic', s, re.IGNORECASE):
+            return ('associated_cc', s)
+        return classify_uac(s, raw)
 
-        lpa_map = [
-            (r'super\s+cyclonic\s+storm',              'Super Cyclonic Storm'),
-            (r'extremely\s+severe\s+cyclonic\s+storm',  'Extremely Severe Cyclonic Storm'),
-            (r'very\s+severe\s+cyclonic\s+storm',       'Very Severe Cyclonic Storm'),
-            (r'severe\s+cyclonic\s+storm',              'Severe Cyclonic Storm'),
-            (r'cyclonic\s+storm',                       'Cyclonic Storm'),
-            (r'deep\s+depression',                      'Deep Depression'),
-            (r'depression',                             'Depression'),
-            (r'(?:well[\s\-]?marked\s+)?low[\s\-]?pressure\s+area', 'Low Pressure Area'),
-        ]
-        for pattern, stype in lpa_map:
-            if re.match(pattern, subject, re.IGNORECASE):
-                if re.search(r'^under\s+the?\s+influence', s, re.IGNORECASE):
-                    if re.search(r'has\s+formed', s, re.IGNORECASE):
-                        embed_m = re.search(
-                            r'(?:well[\s\-]?marked\s+)?low[\s\-]?pressure\s+area\s+has\s+formed\s+over\s+(.+?)'
-                            r'(?:\s+at\s+\d|\.$|$)',
-                            s, re.IGNORECASE
+    # ── LPA / DEPRESSION / CYCLONE ───────────────────────────────────────────
+    lpa_map = [
+        (r'super\s+cyclonic\s+storm',              'Super Cyclonic Storm'),
+        (r'extremely\s+severe\s+cyclonic\s+storm',  'Extremely Severe Cyclonic Storm'),
+        (r'very\s+severe\s+cyclonic\s+storm',       'Very Severe Cyclonic Storm'),
+        (r'severe\s+cyclonic\s+storm',              'Severe Cyclonic Storm'),
+        (r'cyclonic\s+storm',                       'Cyclonic Storm'),
+        (r'deep\s+depression',                      'Deep Depression'),
+        (r'depression',                             'Depression'),
+        (r'(?:well[\s\-]?marked\s+)?low[\s\-]?pressure\s+area', 'Low Pressure Area'),
+    ]
+    for pattern, stype in lpa_map:
+        if re.match(pattern, subject, re.IGNORECASE):
+            # Check if "has formed" inside "Under influence" sentence
+            if re.search(r'^under\s+the?\s+influence', s, re.IGNORECASE):
+                if re.search(r'has\s+formed', s, re.IGNORECASE):
+                    # Extract embedded LPA
+                    embed_m = re.search(
+                        r'(?:well[\s\-]?marked\s+)?low[\s\-]?pressure\s+area\s+has\s+formed\s+over\s+(.+?)'
+                        r'(?:\s+at\s+\d|\.$|$)',
+                        s, re.IGNORECASE
+                    )
+                    if embed_m:
+                        return _build_system(
+                            type     = 'Low Pressure Area',
+                            status   = 'forming',
+                            location = embed_m.group(1).strip().rstrip(' ,'),
+                            raw_text = raw,
                         )
-                        if embed_m:
-                            return _build_system(
-                                type     = 'Low Pressure Area',
-                                status   = 'forming',
-                                location = embed_m.group(1).strip().rstrip(' ,'),
-                                raw_text = raw,
-                            )
-                    return None
-                return classify_lpa(s, raw, stype)
+                return None  # suppress "Under influence...is likely to form"
+            return classify_lpa(s, raw, stype)
 
-        if re.match(r'(?:monsoon|seasonal)\s+trough', subject, re.IGNORECASE):
-            return classify_monsoon_trough(s, raw)
-        if re.search(r'(?:western|eastern)\s+end\s+of\s+(?:monsoon|seasonal)\s+trough', s, re.IGNORECASE):
-            return classify_monsoon_trough(s, raw)
+    # ── MONSOON / SEASONAL TROUGH ────────────────────────────────────────────
+    if re.match(r'(?:monsoon|seasonal)\s+trough', subject, re.IGNORECASE):
+        return classify_monsoon_trough(s, raw)
+    # Also "Western end of monsoon trough"
+    if re.search(r'(?:western|eastern)\s+end\s+of\s+(?:monsoon|seasonal)\s+trough', s, re.IGNORECASE):
+        return classify_monsoon_trough(s, raw)
 
-        if re.match(r'(?:east[\s\-]west)\s+trough', subject, re.IGNORECASE):
-            return classify_ew_trough(s, raw)
+    # ── EAST-WEST TROUGH ─────────────────────────────────────────────────────
+    if re.match(r'(?:east[\s\-]west)\s+trough', subject, re.IGNORECASE):
+        return classify_ew_trough(s, raw)
 
-        if re.match(r'(?:north[\s\-]south)\s+trough', subject, re.IGNORECASE):
+    # ── NORTH-SOUTH TROUGH ───────────────────────────────────────────────────
+    if re.match(r'(?:north[\s\-]south)\s+trough', subject, re.IGNORECASE):
+        return classify_ns_trough(s, raw)
+
+    # ── OFFSHORE TROUGH ──────────────────────────────────────────────────────
+    if re.match(r'(?:offshore|off[\s\-]shore)\s+trough', subject, re.IGNORECASE):
+        return classify_offshore_trough(s, raw)
+
+    # ── SHEAR ZONE ───────────────────────────────────────────────────────────
+    if re.match(r'shear\s+(?:zone|line)', subject, re.IGNORECASE):
+        return classify_shear_zone(s, raw)
+
+    # ── GENERIC TROUGH ───────────────────────────────────────────────────────
+    if re.match(r'trough', subject, re.IGNORECASE):
+        # Check if it's north-south
+        if re.search(r'north.south|north\s+to\s+south', s, re.IGNORECASE):
             return classify_ns_trough(s, raw)
+        return classify_generic_trough(s, raw)
 
-        if re.match(r'(?:offshore|off[\s\-]shore)\s+trough', subject, re.IGNORECASE):
-            return classify_offshore_trough(s, raw)
-
-        if re.match(r'shear\s+(?:zone|line)', subject, re.IGNORECASE):
-            return classify_shear_zone(s, raw)
-
-        if re.match(r'trough', subject, re.IGNORECASE):
-            if re.search(r'north.south|north\s+to\s+south', s, re.IGNORECASE):
-                return classify_ns_trough(s, raw)
-            return classify_generic_trough(s, raw)
-
-    except Exception:
-        pass
     return None
 
 
@@ -1258,15 +1388,18 @@ def classify_sentence(sent, raw=None):
 # -----------------------------------------------------------------------------
 
 def parse_met_analysis(meteo_text):
-    if not meteo_text:
-        return {'priority': [], 'uac': [], 'other_troughs': [], 'suppressed_count': 0}
-
+    """
+    Parse the full Meteorological Analysis page text into structured systems.
+    Returns dict with priority, uac, other_troughs, suppressed_count,
+    unclassified (sentences that couldn't be parsed), and validation summary.
+    """
     sentences = split_sentences(meteo_text)
 
     tier1_systems  = []
     tier2_uac      = []
     tier2_troughs  = []
     suppressed     = 0
+    unclassified   = []   # sentences the parser couldn't classify
     last_lpa       = None
 
     for sent in sentences:
@@ -1274,90 +1407,94 @@ def parse_met_analysis(meteo_text):
         if not sent:
             continue
 
-        try:
-            if re.search(r'has\s+become\s+less\s+marked', sent, re.IGNORECASE):
-                suppressed += 1
-                last_lpa = None
-                continue
-
-            result = classify_sentence(sent, raw=sent)
-
-            if result is None:
-                suppressed += 1
-                continue
-
-            if isinstance(result, tuple) and result[0] == 'continuation':
-                if last_lpa is not None:
-                    existing = last_lpa.get('forecast', '')
-                    addition = re.sub(
-                        r'^It\s+is\s+(?:very\s+)?likely\s+to\s+|^Thereafter[,\s]+|^Subsequently\s+it\s+is\s+(?:very\s+)?likely\s+to\s+',
-                        '', result[1], flags=re.IGNORECASE
-                    ).strip()
-                    last_lpa['forecast'] = (existing + ' ' + addition).strip() if existing else addition
-                else:
-                    suppressed += 1
-                continue
-
-            if isinstance(result, tuple) and result[0] == 'associated_cc':
-                if last_lpa is not None:
-                    last_lpa['associated_cc'] = _build_system(
-                        location = extract_location(result[1]),
-                        level    = parse_level(result[1]),
-                    )
-                else:
-                    suppressed += 1
-                continue
-
-            if isinstance(result, dict) and result.get('type'):
-                stype = result['type']
-                result = filter_system(result)
-
-                if stype in SYSTEM_PRIORITY:
-                    tier1_systems.append(result)
-                    if stype in ('Low Pressure Area', 'Depression', 'Deep Depression',
-                                 'Cyclonic Storm', 'Severe Cyclonic Storm',
-                                 'Very Severe Cyclonic Storm',
-                                 'Extremely Severe Cyclonic Storm',
-                                 'Super Cyclonic Storm'):
-                        last_lpa = result
-                    else:
-                        last_lpa = None
-                elif stype == 'Upper Air Cyclonic Circulation':
-                    tier2_uac.append(result)
-                    last_lpa = None
-                else:
-                    tier2_troughs.append(result)
-                    last_lpa = None
-
-        except Exception:
+        if re.search(r'has\s+become\s+less\s+marked', sent, re.IGNORECASE):
             suppressed += 1
+            last_lpa = None
             continue
+
+        result = classify_sentence(sent, raw=sent)
+
+        if result is None:
+            suppressed += 1
+            unclassified.append(sent)
+            continue
+
+        if isinstance(result, tuple) and result[0] == 'continuation':
+            if last_lpa is not None:
+                existing = last_lpa.get('forecast', '')
+                addition = re.sub(r'^It\s+is\s+(?:very\s+)?likely\s+to\s+|^Thereafter[,\s]+|^Subsequently\s+it\s+is\s+(?:very\s+)?likely\s+to\s+', '', result[1], flags=re.IGNORECASE).strip()
+                last_lpa['forecast'] = (existing + ' ' + addition).strip() if existing else addition
+            else:
+                suppressed += 1
+                unclassified.append(sent)
+            continue
+
+        if isinstance(result, tuple) and result[0] == 'associated_cc':
+            if last_lpa is not None:
+                last_lpa['associated_cc'] = _build_system(
+                    location = extract_location(result[1]),
+                    level    = parse_level(result[1]),
+                )
+            else:
+                suppressed += 1
+                unclassified.append(sent)
+            continue
+
+        if isinstance(result, dict) and result.get('type'):
+            stype  = result['type']
+            result = filter_system(result)
+
+            # Run schema validation — attach warnings to the system itself
+            warnings = validate_system(result)
+            if warnings:
+                result['_warnings'] = warnings
+
+            if stype in SYSTEM_PRIORITY:
+                tier1_systems.append(result)
+                if stype in _LPA_TYPES:
+                    last_lpa = result
+                else:
+                    last_lpa = None
+            elif stype == 'Upper Air Cyclonic Circulation':
+                tier2_uac.append(result)
+                last_lpa = None
+            else:
+                tier2_troughs.append(result)
+                last_lpa = None
 
     tier1_systems.sort(key=lambda s: SYSTEM_PRIORITY.get(s.get('type', ''), 99))
 
+    # Validation summary — how many systems have warnings
+    all_systems = tier1_systems + tier2_uac + tier2_troughs
+    warned = [s.get('type') for s in all_systems if s.get('_warnings')]
+
     return {
-        'priority':        tier1_systems,
-        'uac':             tier2_uac,
-        'other_troughs':   tier2_troughs,
-        'suppressed_count': suppressed,
+        'priority':          tier1_systems,
+        'uac':               tier2_uac,
+        'other_troughs':     tier2_troughs,
+        'suppressed_count':  suppressed,
+        'unclassified':      unclassified,
+        'validation': {
+            'warnings_count':        sum(len(s.get('_warnings', [])) for s in all_systems),
+            'systems_with_warnings': warned,
+        },
     }
 
 
 # -----------------------------------------------------------------------------
-# CORE PDF PARSER
+# CORE PDF PARSER (github/main fns trimmed for local testing)
 # -----------------------------------------------------------------------------
 
 def parse_monsoon_pdf(pdf_bytes, pdf_url):
     result = {
-        'success':          True,
-        'pdf_url':          pdf_url,
-        'last_updated':     None,
-        'slot':             None,
-        'bulletin_date':    None,
-        'monsoon_advance':  None,
+        'success':       True,
+        'pdf_url':       pdf_url,
+        'last_updated':  None,
+        'slot':          None,
+        'bulletin_date': None,
         'bulletin': {'morning': None, 'midday': None, 'evening': None, 'night': None},
-        'nlm_coords':       None,
-        'met_analysis':     None,
+        'nlm_coords':    None,
+        'met_analysis':  None,
         'systems': {
             'priority':         [],
             'uac':              [],
@@ -1372,7 +1509,7 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
             pages_text = [page.extract_text() or '' for page in pdf.pages]
         full_text = '\n'.join(pages_text)
 
-        # ── STEP 1: Slot, timestamp, bulletin date ────────────────────────
+        # ── STEP 1: Slot, timestamp, bulletin date from Page 1 ────────────
         page1 = pages_text[0] if pages_text else ''
 
         _MONTHS = {
@@ -1388,6 +1525,7 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
             if alt_m:
                 result['bulletin_date'] = f'{alt_m.group(3)}-{alt_m.group(2)}-{alt_m.group(1)}'
             else:
+                # Real IMD format: "Monday, June 29, 2026"
                 name_m = re.search(
                     r'(January|February|March|April|May|June|July|August|September'
                     r'|October|November|December)\s+(\d{1,2}),?\s+(20\d{2})',
@@ -1402,6 +1540,7 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
                     result['bulletin_date'] = None
         print(f'[PARSE] Bulletin date: {result["bulletin_date"]}')
 
+        # Time: handles "1950 hours" (no colon), "08:46:00 hours" (HH:MM:SS), "19:50 hours"
         time_m = re.search(
             r'Time\s+of\s+Issue:\s*(\d{2}):?(\d{2})(?::\d{2})?\s*hours',
             page1, re.IGNORECASE
@@ -1436,6 +1575,7 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
                       f'{systems["suppressed_count"]} suppressed')
 
         # ── STEP 4: Extract bulletin (NLM) text ───────────────────────────
+        # NLM is on page 1 for morning bulletins, on the met page for night/evening
         bulletin_text = (
             extract_monsoon_text(pages_text[0])
             or (extract_monsoon_text(meteo_text) if meteo_text else None)
@@ -1444,15 +1584,6 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
             result['bulletin'][result['slot']] = bulletin_text
         elif bulletin_text:
             result['bulletin']['morning'] = bulletin_text
-
-        # ── STEP 4.5: Extract monsoon_advance ─────────────────────────────
-        advance_text = (
-            extract_monsoon_advance(pages_text[0])
-            or (extract_monsoon_advance(meteo_text) if meteo_text else None)
-        )
-        result['monsoon_advance'] = advance_text
-        if advance_text:
-            print(f'[PARSE] monsoon_advance: {advance_text[:80]}')
 
         # ── STEP 5: NLM coordinates ────────────────────────────────────────
         coord_source = bulletin_text or full_text
@@ -1472,31 +1603,24 @@ def parse_monsoon_pdf(pdf_bytes, pdf_url):
 # -----------------------------------------------------------------------------
 
 def github_get_sha(path):
-    try:
-        url  = f'{GITHUB_API}/repos/{GITHUB_REPO}/contents/{path}'
-        resp = requests.get(url, headers=HEADERS_GH, timeout=15)
-        return resp.json().get('sha') if resp.status_code == 200 else None
-    except Exception:
-        return None
+    url  = f'{GITHUB_API}/repos/{GITHUB_REPO}/contents/{path}'
+    resp = requests.get(url, headers=HEADERS_GH, timeout=15)
+    return resp.json().get('sha') if resp.status_code == 200 else None
 
 
 def github_push_file(path, content_bytes, commit_message):
-    try:
-        url     = f'{GITHUB_API}/repos/{GITHUB_REPO}/contents/{path}'
-        encoded = base64.b64encode(content_bytes).decode()
-        sha     = github_get_sha(path)
-        payload = {'message': commit_message, 'content': encoded, 'branch': GITHUB_BRANCH}
-        if sha:
-            payload['sha'] = sha
-        resp = requests.put(url, headers=HEADERS_GH, json=payload, timeout=30)
-        if resp.status_code in (200, 201):
-            print(f'[GITHUB] ✅ Pushed: {path}')
-            return True
-        print(f'[GITHUB] ❌ Failed {path}: {resp.status_code} — {resp.text[:300]}')
-        return False
-    except Exception as e:
-        print(f'[GITHUB] ❌ Exception pushing {path}: {e}')
-        return False
+    url     = f'{GITHUB_API}/repos/{GITHUB_REPO}/contents/{path}'
+    encoded = base64.b64encode(content_bytes).decode()
+    sha     = github_get_sha(path)
+    payload = {'message': commit_message, 'content': encoded, 'branch': GITHUB_BRANCH}
+    if sha:
+        payload['sha'] = sha
+    resp = requests.put(url, headers=HEADERS_GH, json=payload, timeout=30)
+    if resp.status_code in (200, 201):
+        print(f'[GITHUB] ✅ Pushed: {path}')
+        return True
+    print(f'[GITHUB] ❌ Failed {path}: {resp.status_code} — {resp.text[:300]}')
+    return False
 
 
 def github_push_json(path, data, commit_message):
