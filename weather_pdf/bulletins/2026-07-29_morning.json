@@ -1,0 +1,113 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ac4ad6eb968df06ac72be0e234b2afba.pdf",
+  "last_updated": "09:04 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-29",
+  "monsoon_advance": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Deep Depression over north interior Odisha and adjoining areas of south Jharkhand & Chhattisgarh moved westwards with a speed of 07 kmph during past 6 hours, and lay centred at 0530 hrs IST of today, the 29th July 2026, over the same region, near latitude 21.9°N and longitude 84.0°E, about 10 km west-southwest of Jharsuguda (Odisha), 50 km north of Sambalpur (Odisha), 60 km east of Raigarh (Chhattisgarh), 100 km west-southwest of Rourkela (Odisha), and 190 km east of Bilaspur (Chhattisgarh). It is very likely to continue to move nearly westwards across north interior Odisha and north Chhattisgarh during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Anupgarh, Pilani, Satna, centre of Deep Depressionover north interior Odisha and adjoining areas of south Jharkhand & Chhattisgarh, Puri, thence east-southeastwards towards Northeast Bay of Bengal.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Madhya Pradesh at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 32°N.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Deep Depression",
+        "status": "active",
+        "location": "north interior Odisha and adjoining areas of south Jharkhand & Chhattisgarh moved westwards with a speed of 07 kmph during past 6 hours, and lay centred",
+        "coords": {
+          "lat": 21.9,
+          "lon": 84.0
+        },
+        "distance_from": [
+          {
+            "place": "Jharsuguda (Odisha",
+            "distance_km": 10,
+            "direction": "west-southwest"
+          },
+          {
+            "place": "Sambalpur (Odisha",
+            "distance_km": 50,
+            "direction": "north"
+          },
+          {
+            "place": "Raigarh (Chhattisgarh",
+            "distance_km": 60,
+            "direction": "east"
+          },
+          {
+            "place": "Bilaspur (Chhattisgarh",
+            "distance_km": 190,
+            "direction": "east"
+          }
+        ],
+        "movement": "westwards",
+        "raw_text": "The Deep Depression over north interior Odisha and adjoining areas of south Jharkhand & Chhattisgarh moved westwards with a speed of 07 kmph during past 6 hours, and lay centred at 0530 hrs IST of today, the 29th July 2026, over the same region, near latitude 21.9°N and longitude 84.0°E, about 10 km west-southwest of Jharsuguda (Odisha), 50 km north of Sambalpur (Odisha), 60 km east of Raigarh (Chhattisgarh), 100 km west-southwest of Rourkela (Odisha), and 190 km east of Bilaspur (Chhattisgarh). It is very likely to continue to move nearly westwards across north interior Odisha and north Chhattisgarh during next 24 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Anupgarh, Pilani, Satna, centre of Deep Depressionover north interior Odisha and adjoining areas of south Jharkhand & Chhattisgarh, Puri, thence east-southeastwards towards Northeast Bay of Bengal.",
+        "passes_through": [
+          "Anupgarh",
+          "Pilani",
+          "Satna",
+          "centre of Deep Depressionover north interior Odisha and adjoining areas of south Jharkhand & Chhattisgarh",
+          "Puri",
+          "thence east-southeastwards towards Northeast Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 32°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 72°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Madhya Pradesh",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Madhya Pradesh at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-29 11:10 IST"
+}
