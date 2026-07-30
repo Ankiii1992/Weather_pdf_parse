@@ -1,0 +1,113 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/679790eff68d94fd017c47cb04e31857.pdf",
+  "last_updated": "04:34 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-07-30",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Deep Depression over westcentral Chhattisgarh and adjoining areas of Vidarbha & southeast Madhya Pradesh moved west-southwestwards with a speed of 15 kmph during past 6 hours, and lies centered at 1130 hrs IST of today, the 30th July 2026, over the same region near latitude 20.9°N and longitude 80.8°E, 30 km southwest of Rajnandgaon (Chhattisgarh), 60 km west-southwest of Durg (Chhattisgarh), 90 km southeast of Gondia (Maharashtra), 100 km east-northeast of Bramhapuri (Maharashtra) and 180 km east-southeast of Nagpur (Maharashtra). It is very likely to move nearly westwards across Chhattisgarh and weaken gradually into a depression during next 06 hours. Thereafter, it is likely to move west-northwestwards across Vidarbha & adjoining south Madhya Pradesh as a depression during subsequent 24 hours.\nThe Monsoon trough at mean sea level continue to pass through Jaisalmer, Raisen, centre of Deep Depression over westcentral Chhattisgarh and adjoining areas of Vidarbha & southeast Madhya Pradesh, Gopalpur thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe east-west shear zone roughly along latitude 21°N across central & adjoining north peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a cyclonic circulation over Punjab & neighbourhood over north Haryana & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam at 1.5 km above mean sea level persists.\nThe offshore trough at mean sea level from South Gujarat to North Kerala persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Deep Depression",
+        "status": "weakening",
+        "location": "the same region",
+        "coords": {
+          "lat": 20.9,
+          "lon": 80.8
+        },
+        "distance_from": [
+          {
+            "place": "Rajnandgaon (Chhattisgarh",
+            "distance_km": 30,
+            "direction": "southwest"
+          },
+          {
+            "place": "Durg (Chhattisgarh",
+            "distance_km": 60,
+            "direction": "west-southwest"
+          },
+          {
+            "place": "Gondia (Maharashtra",
+            "distance_km": 90,
+            "direction": "southeast"
+          },
+          {
+            "place": "Nagpur (Maharashtra",
+            "distance_km": 180,
+            "direction": "east-southeast"
+          }
+        ],
+        "movement": "west-southwestwards",
+        "raw_text": "The Deep Depression over westcentral Chhattisgarh and adjoining areas of Vidarbha & southeast Madhya Pradesh moved west-southwestwards with a speed of 15 kmph during past 6 hours, and lies centered at 1130 hrs IST of today, the 30th July 2026, over the same region near latitude 20.9°N and longitude 80.8°E, 30 km southwest of Rajnandgaon (Chhattisgarh), 60 km west-southwest of Durg (Chhattisgarh), 90 km southeast of Gondia (Maharashtra), 100 km east-northeast of Bramhapuri (Maharashtra) and 180 km east-southeast of Nagpur (Maharashtra). It is very likely to move nearly westwards across Chhattisgarh and weaken gradually into a depression during next 06 hours. Thereafter, it is likely to move west-northwestwards across Vidarbha & adjoining south Madhya Pradesh as a depression during subsequent 24 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continue to pass through Jaisalmer, Raisen, centre of Deep Depression over westcentral Chhattisgarh and adjoining areas of Vidarbha & southeast Madhya Pradesh, Gopalpur thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "passes_through": [
+          "Jaisalmer",
+          "Raisen",
+          "centre of Deep Depression over westcentral Chhattisgarh and adjoining areas of Vidarbha & southeast Madhya Pradesh",
+          "Gopalpur",
+          "Central parts of Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
+      },
+      {
+        "type": "Offshore Trough",
+        "level": "mean sea level",
+        "raw_text": "The offshore trough at mean sea level from South Gujarat to North Kerala persists.",
+        "_warnings": [
+          "Offshore Trough missing extent"
+        ]
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Punjab & neighbourhood over north Haryana & neighbourhood between 3.1 & 5.8 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "Punjab & neighbourhood over north Haryana & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Assam",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Assam at 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 1,
+    "unclassified": [
+      "The east-west shear zone roughly along latitude 21°N across central & adjoining north peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists."
+    ],
+    "validation": {
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Offshore Trough"
+      ]
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-30 18:50 IST"
+}
