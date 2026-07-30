@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b76dddfd36e6c8b945e60d8dd30bd13e.pdf",
-  "last_updated": "08:55 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-07-29",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/fd2e17b4d0c8dc4fbc4efab72a3f1e4c.pdf",
+  "last_updated": "09:00 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-30",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,50 +11,50 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Deep Depression over central parts of Chhattisgarh & adjoining north interior Odisha moved westwards with a speed of 8 kmph during past 6 hours, and lies centered at 1730 hrs IST of today, the 29th July 2026, over central parts of Chhattisgarh near latitude 21.9°N and longitude 82.3°E, about 30 km south-southeast of Bilaspur (Chhattisgarh), 40 km west-southwest of Champa (Chhattisgarh), 100 km northeast of Raipur (Chhattisgarh), 130 km northeast of Durg, 220 east-northeast of Gondia (Maharashtra), and 170 km east of Malanjkhand (Madhya Pradesh). It is very likely to move nearly westwards across Chhattisgarh, east Madhya Pradesh & adjoining Vidarbha and weaken gradually into a depression during next 24 hours.\nThe Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Sikar, Datiya, centre of Deep Depression over central parts of Chhattisgarh, Gopalpur thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe east-west shear zone roughly along latitude 23°N across central India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu division at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Deep Depression over Western parts of central Chhattisgarh and adjoining east Madhya Pradesh remained practically stationary during past 6 hours, and lies centered at 0530 hrs IST of today, the 30th July 2026, over the same region near latitude 21.9°N and longitude 81.4°E, about 70 km east of Malanjkhand (Madhya Pradesh), 80 km north of Durg (Chhattisgarh), 80 km west-southwest of Bilaspur (Chhattisgarh), 80 km north-northwest of Raipur (Chhattisgarh), and 130 km east-northeast of Gondia (Maharashtra). It is very likely to move nearly westwards across Chhattisgarh, east Madhya Pradesh & adjoining Vidarbha and weaken gradually into a depression during next 12 hours.\nThe Monsoon trough at mean sea level continues to pass through Bikaner, Kota, Guna, Sagar, centre of Deep Depression over Western parts of central Chhattisgarh and adjoining east Madhya Pradesh, Gopalpur thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe east-west shear zone now runs roughly along latitude 21°N across central & adjoining north peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu division now lies over Punjab & neighbourhood at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam now lies over central Assam at 1.5 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Deep Depression",
         "status": "weakening",
-        "location": "central parts of Chhattisgarh",
+        "location": "the same region",
         "coords": {
           "lat": 21.9,
-          "lon": 82.3
+          "lon": 81.4
         },
         "distance_from": [
           {
-            "place": "Bilaspur (Chhattisgarh",
-            "distance_km": 30,
-            "direction": "south-southeast"
+            "place": "Malanjkhand (Madhya Pradesh",
+            "distance_km": 70,
+            "direction": "east"
           },
           {
-            "place": "Champa (Chhattisgarh",
-            "distance_km": 40,
+            "place": "Durg (Chhattisgarh",
+            "distance_km": 80,
+            "direction": "north"
+          },
+          {
+            "place": "Bilaspur (Chhattisgarh",
+            "distance_km": 80,
             "direction": "west-southwest"
           },
           {
-            "place": "Raipur (Chhattisgarh",
-            "distance_km": 100,
-            "direction": "northeast"
-          },
-          {
-            "place": "Malanjkhand (Madhya Pradesh",
-            "distance_km": 170,
-            "direction": "east"
+            "place": "Gondia (Maharashtra",
+            "distance_km": 130,
+            "direction": "east-northeast"
           }
         ],
-        "movement": "westwards",
-        "raw_text": "The Deep Depression over central parts of Chhattisgarh & adjoining north interior Odisha moved westwards with a speed of 8 kmph during past 6 hours, and lies centered at 1730 hrs IST of today, the 29th July 2026, over central parts of Chhattisgarh near latitude 21.9°N and longitude 82.3°E, about 30 km south-southeast of Bilaspur (Chhattisgarh), 40 km west-southwest of Champa (Chhattisgarh), 100 km northeast of Raipur (Chhattisgarh), 130 km northeast of Durg, 220 east-northeast of Gondia (Maharashtra), and 170 km east of Malanjkhand (Madhya Pradesh). It is very likely to move nearly westwards across Chhattisgarh, east Madhya Pradesh & adjoining Vidarbha and weaken gradually into a depression during next 24 hours."
+        "raw_text": "The Deep Depression over Western parts of central Chhattisgarh and adjoining east Madhya Pradesh remained practically stationary during past 6 hours, and lies centered at 0530 hrs IST of today, the 30th July 2026, over the same region near latitude 21.9°N and longitude 81.4°E, about 70 km east of Malanjkhand (Madhya Pradesh), 80 km north of Durg (Chhattisgarh), 80 km west-southwest of Bilaspur (Chhattisgarh), 80 km north-northwest of Raipur (Chhattisgarh), and 130 km east-northeast of Gondia (Maharashtra). It is very likely to move nearly westwards across Chhattisgarh, east Madhya Pradesh & adjoining Vidarbha and weaken gradually into a depression during next 12 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Sikar, Datiya, centre of Deep Depression over central parts of Chhattisgarh, Gopalpur thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Bikaner, Kota, Guna, Sagar, centre of Deep Depression over Western parts of central Chhattisgarh and adjoining east Madhya Pradesh, Gopalpur thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.",
         "passes_through": [
-          "Sri Ganganagar",
-          "Sikar",
-          "Datiya",
-          "centre of Deep Depression over central parts of Chhattisgarh",
+          "Bikaner",
+          "Kota",
+          "Guna",
+          "Sagar",
+          "centre of Deep Depression over Western parts of central Chhattisgarh and adjoining east Madhya Pradesh",
           "Gopalpur",
           "Central parts of Bay of Bengal"
         ],
@@ -66,9 +66,9 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu division at 5.8 km above mean sea level persists.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu division now lies over Punjab & neighbourhood at 5.8 km above mean sea level.",
         "form": "cyclonic_circulation",
-        "location": "North Pakistan & adjoining Jammu division",
+        "location": "Punjab & neighbourhood",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -79,19 +79,19 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Assam",
+        "location": "central Assam",
         "level": {
           "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "min": 1.5,
+          "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam now lies over central Assam at 1.5 km above mean sea level."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 1,
     "unclassified": [
-      "The east-west shear zone roughly along latitude 23°N across central India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists."
+      "The east-west shear zone now runs roughly along latitude 21°N across central & adjoining north peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height."
     ],
     "validation": {
       "warnings_count": 0,
@@ -99,5 +99,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-07-30 06:40 IST"
+  "fetched_at": "2026-07-30 10:59 IST"
 }
