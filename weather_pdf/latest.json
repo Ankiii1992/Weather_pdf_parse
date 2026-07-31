@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b5614b805c7d50f6609b5b7e17568d8b.pdf",
-  "last_updated": "09:21 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-07-30",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/794878eb413f69eb4db6aa4b204227fd.pdf",
+  "last_updated": "08:13 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-07-31",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,51 +11,50 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Deep Depression over westcentral Chhattisgarh and adjoining areas of Vidarbha & southeast Madhya Pradesh moved west-southwestwards with a speed of 7 kmph during past 6 hours, weakened into a depression and lies centered at 1730 hrs IST of today, the 30th July 2026, over east Vidarbha and adjoining westcentral Chhattisgarh near latitude 20.8°N and longitude 80.4°E, 60 km east-northeast of Bramhapuri (Maharashtra), 80 km southeast of Gondia (Maharashtra), 140 km east-southeast of Nagpur (Maharashtra), 190 km east of Wardha (Maharashtra) and 270 km east of Amraoti (Maharashtra). It is likely to move west- northwestwards across Vidarbha & adjoining south Madhya Pradesh as a depression during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Jaisalmer, Udaipur, Betul, centre of Depression over east Vidarbha and adjoining westcentral Chhattisgarh, Gopalpur thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe east-west shear zone roughly along latitude 21°N across central & adjoining north peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam at 1.5 km above mean sea level persists.\nThe offshore trough at mean sea level from South Gujarat to North Kerala persists.",
+  "met_analysis": "The Depression over east Vidarbha and adjoining westcentral Chhattisgarh moved nearly westwards with a speed of 15 kmph during past 6 hours, and lies centered at 0530 hrs IST of today, the 31st July 2026, over central Vidarbha and adjoining south Madhya Pradesh near latitude 20.9°N and longitude 78.6°E, 30 km north of Wardha (Maharashtra), 60 km west-southwest of Nagpur (Maharashtra), 90 km east of Amravati (Maharashtra), 130 km south-southeast of Betul (Madhya Pradesh) and 160 km east of Akola (Maharashtra). It is likely to move west-northwestwards across Vidarbha & adjoining south Madhya Pradesh during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Jaisalmer, Udaipur, Betul, centre of Depression over central Vidarbha and adjoining south Madhya Pradesh & Puri thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe east-west shear zone roughly along latitude 21°N across central & adjoining north peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now lies at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over central Assam persists and now extends upto 1.5 km above mean sea level.\nThe offshore trough at mean sea level from South Gujarat to North Kerala persists.",
   "systems": {
     "priority": [
       {
-        "type": "Deep Depression",
+        "type": "Depression",
         "status": "active",
-        "location": "east Vidarbha and adjoining westcentral Chhattisgarh",
+        "location": "central Vidarbha and adjoining south Madhya Pradesh",
         "coords": {
-          "lat": 20.8,
-          "lon": 80.4
+          "lat": 20.9,
+          "lon": 78.6
         },
         "distance_from": [
           {
-            "place": "Bramhapuri (Maharashtra",
-            "distance_km": 60,
-            "direction": "east-northeast"
-          },
-          {
-            "place": "Gondia (Maharashtra",
-            "distance_km": 80,
-            "direction": "southeast"
+            "place": "Wardha (Maharashtra",
+            "distance_km": 30,
+            "direction": "north"
           },
           {
             "place": "Nagpur (Maharashtra",
-            "distance_km": 140,
-            "direction": "east-southeast"
+            "distance_km": 60,
+            "direction": "west-southwest"
           },
           {
-            "place": "Wardha (Maharashtra) and 270 km east of Amraoti (Maharashtra",
-            "distance_km": 190,
+            "place": "Amravati (Maharashtra",
+            "distance_km": 90,
             "direction": "east"
+          },
+          {
+            "place": "Betul (Madhya Pradesh) and 160 km east of Akola (Maharashtra",
+            "distance_km": 130,
+            "direction": "south-southeast"
           }
         ],
-        "movement": "west-southwestwards",
-        "raw_text": "The Deep Depression over westcentral Chhattisgarh and adjoining areas of Vidarbha & southeast Madhya Pradesh moved west-southwestwards with a speed of 7 kmph during past 6 hours, weakened into a depression and lies centered at 1730 hrs IST of today, the 30th July 2026, over east Vidarbha and adjoining westcentral Chhattisgarh near latitude 20.8°N and longitude 80.4°E, 60 km east-northeast of Bramhapuri (Maharashtra), 80 km southeast of Gondia (Maharashtra), 140 km east-southeast of Nagpur (Maharashtra), 190 km east of Wardha (Maharashtra) and 270 km east of Amraoti (Maharashtra). It is likely to move west- northwestwards across Vidarbha & adjoining south Madhya Pradesh as a depression during next 24 hours."
+        "movement": "west-northwestwards",
+        "raw_text": "The Depression over east Vidarbha and adjoining westcentral Chhattisgarh moved nearly westwards with a speed of 15 kmph during past 6 hours, and lies centered at 0530 hrs IST of today, the 31st July 2026, over central Vidarbha and adjoining south Madhya Pradesh near latitude 20.9°N and longitude 78.6°E, 30 km north of Wardha (Maharashtra), 60 km west-southwest of Nagpur (Maharashtra), 90 km east of Amravati (Maharashtra), 130 km south-southeast of Betul (Madhya Pradesh) and 160 km east of Akola (Maharashtra). It is likely to move west-northwestwards across Vidarbha & adjoining south Madhya Pradesh during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, Udaipur, Betul, centre of Depression over east Vidarbha and adjoining westcentral Chhattisgarh, Gopalpur thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, Udaipur, Betul, centre of Depression over central Vidarbha and adjoining south Madhya Pradesh & Puri thence southeastwards towards Central parts of Bay of Bengal and extends upto 1.5 km above mean sea level.",
         "passes_through": [
           "Jaisalmer",
           "Udaipur",
           "Betul",
-          "centre of Depression over east Vidarbha and adjoining westcentral Chhattisgarh",
-          "Gopalpur",
+          "centre of Depression over central Vidarbha and adjoining south Madhya Pradesh & Puri",
           "Central parts of Bay of Bengal"
         ],
         "level": {
@@ -74,14 +73,13 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood between 3.1 & 5.8 km above mean sea level persists.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now lies at 3.1 km above mean sea level.",
         "form": "cyclonic_circulation",
         "location": "north Haryana & neighbourhood",
         "level": {
-          "type": "range",
+          "type": "single",
           "min": 3.1,
-          "max": 5.8,
-          "display": "3.1–5.8 km above MSL"
+          "display": "3.1 km above MSL"
         }
       }
     ],
@@ -90,11 +88,11 @@
         "type": "Upper Air Cyclonic Circulation",
         "location": "central Assam",
         "level": {
-          "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central Assam at 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over central Assam persists and now extends upto 1.5 km above mean sea level."
       }
     ],
     "other_troughs": [],
@@ -110,5 +108,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-07-31 06:52 IST"
+  "fetched_at": "2026-07-31 11:24 IST"
 }
