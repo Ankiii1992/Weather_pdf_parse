@@ -1,0 +1,99 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/060c7a32c2fa215652d5604638ac5511.pdf",
+  "last_updated": "01:13 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-07-31",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Depression over east Vidarbha and adjoining westcentral Chhattisgarh moved nearly west- northwestwards with a speed of 15 kmph during past 6 hours, and lies centered at 0830 hrs IST of today, the 31st July 2026, over western Vidarbha and adjoining south Madhya Pradesh near latitude 21.1°N and longitude 78.2°E, 50 km east-northeast of Amravati (Maharashtra), 60 km northwest of Wardha (Maharashtra), 90 km south-southeast of Betul (Madhya Pradesh), 210 km east-southeast of Khandwa (Madhya Pradesh) and 280 km east-southeast of Khargone (Madhya Pradesh). It is very likely to move west-northwestwards across Vidarbha, south Madhya Pradesh & adjoining Madhya Maharashtra and weaken into a Well Marked low pressure area during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Jaisalmer, Udaipur, Indore, centre of Depression over Western Vidarbha and adjoining south Madhya Pradesh, Gopalpur thence southeastwards towards Central Bay of Bengal at mean sea level.\nA fresh Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 71°E to the north of Lat. 30°N.\nThe east-west shear zone roughly along latitude 21°N now seen as a trough from Northeast Arabian sea to cyclonic circulation associated with Depression over western Vidarbha and adjoining south Madhya Pradesh across South Gujarat, North Madhya Maharashtra between 1.5 & 7.6 km above mean sea level.\nThe upper air cyclonic circulation over central Assam persists and now seen at 1.5 km above mean sea level.\nThe offshore trough at mean sea level from South Gujarat to North Kerala persists.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Depression",
+        "status": "active",
+        "location": "western Vidarbha and adjoining south Madhya Pradesh",
+        "coords": {
+          "lat": 21.1,
+          "lon": 78.2
+        },
+        "distance_from": [
+          {
+            "place": "Amravati (Maharashtra",
+            "distance_km": 50,
+            "direction": "east-northeast"
+          },
+          {
+            "place": "Wardha (Maharashtra",
+            "distance_km": 60,
+            "direction": "northwest"
+          },
+          {
+            "place": "Betul (Madhya Pradesh",
+            "distance_km": 90,
+            "direction": "south-southeast"
+          },
+          {
+            "place": "Khargone (Madhya Pradesh",
+            "distance_km": 280,
+            "direction": "east-southeast"
+          }
+        ],
+        "movement": "west-northwestwards",
+        "raw_text": "The Depression over east Vidarbha and adjoining westcentral Chhattisgarh moved nearly west- northwestwards with a speed of 15 kmph during past 6 hours, and lies centered at 0830 hrs IST of today, the 31st July 2026, over western Vidarbha and adjoining south Madhya Pradesh near latitude 21.1°N and longitude 78.2°E, 50 km east-northeast of Amravati (Maharashtra), 60 km northwest of Wardha (Maharashtra), 90 km south-southeast of Betul (Madhya Pradesh), 210 km east-southeast of Khandwa (Madhya Pradesh) and 280 km east-southeast of Khargone (Madhya Pradesh). It is very likely to move west-northwestwards across Vidarbha, south Madhya Pradesh & adjoining Madhya Maharashtra and weaken into a Well Marked low pressure area during next 24 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, Udaipur, Indore, centre of Depression over Western Vidarbha and adjoining south Madhya Pradesh, Gopalpur thence southeastwards towards Central Bay of Bengal at mean sea level.",
+        "passes_through": [
+          "Jaisalmer",
+          "Udaipur",
+          "Indore",
+          "centre of Depression over Western Vidarbha and adjoining south Madhya Pradesh",
+          "Gopalpur",
+          "Central Bay of Bengal at mean sea level"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Offshore Trough",
+        "level": "mean sea level",
+        "raw_text": "The offshore trough at mean sea level from South Gujarat to North Kerala persists.",
+        "_warnings": [
+          "Offshore Trough missing extent"
+        ]
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Assam",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Assam persists and now seen at 1.5 km above mean sea level."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 3,
+    "unclassified": [
+      "A fresh Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 71°E to the north of Lat. 30°N.",
+      "The east-west shear zone roughly along latitude 21°N now seen as a trough from Northeast Arabian sea to cyclonic circulation associated with Depression over western Vidarbha and adjoining south Madhya Pradesh across South Gujarat, North Madhya Maharashtra between 1.5 & 7.6 km above mean sea level."
+    ],
+    "validation": {
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Offshore Trough"
+      ]
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-07-31 13:56 IST"
+}
