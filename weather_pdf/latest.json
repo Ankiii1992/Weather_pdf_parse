@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/75533afcd246951956da681cc4ecd4bb.pdf",
-  "last_updated": "04:32 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7396e2655d1bd05c43b2665252f02574.pdf",
+  "last_updated": "08:43 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-07-31",
   "bulletin": {
     "morning": null,
@@ -11,54 +11,54 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression over western Vidarbha and adjoining south Madhya Pradesh moved west-northwestwards with a speed of 17 kmph during past 6 hours, and lies centered at 1130 hrs IST of today, the 31st July 2026, over the same region near latitude 21.3°N and longitude 77.8°E, 40 km north of Amravati (Maharashtra), 60 km south-southwest of Betul (Madhya Pradesh), 160 km east-southeast of Khandwa (Madhya Pradesh), 230 km east-southeast of Khargone (Madhya Pradesh) and 260 km southeast of Indore (Madhya Pradesh). It is very likely to move nearly west-northwestwards across west Madhya Pradesh & adjoining Madhya Maharashtra and weaken into a well-marked low pressure area during next 24 hours.\nThe Monsoon trough at mean sea level continues to pass through Jaisalmer, Udaipur, Indore, centre of Depression over western Vidarbha and adjoining south Madhya Pradesh, Gopalpur thence southeastwards towards Central Bay of Bengal at mean sea level.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 71°E to the north of Lat. 30°N persists. Thetrough from Northeast Arabian sea to cyclonic circulation associated with Depression over western Vidarbha and adjoining south Madhya Pradesh across South Gujarat, North Madhya Maharashtra between 1.5 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam at 1.5 km above mean sea level persists.\nThe offshore trough at mean sea level from South Gujarat to North Kerala persists.",
+  "met_analysis": "The Depression over western Vidarbha and adjoining south Madhya Pradesh moved west-northwestwards with a speed of 35 kmph during past 6 hours, and lies centered at 1730 hrs IST of today, the 31st July 2026, over southwest Madhya Pradesh and neighbourhood near latitude 22.2°N and longitude 76.0°E, 60 km south- southeast of Indore (Madhya Pradesh), 80 km east-southeast of Dhar (Madhya Pradesh), 160 km southeast of Ratlam (Madhya Pradesh) and 280 km east of Baroda (Gujarat). It is very likely to continue to move west- northwestwards across west Madhya Pradesh & Gujarat and weaken into a well-marked low pressure area during next 12 hours.\nThe Monsoon trough at mean sea level now pass through Deesa, centre of Depression over southwest Madhya Pradesh and neighbourhood, Seoni, Mana, Bhawanipatna, Gopalpur thence southeastwards towards Central Bay of Bengal and extends upto 1.5 km above mean sea level.\nAn east-west shear zone runs roughly along latitude 22°N across central & adjoining north peninsular India between 3.1 & 5.8 km above mean sea level tilting southwards with height.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 71°E to the north of Lat. 30°N persists. Thetrough from Northeast Arabian sea to cyclonic circulation associated with Depression over western Vidarbha and adjoining south Madhya Pradesh merged with the above shear zone.\nThe upper air cyclonic circulation over central Assam at 1.5 km above mean sea level persists.\nThe offshore trough at mean sea level from South Gujarat to North Kerala persists.",
   "systems": {
     "priority": [
       {
         "type": "Depression",
         "status": "active",
-        "location": "the same region",
+        "location": "southwest Madhya Pradesh and neighbourhood",
         "coords": {
-          "lat": 21.3,
-          "lon": 77.8
+          "lat": 22.2,
+          "lon": 76.0
         },
         "distance_from": [
           {
-            "place": "Amravati (Maharashtra",
-            "distance_km": 40,
-            "direction": "north"
-          },
-          {
-            "place": "Betul (Madhya Pradesh",
+            "place": "Indore (Madhya Pradesh",
             "distance_km": 60,
-            "direction": "south-southwest"
+            "direction": "south- southeast"
           },
           {
-            "place": "Khandwa (Madhya Pradesh",
+            "place": "Dhar (Madhya Pradesh",
+            "distance_km": 80,
+            "direction": "east-southeast"
+          },
+          {
+            "place": "Ratlam (Madhya Pradesh) and 280 km east of Baroda (Gujarat",
             "distance_km": 160,
-            "direction": "east-southeast"
-          },
-          {
-            "place": "Khargone (Madhya Pradesh) and 260 km southeast of Indore (Madhya Pradesh",
-            "distance_km": 230,
-            "direction": "east-southeast"
+            "direction": "southeast"
           }
         ],
         "movement": "west-northwestwards",
-        "raw_text": "The Depression over western Vidarbha and adjoining south Madhya Pradesh moved west-northwestwards with a speed of 17 kmph during past 6 hours, and lies centered at 1130 hrs IST of today, the 31st July 2026, over the same region near latitude 21.3°N and longitude 77.8°E, 40 km north of Amravati (Maharashtra), 60 km south-southwest of Betul (Madhya Pradesh), 160 km east-southeast of Khandwa (Madhya Pradesh), 230 km east-southeast of Khargone (Madhya Pradesh) and 260 km southeast of Indore (Madhya Pradesh). It is very likely to move nearly west-northwestwards across west Madhya Pradesh & adjoining Madhya Maharashtra and weaken into a well-marked low pressure area during next 24 hours."
+        "raw_text": "The Depression over western Vidarbha and adjoining south Madhya Pradesh moved west-northwestwards with a speed of 35 kmph during past 6 hours, and lies centered at 1730 hrs IST of today, the 31st July 2026, over southwest Madhya Pradesh and neighbourhood near latitude 22.2°N and longitude 76.0°E, 60 km south- southeast of Indore (Madhya Pradesh), 80 km east-southeast of Dhar (Madhya Pradesh), 160 km southeast of Ratlam (Madhya Pradesh) and 280 km east of Baroda (Gujarat). It is very likely to continue to move west- northwestwards across west Madhya Pradesh & Gujarat and weaken into a well-marked low pressure area during next 12 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jaisalmer, Udaipur, Indore, centre of Depression over western Vidarbha and adjoining south Madhya Pradesh, Gopalpur thence southeastwards towards Central Bay of Bengal at mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now pass through Deesa, centre of Depression over southwest Madhya Pradesh and neighbourhood, Seoni, Mana, Bhawanipatna, Gopalpur thence southeastwards towards Central Bay of Bengal and extends upto 1.5 km above mean sea level.",
         "passes_through": [
-          "Jaisalmer",
-          "Udaipur",
-          "Indore",
-          "centre of Depression over western Vidarbha and adjoining south Madhya Pradesh",
+          "Deesa",
+          "centre of Depression over southwest Madhya Pradesh and neighbourhood",
+          "Seoni",
+          "Mana",
+          "Bhawanipatna",
           "Gopalpur",
-          "Central Bay of Bengal at mean sea level"
+          "Central Bay of Bengal"
         ],
-        "level": "mean sea level"
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
       },
       {
         "type": "Offshore Trough",
@@ -70,14 +70,13 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 71°E to the north of Lat. 30°N persists. Thetrough from Northeast Arabian sea to cyclonic circulation associated with Depression over western Vidarbha and adjoining south Madhya Pradesh across South Gujarat, North Madhya Maharashtra between 1.5 & 7.6 km above mean sea level persists.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 71°E to the north of Lat. 30°N persists. Thetrough from Northeast Arabian sea to cyclonic circulation associated with Depression over western Vidarbha and adjoining south Madhya Pradesh merged with the above shear zone.",
         "form": "trough_in_westerlies",
         "axis": "along Long. 71°E to the north of Lat. 30°N",
         "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 7.6,
-          "display": "1.5–7.6 km above MSL"
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         }
       }
     ],
@@ -94,8 +93,10 @@
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 0,
-    "unclassified": [],
+    "suppressed_count": 1,
+    "unclassified": [
+      "An east-west shear zone runs roughly along latitude 22°N across central & adjoining north peninsular India between 3.1 & 5.8 km above mean sea level tilting southwards with height."
+    ],
     "validation": {
       "warnings_count": 1,
       "systems_with_warnings": [
@@ -104,5 +105,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-07-31 18:53 IST"
+  "fetched_at": "2026-07-31 21:58 IST"
 }
