@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3506207e03a9a7a8d7e7ef16d127ce4f.pdf",
-  "last_updated": "08:13 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d40972e23aa764af81c3a4965bdf4672.pdf",
+  "last_updated": "01:48 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-08-01",
   "bulletin": {
     "morning": null,
@@ -11,48 +11,41 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression over southwest Madhya Pradesh and adjoining East Rajasthan & Gujarat Region moved nearly west-northwestwards and weakened into a Well-Marked Low Pressure Area over Southeast Rajasthan & neighbourhood at 0530 hrs IST of today, the 01st August, 2026. It is very likely to move west-northwestwards across South Rajasthan and weaken further into a Low Pressure Area during next 24 hours.\nThe Monsoon trough at mean sea level now pass through Deesa, centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, Bhopal, Raipur, Gopalpur thence southeastwards towards Central Bay of Bengal and extends upto 1.5 km above mean sea level.\nAn east-west shear zone runs roughly along latitude 22°N across central & adjoining north peninsular India between 3.1 & 5.8 km above mean sea level tilting southwards with height.\nThe Western Disturbance now seen as a cyclonic circulation over Himachal Pradesh & neighbourhood at 5.8 km above mean sea level. Thetrough from Northeast Arabian sea to cyclonic circulation associated with Depression over western Vidarbha and adjoining south Madhya Pradesh merged with the above shear zone.\nThe upper air cyclonic circulation over central Assam now seen over Northeast Assam & neighbourhood and extends upto 3.1 km above mean sea level.\nThe offshore trough at mean sea level from South Gujarat to North Kerala persists.",
+  "met_analysis": "The Well-Marked Low Pressure Area over southeast Rajasthan & neighbourhood persisted over the same region at 0830 hrs IST of today, the 01st August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestwards across South Rajasthan and weaken further into a Low Pressure Area during next 24 hours.\nThe Monsoon trough at mean sea level now pass through Jaisalmer, centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, Sidhi, Dehri, Malda, thence eastwards towards Manipur.\nA trough runs form southwest Rajasthan to northeast Bihar across centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, across northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height.\nThe offshore trough at mean sea level now runs from South Gujarat to Kerala.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation lies over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over Himachal Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nAn east-west shear zone runs roughly along latitude 22°N across central & adjoining north peninsular India between 3.1 & 5.8 km above mean sea level tilting southwards with height has become less marked.",
   "systems": {
     "priority": [
       {
-        "type": "Depression",
+        "type": "Low Pressure Area",
         "status": "active",
-        "location": "southwest Madhya Pradesh and adjoining East Rajasthan & Gujarat Region moved nearly west-northwestwards and weakened into a Well-Marked Low Pressure Area over Southeast Rajasthan & neighbourhood",
+        "location": "southeast Rajasthan & neighbourhood persisted over the same region",
         "on_land": true,
         "movement": "west-northwestwards",
-        "raw_text": "The Depression over southwest Madhya Pradesh and adjoining East Rajasthan & Gujarat Region moved nearly west-northwestwards and weakened into a Well-Marked Low Pressure Area over Southeast Rajasthan & neighbourhood at 0530 hrs IST of today, the 01st August, 2026. It is very likely to move west-northwestwards across South Rajasthan and weaken further into a Low Pressure Area during next 24 hours.",
-        "_warnings": [
-          "location looks wrong (contains movement/timestamp text): 'southwest Madhya Pradesh and adjoining East Rajasthan & Gujarat Region moved nea'"
-        ]
+        "raw_text": "The Well-Marked Low Pressure Area over southeast Rajasthan & neighbourhood persisted over the same region at 0830 hrs IST of today, the 01st August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestwards across South Rajasthan and weaken further into a Low Pressure Area during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now pass through Deesa, centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, Bhopal, Raipur, Gopalpur thence southeastwards towards Central Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now pass through Jaisalmer, centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, Sidhi, Dehri, Malda, thence eastwards towards Manipur.",
         "passes_through": [
-          "Deesa",
+          "Jaisalmer",
           "centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood",
-          "Bhopal",
-          "Raipur",
-          "Gopalpur",
-          "Central Bay of Bengal"
+          "Sidhi",
+          "Dehri",
+          "Malda",
+          "Manipur"
         ],
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
-        }
+        "level": "mean sea level"
       },
       {
         "type": "Offshore Trough",
         "level": "mean sea level",
-        "raw_text": "The offshore trough at mean sea level from South Gujarat to North Kerala persists.",
+        "raw_text": "The offshore trough at mean sea level now runs from South Gujarat to Kerala.",
         "_warnings": [
           "Offshore Trough missing extent"
         ]
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance now seen as a cyclonic circulation over Himachal Pradesh & neighbourhood at 5.8 km above mean sea level. Thetrough from Northeast Arabian sea to cyclonic circulation associated with Depression over western Vidarbha and adjoining south Madhya Pradesh merged with the above shear zone.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Himachal Pradesh & neighbourhood at 5.8 km above mean sea level persists.",
         "form": "cyclonic_circulation",
         "location": "Himachal Pradesh & neighbourhood",
         "level": {
@@ -65,28 +58,46 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "central Assam",
+        "location": "Northeast Assam & neighbourhood",
         "level": {
           "type": "upto",
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central Assam now seen over Northeast Assam & neighbourhood and extends upto 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Himachal Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level."
       }
     ],
-    "other_troughs": [],
-    "suppressed_count": 1,
-    "unclassified": [
-      "An east-west shear zone runs roughly along latitude 22°N across central & adjoining north peninsular India between 3.1 & 5.8 km above mean sea level tilting southwards with height."
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "level": {
+          "type": "upto",
+          "max": 4.5,
+          "display": "upto 4.5 km above MSL"
+        },
+        "raw_text": "A trough runs form southwest Rajasthan to northeast Bihar across centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, across northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height."
+      }
     ],
+    "suppressed_count": 1,
+    "unclassified": [],
     "validation": {
-      "warnings_count": 2,
+      "warnings_count": 1,
       "systems_with_warnings": [
-        "Depression",
         "Offshore Trough"
       ]
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-01 13:26 IST"
+  "fetched_at": "2026-08-01 15:54 IST"
 }
