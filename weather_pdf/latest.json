@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a5b49154073c7c2f2a7cfc63b2c53e34.pdf",
-  "last_updated": "04:30 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3b220ef52fbddd198d252450c43738b3.pdf",
+  "last_updated": "08:41 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-08-01",
   "bulletin": {
     "morning": null,
@@ -11,23 +11,22 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well-Marked Low Pressure Area over southeast Rajasthan & neighbourhood persisted over the same region at 1430 hrs IST of today, the 01st August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestwards across South Rajasthan and weaken further into a Low Pressure Area during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Jaisalmer, centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, Banda, Dehri, Malda, thence eastwards towards Manipur.\nThe trough from southwest Rajasthan to northeast Bihar across centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height persists.\nThe offshore trough at mean sea level from South Gujarat to Kerala persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over Himachal Pradesh & neighbourhood at 5.8 km above mean sea level persists.",
+  "met_analysis": "The Well-Marked Low Pressure Area over southeast Rajasthan & neighbourhood weakened into Low Pressure area over Southwest Rajasthan & neighbourhood at 1730 hrs IST of today, the 01st August, 2026.\nThe associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hours.\nThe Monsoon trough at mean sea level continue to pass through Jaisalmer, centre of Low Pressure area over Southwest Rajasthan & neighbourhood, Banda, Dehri, Malda, thence eastwards towards Manipur.\nThe trough from southwest Rajasthan to northeast Bihar across centre of Low Pressure area over Southwest Rajasthan & neighbourhood, northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height persists.\nThe offshore trough at mean sea level from South Gujarat to Kerala persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over Himachal Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nAn upper air cyclonic circulation lies over North Tamilnadu & neighbourhood and extends upto 1.5 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "southeast Rajasthan & neighbourhood persisted over the same region",
+        "location": "southeast Rajasthan & neighbourhood weakened into Low Pressure area over Southwest Rajasthan & neighbourhood",
         "on_land": true,
-        "movement": "west-northwestwards",
-        "raw_text": "The Well-Marked Low Pressure Area over southeast Rajasthan & neighbourhood persisted over the same region at 1430 hrs IST of today, the 01st August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move west-northwestwards across South Rajasthan and weaken further into a Low Pressure Area during next 24 hours."
+        "raw_text": "The Well-Marked Low Pressure Area over southeast Rajasthan & neighbourhood weakened into Low Pressure area over Southwest Rajasthan & neighbourhood at 1730 hrs IST of today, the 01st August, 2026."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, Banda, Dehri, Malda, thence eastwards towards Manipur.",
+        "raw_text": "The Monsoon trough at mean sea level continue to pass through Jaisalmer, centre of Low Pressure area over Southwest Rajasthan & neighbourhood, Banda, Dehri, Malda, thence eastwards towards Manipur.",
         "passes_through": [
           "Jaisalmer",
-          "centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood",
+          "centre of Low Pressure area over Southwest Rajasthan & neighbourhood",
           "Banda",
           "Dehri",
           "Malda",
@@ -75,6 +74,16 @@
           "display": "1.5 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Tamilnadu & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over North Tamilnadu & neighbourhood and extends upto 1.5 km above mean sea level."
       }
     ],
     "other_troughs": [
@@ -82,17 +91,19 @@
         "type": "Trough",
         "subtype": "general",
         "extent": "southwest Rajasthan to northeast Bihar",
-        "across": "centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height",
+        "across": "centre of Low Pressure area over Southwest Rajasthan & neighbourhood, northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height",
         "level": {
           "type": "upto",
           "max": 4.5,
           "display": "upto 4.5 km above MSL"
         },
-        "raw_text": "The trough from southwest Rajasthan to northeast Bihar across centre of Well-Marked Low Pressureoversoutheast Rajasthan and neighbourhood, northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height persists."
+        "raw_text": "The trough from southwest Rajasthan to northeast Bihar across centre of Low Pressure area over Southwest Rajasthan & neighbourhood, northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height persists."
       }
     ],
-    "suppressed_count": 0,
-    "unclassified": [],
+    "suppressed_count": 1,
+    "unclassified": [
+      "The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to weaken gradually during next 24 hours."
+    ],
     "validation": {
       "warnings_count": 1,
       "systems_with_warnings": [
@@ -101,5 +112,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-01 18:18 IST"
+  "fetched_at": "2026-08-01 21:19 IST"
 }
