@@ -1,0 +1,120 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7acfb460b3f919049a55fd29565d9ba9.pdf",
+  "last_updated": "04:44 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-08-02",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure area over Southwest Rajasthan & neighbourhood persisted over the same region at 1430 hrs IST of today 02nd August. 2026. The associated cyclonic circulation and extends upto 5.8 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level continues to pass through centre of Low Pressure over southwest Rajasthan, Banasthali Vidyapeeth, Orai, Sidhi, Daltonganj, Bankura thence eastwards towards Manipur.\nThe trough from Southwest Rajasthan to Sub-Himalayan West Bengal & Sikkim across centre of Low Pressure over southwest Rajasthan and neighbourhood,northern parts of Madhya Pradesh, southeast Uttar Pradesh and Bihar at 0.9 km above mean sea level persists.\nThe offshore trough at mean sea level from South Gujarat to north Kerala persists.\nThe upper air cyclonic circulation over Uttarakhand & neighbourhood at 0.9 km above mean sea level persists.\nThe Western Disturbanceas a cyclonic circulation over north Pakistan & neighbourhood between 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Bangladesh and adjoining Sub-Himalayan West Bengal at 1.5 km above mean sea level persists.\nThe trough from North Interior Karnataka to Comorian area across South Interior Karnataka, Kerala and Tamilnadu at 5.8 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Northwest India from 4th August, 2026.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Southwest Rajasthan & neighbourhood persisted over the same region",
+        "on_land": true,
+        "raw_text": "The Low Pressure area over Southwest Rajasthan & neighbourhood persisted over the same region at 1430 hrs IST of today 02nd August. 2026. The associated cyclonic circulation and extends upto 5.8 km above mean sea level tilting southwestwards with height."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through centre of Low Pressure over southwest Rajasthan, Banasthali Vidyapeeth, Orai, Sidhi, Daltonganj, Bankura thence eastwards towards Manipur.",
+        "passes_through": [
+          "centre of Low Pressure over southwest Rajasthan",
+          "Banasthali Vidyapeeth",
+          "Orai",
+          "Sidhi",
+          "Daltonganj",
+          "Bankura",
+          "Manipur"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Offshore Trough",
+        "level": "mean sea level",
+        "raw_text": "The offshore trough at mean sea level from South Gujarat to north Kerala persists.",
+        "_warnings": [
+          "Offshore Trough missing extent"
+        ]
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbanceas a cyclonic circulation over north Pakistan & neighbourhood between 5.8 & 7.6 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "north Pakistan & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Uttarakhand & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Uttarakhand & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Bangladesh and adjoining Sub-Himalayan West Bengal",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Bangladesh and adjoining Sub-Himalayan West Bengal at 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Southwest Rajasthan to Sub-Himalayan West Bengal & Sikkim",
+        "across": "centre of Low Pressure over southwest Rajasthan and neighbourhood,northern parts of Madhya Pradesh, southeast Uttar Pradesh and Bihar",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from Southwest Rajasthan to Sub-Himalayan West Bengal & Sikkim across centre of Low Pressure over southwest Rajasthan and neighbourhood,northern parts of Madhya Pradesh, southeast Uttar Pradesh and Bihar at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "North Interior Karnataka to Comorian area",
+        "across": "South Interior Karnataka, Kerala and Tamilnadu",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough from North Interior Karnataka to Comorian area across South Interior Karnataka, Kerala and Tamilnadu at 5.8 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [
+      "A fresh Western Disturbance is likely to affect Northwest India from 4th August, 2026."
+    ],
+    "validation": {
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Offshore Trough"
+      ]
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-02 18:19 IST"
+}
