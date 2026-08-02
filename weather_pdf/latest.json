@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7acfb460b3f919049a55fd29565d9ba9.pdf",
-  "last_updated": "04:44 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/f2f8ccc2d88ecf5af09ae5eeb3378bfa.pdf",
+  "last_updated": "08:30 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-08-02",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure area over Southwest Rajasthan & neighbourhood persisted over the same region at 1430 hrs IST of today 02nd August. 2026. The associated cyclonic circulation and extends upto 5.8 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level continues to pass through centre of Low Pressure over southwest Rajasthan, Banasthali Vidyapeeth, Orai, Sidhi, Daltonganj, Bankura thence eastwards towards Manipur.\nThe trough from Southwest Rajasthan to Sub-Himalayan West Bengal & Sikkim across centre of Low Pressure over southwest Rajasthan and neighbourhood,northern parts of Madhya Pradesh, southeast Uttar Pradesh and Bihar at 0.9 km above mean sea level persists.\nThe offshore trough at mean sea level from South Gujarat to north Kerala persists.\nThe upper air cyclonic circulation over Uttarakhand & neighbourhood at 0.9 km above mean sea level persists.\nThe Western Disturbanceas a cyclonic circulation over north Pakistan & neighbourhood between 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Bangladesh and adjoining Sub-Himalayan West Bengal at 1.5 km above mean sea level persists.\nThe trough from North Interior Karnataka to Comorian area across South Interior Karnataka, Kerala and Tamilnadu at 5.8 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Northwest India from 4th August, 2026.",
+  "met_analysis": "The Low Pressure area over Southwest Rajasthan & neighbourhood persisted over the same region at 1730 hrs IST of today 02nd August. 2026. The associated cyclonic circulation and extends upto 5.8 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level continues to pass through centre of Low Pressure over southwest Rajasthan, Sikar, Hamirpur, Dehri, Purnea thence eastwards towards Manipur.\nThe trough from Southwest Rajasthan to Sub-Himalayan West Bengal & Sikkim across centre of Low Pressure over southwest Rajasthan and neighbourhood,northern parts of Madhya Pradesh, southeast Uttar Pradesh and Bihar at 0.9 km above mean sea level persists.\nThe offshore trough at mean sea level from South Gujarat to north Kerala persists.\nThe upper air cyclonic circulation over Uttarakhand & neighbourhood at 0.9 km above mean sea level persists.\nThe Western Disturbanceas a cyclonic circulation over north Pakistan & neighbourhood between 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Bangladesh and adjoining Sub-Himalayan West Bengal at 1.5 km above mean sea level persists.\nThe trough from North Interior Karnataka to Comorian area across South Interior Karnataka, Kerala and Tamilnadu at 5.8 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect Northwest India from 4th August, 2026.",
   "systems": {
     "priority": [
       {
@@ -19,18 +19,17 @@
         "status": "active",
         "location": "Southwest Rajasthan & neighbourhood persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure area over Southwest Rajasthan & neighbourhood persisted over the same region at 1430 hrs IST of today 02nd August. 2026. The associated cyclonic circulation and extends upto 5.8 km above mean sea level tilting southwestwards with height."
+        "raw_text": "The Low Pressure area over Southwest Rajasthan & neighbourhood persisted over the same region at 1730 hrs IST of today 02nd August. 2026. The associated cyclonic circulation and extends upto 5.8 km above mean sea level tilting southwestwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through centre of Low Pressure over southwest Rajasthan, Banasthali Vidyapeeth, Orai, Sidhi, Daltonganj, Bankura thence eastwards towards Manipur.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through centre of Low Pressure over southwest Rajasthan, Sikar, Hamirpur, Dehri, Purnea thence eastwards towards Manipur.",
         "passes_through": [
           "centre of Low Pressure over southwest Rajasthan",
-          "Banasthali Vidyapeeth",
-          "Orai",
-          "Sidhi",
-          "Daltonganj",
-          "Bankura",
+          "Sikar",
+          "Hamirpur",
+          "Dehri",
+          "Purnea",
           "Manipur"
         ],
         "level": "mean sea level"
@@ -116,5 +115,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-02 18:19 IST"
+  "fetched_at": "2026-08-02 21:21 IST"
 }
