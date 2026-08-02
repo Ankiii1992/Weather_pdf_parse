@@ -1,0 +1,96 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/190badaea1e57464d8ed9b3fa82322a9.pdf",
+  "last_updated": "08:28 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-02",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure area over Southwest Rajasthan & neighbourhood has become less marked. However, the associated cyclonic circulation persists and now extends upto 5.8 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Bikaner, Guna, Daltonganj, Bankura thence eastwards towards Manipur.\nThe trough from southwest Rajasthan to northeast Bihar across cyclonic circulation over Southwest Rajasthan & neighbourhood, northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height persists.\nThe offshore trough at mean sea level from South Gujarat to Kerala persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over Himachal Pradesh & neighbourhood at 5.8 km above mean sea level has moved away.\nThe upper air cyclonic circulation lies over North Tamilnadu & neighbourhood and extending upto 1.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, Guna, Daltonganj, Bankura thence eastwards towards Manipur.",
+        "passes_through": [
+          "Bikaner",
+          "Guna",
+          "Daltonganj",
+          "Bankura",
+          "Manipur"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Offshore Trough",
+        "level": "mean sea level",
+        "raw_text": "The offshore trough at mean sea level from South Gujarat to Kerala persists.",
+        "_warnings": [
+          "Offshore Trough missing extent"
+        ]
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Himachal Pradesh & neighbourhood at 5.8 km above mean sea level has moved away.",
+        "form": "cyclonic_circulation",
+        "location": "Himachal Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Assam & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Himachal Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "southwest Rajasthan to northeast Bihar",
+        "across": "cyclonic circulation over Southwest Rajasthan & neighbourhood, northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height",
+        "level": {
+          "type": "upto",
+          "max": 4.5,
+          "display": "upto 4.5 km above MSL"
+        },
+        "raw_text": "The trough from southwest Rajasthan to northeast Bihar across cyclonic circulation over Southwest Rajasthan & neighbourhood, northern parts of Madhya Pradesh, southeast Uttar Pradesh and extends upto 4.5 km above mean sea level tilting southwestwards with height persists."
+      }
+    ],
+    "suppressed_count": 2,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Offshore Trough"
+      ]
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-02 11:15 IST"
+}
