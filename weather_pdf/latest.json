@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c4eb702605009436cc8de93118543c87.pdf",
-  "last_updated": "08:11 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e976779e16391a45944392dac31a5e3d.pdf",
+  "last_updated": "04:41 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-08-03",
   "bulletin": {
     "morning": null,
@@ -11,17 +11,16 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure area over Southwest Rajasthan & neighbourhood has become less marked at 0530 hrs IST of today 03rd August. 2026, however, the associated cyclonic circulation lies over central parts of Rajasthan between 1.5 & 4.5 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level now passes through Sri Ganganagar, Hisar, Bareilly, Sultanpur, Patna and thence eastwards towards Manipur and extends upto 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over Sub-Himalayan West Bengal & Sikkim & neighbourhood between 1.5 & 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over central parts of south Uttar Pradesh & neighbourhood at 5.8 km above mean sea level.\nThe Western Disturbanceas a cyclonic circulation over north Pakistan & neighbourhood lies over Jammu division & neighbourhood between 5.8 & 7.6 km above mean sea level.\nThe trough from Southwest Rajasthan to Sub-Himalayan West Bengal & Sikkim across centre of Low Pressure over southwest Rajasthan and neighbourhood,northern parts of Madhya Pradesh, southeast Uttar Pradesh and Bihar at 0.9 km above mean sea level has merged with the monsoon trough.\nA fresh Western Disturbance is likely to affect Northwest India from 4th August, 2026.\nThe trough from North Interior Karnataka to Comorin area across South Interior Karnataka, Kerala and Tamilnadu at 5.8 km above mean sea level has become less marked.\nThe offshore trough at mean sea level from South Gujarat to north Kerala has become less marked.\nThe upper air cyclonic circulation over Uttarakhand & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over northwest Bangladesh and adjoining Sub-Himalayan West Bengal at 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The cyclonic circulation over central parts of Rajasthan over Northeast Rajasthan & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe Monsoon trough at mean sea level continue to pass through Bikaner, Delhi, Lucknow, Patna and thence eastwards towards Manipur and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Sub-Himalayan West Bengal & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central parts of south Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nThe Western Disturbanceas a cyclonic circulation over Jammu division & neighbourhood between 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over South Coastal Tamil Nadu & neighbourhood at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Hisar, Bareilly, Sultanpur, Patna and thence eastwards towards Manipur and extends upto 0.9 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level continue to pass through Bikaner, Delhi, Lucknow, Patna and thence eastwards towards Manipur and extends upto 0.9 km above mean sea level.",
         "passes_through": [
-          "Sri Ganganagar",
-          "Hisar",
-          "Bareilly",
-          "Sultanpur",
+          "Bikaner",
+          "Delhi",
+          "Lucknow",
           "Patna",
           "Manipur"
         ],
@@ -33,7 +32,7 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbanceas a cyclonic circulation over north Pakistan & neighbourhood lies over Jammu division & neighbourhood between 5.8 & 7.6 km above mean sea level.",
+        "raw_text": "The Western Disturbanceas a cyclonic circulation over Jammu division & neighbourhood between 5.8 & 7.6 km above mean sea level persists.",
         "form": "cyclonic_circulation",
         "location": "Jammu division & neighbourhood",
         "level": {
@@ -47,14 +46,24 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Sub-Himalayan West Bengal & Sikkim & neighbourhood",
+        "location": "central parts of Rajasthan over Northeast Rajasthan & neighbourhood",
         "level": {
           "type": "range",
           "min": 1.5,
           "max": 3.1,
           "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Sub-Himalayan West Bengal & Sikkim & neighbourhood between 1.5 & 3.1 km above mean sea level."
+        "raw_text": "The cyclonic circulation over central parts of Rajasthan over Northeast Rajasthan & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Sub-Himalayan West Bengal & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Sub-Himalayan West Bengal & neighbourhood at 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -64,32 +73,38 @@
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over central parts of south Uttar Pradesh & neighbourhood at 5.8 km above mean sea level."
-      }
-    ],
-    "other_troughs": [
+        "raw_text": "The upper air cyclonic circulation over central parts of south Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists."
+      },
       {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "Southwest Rajasthan to Sub-Himalayan West Bengal & Sikkim",
-        "across": "centre of Low Pressure over southwest Rajasthan and neighbourhood,northern parts of Madhya Pradesh, southeast Uttar Pradesh and Bihar",
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Assam & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood between 3.1 & 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Coastal Tamil Nadu & neighbourhood",
         "level": {
           "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         },
-        "raw_text": "The trough from Southwest Rajasthan to Sub-Himalayan West Bengal & Sikkim across centre of Low Pressure over southwest Rajasthan and neighbourhood,northern parts of Madhya Pradesh, southeast Uttar Pradesh and Bihar at 0.9 km above mean sea level has merged with the monsoon trough."
+        "raw_text": "The upper air cyclonic circulation over South Coastal Tamil Nadu & neighbourhood at 5.8 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 6,
-    "unclassified": [
-      "A fresh Western Disturbance is likely to affect Northwest India from 4th August, 2026."
-    ],
+    "other_troughs": [],
+    "suppressed_count": 0,
+    "unclassified": [],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-03 11:31 IST"
+  "fetched_at": "2026-08-03 17:46 IST"
 }
