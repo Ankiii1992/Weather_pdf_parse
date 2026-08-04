@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/375e465fd6286c643185a55b252d1ab6.pdf",
-  "last_updated": "09:21 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-08-03",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bba7d640d6757b69687b6599b77e09b1.pdf",
+  "last_updated": "08:04 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-04",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,19 +11,18 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level now passes through Bikaner, Rohtak, Shahjahanpur, Basti, Patna, Malda and thence eastwards towards Manipur and extends upto 0.9 km above mean sea level.\nThe cyclonic circulation over Northeast Rajasthan & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Sub-Himalayan West Bengal & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central parts of south Uttar Pradesh & neighbourhood persists and extends between 5.8 & 7.6 km above mean sea level.\nThe Western Disturbanceas a cyclonic circulation over Jammu division & neighbourhood between 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhoodbetween 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over South Coastal Tamil Nadu &neighbourhood now lies over North Coastal Tamil Nadu &neighbourhood at 5.8 km above mean sea level.",
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Anupgarh, Delhi, Lucknow, Daltonganj, Murshidabad and thence eastwards towards Manipur and extends upto 0.9 km above mean sea level.\nA fresh Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 66°E to the north of Lat. 30°N.\nThe cyclonic circulation over Northeast Rajasthan & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Sub-Himalayan West Bengal & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central parts of south Uttar Pradesh & neighbourhood extending between 5.8 & 7.6 km above mean sea level persists.\nAn upper air cyclonic circulation lies over northwest Bihar & neighbourhood between 1.5 & 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood persists and now extends between 1.5 & 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over Saurashtra & neighbourhood at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over North Coastal Tamil Nadu &neighbourhood at 5.8 km above mean sea level has become less marked.\nThe Western Disturbanceas a cyclonic circulation over Jammu division & neighbourhood between 5.8 & 7.6 km above mean sea level has moved away.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, Rohtak, Shahjahanpur, Basti, Patna, Malda and thence eastwards towards Manipur and extends upto 0.9 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Anupgarh, Delhi, Lucknow, Daltonganj, Murshidabad and thence eastwards towards Manipur and extends upto 0.9 km above mean sea level.",
         "passes_through": [
-          "Bikaner",
-          "Rohtak",
-          "Shahjahanpur",
-          "Basti",
-          "Patna",
-          "Malda",
+          "Anupgarh",
+          "Delhi",
+          "Lucknow",
+          "Daltonganj",
+          "Murshidabad",
           "Manipur"
         ],
         "level": {
@@ -34,7 +33,7 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbanceas a cyclonic circulation over Jammu division & neighbourhood between 5.8 & 7.6 km above mean sea level persists.",
+        "raw_text": "The Western Disturbanceas a cyclonic circulation over Jammu division & neighbourhood between 5.8 & 7.6 km above mean sea level has moved away.",
         "form": "cyclonic_circulation",
         "location": "Jammu division & neighbourhood",
         "level": {
@@ -76,38 +75,51 @@
           "max": 7.6,
           "display": "5.8–7.6 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central parts of south Uttar Pradesh & neighbourhood persists and extends between 5.8 & 7.6 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over central parts of south Uttar Pradesh & neighbourhood extending between 5.8 & 7.6 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Bihar & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over northwest Bihar & neighbourhood between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "Northeast Assam & neighbourhood",
         "level": {
           "type": "range",
-          "min": 3.1,
-          "max": 5.8,
-          "display": "3.1–5.8 km above MSL"
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhoodbetween 3.1 & 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood persists and now extends between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "North Coastal Tamil Nadu &neighbourhood",
+        "location": "Saurashtra & neighbourhood",
         "level": {
           "type": "single",
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over South Coastal Tamil Nadu &neighbourhood now lies over North Coastal Tamil Nadu &neighbourhood at 5.8 km above mean sea level."
+        "raw_text": "An upper air cyclonic circulation lies over Saurashtra & neighbourhood at 5.8 km above mean sea level."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 0,
-    "unclassified": [],
+    "suppressed_count": 2,
+    "unclassified": [
+      "A fresh Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 66°E to the north of Lat. 30°N."
+    ],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-04 06:44 IST"
+  "fetched_at": "2026-08-04 11:06 IST"
 }
