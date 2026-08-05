@@ -1,0 +1,150 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ab95709af4633948819f64b286c62175.pdf",
+  "last_updated": "07:52 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-05",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Delhi, Lucknow, Daltonganj, Bankura and thence Northeastwards Manipur.\nThe Western Disturbance as cyclonic circulation over Kashmir & neighbourhood at 5.8 km above mean sea level persists however the trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 71°E to the north of Lat. 32°N.\nThe upper air cyclonic circulation over North Haryana & neighbourhood persists and now seen at 3.1 km above mean sea level.\nThe cyclonic circulation over Northeast Rajasthan & neighbourhood lies over West Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level\nAn upper air cyclonic circulation south Tamil Nadu- Puducherry coasts persist now seen between 5.8 & 7.6 km above mean sea level.\nThe upper air cyclonic circulation over central parts of south Uttar Pradesh & neighbourhood persists and now seen between 4.5 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over northwest Bihar & neighbourhood now lies over Northeast Bihar between 3.1 & 7.6 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood now lies over Central Assam between 4.5 & 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Northeast Bangladesh & neighbourhoodupto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over South Interior Karnataka & neighbourhoodat 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Saurashtra & neighbourhood at 5.8 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Westcentral Bay of Bengal off Andhra Pradesh coast and now extends upto 1.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Delhi, Lucknow, Daltonganj, Bankura and thence Northeastwards Manipur.",
+        "passes_through": [
+          "Sri Ganganagar",
+          "Delhi",
+          "Lucknow",
+          "Daltonganj",
+          "Bankura and thence Northeastwards Manipur"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as cyclonic circulation over Kashmir & neighbourhood at 5.8 km above mean sea level persists however the trough aloft in middle & upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 71°E to the north of Lat. 32°N.",
+        "form": "cyclonic_circulation",
+        "location": "Kashmir & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 7.6,
+            "display": "7.6 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over North Haryana & neighbourhood persists and now seen at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "West Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "The cyclonic circulation over Northeast Rajasthan & neighbourhood lies over West Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level"
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation south Tamil Nadu- Puducherry coasts persist now seen between 5.8 & 7.6 km above mean sea level.",
+        "_warnings": [
+          "UAC missing location"
+        ]
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central parts of south Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central parts of south Uttar Pradesh & neighbourhood persists and now seen between 4.5 & 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Bihar",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Bihar & neighbourhood now lies over Northeast Bihar between 3.1 & 7.6 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Central Assam",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood now lies over Central Assam between 4.5 & 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Bangladesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Northeast Bangladesh & neighbourhoodupto 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Interior Karnataka & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over South Interior Karnataka & neighbourhoodat 5.8 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 2,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Upper Air Cyclonic Circulation"
+      ]
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-05 11:05 IST"
+}
