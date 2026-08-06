@@ -1,0 +1,128 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6af46f67aac6407e93f6588477d3a89d.pdf",
+  "last_updated": "08:22 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-06",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Lucknow, Daltonganj, Contai and thence East-southeastwards towards Northeast Bay of Bengal.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 73°E to the north of Lat. 29°N.\nThe cyclonic circulation over northwest Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood between 4.5 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Bihar & adjoining Sub-Himalayan West Bengal & Sikkim between 3.1 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Bay of Bengal between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists.\nAn upper air cyclonic circulation lies over North Odisha & adjoining Gangetic West Bengalat 0.9 km above mean sea level.\nThe upper air cyclonic circulation over South Interior Karnataka & neighbourhoodat 5.8 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over south Tamil Nadu- Puducherry now lies over North Tamil Nadu & neighbourhood between 5.8 & 7.6 km above mean sea level has been less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Lucknow, Daltonganj, Contai and thence East-southeastwards towards Northeast Bay of Bengal.",
+        "passes_through": [
+          "Firozpur",
+          "Rohtak",
+          "Lucknow",
+          "Daltonganj",
+          "Contai",
+          "Northeast Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 73°E to the north of Lat. 29°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 73°E to the north of Lat. 29°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The cyclonic circulation over northwest Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 7.6,
+          "display": "4.5–7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood between 4.5 & 7.6 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Bihar & adjoining Sub-Himalayan West Bengal & Sikkim",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northeast Bihar & adjoining Sub-Himalayan West Bengal & Sikkim between 3.1 & 7.6 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Bay of Bengal",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southeast Bay of Bengal between 3.1 & 4.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Odisha & adjoining Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over North Odisha & adjoining Gangetic West Bengalat 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Tamil Nadu & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Tamil Nadu- Puducherry now lies over North Tamil Nadu & neighbourhood between 5.8 & 7.6 km above mean sea level has been less marked."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 1,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-06 11:08 IST"
+}
