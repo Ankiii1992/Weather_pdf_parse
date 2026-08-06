@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/62d9645b7dd185a2df630daa9d4a4c6d.pdf",
-  "last_updated": "04:31 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/da81e5190e84d756643da5ed57548f9f.pdf",
+  "last_updated": "08:30 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-08-06",
   "bulletin": {
     "morning": null,
@@ -11,19 +11,20 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level continues to pass through Firozpur, Rohtak, Shahjahanpur, Kanpur, Daltonganj, Digha and thence east-southeastwards towards Northeast Bay of Bengal.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Uttar Pradesh & neighbourhood extending upto 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Bay of Bengal & adjoining north Odisha-Gangetic West Bengal coastsat 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Bay of Bengal between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh between 1.5 & 5.8 km above mean sea level persists.",
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Shahjahanpur, Lucknow, Dehri, Jamshedpur, Contai and thence east-southeastwards towards Northeast Bay of Bengal.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood persists and now extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over southeast Uttar Pradesh & neighbourhood persists and now seen between 4.5 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh persists and now seen between 1.5 & 7.6 km above mean sea level tilting southwards with height.\nThe upper air cyclonic circulation over Southeast Bay of Bengal between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Bay of Bengal & adjoining north Odisha-Gangetic West Bengal coastsat 0.9 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Firozpur, Rohtak, Shahjahanpur, Kanpur, Daltonganj, Digha and thence east-southeastwards towards Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Shahjahanpur, Lucknow, Dehri, Jamshedpur, Contai and thence east-southeastwards towards Northeast Bay of Bengal.",
         "passes_through": [
           "Firozpur",
           "Rohtak",
           "Shahjahanpur",
-          "Kanpur",
-          "Daltonganj",
-          "Digha",
+          "Lucknow",
+          "Dehri",
+          "Jamshedpur",
+          "Contai",
           "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
@@ -45,31 +46,34 @@
         "type": "Upper Air Cyclonic Circulation",
         "location": "southwest Uttar Pradesh & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood persists and now extends upto 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "southeast Uttar Pradesh & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 7.6,
-          "display": "upto 7.6 km above MSL"
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over southeast Uttar Pradesh & neighbourhood extending upto 7.6 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over southeast Uttar Pradesh & neighbourhood persists and now seen between 4.5 & 5.8 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Northwest Bay of Bengal & adjoining north Odisha-Gangetic West Bengal coasts",
+        "location": "south Gangetic West Bengal & adjoining Bangladesh",
         "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "type": "range",
+          "min": 1.5,
+          "max": 7.6,
+          "display": "1.5–7.6 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northwest Bay of Bengal & adjoining north Odisha-Gangetic West Bengal coastsat 0.9 km above mean sea level persists."
+        "tilt": "tilting southwards with height",
+        "raw_text": "The upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh persists and now seen between 1.5 & 7.6 km above mean sea level tilting southwards with height."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -81,21 +85,10 @@
           "display": "4.5–5.8 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over Southeast Bay of Bengal between 4.5 & 5.8 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "south Gangetic West Bengal & adjoining Bangladesh",
-        "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 5.8,
-          "display": "1.5–5.8 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh between 1.5 & 5.8 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -103,5 +96,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-06 18:57 IST"
+  "fetched_at": "2026-08-07 04:10 IST"
 }
