@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d74d49489ec2cf2bfb8e8a4f65e70b93.pdf",
-  "last_updated": "04:31 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/547f2804fc3047acddae29d3c2a40b4c.pdf",
+  "last_updated": "09:44 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-08-07",
   "bulletin": {
     "morning": null,
@@ -11,25 +11,25 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level continue to pass through Ganganagar, Delhi, centre of low pressure area over southwest Uttar Pradesh & neighbourhood, Ranchi, Digha and thence southeastwards Eastcentral Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe Low Pressure area over southwest Uttar Pradesh & neighbourhood along with associated cyclonic circulation extending upto 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh extending upto 7.6 km above mean sea level tilting southwards with height persists. Under its influence, a low pressure area is likely to form over the coastal areas of Gangetic West Bengal & adjoining northwest Bay of Bengal during next 24 hours. It is very likely to move west-northwestwards along the monsoon trough across Gangetic West Bengal & adjoining North Odisha, Jharkhand and North Chhattisgarh during subsequent 48 hours.\nThe upper air cyclonic circulation over Jharkhand & neighbourhoodat 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhoodat 1.5 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure area over southwest Uttar Pradesh & neighbourhood persisted. However, The associated cyclonic circulation extends upto 5.8 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Bikaner, centre of low pressure area over southwest Uttar Pradesh & neighbourhood, Sidhi, Ranchi, Contai and thence southeastwards Eastcentral Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh extending upto 7.6 km above mean sea level tilting southwards with height persists. Under its influence, a low pressure area is likely to form over the coastal areas of Gangetic West Bengal & adjoining northwest Bay of Bengal during next 24 hours. It is very likely to move west-northwestwards along the monsoon trough across Gangetic West Bengal & adjoining North Odisha, Jharkhand and North Chhattisgarh during subsequent 48 hours.\nThe upper air cyclonic circulation over Jharkhand & neighbourhoodat 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhoodat 1.5 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "southwest Uttar Pradesh & neighbourhood along with associated cyclonic circulation",
+        "location": "southwest Uttar Pradesh & neighbourhood persisted. However, The associated cyclonic circulation",
         "on_land": true,
-        "raw_text": "The Low Pressure area over southwest Uttar Pradesh & neighbourhood along with associated cyclonic circulation extending upto 4.5 km above mean sea level persists."
+        "raw_text": "The Low Pressure area over southwest Uttar Pradesh & neighbourhood persisted. However, The associated cyclonic circulation extends upto 5.8 km above mean sea level."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continue to pass through Ganganagar, Delhi, centre of low pressure area over southwest Uttar Pradesh & neighbourhood, Ranchi, Digha and thence southeastwards Eastcentral Bay of Bengal and extends upto 0.9 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, centre of low pressure area over southwest Uttar Pradesh & neighbourhood, Sidhi, Ranchi, Contai and thence southeastwards Eastcentral Bay of Bengal and extends upto 0.9 km above mean sea level.",
         "passes_through": [
-          "Ganganagar",
-          "Delhi",
+          "Bikaner",
           "centre of low pressure area over southwest Uttar Pradesh & neighbourhood",
+          "Sidhi",
           "Ranchi",
-          "Digha and thence southeastwards Eastcentral Bay of Bengal"
+          "Contai and thence southeastwards Eastcentral Bay of Bengal"
         ],
         "level": {
           "type": "upto",
@@ -91,5 +91,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-07 21:12 IST"
+  "fetched_at": "2026-08-08 02:57 IST"
 }
