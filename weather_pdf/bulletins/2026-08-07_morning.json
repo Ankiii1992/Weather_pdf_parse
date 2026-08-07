@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/566b99279512dd8972309944d0010985.pdf",
+  "last_updated": "09:02 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-07",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Ganganagar, Gwalior, Sidhi, Jamshedpur, Digha and thence southeastwards Eastcentral Bay of Bengal.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh persists and now extends upto 7.6 km above mean sea level tilting southwards with height. Under its influence a low pressure area is likely to form over the coastal areas of Gangetic West Bengal & adjoining northwest Bay of Bengal during next 24 hours.\nAn upper air cyclonic circulation lies over Jharkhand & neighbourhoodand extends 1.5 km above mean sea level.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood persists and now extends upto 5.8 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over southeast Uttar Pradesh & neighbourhood persists and now seen between 4.5 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Southeast Bay of Bengal between 4.5 & 5.8 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Ganganagar, Gwalior, Sidhi, Jamshedpur, Digha and thence southeastwards Eastcentral Bay of Bengal.",
+        "passes_through": [
+          "Ganganagar",
+          "Gwalior",
+          "Sidhi",
+          "Jamshedpur",
+          "Digha and thence southeastwards Eastcentral Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 73°E to the north of Lat. 29°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Jharkhand & neighbourhoodand extends 1.5 km above mean sea level",
+        "level": "mean sea level",
+        "raw_text": "An upper air cyclonic circulation lies over Jharkhand & neighbourhoodand extends 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood persists and now extends upto 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Uttar Pradesh & neighbourhood persists and now seen between 4.5 & 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Bay of Bengal",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southeast Bay of Bengal between 4.5 & 5.8 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 1,
+    "unclassified": [
+      "The upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh persists and now extends upto 7.6 km above mean sea level tilting southwards with height. Under its influence a low pressure area is likely to form over the coastal areas of Gangetic West Bengal & adjoining northwest Bay of Bengal during next 24 hours."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-07 10:16 IST"
+}
