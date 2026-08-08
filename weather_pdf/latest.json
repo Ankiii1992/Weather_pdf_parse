@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/547f2804fc3047acddae29d3c2a40b4c.pdf",
-  "last_updated": "09:44 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-08-07",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a348ce51b0c542a1e114000ec93ecaeb.pdf",
+  "last_updated": "08:02 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-08",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure area over southwest Uttar Pradesh & neighbourhood persisted. However, The associated cyclonic circulation extends upto 5.8 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Bikaner, centre of low pressure area over southwest Uttar Pradesh & neighbourhood, Sidhi, Ranchi, Contai and thence southeastwards Eastcentral Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh extending upto 7.6 km above mean sea level tilting southwards with height persists. Under its influence, a low pressure area is likely to form over the coastal areas of Gangetic West Bengal & adjoining northwest Bay of Bengal during next 24 hours. It is very likely to move west-northwestwards along the monsoon trough across Gangetic West Bengal & adjoining North Odisha, Jharkhand and North Chhattisgarh during subsequent 48 hours.\nThe upper air cyclonic circulation over Jharkhand & neighbourhoodat 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhoodat 1.5 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure area over southwest Uttar Pradesh & neighbourhood persisted. However, The associated cyclonic circulation extends upto 3.1 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Anupgarh, centre of low pressure area over southwest Uttar Pradesh & neighbourhood, Satna, Daltonganj, Digha and thence southeastwards Eastcentral Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh extending upto 7.6 km above mean sea level tilting southwards with height persists. Under its influence, a low pressure area is likely to form over the coastal areas of Gangetic West Bengal & adjoining northwest Bay of Bengal during next 12 hours. It is very likely to move west-northwestwards along the monsoon trough across Gangetic West Bengal & adjoining North Odisha, Jharkhand and North Chhattisgarh during subsequent 48 hours.\nThe upper air cyclonic circulation over Jharkhand & neighbourhoodat 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhoodat 1.5 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -19,17 +19,17 @@
         "status": "active",
         "location": "southwest Uttar Pradesh & neighbourhood persisted. However, The associated cyclonic circulation",
         "on_land": true,
-        "raw_text": "The Low Pressure area over southwest Uttar Pradesh & neighbourhood persisted. However, The associated cyclonic circulation extends upto 5.8 km above mean sea level."
+        "raw_text": "The Low Pressure area over southwest Uttar Pradesh & neighbourhood persisted. However, The associated cyclonic circulation extends upto 3.1 km above mean sea level."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, centre of low pressure area over southwest Uttar Pradesh & neighbourhood, Sidhi, Ranchi, Contai and thence southeastwards Eastcentral Bay of Bengal and extends upto 0.9 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Anupgarh, centre of low pressure area over southwest Uttar Pradesh & neighbourhood, Satna, Daltonganj, Digha and thence southeastwards Eastcentral Bay of Bengal and extends upto 0.9 km above mean sea level.",
         "passes_through": [
-          "Bikaner",
+          "Anupgarh",
           "centre of low pressure area over southwest Uttar Pradesh & neighbourhood",
-          "Sidhi",
-          "Ranchi",
-          "Contai and thence southeastwards Eastcentral Bay of Bengal"
+          "Satna",
+          "Daltonganj",
+          "Digha and thence southeastwards Eastcentral Bay of Bengal"
         ],
         "level": {
           "type": "upto",
@@ -59,7 +59,7 @@
           "display": "upto 7.6 km above MSL"
         },
         "tilt": "tilting southwards with height",
-        "raw_text": "The upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh extending upto 7.6 km above mean sea level tilting southwards with height persists. Under its influence, a low pressure area is likely to form over the coastal areas of Gangetic West Bengal & adjoining northwest Bay of Bengal during next 24 hours. It is very likely to move west-northwestwards along the monsoon trough across Gangetic West Bengal & adjoining North Odisha, Jharkhand and North Chhattisgarh during subsequent 48 hours."
+        "raw_text": "The upper air cyclonic circulation over south Gangetic West Bengal & adjoining Bangladesh extending upto 7.6 km above mean sea level tilting southwards with height persists. Under its influence, a low pressure area is likely to form over the coastal areas of Gangetic West Bengal & adjoining northwest Bay of Bengal during next 12 hours. It is very likely to move west-northwestwards along the monsoon trough across Gangetic West Bengal & adjoining North Odisha, Jharkhand and North Chhattisgarh during subsequent 48 hours."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -91,5 +91,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-08 06:09 IST"
+  "fetched_at": "2026-08-08 09:32 IST"
 }
