@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5bde70f04b35044f3d88b46866cf9778.pdf",
+  "last_updated": "01:29 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-08-08",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure area over southwest Uttar Pradesh & neighbourhood has become less marked. However,\nThe associated cyclonic circulation now lies over Northeast Rajasthan & neighbourhood and extends upto 3.1 km above mean sea level. Under the influence of the upper air Cyclonic circulation over South West Bengal & adjoining North Odisha, a Low Pressure Area has formed over the same region at 0830 hrs IST of today, 08th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level now passes through Anupgarh, Delhi, Deomali, Sidhi, centre of Low Pressure area over southwest Uttar Pradesh & neighbourhood and thence southeastwards Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Jharkhand & neighbourhoodat 1.5 km above mean sea level has merged with above Monsoon trough.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhoodat 1.5 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Anupgarh, Delhi, Deomali, Sidhi, centre of Low Pressure area over southwest Uttar Pradesh & neighbourhood and thence southeastwards Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.",
+        "passes_through": [
+          "Anupgarh",
+          "Delhi",
+          "Deomali",
+          "Sidhi",
+          "centre of Low Pressure area over southwest Uttar Pradesh & neighbourhood and thence southeastwards Eastcentral Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        }
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 73°E to the north of Lat. 29°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Jharkhand & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Jharkhand & neighbourhoodat 1.5 km above mean sea level has merged with above Monsoon trough."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhoodat 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 2,
+    "unclassified": [
+      "The associated cyclonic circulation now lies over Northeast Rajasthan & neighbourhood and extends upto 3.1 km above mean sea level. Under the influence of the upper air Cyclonic circulation over South West Bengal & adjoining North Odisha, a Low Pressure Area has formed over the same region at 0830 hrs IST of today, 08th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-08 14:55 IST"
+}
