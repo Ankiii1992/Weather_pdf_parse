@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d4a3e11ff41192bb2bd14f557fa1255d.pdf",
-  "last_updated": "04:38 PM IST",
-  "slot": "evening",
-  "bulletin_date": "2026-08-08",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d50a9325114d4f7b30f7100dd135e2c5.pdf",
+  "last_updated": "07:56 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-09",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,25 +11,25 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The upper air cyclonic circulation over Northeast Rajasthan & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe Low Pressure Area over South West Bengal & adjoining North Odisha persisted over the same region at 1430 hrs IST of today, 08th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level continues to pass through Anupgarh, Delhi, Deomali, Sidhi, Digha and centre of Low Pressure area over southwest Uttar Pradesh & neighbourhood and thence southeastwards Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhoodat 1.5 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over North Odisha & adjoining Jharkhand persisted over the same region at 0530 hrs IST of today, 09th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level continues to pass through Bikaner, Kota, Guna, Satna centre of Low Pressure Area over North Odisha & adjoining Jharkhand, Digha and thence southeastwards Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Rajasthan & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 60°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood now lies over Central Assam at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Konkan & neighbourhood now lies over South Madhya Maharashtraat 5.8 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "South West Bengal & adjoining North Odisha persisted over the same region",
+        "location": "North Odisha & adjoining Jharkhand persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over South West Bengal & adjoining North Odisha persisted over the same region at 1430 hrs IST of today, 08th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height."
+        "raw_text": "The Low Pressure Area over North Odisha & adjoining Jharkhand persisted over the same region at 0530 hrs IST of today, 09th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Anupgarh, Delhi, Deomali, Sidhi, Digha and centre of Low Pressure area over southwest Uttar Pradesh & neighbourhood and thence southeastwards Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Bikaner, Kota, Guna, Satna centre of Low Pressure Area over North Odisha & adjoining Jharkhand, Digha and thence southeastwards Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.",
         "passes_through": [
-          "Anupgarh",
-          "Delhi",
-          "Deomali",
-          "Sidhi",
-          "Digha and centre of Low Pressure area over southwest Uttar Pradesh & neighbourhood and thence southeastwards Eastcentral Bay of Bengal"
+          "Bikaner",
+          "Kota",
+          "Guna",
+          "Satna centre of Low Pressure Area over North Odisha & adjoining Jharkhand",
+          "Digha and thence southeastwards Eastcentral Bay of Bengal"
         ],
         "level": {
           "type": "upto",
@@ -39,9 +39,9 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 29°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 60°E to the north of Lat. 29°N persists.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 73°E to the north of Lat. 29°N",
+        "axis": "along Long. 60°E to the north of Lat. 29°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -62,13 +62,23 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Northeast Assam & neighbourhood",
+        "location": "Central Assam",
         "level": {
           "type": "single",
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhoodat 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood now lies over Central Assam at 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Madhya Maharashtra",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Konkan & neighbourhood now lies over South Madhya Maharashtraat 5.8 km above mean sea level."
       }
     ],
     "other_troughs": [],
@@ -80,5 +90,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-09 06:11 IST"
+  "fetched_at": "2026-08-09 09:38 IST"
 }
