@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/51c5a2f7b6705f2d45cecc9f02bb9eee.pdf",
-  "last_updated": "01:25 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b6d06b18864109d6f557b0cd8312374c.pdf",
+  "last_updated": "04:39 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-08-10",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over north Madhya Pradesh & neighbourhood persisted over the same region at 0830 hrs IST of today, 10th August, 2026. However, The associated cyclonic circulation now extends upto 5.8 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through Bikaner, Datia, centre of Low Pressure Area over north Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards into the Eastcentral Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 66°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over northwest Bay of Bengal & neighbourhood persists and extends upto 7.6 km above mean sea level tilting southwestwards with height. Under its influence, a Low Pressure Area is likely to form over the same region around 12th August, 2026.\nAn upper air cyclonic circulation lies over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level.\nA Shear Zone runs roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height.\nThe upper air cyclonic circulation over South Madhya Maharashtraat 5.8 km above mean sea level has become less marked.",
+  "met_analysis": "The Low Pressure Area over north Madhya Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of today, 10th August, 2026. However, The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level continues to pass through Bikaner, Datia, centre of Low Pressure Area over north Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards into the Eastcentral Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 66°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over northwest Bay of Bengal & neighbourhood extending upto 7.6 km above mean sea level tilting southwestwards with height persists. Under its influence, a Low Pressure Area is likely to form over the same region around 12th August, 2026.\nThe upper air cyclonic circulation over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level persists.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.",
   "systems": {
     "priority": [
       {
@@ -19,11 +19,11 @@
         "status": "active",
         "location": "north Madhya Pradesh & neighbourhood persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over north Madhya Pradesh & neighbourhood persisted over the same region at 0830 hrs IST of today, 10th August, 2026. However, The associated cyclonic circulation now extends upto 5.8 km above mean sea level tilting southwards with height."
+        "raw_text": "The Low Pressure Area over north Madhya Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of today, 10th August, 2026. However, The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, Datia, centre of Low Pressure Area over north Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards into the Eastcentral Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Bikaner, Datia, centre of Low Pressure Area over north Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards into the Eastcentral Bay of Bengal and extends upto 1.5 km above mean sea level.",
         "passes_through": [
           "Bikaner",
           "Datia",
@@ -49,11 +49,11 @@
           "display": "3.1–7.6 km above MSL"
         },
         "tilt": "tilting southwards with height",
-        "raw_text": "A Shear Zone runs roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height."
+        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 66°E to the north of Lat. 30°N.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 66°E to the north of Lat. 30°N persists.",
         "form": "trough_in_westerlies",
         "axis": "along Long. 66°E to the north of Lat. 30°N",
         "level": {
@@ -73,7 +73,7 @@
           "display": "upto 7.6 km above MSL"
         },
         "tilt": "tilting southwestwards with height",
-        "raw_text": "The upper air cyclonic circulation over northwest Bay of Bengal & neighbourhood persists and extends upto 7.6 km above mean sea level tilting southwestwards with height. Under its influence, a Low Pressure Area is likely to form over the same region around 12th August, 2026."
+        "raw_text": "The upper air cyclonic circulation over northwest Bay of Bengal & neighbourhood extending upto 7.6 km above mean sea level tilting southwestwards with height persists. Under its influence, a Low Pressure Area is likely to form over the same region around 12th August, 2026."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -83,11 +83,11 @@
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over southeast Himachal Pradesh & neighbourhood at 1.5 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 1,
+    "suppressed_count": 0,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -95,5 +95,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-10 15:41 IST"
+  "fetched_at": "2026-08-10 18:08 IST"
 }
