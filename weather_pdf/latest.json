@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/93e0e796b7e25b91edac3c74e543de28.pdf",
-  "last_updated": "08:55 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-08-09",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/10f1dfb240b573ec7e7d030cc4dfb6d8.pdf",
+  "last_updated": "08:44 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-10",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,23 +11,23 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over northeast Madhya Pradesh & adjoining Chhattisgarh persists over the same region at 1730 hrs IST of today, 09th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height persists.\nThe Monsoon trough at mean sea level now passes through Jaisalmer, Khajuraho, centre of Low Pressure Area over northeast Madhya Pradesh & adjoining Chhattisgarh, Daltonganj, Digha and thence southeastwards into the Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 64°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over Central Assam extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Madhya Maharashtraat 5.8 km above mean sea level persists.\nA fresh cyclonic circulation is likely to form over north Bay of Bengal & adjoining West Bengal- Bangladesh coasts around 11th August, 2026. Under its influence, a Low Pressure Area is likely to form over the same region around 13th August, 2026.",
+  "met_analysis": "The Low Pressure Area over northeast Madhya Pradesh & adjoining Chhattisgarh lies over north Madhya Pradesh & neighbourhood at 0530 hrs IST of today, 10th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level now passes through Jaisalmer, Guna, centre of Low Pressure Area over north Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards into the Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 65°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over South Madhya Maharashtraat 5.8 km above mean sea level persists.\nAn upper air cyclonic circulation lies over northwest Bay of Bengal & neighbourhood and extends upto 3.1 km above mean sea level. Under its influence, a Low Pressure Area is likely to form over the same region around 13th August, 2026.\nThe upper air cyclonic circulation over Central Assam extending upto 3.1 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "northeast Madhya Pradesh & adjoining Chhattisgarh",
+        "location": "north Madhya Pradesh & neighbourhood",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over northeast Madhya Pradesh & adjoining Chhattisgarh persists over the same region at 1730 hrs IST of today, 09th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height persists."
+        "raw_text": "The Low Pressure Area over northeast Madhya Pradesh & adjoining Chhattisgarh lies over north Madhya Pradesh & neighbourhood at 0530 hrs IST of today, 10th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, Khajuraho, centre of Low Pressure Area over northeast Madhya Pradesh & adjoining Chhattisgarh, Daltonganj, Digha and thence southeastwards into the Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, Guna, centre of Low Pressure Area over north Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards into the Eastcentral Bay of Bengal and extends upto 3.1 km above mean sea level.",
         "passes_through": [
           "Jaisalmer",
-          "Khajuraho",
-          "centre of Low Pressure Area over northeast Madhya Pradesh & adjoining Chhattisgarh",
+          "Guna",
+          "centre of Low Pressure Area over north Madhya Pradesh & neighbourhood",
           "Daltonganj",
           "Digha",
           "Eastcentral Bay of Bengal"
@@ -40,9 +40,9 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 64°E to the north of Lat. 29°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 65°E to the north of Lat. 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 64°E to the north of Lat. 29°N",
+        "axis": "along Long. 65°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -53,16 +53,6 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Central Assam",
-        "level": {
-          "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Central Assam extending upto 3.1 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
         "location": "South Madhya Maharashtra",
         "level": {
           "type": "single",
@@ -70,18 +60,26 @@
           "display": "5.8 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over South Madhya Maharashtraat 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Bay of Bengal & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over northwest Bay of Bengal & neighbourhood and extends upto 3.1 km above mean sea level. Under its influence, a Low Pressure Area is likely to form over the same region around 13th August, 2026."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 1,
-    "unclassified": [
-      "A fresh cyclonic circulation is likely to form over north Bay of Bengal & adjoining West Bengal- Bangladesh coasts around 11th August, 2026. Under its influence, a Low Pressure Area is likely to form over the same region around 13th August, 2026."
-    ],
+    "unclassified": [],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-10 06:13 IST"
+  "fetched_at": "2026-08-10 09:51 IST"
 }
