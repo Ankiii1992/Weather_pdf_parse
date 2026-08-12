@@ -1,0 +1,88 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/421b94a318b6b50b432f50c4b4406e3f.pdf",
+  "last_updated": "08:42 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-12",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure Area over East Rajasthan & adjoining northwest Madhya Pradesh lies over northwest Madhya Pradesh & neighbourhoodat 0530 hrs IST of today, 12th August, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through Bikaner, centre of Low Pressure Area over northwest Madhya Pradesh & neighbourhood, Satna, Jamshedpur, centre of Low Pressure Area over North Bay of Bengal off West Bengal-Bangladesh coasts and thence east-southeastwards into the Northeast Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nAn upper air cyclonic circulation lies over northeast Assam & neighbourhood at 0.9 km above mean sea level.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "northwest Madhya Pradesh & neighbourhood",
+        "on_land": true,
+        "raw_text": "The Low Pressure Area over East Rajasthan & adjoining northwest Madhya Pradesh lies over northwest Madhya Pradesh & neighbourhoodat 0530 hrs IST of today, 12th August, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, centre of Low Pressure Area over northwest Madhya Pradesh & neighbourhood, Satna, Jamshedpur, centre of Low Pressure Area over North Bay of Bengal off West Bengal-Bangladesh coasts and thence east-southeastwards into the Northeast Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "passes_through": [
+          "Bikaner",
+          "centre of Low Pressure Area over northwest Madhya Pradesh & neighbourhood",
+          "Satna",
+          "Jamshedpur",
+          "centre of Low Pressure Area over North Bay of Bengal off West Bengal-Bangladesh coasts",
+          "Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
+      },
+      {
+        "type": "Shear Zone",
+        "location": "roughly along 22°N",
+        "across": "central & adjoining north Peninsular India",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "tilt": "tilting southwards with height",
+        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 68°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over northeast Assam & neighbourhood at 0.9 km above mean sea level."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-12 10:02 IST"
+}
