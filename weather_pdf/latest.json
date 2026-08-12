@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/732ac19833b121706d107b11afa953e7.pdf",
-  "last_updated": "04:39 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/63db59132838b7e5735fc69747551cc2.pdf",
+  "last_updated": "08:53 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-08-12",
   "bulletin": {
     "morning": null,
@@ -11,32 +11,36 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The low pressure area over the North Bay of Bengal off West Bengal-Bangladesh coasts persisted over the same region at 1430 hrs IST of today, the 12th August 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to become a Well-Marked Low Pressure are over the same region during the next 12 hours. Thereafter, it is likely to concentrate into Depression and move Northwestwards across West Bengal and adjoining Bangladesh coasts during subsequent 24 hours.\nThe Low Pressure Area over northwest Madhya Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of today, 12th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level continues to pass through Bikaner, centre of Low Pressure Area over northwest Madhya Pradesh & neighbourhood, Satna, Daltonganj, centre of Low Pressure Area over North Bay of Bengal off West Bengal-Bangladesh coasts extending upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over South Haryana & neighbourhoodat 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.",
+  "met_analysis": "The low pressure area over the North Bay of Bengal off West Bengal-Bangladesh coasts moved northwestwards and lay as a well marked low pressure area over North Bay of Bengal & adjoining Bangladesh-West Bengal coasts at 1730 hrs IST of today, the 12th August 2026. The associated cyclonic circulation extending upto 9.4 km above mean sea level. It is likely to move northwestwards across Gangetic West Bengal towards Jharkhand and may concentrate into a depression during next 24 hours.\nThe Low Pressure Area over northwest Madhya Pradesh & neighbourhood persisted over the same region at 1730 hrs IST of today, 12th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through Bikaner, centre of Low Pressure Area over northwest Madhya Pradesh & neighbourhood, Sidhi, Jamshedpur, Kolkata, centre of well marked low pressure area over North Bay of Bengal & adjoining Bangladesh-West Bengal coasts and extends upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over South Haryana & neighbourhoodat 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "the North Bay of Bengal off West Bengal-Bangladesh coasts persisted over the same region",
-        "movement": "Northwestwards",
-        "raw_text": "The low pressure area over the North Bay of Bengal off West Bengal-Bangladesh coasts persisted over the same region at 1430 hrs IST of today, the 12th August 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to become a Well-Marked Low Pressure are over the same region during the next 12 hours. Thereafter, it is likely to concentrate into Depression and move Northwestwards across West Bengal and adjoining Bangladesh coasts during subsequent 24 hours."
+        "location": "the North Bay of Bengal off West Bengal-Bangladesh coasts moved northwestwards and lay as a well marked low pressure area over North Bay of Bengal & adjoining Bangladesh-West Bengal coasts",
+        "movement": "northwestwards",
+        "raw_text": "The low pressure area over the North Bay of Bengal off West Bengal-Bangladesh coasts moved northwestwards and lay as a well marked low pressure area over North Bay of Bengal & adjoining Bangladesh-West Bengal coasts at 1730 hrs IST of today, the 12th August 2026. The associated cyclonic circulation extending upto 9.4 km above mean sea level. It is likely to move northwestwards across Gangetic West Bengal towards Jharkhand and may concentrate into a depression during next 24 hours.",
+        "_warnings": [
+          "location looks wrong (contains movement/timestamp text): 'the North Bay of Bengal off West Bengal-Bangladesh coasts moved northwestwards a'"
+        ]
       },
       {
         "type": "Low Pressure Area",
         "status": "active",
         "location": "northwest Madhya Pradesh & neighbourhood persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over northwest Madhya Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of today, 12th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwards with height."
+        "raw_text": "The Low Pressure Area over northwest Madhya Pradesh & neighbourhood persisted over the same region at 1730 hrs IST of today, 12th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Bikaner, centre of Low Pressure Area over northwest Madhya Pradesh & neighbourhood, Satna, Daltonganj, centre of Low Pressure Area over North Bay of Bengal off West Bengal-Bangladesh coasts extending upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Bikaner, centre of Low Pressure Area over northwest Madhya Pradesh & neighbourhood, Sidhi, Jamshedpur, Kolkata, centre of well marked low pressure area over North Bay of Bengal & adjoining Bangladesh-West Bengal coasts and extends upto 1.5 km above mean sea level.",
         "passes_through": [
           "Bikaner",
           "centre of Low Pressure Area over northwest Madhya Pradesh & neighbourhood",
-          "Satna",
-          "Daltonganj",
-          "centre of Low Pressure Area over North Bay of Bengal off West Bengal-Bangladesh coasts"
+          "Sidhi",
+          "Jamshedpur",
+          "Kolkata",
+          "centre of well marked low pressure area over North Bay of Bengal & adjoining Bangladesh-West Bengal coasts"
         ],
         "level": {
           "type": "upto",
@@ -79,26 +83,18 @@
           "display": "1.5 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over South Haryana & neighbourhoodat 1.5 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Assam & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
-      "warnings_count": 0,
-      "systems_with_warnings": []
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Low Pressure Area"
+      ]
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-12 18:09 IST"
+  "fetched_at": "2026-08-12 21:18 IST"
 }
