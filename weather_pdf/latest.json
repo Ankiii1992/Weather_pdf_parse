@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e97e684e5aa39b1a90ddf64822399554.pdf",
-  "last_updated": "08:54 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9a8865e7f36676572e4fdc7adc49e339.pdf",
+  "last_updated": "01:31 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-08-13",
   "bulletin": {
     "morning": null,
@@ -11,25 +11,46 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well marked low pressure area over North Bay of Bengal & adjoining Bangladesh - West Bengal coasts moved northwestwards and lies over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal at 0530 hrs IST of today, the 13th August 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It is likely to continue to move northwestwards across Gangetic West Bengal towards Jharkhand and may concentrate into a depression during next 12 hours.\nThe Low Pressure Area over northwest Madhya Pradesh & neighbourhood has become less marked. However, the associated upper air cyclonic circulation persisted over the same region, extending upto 5.8 km above mean sea level and tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through Sri Ganganagar, Bareilly, Lucknow, Ranchi, centre of well marked low pressure area over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over South Haryana & neighbourhoodat 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The well marked low pressure area over coastal West Bengal and adjoining areas of Bangladesh & northwest Bay of Bengal, moved northwestwards, concentrated into a Depression and lies centered at 0830 hrs IST of today, the 13th August, 2026, over coastal West Bengal near latitude 22.3°N and longitude 88.6°E, close to northwest of Canning (West Bengal), about 40 km southeast of Kolkata (West Bengal), 130 km east of Medinipur (West Bengal), 190 km east-northeast of Baripada (Odisha) and 260 km east-southeast of Jamshedpur (Jharkhand). It is very likely to move nearly northwestwards across Gangetic West Bengal and Jharkhand during next 24 hours.\nThe upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height persists.\nThe Monsoon trough at mean sea level now passes through Firozpur, Muzaffar Nagar, Barabanki, Dehri, centre of Depression over coastal West Bengal and adjoining areas of Bangladesh & Northwest ay of Bengal and extends upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over south Haryana & neighbourhood persists and now seen at 0.9 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal",
+        "location": "coastal West Bengal",
+        "coords": {
+          "lat": 22.3,
+          "lon": 88.6
+        },
+        "distance_from": [
+          {
+            "place": "Kolkata (West Bengal",
+            "distance_km": 40,
+            "direction": "southeast"
+          },
+          {
+            "place": "Medinipur (West Bengal",
+            "distance_km": 130,
+            "direction": "east"
+          },
+          {
+            "place": "Jamshedpur (Jharkhand",
+            "distance_km": 260,
+            "direction": "east-southeast"
+          }
+        ],
         "movement": "northwestwards",
-        "raw_text": "The Well marked low pressure area over North Bay of Bengal & adjoining Bangladesh - West Bengal coasts moved northwestwards and lies over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal at 0530 hrs IST of today, the 13th August 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It is likely to continue to move northwestwards across Gangetic West Bengal towards Jharkhand and may concentrate into a depression during next 12 hours."
+        "raw_text": "The well marked low pressure area over coastal West Bengal and adjoining areas of Bangladesh & northwest Bay of Bengal, moved northwestwards, concentrated into a Depression and lies centered at 0830 hrs IST of today, the 13th August, 2026, over coastal West Bengal near latitude 22.3°N and longitude 88.6°E, close to northwest of Canning (West Bengal), about 40 km southeast of Kolkata (West Bengal), 130 km east of Medinipur (West Bengal), 190 km east-northeast of Baripada (Odisha) and 260 km east-southeast of Jamshedpur (Jharkhand). It is very likely to move nearly northwestwards across Gangetic West Bengal and Jharkhand during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Bareilly, Lucknow, Ranchi, centre of well marked low pressure area over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Muzaffar Nagar, Barabanki, Dehri, centre of Depression over coastal West Bengal and adjoining areas of Bangladesh & Northwest ay of Bengal and extends upto 1.5 km above mean sea level.",
         "passes_through": [
-          "Sri Ganganagar",
-          "Bareilly",
-          "Lucknow",
-          "Ranchi",
-          "centre of well marked low pressure area over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal"
+          "Firozpur",
+          "Muzaffar Nagar",
+          "Barabanki",
+          "Dehri",
+          "centre of Depression over coastal West Bengal and adjoining areas of Bangladesh & Northwest ay of Bengal"
         ],
         "level": {
           "type": "upto",
@@ -62,9 +83,31 @@
         }
       }
     ],
-    "uac": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Madhya Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "tilt": "tilting southwards with height",
+        "raw_text": "The upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Haryana & neighbourhood persists and now seen at 0.9 km above mean sea level."
+      }
+    ],
     "other_troughs": [],
-    "suppressed_count": 2,
+    "suppressed_count": 0,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -72,5 +115,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-13 12:37 IST"
+  "fetched_at": "2026-08-13 15:23 IST"
 }
