@@ -1,0 +1,124 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1b0fbcfe39a2a079a67f6a285b23b3e0.pdf",
+  "last_updated": "09:00 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-08-13",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Depression over coastal West Bengal moved west-northwestwards with a speed of 12 kmph during past 6 hours and lies centered at 1730 hrs IST of today, the 13th August, 2026, over the same region near latitude 22.6°N and longitude 87.8°E, about 50 km east-northeast of Medinipur (West Bengal), 60 km west of Kolkata (West Bengal), 110 km southeast of Bankura (West Bengal), 160 km east-southeast of Purulia (West Bengal) and 170 km east of Jamshedpur (Jharkhand). It is very likely to continue to move west-northwestwards across Gangetic West Bengal and Jharkhand during next 24 hours.\nThe upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height persists.\nThe Monsoon trough at mean sea level now passes through Amritsar, Shahjahanpur, Ballia, centre of Depression over coastal West Bengal & thence, Southeastwards to Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over south Haryana & neighbourhood at 0.9 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Depression",
+        "status": "active",
+        "location": "the same region",
+        "coords": {
+          "lat": 22.6,
+          "lon": 87.8
+        },
+        "distance_from": [
+          {
+            "place": "Medinipur (West Bengal",
+            "distance_km": 50,
+            "direction": "east-northeast"
+          },
+          {
+            "place": "Kolkata (West Bengal",
+            "distance_km": 60,
+            "direction": "west"
+          },
+          {
+            "place": "Bankura (West Bengal",
+            "distance_km": 110,
+            "direction": "southeast"
+          },
+          {
+            "place": "Purulia (West Bengal) and 170 km east of Jamshedpur (Jharkhand",
+            "distance_km": 160,
+            "direction": "east-southeast"
+          }
+        ],
+        "movement": "west-northwestwards",
+        "raw_text": "The Depression over coastal West Bengal moved west-northwestwards with a speed of 12 kmph during past 6 hours and lies centered at 1730 hrs IST of today, the 13th August, 2026, over the same region near latitude 22.6°N and longitude 87.8°E, about 50 km east-northeast of Medinipur (West Bengal), 60 km west of Kolkata (West Bengal), 110 km southeast of Bankura (West Bengal), 160 km east-southeast of Purulia (West Bengal) and 170 km east of Jamshedpur (Jharkhand). It is very likely to continue to move west-northwestwards across Gangetic West Bengal and Jharkhand during next 24 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Shahjahanpur, Ballia, centre of Depression over coastal West Bengal & thence, Southeastwards to Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "passes_through": [
+          "Amritsar",
+          "Shahjahanpur",
+          "Ballia",
+          "centre of Depression over coastal West Bengal & thence",
+          "Southeastwards to Northwest Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
+      },
+      {
+        "type": "Shear Zone",
+        "location": "roughly along 22°N",
+        "across": "central & adjoining north Peninsular India",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "tilt": "tilting southwards with height",
+        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 68°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Madhya Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "tilt": "tilting southwards with height",
+        "raw_text": "The upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Haryana & neighbourhood at 0.9 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-13 21:18 IST"
+}
