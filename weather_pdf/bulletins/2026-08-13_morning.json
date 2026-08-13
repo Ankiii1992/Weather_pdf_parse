@@ -1,0 +1,76 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e97e684e5aa39b1a90ddf64822399554.pdf",
+  "last_updated": "08:54 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-13",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Well marked low pressure area over North Bay of Bengal & adjoining Bangladesh - West Bengal coasts moved northwestwards and lies over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal at 0530 hrs IST of today, the 13th August 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It is likely to continue to move northwestwards across Gangetic West Bengal towards Jharkhand and may concentrate into a depression during next 12 hours.\nThe Low Pressure Area over northwest Madhya Pradesh & neighbourhood has become less marked. However, the associated upper air cyclonic circulation persisted over the same region, extending upto 5.8 km above mean sea level and tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through Sri Ganganagar, Bareilly, Lucknow, Ranchi, centre of well marked low pressure area over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over South Haryana & neighbourhoodat 1.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal",
+        "movement": "northwestwards",
+        "raw_text": "The Well marked low pressure area over North Bay of Bengal & adjoining Bangladesh - West Bengal coasts moved northwestwards and lies over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal at 0530 hrs IST of today, the 13th August 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It is likely to continue to move northwestwards across Gangetic West Bengal towards Jharkhand and may concentrate into a depression during next 12 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Bareilly, Lucknow, Ranchi, centre of well marked low pressure area over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "passes_through": [
+          "Sri Ganganagar",
+          "Bareilly",
+          "Lucknow",
+          "Ranchi",
+          "centre of well marked low pressure area over coastal West Bengal and adjoining areas of Bangladesh & Northwest Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
+      },
+      {
+        "type": "Shear Zone",
+        "location": "roughly along 22°N",
+        "across": "central & adjoining north Peninsular India",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "tilt": "tilting southwards with height",
+        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 68°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [],
+    "other_troughs": [],
+    "suppressed_count": 2,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-13 10:14 IST"
+}
