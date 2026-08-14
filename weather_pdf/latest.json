@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1b0fbcfe39a2a079a67f6a285b23b3e0.pdf",
-  "last_updated": "09:00 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-08-13",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/314c614620faa12404078b0b2196d811.pdf",
+  "last_updated": "08:40 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-14",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,51 +11,52 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression over coastal West Bengal moved west-northwestwards with a speed of 12 kmph during past 6 hours and lies centered at 1730 hrs IST of today, the 13th August, 2026, over the same region near latitude 22.6°N and longitude 87.8°E, about 50 km east-northeast of Medinipur (West Bengal), 60 km west of Kolkata (West Bengal), 110 km southeast of Bankura (West Bengal), 160 km east-southeast of Purulia (West Bengal) and 170 km east of Jamshedpur (Jharkhand). It is very likely to continue to move west-northwestwards across Gangetic West Bengal and Jharkhand during next 24 hours.\nThe upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height persists.\nThe Monsoon trough at mean sea level now passes through Amritsar, Shahjahanpur, Ballia, centre of Depression over coastal West Bengal & thence, Southeastwards to Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over south Haryana & neighbourhood at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Depression over Gangetic West Bengal moved west-northwestwards with a speed of 20 kmph during past 6 hours and lies centered at 0530 hrs IST of today, the 14th August, 2026, over Jharkhand and adjoining Gangetic West Bengal, near latitude 23.1°N and longitude 86.0°E, about 40 km north-northwest of Jamshedpur (Jharkhand), 50 km west-southwest of Purulia (West Bengal), 70 km east-southeast of Ranchi (Jharkhand), 120 km south-southwest of Hazaribagh (Jharkhand) and 220 km east-southeast of Daltonganj (Jharkhand). It is very likely to continue to move west-northwestwards across Jharkhand and weaken into well mark low pressure area during next 24 hours.\nThe upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height persists.\nThe Monsoon trough at mean sea level now passes through Amritsar, Bareilly, Varanasi, Ranchi, centre of Depression over Jharkhand and adjoining Gangetic West Bengal and Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over south Haryana & neighbourhood at 0.9 km above mean sea level has become less marked",
   "systems": {
     "priority": [
       {
         "type": "Depression",
         "status": "active",
-        "location": "the same region",
+        "location": "Jharkhand and adjoining Gangetic West Bengal",
         "coords": {
-          "lat": 22.6,
-          "lon": 87.8
+          "lat": 23.1,
+          "lon": 86.0
         },
         "distance_from": [
           {
-            "place": "Medinipur (West Bengal",
+            "place": "Jamshedpur (Jharkhand",
+            "distance_km": 40,
+            "direction": "north-northwest"
+          },
+          {
+            "place": "Purulia (West Bengal",
             "distance_km": 50,
-            "direction": "east-northeast"
+            "direction": "west-southwest"
           },
           {
-            "place": "Kolkata (West Bengal",
-            "distance_km": 60,
-            "direction": "west"
+            "place": "Ranchi (Jharkhand",
+            "distance_km": 70,
+            "direction": "east-southeast"
           },
           {
-            "place": "Bankura (West Bengal",
-            "distance_km": 110,
-            "direction": "southeast"
-          },
-          {
-            "place": "Purulia (West Bengal) and 170 km east of Jamshedpur (Jharkhand",
-            "distance_km": 160,
+            "place": "Daltonganj (Jharkhand",
+            "distance_km": 220,
             "direction": "east-southeast"
           }
         ],
         "movement": "west-northwestwards",
-        "raw_text": "The Depression over coastal West Bengal moved west-northwestwards with a speed of 12 kmph during past 6 hours and lies centered at 1730 hrs IST of today, the 13th August, 2026, over the same region near latitude 22.6°N and longitude 87.8°E, about 50 km east-northeast of Medinipur (West Bengal), 60 km west of Kolkata (West Bengal), 110 km southeast of Bankura (West Bengal), 160 km east-southeast of Purulia (West Bengal) and 170 km east of Jamshedpur (Jharkhand). It is very likely to continue to move west-northwestwards across Gangetic West Bengal and Jharkhand during next 24 hours."
+        "raw_text": "The Depression over Gangetic West Bengal moved west-northwestwards with a speed of 20 kmph during past 6 hours and lies centered at 0530 hrs IST of today, the 14th August, 2026, over Jharkhand and adjoining Gangetic West Bengal, near latitude 23.1°N and longitude 86.0°E, about 40 km north-northwest of Jamshedpur (Jharkhand), 50 km west-southwest of Purulia (West Bengal), 70 km east-southeast of Ranchi (Jharkhand), 120 km south-southwest of Hazaribagh (Jharkhand) and 220 km east-southeast of Daltonganj (Jharkhand). It is very likely to continue to move west-northwestwards across Jharkhand and weaken into well mark low pressure area during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Shahjahanpur, Ballia, centre of Depression over coastal West Bengal & thence, Southeastwards to Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Bareilly, Varanasi, Ranchi, centre of Depression over Jharkhand and adjoining Gangetic West Bengal and Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.",
         "passes_through": [
           "Amritsar",
-          "Shahjahanpur",
-          "Ballia",
-          "centre of Depression over coastal West Bengal & thence",
-          "Southeastwards to Northwest Bay of Bengal"
+          "Bareilly",
+          "Varanasi",
+          "Ranchi",
+          "centre of Depression over Jharkhand and adjoining Gangetic West Bengal and Digha &",
+          "Northwest Bay of Bengal"
         ],
         "level": {
           "type": "upto",
@@ -99,20 +100,10 @@
         },
         "tilt": "tilting southwards with height",
         "raw_text": "The upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "south Haryana & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over south Haryana & neighbourhood at 0.9 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -120,5 +111,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-14 06:21 IST"
+  "fetched_at": "2026-08-14 10:11 IST"
 }
