@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3c511e4ced2e3d235cfd97b5883ee32a.pdf",
-  "last_updated": "04:21 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/92e275230fede209455ad16086bc2853.pdf",
+  "last_updated": "08:39 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-08-14",
   "bulletin": {
     "morning": null,
@@ -11,46 +11,29 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression over Jharkhand and adjoining Gangetic West Bengal moved west-northwestwards with a speed of 18 kmph during past 06 hours and lies centered at 1130 hrs IST of today, the 14th August, 2026, over Jharkhand, near latitude 23.3°N and longitude 85.3°E, close to Ranchi (Jharkhand), 80 km south of Hazaribagh (Jharkhand), 130 km east-northeast of Jashpurnagar (Chhattisgarh), 150 km east-southeast of Daltonganj (Jharkhand) and 210 km east of Ambikapur (Chhattisgarh). It is very likely to continue to move west- northwestwards across Jharkhand & adjoining north Chhattisgarh and weaken into well marked low pressure area during next 06 hours.\nThe Monsoon trough at mean sea level now passes through Firozpur, Muzaffarnagar, Fatehgarh, Daltonganj, centre of Depression over Jharkhand, Digha & thence southeastwards to Eastcentral Bay of Bengal.\nThe Shear Zone roughly along Lat. 23°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhoodat 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Rajasthan adjoining Pakistan between 3.1 & 4.5 km above mean sea level persists.\nThe north-south trough from northwest Rajasthan to northeast Arabian sea across Gujarat at 1.5 km above mean sea level persists.",
+  "met_analysis": "The Depression over Jharkhand moved west-northwestwards and weakened into a well marked low pressure area over the same region at 1730 hrs IST of today, the 14th August, 2026. It is likely to move slowly west- northwestwards and weaken further into a low pressure area over the same region during next 12 hours.\nThe Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Hamirpur, Sidhi, centre of well marked low pressure area over Jharkhand, Digha & thence southeastwards to Eastcentral Bay of Bengal.\nThe Shear Zone now runs roughly along Lat. 22°N across central & adjoining north Peninsular India between 4.5 & 7.6 km above mean sea level tilting southwards with height.\nThe Western Disturbance now seen as a cyclonic circulation over Central Pakistan with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over southwest Rajasthan adjoining Pakistan between 3.1 & 4.5 km above mean sea level has merged with the above system.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhoodat 0.9 km above mean sea level persists.\nThe north-south trough from northwest Rajasthan to northeast Arabian sea across Gujarat at 1.5 km above mean sea level persists.\nAn upper air cyclonic circulation lies over northwest Bay of Bengal between 5.8 & 7.6 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Depression",
         "status": "active",
-        "location": "Jharkhand",
-        "coords": {
-          "lat": 23.3,
-          "lon": 85.3
-        },
-        "distance_from": [
-          {
-            "place": "Hazaribagh (Jharkhand",
-            "distance_km": 80,
-            "direction": "south"
-          },
-          {
-            "place": "Jashpurnagar (Chhattisgarh",
-            "distance_km": 130,
-            "direction": "east-northeast"
-          },
-          {
-            "place": "Daltonganj (Jharkhand) and 210 km east of Ambikapur (Chhattisgarh",
-            "distance_km": 150,
-            "direction": "east-southeast"
-          }
-        ],
+        "location": "Jharkhand moved west-northwestwards and weakened into a well marked low pressure area over the same region",
+        "on_land": true,
         "movement": "west-northwestwards",
-        "raw_text": "The Depression over Jharkhand and adjoining Gangetic West Bengal moved west-northwestwards with a speed of 18 kmph during past 06 hours and lies centered at 1130 hrs IST of today, the 14th August, 2026, over Jharkhand, near latitude 23.3°N and longitude 85.3°E, close to Ranchi (Jharkhand), 80 km south of Hazaribagh (Jharkhand), 130 km east-northeast of Jashpurnagar (Chhattisgarh), 150 km east-southeast of Daltonganj (Jharkhand) and 210 km east of Ambikapur (Chhattisgarh). It is very likely to continue to move west- northwestwards across Jharkhand & adjoining north Chhattisgarh and weaken into well marked low pressure area during next 06 hours."
+        "raw_text": "The Depression over Jharkhand moved west-northwestwards and weakened into a well marked low pressure area over the same region at 1730 hrs IST of today, the 14th August, 2026. It is likely to move slowly west- northwestwards and weaken further into a low pressure area over the same region during next 12 hours.",
+        "_warnings": [
+          "location looks wrong (contains movement/timestamp text): 'Jharkhand moved west-northwestwards and weakened into a well marked low pressure'"
+        ]
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Muzaffarnagar, Fatehgarh, Daltonganj, centre of Depression over Jharkhand, Digha & thence southeastwards to Eastcentral Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Hamirpur, Sidhi, centre of well marked low pressure area over Jharkhand, Digha & thence southeastwards to Eastcentral Bay of Bengal.",
         "passes_through": [
           "Firozpur",
-          "Muzaffarnagar",
-          "Fatehgarh",
-          "Daltonganj",
-          "centre of Depression over Jharkhand",
+          "Rohtak",
+          "Hamirpur",
+          "Sidhi",
+          "centre of well marked low pressure area over Jharkhand",
           "Digha &",
           "Eastcentral Bay of Bengal"
         ],
@@ -58,26 +41,34 @@
       },
       {
         "type": "Shear Zone",
-        "location": "roughly along 23°N",
+        "location": "roughly along 22°N",
         "across": "central & adjoining north Peninsular India",
         "level": {
           "type": "range",
-          "min": 3.1,
+          "min": 4.5,
           "max": 7.6,
-          "display": "3.1–7.6 km above MSL"
+          "display": "4.5–7.6 km above MSL"
         },
         "tilt": "tilting southwards with height",
-        "raw_text": "The Shear Zone roughly along Lat. 23°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists."
+        "raw_text": "The Shear Zone now runs roughly along Lat. 22°N across central & adjoining north Peninsular India between 4.5 & 7.6 km above mean sea level tilting southwards with height."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.",
-        "form": "trough_in_westerlies",
-        "axis": "along Long. 70°E to the north of Lat. 30°N",
+        "raw_text": "The Western Disturbance now seen as a cyclonic circulation over Central Pakistan with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N.",
+        "form": "cyclonic_circulation",
+        "location": "Central Pakistan with a trough aloft",
         "level": {
           "type": "single",
-          "min": 7.6,
-          "display": "7.6 km above MSL"
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
         }
       },
       {
@@ -95,6 +86,17 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Rajasthan adjoining Pakistan",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan adjoining Pakistan between 3.1 & 4.5 km above mean sea level has merged with the above system."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
         "location": "northwest Uttar Pradesh & neighbourhood",
         "level": {
           "type": "single",
@@ -105,24 +107,26 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "southwest Rajasthan adjoining Pakistan",
+        "location": "northwest Bay of Bengal",
         "level": {
           "type": "range",
-          "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan adjoining Pakistan between 3.1 & 4.5 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over northwest Bay of Bengal between 5.8 & 7.6 km above mean sea level."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 0,
     "unclassified": [],
     "validation": {
-      "warnings_count": 0,
-      "systems_with_warnings": []
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Depression"
+      ]
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-14 18:05 IST"
+  "fetched_at": "2026-08-14 21:11 IST"
 }
