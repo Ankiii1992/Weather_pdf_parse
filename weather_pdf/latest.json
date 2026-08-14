@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/314c614620faa12404078b0b2196d811.pdf",
-  "last_updated": "08:40 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/54a2aebec99c80ee06f5b274f57a53bf.pdf",
+  "last_updated": "01:14 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-08-14",
   "bulletin": {
     "morning": null,
@@ -11,62 +11,58 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression over Gangetic West Bengal moved west-northwestwards with a speed of 20 kmph during past 6 hours and lies centered at 0530 hrs IST of today, the 14th August, 2026, over Jharkhand and adjoining Gangetic West Bengal, near latitude 23.1°N and longitude 86.0°E, about 40 km north-northwest of Jamshedpur (Jharkhand), 50 km west-southwest of Purulia (West Bengal), 70 km east-southeast of Ranchi (Jharkhand), 120 km south-southwest of Hazaribagh (Jharkhand) and 220 km east-southeast of Daltonganj (Jharkhand). It is very likely to continue to move west-northwestwards across Jharkhand and weaken into well mark low pressure area during next 24 hours.\nThe upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height persists.\nThe Monsoon trough at mean sea level now passes through Amritsar, Bareilly, Varanasi, Ranchi, centre of Depression over Jharkhand and adjoining Gangetic West Bengal and Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over south Haryana & neighbourhood at 0.9 km above mean sea level has become less marked",
+  "met_analysis": "The Depression over Jharkhand and adjoining Gangetic West Bengal moved west-northwestwards with a speed of 18 kmph during past 6 hours and lies centered at 0830 hrs IST of today, the 14th August, 2026, over the same region, near latitude 23.2°N and longitude 85.5°E, about 20 km southeast of Ranchi (Jharkhand), 80 km west-northwest of Jamshedpur (Jharkhand), 90 km south of Hazaribagh (Jharkhand), 170 km east-southeast of Daltonganj (Jharkhand) and 230 km east of Ambikapur (Chhattisgarh). It is very likely to continue to move west- northwestwards across Jharkhand & north Chhattisgarh and weaken into well marked low pressure area during next 12 hours.\nThe Monsoon trough at mean sea level now passes through Firozpur, Muzaffarnagar, Fatehgarh, Daltonganj, centre of Depression over Jharkhand and adjoining Gangetic West Bengal and Digha & thence southeastwards to Eastcentral Bay of Bengal.\nThe Shear Zone runs roughly along Lat. 23°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height.\nThe upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height merged with the Shear Zone.\nThe Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 70°E to the north of Lat. 30°N.\nAn upper air cyclonic circulation lies over northwest Uttar Pradesh & neighbourhoodat 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over southwest Rajasthan adjoining Pakistan between 3.1 & 4.5 km above mean sea level.\nA north-south trough runs from northwest Rajasthan to northeast Arabian sea across Gujarat at 1.5 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Depression",
         "status": "active",
-        "location": "Jharkhand and adjoining Gangetic West Bengal",
+        "location": "the same region",
         "coords": {
-          "lat": 23.1,
-          "lon": 86.0
+          "lat": 23.2,
+          "lon": 85.5
         },
         "distance_from": [
           {
-            "place": "Jamshedpur (Jharkhand",
-            "distance_km": 40,
-            "direction": "north-northwest"
-          },
-          {
-            "place": "Purulia (West Bengal",
-            "distance_km": 50,
-            "direction": "west-southwest"
-          },
-          {
             "place": "Ranchi (Jharkhand",
-            "distance_km": 70,
-            "direction": "east-southeast"
+            "distance_km": 20,
+            "direction": "southeast"
           },
           {
-            "place": "Daltonganj (Jharkhand",
-            "distance_km": 220,
+            "place": "Jamshedpur (Jharkhand",
+            "distance_km": 80,
+            "direction": "west-northwest"
+          },
+          {
+            "place": "Hazaribagh (Jharkhand",
+            "distance_km": 90,
+            "direction": "south"
+          },
+          {
+            "place": "Daltonganj (Jharkhand) and 230 km east of Ambikapur (Chhattisgarh",
+            "distance_km": 170,
             "direction": "east-southeast"
           }
         ],
         "movement": "west-northwestwards",
-        "raw_text": "The Depression over Gangetic West Bengal moved west-northwestwards with a speed of 20 kmph during past 6 hours and lies centered at 0530 hrs IST of today, the 14th August, 2026, over Jharkhand and adjoining Gangetic West Bengal, near latitude 23.1°N and longitude 86.0°E, about 40 km north-northwest of Jamshedpur (Jharkhand), 50 km west-southwest of Purulia (West Bengal), 70 km east-southeast of Ranchi (Jharkhand), 120 km south-southwest of Hazaribagh (Jharkhand) and 220 km east-southeast of Daltonganj (Jharkhand). It is very likely to continue to move west-northwestwards across Jharkhand and weaken into well mark low pressure area during next 24 hours."
+        "raw_text": "The Depression over Jharkhand and adjoining Gangetic West Bengal moved west-northwestwards with a speed of 18 kmph during past 6 hours and lies centered at 0830 hrs IST of today, the 14th August, 2026, over the same region, near latitude 23.2°N and longitude 85.5°E, about 20 km southeast of Ranchi (Jharkhand), 80 km west-northwest of Jamshedpur (Jharkhand), 90 km south of Hazaribagh (Jharkhand), 170 km east-southeast of Daltonganj (Jharkhand) and 230 km east of Ambikapur (Chhattisgarh). It is very likely to continue to move west- northwestwards across Jharkhand & north Chhattisgarh and weaken into well marked low pressure area during next 12 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Bareilly, Varanasi, Ranchi, centre of Depression over Jharkhand and adjoining Gangetic West Bengal and Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Muzaffarnagar, Fatehgarh, Daltonganj, centre of Depression over Jharkhand and adjoining Gangetic West Bengal and Digha & thence southeastwards to Eastcentral Bay of Bengal.",
         "passes_through": [
-          "Amritsar",
-          "Bareilly",
-          "Varanasi",
-          "Ranchi",
+          "Firozpur",
+          "Muzaffarnagar",
+          "Fatehgarh",
+          "Daltonganj",
           "centre of Depression over Jharkhand and adjoining Gangetic West Bengal and Digha &",
-          "Northwest Bay of Bengal"
+          "Eastcentral Bay of Bengal"
         ],
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
-        }
+        "level": "mean sea level"
       },
       {
         "type": "Shear Zone",
-        "location": "roughly along 22°N",
+        "location": "roughly along 23°N",
         "across": "central & adjoining north Peninsular India",
         "level": {
           "type": "range",
@@ -75,18 +71,29 @@
           "display": "3.1–7.6 km above MSL"
         },
         "tilt": "tilting southwards with height",
-        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height persists."
+        "raw_text": "The Shear Zone runs roughly along Lat. 23°N across central & adjoining north Peninsular India between 3.1 & 7.6 km above mean sea level tilting southwards with height."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 68°E to the north of Lat. 30°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle and upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 70°E to the north of Lat. 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 68°E to the north of Lat. 30°N",
+        "axis": "along Long. 70°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "min": 7.6,
+          "display": "7.6 km above MSL"
         }
+      },
+      {
+        "type": "North-South Trough",
+        "extent": "northwest Rajasthan to northeast Arabian sea",
+        "across": "Gujarat",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "A north-south trough runs from northwest Rajasthan to northeast Arabian sea across Gujarat at 1.5 km above mean sea level."
       }
     ],
     "uac": [
@@ -99,11 +106,32 @@
           "display": "upto 5.8 km above MSL"
         },
         "tilt": "tilting southwards with height",
-        "raw_text": "The upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height persists."
+        "raw_text": "The upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhood extending upto 5.8 km above mean sea level and tilting southwards with height merged with the Shear Zone."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over northwest Uttar Pradesh & neighbourhoodat 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Rajasthan adjoining Pakistan",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over southwest Rajasthan adjoining Pakistan between 3.1 & 4.5 km above mean sea level."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 1,
+    "suppressed_count": 0,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -111,5 +139,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-14 12:34 IST"
+  "fetched_at": "2026-08-14 15:19 IST"
 }
