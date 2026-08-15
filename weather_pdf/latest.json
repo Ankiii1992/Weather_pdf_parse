@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d083651caff76512535abc9a19373236.pdf",
-  "last_updated": "01:05 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/35fd61bbbe8f6f1d40a2ac25450b23a8.pdf",
+  "last_updated": "05:10 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-08-15",
   "bulletin": {
     "morning": null,
@@ -11,25 +11,19 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The low pressure area and lies over southeast Jharkhand & neighbourhood persisted over the same region.\nThe associated cyclonic circulation extends upto 4.5 km above mean sea level. It is likely to become less marked during next 12 hours.\nThe Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Orai, Sidhi, centre of low pressure area over southeast Jharkhand & neighbourhood & thence southeastwards to Eastcentral Bay of Bengal.\nThe upper air cyclonic circulation over northwest Bay of Bengal between 5.8 & 7.6 km above mean sea levels persists. Under its influence, a low Pressure area likely to form over north Bay of Bengal during next 48 hours.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India persists and now seen between 5.8 & 7.6 km above mean sea levels.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhoodat 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation lies over central Assam extending upto 1.5 km above mean sea level persists.",
+  "met_analysis": "The low pressure area over southeast Jharkhand & neighbourhood has become less marked, however the associated cyclonic circulation extending upto 4.5 km above mean sea level persisted over the same region.\nThe Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Orai, Sidhi, Ranchi, Digha& thence southeastwards to Eastcentral Bay of Bengal.\nThe upper air cyclonic circulation over northwest Bay of Bengal between 5.8 & 7.6 km above mean sea levels persists. Under its influence, a low Pressure area likely to form over north Bay of Bengal during next 48 hours.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhoodat 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation lies over central Assam extending upto 1.5 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
-        "type": "Low Pressure Area",
-        "status": "active",
-        "location": "southeast Jharkhand & neighbourhood persisted over the same region",
-        "on_land": true,
-        "raw_text": "The low pressure area and lies over southeast Jharkhand & neighbourhood persisted over the same region."
-      },
-      {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Orai, Sidhi, centre of low pressure area over southeast Jharkhand & neighbourhood & thence southeastwards to Eastcentral Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Rohtak, Orai, Sidhi, Ranchi, Digha& thence southeastwards to Eastcentral Bay of Bengal.",
         "passes_through": [
           "Firozpur",
           "Rohtak",
           "Orai",
           "Sidhi",
-          "centre of low pressure area over southeast Jharkhand & neighbourhood &",
+          "Ranchi",
+          "Digha&",
           "Eastcentral Bay of Bengal"
         ],
         "level": "mean sea level"
@@ -44,7 +38,7 @@
           "max": 7.6,
           "display": "5.8–7.6 km above MSL"
         },
-        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India persists and now seen between 5.8 & 7.6 km above mean sea levels."
+        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 5.8 & 7.6 km above mean sea level persists."
       }
     ],
     "uac": [
@@ -82,14 +76,12 @@
     ],
     "other_troughs": [],
     "suppressed_count": 1,
-    "unclassified": [
-      "The associated cyclonic circulation extends upto 4.5 km above mean sea level. It is likely to become less marked during next 12 hours."
-    ],
+    "unclassified": [],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-15 14:45 IST"
+  "fetched_at": "2026-08-15 17:43 IST"
 }
