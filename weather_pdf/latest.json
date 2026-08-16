@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/720d3936f5d6c5470cbbcf549d1c5ff0.pdf",
-  "last_updated": "01:34 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5144723cdab6693503c5d33821a1fbae.pdf",
+  "last_updated": "05:13 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-08-16",
   "bulletin": {
     "morning": null,
@@ -11,40 +11,43 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The low pressure area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts persisted over the same region at 0830 hrs IST of today, 16th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move Northwestwards and become more marked during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Amritsar, Ludhiana, Moradabad Lucknow, Varanasi, centre of Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts & thence southeastwards to Eastcentral Bay of Bengal.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India persist and lies between 4.5 & 7.6 km above mean sea level.\nThe upper air cyclonic circulation over North Haryana & neighbourhood lies over Northwest Uttar Pradesh at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over Southeast Uttar Pradesh & neighbourhoodat 3.1 km above mean sea level.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood lies over Gujarat state at 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over Jammu Division & neighbourhoodat 5.8 km above mean sea level.",
+  "met_analysis": "The low pressure area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts lay as a Well Marked Low Pressure Area over the same region at 1430 hrs IST of today, the 16th August 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move northwestwards and concentrate into a Depression during next 24 hours\nThe Monsoon trough at mean sea level now passes through Amritsar, Chandigarh, Dehradun, Bareilly, Sultanpur, Daltonganj, Jamshedpur, centre of Well Marked Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts & thence southeastwards to Northeast Bay of Bengal.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 4.5 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Uttar Pradesh at 0.9 km above mean sea level persists\nThe upper air cyclonic circulation over Southeast Uttar Pradesh & neighbourhoodat 3.1 km above mean sea level persists\nThe upper air cyclonic circulation over Gujarat state at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Jammu Division & neighbourhoodat 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts persisted over the same region",
-        "movement": "Northwestwards",
-        "raw_text": "The low pressure area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts persisted over the same region at 0830 hrs IST of today, 16th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move Northwestwards and become more marked during next 24 hours."
+        "location": "Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts lay as a Well Marked Low Pressure Area over the same region",
+        "movement": "northwestwards",
+        "raw_text": "The low pressure area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts lay as a Well Marked Low Pressure Area over the same region at 1430 hrs IST of today, the 16th August 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is very likely to move northwestwards and concentrate into a Depression during next 24 hours"
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Ludhiana, Moradabad Lucknow, Varanasi, centre of Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts & thence southeastwards to Eastcentral Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Chandigarh, Dehradun, Bareilly, Sultanpur, Daltonganj, Jamshedpur, centre of Well Marked Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts & thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
           "Amritsar",
-          "Ludhiana",
-          "Moradabad Lucknow",
-          "Varanasi",
-          "centre of Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts &",
-          "Eastcentral Bay of Bengal"
+          "Chandigarh",
+          "Dehradun",
+          "Bareilly",
+          "Sultanpur",
+          "Daltonganj",
+          "Jamshedpur",
+          "centre of Well Marked Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts &",
+          "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
       },
       {
         "type": "Shear Zone",
         "location": "roughly along 22°N",
-        "across": "central & adjoining north Peninsular India persist and lies",
+        "across": "central & adjoining north Peninsular India",
         "level": {
           "type": "range",
           "min": 4.5,
           "max": 7.6,
           "display": "4.5–7.6 km above MSL"
         },
-        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India persist and lies between 4.5 & 7.6 km above mean sea level."
+        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 4.5 & 7.6 km above mean sea level persists."
       }
     ],
     "uac": [
@@ -56,7 +59,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over North Haryana & neighbourhood lies over Northwest Uttar Pradesh at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Northwest Uttar Pradesh at 0.9 km above mean sea level persists"
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -66,7 +69,7 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Southeast Uttar Pradesh & neighbourhoodat 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Southeast Uttar Pradesh & neighbourhoodat 3.1 km above mean sea level persists"
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -76,7 +79,7 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan & neighbourhood lies over Gujarat state at 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Gujarat state at 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -86,7 +89,7 @@
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Jammu Division & neighbourhoodat 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Jammu Division & neighbourhoodat 5.8 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
@@ -98,5 +101,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-16 14:47 IST"
+  "fetched_at": "2026-08-16 17:44 IST"
 }
