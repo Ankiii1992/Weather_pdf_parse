@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/f9481f33ae6995fab9952d8c38156a3b.pdf",
+  "last_updated": "08:53 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-16",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Ferozepur, Bareilly, Lucknow, Jamshedpur, centre of Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts& thence southeastwards to Eastcentral Bay of Bengal.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhoodat 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation lies over North Haryana & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over central Assam & neighbourhood at 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over southeast Jharkhand & neighbourhood extending upto 4.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Ferozepur, Bareilly, Lucknow, Jamshedpur, centre of Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts& thence southeastwards to Eastcentral Bay of Bengal.",
+        "passes_through": [
+          "Ferozepur",
+          "Bareilly",
+          "Lucknow",
+          "Jamshedpur",
+          "centre of Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts&",
+          "Eastcentral Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Shear Zone",
+        "location": "roughly along 22°N",
+        "across": "central & adjoining north Peninsular India",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        },
+        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 5.8 & 7.6 km above mean sea level persists."
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan & neighbourhoodat 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over North Haryana & neighbourhood at 0.9 km above mean sea level."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 2,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-16 09:08 IST"
+}
