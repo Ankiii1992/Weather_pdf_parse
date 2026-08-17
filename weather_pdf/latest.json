@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/af6a65ffd72c13886e3c9762ffd4a3cf.pdf",
-  "last_updated": "08:35 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-08-16",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d1c08fc0654bf91f82b68c04fbbf0362.pdf",
+  "last_updated": "08:57 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-17",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,43 +11,35 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well Marked Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts persisted over the same region at 1730 hrs IST of today, the 16th August 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height. It is very likely to move northwestwards and concentrate into a Depression during next 12 hours\nThe Monsoon trough at mean sea level now passes through Amritsar, Ludhiana, Dehradun, Shahjahanpur, Varanasi, Daltonganj, Jamshedpur, centre of Well Marked Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts & thence southeastwards to Northeast Bay of Bengal.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 4.5 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Uttar Pradesh at 0.9 km above mean sea level persists\nThe upper air cyclonic circulation over Southeast Uttar Pradesh & neighbourhoodat 3.1 km above mean sea level persists\nThe upper air cyclonic circulation over Gujarat state at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Jammu Division & neighbourhoodat 5.8 km above mean sea level persists.",
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Firozpur, Dehradun, Barelli, Sultanpur, Daltonganj, Jamshedpur, centre of Depression over coastal West Bengal and adjoining areas of Bangladesh & northwest Bay of Bengal& thence southeastwards to Northeast Bay of Bengal.\nThe Shear Zone now runsroughly along Lat. 21°N across central & adjoining north Peninsular India between 5.8 & 7.6 km above mean sea level.\nThe upper air cyclonic circulation over Northwest Uttar Pradesh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gujarat state now lies over Southeast Rajasthan & neighbourhood at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Jammu Division & neighbourhoodat 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level runs roughly along Long. 70°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Southeast Uttar Pradesh & neighbourhoodat 3.1 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
-        "type": "Low Pressure Area",
-        "status": "active",
-        "location": "Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts persisted over the same region",
-        "movement": "northwestwards",
-        "raw_text": "The Well Marked Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts persisted over the same region at 1730 hrs IST of today, the 16th August 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height. It is very likely to move northwestwards and concentrate into a Depression during next 12 hours"
-      },
-      {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Ludhiana, Dehradun, Shahjahanpur, Varanasi, Daltonganj, Jamshedpur, centre of Well Marked Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts & thence southeastwards to Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Dehradun, Barelli, Sultanpur, Daltonganj, Jamshedpur, centre of Depression over coastal West Bengal and adjoining areas of Bangladesh & northwest Bay of Bengal& thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
-          "Amritsar",
-          "Ludhiana",
+          "Firozpur",
           "Dehradun",
-          "Shahjahanpur",
-          "Varanasi",
+          "Barelli",
+          "Sultanpur",
           "Daltonganj",
           "Jamshedpur",
-          "centre of Well Marked Low Pressure Area over Northwest Bay of Bengal and adjoining West Bengal-North Odisha coasts &",
+          "centre of Depression over coastal West Bengal and adjoining areas of Bangladesh & northwest Bay of Bengal&",
           "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
       },
       {
         "type": "Shear Zone",
-        "location": "roughly along 22°N",
+        "location": "roughly along 21°N",
         "across": "central & adjoining north Peninsular India",
         "level": {
           "type": "range",
-          "min": 4.5,
+          "min": 5.8,
           "max": 7.6,
-          "display": "4.5–7.6 km above MSL"
+          "display": "5.8–7.6 km above MSL"
         },
-        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 4.5 & 7.6 km above mean sea level persists."
+        "raw_text": "The Shear Zone now runsroughly along Lat. 21°N across central & adjoining north Peninsular India between 5.8 & 7.6 km above mean sea level."
       }
     ],
     "uac": [
@@ -59,27 +51,17 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northwest Uttar Pradesh at 0.9 km above mean sea level persists"
+        "raw_text": "The upper air cyclonic circulation over Northwest Uttar Pradesh at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Southeast Uttar Pradesh & neighbourhood",
+        "location": "Southeast Rajasthan & neighbourhood",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Southeast Uttar Pradesh & neighbourhoodat 3.1 km above mean sea level persists"
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Gujarat state",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Gujarat state at 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Gujarat state now lies over Southeast Rajasthan & neighbourhood at 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -89,11 +71,11 @@
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Jammu Division & neighbourhoodat 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Jammu Division & neighbourhoodat 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level runs roughly along Long. 70°E to the north of Lat. 30°N."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -101,5 +83,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-17 09:10 IST"
+  "fetched_at": "2026-08-17 11:58 IST"
 }
