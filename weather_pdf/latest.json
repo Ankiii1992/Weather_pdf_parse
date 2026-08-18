@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4af1bf93467e187353924f1e9f86c55e.pdf",
-  "last_updated": "08:59 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-08-17",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/598c39bc9cd2e68e0a71173439c16bb8.pdf",
+  "last_updated": "08:35 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-18",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,18 +11,18 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level now passes through Ferozepur, Muzaffarnagar, Gorakhpur, Bhagalpur, centre of Depression over northern parts of Gangetic West Bengal & neighbourhood & thence southeastwards to Northeast Bay of Bengal.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 9.4 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over central parts of Rajasthan between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Jammu Division & neighbourhoodat 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over West Madhya Pradesh at 3.1 km above mean sea level persists.",
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Ferozepur, Dehradun, Gorakhpur, Patna, centre of Depression over Jharkhand and adjoining northern parts of Gangetic West Bengal & thence southeastwards to Northeast Bay of Bengal.\nThe Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 9.6 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Jammu Division & neighbourhoodat 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over West Madhya Pradesh now lies over northwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over central parts of Rajasthan between 3.1 & 4.5 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Ferozepur, Muzaffarnagar, Gorakhpur, Bhagalpur, centre of Depression over northern parts of Gangetic West Bengal & neighbourhood & thence southeastwards to Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Ferozepur, Dehradun, Gorakhpur, Patna, centre of Depression over Jharkhand and adjoining northern parts of Gangetic West Bengal & thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
           "Ferozepur",
-          "Muzaffarnagar",
+          "Dehradun",
           "Gorakhpur",
-          "Bhagalpur",
-          "centre of Depression over northern parts of Gangetic West Bengal & neighbourhood &",
+          "Patna",
+          "centre of Depression over Jharkhand and adjoining northern parts of Gangetic West Bengal &",
           "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
@@ -34,10 +34,10 @@
         "level": {
           "type": "range",
           "min": 3.1,
-          "max": 9.4,
-          "display": "3.1–9.4 km above MSL"
+          "max": 9.6,
+          "display": "3.1–9.6 km above MSL"
         },
-        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 9.4 km above mean sea level persists."
+        "raw_text": "The Shear Zone roughly along Lat. 22°N across central & adjoining north Peninsular India between 3.1 & 9.6 km above mean sea level persists."
       }
     ],
     "uac": [
@@ -50,17 +50,6 @@
           "display": "0.9 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "central parts of Rajasthan",
-        "level": {
-          "type": "range",
-          "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over central parts of Rajasthan between 3.1 & 4.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -84,17 +73,17 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "West Madhya Pradesh",
+        "location": "northwest Madhya Pradesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over West Madhya Pradesh at 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over West Madhya Pradesh now lies over northwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -102,5 +91,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-18 06:00 IST"
+  "fetched_at": "2026-08-18 09:05 IST"
 }
