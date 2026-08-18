@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/13bbdb976a7e2e229e6a679d21c28836.pdf",
-  "last_updated": "04:30 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/88a8eb2ea2a2dcd50176461b4e044477.pdf",
+  "last_updated": "08:44 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-08-18",
   "bulletin": {
     "morning": null,
@@ -11,19 +11,17 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe Monsoon trough at mean sea level continues to pass through Ferozepur, Dehradun, Shahjahanpur, Varanasi, Dehri, centre of Depression over Jharkhand and Digha & thence southeastwards to Northeast Bay of Bengal and extends upto 0.9 km above mean sea level with embedded cyclonic circulations over north Haryana & neighbourhood and East Uttar Pradesh & neighbourhood.\nThe trough from the cyclonic circulation over East Uttar Pradesh to Gujarat across north Madhya Pradesh and southeast Rajasthan at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Punjab & neighbourhood at 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 30°N persists.",
+  "met_analysis": "The upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood now lies over central Uttar Pradesh and now seen between 1.5 & 3.1 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Ferozepur, Najibabad, Basti, centre of Depression over Jharkhand thence southeastwards to Northeast Bay of Bengal and extends upto 0.9 km above mean sea level with embedded cyclonic circulations over north Haryana & neighbourhood and central Uttar Pradesh.\nThe trough now runs from the cyclonic circulation over central Uttar Pradeshto South Gujarat Region across West Madhya Pradesh at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Punjab & neighbourhood persists and now seen at 7.6 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Ferozepur, Dehradun, Shahjahanpur, Varanasi, Dehri, centre of Depression over Jharkhand and Digha & thence southeastwards to Northeast Bay of Bengal and extends upto 0.9 km above mean sea level with embedded cyclonic circulations over north Haryana & neighbourhood and East Uttar Pradesh & neighbourhood.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Ferozepur, Najibabad, Basti, centre of Depression over Jharkhand thence southeastwards to Northeast Bay of Bengal and extends upto 0.9 km above mean sea level with embedded cyclonic circulations over north Haryana & neighbourhood and central Uttar Pradesh.",
         "passes_through": [
           "Ferozepur",
-          "Dehradun",
-          "Shahjahanpur",
-          "Varanasi",
-          "Dehri",
-          "centre of Depression over Jharkhand and Digha &",
+          "Najibabad",
+          "Basti",
+          "centre of Depression over Jharkh",
           "Northeast Bay of Bengal"
         ],
         "level": {
@@ -46,37 +44,37 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "East Uttar Pradesh & neighbourhood",
+        "location": "central Uttar Pradesh and",
         "level": {
-          "type": "upto",
+          "type": "range",
+          "min": 1.5,
           "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood now lies over central Uttar Pradesh and now seen between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "Punjab & neighbourhood",
         "level": {
           "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "min": 7.6,
+          "display": "7.6 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Punjab & neighbourhood at 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 30°N persists."
+        "raw_text": "The upper air cyclonic circulation over Punjab & neighbourhood persists and now seen at 7.6 km above mean sea level."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the cyclonic circulation over East Uttar Pradesh to Gujarat",
-        "across": "north Madhya Pradesh and southeast Rajasthan",
+        "across": "West Madhya Pradesh",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The trough from the cyclonic circulation over East Uttar Pradesh to Gujarat across north Madhya Pradesh and southeast Rajasthan at 3.1 km above mean sea level persists."
+        "raw_text": "The trough now runs from the cyclonic circulation over central Uttar Pradeshto South Gujarat Region across West Madhya Pradesh at 3.1 km above mean sea level."
       }
     ],
     "suppressed_count": 0,
@@ -87,5 +85,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-18 17:50 IST"
+  "fetched_at": "2026-08-18 20:57 IST"
 }
