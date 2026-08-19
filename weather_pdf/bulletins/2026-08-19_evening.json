@@ -1,0 +1,97 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ab0eb8a9a371f5a87c17d7ae7a2b973d.pdf",
+  "last_updated": "04:39 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-08-19",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level continue to pass through Firozpur, Karnal, Hardoi, centre of Well- Marked Low Pressure Area over north Jharkhand and adjoining southwest Bihar & southeast Uttar Pradesh, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe trough from Central parts of North Uttar Pradesh to the cyclonic circulation associated with the Well- Marked Low Pressure Area over north Jharkhand and adjoining southwest Bihar & southeast Uttar Pradesh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Punjab & neighbourhood at 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over Northeast Rajasthan & neighbourhoodat 3.1 km above mean sea level persists.\nThe trough from the cyclonic circulation associated with the Depression over north Jharkhand and adjoining southwest Bihar & southeast Uttar Pradesh to South Gujarat Region across Madhya Pradesh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Central Assam & neighbourhoodextending upto 1.5 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continue to pass through Firozpur, Karnal, Hardoi, centre of Well- Marked Low Pressure Area over north Jharkhand and adjoining southwest Bihar & southeast Uttar Pradesh, Digha and thence southeastwards to Northeast Bay of Bengal.",
+        "passes_through": [
+          "Firozpur",
+          "Karnal",
+          "Hardoi",
+          "centre of Well- Marked Low Pressure Area over north Jharkhand and adjoining southwest Bihar & southeast Uttar Pradesh",
+          "Digha",
+          "Northeast Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Punjab & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Punjab & neighbourhood at 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northeast Rajasthan & neighbourhoodat 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Central Assam & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Central Assam & neighbourhoodextending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Central parts of North Uttar Pradesh to the cyclonic circulation associated with the Well- Marked Low Pressure Area over north Jharkhand and adjoining southwest Bihar & southeast Uttar Pradesh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from Central parts of North Uttar Pradesh to the cyclonic circulation associated with the Well- Marked Low Pressure Area over north Jharkhand and adjoining southwest Bihar & southeast Uttar Pradesh at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "the cyclonic circulation associated with the Depression over north Jharkhand and adjoining southwest Bihar & southeast Uttar Pradesh to South Gujarat Region",
+        "across": "Madhya Pradesh",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from the cyclonic circulation associated with the Depression over north Jharkhand and adjoining southwest Bihar & southeast Uttar Pradesh to South Gujarat Region across Madhya Pradesh at 3.1 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-19 17:51 IST"
+}
