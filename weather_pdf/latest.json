@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2715802d1a68a70a2d7eb4626223b5be.pdf",
-  "last_updated": "08:21 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/860f4a15edff8b5b5968c809c1d7a89a.pdf",
+  "last_updated": "01:09 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-08-20",
   "bulletin": {
     "morning": null,
@@ -11,24 +11,25 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh, northwest Jharkhand and north Chhattisgarh now lies over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh at 0530 hrs IST of today, the 20th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through Firozpur, Karnal, Fatehgarh, centre of Well- Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe trough now runs from Northwest Uttar Pradesh to the cyclonic circulation associated with the Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Punjab & neighbourhood at 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists.\nThe trough now runs from the cyclonic circulation associated with the Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh to Southwest Rajasthan across Madhya Pradesh at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Central Assam & neighbourhood persists and now lies at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over northeast Assam & neighbourhood and extends upto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over North Haryana & neighbourhood and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Rajasthan & neighbourhoodat 3.1 km above mean sea level has become less marked.",
+  "met_analysis": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh now lies over northeast Madhya Pradesh & neighbourhood at 0830 hrs IST of today, the 20th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through Amritsar, Najibabad, Fatehgarh, Hardoi, centre of Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Digha and thence southeastwards to Northeast Bay of Bengal.\nA fresh Western Disturbance as a cyclonic circulation lies over north Pakistan & adjoining Jammu division at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Central Assam & neighbourhood now lies over northeast Assam and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over North Haryana & neighbourhood now lies over northwest Uttar Pradesh & neighbourhood and extends upto 3.1 km above mean sea level.\nThe trough from Northwest Uttar Pradesh to the cyclonic circulation associated with the Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Punjab & neighbourhood at 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N has become less marked.\nThe trough from the cyclonic circulation associated with the Well-Marked Low Pressure Area over north Madhya Pradesh & neighbourhood to Southwest Rajasthan at 3.1 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh",
+        "location": "northeast Madhya Pradesh & neighbourhood",
         "on_land": true,
-        "raw_text": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh, northwest Jharkhand and north Chhattisgarh now lies over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh at 0530 hrs IST of today, the 20th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwards with height."
+        "raw_text": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh now lies over northeast Madhya Pradesh & neighbourhood at 0830 hrs IST of today, the 20th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Karnal, Fatehgarh, centre of Well- Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh, Digha and thence southeastwards to Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Najibabad, Fatehgarh, Hardoi, centre of Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Digha and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
-          "Firozpur",
-          "Karnal",
+          "Amritsar",
+          "Najibabad",
           "Fatehgarh",
-          "centre of Well- Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh",
+          "Hardoi",
+          "centre of Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood",
           "Digha",
           "Northeast Bay of Bengal"
         ],
@@ -38,77 +39,35 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Punjab & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Punjab & neighbourhood at 5.8 km above mean sea level with a trough aloft at its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 30°N persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Central Assam & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Central Assam & neighbourhood persists and now lies at 0.9 km above mean sea level."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Assam & neighbourhood",
+        "location": "northeast Assam",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over northeast Assam & neighbourhood and extends upto 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Central Assam & neighbourhood now lies over northeast Assam and extends upto 1.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "North Haryana & neighbourhood",
+        "location": "northwest Uttar Pradesh & neighbourhood",
         "level": {
           "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over North Haryana & neighbourhood and extends upto 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over North Haryana & neighbourhood now lies over northwest Uttar Pradesh & neighbourhood and extends upto 3.1 km above mean sea level."
       }
     ],
-    "other_troughs": [
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "Northwest Uttar Pradesh to the cyclonic circulation associated with the Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The trough now runs from Northwest Uttar Pradesh to the cyclonic circulation associated with the Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh at 0.9 km above mean sea level."
-      },
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "the cyclonic circulation associated with the Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh to Southwest Rajasthan",
-        "across": "Madhya Pradesh",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The trough now runs from the cyclonic circulation associated with the Well-Marked Low Pressure Area over northeast Madhya Pradesh & adjoining southeast Uttar Pradesh and northwest Chhattisgarh to Southwest Rajasthan across Madhya Pradesh at 3.1 km above mean sea level."
-      }
+    "other_troughs": [],
+    "suppressed_count": 4,
+    "unclassified": [
+      "A fresh Western Disturbance as a cyclonic circulation lies over north Pakistan & adjoining Jammu division at 5.8 km above mean sea level."
     ],
-    "suppressed_count": 1,
-    "unclassified": [],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-20 11:54 IST"
+  "fetched_at": "2026-08-20 14:53 IST"
 }
