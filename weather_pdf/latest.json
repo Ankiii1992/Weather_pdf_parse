@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/277ea886981411c98afb55bca36de0a9.pdf",
-  "last_updated": "09:05 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-08-20",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/f5559789950653d7809d3bf73b8ebd10.pdf",
+  "last_updated": "08:06 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-21",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,35 +11,34 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 1730 hrs IST of today, the 20th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwards with height persists.\nThe Monsoon trough at mean sea level now passes through Amritsar, Najibabad, Shahjahanpur, centre of Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Jamshedpur, Sagar Island and thence southeastwards to Northeast Bay of Bengal.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu division at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists.",
+  "met_analysis": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood lay as a Low Pressure Area over the same region at 0530 hrs IST of today, the 21st August, 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Firozpur, Meerut, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Bankura, Digha and thence southeastwards to Eastcentral Bay of Bengal.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood persists and now seen at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over north Odisha & neighbourhoodat 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over northeast Bangladesh & neighbourhoodat 1.5 km above mean sea level.\nThe Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 74°E to the north of Lat. 30°N.\nAn upper air cyclonic circulation lies over Westcentral adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam extending upto 1.5 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "northeast Madhya Pradesh & neighbourhood persisted over the same region",
+        "location": "northeast Madhya Pradesh & neighbourhood lay as a Low Pressure Area over the same region",
         "on_land": true,
-        "raw_text": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 1730 hrs IST of today, the 20th August, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwards with height persists."
+        "raw_text": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood lay as a Low Pressure Area over the same region at 0530 hrs IST of today, the 21st August, 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea level."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Najibabad, Shahjahanpur, centre of Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Jamshedpur, Sagar Island and thence southeastwards to Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Meerut, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Bankura, Digha and thence southeastwards to Eastcentral Bay of Bengal.",
         "passes_through": [
-          "Amritsar",
-          "Najibabad",
-          "Shahjahanpur",
-          "centre of Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood",
-          "Jamshedpur",
-          "Sagar Island",
-          "Northeast Bay of Bengal"
+          "Firozpur",
+          "Meerut",
+          "centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood",
+          "Bankura",
+          "Digha",
+          "Eastcentral Bay of Bengal"
         ],
         "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu division at 5.8 km above mean sea level persists.",
-        "form": "cyclonic_circulation",
-        "location": "north Pakistan & adjoining Jammu division",
+        "raw_text": "The Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 74°E to the north of Lat. 30°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 74°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -50,27 +49,47 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Assam",
+        "location": "northwest Uttar Pradesh & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood persists and now seen at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Uttar Pradesh & neighbourhood",
+        "location": "north Odisha & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over north Odisha & neighbourhoodat 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over northeast Bangladesh & neighbourhoodat 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Westcentral adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Westcentral adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -78,5 +97,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-21 06:02 IST"
+  "fetched_at": "2026-08-21 09:11 IST"
 }
