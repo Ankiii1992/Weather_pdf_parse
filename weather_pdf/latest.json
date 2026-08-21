@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/f5559789950653d7809d3bf73b8ebd10.pdf",
-  "last_updated": "08:06 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ded4d238280555b8b61f610eefbb482f.pdf",
+  "last_updated": "01:30 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-08-21",
   "bulletin": {
     "morning": null,
@@ -11,32 +11,33 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood lay as a Low Pressure Area over the same region at 0530 hrs IST of today, the 21st August, 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Firozpur, Meerut, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Bankura, Digha and thence southeastwards to Eastcentral Bay of Bengal.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood persists and now seen at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over north Odisha & neighbourhoodat 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over northeast Bangladesh & neighbourhoodat 1.5 km above mean sea level.\nThe Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 74°E to the north of Lat. 30°N.\nAn upper air cyclonic circulation lies over Westcentral adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam extending upto 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood at 0830 hrs IST persisted over the same region today, the 21st August, 2026. The associated cyclonic circulation now extends upto 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Amritsar, Muzaffarnagar, Kanpur, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards to Northeast Bay of Bengal.\nAn upper air cyclonic circulation lies over central Myanmar & neighbourhood and extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood now lies over north Haryana at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over north Odisha & neighbourhood lies over south Gangetic West Bengal & adjoining Jharkhand at 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over southwest Madhya Pradesh between 3.1 & 4.5 km above mean sea level.\nAn upper air cyclonic circulation lies over north Bay of Bengal & adjoining Bangladesh at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Westcentral adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 74°E to the north of Lat. 30°N has moved away in east-northeastwards.\nThe upper air cyclonic circulation over northeast Bangladesh & neighbourhoodat 1.5 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "northeast Madhya Pradesh & neighbourhood lay as a Low Pressure Area over the same region",
+        "location": "northeast Madhya Pradesh & neighbourhood",
         "on_land": true,
-        "raw_text": "The Well-Marked Low Pressure Area over northeast Madhya Pradesh & neighbourhood lay as a Low Pressure Area over the same region at 0530 hrs IST of today, the 21st August, 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea level."
+        "raw_text": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood at 0830 hrs IST persisted over the same region today, the 21st August, 2026. The associated cyclonic circulation now extends upto 4.5 km above mean sea level."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Firozpur, Meerut, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Bankura, Digha and thence southeastwards to Eastcentral Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Muzaffarnagar, Kanpur, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
-          "Firozpur",
-          "Meerut",
+          "Amritsar",
+          "Muzaffarnagar",
+          "Kanpur",
           "centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood",
-          "Bankura",
+          "Daltonganj",
           "Digha",
-          "Eastcentral Bay of Bengal"
+          "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 74°E to the north of Lat. 30°N.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 74°E to the north of Lat. 30°N has moved away in east-northeastwards.",
         "form": "trough_in_westerlies",
         "axis": "along Long. 74°E to the north of Lat. 30°N",
         "level": {
@@ -49,33 +50,54 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Uttar Pradesh & neighbourhood",
+        "location": "central Myanmar & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over central Myanmar & neighbourhood and extends upto 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood persists and now seen at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood now lies over north Haryana at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "north Odisha & neighbourhood",
+        "location": "south Gangetic West Bengal & adjoining Jharkhand",
         "level": {
           "type": "single",
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over north Odisha & neighbourhoodat 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over north Odisha & neighbourhood lies over south Gangetic West Bengal & adjoining Jharkhand at 1.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Bangladesh & neighbourhood",
+        "location": "southwest Madhya Pradesh",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over southwest Madhya Pradesh between 3.1 & 4.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Bay of Bengal & adjoining Bangladesh",
         "level": {
           "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over northeast Bangladesh & neighbourhoodat 1.5 km above mean sea level."
+        "raw_text": "An upper air cyclonic circulation lies over north Bay of Bengal & adjoining Bangladesh at 5.8 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -85,7 +107,7 @@
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Westcentral adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Westcentral adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
@@ -97,5 +119,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-21 11:54 IST"
+  "fetched_at": "2026-08-21 14:57 IST"
 }
