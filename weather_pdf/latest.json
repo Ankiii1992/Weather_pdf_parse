@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1a3481e33a6403d9c8f7bb73e1a8fcbe.pdf",
-  "last_updated": "04:05 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a77e64e4bd67ffcda2e0640adec52812.pdf",
+  "last_updated": "08:46 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-08-21",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood at 1430 hrs IST persisted over the same region today, the 21st August, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Amritsar, Meerut, Kanpur, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe upper air cyclonic circulation over central Myanmar & neighbourhood and extends upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Jharkhand at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Madhya Pradesh between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bay of Bengal & adjoining Bangladesh at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Westcentral & adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood at 1730 hrs IST persisted over the same region today, the 21st August, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Amritsar, Muzaffarnagar, Lucknow, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Daltonganj, Contai and thence southeastwards to Northeast Bay of Bengal.\nThe upper air cyclonic circulation over central Myanmar & neighbourhood and extends upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Jharkhand at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Madhya Pradesh between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bay of Bengal & adjoining Bangladesh at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Westcentral & adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -19,18 +19,18 @@
         "status": "active",
         "location": "northeast Madhya Pradesh & neighbourhood",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood at 1430 hrs IST persisted over the same region today, the 21st August, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level."
+        "raw_text": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood at 1730 hrs IST persisted over the same region today, the 21st August, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Meerut, Kanpur, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards to Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Muzaffarnagar, Lucknow, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Daltonganj, Contai and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
           "Amritsar",
-          "Meerut",
-          "Kanpur",
+          "Muzaffarnagar",
+          "Lucknow",
           "centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood",
           "Daltonganj",
-          "Digha",
+          "Contai",
           "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
@@ -108,5 +108,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-21 17:52 IST"
+  "fetched_at": "2026-08-21 20:53 IST"
 }
