@@ -1,0 +1,86 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/04f119f3938e9b8762c74c6d7d649617.pdf",
+  "last_updated": "04:30 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-08-22",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of today, the 22nd August, 2026. The associated cyclonic circulation extending upto 4.5 km above mean sea level.\nThe upper air cyclonic circulation over north Haryana & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Monsoon trough at mean sea level continues to pass through Amritsar, Najibabad, Hardoi, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Jamshedpur, Digha and thence southeastwards to Northeast Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bay of Bengal off West Bengal-Bangladesh Coasts extending upto 5.8 km above mean sea level tilting southwestwards with height persists. Under its influence, a low pressure area is likely to form over the same region during next 24 hours.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "northeast Madhya Pradesh & neighbourhood persisted over the same region",
+        "on_land": true,
+        "raw_text": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of today, the 22nd August, 2026. The associated cyclonic circulation extending upto 4.5 km above mean sea level."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Amritsar, Najibabad, Hardoi, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Jamshedpur, Digha and thence southeastwards to Northeast Bay of Bengal and extends upto 0.9 km above mean sea level.",
+        "passes_through": [
+          "Amritsar",
+          "Najibabad",
+          "Hardoi",
+          "centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood",
+          "Jamshedpur",
+          "Digha",
+          "Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 0.9,
+          "display": "upto 0.9 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Bay of Bengal off West Bengal-Bangladesh Coasts",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "tilt": "tilting southwestwards with height",
+        "raw_text": "The upper air cyclonic circulation over north Bay of Bengal off West Bengal-Bangladesh Coasts extending upto 5.8 km above mean sea level tilting southwestwards with height persists. Under its influence, a low pressure area is likely to form over the same region during next 24 hours."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-22 17:45 IST"
+}
