@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a77e64e4bd67ffcda2e0640adec52812.pdf",
-  "last_updated": "08:46 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-08-21",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/26652752e12b675127fb6422995c7879.pdf",
+  "last_updated": "07:50 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-22",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,26 +11,26 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood at 1730 hrs IST persisted over the same region today, the 21st August, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Amritsar, Muzaffarnagar, Lucknow, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Daltonganj, Contai and thence southeastwards to Northeast Bay of Bengal.\nThe upper air cyclonic circulation over central Myanmar & neighbourhood and extends upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Jharkhand at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Madhya Pradesh between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bay of Bengal & adjoining Bangladesh at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Westcentral & adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 0530 hrs IST of today, the 22nd August, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Amritsar, Dehradun, Lucknow, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Ranchi, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe upper air cyclonic circulation over central Myanmar & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gangetic West Bengal & adjoining Jharkhand at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Madhya Pradesh & neighbourhood between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Bay of Bengal & adjoining Bangladesh at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Westcentral & adjoining Northwest Bay of Bengal and north Andhra Pradesh – South Odisha coasts at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "northeast Madhya Pradesh & neighbourhood",
+        "location": "northeast Madhya Pradesh & neighbourhood persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood at 1730 hrs IST persisted over the same region today, the 21st August, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level."
+        "raw_text": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 0530 hrs IST of today, the 22nd August, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Muzaffarnagar, Lucknow, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Daltonganj, Contai and thence southeastwards to Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Dehradun, Lucknow, centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Ranchi, Digha and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
           "Amritsar",
-          "Muzaffarnagar",
+          "Dehradun",
           "Lucknow",
           "centre of Low Pressure Area over northeast Madhya Pradesh & neighbourhood",
-          "Daltonganj",
-          "Contai",
+          "Ranchi",
+          "Digha",
           "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
@@ -45,7 +45,7 @@
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central Myanmar & neighbourhood and extends upto 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over central Myanmar & neighbourhood extending upto 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -69,14 +69,14 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "southwest Madhya Pradesh",
+        "location": "southwest Madhya Pradesh & neighbourhood",
         "level": {
           "type": "range",
           "min": 3.1,
           "max": 4.5,
           "display": "3.1–4.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over southwest Madhya Pradesh between 3.1 & 4.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over southwest Madhya Pradesh & neighbourhood between 3.1 & 4.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -108,5 +108,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-22 05:59 IST"
+  "fetched_at": "2026-08-22 09:03 IST"
 }
