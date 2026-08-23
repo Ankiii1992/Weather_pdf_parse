@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/94275fae11eee5c1c34154388ba9c471.pdf",
+  "last_updated": "08:50 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-23",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Ferozpur, Karnal, Bareilly, Lucknow, Ranchi, centre of Low Pressure Area over northwest Bay of Bengal & neighbourhood and thence southeastwards to eastcentral Bay of Bengal.\nA trough runs from cyclonic circulation associated with low pressure area over northwest Bay of Bengal and neighbourhood to east Uttar Pradesh across Jharkhand & north Chhattisgarh between 1.5 & 5.8 km above mean sea level tilting south-westward with height.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 60°E to the north of Lat. 32°N.\nThe Low Pressure Areaover northeast Madhya Pradesh & neighbourhood has become less marked; however,\nthe associated cyclonic circulation now lies over East Uttar Pradesh at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over north Haryana & neighbourhood extending upto 1.5 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Ferozpur, Karnal, Bareilly, Lucknow, Ranchi, centre of Low Pressure Area over northwest Bay of Bengal & neighbourhood and thence southeastwards to eastcentral Bay of Bengal.",
+        "passes_through": [
+          "Ferozpur",
+          "Karnal",
+          "Bareilly",
+          "Lucknow",
+          "Ranchi",
+          "centre of Low Pressure Area over northwest Bay of Bengal & neighbourhood",
+          "eastcentral Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 60°E to the north of Lat. 32°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 60°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "cyclonic circulation associated with low pressure area over northwest Bay of Bengal and neighbourhood to east Uttar Pradesh",
+        "across": "Jharkhand & north Chhattisgarh",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 5.8,
+          "display": "1.5–5.8 km above MSL"
+        },
+        "raw_text": "A trough runs from cyclonic circulation associated with low pressure area over northwest Bay of Bengal and neighbourhood to east Uttar Pradesh across Jharkhand & north Chhattisgarh between 1.5 & 5.8 km above mean sea level tilting south-westward with height."
+      }
+    ],
+    "suppressed_count": 2,
+    "unclassified": [
+      "the associated cyclonic circulation now lies over East Uttar Pradesh at 0.9 km above mean sea level."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-23 09:11 IST"
+}
