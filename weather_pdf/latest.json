@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/94275fae11eee5c1c34154388ba9c471.pdf",
-  "last_updated": "08:50 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/80788cd9580bcf643305360ed6a10bc9.pdf",
+  "last_updated": "01:32 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-08-23",
   "bulletin": {
     "morning": null,
@@ -11,28 +11,41 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Monsoon trough at mean sea level now passes through Ferozpur, Karnal, Bareilly, Lucknow, Ranchi, centre of Low Pressure Area over northwest Bay of Bengal & neighbourhood and thence southeastwards to eastcentral Bay of Bengal.\nA trough runs from cyclonic circulation associated with low pressure area over northwest Bay of Bengal and neighbourhood to east Uttar Pradesh across Jharkhand & north Chhattisgarh between 1.5 & 5.8 km above mean sea level tilting south-westward with height.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 60°E to the north of Lat. 32°N.\nThe Low Pressure Areaover northeast Madhya Pradesh & neighbourhood has become less marked; however,\nthe associated cyclonic circulation now lies over East Uttar Pradesh at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over north Haryana & neighbourhood extending upto 1.5 km above mean sea level persists.",
+  "met_analysis": "A LOW-PRESSURE AREA OVER NORTHWEST BAY OF BENGAL & neighbourhood PERSISTED OVER THE SAME REGION AT 0830 HRS IST OF TODAY, THE 23RD AUGUST 2026. IT IS LIKELY TO MOVE NEARLY NORTHWESTWARDS ACROSS NORTH ODISHA ADJOINING GANGETIC WEST BENGAL DURING NEXT 24 HOURS. THE ASSOCIATED CYCLONIC CIRCULATION EXTENDS upto 7.6 KM ABOVE MEAN SEA LEVEL TILTING SOUTHWESTWARDS WITH HEIGHT.\nTHE MONSOON TROUGH AT MEAN SEA LEVEL NOW PASSES THROUGH AMRITSAR, PATIALA, MORADABAD, LUCKNOW, DEHRI, PURULIA, CENTRE OF LOW PRESSURE AREA OVER NORTHWEST BAY OF BENGAL & neighbourhood AND THENCE SOUTHEASTWARDS TO EASTCENTRAL BAY OF BENGAL.\nTHE TROUGH FROM CYCLONIC CIRCULATION ASSOCIATED WITH LOW PRESSURE AREA OVER NORTHWEST BAY OF BENGAL AND neighbourhood TO EAST UTTAR PRADESH ACROSS JHARKHAND & NORTH CHHATTISGARH NOW EXTENDS upto 3.1 KM ABOVE MEAN SEA LEVEL.\nTHE WESTERN DISTURBANCE AS A TROUGH IN MIDDLE & UPPER TROPOSPHERIC WESTERLIES WITH ITS AXIS AT 5.8 KM ABOVE MEAN SEA LEVEL NOW RUNS ROUGHLY ALONG LONG. 60°E TO THE NORTH OF LAT. 30°N.\nTHE CYCLONIC CIRCULATION OVER EAST UTTAR PRADESH PERSISTS AND NOW EXTENDS upto 3.1 KM ABOVE MEAN SEA LEVEL.\nA SHEAR ZONE RUNS ROUGHLY ALONG 22°N OVER CENTRAL INDIA BETWEEN 4.5 & 5.8 ABOVE MEAN SEA LEVEL.\nTHE UPPER AIR CYCLONIC CIRCULATION OVER NORTH HARYANA & neighbourhood PERSISTS AND NOW EXTENDS upto 3.1 KM ABOVE MEAN SEA LEVEL.\nAN UPPER AIR CYCLONIC CIRCULATION LIES OVER NORTHEAST ASSAM & NEIGHBOURHOODAT 1.5 KM ABOVE MEAN SEA LEVEL.\nAN UPPER AIR CYCLONIC CIRCULATION LIES OVER NORTH KERALAM & NEIGHBOURHOODAT 7.6 KM ABOVE MEAN SEA LEVEL.",
   "systems": {
     "priority": [
       {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "NORTHWEST BAY OF BENGAL & neighbourhood PERSISTED OVER THE SAME REGION",
+        "raw_text": "A LOW-PRESSURE AREA OVER NORTHWEST BAY OF BENGAL & neighbourhood PERSISTED OVER THE SAME REGION AT 0830 HRS IST OF TODAY, THE 23RD AUGUST 2026. IT IS LIKELY TO MOVE NEARLY NORTHWESTWARDS ACROSS NORTH ODISHA ADJOINING GANGETIC WEST BENGAL DURING NEXT 24 HOURS. THE ASSOCIATED CYCLONIC CIRCULATION EXTENDS upto 7.6 KM ABOVE MEAN SEA LEVEL TILTING SOUTHWESTWARDS WITH HEIGHT."
+      },
+      {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Ferozpur, Karnal, Bareilly, Lucknow, Ranchi, centre of Low Pressure Area over northwest Bay of Bengal & neighbourhood and thence southeastwards to eastcentral Bay of Bengal.",
+        "raw_text": "THE MONSOON TROUGH AT MEAN SEA LEVEL NOW PASSES THROUGH AMRITSAR, PATIALA, MORADABAD, LUCKNOW, DEHRI, PURULIA, CENTRE OF LOW PRESSURE AREA OVER NORTHWEST BAY OF BENGAL & neighbourhood AND THENCE SOUTHEASTWARDS TO EASTCENTRAL BAY OF BENGAL.",
         "passes_through": [
-          "Ferozpur",
-          "Karnal",
-          "Bareilly",
-          "Lucknow",
-          "Ranchi",
-          "centre of Low Pressure Area over northwest Bay of Bengal & neighbourhood",
-          "eastcentral Bay of Bengal"
+          "AMRITSAR",
+          "PATIALA",
+          "MORADABAD",
+          "LUCKNOW",
+          "DEHRI",
+          "PURULIA",
+          "CENTRE OF LOW PRESSURE AREA OVER NORTHWEST BAY OF BENGAL & neighbourhood",
+          "EASTCENTRAL BAY OF BENGAL"
         ],
         "level": "mean sea level"
       },
       {
+        "type": "Shear Zone",
+        "location": "roughly along 22°N over CENTRAL INDIA",
+        "level": "mean sea level",
+        "raw_text": "A SHEAR ZONE RUNS ROUGHLY ALONG 22°N OVER CENTRAL INDIA BETWEEN 4.5 & 5.8 ABOVE MEAN SEA LEVEL."
+      },
+      {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 60°E to the north of Lat. 32°N.",
+        "raw_text": "THE WESTERN DISTURBANCE AS A TROUGH IN MIDDLE & UPPER TROPOSPHERIC WESTERLIES WITH ITS AXIS AT 5.8 KM ABOVE MEAN SEA LEVEL NOW RUNS ROUGHLY ALONG LONG. 60°E TO THE NORTH OF LAT. 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 60°E to the north of Lat. 32°N",
+        "axis": "along LONG. 60°E TO THE NORTH OF LAT. 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -43,39 +56,65 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "north Haryana & neighbourhood",
+        "location": "EAST UTTAR PRADESH",
         "level": {
           "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "THE CYCLONIC CIRCULATION OVER EAST UTTAR PRADESH PERSISTS AND NOW EXTENDS upto 3.1 KM ABOVE MEAN SEA LEVEL."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "NORTH HARYANA & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "THE UPPER AIR CYCLONIC CIRCULATION OVER NORTH HARYANA & neighbourhood PERSISTS AND NOW EXTENDS upto 3.1 KM ABOVE MEAN SEA LEVEL."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "NORTHEAST ASSAM & NEIGHBOURHOOD",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "AN UPPER AIR CYCLONIC CIRCULATION LIES OVER NORTHEAST ASSAM & NEIGHBOURHOODAT 1.5 KM ABOVE MEAN SEA LEVEL."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "NORTH KERALAM & NEIGHBOURHOOD",
+        "level": {
+          "type": "single",
+          "min": 7.6,
+          "display": "7.6 km above MSL"
+        },
+        "raw_text": "AN UPPER AIR CYCLONIC CIRCULATION LIES OVER NORTH KERALAM & NEIGHBOURHOODAT 7.6 KM ABOVE MEAN SEA LEVEL."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "cyclonic circulation associated with low pressure area over northwest Bay of Bengal and neighbourhood to east Uttar Pradesh",
-        "across": "Jharkhand & north Chhattisgarh",
+        "extent": "CYCLONIC CIRCULATION ASSOCIATED WITH LOW PRESSURE AREA OVER NORTHWEST BAY OF BENGAL AND neighbourhood to EAST UTTAR PRADESH",
         "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 5.8,
-          "display": "1.5–5.8 km above MSL"
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "A trough runs from cyclonic circulation associated with low pressure area over northwest Bay of Bengal and neighbourhood to east Uttar Pradesh across Jharkhand & north Chhattisgarh between 1.5 & 5.8 km above mean sea level tilting south-westward with height."
+        "raw_text": "THE TROUGH FROM CYCLONIC CIRCULATION ASSOCIATED WITH LOW PRESSURE AREA OVER NORTHWEST BAY OF BENGAL AND neighbourhood TO EAST UTTAR PRADESH ACROSS JHARKHAND & NORTH CHHATTISGARH NOW EXTENDS upto 3.1 KM ABOVE MEAN SEA LEVEL."
       }
     ],
-    "suppressed_count": 2,
-    "unclassified": [
-      "the associated cyclonic circulation now lies over East Uttar Pradesh at 0.9 km above mean sea level."
-    ],
+    "suppressed_count": 0,
+    "unclassified": [],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-23 11:51 IST"
+  "fetched_at": "2026-08-23 14:47 IST"
 }
