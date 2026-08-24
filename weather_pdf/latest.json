@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/903a73d3f41a31ca04302f772a415ffc.pdf",
-  "last_updated": "08:30 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e5eb35d3dd1396ba12f1d9b841ab6943.pdf",
+  "last_updated": "01:27 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-08-24",
   "bulletin": {
     "morning": null,
@@ -11,41 +11,34 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low-Pressure Area over North Coastal Odisha & adjoining areas of Gangetic West Bengal and the Northwest Bay of Bengal lies over Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal at 0530 Hrs IST of today, the 24th August 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. The system is likely to move nearly north-westwards across Gangetic West Bengal and adjoining north Odisha & Jharkhand during the next 24 hours.\nThe Monsoon trough at mean sea level now passes through Amritsar, Bareilly, Lucknow, Daltonganj, Jamshedpur, centre of Low Pressure Area over Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal and thence southeastwards to eastcentral Bay of Bengal.\nThe trough now runs from cyclonic circulation associated with low pressure area over Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal to Northwest Uttar Pradesh across Jharkhand, north Chhattisgarh & East Uttar Pradesh and extends upto 3.1 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 67°E to the north of Lat. 30°N.\nThe shear zone roughly along 22°N over central India between 4.5 & 5.8 above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood persists and now extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood persists and extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over North Keralam & neighbourhoodat 7.6 km above mean sea level has become less marked.\nThe cyclonic circulation over East Uttar Pradesh extending upto 3.1 km above mean sea level has become less marked.",
+  "met_analysis": "The Low-Pressure Area over Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal lies over Gangetic West Bengal & adjoining areas of Jharkhand and North Odisha at 0830 Hrs IST of today, the 24th August 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. The system is likely to move nearly north-westwards across Jharkhand & north Odisha during the next 24 hours.\nThe Monsoon trough at mean sea level now passes through Amritsar, Najibabad, Shahjahanpur, Varanasi, centre of Low Pressure Area over Gangetic West Bengal & adjoining areas of Jharkhand and North Odisha and thence southeastwards to North Bay of Bengal.\nThe trough now runs from Southwest Uttar Pradesh to cyclonic circulation associated with low pressure area over Gangetic West Bengal & adjoining areas of Jharkhand and North Odisha across North Madhya Pradesh, north Chhattisgarh, Jharkhand and extends upto 3.1 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 68°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over north Haryana & neighbourhood persists and now extends upto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over East Madhya Pradesh between 5.8 and 7.6 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe shear zone roughly along 22°N over central India between 4.5 & 5.8 above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal",
-        "raw_text": "The Low-Pressure Area over North Coastal Odisha & adjoining areas of Gangetic West Bengal and the Northwest Bay of Bengal lies over Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal at 0530 Hrs IST of today, the 24th August 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. The system is likely to move nearly north-westwards across Gangetic West Bengal and adjoining north Odisha & Jharkhand during the next 24 hours."
+        "location": "Gangetic West Bengal & adjoining areas of Jharkhand and North Odisha",
+        "on_land": true,
+        "raw_text": "The Low-Pressure Area over Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal lies over Gangetic West Bengal & adjoining areas of Jharkhand and North Odisha at 0830 Hrs IST of today, the 24th August 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. The system is likely to move nearly north-westwards across Jharkhand & north Odisha during the next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Bareilly, Lucknow, Daltonganj, Jamshedpur, centre of Low Pressure Area over Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal and thence southeastwards to eastcentral Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Najibabad, Shahjahanpur, Varanasi, centre of Low Pressure Area over Gangetic West Bengal & adjoining areas of Jharkhand and North Odisha and thence southeastwards to North Bay of Bengal.",
         "passes_through": [
           "Amritsar",
-          "Bareilly",
-          "Lucknow",
-          "Daltonganj",
-          "Jamshedpur",
-          "centre of Low Pressure Area over Gangetic West Bengal & adjoining areas of north Odisha",
-          "Jharkhand & the Northwest Bay of Bengal",
-          "eastcentral Bay of Bengal"
+          "Najibabad",
+          "Shahjahanpur",
+          "Varanasi",
+          "centre of Low Pressure Area over Gangetic West Bengal & adjoining areas of Jharkhand and North Odisha",
+          "North Bay of Bengal"
         ],
         "level": "mean sea level"
       },
       {
-        "type": "Shear Zone",
-        "location": "roughly along 22°N over central India",
-        "level": "mean sea level",
-        "raw_text": "The shear zone roughly along 22°N over central India between 4.5 & 5.8 above mean sea level persists."
-      },
-      {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 67°E to the north of Lat. 30°N.",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 68°E to the north of Lat. 28°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 67°E to the north of Lat. 30°N",
+        "axis": "along Long. 68°E to the north of Lat. 28°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -59,10 +52,21 @@
         "location": "north Haryana & neighbourhood",
         "level": {
           "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood persists and now extends upto 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood persists and now extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Madhya Pradesh",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over East Madhya Pradesh between 5.8 and 7.6 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -72,23 +76,23 @@
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood persists and extends upto 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "cyclonic circulation associated with low pressure area over Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal to Northwest Uttar Pradesh",
+        "extent": "Southwest Uttar Pradesh to cyclonic circulation associated with low pressure area over Gangetic West Bengal & adjoining areas of Jharkhand and North Odisha",
         "level": {
           "type": "upto",
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The trough now runs from cyclonic circulation associated with low pressure area over Gangetic West Bengal & adjoining areas of north Odisha, Jharkhand & the Northwest Bay of Bengal to Northwest Uttar Pradesh across Jharkhand, north Chhattisgarh & East Uttar Pradesh and extends upto 3.1 km above mean sea level."
+        "raw_text": "The trough now runs from Southwest Uttar Pradesh to cyclonic circulation associated with low pressure area over Gangetic West Bengal & adjoining areas of Jharkhand and North Odisha across North Madhya Pradesh, north Chhattisgarh, Jharkhand and extends upto 3.1 km above mean sea level."
       }
     ],
-    "suppressed_count": 2,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -96,5 +100,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-24 12:02 IST"
+  "fetched_at": "2026-08-24 15:06 IST"
 }
