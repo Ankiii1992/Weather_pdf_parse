@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d97c3d70750d83e07ecf7b4cb8651e05.pdf",
-  "last_updated": "08:00 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3f3085212f26224f9b89f705975ff91d.pdf",
+  "last_updated": "01:19 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-08-26",
   "bulletin": {
     "morning": null,
@@ -11,44 +11,40 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low-Pressure Area over West Jharkhand & neighbourhood lies over Northeast Madhya Pradesh & neighbourhood at 0530 Hrs IST of today, the 26th August 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height. The system is likely to move nearly west- northwestwards during the next 24 hours.\nThe Monsoon trough at mean sea level now passes through Jammu, Pathankot, Muzaffarnagar, Bareilly, Lucknow, centre of Low Pressure Area over Northeast Madhya Pradesh & neighbourhood and Daltonganj, Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 4.5 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 76°E to the north of Lat. 30°N.",
+  "met_analysis": "The Low-Pressure Area over Northeast Madhya Pradesh & neighbourhood lies over south Uttar Pradesh and adjoining northeast Madhya Pradesh at 0830 Hrs IST of today, the 26th August 2026. The associated cyclonic circulation now extends upto 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Shahjahanpur, centre of Low Pressure Area over south Uttar Pradesh and adjoining northeast Madhya Pradesh,Ranchi, Digha and thence southeastwards to Northeast Bay of Bengal.\nA trough runs from centre of Low Pressure Area over south Uttar Pradesh and adjoining northeast Madhya Pradesh to Northeast bay of Bengal across East Madhya Pradesh, Chhattisgarh and Odisha between 1.5 & 3.1 km above mean sea level.\nThe Western Disturbance now seen as cyclonic circulation over north Haryana & neighbourhood between 4.5 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nAn upper air cyclonic circulation lies over northwest Madhya Pradesh & neighbourhoodat 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Westcentral - Northwest Bay of Bengal and adjoining north Andhra Pradesh - South Odisha coasts at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over south Madhya Maharashtra & neighbourhood at 5.8 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "Northeast Madhya Pradesh & neighbourhood",
+        "location": "south Uttar Pradesh and adjoining northeast Madhya Pradesh",
         "on_land": true,
-        "raw_text": "The Low-Pressure Area over West Jharkhand & neighbourhood lies over Northeast Madhya Pradesh & neighbourhood at 0530 Hrs IST of today, the 26th August 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height. The system is likely to move nearly west- northwestwards during the next 24 hours."
+        "raw_text": "The Low-Pressure Area over Northeast Madhya Pradesh & neighbourhood lies over south Uttar Pradesh and adjoining northeast Madhya Pradesh at 0830 Hrs IST of today, the 26th August 2026. The associated cyclonic circulation now extends upto 4.5 km above mean sea level."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Pathankot, Muzaffarnagar, Bareilly, Lucknow, centre of Low Pressure Area over Northeast Madhya Pradesh & neighbourhood and Daltonganj, Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 4.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Shahjahanpur, centre of Low Pressure Area over south Uttar Pradesh and adjoining northeast Madhya Pradesh,Ranchi, Digha and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
           "Jammu",
-          "Pathankot",
-          "Muzaffarnagar",
-          "Bareilly",
-          "Lucknow",
-          "centre of Low Pressure Area over Northeast Madhya Pradesh & neighbourhood and Daltonganj",
-          "Digha &",
-          "Northwest Bay of Bengal"
+          "Dehradun",
+          "Shahjahanpur",
+          "centre of Low Pressure Area over south Uttar Pradesh and adjoining northeast Madhya Pradesh",
+          "Ranchi",
+          "Digha",
+          "Northeast Bay of Bengal"
         ],
-        "level": {
-          "type": "upto",
-          "max": 4.5,
-          "display": "upto 4.5 km above MSL"
-        }
+        "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 76°E to the north of Lat. 30°N.",
-        "form": "trough_in_westerlies",
-        "axis": "along Long. 76°E to the north of Lat. 30°N",
+        "raw_text": "The Western Disturbance now seen as cyclonic circulation over north Haryana & neighbourhood between 4.5 & 5.8 km above mean sea level.",
+        "form": "cyclonic_circulation",
+        "location": "north Haryana & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 7.6,
-          "display": "7.6 km above MSL"
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
         }
       }
     ],
@@ -62,9 +58,53 @@
           "display": "upto 1.5 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Madhya Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over northwest Madhya Pradesh & neighbourhoodat 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Westcentral - Northwest Bay of Bengal and adjoining north Andhra Pradesh - South Odisha coasts",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Westcentral - Northwest Bay of Bengal and adjoining north Andhra Pradesh - South Odisha coasts at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Madhya Maharashtra & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over south Madhya Maharashtra & neighbourhood at 5.8 km above mean sea level."
       }
     ],
-    "other_troughs": [],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "centre of Low Pressure Area over south Uttar Pradesh and adjoining northeast Madhya Pradesh to Northeast bay of Bengal",
+        "across": "East Madhya Pradesh, Chhattisgarh and Odisha",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "A trough runs from centre of Low Pressure Area over south Uttar Pradesh and adjoining northeast Madhya Pradesh to Northeast bay of Bengal across East Madhya Pradesh, Chhattisgarh and Odisha between 1.5 & 3.1 km above mean sea level."
+      }
+    ],
     "suppressed_count": 0,
     "unclassified": [],
     "validation": {
@@ -73,5 +113,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-26 11:56 IST"
+  "fetched_at": "2026-08-26 15:01 IST"
 }
