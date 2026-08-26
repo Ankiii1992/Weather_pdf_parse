@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8bd13630134c0863fe52c7e94fd76988.pdf",
-  "last_updated": "04:29 PM IST",
-  "slot": "evening",
-  "bulletin_date": "2026-08-25",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d97c3d70750d83e07ecf7b4cb8651e05.pdf",
+  "last_updated": "08:00 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-26",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,25 +11,27 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low-Pressure Area over Jharkhand & neighbourhood persisted over the same region at 1430 Hrs IST of today, the 25th August 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height. The system is likely to move nearly west-northwestwards during the next 24 hours.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Shahjahanpur, Prayagraj, centre of Low Pressure Area over Jharkhand & neighbourhood and Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 4.5 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 28°N.",
+  "met_analysis": "The Low-Pressure Area over West Jharkhand & neighbourhood lies over Northeast Madhya Pradesh & neighbourhood at 0530 Hrs IST of today, the 26th August 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height. The system is likely to move nearly west- northwestwards during the next 24 hours.\nThe Monsoon trough at mean sea level now passes through Jammu, Pathankot, Muzaffarnagar, Bareilly, Lucknow, centre of Low Pressure Area over Northeast Madhya Pradesh & neighbourhood and Daltonganj, Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 4.5 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 76°E to the north of Lat. 30°N.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "Jharkhand & neighbourhood persisted over the same region",
+        "location": "Northeast Madhya Pradesh & neighbourhood",
         "on_land": true,
-        "raw_text": "The Low-Pressure Area over Jharkhand & neighbourhood persisted over the same region at 1430 Hrs IST of today, the 25th August 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height. The system is likely to move nearly west-northwestwards during the next 24 hours."
+        "raw_text": "The Low-Pressure Area over West Jharkhand & neighbourhood lies over Northeast Madhya Pradesh & neighbourhood at 0530 Hrs IST of today, the 26th August 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height. The system is likely to move nearly west- northwestwards during the next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Shahjahanpur, Prayagraj, centre of Low Pressure Area over Jharkhand & neighbourhood and Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 4.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Pathankot, Muzaffarnagar, Bareilly, Lucknow, centre of Low Pressure Area over Northeast Madhya Pradesh & neighbourhood and Daltonganj, Digha & thence southeastwards to Northwest Bay of Bengal and extends upto 4.5 km above mean sea level.",
         "passes_through": [
           "Jammu",
-          "Dehradun",
-          "Shahjahanpur",
-          "Prayagraj",
-          "centre of Low Pressure Area over Jharkhand & neighbourhood and Digha &",
+          "Pathankot",
+          "Muzaffarnagar",
+          "Bareilly",
+          "Lucknow",
+          "centre of Low Pressure Area over Northeast Madhya Pradesh & neighbourhood and Daltonganj",
+          "Digha &",
           "Northwest Bay of Bengal"
         ],
         "level": {
@@ -40,9 +42,9 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 28°N.",
+        "raw_text": "The Western Disturbance as a trough in upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 76°E to the north of Lat. 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 72°E to the north of Lat. 28°N",
+        "axis": "along Long. 76°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
           "min": 7.6,
@@ -71,5 +73,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-25 17:53 IST"
+  "fetched_at": "2026-08-26 09:15 IST"
 }
