@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5751e25956533e87c2f8597347e521a4.pdf",
-  "last_updated": "09:06 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-08-26",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7aaff7c375ac3daa7a44286a0ff0bcf0.pdf",
+  "last_updated": "04:31 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-08-27",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,72 +11,82 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low-Pressure Area over south Uttar Pradesh & adjoining northeast Madhya Pradesh lies over southeast Uttar Pradesh & neighbourhood at 1730 Hrs IST of today, the 26th August 2026. The associated cyclonic circulation extending upto 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes to pass through Jammu, Dehradun, centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe trough from centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood to Northeast bay of Bengal across East Madhya Pradesh, Chhattisgarh and Odisha persists and now seen upto 3.1 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhoodat 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Westcentral - Northwest Bay of Bengal and adjoining north Andhra Pradesh - South Odisha coasts lies over Northwest Bay of Bengal & adjoining Bangladesh at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over south Madhya Maharashtra & neighbourhood lies over Konkan & adjoining Eastcentral Arabian Sea at 5.8 km above mean sea level.",
+  "met_analysis": "The Low-Pressure Area over southeast Uttar Pradesh & neighbourhood persisted over the same region at 1430 Hrs IST of today, the 27th August 2026. The associated cyclonic circulation extending upto 5.8 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level now passes through Amritsar, Chandigarh, Muzaffarnagar, centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood, Jamshedpur, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe upper air cyclonic circulation over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts between 3.1 & 5.8 km above mean sea level titling southwestwards with height persists. Under its influence, a low pressure area is likely to form over the same region around 29th August, 2026.\nThe upper air cyclonic circulation over Gujarat & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over North Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Telangana & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Konkan & adjoining Eastcentral Arabian Sea at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "southeast Uttar Pradesh & neighbourhood",
+        "location": "southeast Uttar Pradesh & neighbourhood persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low-Pressure Area over south Uttar Pradesh & adjoining northeast Madhya Pradesh lies over southeast Uttar Pradesh & neighbourhood at 1730 Hrs IST of today, the 26th August 2026. The associated cyclonic circulation extending upto 4.5 km above mean sea level."
+        "raw_text": "The Low-Pressure Area over southeast Uttar Pradesh & neighbourhood persisted over the same region at 1430 Hrs IST of today, the 27th August 2026. The associated cyclonic circulation extending upto 5.8 km above mean sea level tilting southwestwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes to pass through Jammu, Dehradun, centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood, Daltonganj, Digha and thence southeastwards to Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Chandigarh, Muzaffarnagar, centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood, Jamshedpur, Digha and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
-          "Jammu",
-          "Dehradun",
+          "Amritsar",
+          "Chandigarh",
+          "Muzaffarnagar",
           "centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood",
-          "Daltonganj",
+          "Jamshedpur",
           "Digha",
           "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
-      },
-      {
-        "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood between 4.5 & 5.8 km above mean sea level persists.",
-        "form": "cyclonic_circulation",
-        "location": "north Haryana & neighbourhood",
-        "level": {
-          "type": "range",
-          "min": 4.5,
-          "max": 5.8,
-          "display": "4.5–5.8 km above MSL"
-        }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts between 3.1 & 5.8 km above mean sea level titling southwestwards with height persists. Under its influence, a low pressure area is likely to form over the same region around 29th August, 2026."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gujarat & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gujarat & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over North Haryana & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
         "location": "Northeast Assam & neighbourhood",
         "level": {
           "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Madhya Pradesh & neighbourhood",
+        "location": "South Telangana & neighbourhood",
         "level": {
           "type": "single",
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northwest Madhya Pradesh & neighbourhoodat 5.8 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Northwest Bay of Bengal & adjoining Bangladesh",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Westcentral - Northwest Bay of Bengal and adjoining north Andhra Pradesh - South Odisha coasts lies over Northwest Bay of Bengal & adjoining Bangladesh at 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over South Telangana & neighbourhood at 5.8 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -86,23 +96,10 @@
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over south Madhya Maharashtra & neighbourhood lies over Konkan & adjoining Eastcentral Arabian Sea at 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Konkan & adjoining Eastcentral Arabian Sea at 5.8 km above mean sea level persists."
       }
     ],
-    "other_troughs": [
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood to Northeast bay of Bengal",
-        "across": "East Madhya Pradesh, Chhattisgarh and Odisha",
-        "level": {
-          "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
-        },
-        "raw_text": "The trough from centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood to Northeast bay of Bengal across East Madhya Pradesh, Chhattisgarh and Odisha persists and now seen upto 3.1 km above mean sea level."
-      }
-    ],
+    "other_troughs": [],
     "suppressed_count": 0,
     "unclassified": [],
     "validation": {
@@ -111,5 +108,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-27 05:51 IST"
+  "fetched_at": "2026-08-27 18:44 IST"
 }
