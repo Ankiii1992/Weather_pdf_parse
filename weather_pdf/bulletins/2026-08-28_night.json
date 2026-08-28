@@ -1,0 +1,87 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/fd2c58669958b2a6f66774383955a558.pdf",
+  "last_updated": "08:59 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-08-28",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low-Pressure Area over northeast Uttar Pradesh & neighbourhood with associated cyclonic circulation extending upto 4.5 km above mean sea level persisted over the same region at 1730 Hrs IST of today, the 28th August 2026. It is very likely to become less marked during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Kheri, centre of Low Pressure Area over northeast Uttar Pradesh & neighbourhood, Dehri, Bankura, Kolkata and thence southeastwards to Northeast Bay of Bengal and extends upto 0.9 km above mean sea level.\nThe upper air cyclonic circulation over North Bay of Bengal & adjoining West Bengal-Bangladesh coasts lies over Northwest Bay of Bengal & adjoining West Bengal-Bangladesh coasts extending upto 7.6 km above mean sea level titling southwestwards with height. Under its influence, a low pressure area is likely to form over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts around 29th August, 2026.\nThe upper air cyclonic circulation over North Haryana & neighbourhood at 0.9 km above mean sea level have merged with monsoon trough.\nThe Western Disturbance now seen as a cyclonic circulation over north Pakistan & adjoining north Punjab at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 0.9 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "northeast Uttar Pradesh & neighbourhood with associated cyclonic circulation",
+        "on_land": true,
+        "raw_text": "The Low-Pressure Area over northeast Uttar Pradesh & neighbourhood with associated cyclonic circulation extending upto 4.5 km above mean sea level persisted over the same region at 1730 Hrs IST of today, the 28th August 2026. It is very likely to become less marked during next 24 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Kheri, centre of Low Pressure Area over northeast Uttar Pradesh & neighbourhood, Dehri, Bankura, Kolkata and thence southeastwards to Northeast Bay of Bengal and extends upto 0.9 km above mean sea level.",
+        "passes_through": [
+          "Jammu",
+          "Dehradun",
+          "Kheri",
+          "centre of Low Pressure Area over northeast Uttar Pradesh & neighbourhood",
+          "Dehri",
+          "Bankura",
+          "Kolkata",
+          "Northeast Bay of Bengal"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 0.9,
+          "display": "upto 0.9 km above MSL"
+        }
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance now seen as a cyclonic circulation over north Pakistan & adjoining north Punjab at 5.8 km above mean sea level.",
+        "form": "cyclonic_circulation",
+        "location": "north Pakistan & adjoining north Punjab",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northwest Bay of Bengal & adjoining West Bengal-Bangladesh coasts",
+        "level": {
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over North Bay of Bengal & adjoining West Bengal-Bangladesh coasts lies over Northwest Bay of Bengal & adjoining West Bengal-Bangladesh coasts extending upto 7.6 km above mean sea level titling southwestwards with height. Under its influence, a low pressure area is likely to form over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts around 29th August, 2026."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over North Haryana & neighbourhood at 0.9 km above mean sea level have merged with monsoon trough."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 1,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-29 05:16 IST"
+}
