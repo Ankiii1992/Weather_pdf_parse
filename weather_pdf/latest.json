@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7aaff7c375ac3daa7a44286a0ff0bcf0.pdf",
-  "last_updated": "04:31 PM IST",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e54ecb6d3bd90ed04f82cd53e8ddc48f.pdf",
+  "last_updated": "04:36 PM IST",
   "slot": "evening",
-  "bulletin_date": "2026-08-27",
+  "bulletin_date": "2026-08-28",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,52 +11,52 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low-Pressure Area over southeast Uttar Pradesh & neighbourhood persisted over the same region at 1430 Hrs IST of today, the 27th August 2026. The associated cyclonic circulation extending upto 5.8 km above mean sea level tilting southwestwards with height.\nThe Monsoon trough at mean sea level now passes through Amritsar, Chandigarh, Muzaffarnagar, centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood, Jamshedpur, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe upper air cyclonic circulation over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts between 3.1 & 5.8 km above mean sea level titling southwestwards with height persists. Under its influence, a low pressure area is likely to form over the same region around 29th August, 2026.\nThe upper air cyclonic circulation over Gujarat & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over North Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Telangana & neighbourhood at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Konkan & adjoining Eastcentral Arabian Sea at 5.8 km above mean sea level persists.",
+  "met_analysis": "The Low-Pressure Area over northeast Uttar Pradesh & neighbourhood with associated cyclonic circulation extending upto 4.5 km above mean sea level persisted over the same region at 1430 Hrs IST of today, the 28th August 2026. It is very likely to become less marked during next 24 hours.\nThe Monsoon trough at mean sea level continues to pass through Amritsar, Dehradun, Kheri, centre of Low Pressure Area over northeast Uttar Pradesh & neighbourhood, Madhupur, Bankura and thence southeastwards to Northeast Bay of Bengal.\nThe upper air cyclonic circulation over North Bay of Bengal & adjoining West Bengal-Bangladesh coasts extending upto 7.6 km above mean sea level titling southwestwards with height persists. Under its influence, a low pressure area is likely to form over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts around 29th August, 2026.\nThe upper air cyclonic circulation over North Haryana & neighbourhood at 0.9 km above mean sea level persists\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 29°N persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "southeast Uttar Pradesh & neighbourhood persisted over the same region",
+        "location": "northeast Uttar Pradesh & neighbourhood with associated cyclonic circulation",
         "on_land": true,
-        "raw_text": "The Low-Pressure Area over southeast Uttar Pradesh & neighbourhood persisted over the same region at 1430 Hrs IST of today, the 27th August 2026. The associated cyclonic circulation extending upto 5.8 km above mean sea level tilting southwestwards with height."
+        "raw_text": "The Low-Pressure Area over northeast Uttar Pradesh & neighbourhood with associated cyclonic circulation extending upto 4.5 km above mean sea level persisted over the same region at 1430 Hrs IST of today, the 28th August 2026. It is very likely to become less marked during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Chandigarh, Muzaffarnagar, centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood, Jamshedpur, Digha and thence southeastwards to Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Amritsar, Dehradun, Kheri, centre of Low Pressure Area over northeast Uttar Pradesh & neighbourhood, Madhupur, Bankura and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
           "Amritsar",
-          "Chandigarh",
-          "Muzaffarnagar",
-          "centre of Low Pressure Area over southeast Uttar Pradesh & neighbourhood",
-          "Jamshedpur",
-          "Digha",
+          "Dehradun",
+          "Kheri",
+          "centre of Low Pressure Area over northeast Uttar Pradesh & neighbourhood",
+          "Madhupur",
+          "Bankura",
           "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 29°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 75°E to the north of Lat. 29°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts",
+        "location": "North Bay of Bengal & adjoining West Bengal-Bangladesh coasts",
         "level": {
-          "type": "range",
-          "min": 3.1,
-          "max": 5.8,
-          "display": "3.1–5.8 km above MSL"
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts between 3.1 & 5.8 km above mean sea level titling southwestwards with height persists. Under its influence, a low pressure area is likely to form over the same region around 29th August, 2026."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Gujarat & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Gujarat & neighbourhood at 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over North Bay of Bengal & adjoining West Bengal-Bangladesh coasts extending upto 7.6 km above mean sea level titling southwestwards with height persists. Under its influence, a low pressure area is likely to form over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts around 29th August, 2026."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -66,37 +66,17 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over North Haryana & neighbourhood at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over North Haryana & neighbourhood at 0.9 km above mean sea level persists"
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "Northeast Assam & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 3.1 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "South Telangana & neighbourhood",
-        "level": {
           "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over South Telangana & neighbourhood at 5.8 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Konkan & adjoining Eastcentral Arabian Sea",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Konkan & adjoining Eastcentral Arabian Sea at 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood at 0.9 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
@@ -108,5 +88,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-27 18:44 IST"
+  "fetched_at": "2026-08-28 20:11 IST"
 }
