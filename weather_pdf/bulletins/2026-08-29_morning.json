@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5b114ac10cb19682b0a1556e44da1718.pdf",
+  "last_updated": "08:39 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-08-29",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Barelli, Sultanpur, Jamshedpur, centre of Low Pressure Area overnorthwest Bay of Bengal & adjoining West Bengal-north Odisha coasts and extends upto 0.9 km above mean sea level.\nThe Low-Pressure Area over northeast Uttar Pradesh & neighbourhood has become less marked. However,\nthe associated cyclonic circulation persisted over the same region and extends upto 3.1 km above mean sea level.\nThe Western Disturbance now seen as a cyclonic circulation over north Pakistan & adjoining north Punjab between 3.1& 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over East Rajasthan & neighbourhoodat 5.8 km above mean sea level.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Barelli, Sultanpur, Jamshedpur, centre of Low Pressure Area overnorthwest Bay of Bengal & adjoining West Bengal-north Odisha coasts and extends upto 0.9 km above mean sea level.",
+        "passes_through": [
+          "Jammu",
+          "Dehradun",
+          "Barelli",
+          "Sultanpur",
+          "Jamshedpur",
+          "centre of Low Pressure Area overnorthwest Bay of Bengal & adjoining West Bengal-north Odisha coasts"
+        ],
+        "level": {
+          "type": "upto",
+          "max": 0.9,
+          "display": "upto 0.9 km above MSL"
+        }
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance now seen as a cyclonic circulation over north Pakistan & adjoining north Punjab between 3.1& 5.8 km above mean sea level.",
+        "form": "cyclonic_circulation",
+        "location": "north Pakistan & adjoining north Punjab",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over East Rajasthan & neighbourhoodat 5.8 km above mean sea level."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 2,
+    "unclassified": [
+      "the associated cyclonic circulation persisted over the same region and extends upto 3.1 km above mean sea level."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-08-29 09:57 IST"
+}
