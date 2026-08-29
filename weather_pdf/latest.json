@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/de089470fa831b05c7f78bdb9e6c4fd9.pdf",
-  "last_updated": "04:16 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/17ea6192f251500a6635c700759f9b4a.pdf",
+  "last_updated": "08:37 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-08-29",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The low pressure area over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts persists over the same region at 1430 IST of today 29th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is likely to become more marked and move west-northwestwards across north Odisha-Gangetic west Bengal during next 48 hours.\nThe Monsoon trough at mean sea level now passes through Amritsar, Najibabad, Bareilly, Gorakhpur, Aurangabad, Ranchi, centre of Low Pressure Area overnorthwest Bay of Bengal & adjoining West Bengal- north Odisha coasts and thence southeastwards to Eastcentral Bay of Bengal & extends upto 0.9 km above mean sea level.\nThe cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & adjoining north Punjab between 3.1 & 5.8 km above mean sea level persists.",
+  "met_analysis": "The low pressure area over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts persists over the same region at 1730 IST of today 29th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is likely to become more marked and move west-northwestwards across north Odisha-Gangetic west Bengal during next 48 hours.\nThe Monsoon trough at mean sea level now passes through Amritsar, Muzaffarnagar, Shahjahanpur, Basti, Patna, Bankura, centre of Low Pressure Area overnorthwest Bay of Bengal & adjoining West Bengal-north Odisha coasts and thence southeastwards to Eastcentral Bay of Bengal & extends upto 0.9 km above mean sea level.\nThe cyclonic circulation over East Uttar Pradesh & neighbourhood now lies over Northeast Uttar Pradesh & neighbourhood and extends upto 1.5 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & adjoining north Punjab between 3.1 & 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -19,19 +19,19 @@
         "status": "active",
         "location": "northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts",
         "movement": "west-northwestwards",
-        "raw_text": "The low pressure area over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts persists over the same region at 1430 IST of today 29th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is likely to become more marked and move west-northwestwards across north Odisha-Gangetic west Bengal during next 48 hours."
+        "raw_text": "The low pressure area over northwest Bay of Bengal & adjoining West Bengal-north Odisha coasts persists over the same region at 1730 IST of today 29th August, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is likely to become more marked and move west-northwestwards across north Odisha-Gangetic west Bengal during next 48 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Najibabad, Bareilly, Gorakhpur, Aurangabad, Ranchi, centre of Low Pressure Area overnorthwest Bay of Bengal & adjoining West Bengal- north Odisha coasts and thence southeastwards to Eastcentral Bay of Bengal & extends upto 0.9 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Amritsar, Muzaffarnagar, Shahjahanpur, Basti, Patna, Bankura, centre of Low Pressure Area overnorthwest Bay of Bengal & adjoining West Bengal-north Odisha coasts and thence southeastwards to Eastcentral Bay of Bengal & extends upto 0.9 km above mean sea level.",
         "passes_through": [
           "Amritsar",
-          "Najibabad",
-          "Bareilly",
-          "Gorakhpur",
-          "Aurangabad",
-          "Ranchi",
-          "centre of Low Pressure Area overnorthwest Bay of Bengal & adjoining West Bengal- north Odisha coasts",
+          "Muzaffarnagar",
+          "Shahjahanpur",
+          "Basti",
+          "Patna",
+          "Bankura",
+          "centre of Low Pressure Area overnorthwest Bay of Bengal & adjoining West Bengal-north Odisha coasts",
           "Eastcentral Bay of Bengal &"
         ],
         "level": {
@@ -56,13 +56,13 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "East Uttar Pradesh & neighbourhood",
+        "location": "Northeast Uttar Pradesh & neighbourhood",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The cyclonic circulation over East Uttar Pradesh & neighbourhood now lies over Northeast Uttar Pradesh & neighbourhood and extends upto 1.5 km above mean sea level."
       }
     ],
     "other_troughs": [],
@@ -74,5 +74,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-08-29 17:22 IST"
+  "fetched_at": "2026-08-29 21:20 IST"
 }
