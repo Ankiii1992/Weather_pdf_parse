@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/634617f39b328133d7268d7b05f2c39a.pdf",
+  "last_updated": "04:34 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-09-01",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Well-Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north coastal Odisha, Jharkhand & northwest Bay of Bengal lies over Gangetic West Bengal and adjoining areas of north Odisha, & Jharkhand at 1430 IST of today, the 01st September, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwest with height. It is likely to move west- northwestwards across north Odisha, Gangetic West Bengal and Jharkhand during next 48 hours.\nThe Monsoon trough at mean sea level continues to pass through Jammu, Chandigarh, Shahjahanpur, Varanasi, centre of Well Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north Odisha, & Jharkhand and thence southeastwards to Eastcentral Bay of Bengal.\nThe trough now runsfromthe cyclonic circulation associated with Well Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north Odisha, & Jharkhand to northwest Uttar Pradesh across East Uttar Pradesh and extends upto 4.5 km above mean sea level.\nThe trough now runs from south Gujarat to the cyclonic circulation associated with Well Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north Odisha & Jharkhand,across Madhya Pradesh, Chhattisgarh at 5.8 Km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu Division at 7.6 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Gangetic West Bengal and adjoining areas of north Odisha, & Jharkhand",
+        "on_land": true,
+        "raw_text": "The Well-Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north coastal Odisha, Jharkhand & northwest Bay of Bengal lies over Gangetic West Bengal and adjoining areas of north Odisha, & Jharkhand at 1430 IST of today, the 01st September, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwest with height. It is likely to move west- northwestwards across north Odisha, Gangetic West Bengal and Jharkhand during next 48 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jammu, Chandigarh, Shahjahanpur, Varanasi, centre of Well Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north Odisha, & Jharkhand and thence southeastwards to Eastcentral Bay of Bengal.",
+        "passes_through": [
+          "Jammu",
+          "Chandigarh",
+          "Shahjahanpur",
+          "Varanasi",
+          "centre of Well Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north Odisha",
+          "& Jharkhand",
+          "Eastcentral Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu Division at 7.6 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "north Pakistan & adjoining Jammu Division",
+        "level": {
+          "type": "single",
+          "min": 7.6,
+          "display": "7.6 km above MSL"
+        }
+      }
+    ],
+    "uac": [],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "level": {
+          "type": "upto",
+          "max": 4.5,
+          "display": "upto 4.5 km above MSL"
+        },
+        "raw_text": "The trough now runsfromthe cyclonic circulation associated with Well Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north Odisha, & Jharkhand to northwest Uttar Pradesh across East Uttar Pradesh and extends upto 4.5 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "south Gujarat to the cyclonic circulation associated with Well Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north Odisha & Jharkhand,across Madhya Pradesh, Chhattisgarh",
+        "across": "Madhya Pradesh, Chhattisgarh",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough now runs from south Gujarat to the cyclonic circulation associated with Well Marked Low Pressure Area over Gangetic West Bengal and adjoining areas of north Odisha & Jharkhand,across Madhya Pradesh, Chhattisgarh at 5.8 Km above mean sea level."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-09-01 19:17 IST"
+}
