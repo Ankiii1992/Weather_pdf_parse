@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b94b8c61031246e0db896a13ae580167.pdf",
-  "last_updated": "08:48 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1db21ab1145bb51f035268b3f3f6d7b2.pdf",
+  "last_updated": "04:31 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-09-02",
   "bulletin": {
     "morning": null,
@@ -11,25 +11,27 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Well Marked low pressure area over Gangetic West Bengal & adjoining Jharkhand lies over West Jharkhand & neighbourhood at 0530 IST of today, the 02nd September 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwest with height. It is likely to become low pressure area during next 12 hours. It is likely to move west-northwestwards across South Uttar Pradesh and North Madhya Pradesh during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Ferozpur, Delhi, Lucknow, centre of Well Marked low pressure area over West Jharkhand & neighbourhood, Digha and thence southeastwards to Eastcentral Bay of Bengal.\nThe trough now runsfromnorthwest Uttar Pradesh to northwest bay of Bengal across the cyclonic circulation associated with Well Marked low pressure area over West Jharkhand & neighbourhood and extends upto 3.1 km above mean sea level.\nThe trough now runs from south Gujarat to the cyclonic circulation associated with Well Marked low pressure area over West Jharkhand & neighbourhood across north Madhya Maharashtra, Madhya Pradesh between 4.5 & 5.8 Km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu Division now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 70°E to the north of Lat. 30°N .",
+  "met_analysis": "The Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 1430 IST of today, the 02nd September 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwest with height. It is likely to move west-northwestwards across south Uttar Pradesh and adjoining north Madhya Pradesh during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Sri Ganganagar, Rohtak, Kanpur, Prayagraj, centre of Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood, Ranchi, Digha and thence southeastwards to Eastcentral Bay of Bengal.\nThe trough fromnorthwest Uttar Pradesh to Bangladesh across southern parts of East Uttar Pradesh, the cyclonic circulation associated with Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood, Jharkhand & Gangetic West Bengal extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Arabian Sea & adjoining Saurashtra between 3.1 & 5.8 km above mean sea level persists.\nThe trough from the cyclonic circulation over northeast Arabian Sea & adjoining Saurashtra to the cyclonic circulation associated with Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood across south Gujarat and West Madhya Pradesh between 3.1 & 4.5 Km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "West Jharkhand & neighbourhood",
+        "location": "northeast Madhya Pradesh & neighbourhood persisted over the same region",
         "on_land": true,
         "movement": "west-northwestwards",
-        "raw_text": "The Well Marked low pressure area over Gangetic West Bengal & adjoining Jharkhand lies over West Jharkhand & neighbourhood at 0530 IST of today, the 02nd September 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwest with height. It is likely to become low pressure area during next 12 hours. It is likely to move west-northwestwards across South Uttar Pradesh and North Madhya Pradesh during next 24 hours."
+        "raw_text": "The Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 1430 IST of today, the 02nd September 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwest with height. It is likely to move west-northwestwards across south Uttar Pradesh and adjoining north Madhya Pradesh during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Ferozpur, Delhi, Lucknow, centre of Well Marked low pressure area over West Jharkhand & neighbourhood, Digha and thence southeastwards to Eastcentral Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Rohtak, Kanpur, Prayagraj, centre of Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood, Ranchi, Digha and thence southeastwards to Eastcentral Bay of Bengal.",
         "passes_through": [
-          "Ferozpur",
-          "Delhi",
-          "Lucknow",
-          "centre of Well Marked low pressure area over West Jharkhand & neighbourhood",
+          "Sri Ganganagar",
+          "Rohtak",
+          "Kanpur",
+          "Prayagraj",
+          "centre of Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood",
+          "Ranchi",
           "Digha",
           "Eastcentral Bay of Bengal"
         ],
@@ -37,9 +39,9 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan & adjoining Jammu Division now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 70°E to the north of Lat. 30°N .",
-        "form": "cyclonic_circulation",
-        "location": "north Pakistan & adjoining Jammu Division",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 30°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 70°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -47,30 +49,43 @@
         }
       }
     ],
-    "uac": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Arabian Sea & adjoining Saurashtra",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Arabian Sea & adjoining Saurashtra between 3.1 & 5.8 km above mean sea level persists."
+      }
+    ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
+        "across": "southern parts of East Uttar Pradesh, the cyclonic circulation associated with Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood, Jharkhand & Gangetic West Bengal",
         "level": {
           "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The trough now runsfromnorthwest Uttar Pradesh to northwest bay of Bengal across the cyclonic circulation associated with Well Marked low pressure area over West Jharkhand & neighbourhood and extends upto 3.1 km above mean sea level."
+        "raw_text": "The trough fromnorthwest Uttar Pradesh to Bangladesh across southern parts of East Uttar Pradesh, the cyclonic circulation associated with Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood, Jharkhand & Gangetic West Bengal extending upto 1.5 km above mean sea level persists."
       },
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "south Gujarat to the cyclonic circulation associated with Well Marked low pressure area over West Jharkhand & neighbourhood",
-        "across": "north Madhya Maharashtra, Madhya Pradesh",
+        "extent": "the cyclonic circulation over northeast Arabian Sea & adjoining Saurashtra to the cyclonic circulation associated with Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood",
+        "across": "south Gujarat and West Madhya Pradesh",
         "level": {
           "type": "range",
-          "min": 4.5,
-          "max": 5.8,
-          "display": "4.5–5.8 km above MSL"
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
         },
-        "raw_text": "The trough now runs from south Gujarat to the cyclonic circulation associated with Well Marked low pressure area over West Jharkhand & neighbourhood across north Madhya Maharashtra, Madhya Pradesh between 4.5 & 5.8 Km above mean sea level."
+        "raw_text": "The trough from the cyclonic circulation over northeast Arabian Sea & adjoining Saurashtra to the cyclonic circulation associated with Well Marked low pressure area over northeast Madhya Pradesh & neighbourhood across south Gujarat and West Madhya Pradesh between 3.1 & 4.5 Km above mean sea level persists."
       }
     ],
     "suppressed_count": 0,
@@ -81,5 +96,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-02 12:54 IST"
+  "fetched_at": "2026-09-02 18:34 IST"
 }
