@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8c68d3768f80c11888ad2fb19aaf2c3f.pdf",
-  "last_updated": "08:00 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b36ed21a6e56d646c7831c006e885053.pdf",
+  "last_updated": "04:12 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-09-06",
   "bulletin": {
     "morning": null,
@@ -11,36 +11,40 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure area over northwest Madhya Pradesh & adjoining southwest Uttar Pradesh lies over Southwest Uttar Pradesh & neighbourhood at 0530 hrs IST of today, the 06th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is likely to move east-northeastwards during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Sri Ganganagar, Delhi, centre of Low Pressure area over Southwest Uttar Pradesh & neighbourhood, Satna, Daltonganj, Bankura and thence eastwards towards Tripura.\nThe trough now runs from South Haryana to south Assam now runs from Northeast Rajasthan to south Assam across the cyclonic circulation associated with Low Pressure area over Southwest Uttar Pradesh & neighbourhood, north Chhattisgarh, Jharkhand, south Bihar and northern part of Gangetic West Bengal and extends upto 1.5 km above mean sea level.\nThe trough now runs from south Gujarat to north Bangladesh across cyclonic circulation associated with Low Pressure area over Southwest Uttar Pradesh & neighbourhood, north Chhattisgarh, Jharkhand and West Bengal between 3.1 & 5.8 km above mean sea level.\nThe Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from south Telangana to Gulf of Mannar across Rayalaseema and Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over north Coastal Andhra Pradesh & Yanam & Westcentral Bay of Bengal at 7.6 km above mean sea level persists.\nAn upper air cyclonic circulation lies over Saurashtra & neighbourhoodat 5.8 km above mean sea level.",
+  "met_analysis": "The Low Pressure area over Southwest Uttar Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of today, the 06th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is likely to move east-northeastwards during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Sri Ganganagar, Churu, centre of Low Pressure area over Southwest Uttar Pradesh & neighbourhood, Satna, Ranchi, Bankura and thence eastwards towards Tripura and extends upto 1.5 km above mean sea level.\nThe trough from south Gujarat to north Bangladesh across cyclonic circulation associated with Low Pressure area over Southwest Uttar Pradesh & neighbourhood, north Chhattisgarh, Jharkhand and West Bengal between 3.1 & 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over Kashmir & neighbourhood at 5.8 km above mean sea level persists.\nThe another Western Disturbance as a trough in middle and upper tropospheric with its axis at 7.6 km above mean sea level runs roughly along Long. 68°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from south Telangana to Gulf of Mannar across Rayalaseema and Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Saurashtra & neighbourhoodat 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "Southwest Uttar Pradesh & neighbourhood",
+        "location": "Southwest Uttar Pradesh & neighbourhood persisted over the same region",
         "on_land": true,
         "movement": "east-northeastwards",
-        "raw_text": "The Low Pressure area over northwest Madhya Pradesh & adjoining southwest Uttar Pradesh lies over Southwest Uttar Pradesh & neighbourhood at 0530 hrs IST of today, the 06th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is likely to move east-northeastwards during next 24 hours."
+        "raw_text": "The Low Pressure area over Southwest Uttar Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of today, the 06th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is likely to move east-northeastwards during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Delhi, centre of Low Pressure area over Southwest Uttar Pradesh & neighbourhood, Satna, Daltonganj, Bankura and thence eastwards towards Tripura.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Sri Ganganagar, Churu, centre of Low Pressure area over Southwest Uttar Pradesh & neighbourhood, Satna, Ranchi, Bankura and thence eastwards towards Tripura and extends upto 1.5 km above mean sea level.",
         "passes_through": [
           "Sri Ganganagar",
-          "Delhi",
+          "Churu",
           "centre of Low Pressure area over Southwest Uttar Pradesh & neighbourhood",
           "Satna",
-          "Daltonganj",
+          "Ranchi",
           "Bankura",
           "Tripura"
         ],
-        "level": "mean sea level"
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        }
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance now seen as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the north of Lat. 28°N.",
-        "form": "trough_in_westerlies",
-        "axis": "along Long. 70°E to the north of Lat. 28°N",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Kashmir & neighbourhood at 5.8 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "Kashmir & neighbourhood",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -61,37 +65,16 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "north Coastal Andhra Pradesh & Yanam & Westcentral Bay of Bengal",
-        "level": {
-          "type": "single",
-          "min": 7.6,
-          "display": "7.6 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over north Coastal Andhra Pradesh & Yanam & Westcentral Bay of Bengal at 7.6 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
         "location": "Saurashtra & neighbourhood",
         "level": {
           "type": "single",
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Saurashtra & neighbourhoodat 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Saurashtra & neighbourhoodat 5.8 km above mean sea level persists."
       }
     ],
     "other_troughs": [
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "South Haryana to south Assam now runs from Northeast Rajasthan to south Assam",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
-        },
-        "raw_text": "The trough now runs from South Haryana to south Assam now runs from Northeast Rajasthan to south Assam across the cyclonic circulation associated with Low Pressure area over Southwest Uttar Pradesh & neighbourhood, north Chhattisgarh, Jharkhand, south Bihar and northern part of Gangetic West Bengal and extends upto 1.5 km above mean sea level."
-      },
       {
         "type": "Trough",
         "subtype": "general",
@@ -103,7 +86,7 @@
           "max": 5.8,
           "display": "3.1–5.8 km above MSL"
         },
-        "raw_text": "The trough now runs from south Gujarat to north Bangladesh across cyclonic circulation associated with Low Pressure area over Southwest Uttar Pradesh & neighbourhood, north Chhattisgarh, Jharkhand and West Bengal between 3.1 & 5.8 km above mean sea level."
+        "raw_text": "The trough from south Gujarat to north Bangladesh across cyclonic circulation associated with Low Pressure area over Southwest Uttar Pradesh & neighbourhood, north Chhattisgarh, Jharkhand and West Bengal between 3.1 & 5.8 km above mean sea level persists."
       },
       {
         "type": "Trough",
@@ -118,13 +101,15 @@
         "raw_text": "The trough from south Telangana to Gulf of Mannar across Rayalaseema and Tamil Nadu at 0.9 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 0,
-    "unclassified": [],
+    "suppressed_count": 1,
+    "unclassified": [
+      "The another Western Disturbance as a trough in middle and upper tropospheric with its axis at 7.6 km above mean sea level runs roughly along Long. 68°E to the north of Lat. 28°N."
+    ],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-06 12:53 IST"
+  "fetched_at": "2026-09-06 17:57 IST"
 }
