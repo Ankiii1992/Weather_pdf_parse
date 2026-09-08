@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/98855e0351a343594fd16d8eafa459b0.pdf",
-  "last_updated": "04:39 PM IST",
-  "slot": "evening",
-  "bulletin_date": "2026-09-07",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/868c19d76013a2faaaec3ab697482d26.pdf",
+  "last_updated": "09:30 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-09-08",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure area over central parts of Uttar Pradesh persisted over the same region at 1430 hrs IST of today, the 07th September 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Narnaul, centre of Low Pressure area over central parts of Uttar Pradesh, Dehri, Purulia, Digha and thence east-southeastwards towards Northeast Bay of Bengal.\nThe trough from south Gujarat to cyclonic circulation associated with Low Pressure area over central parts of Uttar Pradesh across Madhya Pradesh between 3.1 & 4.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over Kashmir & neighbourhood at 5.8 km above mean sea level persists. Another Western Disturbance as a trough in middle and upper tropospheric with its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 29°N persists.\nThe trough from south Telangana to Gulf of Mannar across Rayalaseema and Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Bihar & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over west Assam & neighbourhoodat 3.1 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure area over central parts of Uttar Pradesh persisted over the same region at 0530 hrs IST of today, the 08th September 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level continue to pass through Sri Ganganagar, Rohtak, centre of Low Pressure area over central parts of Uttar Pradesh, Dehri, Bankura, Haldia and thence east-southeastwards towards Northeast Bay of Bengal.\nThe trough from south Gujarat to cyclonic circulation associated with Low Pressure area over central parts of Uttar Pradesh across Madhya Pradesh between 3.1 & 4.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over Kashmir & neighbourhood at 5.8 km above mean sea level persists. Another Western Disturbance as a trough in middle and upper tropospheric with its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 29°N persists.\nThe trough from south Telangana to Gulf of Mannar across Rayalaseema and Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Bihar & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over west Assam & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level.\nThe upper air cyclonic circulation over northwest Bay of Bengal & neighbourhood at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -19,18 +19,18 @@
         "status": "active",
         "location": "central parts of Uttar Pradesh persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure area over central parts of Uttar Pradesh persisted over the same region at 1430 hrs IST of today, the 07th September 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level."
+        "raw_text": "The Low Pressure area over central parts of Uttar Pradesh persisted over the same region at 0530 hrs IST of today, the 08th September 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Narnaul, centre of Low Pressure area over central parts of Uttar Pradesh, Dehri, Purulia, Digha and thence east-southeastwards towards Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level continue to pass through Sri Ganganagar, Rohtak, centre of Low Pressure area over central parts of Uttar Pradesh, Dehri, Bankura, Haldia and thence east-southeastwards towards Northeast Bay of Bengal.",
         "passes_through": [
           "Sri Ganganagar",
-          "Narnaul",
+          "Rohtak",
           "centre of Low Pressure area over central parts of Uttar Pradesh",
           "Dehri",
-          "Purulia",
-          "Digha",
+          "Bankura",
+          "Haldia",
           "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
@@ -62,11 +62,22 @@
         "type": "Upper Air Cyclonic Circulation",
         "location": "west Assam & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over west Assam & neighbourhoodat 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over west Assam & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Bay of Bengal & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Bay of Bengal & neighbourhood at 5.8 km above mean sea level persists."
       }
     ],
     "other_troughs": [
@@ -104,5 +115,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-08 07:07 IST"
+  "fetched_at": "2026-09-08 13:01 IST"
 }
