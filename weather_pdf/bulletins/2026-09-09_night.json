@@ -1,0 +1,101 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6ef1b79625068977229848e7ad77b764.pdf",
+  "last_updated": "08:45 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-09-09",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The upper air cyclonic circulation over north Bay of Bengal & adjoining Bangladesh coast extending upto 5.8 km above mean sea level persists. Under its influence, a Low Pressure Area is likely to form over North Bay of Bengal & neighbourhood on 10th September, 2026.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Pantnagar, Barabanki, Dehri, Purulia, Digha and thence southeastwards to eastcentral Bay of Bengal.\nThe trough from Rayalaseema to Gulf of Mannar across Tamil Nadu persists and now extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Saurashtra & neighbourhoodbetween 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhoodat 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood now lies over West Uttar Pradesh & neighbourhood between 4.5 & 5.8 km above mean sea level.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Pantnagar, Barabanki, Dehri, Purulia, Digha and thence southeastwards to eastcentral Bay of Bengal.",
+        "passes_through": [
+          "Jammu",
+          "Dehradun",
+          "Pantnagar",
+          "Barabanki",
+          "Dehri",
+          "Purulia",
+          "Digha",
+          "eastcentral Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood now lies over West Uttar Pradesh & neighbourhood between 4.5 & 5.8 km above mean sea level.",
+        "form": "cyclonic_circulation",
+        "location": "West Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Bay of Bengal & adjoining Bangladesh coast",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Bay of Bengal & adjoining Bangladesh coast extending upto 5.8 km above mean sea level persists. Under its influence, a Low Pressure Area is likely to form over North Bay of Bengal & neighbourhood on 10th September, 2026."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Saurashtra & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 5.8,
+          "max": 7.6,
+          "display": "5.8–7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Saurashtra & neighbourhoodbetween 5.8 & 7.6 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhoodat 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Rayalaseema to Gulf of Mannar",
+        "across": "Tamil Nadu",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The trough from Rayalaseema to Gulf of Mannar across Tamil Nadu persists and now extends upto 1.5 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-09-09 23:38 IST"
+}
