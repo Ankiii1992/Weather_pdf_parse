@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a29f8d4299b4095342dd3bb772192753.pdf",
-  "last_updated": "04:32 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/79b46a4a42363ef00933f06005e7c199.pdf",
+  "last_updated": "08:52 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-10",
   "bulletin": {
     "morning": null,
@@ -11,25 +11,25 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over Northwest Bay of Bengal & neighbourhood persisted over the same region at 1430 hrs IST of today, the 10 September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height.\nThe upper air cyclonic circulation over northwest Uttar Pradesh extends upto 3.1 km above mean sea level persists.\nThe trough from north Haryana to cyclonic circulation associated with the Low Pressure Area over Northwest Bay of Bengal & neighbourhood across Uttar Pradesh and Jharkhand & extends upto 5.8 km above mean sea level persists.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Bareilly, Lucknow, Ambikapur, Jharsuguda to the centre of Low Pressure Area over Northwest Bay of Bengal & neighbourhood and thence east southeastwards to Eastcentral Bay of Bengal.\nThe trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gujarat & neighbourhood between 4.5 & 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan and adjoining Jammu at 5.8 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over Northwest Bay of Bengal & neighbourhood persisted over the same region at 1730 hrs IST of today, the 10 September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height.\nThe upper air cyclonic circulation over northwest Uttar Pradesh extends upto 3.1 km above mean sea level persists.\nThe trough from north Haryana to cyclonic circulation associated with the Low Pressure Area over Northwest Bay of Bengal & neighbourhood across Uttar Pradesh and Jharkhand & extends upto 5.8 km above mean sea level persists.\nThe Monsoon trough at mean sea level now passes through Jammu, Najibabad, Shahjahanpur, Lucknow, Dehri, Ranchi to the centre of Low Pressure Area over Northwest Bay of Bengal & neighbourhood and thence east southeastwards to Eastcentral Bay of Bengal.\nThe trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gujarat & neighbourhood between 4.5 & 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan and adjoining Jammu at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
         "location": "Northwest Bay of Bengal & neighbourhood persisted over the same region",
-        "raw_text": "The Low Pressure Area over Northwest Bay of Bengal & neighbourhood persisted over the same region at 1430 hrs IST of today, the 10 September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height."
+        "raw_text": "The Low Pressure Area over Northwest Bay of Bengal & neighbourhood persisted over the same region at 1730 hrs IST of today, the 10 September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Bareilly, Lucknow, Ambikapur, Jharsuguda to the centre of Low Pressure Area over Northwest Bay of Bengal & neighbourhood and thence east southeastwards to Eastcentral Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Najibabad, Shahjahanpur, Lucknow, Dehri, Ranchi to the centre of Low Pressure Area over Northwest Bay of Bengal & neighbourhood and thence east southeastwards to Eastcentral Bay of Bengal.",
         "passes_through": [
           "Jammu",
-          "Dehradun",
-          "Bareilly",
+          "Najibabad",
+          "Shahjahanpur",
           "Lucknow",
-          "Ambikapur",
-          "Jharsuguda to the centre of Low Pressure Area over Northwest Bay of Bengal & neighbourhood and thence east southeastwards to Eastcentral Bay of Bengal"
+          "Dehri",
+          "Ranchi to the centre of Low Pressure Area over Northwest Bay of Bengal & neighbourhood and thence east southeastwards to Eastcentral Bay of Bengal"
         ],
         "level": "mean sea level"
       },
@@ -102,5 +102,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-10 18:43 IST"
+  "fetched_at": "2026-09-10 23:28 IST"
 }
