@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a29f8d4299b4095342dd3bb772192753.pdf",
+  "last_updated": "04:32 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-09-10",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure Area over Northwest Bay of Bengal & neighbourhood persisted over the same region at 1430 hrs IST of today, the 10 September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height.\nThe upper air cyclonic circulation over northwest Uttar Pradesh extends upto 3.1 km above mean sea level persists.\nThe trough from north Haryana to cyclonic circulation associated with the Low Pressure Area over Northwest Bay of Bengal & neighbourhood across Uttar Pradesh and Jharkhand & extends upto 5.8 km above mean sea level persists.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Bareilly, Lucknow, Ambikapur, Jharsuguda to the centre of Low Pressure Area over Northwest Bay of Bengal & neighbourhood and thence east southeastwards to Eastcentral Bay of Bengal.\nThe trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gujarat & neighbourhood between 4.5 & 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan and adjoining Jammu at 5.8 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Northwest Bay of Bengal & neighbourhood persisted over the same region",
+        "raw_text": "The Low Pressure Area over Northwest Bay of Bengal & neighbourhood persisted over the same region at 1430 hrs IST of today, the 10 September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level tilting southwestwards with height."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Bareilly, Lucknow, Ambikapur, Jharsuguda to the centre of Low Pressure Area over Northwest Bay of Bengal & neighbourhood and thence east southeastwards to Eastcentral Bay of Bengal.",
+        "passes_through": [
+          "Jammu",
+          "Dehradun",
+          "Bareilly",
+          "Lucknow",
+          "Ambikapur",
+          "Jharsuguda to the centre of Low Pressure Area over Northwest Bay of Bengal & neighbourhood and thence east southeastwards to Eastcentral Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan and adjoining Jammu at 5.8 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "north Pakistan and adjoining Jammu",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Uttar Pradesh",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Uttar Pradesh extends upto 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Gujarat & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 4.5,
+          "max": 5.8,
+          "display": "4.5–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Gujarat & neighbourhood between 4.5 & 5.8 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "north Haryana to cyclonic circulation associated with the Low Pressure Area over Northwest Bay of Bengal & neighbourhood",
+        "across": "Uttar Pradesh and Jharkhand & extends upto 5.8 km above mean sea level",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "The trough from north Haryana to cyclonic circulation associated with the Low Pressure Area over Northwest Bay of Bengal & neighbourhood across Uttar Pradesh and Jharkhand & extends upto 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "South Interior Karnataka to Gulf of Mannar",
+        "across": "Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-09-10 18:43 IST"
+}
