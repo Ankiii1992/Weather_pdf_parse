@@ -1,0 +1,99 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/50d8bd6144ff84e936ab7f8da6641ee7.pdf",
+  "last_updated": "09:09 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-09-10",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "A trough runs from East Uttar Pradesh to the upper air cyclonic circulation associated with the Low Pressure Area over North Bay of Bengal & neighbourhood across Jharkhand and extends upto 1.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Bareilly, Daltonganj, Digha to\nthe centre of Low Pressure Area over North Bay of Bengal & neighbourhood.\nThe trough from Rayalaseema to Gulf of Mannar across Tamil Nadu extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Saurashtra & neighbourhood persists and now seen at 7.6 km above mean sea level.\nThe upper air cyclonic circulation over north Haryana & neighbourhood persists and now extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over West Uttar Pradesh & neighbourhood now lies over southwest Uttar Pradesh at 5.8 km above mean sea level.\nA Fresh Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 28°N.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Bareilly, Daltonganj, Digha to",
+        "passes_through": [
+          "Jammu",
+          "Dehradun",
+          "Bareilly",
+          "Daltonganj",
+          "Digha to"
+        ],
+        "level": "mean sea level"
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Saurashtra & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 7.6,
+          "display": "7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Saurashtra & neighbourhood persists and now seen at 7.6 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood persists and now extends upto 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Uttar Pradesh",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over West Uttar Pradesh & neighbourhood now lies over southwest Uttar Pradesh at 5.8 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "East Uttar Pradesh to the upper air cyclonic circulation associated with the Low Pressure Area over North Bay of Bengal & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "A trough runs from East Uttar Pradesh to the upper air cyclonic circulation associated with the Low Pressure Area over North Bay of Bengal & neighbourhood across Jharkhand and extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Rayalaseema to Gulf of Mannar",
+        "across": "Tamil Nadu",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The trough from Rayalaseema to Gulf of Mannar across Tamil Nadu extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 2,
+    "unclassified": [
+      "the centre of Low Pressure Area over North Bay of Bengal & neighbourhood.",
+      "A Fresh Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 28°N."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-09-10 13:05 IST"
+}
