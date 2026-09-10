@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6ef1b79625068977229848e7ad77b764.pdf",
-  "last_updated": "08:45 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-09-09",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/50d8bd6144ff84e936ab7f8da6641ee7.pdf",
+  "last_updated": "09:09 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-09-10",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,71 +11,66 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The upper air cyclonic circulation over north Bay of Bengal & adjoining Bangladesh coast extending upto 5.8 km above mean sea level persists. Under its influence, a Low Pressure Area is likely to form over North Bay of Bengal & neighbourhood on 10th September, 2026.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Pantnagar, Barabanki, Dehri, Purulia, Digha and thence southeastwards to eastcentral Bay of Bengal.\nThe trough from Rayalaseema to Gulf of Mannar across Tamil Nadu persists and now extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Saurashtra & neighbourhoodbetween 5.8 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhoodat 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood now lies over West Uttar Pradesh & neighbourhood between 4.5 & 5.8 km above mean sea level.",
+  "met_analysis": "A trough runs from East Uttar Pradesh to the upper air cyclonic circulation associated with the Low Pressure Area over North Bay of Bengal & neighbourhood across Jharkhand and extends upto 1.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Jammu, Dehradun, Bareilly, Daltonganj, Digha to\nthe centre of Low Pressure Area over North Bay of Bengal & neighbourhood.\nThe trough from Rayalaseema to Gulf of Mannar across Tamil Nadu extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Saurashtra & neighbourhood persists and now seen at 7.6 km above mean sea level.\nThe upper air cyclonic circulation over north Haryana & neighbourhood persists and now extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over West Uttar Pradesh & neighbourhood now lies over southwest Uttar Pradesh at 5.8 km above mean sea level.\nA Fresh Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 28°N.",
   "systems": {
     "priority": [
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Pantnagar, Barabanki, Dehri, Purulia, Digha and thence southeastwards to eastcentral Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Jammu, Dehradun, Bareilly, Daltonganj, Digha to",
         "passes_through": [
           "Jammu",
           "Dehradun",
-          "Pantnagar",
-          "Barabanki",
-          "Dehri",
-          "Purulia",
-          "Digha",
-          "eastcentral Bay of Bengal"
+          "Bareilly",
+          "Daltonganj",
+          "Digha to"
         ],
         "level": "mean sea level"
-      },
-      {
-        "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood now lies over West Uttar Pradesh & neighbourhood between 4.5 & 5.8 km above mean sea level.",
-        "form": "cyclonic_circulation",
-        "location": "West Uttar Pradesh & neighbourhood",
-        "level": {
-          "type": "range",
-          "min": 4.5,
-          "max": 5.8,
-          "display": "4.5–5.8 km above MSL"
-        }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "north Bay of Bengal & adjoining Bangladesh coast",
-        "level": {
-          "type": "upto",
-          "max": 5.8,
-          "display": "upto 5.8 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over north Bay of Bengal & adjoining Bangladesh coast extending upto 5.8 km above mean sea level persists. Under its influence, a Low Pressure Area is likely to form over North Bay of Bengal & neighbourhood on 10th September, 2026."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
         "location": "Saurashtra & neighbourhood",
         "level": {
-          "type": "range",
-          "min": 5.8,
-          "max": 7.6,
-          "display": "5.8–7.6 km above MSL"
+          "type": "single",
+          "min": 7.6,
+          "display": "7.6 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Saurashtra & neighbourhoodbetween 5.8 & 7.6 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Saurashtra & neighbourhood persists and now seen at 7.6 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "north Haryana & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhoodat 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood persists and now extends upto 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Uttar Pradesh",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over West Uttar Pradesh & neighbourhood now lies over southwest Uttar Pradesh at 5.8 km above mean sea level."
       }
     ],
     "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "East Uttar Pradesh to the upper air cyclonic circulation associated with the Low Pressure Area over North Bay of Bengal & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "A trough runs from East Uttar Pradesh to the upper air cyclonic circulation associated with the Low Pressure Area over North Bay of Bengal & neighbourhood across Jharkhand and extends upto 1.5 km above mean sea level."
+      },
       {
         "type": "Trough",
         "subtype": "general",
@@ -86,16 +81,19 @@
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The trough from Rayalaseema to Gulf of Mannar across Tamil Nadu persists and now extends upto 1.5 km above mean sea level."
+        "raw_text": "The trough from Rayalaseema to Gulf of Mannar across Tamil Nadu extending upto 1.5 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 0,
-    "unclassified": [],
+    "suppressed_count": 2,
+    "unclassified": [
+      "the centre of Low Pressure Area over North Bay of Bengal & neighbourhood.",
+      "A Fresh Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 28°N."
+    ],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-10 07:10 IST"
+  "fetched_at": "2026-09-10 13:05 IST"
 }
