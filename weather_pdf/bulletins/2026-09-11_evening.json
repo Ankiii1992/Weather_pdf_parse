@@ -1,0 +1,96 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7ad0d853c7e1c5b38720985d80c512be.pdf",
+  "last_updated": "04:51 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-09-11",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure Area over Northwest-Westcentral Bay of Bengal & adjoining south Odisha-north Andhra Pradesh coasts persisted over the same region at 1430 hrs IST of today, the 11th September 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to become more marked and move west-northwestwards across south Odisha - north Coastal Andhra Pradesh during next 24 hours.\nThe trough from north Rajasthan to cyclonic circulation associated with the Low Pressure Area over Northwest-Westcentral Bay of Bengal & adjoining south Odisha-north Andhra Pradesh coasts across Madhya Pradesh & Chhattisgarh extending upto 3.1 km above mean sea level persists.\nThe Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Churu, Shivpuri, Damoh, Bilaspur to the centre of Low Pressure Area over Northwest-Westcentral Bay of Bengal & adjoining south Odisha-north Andhra Pradesh coasts and thence east southeastwards to Eastcentral Bay of Bengal.\nThe trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian sea off south Konkan at 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Punjab & neighbourhood between 3.1 & 5.8 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Northwest-Westcentral Bay of Bengal & adjoining south Odisha-north Andhra Pradesh coasts persisted over the same region",
+        "movement": "west-northwestwards",
+        "raw_text": "The Low Pressure Area over Northwest-Westcentral Bay of Bengal & adjoining south Odisha-north Andhra Pradesh coasts persisted over the same region at 1430 hrs IST of today, the 11th September 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to become more marked and move west-northwestwards across south Odisha - north Coastal Andhra Pradesh during next 24 hours."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Sri Ganganagar, Churu, Shivpuri, Damoh, Bilaspur to the centre of Low Pressure Area over Northwest-Westcentral Bay of Bengal & adjoining south Odisha-north Andhra Pradesh coasts and thence east southeastwards to Eastcentral Bay of Bengal.",
+        "passes_through": [
+          "Sri Ganganagar",
+          "Churu",
+          "Shivpuri",
+          "Damoh",
+          "Bilaspur to the centre of Low Pressure Area over Northwest-Westcentral Bay of Bengal & adjoining south Odisha-north Andhra Pradesh coasts and thence east southeastwards to Eastcentral Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Punjab & neighbourhood between 3.1 & 5.8 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "north Punjab & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Eastcentral Arabian sea off south Konkan",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Eastcentral Arabian sea off south Konkan at 5.8 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "north Rajasthan to cyclonic circulation associated with the Low Pressure Area over Northwest-Westcentral Bay of Bengal & adjoining south Odisha-north Andhra Pradesh coasts",
+        "across": "Madhya Pradesh & Chhattisgarh",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The trough from north Rajasthan to cyclonic circulation associated with the Low Pressure Area over Northwest-Westcentral Bay of Bengal & adjoining south Odisha-north Andhra Pradesh coasts across Madhya Pradesh & Chhattisgarh extending upto 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "South Interior Karnataka to Gulf of Mannar",
+        "across": "Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-09-11 18:37 IST"
+}
