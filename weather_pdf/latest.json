@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1684c700ed52568912bf8139110e50cd.pdf",
-  "last_updated": "08:15 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e3c36f5c12f8c56010eb6b1fad2222b7.pdf",
+  "last_updated": "04:30 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-09-13",
   "bulletin": {
     "morning": null,
@@ -11,26 +11,27 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over south Chhattisgarh and adjoining Vidarbha lies over north Vidarbha and adjoining Madhya Pradesh at 0530 hrs IST of today, the 13th September 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to move west-northwestwards across northwest Vidarbha and southwest Madhya Pradesh during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Jaisalmer, Kota, Indore, centre of Low Pressure Area over north Vidarbha and adjoining Madhya Pradesh, Puri and thence east southeastwards to Eastcentral Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Konkan adjoining Eastcentral Arabian sea between 3.1 & 7.6 km above mean sea level titling southwestwards with height persists.\nThe Western Disturbance as a cyclonic circulation over Jammu division & neighbourhood between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood extending upto 1.5 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha persisted over the same region at 1430 hrs IST of today, the 13th September 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to move west-northwestwards across southeast Rajasthan and adjoining north Gujarat during next 24 hours.\nThe Monsoon trough at mean sea level continues to pass through Jaisalmer, Kota, centre of Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha, Rajnandagaon, Bhawanipatna and thence east-southeastwards to Eastcentral Bay of Bengal extending upto 1.5 km above mean sea level.\nThe trough from cyclonic circulation associated with Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha to gulf of Mannar across Marathwada, North Interior Karnataka, Rayalaseema & Tamil Nadu extending upto 1.5 km above mean sea level persists.\nA trough runs from Northeast Arabian Sea to Bihar across Gujarat, cyclonic circulation associated with Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha & southeast Uttar Pradesh and extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over south Konkan adjoining Eastcentral Arabian sea between 3.1 & 7.6 km above mean sea level titling southwestwards with height persists.\nThe trough from southwest Arabian Sea to centre of Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha across Eastcentral Arabian Sea, Konkan & Goa, Madhya Maharashtra at 5.8 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "north Vidarbha and adjoining Madhya Pradesh",
+        "location": "southwest Madhya Pradesh and adjoining north Vidarbha persisted over the same region",
         "on_land": true,
         "movement": "west-northwestwards",
-        "raw_text": "The Low Pressure Area over south Chhattisgarh and adjoining Vidarbha lies over north Vidarbha and adjoining Madhya Pradesh at 0530 hrs IST of today, the 13th September 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to move west-northwestwards across northwest Vidarbha and southwest Madhya Pradesh during next 24 hours."
+        "raw_text": "The Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha persisted over the same region at 1430 hrs IST of today, the 13th September 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to move west-northwestwards across southeast Rajasthan and adjoining north Gujarat during next 24 hours."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Jaisalmer, Kota, Indore, centre of Low Pressure Area over north Vidarbha and adjoining Madhya Pradesh, Puri and thence east southeastwards to Eastcentral Bay of Bengal and extends upto 1.5 km above mean sea level.",
+        "raw_text": "The Monsoon trough at mean sea level continues to pass through Jaisalmer, Kota, centre of Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha, Rajnandagaon, Bhawanipatna and thence east-southeastwards to Eastcentral Bay of Bengal extending upto 1.5 km above mean sea level.",
         "passes_through": [
           "Jaisalmer",
           "Kota",
-          "Indore",
-          "centre of Low Pressure Area over north Vidarbha and adjoining Madhya Pradesh",
-          "Puri and thence east southeastwards to Eastcentral Bay of Bengal"
+          "centre of Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha",
+          "Rajnandagaon",
+          "Bhawanipatna",
+          "Eastcentral Bay of Bengal"
         ],
         "level": {
           "type": "upto",
@@ -40,14 +41,13 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu division & neighbourhood between 3.1 & 5.8 km above mean sea level persists.",
-        "form": "cyclonic_circulation",
-        "location": "Jammu division & neighbourhood",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 30°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 73°E to the north of Lat. 30°N",
         "level": {
-          "type": "range",
-          "min": 3.1,
-          "max": 5.8,
-          "display": "3.1–5.8 km above MSL"
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         }
       }
     ],
@@ -67,25 +67,49 @@
         "type": "Upper Air Cyclonic Circulation",
         "location": "central Assam & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over central Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "South Interior Karnataka to Gulf of Mannar",
-        "across": "Tamil Nadu",
+        "extent": "cyclonic circulation associated with Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha to gulf of Mannar",
+        "across": "Marathwada, North Interior Karnataka, Rayalaseema & Tamil Nadu",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The trough from cyclonic circulation associated with Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha to gulf of Mannar across Marathwada, North Interior Karnataka, Rayalaseema & Tamil Nadu extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Northeast Arabian Sea to Bihar",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "A trough runs from Northeast Arabian Sea to Bihar across Gujarat, cyclonic circulation associated with Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha & southeast Uttar Pradesh and extends upto 3.1 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "southwest Arabian Sea to centre of Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha",
+        "across": "Eastcentral Arabian Sea, Konkan & Goa, Madhya Maharashtra",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough from southwest Arabian Sea to centre of Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha across Eastcentral Arabian Sea, Konkan & Goa, Madhya Maharashtra at 5.8 km above mean sea level persists."
       }
     ],
     "suppressed_count": 0,
@@ -96,5 +120,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-13 13:14 IST"
+  "fetched_at": "2026-09-13 19:02 IST"
 }
