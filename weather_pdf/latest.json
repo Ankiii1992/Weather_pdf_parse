@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/df41b297f7e87055bc00c59d7535f583.pdf",
-  "last_updated": "08:44 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-09-13",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/fc2d8a0cd9619b79f3b6ddbe6ce29be9.pdf",
+  "last_updated": "08:10 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-09-14",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,34 +11,35 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha lies over Southwest Madhya Pradesh & neighbourhood at 1730 hrs IST of today, the 13th September 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to move west-northwestwards across southeast Rajasthan & adjoining north Gujarat during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Disha, centre of Low Pressure Area over Southwest Madhya Pradesh & neighbourhood Betul, Brahmpuri, Jagdalpur, Kalingapatnam and thence east- southeastwards to Westcentral Bay of Bengal.\nThe trough now runs from Eastcentral Arabian Sea to Gangetic West Bengal across Gujarat, Madhya Pradesh, north Chhattisgarh & Jharkhand and extends upto 4.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Coastal Andhra Pradesh & neighbourhood between 5.8 & 7.6 km above mean sea level.\nAn upper air cyclonic circulation lies south Tamil Nadu coast & neighbourhood at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over south Konkan adjoining Eastcentral Arabian sea persists and now seen at 7.6 km above mean sea level.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 30°N persists.\nThe trough from Southwest Arabian Sea to centre of Low Pressure Area over West Madhya Pradesh & neighbourhood across Eastcentral Arabian Sea, Konkan & Goa, Madhya Maharashtra at 5.8 km above mean sea level has become less marked.\nThe trough from cyclonic circulation associated with Low Pressure Area over West Madhya Pradesh & neighbourhood to Gulf of Mannar across Marathwada, North Interior Karnataka, Rayalaseema & Tamil Nadu extending upto 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over central Assam & neighbourhood between 1.5 & 3.1 km above mean sea level has become less marked.",
+  "met_analysis": "The Low Pressure Area over Southwest Madhya Pradesh & neighbourhood lies over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh at 0530 hrs IST of today, the 14th September 2026.\nThe associated cyclonic circulation extending upto 5.8 km above mean sea level tilting southwestwards with height. It is likely to move west-northwestwards across South Rajasthan & North Gujarat during next 24 hours.\nThe Monsoon trough at mean sea level now passes through Deesha, centre of Low Pressure Area over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh, Bhopal, Jabalpur, Daltonganj, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe trough now runs from Eastcentral Arabian Sea to Bihar across Gujarat, Madhya Pradesh, north Chhattisgarh & Jharkhand and extends upto 4.5 km above mean sea level.\nA trough runs from the cyclonic circulation associated with the Low Pressure area over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh to Westcentral Bay of Bengal across Southwest Madhya Pradesh, Vidarbha, Telangana, South Coastal Andhra Pradesh at 4.5 km above mean sea level.\nThe upper air cyclonic circulation over Coastal Andhra Pradesh & neighbourhood persists and now seen at 5.8 km above mean sea level.\nThe upper air cyclonic circulation south Tamil Nadu coast & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over south Konkan adjoining Eastcentral Arabian sea at 7.6 km above mean sea level has merged with the cyclonic circulation associated with the Low Pressure area over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 75°E to the north of Lat. 30°N.\nAn upper air cyclonic circulation lies over Northwest Bay of Bengal & neighbourhood between 1.5 & 3.1 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "Southwest Madhya Pradesh & neighbourhood",
+        "location": "Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh",
         "on_land": true,
-        "movement": "west-northwestwards",
-        "raw_text": "The Low Pressure Area over southwest Madhya Pradesh and adjoining north Vidarbha lies over Southwest Madhya Pradesh & neighbourhood at 1730 hrs IST of today, the 13th September 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwestwards with height. It is likely to move west-northwestwards across southeast Rajasthan & adjoining north Gujarat during next 24 hours."
+        "raw_text": "The Low Pressure Area over Southwest Madhya Pradesh & neighbourhood lies over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh at 0530 hrs IST of today, the 14th September 2026."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Disha, centre of Low Pressure Area over Southwest Madhya Pradesh & neighbourhood Betul, Brahmpuri, Jagdalpur, Kalingapatnam and thence east- southeastwards to Westcentral Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through Deesha, centre of Low Pressure Area over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh, Bhopal, Jabalpur, Daltonganj, Digha and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
-          "Disha",
-          "centre of Low Pressure Area over Southwest Madhya Pradesh & neighbourhood Betul",
-          "Brahmpuri",
-          "Jagdalpur",
-          "Kalingapatnam and thence east- southeastwards to Westcentral Bay of Bengal"
+          "Deesha",
+          "centre of Low Pressure Area over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh",
+          "Bhopal",
+          "Jabalpur",
+          "Daltonganj",
+          "Digha",
+          "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 30°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 75°E to the north of Lat. 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 73°E to the north of Lat. 30°N",
+        "axis": "along Long. 75°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -51,12 +52,11 @@
         "type": "Upper Air Cyclonic Circulation",
         "location": "Coastal Andhra Pradesh & neighbourhood",
         "level": {
-          "type": "range",
+          "type": "single",
           "min": 5.8,
-          "max": 7.6,
-          "display": "5.8–7.6 km above MSL"
+          "display": "5.8 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Coastal Andhra Pradesh & neighbourhood between 5.8 & 7.6 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Coastal Andhra Pradesh & neighbourhood persists and now seen at 5.8 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -65,7 +65,7 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies south Tamil Nadu coast & neighbourhood at 3.1 km above mean sea level.",
+        "raw_text": "The upper air cyclonic circulation south Tamil Nadu coast & neighbourhood at 3.1 km above mean sea level persists.",
         "_warnings": [
           "UAC missing location"
         ]
@@ -78,24 +78,49 @@
           "min": 7.6,
           "display": "7.6 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over south Konkan adjoining Eastcentral Arabian sea persists and now seen at 7.6 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over south Konkan adjoining Eastcentral Arabian sea at 7.6 km above mean sea level has merged with the cyclonic circulation associated with the Low Pressure area over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northwest Bay of Bengal & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Northwest Bay of Bengal & neighbourhood between 1.5 & 3.1 km above mean sea level."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "Eastcentral Arabian Sea to Gangetic West Bengal",
+        "extent": "Eastcentral Arabian Sea to Bihar",
         "level": {
           "type": "upto",
           "max": 4.5,
           "display": "upto 4.5 km above MSL"
         },
-        "raw_text": "The trough now runs from Eastcentral Arabian Sea to Gangetic West Bengal across Gujarat, Madhya Pradesh, north Chhattisgarh & Jharkhand and extends upto 4.5 km above mean sea level."
+        "raw_text": "The trough now runs from Eastcentral Arabian Sea to Bihar across Gujarat, Madhya Pradesh, north Chhattisgarh & Jharkhand and extends upto 4.5 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "the cyclonic circulation associated with the Low Pressure area over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh to Westcentral Bay of Bengal",
+        "across": "Southwest Madhya Pradesh, Vidarbha, Telangana, South Coastal Andhra Pradesh",
+        "level": {
+          "type": "single",
+          "min": 4.5,
+          "display": "4.5 km above MSL"
+        },
+        "raw_text": "A trough runs from the cyclonic circulation associated with the Low Pressure area over Southeast Rajasthan and adjoining Gujarat Region & Southwest Madhya Pradesh to Westcentral Bay of Bengal across Southwest Madhya Pradesh, Vidarbha, Telangana, South Coastal Andhra Pradesh at 4.5 km above mean sea level."
       }
     ],
-    "suppressed_count": 3,
-    "unclassified": [],
+    "suppressed_count": 1,
+    "unclassified": [
+      "The associated cyclonic circulation extending upto 5.8 km above mean sea level tilting southwestwards with height. It is likely to move west-northwestwards across South Rajasthan & North Gujarat during next 24 hours."
+    ],
     "validation": {
       "warnings_count": 1,
       "systems_with_warnings": [
@@ -104,5 +129,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-14 07:24 IST"
+  "fetched_at": "2026-09-14 13:42 IST"
 }
