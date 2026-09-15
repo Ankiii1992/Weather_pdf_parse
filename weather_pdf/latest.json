@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b0348ba8414ae80b0b0ce4b6578a6024.pdf",
-  "last_updated": "04:32 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/691101606fd602cee41b30f7f43c4b8d.pdf",
+  "last_updated": "08:49 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-15",
   "bulletin": {
     "morning": null,
@@ -11,34 +11,35 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over southwest Rajasthan adjoining Kutch region and southeast Pakistan lies over Southeast Pakistan & neighbourhood at 1430 hrs IST of today 15 September, 2026. The associated cyclonic circulation now extends upto 7.6 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Southeast Pakistan & neighbourhood, Udaipur, Raisen, Pendra road, Ranchi & Digha and thence southeastwards to Northwest Bay of Bengal.\nThe upper air cyclonic circulation over Northwest Bay of Bengal and adjoining north Odisha & West Bengal coasts between 1.5 & 5.8 km above mean sea level tilting southwestwards with height persists.\nThe trough from South interior Karnataka to Gulf of Mannar across Tamil Nadu extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 3.1 km above mean sea level roughly along Long. 72°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over Southeast Pakistan & neighbourhood persisted over same region at 1730 hrs IST of today 15 September, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Southeast Pakistan & neighbourhood, Jodhpur, Banasthali Vidyapith, Shivpuri, Sidhi, Ranchi & Digha and thence southeastwards to Northeast Bay of Bengal.\nA trough runs from Bihar to North Odisha across Jharkhand between 1.5 to 4.5 km above mean level.\nThe upper air cyclonic circulation over Northwest Bay of Bengal and adjoining North Odisha & West Bengal coasts lies over south Odisha and adjoining north Andhra Pradesh and Northwest Bay of Bengal at 0.9 km above mean sea level.\nThe trough from South interior Karnataka to Gulf of Mannar across Tamil Nadu extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance now seen as cyclonic circulation over Jammu & neighbourhoodat 3.1 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "Southeast Pakistan & neighbourhood",
+        "location": "Southeast Pakistan & neighbourhood persisted over same region",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over southwest Rajasthan adjoining Kutch region and southeast Pakistan lies over Southeast Pakistan & neighbourhood at 1430 hrs IST of today 15 September, 2026. The associated cyclonic circulation now extends upto 7.6 km above mean sea level tilting southwards with height."
+        "raw_text": "The Low Pressure Area over Southeast Pakistan & neighbourhood persisted over same region at 1730 hrs IST of today 15 September, 2026. The associated cyclonic circulation extending upto 7.6 km above mean sea level tilting southwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Southeast Pakistan & neighbourhood, Udaipur, Raisen, Pendra road, Ranchi & Digha and thence southeastwards to Northwest Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Southeast Pakistan & neighbourhood, Jodhpur, Banasthali Vidyapith, Shivpuri, Sidhi, Ranchi & Digha and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
           "centre of Low Pressure Area over Southeast Pakistan & neighbourhood",
-          "Udaipur",
-          "Raisen",
-          "Pendra road",
+          "Jodhpur",
+          "Banasthali Vidyapith",
+          "Shivpuri",
+          "Sidhi",
           "Ranchi & Digha",
-          "Northwest Bay of Bengal"
+          "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 3.1 km above mean sea level roughly along Long. 72°E to the north of Lat. 32°N persists.",
-        "form": "trough_in_westerlies",
-        "axis": "along Long. 72°E to the north of Lat. 32°N",
+        "raw_text": "The Western Disturbance now seen as cyclonic circulation over Jammu & neighbourhoodat 3.1 km above mean sea level.",
+        "form": "cyclonic_circulation",
+        "location": "Jammu & neighbourhood",
         "level": {
           "type": "single",
           "min": 3.1,
@@ -49,15 +50,13 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Northwest Bay of Bengal and adjoining north Odisha & West Bengal coasts",
+        "location": "south Odisha and adjoining north Andhra Pradesh and Northwest Bay of Bengal",
         "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 5.8,
-          "display": "1.5–5.8 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "tilt": "tilting southwestwards with height",
-        "raw_text": "The upper air cyclonic circulation over Northwest Bay of Bengal and adjoining north Odisha & West Bengal coasts between 1.5 & 5.8 km above mean sea level tilting southwestwards with height persists."
+        "raw_text": "The upper air cyclonic circulation over Northwest Bay of Bengal and adjoining North Odisha & West Bengal coasts lies over south Odisha and adjoining north Andhra Pradesh and Northwest Bay of Bengal at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -71,6 +70,13 @@
       }
     ],
     "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Bihar to North Odisha",
+        "across": "Jharkhand",
+        "raw_text": "A trough runs from Bihar to North Odisha across Jharkhand between 1.5 to 4.5 km above mean level."
+      },
       {
         "type": "Trough",
         "subtype": "general",
@@ -92,5 +98,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-15 19:31 IST"
+  "fetched_at": "2026-09-16 00:06 IST"
 }
