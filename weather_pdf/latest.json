@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/32e8ca772c05a9dcfa2ab837192f5631.pdf",
-  "last_updated": "08:50 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-09-14",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9a42cdb6e35e18aab8e711348cbfb252.pdf",
+  "last_updated": "07:58 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-09-15",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,34 +11,34 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over Southeast Rajasthan & adjoining north Gujarat lies over southwest Rajasthan adjoining Kutch region and southeast Pakistan at 1730 hrs IST of today 14 September, 2026. The associated cyclonic circulation now extends upto 7.6 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through centre of Low Pressure Area over southwest Rajasthan adjoining Kutch region and southeast Pakistan, Rajgarh, Damoh, Pendra Road, Rourkela & Digha and thence southeastwards to Northwest Bay of Bengal.\nThe trough now runs from cyclonic circulation associated with low pressure area over southwest Rajasthan adjoining Kutch region and southeast Pakistan to Jharkhandacross Madhya Pradesh, & north Chhattisgarh & extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Northwest Bay of Bengal and adjoining north Odisha & West Bengal coasts between 1.5 & 5.8 km above mean sea level tilting southwestwards with height persists.\nThe trough from South interior Karnataka to Southwest Bay of Bengal across Tamil Nadu and extends upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 28°N persists.",
+  "met_analysis": "The Low Pressure Area over southwest Rajasthan adjoining Kutch region and southeast Pakistan persisted over the same region at 0530 hrs IST of today 15 September, 2026. The associated cyclonic circulation now extends upto 7.6 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through centre of Low Pressure Area over southwest Rajasthan adjoining Kutch region and southeast Pakistan, Ajmer, Gwalior, Sultanpur, Bankura & Digha and thence southeastwards to Northwest Bay of Bengal.\nThe trough from cyclonic circulation associated with low pressure area over southwest Rajasthan adjoining Kutch region and southeast Pakistan to Jharkhand across Madhya Pradesh, & north Chhattisgarh extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Bay of Bengal and adjoining north Odisha & West Bengal coasts between 1.5 & 5.8 km above mean sea level tilting southwestwards with height persists.\nThe trough from South interior Karnataka to Southwest Bay of Bengal across Tamil Nadu extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 80°E to the north of Lat. 30°N.\nAn upper air cyclonic circulation lies over central Assam & neighbourhood at 1.5 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "southwest Rajasthan adjoining Kutch region and southeast Pakistan",
+        "location": "southwest Rajasthan adjoining Kutch region and southeast Pakistan persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over Southeast Rajasthan & adjoining north Gujarat lies over southwest Rajasthan adjoining Kutch region and southeast Pakistan at 1730 hrs IST of today 14 September, 2026. The associated cyclonic circulation now extends upto 7.6 km above mean sea level tilting southwards with height."
+        "raw_text": "The Low Pressure Area over southwest Rajasthan adjoining Kutch region and southeast Pakistan persisted over the same region at 0530 hrs IST of today 15 September, 2026. The associated cyclonic circulation now extends upto 7.6 km above mean sea level tilting southwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low Pressure Area over southwest Rajasthan adjoining Kutch region and southeast Pakistan, Rajgarh, Damoh, Pendra Road, Rourkela & Digha and thence southeastwards to Northwest Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low Pressure Area over southwest Rajasthan adjoining Kutch region and southeast Pakistan, Ajmer, Gwalior, Sultanpur, Bankura & Digha and thence southeastwards to Northwest Bay of Bengal.",
         "passes_through": [
           "centre of Low Pressure Area over southwest Rajasthan adjoining Kutch region and southeast Pakistan",
-          "Rajgarh",
-          "Damoh",
-          "Pendra Road",
-          "Rourkela & Digha",
+          "Ajmer",
+          "Gwalior",
+          "Sultanpur",
+          "Bankura & Digha",
           "Northwest Bay of Bengal"
         ],
         "level": "mean sea level"
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 28°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 80°E to the north of Lat. 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 78°E to the north of Lat. 28°N",
+        "axis": "along Long. 80°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -58,30 +58,42 @@
         },
         "tilt": "tilting southwestwards with height",
         "raw_text": "The upper air cyclonic circulation over Northwest Bay of Bengal and adjoining north Odisha & West Bengal coasts between 1.5 & 5.8 km above mean sea level tilting southwestwards with height persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over central Assam & neighbourhood at 1.5 km above mean sea level."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
+        "extent": "cyclonic circulation associated with low pressure area over southwest Rajasthan adjoining Kutch region and southeast Pakistan to Jharkhand",
+        "across": "Madhya Pradesh, & north Chhattisgarh",
         "level": {
           "type": "upto",
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The trough now runs from cyclonic circulation associated with low pressure area over southwest Rajasthan adjoining Kutch region and southeast Pakistan to Jharkhandacross Madhya Pradesh, & north Chhattisgarh & extends upto 3.1 km above mean sea level."
+        "raw_text": "The trough from cyclonic circulation associated with low pressure area over southwest Rajasthan adjoining Kutch region and southeast Pakistan to Jharkhand across Madhya Pradesh, & north Chhattisgarh extending upto 3.1 km above mean sea level persists."
       },
       {
         "type": "Trough",
         "subtype": "general",
         "extent": "South interior Karnataka to Southwest Bay of Bengal",
-        "across": "Tamil Nadu and extends upto 1.5 km above mean sea level",
+        "across": "Tamil Nadu",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The trough from South interior Karnataka to Southwest Bay of Bengal across Tamil Nadu and extends upto 1.5 km above mean sea level persists."
+        "raw_text": "The trough from South interior Karnataka to Southwest Bay of Bengal across Tamil Nadu extending upto 1.5 km above mean sea level persists."
       }
     ],
     "suppressed_count": 0,
@@ -92,5 +104,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-15 07:33 IST"
+  "fetched_at": "2026-09-15 13:38 IST"
 }
