@@ -1,0 +1,104 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/23693d3c82f783950dd1820bc32bdb56.pdf",
+  "last_updated": "08:09 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-09-16",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure Area over Southeast Pakistan & neighbourhood lies over Saurashtra & adjoining Northeast Arabian Sea at 0530 hrs IST of today 16th September, 2026. The associated cyclonic circulation extending upto 9.4 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea, Deesa, Guna, Satna, Daltonganj, Jamshedpur, Digha, and thence southeastwards to Northwest Bay of Bengal.\nThe upper air cyclonic circulation over south Odisha and adjoining north Andhra Pradesh and Northwest Bay of Bengal now lies over Northwest Bay of Bengal & adjoining north coastal Odisha at 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over central Assam & neighbourhood and extendsupto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over south Coastal Andhra Pradesh & neighbourhoodat 1.5 km above mean sea level.\nThe trough from South interior Karnataka to Gulf of Mannar across Tamil Nadu persists and now seen at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over north Haryana & neighbourhood at 1.5 km above mean sea level.\nThe trough from Bihar to North Odisha across Jharkhand between 1.5 to 4.5 km above mean level has become less marked.\nThe Western Disturbance as cyclonic circulation over Jammu & neighbourhoodat 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Saurashtra & adjoining Northeast Arabian Sea",
+        "raw_text": "The Low Pressure Area over Southeast Pakistan & neighbourhood lies over Saurashtra & adjoining Northeast Arabian Sea at 0530 hrs IST of today 16th September, 2026. The associated cyclonic circulation extending upto 9.4 km above mean sea level tilting southwards with height."
+      },
+      {
+        "type": "Monsoon Trough",
+        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea, Deesa, Guna, Satna, Daltonganj, Jamshedpur, Digha, and thence southeastwards to Northwest Bay of Bengal.",
+        "passes_through": [
+          "centre of Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea",
+          "Deesa",
+          "Guna",
+          "Satna",
+          "Daltonganj",
+          "Jamshedpur",
+          "Digha",
+          "Northwest Bay of Bengal"
+        ],
+        "level": "mean sea level"
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northwest Bay of Bengal & adjoining north coastal Odisha",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Odisha and adjoining north Andhra Pradesh and Northwest Bay of Bengal now lies over Northwest Bay of Bengal & adjoining north coastal Odisha at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Assam & neighbourhood and extends",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over central Assam & neighbourhood and extendsupto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Coastal Andhra Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over south Coastal Andhra Pradesh & neighbourhoodat 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over north Haryana & neighbourhood at 1.5 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "South interior Karnataka to Gulf of Mannar",
+        "across": "Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from South interior Karnataka to Gulf of Mannar across Tamil Nadu persists and now seen at 0.9 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 3,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-09-16 13:30 IST"
+}
