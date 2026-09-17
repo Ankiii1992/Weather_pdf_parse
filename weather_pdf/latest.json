@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4972c8bb888e830f1ff76abb34cf3f1f.pdf",
-  "last_updated": "08:48 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-09-16",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d7eaaf8f7c0d671bbe4a6a3d7348daab.pdf",
+  "last_updated": "01:14 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-09-17",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,86 +11,113 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea persisted over the same region at 1730 hrs IST of today 16th September, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea, Bikaner, Shahjahanpur, Basti, Patna, Bankura, Canning and thence southeastwards to Northeast Bay of Bengal.\nThe upper-air cyclonic circulation over north Thailand persisted over the same region at 1730 hrs IST of today, the 16th September, 2026 and extends upto 7.6 km above mean sea level. It is likely to emerge over the north Andaman Sea around 18th September evening and under its influence a low pressure area is likely to form over the same region around the evening of 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days.\nThe trough from Northern parts of Gangetic West Bengal to North Odisha between 1.5 to 3.1 km above mean level persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Coastal Andhra Pradesh & adjoining Rayalaseema now lies over north Coastal Andhra Pradesh & neighbourhood and extends upto 1.5 km above mean sea level.\nThe trough from North Interior Karnataka to Gulf of Mannar across South Interior Karnataka and Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 1.5 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea persisted over the same region at 0830 hrs IST of today 17th September, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height.\nThe Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea, Bikaner, Rohtak, Bareilly, Basti, Dehri, Ranchi, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe upper-air cyclonic circulation over north Thailand persisted over the same region at 0830 hrs IST of today, the 17th September, 2026 and extends upto 7.6 km above mean sea level. It is likely to emerge over the north Andaman Sea around 18th September evening and under its influence a low pressure area is likely to form over the same region around the evening of 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days.\nThe upper air cyclonic circulation over north Haryana & neighbourhood now lies over west Uttar Pradesh & neighbourhood and extends upto 1.5 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation lies over Himachal Pradesh & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 65°E to the north of Lat. 27°N.\nThe trough from Northern parts of Gangetic West Bengal to North Odisha now runs from Sikkim to North Odisha across Gangetic West Bengal between 1.5 & 3.1 km above mean level.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood persists and now seen at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Marathwada & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from the cyclonic circulation over Marathwada & neighbourhood to Gulf of Mannar across Interior Karnataka and Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over north Coastal Andhra Pradesh & neighbourhood extending upto 1.5 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
         "location": "Saurashtra & adjoining Northeast Arabian Sea persisted over the same region",
-        "raw_text": "The Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea persisted over the same region at 1730 hrs IST of today 16th September, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height."
+        "raw_text": "The Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea persisted over the same region at 0830 hrs IST of today 17th September, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level tilting southwards with height."
       },
       {
         "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea, Bikaner, Shahjahanpur, Basti, Patna, Bankura, Canning and thence southeastwards to Northeast Bay of Bengal.",
+        "raw_text": "The Monsoon trough at mean sea level now passes through centre of Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea, Bikaner, Rohtak, Bareilly, Basti, Dehri, Ranchi, Digha and thence southeastwards to Northeast Bay of Bengal.",
         "passes_through": [
           "centre of Low Pressure Area over Saurashtra & adjoining Northeast Arabian Sea",
           "Bikaner",
-          "Shahjahanpur",
+          "Rohtak",
+          "Bareilly",
           "Basti",
-          "Patna",
-          "Bankura",
-          "Canning",
+          "Dehri",
+          "Ranchi",
+          "Digha",
           "Northeast Bay of Bengal"
         ],
         "level": "mean sea level"
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation lies over Himachal Pradesh & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 65°E to the north of Lat. 27°N.",
+        "form": "cyclonic_circulation",
+        "location": "Himachal Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "central Assam & neighbourhood",
+        "location": "west Uttar Pradesh & neighbourhood",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood now lies over west Uttar Pradesh & neighbourhood and extends upto 1.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "north Coastal Andhra Pradesh & neighbourhood",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over south Coastal Andhra Pradesh & adjoining Rayalaseema now lies over north Coastal Andhra Pradesh & neighbourhood and extends upto 1.5 km above mean sea level."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "north Haryana & neighbourhood",
+        "location": "northeast Assam & neighbourhood",
         "level": {
           "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood at 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood persists and now seen at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Marathwada & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Marathwada & neighbourhood extending upto 1.5 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "Northern parts of Gangetic West Bengal to North Odisha between 1.5 to 3.1 km above mean level",
-        "raw_text": "The trough from Northern parts of Gangetic West Bengal to North Odisha between 1.5 to 3.1 km above mean level persists."
+        "extent": "Northern parts of Gangetic West Bengal to North Odisha now runs from Sikkim to North Odisha",
+        "across": "Gangetic West Bengal",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "The trough from Northern parts of Gangetic West Bengal to North Odisha now runs from Sikkim to North Odisha across Gangetic West Bengal between 1.5 & 3.1 km above mean level."
       },
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "North Interior Karnataka to Gulf of Mannar",
-        "across": "South Interior Karnataka and Tamil Nadu",
+        "extent": "the cyclonic circulation over Marathwada & neighbourhood to Gulf of Mannar",
+        "across": "Interior Karnataka and Tamil Nadu",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The trough from North Interior Karnataka to Gulf of Mannar across South Interior Karnataka and Tamil Nadu at 0.9 km above mean sea level persists."
+        "raw_text": "The trough from the cyclonic circulation over Marathwada & neighbourhood to Gulf of Mannar across Interior Karnataka and Tamil Nadu at 0.9 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 1,
+    "suppressed_count": 2,
     "unclassified": [
-      "The upper-air cyclonic circulation over north Thailand persisted over the same region at 1730 hrs IST of today, the 16th September, 2026 and extends upto 7.6 km above mean sea level. It is likely to emerge over the north Andaman Sea around 18th September evening and under its influence a low pressure area is likely to form over the same region around the evening of 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days."
+      "The upper-air cyclonic circulation over north Thailand persisted over the same region at 0830 hrs IST of today, the 17th September, 2026 and extends upto 7.6 km above mean sea level. It is likely to emerge over the north Andaman Sea around 18th September evening and under its influence a low pressure area is likely to form over the same region around the evening of 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days."
     ],
     "validation": {
       "warnings_count": 0,
@@ -98,5 +125,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-17 07:28 IST"
+  "fetched_at": "2026-09-17 13:35 IST"
 }
