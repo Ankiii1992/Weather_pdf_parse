@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/114695f591d505d4cdb2ad309f0e10df.pdf",
-  "last_updated": "08:43 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b93389790587f1f7699c014860bbcbc8.pdf",
+  "last_updated": "04:36 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-09-18",
   "bulletin": {
     "morning": null,
@@ -11,84 +11,52 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "An upper air cyclonic circulation lies over southwest Rajasthan & neighbourhood between 1.5 & 4.5 km above mean sea level.\nThe Monsoon trough at mean sea level now passes through Phalodi, Ajmer, Guna, Satna, Jamshedpur, Digha and thence southeastwards to Northeast Bay of Bengal.\nThe upper-air cyclonic circulation over north Thailand persisted over the same region at 0530 hrs IST of today, the 18th September, 2026 and extends upto 7.6 km above mean sea levels. It is likely to emerge over the north Andaman Sea around 18th September evening and under its influence a low pressure area is likely to form over the same region around the evening of 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days.\nThe upper air cyclonic circulation over west Uttar Pradesh & neighbourhood and extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 28°N persists.\nThe trough from Sikkim to North Odisha across Gangetic West Bengal between 1.5 & 3.1 km above mean level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Marathwada & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from the cyclonic circulation over Marathwada & neighbourhood to Gulf of Mannar across Interior Karnataka and Tamil Nadu at 0.9 km above mean sea level persists.\nA trough runs from Eastcentral Arabian Sea to southwest Uttar Pradesh across Gujarat and East Rajasthan between 3.1 & 4.5 km above mean sea level.\nAn upper air cyclonic circulation lies over North Interior Tamil Nadu & neighbourhood at 4.5 km above mean sea level.\nThe associated cyclonic circulation over Saurashtra & adjoining Northeast Arabian Sea extending upto 5.8 km above mean sea level tilting southwards with height has become less marked.",
+  "met_analysis": "The upper air cyclonic circulation over north Gujarat & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe upper-air cyclonic circulation over north Thailand persisted over the same region at 1430 hrs IST of today, the 18th September, 2026 and now extends upto 9.4 km above mean sea levels. It is likely to emerge over the north Andaman Sea around 18th September evening and under its influence a low pressure area is likely to form over the same region around the evening of 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 28°N persists.\nThe trough from Sikkim to North Bay of Bengal across Bangladesh at 1.5 km mean seal level persists.\nThe upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over East Bangladesh & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over North Interior Tamil Nadu & neighbourhood at 4.5 km above mean sea level persists.\nA trough from Marathwada to Southeast Arabian Sea across Interior Karnataka and Kerala at 5.8 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
-        "type": "Monsoon Trough",
-        "raw_text": "The Monsoon trough at mean sea level now passes through Phalodi, Ajmer, Guna, Satna, Jamshedpur, Digha and thence southeastwards to Northeast Bay of Bengal.",
-        "passes_through": [
-          "Phalodi",
-          "Ajmer",
-          "Guna",
-          "Satna",
-          "Jamshedpur",
-          "Digha",
-          "Northeast Bay of Bengal"
-        ],
-        "level": "mean sea level"
-      },
-      {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 28°N persists.",
-        "form": "cyclonic_circulation",
-        "location": "Jammu & neighbourhood",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 28°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 75°E to the north of Lat. 28°N",
         "level": {
           "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "trough_aloft": {
-          "axis": "Long",
-          "level": {
-            "type": "single",
-            "min": 5.8,
-            "display": "5.8 km above MSL"
-          }
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "southwest Rajasthan & neighbourhood",
+        "location": "north Gujarat & neighbourhood",
         "level": {
           "type": "range",
           "min": 1.5,
-          "max": 4.5,
-          "display": "1.5–4.5 km above MSL"
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over southwest Rajasthan & neighbourhood between 1.5 & 4.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over north Gujarat & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "west Uttar Pradesh & neighbourhood and",
+        "location": "Sikkim & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over west Uttar Pradesh & neighbourhood and extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Assam & neighbourhood",
+        "location": "East Bangladesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Marathwada & neighbourhood",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Marathwada & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over East Bangladesh & neighbourhood at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -98,52 +66,33 @@
           "min": 4.5,
           "display": "4.5 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over North Interior Tamil Nadu & neighbourhood at 4.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over North Interior Tamil Nadu & neighbourhood at 4.5 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "Sikkim to North Odisha",
-        "across": "Gangetic West Bengal",
-        "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 3.1,
-          "display": "1.5–3.1 km above MSL"
-        },
-        "raw_text": "The trough from Sikkim to North Odisha across Gangetic West Bengal between 1.5 & 3.1 km above mean level persists."
+        "extent": "Sikkim to North Bay of Bengal",
+        "across": "Bangladesh",
+        "raw_text": "The trough from Sikkim to North Bay of Bengal across Bangladesh at 1.5 km mean seal level persists."
       },
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the cyclonic circulation over Marathwada & neighbourhood to Gulf of Mannar",
-        "across": "Interior Karnataka and Tamil Nadu",
+        "extent": "Marathwada to Southeast Arabian Sea",
+        "across": "Interior Karnataka and Kerala",
         "level": {
           "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         },
-        "raw_text": "The trough from the cyclonic circulation over Marathwada & neighbourhood to Gulf of Mannar across Interior Karnataka and Tamil Nadu at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "Eastcentral Arabian Sea to southwest Uttar Pradesh",
-        "across": "Gujarat and East Rajasthan",
-        "level": {
-          "type": "range",
-          "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
-        },
-        "raw_text": "A trough runs from Eastcentral Arabian Sea to southwest Uttar Pradesh across Gujarat and East Rajasthan between 3.1 & 4.5 km above mean sea level."
+        "raw_text": "A trough from Marathwada to Southeast Arabian Sea across Interior Karnataka and Kerala at 5.8 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 2,
+    "suppressed_count": 1,
     "unclassified": [
-      "The upper-air cyclonic circulation over north Thailand persisted over the same region at 0530 hrs IST of today, the 18th September, 2026 and extends upto 7.6 km above mean sea levels. It is likely to emerge over the north Andaman Sea around 18th September evening and under its influence a low pressure area is likely to form over the same region around the evening of 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days."
+      "The upper-air cyclonic circulation over north Thailand persisted over the same region at 1430 hrs IST of today, the 18th September, 2026 and now extends upto 9.4 km above mean sea levels. It is likely to emerge over the north Andaman Sea around 18th September evening and under its influence a low pressure area is likely to form over the same region around the evening of 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days."
     ],
     "validation": {
       "warnings_count": 0,
@@ -151,5 +100,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-18 13:13 IST"
+  "fetched_at": "2026-09-18 18:46 IST"
 }
