@@ -1,91 +1,96 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ec648a8d5f06e45430c123038708a913.pdf",
-  "last_updated": "08:36 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/76be1a6f030d12a973114cbe8f48fbb7.pdf",
+  "last_updated": "04:13 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-09-19",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": null,
+    "evening": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 3 4 days.",
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The upper air cyclonic circulation over north Gujarat & neighbourhood now lies over West Madhya Pradesh and adjoining Gujarat region between 1.5 & 3.1 km above mean sea level.\nThe upper-air cyclonic circulation over north Andaman Sea & neighbourhood persists over the same region and now extends upto 5.8 km above mean sea level at 0530 hrs IST of today, the 19th September, 2026. Under its influence, a Low Pressure area is likely to form over the same region around the evening of today, the 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 26°N.\nThe upper air cyclonic circulation over East Bangladesh & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from Marathwada to Southeast Arabian Sea across Interior Karnataka and Kerala at 5.8 km above mean sea level persists.\nAn upper air cyclonic circulation lies over central parts of Chhattisgarh & neighbourhoodat 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over southern parts of Gangetic West Bengal & adjoining parts of north Odishaat 1.5 km above mean sea level.\nThe trough from Sikkim to North Bay of Bengal across Bangladesh at 1.5 km mean seal level has become less marked.\nThe upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over North Interior Tamil Nadu & neighbourhood at 4.5 km above mean sea level has become less marked.",
+  "met_analysis": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 3-4 days.\nThe upper-air cyclonic circulation over north Andaman Sea & neighbourhood persisted over the same region extending upto 7.6 km above mean sea level at 1430 hrs IST of today, the 19th September, 2026. Under its influence, a Low Pressure area is very likely to form over the same region around evening of today, the 19th September, 2026. It is very likely to move west-northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west-northwestwards, it is very likely to reach westcentral and adjoining northwest Bay of Bengal near south Odisha-north Andhra Pradesh coasts around morning of 23rd September.\nThe upper air cyclonic circulation over West Madhya Pradesh & adjoining East Rajasthan extending upto 3.1 km above mean sea level persists.\nThe trough from northeast Uttar Pradesh to Northeast Arabian sea across cyclonic circulation over West Madhya Pradesh & adjoining East Rajasthan and Gujrat State between 3.1 & 5.8 km mean seal level persists.\nThe Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 26°N persists.\nThe upper air cyclonic circulation over Tripura & neighbourhood at 3.1 km above mean sea level persists.\nThe East-West trough from cyclonic circulation over north Andaman Sea & neighbourhood to North Coastal Andhra Pradesh across central Bay of Bengal extending upto 5.8 km above mean seal level persists.\nThe North-South trough from north Coastal Andhra Pradesh to Gulf of Mannar across Tamil Nadu at 0.9 km above mean seal level persists.",
   "systems": {
     "priority": [
       {
+        "type": "East-West Trough",
+        "extent": "cyclonic circulation over north Andaman Sea & neighbourhood to North Coastal Andhra Pradesh",
+        "across": "central Bay of Bengal",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "The East-West trough from cyclonic circulation over north Andaman Sea & neighbourhood to North Coastal Andhra Pradesh across central Bay of Bengal extending upto 5.8 km above mean seal level persists."
+      },
+      {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 26°N.",
-        "form": "trough_in_westerlies",
-        "axis": "along Long. 78°E to the north of Lat. 26°N",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 26°N persists.",
+        "form": "cyclonic_circulation",
+        "location": "northwest Uttar Pradesh & neighbourhood",
         "level": {
           "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
         }
+      },
+      {
+        "type": "North-South Trough",
+        "extent": "north Coastal Andhra Pradesh to Gulf of Mannar",
+        "across": "Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The North-South trough from north Coastal Andhra Pradesh to Gulf of Mannar across Tamil Nadu at 0.9 km above mean seal level persists."
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "West Madhya Pradesh and adjoining Gujarat region",
+        "location": "West Madhya Pradesh & adjoining East Rajasthan",
         "level": {
-          "type": "range",
-          "min": 1.5,
+          "type": "upto",
           "max": 3.1,
-          "display": "1.5–3.1 km above MSL"
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Gujarat & neighbourhood now lies over West Madhya Pradesh and adjoining Gujarat region between 1.5 & 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over West Madhya Pradesh & adjoining East Rajasthan extending upto 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "East Bangladesh & neighbourhood",
+        "location": "Tripura & neighbourhood",
         "level": {
           "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "min": 3.1,
+          "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over East Bangladesh & neighbourhood at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "central parts of Chhattisgarh & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "An upper air cyclonic circulation lies over central parts of Chhattisgarh & neighbourhoodat 0.9 km above mean sea level."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "southern parts of Gangetic West Bengal & adjoining parts of north Odisha",
-        "level": {
-          "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
-        },
-        "raw_text": "An upper air cyclonic circulation lies over southern parts of Gangetic West Bengal & adjoining parts of north Odishaat 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Tripura & neighbourhood at 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "Marathwada to Southeast Arabian Sea",
-        "across": "Interior Karnataka and Kerala",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        },
-        "raw_text": "The trough from Marathwada to Southeast Arabian Sea across Interior Karnataka and Kerala at 5.8 km above mean sea level persists."
+        "extent": "northeast Uttar Pradesh to Northeast Arabian sea",
+        "across": "cyclonic circulation over West Madhya Pradesh & adjoining East Rajasthan and Gujrat State",
+        "raw_text": "The trough from northeast Uttar Pradesh to Northeast Arabian sea across cyclonic circulation over West Madhya Pradesh & adjoining East Rajasthan and Gujrat State between 3.1 & 5.8 km mean seal level persists."
       }
     ],
-    "suppressed_count": 4,
+    "suppressed_count": 2,
     "unclassified": [
-      "The upper-air cyclonic circulation over north Andaman Sea & neighbourhood persists over the same region and now extends upto 5.8 km above mean sea level at 0530 hrs IST of today, the 19th September, 2026. Under its influence, a Low Pressure area is likely to form over the same region around the evening of today, the 19th September, 2026. Thereafter, it is likely to intensify gradually and move west-northwestwards towards south Odisha-north Andhra Pradesh coasts during subsequent 3-4 days."
+      "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 3-4 days.",
+      "The upper-air cyclonic circulation over north Andaman Sea & neighbourhood persisted over the same region extending upto 7.6 km above mean sea level at 1430 hrs IST of today, the 19th September, 2026. Under its influence, a Low Pressure area is very likely to form over the same region around evening of today, the 19th September, 2026. It is very likely to move west-northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west-northwestwards, it is very likely to reach westcentral and adjoining northwest Bay of Bengal near south Odisha-north Andhra Pradesh coasts around morning of 23rd September."
     ],
     "validation": {
       "warnings_count": 0,
@@ -93,5 +98,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-19 13:07 IST"
+  "fetched_at": "2026-09-19 18:17 IST"
 }
