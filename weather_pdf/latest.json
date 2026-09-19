@@ -1,17 +1,17 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/76be1a6f030d12a973114cbe8f48fbb7.pdf",
-  "last_updated": "04:13 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c0054418fa4532a9cfceb7a2693d6996.pdf",
+  "last_updated": "08:33 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-19",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 3 4 days.",
-    "night": null
+    "evening": null,
+    "night": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 3 4 days."
   },
   "nlm_coords": null,
-  "met_analysis": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 3-4 days.\nThe upper-air cyclonic circulation over north Andaman Sea & neighbourhood persisted over the same region extending upto 7.6 km above mean sea level at 1430 hrs IST of today, the 19th September, 2026. Under its influence, a Low Pressure area is very likely to form over the same region around evening of today, the 19th September, 2026. It is very likely to move west-northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west-northwestwards, it is very likely to reach westcentral and adjoining northwest Bay of Bengal near south Odisha-north Andhra Pradesh coasts around morning of 23rd September.\nThe upper air cyclonic circulation over West Madhya Pradesh & adjoining East Rajasthan extending upto 3.1 km above mean sea level persists.\nThe trough from northeast Uttar Pradesh to Northeast Arabian sea across cyclonic circulation over West Madhya Pradesh & adjoining East Rajasthan and Gujrat State between 3.1 & 5.8 km mean seal level persists.\nThe Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 26°N persists.\nThe upper air cyclonic circulation over Tripura & neighbourhood at 3.1 km above mean sea level persists.\nThe East-West trough from cyclonic circulation over north Andaman Sea & neighbourhood to North Coastal Andhra Pradesh across central Bay of Bengal extending upto 5.8 km above mean seal level persists.\nThe North-South trough from north Coastal Andhra Pradesh to Gulf of Mannar across Tamil Nadu at 0.9 km above mean seal level persists.",
+  "met_analysis": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 3-4 days. Under the influence of the upper air cyclonic circulation over north Andaman Sea & neighbourhood, a Low Pressure area has formed over the same region at 1730 hrs IST of today, the 19th September, 2026. It is very likely to move west-northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west- northwestwards it is very likely to reach westcentral and adjoining northwest Bay of Bengal near south Odisha- north Andhra Pradesh coasts around 23rd September morning.\nThe upper air cyclonic circulation over West Madhya Pradesh & adjoining East Rajasthan extending upto 3.1 km above mean sea level persists.\nThe trough from northeast Uttar Pradesh to Northeast Arabian sea across cyclonic circulation over West Madhya Pradesh & adjoining East Rajasthan and Gujrat State between 3.1 & 5.8 km mean seal level persists.\nThe Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over Tripura & neighbourhood at 3.1 km above mean sea level persists.\nThe East-West trough from cyclonic circulation over north Andaman Sea & neighbourhood to North Coastal Andhra Pradesh across central Bay of Bengal extending upto 5.8 km above mean seal level persists.\nThe North-South trough from north Coastal Andhra Pradesh to Gulf of Mannar across Tamil Nadu at 0.9 km above mean seal level has become less marked.",
   "systems": {
     "priority": [
       {
@@ -27,7 +27,7 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 26°N persists.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 3.1 km above mean sea level with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 28°N.",
         "form": "cyclonic_circulation",
         "location": "northwest Uttar Pradesh & neighbourhood",
         "level": {
@@ -43,17 +43,6 @@
             "display": "5.8 km above MSL"
           }
         }
-      },
-      {
-        "type": "North-South Trough",
-        "extent": "north Coastal Andhra Pradesh to Gulf of Mannar",
-        "across": "Tamil Nadu",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The North-South trough from north Coastal Andhra Pradesh to Gulf of Mannar across Tamil Nadu at 0.9 km above mean seal level persists."
       }
     ],
     "uac": [
@@ -89,8 +78,7 @@
     ],
     "suppressed_count": 2,
     "unclassified": [
-      "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 3-4 days.",
-      "The upper-air cyclonic circulation over north Andaman Sea & neighbourhood persisted over the same region extending upto 7.6 km above mean sea level at 1430 hrs IST of today, the 19th September, 2026. Under its influence, a Low Pressure area is very likely to form over the same region around evening of today, the 19th September, 2026. It is very likely to move west-northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west-northwestwards, it is very likely to reach westcentral and adjoining northwest Bay of Bengal near south Odisha-north Andhra Pradesh coasts around morning of 23rd September."
+      "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 3-4 days. Under the influence of the upper air cyclonic circulation over north Andaman Sea & neighbourhood, a Low Pressure area has formed over the same region at 1730 hrs IST of today, the 19th September, 2026. It is very likely to move west-northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west- northwestwards it is very likely to reach westcentral and adjoining northwest Bay of Bengal near south Odisha- north Andhra Pradesh coasts around 23rd September morning."
     ],
     "validation": {
       "warnings_count": 0,
@@ -98,5 +86,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-19 18:17 IST"
+  "fetched_at": "2026-09-19 23:04 IST"
 }
