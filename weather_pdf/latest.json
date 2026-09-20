@@ -1,29 +1,28 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/633d9d1d0c9fb72fd0d1fe07dfadb87c.pdf",
-  "last_updated": "04:48 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/f9dc4fb94fae417e8ec56a4bc40185fe.pdf",
+  "last_updated": "09:44 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-20",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 2 3 days.",
-    "night": null
+    "evening": null,
+    "night": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 2 3 days."
   },
   "nlm_coords": null,
-  "met_analysis": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 2-3 days.\nThe Low Pressure area over Eastcentral Bay of Bengal and adjoining north Andaman Sea persisted over the same region at 1430 hrs IST of today, the 20th September, 2026. It is very likely to move west-northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west-northwestwards it is very likely to reach westcentral and adjoining northwest Bay of Bengal near north Andhra Pradesh - South Odisha coasts around 23rd September morning.\nThe North-South trough from cyclonic circulation associated with the low pressure area Eastcentral Bay of Bengal and adjoining north Andaman Sea to Bangladesh across North Bay of Bengal extending upto 1.5 km above mean seal level persists.\nThe East-West trough from the cyclonic circulation associated with the low pressure area Eastcentral Bay of Bengal and adjoining north Andaman Sea to South Interior Karnataka across central Bay of Bengal and south Andhra Pradesh extending upto 5.8 km above mean seal level tilting southwards with height persists.\nThe upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea between 3.1 & 7.6 km above mean sea level persists.\nThe trough from South Himachal Pradesh to the cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea across Haryana, Rajasthan, Gujarat at 5.8 km above mean seal level persists.\nThe upper air cyclonic circulation over South Coastal Andhra Pradesh & adjoining Westcentral bay of Bengal at 0.9 km above mean sea level persists.",
+  "met_analysis": "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 2-3 days.\nThe Low Pressure area over Eastcentral Bay of Bengal and adjoining north Andaman Sea moved west- northwestwards and lies over Eastcentral Bay of Bengal at 1730 hrs IST of today, the 20th September, 2026.\nThe associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west- northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west-northwestwards it is very likely to reach westcentral and adjoining northwest Bay of Bengal near north Andhra Pradesh - South Odisha coasts around 23rd September morning.\nThe North-South trough now runs from cyclonic circulation associated with the low pressure area over Eastcentral Bay of Bengal to Gangetic West Bengal across North Bay of Bengal extending upto 3.1 km above mean seal level.\nThe East-West trough now runs from the cyclonic circulation associated with the low pressure area over Eastcentral Bay of Bengal to South Interior Karnataka across central Bay of Bengal and south Andhra Pradesh extending upto 5.8 km above mean seal level tilting southwards with height.\nThe upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea between 3.1 & 7.6 km above mean sea level persists.\nThe trough from South Himachal Pradesh to the cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea across Haryana, Rajasthan, Gujarat at 5.8 km above mean seal level persists.\nThe upper air cyclonic circulation over South Coastal Andhra Pradesh & adjoining Westcentral bay of Bengal at 0.9 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "Eastcentral Bay of Bengal and adjoining north Andaman Sea persisted over the same region",
-        "movement": "west-northwestwards",
-        "raw_text": "The Low Pressure area over Eastcentral Bay of Bengal and adjoining north Andaman Sea persisted over the same region at 1430 hrs IST of today, the 20th September, 2026. It is very likely to move west-northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west-northwestwards it is very likely to reach westcentral and adjoining northwest Bay of Bengal near north Andhra Pradesh - South Odisha coasts around 23rd September morning."
+        "location": "Eastcentral Bay of Bengal",
+        "raw_text": "The Low Pressure area over Eastcentral Bay of Bengal and adjoining north Andaman Sea moved west- northwestwards and lies over Eastcentral Bay of Bengal at 1730 hrs IST of today, the 20th September, 2026."
       },
       {
         "type": "East-West Trough",
-        "extent": "the cyclonic circulation associated with the low pressure area Eastcentral Bay of Bengal and adjoining north Andaman Sea to South Interior Karnataka",
+        "extent": "the cyclonic circulation associated with the low pressure area over Eastcentral Bay of Bengal to South Interior Karnataka",
         "across": "central Bay of Bengal and south Andhra Pradesh",
         "level": {
           "type": "upto",
@@ -31,18 +30,18 @@
           "display": "upto 5.8 km above MSL"
         },
         "tilt": "tilting southwards with height",
-        "raw_text": "The East-West trough from the cyclonic circulation associated with the low pressure area Eastcentral Bay of Bengal and adjoining north Andaman Sea to South Interior Karnataka across central Bay of Bengal and south Andhra Pradesh extending upto 5.8 km above mean seal level tilting southwards with height persists."
+        "raw_text": "The East-West trough now runs from the cyclonic circulation associated with the low pressure area over Eastcentral Bay of Bengal to South Interior Karnataka across central Bay of Bengal and south Andhra Pradesh extending upto 5.8 km above mean seal level tilting southwards with height."
       },
       {
         "type": "North-South Trough",
-        "extent": "cyclonic circulation associated with the low pressure area Eastcentral Bay of Bengal and adjoining north Andaman Sea to Bangladesh",
+        "extent": "cyclonic circulation associated with the low pressure area over Eastcentral Bay of Bengal to Gangetic West Bengal",
         "across": "North Bay of Bengal",
         "level": {
           "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The North-South trough from cyclonic circulation associated with the low pressure area Eastcentral Bay of Bengal and adjoining north Andaman Sea to Bangladesh across North Bay of Bengal extending upto 1.5 km above mean seal level persists."
+        "raw_text": "The North-South trough now runs from cyclonic circulation associated with the low pressure area over Eastcentral Bay of Bengal to Gangetic West Bengal across North Bay of Bengal extending upto 3.1 km above mean seal level."
       }
     ],
     "uac": [
@@ -92,9 +91,10 @@
         "raw_text": "The trough from South Himachal Pradesh to the cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea across Haryana, Rajasthan, Gujarat at 5.8 km above mean seal level persists."
       }
     ],
-    "suppressed_count": 1,
+    "suppressed_count": 2,
     "unclassified": [
-      "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 2-3 days."
+      "Conditions are favourable for further withdrawal of Southwest Monsoon from some more parts of Rajasthan and some parts of Punjab and Saurashtra & Kutch during next 2-3 days.",
+      "The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west- northwestwards and intensify gradually into a depression over eastcentral Bay of Bengal on 21st and into a deep depression over westcentral Bay of Bengal on 22nd September. Continuing to move west-northwestwards it is very likely to reach westcentral and adjoining northwest Bay of Bengal near north Andhra Pradesh - South Odisha coasts around 23rd September morning."
     ],
     "validation": {
       "warnings_count": 0,
@@ -102,5 +102,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-20 18:48 IST"
+  "fetched_at": "2026-09-20 23:18 IST"
 }
