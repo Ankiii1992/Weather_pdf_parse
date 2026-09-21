@@ -1,25 +1,46 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7b92cae5da1440b9e1f80325100c01c2.pdf",
-  "last_updated": "04:35 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ffc57058bec9883e2ef41eafe574e319.pdf",
+  "last_updated": "09:05 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-21",
   "bulletin": {
     "morning": null,
     "midday": null,
-    "evening": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana Chandigarh Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2 3 days.",
-    "night": null
+    "evening": null,
+    "night": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana Chandigarh Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2 3 days."
   },
   "nlm_coords": null,
-  "met_analysis": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana-Chandigarh-Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2-3 days.\nThe Well-marked Low Pressure area over westcentral & adjoining eastcentral Bay of Bengal persists over the same region at 1430 hrs IST of today, the 21th September, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and intensify into a depression over Westcentral Bay of Bengal during next 24 hrs and into a deep depression over Westcentral & adjoining Northwest Bay of Bengal during subsequent 24 hrs. Continuing to move west-northwestwards it is very likely to reach near north Andhra Pradesh - South Odisha coasts around morning of 23rd September 2026.\nThe North-South trough from North Bay of Bengal to the cyclonic circulation associated with the Well- marked Low Pressure area and extending upto 3.1 km above mean sea level persists.\nThe trough from the centre of the cyclonic circulation associated with the Well-marked Low Pressure area to North Andaman Sea at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 4.5 & 7.6 km above mean sea level persists.\nThe trough from southeast Arabian sea to the cyclonic circulation associated with the Well-marked Low Pressure area across Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea between 3.1 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nThe western Disturbance as a cyclonic circulation over Jammu and neighbourhood at 3.1 km above mean sea level persists.",
+  "met_analysis": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana-Chandigarh-Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2-3 days.\nThe Well Marked Low Pressure area over Westcentral and adjoining Eastcentral Bay of Bengal, moved west- northwestwards, intensified into a Depression and lies centered at 1730 hrs IST of today, the 21st September, 2026, over Westcentral & adjoining Northwest Bay of Bengal near latitude 17.7°N and longitude 87.8°E, about 310 km southeast of Puri (Odisha), 310 km east-southeast of Gopalpur (Odisha), 390 km east-southeast of Kalingapatnam (Andhra Pradesh) and 470 km east of Visakhapatnam (Andhra Pradesh). It is very likely to move west-northwestwards & intensify into a Deep Depression over Westcentral & adjoining Northwest Bay of Bengal during next 24 hours. Continuing to move west-northwestwards it is very likely to cross north Andhra Pradesh - South Odisha coasts between Visakhapatnam & Gopalpur as a Deep Depression during night of 23rd to early hours of 24th September 2026.\nThe North-South trough from North Bay of Bengal to the cyclonic circulation associated with the Depression and extending upto 3.1 km above mean sea level persists.\nThe trough from the centre of the cyclonic circulation associated with the Depression to North Andaman Sea at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 4.5 & 7.6 km above mean sea level persists.\nThe trough from southeast Arabian sea to the cyclonic circulation associated with the Depression across Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea between 3.1 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nThe western Disturbance as a cyclonic circulation over Jammu and neighbourhood at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "westcentral & adjoining eastcentral Bay of Bengal",
+        "location": "Westcentral & adjoining Northwest Bay of Bengal",
+        "coords": {
+          "lat": 17.7,
+          "lon": 87.8
+        },
+        "distance_from": [
+          {
+            "place": "Puri (Odisha",
+            "distance_km": 310,
+            "direction": "southeast"
+          },
+          {
+            "place": "Gopalpur (Odisha",
+            "distance_km": 310,
+            "direction": "east-southeast"
+          },
+          {
+            "place": "Kalingapatnam (Andhra Pradesh) and 470 km east of Visakhapatnam (Andhra Pradesh",
+            "distance_km": 390,
+            "direction": "east-southeast"
+          }
+        ],
         "movement": "west-northwestwards",
-        "raw_text": "The Well-marked Low Pressure area over westcentral & adjoining eastcentral Bay of Bengal persists over the same region at 1430 hrs IST of today, the 21th September, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and intensify into a depression over Westcentral Bay of Bengal during next 24 hrs and into a deep depression over Westcentral & adjoining Northwest Bay of Bengal during subsequent 24 hrs. Continuing to move west-northwestwards it is very likely to reach near north Andhra Pradesh - South Odisha coasts around morning of 23rd September 2026."
+        "raw_text": "The Well Marked Low Pressure area over Westcentral and adjoining Eastcentral Bay of Bengal, moved west- northwestwards, intensified into a Depression and lies centered at 1730 hrs IST of today, the 21st September, 2026, over Westcentral & adjoining Northwest Bay of Bengal near latitude 17.7°N and longitude 87.8°E, about 310 km southeast of Puri (Odisha), 310 km east-southeast of Gopalpur (Odisha), 390 km east-southeast of Kalingapatnam (Andhra Pradesh) and 470 km east of Visakhapatnam (Andhra Pradesh). It is very likely to move west-northwestwards & intensify into a Deep Depression over Westcentral & adjoining Northwest Bay of Bengal during next 24 hours. Continuing to move west-northwestwards it is very likely to cross north Andhra Pradesh - South Odisha coasts between Visakhapatnam & Gopalpur as a Deep Depression during night of 23rd to early hours of 24th September 2026."
       },
       {
         "type": "Western Disturbance",
@@ -34,13 +55,13 @@
       },
       {
         "type": "North-South Trough",
-        "extent": "North Bay of Bengal to the cyclonic circulation associated with the Well- marked Low Pressure area and",
+        "extent": "North Bay of Bengal to the cyclonic circulation associated with the Depression and",
         "level": {
           "type": "upto",
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The North-South trough from North Bay of Bengal to the cyclonic circulation associated with the Well- marked Low Pressure area and extending upto 3.1 km above mean sea level persists."
+        "raw_text": "The North-South trough from North Bay of Bengal to the cyclonic circulation associated with the Depression and extending upto 3.1 km above mean sea level persists."
       }
     ],
     "uac": [
@@ -81,18 +102,18 @@
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the centre of the cyclonic circulation associated with the Well-marked Low Pressure area to North Andaman Sea",
+        "extent": "the centre of the cyclonic circulation associated with the Depression to North Andaman Sea",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The trough from the centre of the cyclonic circulation associated with the Well-marked Low Pressure area to North Andaman Sea at 3.1 km above mean sea level persists."
+        "raw_text": "The trough from the centre of the cyclonic circulation associated with the Depression to North Andaman Sea at 3.1 km above mean sea level persists."
       },
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "southeast Arabian sea to the cyclonic circulation associated with the Well-marked Low Pressure area",
+        "extent": "southeast Arabian sea to the cyclonic circulation associated with the Depression",
         "across": "Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level",
         "level": {
           "type": "range",
@@ -100,7 +121,7 @@
           "max": 7.6,
           "display": "5.8–7.6 km above MSL"
         },
-        "raw_text": "The trough from southeast Arabian sea to the cyclonic circulation associated with the Well-marked Low Pressure area across Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level persists."
+        "raw_text": "The trough from southeast Arabian sea to the cyclonic circulation associated with the Depression across Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level persists."
       }
     ],
     "suppressed_count": 1,
@@ -113,5 +134,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-21 20:57 IST"
+  "fetched_at": "2026-09-22 02:50 IST"
 }
