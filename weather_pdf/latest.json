@@ -1,17 +1,17 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5f8fab2acca3a4a5e61b6ef3798515e1.pdf",
-  "last_updated": "01:38 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7b92cae5da1440b9e1f80325100c01c2.pdf",
+  "last_updated": "04:35 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-09-21",
   "bulletin": {
     "morning": null,
-    "midday": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana Chandigarh Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2 3 days.",
-    "evening": null,
+    "midday": null,
+    "evening": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana Chandigarh Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2 3 days.",
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana-Chandigarh-Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2-3 days.\nThe Well-marked Low Pressure area over Eastcentral & adjoining Westcentral Bay of Bengal moved west- northwestwards and lies over westcentral & adjoining eastcentral Bay of Bengal at 0830 hrs IST of today, the 21th September, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and intensify into a depression over Westcentral Bay of Bengal during next 24 hrs and into a deep depression over Westcentral & adjoining Northwest Bay of Bengal during subsequent 24 hrs. Continuing to move west-northwestwards it is very likely to reach near north Andhra Pradesh - South Odisha coasts around morning of 23rd September 2026.\nThe North-South trough now runs from North Bay of Bengal to the centre of the cyclonic circulation associated with the Well-marked Low Pressure area and extends upto 3.1 km above mean seal level.\nA trough runs from the centre of the cyclonic circulation associated with the Well-marked Low Pressure area to north Andaman sea at 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over central Tamil Nadu & neighbourhoodbetween 4.5 & 7.6 km above mean sea level.\nA trough runs from southeast Arabian sea to the cyclonic circulation associated with the Well-marked Low Pressure area across Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level.\nThe upper air cyclonic circulation over South Coastal Andhra Pradesh & adjoining Westcentral bay of Bengal at 0.9 km above mean sea level has merged with the cyclonic circulation associated with above Well- marked Low Pressure area.\nThe upper air cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea between 3.1 & 7.6 km above mean sea level persists.\nAn upper air cyclonic circulation lies over southwest Uttar Pradesh & neighbourhood at 5.8 km above mean seal level.\nA fresh western Disturbance as a cyclonic circulation lies over Jammu and neighbourhood at 3.1 km above mean sea level.\nThe East-West trough from the cyclonic circulation associated with the Well-marked Low Pressure area to north Keralam extending upto 5.8 km above mean seal level tilting southwards with height has become less marked.\nThe upper air cyclonic circulation over Southwest Madhya Pradesh & neighbourhood at 3.1 km above mean sea level has become less marked.\nThe trough from South Himachal Pradesh to the cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea at 5.8 km above mean seal level has become less marked.",
+  "met_analysis": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana-Chandigarh-Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2-3 days.\nThe Well-marked Low Pressure area over westcentral & adjoining eastcentral Bay of Bengal persists over the same region at 1430 hrs IST of today, the 21th September, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and intensify into a depression over Westcentral Bay of Bengal during next 24 hrs and into a deep depression over Westcentral & adjoining Northwest Bay of Bengal during subsequent 24 hrs. Continuing to move west-northwestwards it is very likely to reach near north Andhra Pradesh - South Odisha coasts around morning of 23rd September 2026.\nThe North-South trough from North Bay of Bengal to the cyclonic circulation associated with the Well- marked Low Pressure area and extending upto 3.1 km above mean sea level persists.\nThe trough from the centre of the cyclonic circulation associated with the Well-marked Low Pressure area to North Andaman Sea at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 4.5 & 7.6 km above mean sea level persists.\nThe trough from southeast Arabian sea to the cyclonic circulation associated with the Well-marked Low Pressure area across Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral & adjoining Northeast Arabian Sea between 3.1 & 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists.\nThe western Disturbance as a cyclonic circulation over Jammu and neighbourhood at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -19,16 +19,28 @@
         "status": "active",
         "location": "westcentral & adjoining eastcentral Bay of Bengal",
         "movement": "west-northwestwards",
-        "raw_text": "The Well-marked Low Pressure area over Eastcentral & adjoining Westcentral Bay of Bengal moved west- northwestwards and lies over westcentral & adjoining eastcentral Bay of Bengal at 0830 hrs IST of today, the 21th September, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and intensify into a depression over Westcentral Bay of Bengal during next 24 hrs and into a deep depression over Westcentral & adjoining Northwest Bay of Bengal during subsequent 24 hrs. Continuing to move west-northwestwards it is very likely to reach near north Andhra Pradesh - South Odisha coasts around morning of 23rd September 2026."
+        "raw_text": "The Well-marked Low Pressure area over westcentral & adjoining eastcentral Bay of Bengal persists over the same region at 1430 hrs IST of today, the 21th September, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and intensify into a depression over Westcentral Bay of Bengal during next 24 hrs and into a deep depression over Westcentral & adjoining Northwest Bay of Bengal during subsequent 24 hrs. Continuing to move west-northwestwards it is very likely to reach near north Andhra Pradesh - South Odisha coasts around morning of 23rd September 2026."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The western Disturbance as a cyclonic circulation over Jammu and neighbourhood at 3.1 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "Jammu and neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
       },
       {
         "type": "North-South Trough",
+        "extent": "North Bay of Bengal to the cyclonic circulation associated with the Well- marked Low Pressure area and",
         "level": {
           "type": "upto",
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The North-South trough now runs from North Bay of Bengal to the centre of the cyclonic circulation associated with the Well-marked Low Pressure area and extends upto 3.1 km above mean seal level."
+        "raw_text": "The North-South trough from North Bay of Bengal to the cyclonic circulation associated with the Well- marked Low Pressure area and extending upto 3.1 km above mean sea level persists."
       }
     ],
     "uac": [
@@ -41,17 +53,7 @@
           "max": 7.6,
           "display": "4.5–7.6 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over central Tamil Nadu & neighbourhoodbetween 4.5 & 7.6 km above mean sea level."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "South Coastal Andhra Pradesh & adjoining Westcentral bay of Bengal",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over South Coastal Andhra Pradesh & adjoining Westcentral bay of Bengal at 0.9 km above mean sea level has merged with the cyclonic circulation associated with above Well- marked Low Pressure area."
+        "raw_text": "The upper air cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 4.5 & 7.6 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -72,38 +74,38 @@
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over southwest Uttar Pradesh & neighbourhood at 5.8 km above mean seal level."
+        "raw_text": "The upper air cyclonic circulation over southwest Uttar Pradesh & neighbourhood at 5.8 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the centre of the cyclonic circulation associated with the Well-marked Low Pressure area to north Andaman sea",
+        "extent": "the centre of the cyclonic circulation associated with the Well-marked Low Pressure area to North Andaman Sea",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "A trough runs from the centre of the cyclonic circulation associated with the Well-marked Low Pressure area to north Andaman sea at 3.1 km above mean sea level."
+        "raw_text": "The trough from the centre of the cyclonic circulation associated with the Well-marked Low Pressure area to North Andaman Sea at 3.1 km above mean sea level persists."
       },
       {
         "type": "Trough",
         "subtype": "general",
         "extent": "southeast Arabian sea to the cyclonic circulation associated with the Well-marked Low Pressure area",
+        "across": "Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level",
         "level": {
           "type": "range",
           "min": 5.8,
           "max": 7.6,
           "display": "5.8–7.6 km above MSL"
         },
-        "raw_text": "A trough runs from southeast Arabian sea to the cyclonic circulation associated with the Well-marked Low Pressure area across Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level."
+        "raw_text": "The trough from southeast Arabian sea to the cyclonic circulation associated with the Well-marked Low Pressure area across Kerala, Tamil Nadu and southwest Bay of Bengal through the centre of the above cyclonic circulation over central Tamil Nadu & neighbourhoodbetween 5.8 &7.6 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 5,
+    "suppressed_count": 1,
     "unclassified": [
-      "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana-Chandigarh-Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2-3 days.",
-      "A fresh western Disturbance as a cyclonic circulation lies over Jammu and neighbourhood at 3.1 km above mean sea level."
+      "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana-Chandigarh-Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2-3 days."
     ],
     "validation": {
       "warnings_count": 0,
@@ -111,5 +113,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-21 13:48 IST"
+  "fetched_at": "2026-09-21 20:57 IST"
 }
