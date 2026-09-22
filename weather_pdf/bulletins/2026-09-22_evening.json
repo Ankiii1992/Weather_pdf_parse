@@ -1,0 +1,89 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/268b932eeaf5c913c13ba41b7af6e7ae.pdf",
+  "last_updated": "04:43 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-09-22",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana Chandigarh Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2 days.",
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana-Chandigarh-Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2 days.\nThe Depression over Westcentral & adjoining Northwest Bay of Bengal, moved westwards with speed 08 kmph during past 06 hours and lies centered at 1130 hrs IST of today, the 22nd September, 2026, over the same region near latitude 17.9°N and longitude 85.8°E, about 180 km south-southeast of Gopalpur (Odisha), 180 km east-southeast of Kalingapatnam (Andhra Pradesh), 210 km south of Puri (Odisha), and 270 km east of Visakhapatnam (Andhra Pradesh). It is very likely to move west-northwestwards & intensify into a deep depression over Westcentral & adjoining Northwest Bay of Bengal during next 12 hours. Continuing to move west-northwestwards it is very likely to cross north Andhra Pradesh - South Odisha coasts between Visakhapatnam & Gopalpur as a Deep Depression by night of 23rd September 2026.\nThe trough from centre of the Depression over Westcentral & adjoining Northwest Bay of Bengal to southeast Arabian sea across Coastal Andhra Pradesh and Karnataka between 3.1 &7.6 km above mean sea level persists.\nThe Western Disturbance as a trough in middle level tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 28°N persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Depression",
+        "status": "active",
+        "location": "the same region",
+        "coords": {
+          "lat": 17.9,
+          "lon": 85.8
+        },
+        "distance_from": [
+          {
+            "place": "Gopalpur (Odisha",
+            "distance_km": 180,
+            "direction": "south-southeast"
+          },
+          {
+            "place": "Kalingapatnam (Andhra Pradesh",
+            "distance_km": 180,
+            "direction": "east-southeast"
+          },
+          {
+            "place": "Visakhapatnam (Andhra Pradesh",
+            "distance_km": 270,
+            "direction": "east"
+          }
+        ],
+        "movement": "westwards",
+        "landfall": {
+          "location": "north Andhra Pradesh - South Odisha coasts between Visakhapatnam & Gopalpur",
+          "as_": "Deep Depression",
+          "time": "night of 23rd September 2026"
+        },
+        "raw_text": "The Depression over Westcentral & adjoining Northwest Bay of Bengal, moved westwards with speed 08 kmph during past 06 hours and lies centered at 1130 hrs IST of today, the 22nd September, 2026, over the same region near latitude 17.9°N and longitude 85.8°E, about 180 km south-southeast of Gopalpur (Odisha), 180 km east-southeast of Kalingapatnam (Andhra Pradesh), 210 km south of Puri (Odisha), and 270 km east of Visakhapatnam (Andhra Pradesh). It is very likely to move west-northwestwards & intensify into a deep depression over Westcentral & adjoining Northwest Bay of Bengal during next 12 hours. Continuing to move west-northwestwards it is very likely to cross north Andhra Pradesh - South Odisha coasts between Visakhapatnam & Gopalpur as a Deep Depression by night of 23rd September 2026."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle level tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 28°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 78°E to the north of Lat. 28°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "centre of the Depression over Westcentral & adjoining Northwest Bay of Bengal to southeast Arabian sea",
+        "across": "Coastal Andhra Pradesh and Karnataka",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "raw_text": "The trough from centre of the Depression over Westcentral & adjoining Northwest Bay of Bengal to southeast Arabian sea across Coastal Andhra Pradesh and Karnataka between 3.1 &7.6 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [
+      "Conditions are favourable for further withdrawal from remaining parts of Punjab, Haryana-Chandigarh-Delhi, some more parts of Rajasthan and some parts of Saurashtra & Kutch, Jammu & Kashmir, Himachal Pradesh, Uttarakhand and West Uttar Pradesh during next 2 days."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-09-22 19:17 IST"
+}
