@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/cd8717c2ca6e17c8758c6efdb6622a55.pdf",
-  "last_updated": "05:23 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6f275f6e2be53ae4b6da23b2505ab30c.pdf",
+  "last_updated": "09:19 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-23",
   "bulletin": {
     "morning": null,
@@ -20,41 +20,31 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Deep Depression over Westcentral & adjoining Northwest Bay of Bengal, moved westwards with a speed of 05 kmph during past 06 hours, and lies centered at 1130 hrs IST of today, the 23rd September, 2026, over the same region near latitude 18.0°N and longitude 84.4°E, about 50 km southeast of Kalingapatnam (Andhra Pradesh), 120 km east-northeast of Visakhapatnam (Andhra Pradesh), 150 km south-southwest of Gopalpur (Odisha) and 250 km southwest of Puri (Odisha). It is very likely to move west-northwestwards, and cross North Andhra Pradesh - South Odisha coasts between Vishakhapatnam & Gopalpur, close to Kalingapatnam as a Deep Depression by night of 23rd September 2026.\nThe Western Disturbance as a trough in the westerlies at middle tropospheric levels with its axis roughly along Long. 81°E to the north of Lat. 28°N at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe trough from centre of the Deep Depression over Westcentral & adjoining Northwest Bay of Bengal upto Gulf of Thailand across Central Bay of Bengal and north Andaman Sea extending upto 7.6 km above mean sea level persists.",
+  "met_analysis": "The Deep Depression over Westcentral & adjoining Northwest Bay of Bengal, moved west-northwestwards with a speed of 7 kmph during past 06 hours, and lies centered at 1730 hrs IST of today, the 23rd September, 2026, over the same region close to north Andhra Pradesh coast near latitude 18.1°N and longitude 84.0°E, about 30 km south-southwest of Kalingapatnam (Andhra Pradesh), 90 km east-northeast of Visakhapatnam (Andhra Pradesh) and 160 km southwest of Gopalpur (Odisha). It is very likely to continue to move west- northwestwards, and cross North Andhra Pradesh and adjoining South Odisha coasts between Vishakhapatnam & Gopalpur, close to Southwest of Kalingapatnam during next 3 to 4 hours.\nThe Western Disturbance as a trough in the westerlies at middle tropospheric levels with its axis roughly along Long. 81°E to the north of Lat. 28°N at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe trough from centre of the Deep Depression over Westcentral & adjoining Northwest Bay of Bengal upto Gulf of Thailand across Central Bay of Bengal and north Andaman Sea extending upto 7.6 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Deep Depression",
         "status": "active",
-        "location": "the same region",
+        "location": "the same region close to north Andhra Pradesh coast",
         "coords": {
-          "lat": 18.0,
-          "lon": 84.4
+          "lat": 18.1,
+          "lon": 84.0
         },
         "distance_from": [
           {
             "place": "Kalingapatnam (Andhra Pradesh",
-            "distance_km": 50,
-            "direction": "southeast"
-          },
-          {
-            "place": "Visakhapatnam (Andhra Pradesh",
-            "distance_km": 120,
-            "direction": "east-northeast"
-          },
-          {
-            "place": "Gopalpur (Odisha) and 250 km southwest of Puri (Odisha",
-            "distance_km": 150,
+            "distance_km": 30,
             "direction": "south-southwest"
+          },
+          {
+            "place": "Visakhapatnam (Andhra Pradesh) and 160 km southwest of Gopalpur (Odisha",
+            "distance_km": 90,
+            "direction": "east-northeast"
           }
         ],
-        "movement": "westwards",
-        "landfall": {
-          "location": "North Andhra Pradesh - South Odisha coasts between Vishakhapatnam & Gopalpur, close to Kalingapatnam",
-          "as_": "Deep Depression",
-          "time": "night of 23rd September 2026"
-        },
-        "raw_text": "The Deep Depression over Westcentral & adjoining Northwest Bay of Bengal, moved westwards with a speed of 05 kmph during past 06 hours, and lies centered at 1130 hrs IST of today, the 23rd September, 2026, over the same region near latitude 18.0°N and longitude 84.4°E, about 50 km southeast of Kalingapatnam (Andhra Pradesh), 120 km east-northeast of Visakhapatnam (Andhra Pradesh), 150 km south-southwest of Gopalpur (Odisha) and 250 km southwest of Puri (Odisha). It is very likely to move west-northwestwards, and cross North Andhra Pradesh - South Odisha coasts between Vishakhapatnam & Gopalpur, close to Kalingapatnam as a Deep Depression by night of 23rd September 2026."
+        "movement": "west-northwestwards",
+        "raw_text": "The Deep Depression over Westcentral & adjoining Northwest Bay of Bengal, moved west-northwestwards with a speed of 7 kmph during past 06 hours, and lies centered at 1730 hrs IST of today, the 23rd September, 2026, over the same region close to north Andhra Pradesh coast near latitude 18.1°N and longitude 84.0°E, about 30 km south-southwest of Kalingapatnam (Andhra Pradesh), 90 km east-northeast of Visakhapatnam (Andhra Pradesh) and 160 km southwest of Gopalpur (Odisha). It is very likely to continue to move west- northwestwards, and cross North Andhra Pradesh and adjoining South Odisha coasts between Vishakhapatnam & Gopalpur, close to Southwest of Kalingapatnam during next 3 to 4 hours."
       },
       {
         "type": "Western Disturbance",
@@ -102,5 +92,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-23 19:28 IST"
+  "fetched_at": "2026-09-24 00:17 IST"
 }
