@@ -1,0 +1,96 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6f275f6e2be53ae4b6da23b2505ab30c.pdf",
+  "last_updated": "09:19 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-09-23",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 32.5,
+      "lon": 72.5
+    },
+    {
+      "lat": 23.0,
+      "lon": 67.8
+    }
+  ],
+  "met_analysis": "The Deep Depression over Westcentral & adjoining Northwest Bay of Bengal, moved west-northwestwards with a speed of 7 kmph during past 06 hours, and lies centered at 1730 hrs IST of today, the 23rd September, 2026, over the same region close to north Andhra Pradesh coast near latitude 18.1°N and longitude 84.0°E, about 30 km south-southwest of Kalingapatnam (Andhra Pradesh), 90 km east-northeast of Visakhapatnam (Andhra Pradesh) and 160 km southwest of Gopalpur (Odisha). It is very likely to continue to move west- northwestwards, and cross North Andhra Pradesh and adjoining South Odisha coasts between Vishakhapatnam & Gopalpur, close to Southwest of Kalingapatnam during next 3 to 4 hours.\nThe Western Disturbance as a trough in the westerlies at middle tropospheric levels with its axis roughly along Long. 81°E to the north of Lat. 28°N at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe trough from centre of the Deep Depression over Westcentral & adjoining Northwest Bay of Bengal upto Gulf of Thailand across Central Bay of Bengal and north Andaman Sea extending upto 7.6 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Deep Depression",
+        "status": "active",
+        "location": "the same region close to north Andhra Pradesh coast",
+        "coords": {
+          "lat": 18.1,
+          "lon": 84.0
+        },
+        "distance_from": [
+          {
+            "place": "Kalingapatnam (Andhra Pradesh",
+            "distance_km": 30,
+            "direction": "south-southwest"
+          },
+          {
+            "place": "Visakhapatnam (Andhra Pradesh) and 160 km southwest of Gopalpur (Odisha",
+            "distance_km": 90,
+            "direction": "east-northeast"
+          }
+        ],
+        "movement": "west-northwestwards",
+        "raw_text": "The Deep Depression over Westcentral & adjoining Northwest Bay of Bengal, moved west-northwestwards with a speed of 7 kmph during past 06 hours, and lies centered at 1730 hrs IST of today, the 23rd September, 2026, over the same region close to north Andhra Pradesh coast near latitude 18.1°N and longitude 84.0°E, about 30 km south-southwest of Kalingapatnam (Andhra Pradesh), 90 km east-northeast of Visakhapatnam (Andhra Pradesh) and 160 km southwest of Gopalpur (Odisha). It is very likely to continue to move west- northwestwards, and cross North Andhra Pradesh and adjoining South Odisha coasts between Vishakhapatnam & Gopalpur, close to Southwest of Kalingapatnam during next 3 to 4 hours."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in the westerlies at middle tropospheric levels with its axis roughly along Long. 81°E to the north of Lat. 28°N at 5.8 km above mean sea level persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 81°E to the north of Lat. 28°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "across": "Central Bay of Bengal and north Andaman Sea",
+        "level": {
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
+        },
+        "raw_text": "The trough from centre of the Deep Depression over Westcentral & adjoining Northwest Bay of Bengal upto Gulf of Thailand across Central Bay of Bengal and north Andaman Sea extending upto 7.6 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-09-24 00:17 IST"
+}
