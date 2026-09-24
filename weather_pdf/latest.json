@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/44c8db909096259408a0f0604c6a621d.pdf",
-  "last_updated": "09:25 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e261af6d2aa2f861f2b94b9253bb367c.pdf",
+  "last_updated": "08:59 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-24",
   "bulletin": {
     "morning": null,
@@ -20,71 +20,51 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Deep Depression over north Andhra Pradesh coast, moved slowly west-northwestwards with a speed of 03 kmph during past 06 hours and crossed the coast closed to southwest of Kalingapatnam during 2300 Hrs IST of 23rd and 0100 Hrs IST of today, the 24th September 2026, as a Deep Depression with maximum sustained wind speed of 55-65 kmph gusting to 75 kmph. It then moved West-northwestwards and lies centered at 0530 hrs IST of today, 24th September 2026 over north coastal Andhra Pradesh near latitude 18.3°N and longitude 83.7°E, about 50 km West of Kalingapatnam (Andhra Pradesh), 80 km north-northeast of Visakhapatnam (Andhra Pradesh) and 170 km southwest of Gopalpur (Odisha). It is very likely to move northwestwards initially maintaining intensity of deep depression for next 12 hrs. Thereafter it is very likely to move north-northwestwards and weaken gradually during subsequent 24 hours.\nThe Western Disturbance as a trough in the westerlies at middle tropospheric levels with its axis roughly along Long. 81°E to the north of Lat. 28°N at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe trough now runs from centre of the Deep Depression over north coastal Andhra Pradesh to Gulf of Thailand across Central Bay of Bengal and north Andaman Sea extending upto 7.6 km above mean sea level.",
+  "met_analysis": "The Deep Depression over north coastal Andhra Pradesh & adjoining south Odisha, moved northwestwards with a speed of 10 kmph during past 06 hours and lies centered at 1730 hrs IST of today, 24th September 2026 over south Odisha & adjoining north coastal Andhra Pradesh, near latitude 19.1°N and longitude 83.0°E, about 40 km northeast of Koraput, (Odisha), 60 km northwest of Parvati Puram (Andhra Pradesh), 90 km South- southwest of Bhawanipatna (Odisha), 100 km east of Jagdalpur (Chhattisgarh) and 270 km south-southeast of Raipur (Chhattisgarh). It is very likely to move north-northwestwards and weaken gradually into a Depression during next 6 hours. Thereafter, it is very likely to continue to move north-northwestwards and weaken gradually during subsequent 24 hours.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 80°E to the north of Lat. 27°N.",
   "systems": {
     "priority": [
       {
         "type": "Deep Depression",
         "status": "weakening",
-        "location": "north coastal Andhra Pradesh",
+        "location": "south Odisha & adjoining north coastal Andhra Pradesh",
         "coords": {
-          "lat": 18.3,
-          "lon": 83.7
+          "lat": 19.1,
+          "lon": 83.0
         },
         "distance_from": [
           {
-            "place": "Kalingapatnam (Andhra Pradesh",
-            "distance_km": 50,
-            "direction": "west"
+            "place": "Parvati Puram (Andhra Pradesh",
+            "distance_km": 60,
+            "direction": "northwest"
           },
           {
-            "place": "Visakhapatnam (Andhra Pradesh) and 170 km southwest of Gopalpur (Odisha",
-            "distance_km": 80,
-            "direction": "north-northeast"
+            "place": "Bhawanipatna (Odisha",
+            "distance_km": 90,
+            "direction": "south- southwest"
+          },
+          {
+            "place": "Raipur (Chhattisgarh",
+            "distance_km": 270,
+            "direction": "south-southeast"
           }
         ],
-        "movement": "West-northwestwards",
-        "raw_text": "The Deep Depression over north Andhra Pradesh coast, moved slowly west-northwestwards with a speed of 03 kmph during past 06 hours and crossed the coast closed to southwest of Kalingapatnam during 2300 Hrs IST of 23rd and 0100 Hrs IST of today, the 24th September 2026, as a Deep Depression with maximum sustained wind speed of 55-65 kmph gusting to 75 kmph. It then moved West-northwestwards and lies centered at 0530 hrs IST of today, 24th September 2026 over north coastal Andhra Pradesh near latitude 18.3°N and longitude 83.7°E, about 50 km West of Kalingapatnam (Andhra Pradesh), 80 km north-northeast of Visakhapatnam (Andhra Pradesh) and 170 km southwest of Gopalpur (Odisha). It is very likely to move northwestwards initially maintaining intensity of deep depression for next 12 hrs. Thereafter it is very likely to move north-northwestwards and weaken gradually during subsequent 24 hours."
+        "movement": "northwestwards",
+        "raw_text": "The Deep Depression over north coastal Andhra Pradesh & adjoining south Odisha, moved northwestwards with a speed of 10 kmph during past 06 hours and lies centered at 1730 hrs IST of today, 24th September 2026 over south Odisha & adjoining north coastal Andhra Pradesh, near latitude 19.1°N and longitude 83.0°E, about 40 km northeast of Koraput, (Odisha), 60 km northwest of Parvati Puram (Andhra Pradesh), 90 km South- southwest of Bhawanipatna (Odisha), 100 km east of Jagdalpur (Chhattisgarh) and 270 km south-southeast of Raipur (Chhattisgarh). It is very likely to move north-northwestwards and weaken gradually into a Depression during next 6 hours. Thereafter, it is very likely to continue to move north-northwestwards and weaken gradually during subsequent 24 hours."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in the westerlies at middle tropospheric levels with its axis roughly along Long. 81°E to the north of Lat. 28°N at 5.8 km above mean sea level persists.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 80°E to the north of Lat. 27°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 81°E to the north of Lat. 28°N",
+        "axis": "along Long. 80°E to the north of Lat. 27°N",
         "level": {
           "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "min": 7.6,
+          "display": "7.6 km above MSL"
         }
       }
     ],
-    "uac": [
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Uttar Pradesh & neighbourhood",
-        "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 3.1,
-          "display": "1.5–3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
-      }
-    ],
-    "other_troughs": [
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "centre of the Deep Depression over north coastal Andhra Pradesh to Gulf of Thailand",
-        "across": "Central Bay of Bengal and north Andaman Sea",
-        "level": {
-          "type": "upto",
-          "max": 7.6,
-          "display": "upto 7.6 km above MSL"
-        },
-        "raw_text": "The trough now runs from centre of the Deep Depression over north coastal Andhra Pradesh to Gulf of Thailand across Central Bay of Bengal and north Andaman Sea extending upto 7.6 km above mean sea level."
-      }
-    ],
+    "uac": [],
+    "other_troughs": [],
     "suppressed_count": 0,
     "unclassified": [],
     "validation": {
@@ -93,5 +73,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-24 13:28 IST"
+  "fetched_at": "2026-09-25 00:18 IST"
 }
