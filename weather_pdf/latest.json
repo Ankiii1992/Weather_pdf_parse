@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/36fa77c799652726049ebf3331880ad6.pdf",
-  "last_updated": "04:43 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4465a5e718c0c4f19a45774a5983f903.pdf",
+  "last_updated": "08:32 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-25",
   "bulletin": {
     "morning": null,
@@ -20,36 +20,31 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Depression over south Chhattisgarh and adjoining south interior Odisha moved north-northwestwards with a speed of 15 kmph during past 06 hours and lies centered at 1130 hrs IST of today, 25th September 2026 over the same region, near latitude 21.3°N and longitude 82.3°E, about 70 km east of Raipur (Chhattisgarh), 90 km south of Bilaspur (Chhattisgarh), 90 km south-southwest of Champa (Chhattisgarhi) and 170 km south- southeast of Pendra Road (Chhattisgarh). It is very likely to continue to move north-northwestwards and maintain its intensity of Depression during next 12 hours and weaken into a Well-Marked low pressure area during subsequent 12 hours.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 26°N persists.",
+  "met_analysis": "The Depression over south Chhattisgarh and adjoining south interior Odisha moved north-northwestwards with a speed of 13 kmph during past 06 hours and lies centered at 1730 hrs IST of today, the 25th September 2026 over north Chhattisgarh, near latitude 22.0°N and longitude 82.2°E, close to south-southeast of Bilaspur (Chhattisgarh), about 50 km west of Champa (Chhattisgarh), 90 km south-southeast of Pendra Road (Chhattisgarh) and 270 km south of Sidhi (Madhya Pradesh). It is very likely to move north-northwestwards towards southeast Uttar Pradesh across north Chhattisgarh & northeast Madhya Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a well-marked low pressure area during subsequent 12 hours.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 26°N persists.",
   "systems": {
     "priority": [
       {
         "type": "Depression",
-        "status": "active",
-        "location": "the same region",
+        "status": "weakening",
+        "location": "north Chhattisgarh",
         "coords": {
-          "lat": 21.3,
-          "lon": 82.3
+          "lat": 22.0,
+          "lon": 82.2
         },
         "distance_from": [
           {
-            "place": "Raipur (Chhattisgarh",
-            "distance_km": 70,
-            "direction": "east"
+            "place": "Champa (Chhattisgarh",
+            "distance_km": 50,
+            "direction": "west"
           },
           {
-            "place": "Bilaspur (Chhattisgarh",
+            "place": "Pendra Road (Chhattisgarh) and 270 km south of Sidhi (Madhya Pradesh",
             "distance_km": 90,
-            "direction": "south"
-          },
-          {
-            "place": "Pendra Road (Chhattisgarh",
-            "distance_km": 170,
-            "direction": "south- southeast"
+            "direction": "south-southeast"
           }
         ],
         "movement": "north-northwestwards",
-        "raw_text": "The Depression over south Chhattisgarh and adjoining south interior Odisha moved north-northwestwards with a speed of 15 kmph during past 06 hours and lies centered at 1130 hrs IST of today, 25th September 2026 over the same region, near latitude 21.3°N and longitude 82.3°E, about 70 km east of Raipur (Chhattisgarh), 90 km south of Bilaspur (Chhattisgarh), 90 km south-southwest of Champa (Chhattisgarhi) and 170 km south- southeast of Pendra Road (Chhattisgarh). It is very likely to continue to move north-northwestwards and maintain its intensity of Depression during next 12 hours and weaken into a Well-Marked low pressure area during subsequent 12 hours."
+        "raw_text": "The Depression over south Chhattisgarh and adjoining south interior Odisha moved north-northwestwards with a speed of 13 kmph during past 06 hours and lies centered at 1730 hrs IST of today, the 25th September 2026 over north Chhattisgarh, near latitude 22.0°N and longitude 82.2°E, close to south-southeast of Bilaspur (Chhattisgarh), about 50 km west of Champa (Chhattisgarh), 90 km south-southeast of Pendra Road (Chhattisgarh) and 270 km south of Sidhi (Madhya Pradesh). It is very likely to move north-northwestwards towards southeast Uttar Pradesh across north Chhattisgarh & northeast Madhya Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a well-marked low pressure area during subsequent 12 hours."
       },
       {
         "type": "Western Disturbance",
@@ -73,5 +68,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-25 19:48 IST"
+  "fetched_at": "2026-09-26 00:33 IST"
 }
