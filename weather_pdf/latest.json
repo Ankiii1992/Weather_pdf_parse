@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e261af6d2aa2f861f2b94b9253bb367c.pdf",
-  "last_updated": "08:59 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-09-24",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4bc4aab2a27a885abaf4b05df78bae28.pdf",
+  "last_updated": "01:26 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-09-25",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -20,42 +20,37 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Deep Depression over north coastal Andhra Pradesh & adjoining south Odisha, moved northwestwards with a speed of 10 kmph during past 06 hours and lies centered at 1730 hrs IST of today, 24th September 2026 over south Odisha & adjoining north coastal Andhra Pradesh, near latitude 19.1°N and longitude 83.0°E, about 40 km northeast of Koraput, (Odisha), 60 km northwest of Parvati Puram (Andhra Pradesh), 90 km South- southwest of Bhawanipatna (Odisha), 100 km east of Jagdalpur (Chhattisgarh) and 270 km south-southeast of Raipur (Chhattisgarh). It is very likely to move north-northwestwards and weaken gradually into a Depression during next 6 hours. Thereafter, it is very likely to continue to move north-northwestwards and weaken gradually during subsequent 24 hours.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 80°E to the north of Lat. 27°N.",
+  "met_analysis": "The Depression over south Odisha & adjoining south Chhattisgarh, moved north-northwestwards with a speed of 15 kmph during past 06 hours and lies centered at 0830 hrs IST of today, 25th September 2026 over south Chhattisgarh and adjoining south interior Odisha, near latitude 20.9°N and longitude 82.4°E, close to north- northwest of Nuapada (Odisha) and about 80 km east-southeast of Raipur (Chhattisgarh), 130 km south- southwest of Champa (Chhattisgarh) and 140 km south of Bilaspur (Chhattisgarh). It is very likely to continue to move north-northwestwards and maintain its intensity of Depression during next 12 hours and weaken into a Well Marked low pressure area during subsequent 12 hours.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 26°N.",
   "systems": {
     "priority": [
       {
-        "type": "Deep Depression",
-        "status": "weakening",
-        "location": "south Odisha & adjoining north coastal Andhra Pradesh",
+        "type": "Depression",
+        "status": "active",
+        "location": "south Chhattisgarh and adjoining south interior Odisha",
         "coords": {
-          "lat": 19.1,
-          "lon": 83.0
+          "lat": 20.9,
+          "lon": 82.4
         },
         "distance_from": [
           {
-            "place": "Parvati Puram (Andhra Pradesh",
-            "distance_km": 60,
-            "direction": "northwest"
-          },
-          {
-            "place": "Bhawanipatna (Odisha",
-            "distance_km": 90,
-            "direction": "south- southwest"
-          },
-          {
             "place": "Raipur (Chhattisgarh",
-            "distance_km": 270,
-            "direction": "south-southeast"
+            "distance_km": 80,
+            "direction": "east-southeast"
+          },
+          {
+            "place": "Champa (Chhattisgarh) and 140 km south of Bilaspur (Chhattisgarh",
+            "distance_km": 130,
+            "direction": "south- southwest"
           }
         ],
-        "movement": "northwestwards",
-        "raw_text": "The Deep Depression over north coastal Andhra Pradesh & adjoining south Odisha, moved northwestwards with a speed of 10 kmph during past 06 hours and lies centered at 1730 hrs IST of today, 24th September 2026 over south Odisha & adjoining north coastal Andhra Pradesh, near latitude 19.1°N and longitude 83.0°E, about 40 km northeast of Koraput, (Odisha), 60 km northwest of Parvati Puram (Andhra Pradesh), 90 km South- southwest of Bhawanipatna (Odisha), 100 km east of Jagdalpur (Chhattisgarh) and 270 km south-southeast of Raipur (Chhattisgarh). It is very likely to move north-northwestwards and weaken gradually into a Depression during next 6 hours. Thereafter, it is very likely to continue to move north-northwestwards and weaken gradually during subsequent 24 hours."
+        "movement": "north-northwestwards",
+        "raw_text": "The Depression over south Odisha & adjoining south Chhattisgarh, moved north-northwestwards with a speed of 15 kmph during past 06 hours and lies centered at 0830 hrs IST of today, 25th September 2026 over south Chhattisgarh and adjoining south interior Odisha, near latitude 20.9°N and longitude 82.4°E, close to north- northwest of Nuapada (Odisha) and about 80 km east-southeast of Raipur (Chhattisgarh), 130 km south- southwest of Champa (Chhattisgarh) and 140 km south of Bilaspur (Chhattisgarh). It is very likely to continue to move north-northwestwards and maintain its intensity of Depression during next 12 hours and weaken into a Well Marked low pressure area during subsequent 12 hours."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 80°E to the north of Lat. 27°N.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 26°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 80°E to the north of Lat. 27°N",
+        "axis": "along Long. 72°E to the north of Lat. 26°N",
         "level": {
           "type": "single",
           "min": 7.6,
@@ -73,5 +68,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-25 07:37 IST"
+  "fetched_at": "2026-09-25 13:48 IST"
 }
