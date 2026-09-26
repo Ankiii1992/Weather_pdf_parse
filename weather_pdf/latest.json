@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4465a5e718c0c4f19a45774a5983f903.pdf",
-  "last_updated": "08:32 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-09-25",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d284fa20e2a7cbf72e4e98c0ffb97f01.pdf",
+  "last_updated": "09:29 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-09-26",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -20,37 +20,37 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Depression over south Chhattisgarh and adjoining south interior Odisha moved north-northwestwards with a speed of 13 kmph during past 06 hours and lies centered at 1730 hrs IST of today, the 25th September 2026 over north Chhattisgarh, near latitude 22.0°N and longitude 82.2°E, close to south-southeast of Bilaspur (Chhattisgarh), about 50 km west of Champa (Chhattisgarh), 90 km south-southeast of Pendra Road (Chhattisgarh) and 270 km south of Sidhi (Madhya Pradesh). It is very likely to move north-northwestwards towards southeast Uttar Pradesh across north Chhattisgarh & northeast Madhya Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a well-marked low pressure area during subsequent 12 hours.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 26°N persists.",
+  "met_analysis": "The Depression over north Chhattisgarh & adjoining Northeast Madhya Pradesh moved north-northwestwards with a speed of 13 kmph during past 06 hours and lies centered at 0530 hrs IST of today, the 26th September 2026 over Northeast Madhya Pradesh & adjoining north Chhattisgarh, near latitude 23.4°N and longitude 81.7°E, about 70 km north-northwest of Pendra Road (Chhattisgarh), 110 km south of Sidhi (Madhya Pradesh) and 230 km south of Prayagraj (Uttar Pradesh). It is very likely to move north-northwestwards towards southeast Uttar Pradesh across northeast Madhya Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a Well-Marked low pressure area during subsequent 12 hours.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 26°N.\nAn upper air cyclonic circulation lies over south Thailand & adjoining Myanmar and extends upto 5.8 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Depression",
         "status": "weakening",
-        "location": "north Chhattisgarh",
+        "location": "Northeast Madhya Pradesh & adjoining north Chhattisgarh",
         "coords": {
-          "lat": 22.0,
-          "lon": 82.2
+          "lat": 23.4,
+          "lon": 81.7
         },
         "distance_from": [
           {
-            "place": "Champa (Chhattisgarh",
-            "distance_km": 50,
-            "direction": "west"
+            "place": "Pendra Road (Chhattisgarh",
+            "distance_km": 70,
+            "direction": "north-northwest"
           },
           {
-            "place": "Pendra Road (Chhattisgarh) and 270 km south of Sidhi (Madhya Pradesh",
-            "distance_km": 90,
-            "direction": "south-southeast"
+            "place": "Sidhi (Madhya Pradesh) and 230 km south of Prayagraj (Uttar Pradesh",
+            "distance_km": 110,
+            "direction": "south"
           }
         ],
         "movement": "north-northwestwards",
-        "raw_text": "The Depression over south Chhattisgarh and adjoining south interior Odisha moved north-northwestwards with a speed of 13 kmph during past 06 hours and lies centered at 1730 hrs IST of today, the 25th September 2026 over north Chhattisgarh, near latitude 22.0°N and longitude 82.2°E, close to south-southeast of Bilaspur (Chhattisgarh), about 50 km west of Champa (Chhattisgarh), 90 km south-southeast of Pendra Road (Chhattisgarh) and 270 km south of Sidhi (Madhya Pradesh). It is very likely to move north-northwestwards towards southeast Uttar Pradesh across north Chhattisgarh & northeast Madhya Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a well-marked low pressure area during subsequent 12 hours."
+        "raw_text": "The Depression over north Chhattisgarh & adjoining Northeast Madhya Pradesh moved north-northwestwards with a speed of 13 kmph during past 06 hours and lies centered at 0530 hrs IST of today, the 26th September 2026 over Northeast Madhya Pradesh & adjoining north Chhattisgarh, near latitude 23.4°N and longitude 81.7°E, about 70 km north-northwest of Pendra Road (Chhattisgarh), 110 km south of Sidhi (Madhya Pradesh) and 230 km south of Prayagraj (Uttar Pradesh). It is very likely to move north-northwestwards towards southeast Uttar Pradesh across northeast Madhya Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a Well-Marked low pressure area during subsequent 12 hours."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 26°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 26°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 72°E to the north of Lat. 26°N",
+        "axis": "along Long. 74°E to the north of Lat. 26°N",
         "level": {
           "type": "single",
           "min": 7.6,
@@ -58,7 +58,18 @@
         }
       }
     ],
-    "uac": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Thailand & adjoining Myanmar",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over south Thailand & adjoining Myanmar and extends upto 5.8 km above mean sea level."
+      }
+    ],
     "other_troughs": [],
     "suppressed_count": 0,
     "unclassified": [],
@@ -68,5 +79,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-26 07:42 IST"
+  "fetched_at": "2026-09-26 13:36 IST"
 }
