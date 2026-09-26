@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5762b16a426f75441ea320e5c568e00c.pdf",
+  "last_updated": "04:30 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-09-26",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 32.5,
+      "lon": 72.5
+    },
+    {
+      "lat": 23.0,
+      "lon": 67.8
+    }
+  ],
+  "met_analysis": "The Depression over Northeast Madhya Pradesh & adjoining north Chhattisgarh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered at 1130 hrs IST of today, the 26th September 2026 over Northeast Madhya Pradesh & adjoining southeast Uttar Pradesh, near latitude 24.7°N and longitude 81.5°E, about 30 km northeast of Rewa (Madhya Pradesh), 50 km northwest of Sidhi (Madhya Pradesh), 90 km south-southwest of Prayagraj (Uttar Pradesh), 150 km south-southeast of Fatehpur (Uttar Pradesh) and 170 km south of Fursat Ganj (Uttar Pradesh). It is very likely to move north-northwestwards across northeast Madhya Pradesh and southeast Uttar Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a Well-Marked Low Pressure Area over Uttar Pradesh during subsequent 12 hours\nThe Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 74°E to the north of Lat. 26°N persists.\nThe upper air cyclonic circulation over Northeast Assam extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over central Thailand & adjoining Myanmar extending upto 9.4 km above mean sea level persists. It is likely to emerge into north Andaman Sea and adjoining Irawadi region of Myanmar by tomorrow, 27th September and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Depression",
+        "status": "weakening",
+        "location": "Northeast Madhya Pradesh & adjoining north Chhattisgarh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered",
+        "coords": {
+          "lat": 24.7,
+          "lon": 81.5
+        },
+        "distance_from": [
+          {
+            "place": "Rewa (Madhya Pradesh",
+            "distance_km": 30,
+            "direction": "northeast"
+          },
+          {
+            "place": "Sidhi (Madhya Pradesh",
+            "distance_km": 50,
+            "direction": "northwest"
+          },
+          {
+            "place": "Prayagraj (Uttar Pradesh",
+            "distance_km": 90,
+            "direction": "south-southwest"
+          },
+          {
+            "place": "Fatehpur (Uttar Pradesh) and 170 km south of Fursat Ganj (Uttar Pradesh",
+            "distance_km": 150,
+            "direction": "south-southeast"
+          }
+        ],
+        "movement": "north-northwestwards",
+        "raw_text": "The Depression over Northeast Madhya Pradesh & adjoining north Chhattisgarh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered at 1130 hrs IST of today, the 26th September 2026 over Northeast Madhya Pradesh & adjoining southeast Uttar Pradesh, near latitude 24.7°N and longitude 81.5°E, about 30 km northeast of Rewa (Madhya Pradesh), 50 km northwest of Sidhi (Madhya Pradesh), 90 km south-southwest of Prayagraj (Uttar Pradesh), 150 km south-southeast of Fatehpur (Uttar Pradesh) and 170 km south of Fursat Ganj (Uttar Pradesh). It is very likely to move north-northwestwards across northeast Madhya Pradesh and southeast Uttar Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a Well-Marked Low Pressure Area over Uttar Pradesh during subsequent 12 hours",
+        "_warnings": [
+          "location looks wrong (contains movement/timestamp text): 'Northeast Madhya Pradesh & adjoining north Chhattisgarh moved very fast north- n'"
+        ]
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 74°E to the north of Lat. 26°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 74°E to the north of Lat. 26°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Assam",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Thailand & adjoining Myanmar",
+        "level": {
+          "type": "upto",
+          "max": 9.4,
+          "display": "upto 9.4 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Thailand & adjoining Myanmar extending upto 9.4 km above mean sea level persists. It is likely to emerge into north Andaman Sea and adjoining Irawadi region of Myanmar by tomorrow, 27th September and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Depression"
+      ]
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-09-26 18:59 IST"
+}
