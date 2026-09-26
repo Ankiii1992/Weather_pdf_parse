@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5762b16a426f75441ea320e5c568e00c.pdf",
-  "last_updated": "04:30 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9e263d9190791e5308be7fb4e5425678.pdf",
+  "last_updated": "08:35 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-26",
   "bulletin": {
     "morning": null,
@@ -20,50 +20,42 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Depression over Northeast Madhya Pradesh & adjoining north Chhattisgarh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered at 1130 hrs IST of today, the 26th September 2026 over Northeast Madhya Pradesh & adjoining southeast Uttar Pradesh, near latitude 24.7°N and longitude 81.5°E, about 30 km northeast of Rewa (Madhya Pradesh), 50 km northwest of Sidhi (Madhya Pradesh), 90 km south-southwest of Prayagraj (Uttar Pradesh), 150 km south-southeast of Fatehpur (Uttar Pradesh) and 170 km south of Fursat Ganj (Uttar Pradesh). It is very likely to move north-northwestwards across northeast Madhya Pradesh and southeast Uttar Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a Well-Marked Low Pressure Area over Uttar Pradesh during subsequent 12 hours\nThe Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 74°E to the north of Lat. 26°N persists.\nThe upper air cyclonic circulation over Northeast Assam extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over central Thailand & adjoining Myanmar extending upto 9.4 km above mean sea level persists. It is likely to emerge into north Andaman Sea and adjoining Irawadi region of Myanmar by tomorrow, 27th September and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days.",
+  "met_analysis": "The Depression over Northeast Madhya Pradesh & adjoining southeast Uttar Pradesh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered at 1730 hrs IST of today, the 26th September 2026 over southeast Uttar Pradesh, near latitude 26.0°N and longitude 81.3°E, about 30 km south-southwest of Fursat Ganj (Uttar Pradesh), 50 km east of Fatehpur (Uttar Pradesh), 100 km east- southeast of Kanpur (Uttar Pradesh) and 100 km south-southeast of Lucknow (Uttar Pradesh) and 220 km south-southeast of Kheri (Uttar Pradesh). It is very likely to move north-northwestwards across east Uttar Pradesh and weaken gradually into a Well- Marked Low Pressure Area during next 12 hours.\nThe Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 26°N.\nThe upper air cyclonic circulation over Northeast Assam extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over central Thailand & adjoining Myanmar extending upto 9.4 km above mean sea level persists. It is likely to emerge into north Andaman Sea and adjoining Irawadi region of Myanmar by tomorrow, 27th September and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days persists.",
   "systems": {
     "priority": [
       {
         "type": "Depression",
         "status": "weakening",
-        "location": "Northeast Madhya Pradesh & adjoining north Chhattisgarh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered",
+        "location": "southeast Uttar Pradesh",
         "coords": {
-          "lat": 24.7,
-          "lon": 81.5
+          "lat": 26.0,
+          "lon": 81.3
         },
         "distance_from": [
           {
-            "place": "Rewa (Madhya Pradesh",
+            "place": "Fursat Ganj (Uttar Pradesh",
             "distance_km": 30,
-            "direction": "northeast"
-          },
-          {
-            "place": "Sidhi (Madhya Pradesh",
-            "distance_km": 50,
-            "direction": "northwest"
-          },
-          {
-            "place": "Prayagraj (Uttar Pradesh",
-            "distance_km": 90,
             "direction": "south-southwest"
           },
           {
-            "place": "Fatehpur (Uttar Pradesh) and 170 km south of Fursat Ganj (Uttar Pradesh",
-            "distance_km": 150,
+            "place": "Fatehpur (Uttar Pradesh",
+            "distance_km": 50,
+            "direction": "east"
+          },
+          {
+            "place": "Kheri (Uttar Pradesh",
+            "distance_km": 220,
             "direction": "south-southeast"
           }
         ],
         "movement": "north-northwestwards",
-        "raw_text": "The Depression over Northeast Madhya Pradesh & adjoining north Chhattisgarh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered at 1130 hrs IST of today, the 26th September 2026 over Northeast Madhya Pradesh & adjoining southeast Uttar Pradesh, near latitude 24.7°N and longitude 81.5°E, about 30 km northeast of Rewa (Madhya Pradesh), 50 km northwest of Sidhi (Madhya Pradesh), 90 km south-southwest of Prayagraj (Uttar Pradesh), 150 km south-southeast of Fatehpur (Uttar Pradesh) and 170 km south of Fursat Ganj (Uttar Pradesh). It is very likely to move north-northwestwards across northeast Madhya Pradesh and southeast Uttar Pradesh as a depression till evening of 26th September. Continuing to move further north-northwestwards, it is very likely to weaken gradually into a Well-Marked Low Pressure Area over Uttar Pradesh during subsequent 12 hours",
-        "_warnings": [
-          "location looks wrong (contains movement/timestamp text): 'Northeast Madhya Pradesh & adjoining north Chhattisgarh moved very fast north- n'"
-        ]
+        "raw_text": "The Depression over Northeast Madhya Pradesh & adjoining southeast Uttar Pradesh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered at 1730 hrs IST of today, the 26th September 2026 over southeast Uttar Pradesh, near latitude 26.0°N and longitude 81.3°E, about 30 km south-southwest of Fursat Ganj (Uttar Pradesh), 50 km east of Fatehpur (Uttar Pradesh), 100 km east- southeast of Kanpur (Uttar Pradesh) and 100 km south-southeast of Lucknow (Uttar Pradesh) and 220 km south-southeast of Kheri (Uttar Pradesh). It is very likely to move north-northwestwards across east Uttar Pradesh and weaken gradually into a Well- Marked Low Pressure Area during next 12 hours."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 74°E to the north of Lat. 26°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 26°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 74°E to the north of Lat. 26°N",
+        "axis": "along Long. 78°E to the north of Lat. 26°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -90,19 +82,17 @@
           "max": 9.4,
           "display": "upto 9.4 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central Thailand & adjoining Myanmar extending upto 9.4 km above mean sea level persists. It is likely to emerge into north Andaman Sea and adjoining Irawadi region of Myanmar by tomorrow, 27th September and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days."
+        "raw_text": "The upper air cyclonic circulation over central Thailand & adjoining Myanmar extending upto 9.4 km above mean sea level persists. It is likely to emerge into north Andaman Sea and adjoining Irawadi region of Myanmar by tomorrow, 27th September and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days persists."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 0,
     "unclassified": [],
     "validation": {
-      "warnings_count": 1,
-      "systems_with_warnings": [
-        "Depression"
-      ]
+      "warnings_count": 0,
+      "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-26 18:59 IST"
+  "fetched_at": "2026-09-26 23:40 IST"
 }
