@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9e263d9190791e5308be7fb4e5425678.pdf",
-  "last_updated": "08:35 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-09-26",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1a72a92fdf06b90100b0b83333ba1451.pdf",
+  "last_updated": "01:03 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-09-27",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -20,69 +20,57 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Depression over Northeast Madhya Pradesh & adjoining southeast Uttar Pradesh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered at 1730 hrs IST of today, the 26th September 2026 over southeast Uttar Pradesh, near latitude 26.0°N and longitude 81.3°E, about 30 km south-southwest of Fursat Ganj (Uttar Pradesh), 50 km east of Fatehpur (Uttar Pradesh), 100 km east- southeast of Kanpur (Uttar Pradesh) and 100 km south-southeast of Lucknow (Uttar Pradesh) and 220 km south-southeast of Kheri (Uttar Pradesh). It is very likely to move north-northwestwards across east Uttar Pradesh and weaken gradually into a Well- Marked Low Pressure Area during next 12 hours.\nThe Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 26°N.\nThe upper air cyclonic circulation over Northeast Assam extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over central Thailand & adjoining Myanmar extending upto 9.4 km above mean sea level persists. It is likely to emerge into north Andaman Sea and adjoining Irawadi region of Myanmar by tomorrow, 27th September and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days persists.",
+  "met_analysis": "The Well-Marked Low Pressure area over northern parts of central Uttar Pradesh persisted over the same region at 0830 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move north-northwestwards across Uttar Pradesh and weaken gradually into a Low Pressure Area during next 12 hours.\nThe Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 24°N.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe low pressure area over south coastal Myanmar & neighbourhood persisted over the same region at 0830 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It is likely to emerge into north Andaman Sea and adjoining Irrawaddy delta of Myanmar during next 24 hours and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days.\nThe north-south trough now runs from Bihar to Westcentral Bay of Bengal across Jharkhand, Odisha and extends upto 3.1 km above mean sea level.",
   "systems": {
     "priority": [
       {
-        "type": "Depression",
+        "type": "Low Pressure Area",
         "status": "weakening",
-        "location": "southeast Uttar Pradesh",
-        "coords": {
-          "lat": 26.0,
-          "lon": 81.3
-        },
-        "distance_from": [
-          {
-            "place": "Fursat Ganj (Uttar Pradesh",
-            "distance_km": 30,
-            "direction": "south-southwest"
-          },
-          {
-            "place": "Fatehpur (Uttar Pradesh",
-            "distance_km": 50,
-            "direction": "east"
-          },
-          {
-            "place": "Kheri (Uttar Pradesh",
-            "distance_km": 220,
-            "direction": "south-southeast"
-          }
-        ],
+        "location": "northern parts of central Uttar Pradesh persisted over the same region",
+        "on_land": true,
         "movement": "north-northwestwards",
-        "raw_text": "The Depression over Northeast Madhya Pradesh & adjoining southeast Uttar Pradesh moved very fast north- northwestwards with a speed of 25 kmph during past 06 hours and lies centered at 1730 hrs IST of today, the 26th September 2026 over southeast Uttar Pradesh, near latitude 26.0°N and longitude 81.3°E, about 30 km south-southwest of Fursat Ganj (Uttar Pradesh), 50 km east of Fatehpur (Uttar Pradesh), 100 km east- southeast of Kanpur (Uttar Pradesh) and 100 km south-southeast of Lucknow (Uttar Pradesh) and 220 km south-southeast of Kheri (Uttar Pradesh). It is very likely to move north-northwestwards across east Uttar Pradesh and weaken gradually into a Well- Marked Low Pressure Area during next 12 hours."
+        "raw_text": "The Well-Marked Low Pressure area over northern parts of central Uttar Pradesh persisted over the same region at 0830 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move north-northwestwards across Uttar Pradesh and weaken gradually into a Low Pressure Area during next 12 hours."
+      },
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "south coastal Myanmar & neighbourhood persisted over the same region",
+        "on_land": true,
+        "movement": "north-northwestwards",
+        "raw_text": "The low pressure area over south coastal Myanmar & neighbourhood persisted over the same region at 0830 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It is likely to emerge into north Andaman Sea and adjoining Irrawaddy delta of Myanmar during next 24 hours and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 26°N.",
+        "raw_text": "The Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 24°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 78°E to the north of Lat. 26°N",
+        "axis": "along Long. 72°E to the north of Lat. 24°N",
         "level": {
           "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "min": 7.6,
+          "display": "7.6 km above MSL"
         }
+      },
+      {
+        "type": "North-South Trough",
+        "extent": "Bihar to Westcentral Bay of Bengal",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The north-south trough now runs from Bihar to Westcentral Bay of Bengal across Jharkhand, Odisha and extends upto 3.1 km above mean sea level."
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Northeast Assam",
+        "location": "northeast Assam & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam extending upto 1.5 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "central Thailand & adjoining Myanmar",
-        "level": {
-          "type": "upto",
-          "max": 9.4,
-          "display": "upto 9.4 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over central Thailand & adjoining Myanmar extending upto 9.4 km above mean sea level persists. It is likely to emerge into north Andaman Sea and adjoining Irawadi region of Myanmar by tomorrow, 27th September and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days persists."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
@@ -94,5 +82,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-27 07:34 IST"
+  "fetched_at": "2026-09-27 14:11 IST"
 }
