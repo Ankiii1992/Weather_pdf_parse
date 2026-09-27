@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1a72a92fdf06b90100b0b83333ba1451.pdf",
-  "last_updated": "01:03 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4cc0e29c0664f7ec17753837353ac35e.pdf",
+  "last_updated": "04:43 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-09-27",
   "bulletin": {
     "morning": null,
@@ -20,7 +20,7 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Well-Marked Low Pressure area over northern parts of central Uttar Pradesh persisted over the same region at 0830 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move north-northwestwards across Uttar Pradesh and weaken gradually into a Low Pressure Area during next 12 hours.\nThe Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 24°N.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe low pressure area over south coastal Myanmar & neighbourhood persisted over the same region at 0830 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It is likely to emerge into north Andaman Sea and adjoining Irrawaddy delta of Myanmar during next 24 hours and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days.\nThe north-south trough now runs from Bihar to Westcentral Bay of Bengal across Jharkhand, Odisha and extends upto 3.1 km above mean sea level.",
+  "met_analysis": "The Well-Marked Low Pressure area over northern parts of central Uttar Pradesh persisted over the same region at 1430 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move north-northwestwards across Uttar Pradesh and weaken gradually into a Low Pressure Area during next 12 hours.\nThe Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 24°N persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe low pressure area over south coastal Myanmar & neighbourhood persisted over the same region at 1430 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extending upto 9.4 km above mean sea level. It is likely to emerge into north Andaman Sea and adjoining Irrawaddy delta of Myanmar during next 24 hours and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days.\nThe north-south trough from Bihar to Westcentral Bay of Bengal across Jharkhand, Odisha extending upto 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -29,7 +29,7 @@
         "location": "northern parts of central Uttar Pradesh persisted over the same region",
         "on_land": true,
         "movement": "north-northwestwards",
-        "raw_text": "The Well-Marked Low Pressure area over northern parts of central Uttar Pradesh persisted over the same region at 0830 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move north-northwestwards across Uttar Pradesh and weaken gradually into a Low Pressure Area during next 12 hours."
+        "raw_text": "The Well-Marked Low Pressure area over northern parts of central Uttar Pradesh persisted over the same region at 1430 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move north-northwestwards across Uttar Pradesh and weaken gradually into a Low Pressure Area during next 12 hours."
       },
       {
         "type": "Low Pressure Area",
@@ -37,11 +37,11 @@
         "location": "south coastal Myanmar & neighbourhood persisted over the same region",
         "on_land": true,
         "movement": "north-northwestwards",
-        "raw_text": "The low pressure area over south coastal Myanmar & neighbourhood persisted over the same region at 0830 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extends upto 9.4 km above mean sea level. It is likely to emerge into north Andaman Sea and adjoining Irrawaddy delta of Myanmar during next 24 hours and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days."
+        "raw_text": "The low pressure area over south coastal Myanmar & neighbourhood persisted over the same region at 1430 hrs IST of today, the 27th September 2026. The associated cyclonic circulation extending upto 9.4 km above mean sea level. It is likely to emerge into north Andaman Sea and adjoining Irrawaddy delta of Myanmar during next 24 hours and move north-northwestwards along and off Myanmar–Bangladesh coasts towards northeast Bay of Bengal & adjoining Bangladesh during subsequent 2 days."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 24°N.",
+        "raw_text": "The Western Disturbance as a trough in middle & Upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 72°E to the north of Lat. 24°N persists.",
         "form": "trough_in_westerlies",
         "axis": "along Long. 72°E to the north of Lat. 24°N",
         "level": {
@@ -53,12 +53,13 @@
       {
         "type": "North-South Trough",
         "extent": "Bihar to Westcentral Bay of Bengal",
+        "across": "Jharkhand, Odisha",
         "level": {
           "type": "upto",
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The north-south trough now runs from Bihar to Westcentral Bay of Bengal across Jharkhand, Odisha and extends upto 3.1 km above mean sea level."
+        "raw_text": "The north-south trough from Bihar to Westcentral Bay of Bengal across Jharkhand, Odisha extending upto 3.1 km above mean sea level persists."
       }
     ],
     "uac": [
@@ -82,5 +83,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-27 14:11 IST"
+  "fetched_at": "2026-09-27 19:55 IST"
 }
