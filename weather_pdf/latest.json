@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1cd8323bcf84697428a8ec69f11e20eb.pdf",
-  "last_updated": "12:28 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a0d6fb94a0222d7d2fff6524e1fbd841.pdf",
+  "last_updated": "08:45 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-09-30",
   "bulletin": {
     "morning": null,
@@ -20,7 +20,7 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Well-Marked Low Pressure Area over North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal with the associated cyclonic circulation extending upto 7.6 km above mean sea level persisted over the same region at 0830 hrs IST of today, the 30th September 2026. It is very likely to move north-northwestwards towards Mizoram, Tripura & adjoining southeast Bangladesh and weaken gradually into a Low Pressure Area during next 12 hours.\nThe upper air cyclonic circulation over Northwest & adjoining Westcentral Bay of Bengal between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north coastal Tamil Nadu & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe north-south trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea between 1.5 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 5.8 km above mean sea level and the trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 24°N.\nThe upper air cyclonic circulation over Southeast Uttar Pradesh & adjoining Bihar at 3.1 km above mean sea level persists.",
+  "met_analysis": "The Well-Marked Low Pressure Area over North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal with the associated cyclonic circulation extending upto 7.6 km above mean sea level persisted over the same region at 1730 hrs IST of today, the 30th September 2026. It is very likely to move north-northwestwards towards Mizoram, Tripura & adjoining southeast Bangladesh and weaken gradually into a Low Pressure Area during next 12 hours.\nThe upper air cyclonic circulation over Northwest & adjoining Westcentral Bay of Bengal between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north coastal Tamil Nadu & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe north-south trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea between 1.5 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now seen between 3.1 & 5.8 km above mean sea level and the trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 25°N.\nThe upper air cyclonic circulation over Southeast Uttar Pradesh & adjoining Bihar at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -28,18 +28,18 @@
         "status": "weakening",
         "location": "North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal with the associated cyclonic circulation",
         "movement": "north-northwestwards",
-        "raw_text": "The Well-Marked Low Pressure Area over North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal with the associated cyclonic circulation extending upto 7.6 km above mean sea level persisted over the same region at 0830 hrs IST of today, the 30th September 2026. It is very likely to move north-northwestwards towards Mizoram, Tripura & adjoining southeast Bangladesh and weaken gradually into a Low Pressure Area during next 12 hours."
+        "raw_text": "The Well-Marked Low Pressure Area over North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal with the associated cyclonic circulation extending upto 7.6 km above mean sea level persisted over the same region at 1730 hrs IST of today, the 30th September 2026. It is very likely to move north-northwestwards towards Mizoram, Tripura & adjoining southeast Bangladesh and weaken gradually into a Low Pressure Area during next 12 hours."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 5.8 km above mean sea level and the trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 24°N.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now seen between 3.1 & 5.8 km above mean sea level and the trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 25°N.",
         "form": "cyclonic_circulation",
         "location": "north Haryana & neighbourhood",
         "level": {
           "type": "range",
-          "min": 1.5,
+          "min": 3.1,
           "max": 5.8,
-          "display": "1.5–5.8 km above MSL"
+          "display": "3.1–5.8 km above MSL"
         },
         "trough_aloft": {
           "axis": "Long",
@@ -125,5 +125,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-30 14:38 IST"
+  "fetched_at": "2026-10-01 03:08 IST"
 }
