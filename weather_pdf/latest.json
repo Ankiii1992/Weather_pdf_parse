@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4382283b75c7c8267e1ad8875544d8cb.pdf",
-  "last_updated": "09:05 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-09-29",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1cd8323bcf84697428a8ec69f11e20eb.pdf",
+  "last_updated": "12:28 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-09-30",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -20,137 +20,110 @@
       "lon": 67.8
     }
   ],
-  "met_analysis": "The Depression over coastal Myanmar and adjoining Northeast Bay of Bengal moved west-northwestwards with a speed of 18 kmph during past 6 hours and lies centered at 1730 hrs IST of today, the 29th September 2026 over coastal Myanmar and adjoining Northeast Bay of Bengal & southeast Bangladesh near latitude 20.7°N and longitude 94.3°E, about 80 km south-southeast of Mindat (Myanmar), 170 km east of Kyauktaw (Myanmar), 260 km east-southeast of Cox’s Bazar (Bangladesh), and 320 km southeast of Chittagong (Bangladesh), 370 km south-southeast of Aizawl (Mizoram, India). It is very likely to move northwestwards and weaken into a well-marked low-pressure area over coastal Myanmar and adjoining southeast Bangladesh & Northeast Bay of Bengal during next 12 hours. Thereafter, it is very likely to continue to move further northwestwards towards southeast Bangladesh and adjoining areas of Myanmar, Mizoram, Tripura & Northeast Bay of Bengal and weaken gradually during subsequent 24 hours. The line of withdrawal of Southwest Monsoon continues to pass through 32.5°N/72.5°E, Gurdaspur, Chandigarh, Muzaffarnagar, Aligarh, Dholpur, Udaipur, Deesa, Naliya and 23.0°N/67.8°E.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood between 3.1 & 4.5 km above mean sea level with a trough aloft in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 25°N persists.\nThe upper air cyclonic circulation over East Uttar Pradesh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest & adjoining Westcentral Bay of Bengal between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian sea between 1.5 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over north Tamil Nadu & adjoining south Coastal Andhra Pradesh extending upto 1.5 km above mean sea level persists.\nThe north-south trough from south Telangana to Gulf of Mannar across Rayalaseema & upper air cyclonic circulation over north Tamil Nadu & adjoining south Coastal Andhra Pradesh at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Well-Marked Low Pressure Area over North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal with the associated cyclonic circulation extending upto 7.6 km above mean sea level persisted over the same region at 0830 hrs IST of today, the 30th September 2026. It is very likely to move north-northwestwards towards Mizoram, Tripura & adjoining southeast Bangladesh and weaken gradually into a Low Pressure Area during next 12 hours.\nThe upper air cyclonic circulation over Northwest & adjoining Westcentral Bay of Bengal between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over north coastal Tamil Nadu & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe north-south trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea between 1.5 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 5.8 km above mean sea level and the trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 24°N.\nThe upper air cyclonic circulation over Southeast Uttar Pradesh & adjoining Bihar at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
-        "type": "Depression",
+        "type": "Low Pressure Area",
         "status": "weakening",
-        "location": "coastal Myanmar and adjoining Northeast Bay of Bengal moved west-northwestwards with a speed of 18 kmph during past 6 hours and lies centered",
-        "coords": {
-          "lat": 20.7,
-          "lon": 94.3
-        },
-        "distance_from": [
-          {
-            "place": "Mindat (Myanmar",
-            "distance_km": 80,
-            "direction": "south-southeast"
-          },
-          {
-            "place": "Kyauktaw (Myanmar",
-            "distance_km": 170,
-            "direction": "east"
-          },
-          {
-            "place": "Chittagong (Bangladesh",
-            "distance_km": 320,
-            "direction": "southeast"
-          }
-        ],
-        "movement": "west-northwestwards",
-        "raw_text": "The Depression over coastal Myanmar and adjoining Northeast Bay of Bengal moved west-northwestwards with a speed of 18 kmph during past 6 hours and lies centered at 1730 hrs IST of today, the 29th September 2026 over coastal Myanmar and adjoining Northeast Bay of Bengal & southeast Bangladesh near latitude 20.7°N and longitude 94.3°E, about 80 km south-southeast of Mindat (Myanmar), 170 km east of Kyauktaw (Myanmar), 260 km east-southeast of Cox’s Bazar (Bangladesh), and 320 km southeast of Chittagong (Bangladesh), 370 km south-southeast of Aizawl (Mizoram, India). It is very likely to move northwestwards and weaken into a well-marked low-pressure area over coastal Myanmar and adjoining southeast Bangladesh & Northeast Bay of Bengal during next 12 hours. Thereafter, it is very likely to continue to move further northwestwards towards southeast Bangladesh and adjoining areas of Myanmar, Mizoram, Tripura & Northeast Bay of Bengal and weaken gradually during subsequent 24 hours. The line of withdrawal of Southwest Monsoon continues to pass through 32.5°N/72.5°E, Gurdaspur, Chandigarh, Muzaffarnagar, Aligarh, Dholpur, Udaipur, Deesa, Naliya and 23.0°N/67.8°E.",
-        "_warnings": [
-          "location looks wrong (contains movement/timestamp text): 'coastal Myanmar and adjoining Northeast Bay of Bengal moved west-northwestwards '"
-        ]
+        "location": "North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal with the associated cyclonic circulation",
+        "movement": "north-northwestwards",
+        "raw_text": "The Well-Marked Low Pressure Area over North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal with the associated cyclonic circulation extending upto 7.6 km above mean sea level persisted over the same region at 0830 hrs IST of today, the 30th September 2026. It is very likely to move north-northwestwards towards Mizoram, Tripura & adjoining southeast Bangladesh and weaken gradually into a Low Pressure Area during next 12 hours."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood between 3.1 & 4.5 km above mean sea level with a trough aloft in middle and upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 72°E to the north of Lat. 25°N persists.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 5.8 km above mean sea level and the trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 24°N.",
         "form": "cyclonic_circulation",
         "location": "north Haryana & neighbourhood",
         "level": {
           "type": "range",
-          "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
+          "min": 1.5,
+          "max": 5.8,
+          "display": "1.5–5.8 km above MSL"
         },
         "trough_aloft": {
           "axis": "Long",
           "level": {
             "type": "single",
-            "min": 5.8,
-            "display": "5.8 km above MSL"
+            "min": 7.6,
+            "display": "7.6 km above MSL"
           }
         }
       },
       {
         "type": "North-South Trough",
-        "extent": "south Telangana to Gulf of Mannar",
-        "across": "Rayalaseema & upper air cyclonic circulation over north Tamil Nadu & adjoining south Coastal Andhra Pradesh",
+        "extent": "South Interior Karnataka to Gulf of Mannar",
+        "across": "Tamil Nadu",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The north-south trough from south Telangana to Gulf of Mannar across Rayalaseema & upper air cyclonic circulation over north Tamil Nadu & adjoining south Coastal Andhra Pradesh at 0.9 km above mean sea level persists."
+        "raw_text": "The north-south trough from South Interior Karnataka to Gulf of Mannar across Tamil Nadu at 0.9 km above mean sea level persists."
       }
     ],
     "uac": [
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "East Uttar Pradesh",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh at 3.1 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Assam & neighbourhood",
-        "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 3.1,
-          "display": "1.5–3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
-      },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "Northwest & adjoining Westcentral Bay of Bengal",
         "level": {
           "type": "range",
           "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northwest & adjoining Westcentral Bay of Bengal between 3.1 & 4.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northwest & adjoining Westcentral Bay of Bengal between 3.1 & 5.8 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Eastcentral Arabian sea",
+        "location": "north coastal Tamil Nadu & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north coastal Tamil Nadu & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Eastcentral Arabian Sea",
         "level": {
           "type": "range",
           "min": 1.5,
           "max": 4.5,
           "display": "1.5–4.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Eastcentral Arabian sea between 1.5 & 4.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Eastcentral Arabian Sea between 1.5 & 4.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "north Tamil Nadu & adjoining south Coastal Andhra Pradesh",
+        "location": "northeast Assam & neighbourhood",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Tamil Nadu & adjoining south Coastal Andhra Pradesh extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Uttar Pradesh & adjoining Bihar",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southeast Uttar Pradesh & adjoining Bihar at 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 0,
     "unclassified": [],
     "validation": {
-      "warnings_count": 1,
-      "systems_with_warnings": [
-        "Depression"
-      ]
+      "warnings_count": 0,
+      "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-09-30 08:08 IST"
+  "fetched_at": "2026-09-30 14:38 IST"
 }
