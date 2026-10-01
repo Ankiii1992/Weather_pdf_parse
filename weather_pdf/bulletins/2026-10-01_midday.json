@@ -1,0 +1,118 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/452df6ce6199e6d6066c75d6dd2e7dd5.pdf",
+  "last_updated": "01:03 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-10-01",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 32.5,
+      "lon": 72.5
+    },
+    {
+      "lat": 23.0,
+      "lon": 67.8
+    }
+  ],
+  "met_analysis": "The Low Pressure area over North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal persisted at 0830 hrs IST of today, 1st October 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea. It is likely to remain over the same region during next 12 hours.\nA trough runs from Northeast Arabian sea to westcentral Arabian sea between 3.1 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over north coastal Tamil Nadu & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe north-south trough now runs from North Interior Karnataka to Gulf of Mannar across interior Karnataka and Tamil Nadu at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood persists and now extends upto 1.5 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now lies between 3.1 & 4.5 km above mean sea level with the trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 69°E to the north of Lat. 26°N.\nThe upper air cyclonic circulation over Southeast Uttar Pradesh & adjoining Bihar now lies over East Uttar Pradesh & adjoining Bihar at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea between 1.5 & 4.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal persisted",
+        "raw_text": "The Low Pressure area over North Myanmar and adjoining areas of southeast Bangladesh, Mizoram & Northeast Bay of Bengal persisted at 0830 hrs IST of today, 1st October 2026. The associated cyclonic circulation now extends upto 5.8 km above mean sea. It is likely to remain over the same region during next 12 hours."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now lies between 3.1 & 4.5 km above mean sea level with the trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 69°E to the north of Lat. 26°N.",
+        "form": "cyclonic_circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      },
+      {
+        "type": "North-South Trough",
+        "extent": "North Interior Karnataka to Gulf of Mannar",
+        "across": "interior Karnataka and Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The north-south trough now runs from North Interior Karnataka to Gulf of Mannar across interior Karnataka and Tamil Nadu at 0.9 km above mean sea level."
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north coastal Tamil Nadu & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north coastal Tamil Nadu & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood persists and now extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh & adjoining Bihar",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southeast Uttar Pradesh & adjoining Bihar now lies over East Uttar Pradesh & adjoining Bihar at 3.1 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        },
+        "raw_text": "A trough runs from Northeast Arabian sea to westcentral Arabian sea between 3.1 & 5.8 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-01 15:02 IST"
+}
