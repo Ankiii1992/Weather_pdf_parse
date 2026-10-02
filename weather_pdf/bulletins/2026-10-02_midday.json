@@ -1,0 +1,134 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/fcbe53bc128cb6d487181c72d6860b9d.pdf",
+  "last_updated": "01:17 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-10-02",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 32.5,
+      "lon": 72.5
+    },
+    {
+      "lat": 23.0,
+      "lon": 67.8
+    }
+  ],
+  "met_analysis": "The upper air cyclonic circulation over North Myanmar and adjoining Mizoram-Tripura between 3.1 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Sikkim & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood now lies over northeast Assam & neighbourhood and extends upto 1.5 km above mean sea level.\nThe trough from Northeast Arabian sea to westcentral Arabian sea now seen as cyclonic circulation over Westcentral Arabian sea between 1.5 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over East Uttar Pradesh & adjoining Bihar at 3.1 km above mean sea level persists.\nThe trough from West Uttar Pradesh to north Gujarat now runs from West Uttar Pradesh to Southeast Rajasthan at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Southeast Arabian sea off Keralam coast at 0.9 km above mean sea level.\nA trough runs from Southeast Arabian sea to eastcentral Arabian sea off Keralam-Karnataka-Goa-Maharashtra coasts at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over Southwest Bay of Bengal & adjoining Sri Lanka at 3.1 km above mean sea level.",
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Myanmar and adjoining Mizoram-Tripura",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over North Myanmar and adjoining Mizoram-Tripura between 3.1 & 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Sikkim & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Sikkim & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Assam & neighbourhood now lies over northeast Assam & neighbourhood and extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh & adjoining Bihar",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & adjoining Bihar at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Arabian sea off Keralam coast",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Southeast Arabian sea off Keralam coast at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southwest Bay of Bengal & adjoining Sri Lanka",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Southwest Bay of Bengal & adjoining Sri Lanka at 3.1 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 5.8,
+          "display": "1.5–5.8 km above MSL"
+        },
+        "raw_text": "The trough from Northeast Arabian sea to westcentral Arabian sea now seen as cyclonic circulation over Westcentral Arabian sea between 1.5 & 5.8 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "West Uttar Pradesh to north Gujarat now runs from West Uttar Pradesh to Southeast Rajasthan",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough from West Uttar Pradesh to north Gujarat now runs from West Uttar Pradesh to Southeast Rajasthan at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Southeast Arabian sea to eastcentral Arabian sea off Keralam-Karnataka-Goa-Maharashtra coasts",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "A trough runs from Southeast Arabian sea to eastcentral Arabian sea off Keralam-Karnataka-Goa-Maharashtra coasts at 0.9 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-02 14:38 IST"
+}
