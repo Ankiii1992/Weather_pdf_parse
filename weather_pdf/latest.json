@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0f1457829794500822d2fd4c50d9a184.pdf",
-  "last_updated": "08:30 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-10-03",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e8e6319f59f254025ab997d468591e35.pdf",
+  "last_updated": "07:49 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-10-04",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -20,7 +20,7 @@
       "lon": 71.8
     }
   ],
-  "met_analysis": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists, however the north-south trough aloft at 3.1 km above mean sea level roughly along 92.5° E/24.8°N has moved away.\nThe upper air cyclonic circulation over Westcentral Arabian Sea between 3.1 & 7.6 km above mean sea level persists.\nA trough runs form north Bangladesh to Odisha across Gangetic West Bengal at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Southeast Arabian sea & adjoining Lakshadweep area lies over South Interior Karnataka & adjoining north Kerala at 0.9 km above mean sea level.\nThe Upper air cyclonic circulation over south Coastal Andhra Pradesh and neighbourhood persists and now extends upto 1.5 km above mean sea level.\nThe trough from Northwest Uttar Pradesh to north Gujarat across Rajasthan at 5.8 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over East Uttar Pradesh & adjoining Bihar at 3.1 km above mean sea level has become less marked.\nThe Upper air cyclonic circulation over Comorin and adjoining area at 3.1 km above mean sea level has become less marked.",
+  "met_analysis": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Westcentral Arabian Sea between 3.1 & 7.6 km above mean sea level persists.\nThe trough form north Bangladesh to Odisha across Gangetic West Bengal at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Interior Karnataka & adjoining north Kerala at 0.9 km above mean sea level persists.\nThe Upper air cyclonic circulation over south Coastal Andhra Pradesh and neighbourhood extending upto 1.5 km above mean sea level persists.",
   "systems": {
     "priority": [],
     "uac": [
@@ -32,7 +32,7 @@
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists, however the north-south trough aloft at 3.1 km above mean sea level roughly along 92.5° E/24.8°N has moved away."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -53,7 +53,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Southeast Arabian sea & adjoining Lakshadweep area lies over South Interior Karnataka & adjoining north Kerala at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over South Interior Karnataka & adjoining north Kerala at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -63,7 +63,7 @@
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The Upper air cyclonic circulation over south Coastal Andhra Pradesh and neighbourhood persists and now extends upto 1.5 km above mean sea level."
+        "raw_text": "The Upper air cyclonic circulation over south Coastal Andhra Pradesh and neighbourhood extending upto 1.5 km above mean sea level persists."
       }
     ],
     "other_troughs": [
@@ -76,10 +76,10 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "A trough runs form north Bangladesh to Odisha across Gangetic West Bengal at 3.1 km above mean sea level."
+        "raw_text": "The trough form north Bangladesh to Odisha across Gangetic West Bengal at 3.1 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 3,
+    "suppressed_count": 0,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -87,5 +87,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-04 04:58 IST"
+  "fetched_at": "2026-10-04 08:32 IST"
 }
