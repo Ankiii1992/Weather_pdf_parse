@@ -1,0 +1,94 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c5cdd706c1bc9e06249a3207ff4d1dc8.pdf",
+  "last_updated": "08:45 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-10-04",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.5,
+      "lon": 86.5
+    },
+    {
+      "lat": 17.5,
+      "lon": 71.8
+    }
+  ],
+  "met_analysis": "The upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists.\nThe trough form northeast Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic West Bengal at 0.9 km above mean sea level persists.\nThe trough form south Bihar to Vidarbha across East Madhya Pradesh persists and now seen between 3.1 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Gulf of Mannar & adjoining south coastal Tamil Nadu at 0.9 km above mean sea level persists.\nThe trough from above cyclonic circulation over Gulf of Mannar & adjoining south coastal Tamil Nadu to Eastcentral Arabian Sea across interior Tamil Nadu and north Kerala at 0.9 km above mean sea level persists.",
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Sikkim & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gulf of Mannar & adjoining south coastal Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gulf of Mannar & adjoining south coastal Tamil Nadu at 0.9 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "across": "Jharkhand and Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough form northeast Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic West Bengal at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "across": "East Madhya Pradesh",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
+        },
+        "raw_text": "The trough form south Bihar to Vidarbha across East Madhya Pradesh persists and now seen between 3.1 & 5.8 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "cyclonic circulation over Gulf of Mannar & adjoining south coastal Tamil Nadu to Eastcentral Arabian Sea",
+        "across": "interior Tamil Nadu and north Kerala",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from above cyclonic circulation over Gulf of Mannar & adjoining south coastal Tamil Nadu to Eastcentral Arabian Sea across interior Tamil Nadu and north Kerala at 0.9 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-04 21:36 IST"
+}
