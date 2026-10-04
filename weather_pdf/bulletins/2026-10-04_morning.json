@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e8e6319f59f254025ab997d468591e35.pdf",
+  "last_updated": "07:49 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-10-04",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.5,
+      "lon": 86.5
+    },
+    {
+      "lat": 17.5,
+      "lon": 71.8
+    }
+  ],
+  "met_analysis": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Westcentral Arabian Sea between 3.1 & 7.6 km above mean sea level persists.\nThe trough form north Bangladesh to Odisha across Gangetic West Bengal at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over South Interior Karnataka & adjoining north Kerala at 0.9 km above mean sea level persists.\nThe Upper air cyclonic circulation over south Coastal Andhra Pradesh and neighbourhood extending upto 1.5 km above mean sea level persists.",
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Westcentral Arabian Sea",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 7.6,
+          "display": "3.1–7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Westcentral Arabian Sea between 3.1 & 7.6 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Interior Karnataka & adjoining north Kerala",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over South Interior Karnataka & adjoining north Kerala at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Coastal Andhra Pradesh and neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The Upper air cyclonic circulation over south Coastal Andhra Pradesh and neighbourhood extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "across": "Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough form north Bangladesh to Odisha across Gangetic West Bengal at 3.1 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-04 08:32 IST"
+}
