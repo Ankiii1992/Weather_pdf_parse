@@ -1,0 +1,103 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3d9b77a853902fc943189aa56a9cfb01.pdf",
+  "last_updated": "01:30 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-10-04",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.5,
+      "lon": 86.5
+    },
+    {
+      "lat": 17.5,
+      "lon": 71.8
+    }
+  ],
+  "met_analysis": "An upper air cyclonic circulation lies over Sikkim & neighbourhood at 3.1 km above mean sea level.\nA trough runs form northeast Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic West Bengal at 0.9 km above mean sea level.\nA trough runs form south Bihar to Vidarbha across east Madhya Pradesh at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Gulf of Mannar & adjoining south coastal Tamil Nadu at 0.9 km above mean sea level.\nA trough runs from above cyclonic circulation over Gulf of Mannar & adjoining south coastal Tamil Nadu to east central Arabian Sea across north interior Tamil Nadu and north Kerala at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over South Interior Karnataka & adjoining north Kerala at 0.9 km above mean sea level has merged with the above trough.\nThe upper air cyclonic circulation over Westcentral Arabian Sea between 3.1 & 7.6 km has become less marked.\nThe upper air cyclonic circulation over south Coastal Andhra Pradesh and neighbourhood extending upto 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level has become less marked.\nThe trough from north Bangladesh to Odisha across Gangetic West Bengal at 3.1 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Sikkim & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Sikkim & neighbourhood at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gulf of Mannar & adjoining south coastal Tamil Nadu",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Gulf of Mannar & adjoining south coastal Tamil Nadu at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Interior Karnataka & adjoining north Kerala",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over South Interior Karnataka & adjoining north Kerala at 0.9 km above mean sea level has merged with the above trough."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "across": "Jharkhand and Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "A trough runs form northeast Bihar to Northwest Bay of Bengal across Jharkhand and Gangetic West Bengal at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "across": "east Madhya Pradesh",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "A trough runs form south Bihar to Vidarbha across east Madhya Pradesh at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "cyclonic circulation over Gulf of Mannar & adjoining south coastal Tamil Nadu to east central Arabian Sea",
+        "across": "north interior Tamil Nadu and north Kerala",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "A trough runs from above cyclonic circulation over Gulf of Mannar & adjoining south coastal Tamil Nadu to east central Arabian Sea across north interior Tamil Nadu and north Kerala at 0.9 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 4,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-04 14:47 IST"
+}
