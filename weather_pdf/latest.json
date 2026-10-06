@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bb56b553de11debea08f3cdbdffbabaa.pdf",
-  "last_updated": "01:33 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/441ffb43919faf2fd6f7c6d722d320d3.pdf",
+  "last_updated": "08:35 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-10-05",
   "bulletin": {
     "morning": null,
@@ -20,19 +20,31 @@
       "lon": 71.8
     }
   ],
-  "met_analysis": "The trough from Gangetic West Bengal to Marathwada now runs from Gangetic West Bengal to Madhya Maharashtra across Jharkhand, interior Odisha, Chhattisgarh, Vidarbha and Marathwada at 3.1 km above mean sea level.\nA trough runs from northwest Uttar Pradesh to east Bangladesh across Bihar, Jharkhand and Gangetic West Bengal at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over Bihar & neighbourhood at 5.8 km above mean sea level.\nThe trough from northeast Bihar to Northeast Bay of Bengal now runs from northcentral Bihar to north Odisha across Jharkhand and Gangetic West Bengal at 1.5 km above mean sea level.\nA fresh Western Disturbance seen as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 64°E to the north of Lat. 32°N.\nAn upper air cyclonic circulation lies over North Interior Karnataka & neighbourhood at 0.9 km above mean sea level.\nA trough runs from Comorian Area to cyclonic circulation over North Interior Karnataka across Tamilnadu and South Interior Karnataka at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level has become less marked.",
+  "met_analysis": "The trough now runs from Gangetic West Bengal to Madhya Maharashtra across Jharkhand, north Chhattisgarh, Vidarbha and Marathwada at 5.8 km above mean sea level.\nThe trough from northwest Uttar Pradesh to east Bangladesh across Bihar, Jharkhand and Gangetic West Bengal at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Bihar & neighbourhood lies over Sikkim & neighbourhood at 5.8 km above mean sea level.\nThe trough from northcentral Bihar to north Odisha across Jharkhand and Gangetic West Bengal at 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 64°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over North Interior Karnataka & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from Comorian Area to cyclonic circulation over North Interior Karnataka across Tamilnadu and South Interior Karnataka at 0.9 km above mean sea level persists.",
   "systems": {
-    "priority": [],
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 64°E to the north of Lat. 32°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 64°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Bihar & neighbourhood",
+        "location": "Sikkim & neighbourhood",
         "level": {
           "type": "single",
           "min": 5.8,
           "display": "5.8 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Bihar & neighbourhood at 5.8 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Bihar & neighbourhood lies over Sikkim & neighbourhood at 5.8 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -42,21 +54,21 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over North Interior Karnataka & neighbourhood at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over North Interior Karnataka & neighbourhood at 0.9 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "Gangetic West Bengal to Marathwada now runs from Gangetic West Bengal to Madhya Maharashtra",
-        "across": "Jharkhand, interior Odisha, Chhattisgarh, Vidarbha and Marathwada",
+        "extent": "Gangetic West Bengal to Madhya Maharashtra",
+        "across": "Jharkhand, north Chhattisgarh, Vidarbha and Marathwada",
         "level": {
           "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         },
-        "raw_text": "The trough from Gangetic West Bengal to Marathwada now runs from Gangetic West Bengal to Madhya Maharashtra across Jharkhand, interior Odisha, Chhattisgarh, Vidarbha and Marathwada at 3.1 km above mean sea level."
+        "raw_text": "The trough now runs from Gangetic West Bengal to Madhya Maharashtra across Jharkhand, north Chhattisgarh, Vidarbha and Marathwada at 5.8 km above mean sea level."
       },
       {
         "type": "Trough",
@@ -68,19 +80,19 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "A trough runs from northwest Uttar Pradesh to east Bangladesh across Bihar, Jharkhand and Gangetic West Bengal at 0.9 km above mean sea level."
+        "raw_text": "The trough from northwest Uttar Pradesh to east Bangladesh across Bihar, Jharkhand and Gangetic West Bengal at 0.9 km above mean sea level persists."
       },
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "northeast Bihar to Northeast Bay of Bengal now runs from northcentral Bihar to north Odisha",
+        "extent": "northcentral Bihar to north Odisha",
         "across": "Jharkhand and Gangetic West Bengal",
         "level": {
           "type": "single",
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The trough from northeast Bihar to Northeast Bay of Bengal now runs from northcentral Bihar to north Odisha across Jharkhand and Gangetic West Bengal at 1.5 km above mean sea level."
+        "raw_text": "The trough from northcentral Bihar to north Odisha across Jharkhand and Gangetic West Bengal at 1.5 km above mean sea level persists."
       },
       {
         "type": "Trough",
@@ -92,18 +104,16 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "A trough runs from Comorian Area to cyclonic circulation over North Interior Karnataka across Tamilnadu and South Interior Karnataka at 0.9 km above mean sea level."
+        "raw_text": "The trough from Comorian Area to cyclonic circulation over North Interior Karnataka across Tamilnadu and South Interior Karnataka at 0.9 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 2,
-    "unclassified": [
-      "A fresh Western Disturbance seen as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 64°E to the north of Lat. 32°N."
-    ],
+    "suppressed_count": 0,
+    "unclassified": [],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-05 15:15 IST"
+  "fetched_at": "2026-10-06 07:14 IST"
 }
