@@ -1,0 +1,136 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ea5aab201e5e238262303670bfbf3b2e.pdf",
+  "last_updated": "09:14 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-10-06",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.5,
+      "lon": 86.5
+    },
+    {
+      "lat": 17.5,
+      "lon": 71.8
+    }
+  ],
+  "met_analysis": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 69°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over South Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Uttar Pradesh & neighbourhood extending upto 0.9 km above mean sea level persists.\nThe trough from above cyclonic circulation over Southeast Uttar Pradesh & neighbourhood to North Bay of Bengal across Jharkhand, south Gangetic West Bengal & adjoining north Odisha extending upto 1.5 km above mean sea level persists.\nThe trough now runs from north Sub-Himalayan West Bengalto south Madhya Maharashtra across Bihar, Jharkhand, Chhattisgarh, Vidarbha & Marathwada at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over North Gangetic West Bengal & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over south coastal Odisha & adjoining Northwest bay of Bengal now lies over central Coastal Andhra Pradesh & adjoining Westcentral Bay of Bengal at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Southeast Arabian Sea off south Kerala coast at 5.8 km above mean sea level persists.\nThe trough from Gulf of Mannar to Madhya Maharashtra across Tamil Nadu, Interior Karnataka at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over north Tamil Nadu at 5.8 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 69°E to the north of Lat. 32°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 69°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over South Haryana & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 0.9,
+          "display": "upto 0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southeast Uttar Pradesh & neighbourhood extending upto 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Gangetic West Bengal & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over North Gangetic West Bengal & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Coastal Andhra Pradesh & adjoining Westcentral Bay of Bengal",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south coastal Odisha & adjoining Northwest bay of Bengal now lies over central Coastal Andhra Pradesh & adjoining Westcentral Bay of Bengal at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Arabian Sea off south Kerala coast",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southeast Arabian Sea off south Kerala coast at 5.8 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "cyclonic circulation over Southeast Uttar Pradesh & neighbourhood to North Bay of Bengal",
+        "across": "Jharkhand, south Gangetic West Bengal & adjoining north Odisha",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The trough from above cyclonic circulation over Southeast Uttar Pradesh & neighbourhood to North Bay of Bengal across Jharkhand, south Gangetic West Bengal & adjoining north Odisha extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "across": "Bihar, Jharkhand, Chhattisgarh, Vidarbha & Marathwada",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough now runs from north Sub-Himalayan West Bengalto south Madhya Maharashtra across Bihar, Jharkhand, Chhattisgarh, Vidarbha & Marathwada at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Gulf of Mannar to Madhya Maharashtra",
+        "across": "Tamil Nadu, Interior Karnataka",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from Gulf of Mannar to Madhya Maharashtra across Tamil Nadu, Interior Karnataka at 0.9 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-06 22:58 IST"
+}
