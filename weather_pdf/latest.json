@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/caf6cc415ea80b78c93ec87848a56b32.pdf",
-  "last_updated": "08:18 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9a5872c331b64ff7568e58ec6dd574f9.pdf",
+  "last_updated": "01:39 PM IST",
+  "slot": "midday",
   "bulletin_date": "2026-10-07",
   "bulletin": {
     "morning": null,
@@ -20,14 +20,14 @@
       "lon": 71.8
     }
   ],
-  "met_analysis": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 69°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over South Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Uttar Pradesh & neighbourhood now lies over southeast Madhya Pradesh& adjoining Chhattisgarh extending upto 0.9 km above mean sea level.\nThe trough now runs from West Uttar Pradesh & neighbourhood to North Bay of Bengal across Southeast Uttar Pradesh, northeast Madhya Pradesh, Chhattisgarh, Jharkhand & North Odisha extending upto 1.5 km above mean sea level.\nThe trough now runs from north Sub-Himalayan West Bengalto South Konkan & Goaacross Bihar, Jharkhand, Chhattisgarh, Vidarbha, Marathwada & Madhya Maharashtra at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Jharkhand & neighbourhood at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over central Coastal Andhra Pradesh & adjoining Westcentral Bay of Bengal at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Arabian Sea off south Kerala coast at 5.8 km above mean sea level persists.\nThe trough from Gulf of Mannar to Madhya Maharashtra across Tamil Nadu, Interior Karnataka at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over North Gangetic West Bengal & neighbourhood at 3.1 km above mean sea level has become less marked.",
+  "met_analysis": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 32°N.\nAn upper air cyclonic circulation lies over Uttarakhand and adjoining Himachal Pradesh at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over southeast Madhya Pradesh & adjoining Chhattisgarh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Jharkhand & neighbourhood now lies over south Jharkhand & neighbourhood and extends upto 4.5 km above mean sea level.\nThe trough from Gulf of Mannar to Madhya Maharashtra now runs from Gulf of Mannar to North Interior Karnataka across Tamil Nadu and south Interior Karnataka at 0.9 km above mean sea level.\nThe trough from Sub-Himalayan West Bengalto Konkan & Goa now runs from Sub-Himalayan West Bengalto South Interior Karnatakaacross Bihar, Jharkhand, Chhattisgarh, Vidarbha, Marathawada, North Interior Karnataka at 5.8 km above mean sea level.\nThe trough from west Uttar Pradesh to North Bay of Bengal now runs from southwest Uttar Pradesh to Northwest Bay of Bengal across northeast Madhya Pradesh, Chhattisgarh & Odisha at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over South Haryana & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Coastal Andhra Pradesh & adjoining Westcentral Bay of Bengal at 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Southeast Arabian Sea off south Kerala coast at 5.8 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 69°E to the north of Lat. 32°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 32°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 69°E to the north of Lat. 32°N",
+        "axis": "along Long. 74°E to the north of Lat. 32°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -38,93 +38,73 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "South Haryana & neighbourhood",
+        "location": "Uttarakhand and adjoining Himachal Pradesh",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over South Haryana & neighbourhood at 0.9 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over Uttarakhand and adjoining Himachal Pradesh at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "southeast Madhya Pradesh& adjoining Chhattisgarh",
+        "location": "southeast Madhya Pradesh & adjoining Chhattisgarh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Madhya Pradesh & adjoining Chhattisgarh at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Jharkhand & neighbourhood",
         "level": {
           "type": "upto",
-          "max": 0.9,
-          "display": "upto 0.9 km above MSL"
+          "max": 4.5,
+          "display": "upto 4.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Southeast Uttar Pradesh & neighbourhood now lies over southeast Madhya Pradesh& adjoining Chhattisgarh extending upto 0.9 km above mean sea level."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Jharkhand & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "An upper air cyclonic circulation lies over Jharkhand & neighbourhood at 3.1 km above mean sea level."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "central Coastal Andhra Pradesh & adjoining Westcentral Bay of Bengal",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over central Coastal Andhra Pradesh & adjoining Westcentral Bay of Bengal at 3.1 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Southeast Arabian Sea off south Kerala coast",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Southeast Arabian Sea off south Kerala coast at 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Jharkhand & neighbourhood now lies over south Jharkhand & neighbourhood and extends upto 4.5 km above mean sea level."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "West Uttar Pradesh & neighbourhood to North Bay of Bengal",
-        "across": "Southeast Uttar Pradesh, northeast Madhya Pradesh, Chhattisgarh, Jharkhand & North Odisha",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
-        },
-        "raw_text": "The trough now runs from West Uttar Pradesh & neighbourhood to North Bay of Bengal across Southeast Uttar Pradesh, northeast Madhya Pradesh, Chhattisgarh, Jharkhand & North Odisha extending upto 1.5 km above mean sea level."
-      },
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "across": "Bihar, Jharkhand, Chhattisgarh, Vidarbha, Marathwada & Madhya Maharashtra",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        },
-        "raw_text": "The trough now runs from north Sub-Himalayan West Bengalto South Konkan & Goaacross Bihar, Jharkhand, Chhattisgarh, Vidarbha, Marathwada & Madhya Maharashtra at 5.8 km above mean sea level."
-      },
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "Gulf of Mannar to Madhya Maharashtra",
-        "across": "Tamil Nadu, Interior Karnataka",
+        "extent": "Gulf of Mannar to Madhya Maharashtra now runs from Gulf of Mannar to North Interior Karnataka",
+        "across": "Tamil Nadu and south Interior Karnataka",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The trough from Gulf of Mannar to Madhya Maharashtra across Tamil Nadu, Interior Karnataka at 0.9 km above mean sea level persists."
+        "raw_text": "The trough from Gulf of Mannar to Madhya Maharashtra now runs from Gulf of Mannar to North Interior Karnataka across Tamil Nadu and south Interior Karnataka at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "across": "Bihar, Jharkhand, Chhattisgarh, Vidarbha, Marathawada, North Interior Karnataka",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough from Sub-Himalayan West Bengalto Konkan & Goa now runs from Sub-Himalayan West Bengalto South Interior Karnatakaacross Bihar, Jharkhand, Chhattisgarh, Vidarbha, Marathawada, North Interior Karnataka at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "west Uttar Pradesh to North Bay of Bengal now runs from southwest Uttar Pradesh to Northwest Bay of Bengal",
+        "across": "northeast Madhya Pradesh, Chhattisgarh & Odisha",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The trough from west Uttar Pradesh to North Bay of Bengal now runs from southwest Uttar Pradesh to Northwest Bay of Bengal across northeast Madhya Pradesh, Chhattisgarh & Odisha at 1.5 km above mean sea level."
       }
     ],
-    "suppressed_count": 1,
+    "suppressed_count": 3,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -132,5 +112,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-07 08:20 IST"
+  "fetched_at": "2026-10-07 14:56 IST"
 }
