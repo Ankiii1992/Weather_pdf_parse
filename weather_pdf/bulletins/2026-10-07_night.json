@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0937a8bbbde0780958eb443f20f54db1.pdf",
+  "last_updated": "08:25 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-10-07",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.5,
+      "lon": 86.5
+    },
+    {
+      "lat": 17.5,
+      "lon": 71.8
+    }
+  ],
+  "met_analysis": "The upper air cyclonic circulation over southeast Madhya Pradesh & adjoining Chhattisgarh at 0.9 km above mean sea level persists.\nAn upper air cyclonic circulation lies over Lakshadweep & adjoining southeast Arabian Sea at 0.9 km above mean sea level.\nThe trough from Gulf of Mannar to North Interior Karnataka now runs from the cyclonic circulation over Lakshadweep & adjoining southeast Arabian Sea to Marathwada across north Kerala and interior Karnatakaat 0.9 km above mean sea level.\nThe trough from Sub-Himalayan West Bengalto South Interior Karnataka now runs from East Uttar Pradesh to Rayalaseema across East Madhya Pradesh, Chhattisgarh and Telangana at 5.8 km above mean sea level.\nAn upper air cyclonic circulation lies over Uttar Pradesh & neighbourhood between 3.1 & 4.5 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 74°E to the north of Lat. 32°N persists.\nThe trough from southwest Uttar Pradesh to Northwest Bay of Bengal across northeast Madhya Pradesh, Chhattisgarh & Odisha at 1.5 km above mean sea level has been less marked.\nThe upper air cyclonic circulation over Uttarakhand and adjoining Himachal Pradesh at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over south Jharkhand & neighbourhood extending upto 4.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 74°E to the north of Lat. 32°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 74°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Madhya Pradesh & adjoining Chhattisgarh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Madhya Pradesh & adjoining Chhattisgarh at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Lakshadweep & adjoining southeast Arabian Sea",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Lakshadweep & adjoining southeast Arabian Sea at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Uttar Pradesh & neighbourhood between 3.1 & 4.5 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Gulf of Mannar to North Interior Karnataka now runs from the cyclonic circulation over Lakshadweep & adjoining southeast Arabian Sea to Marathwada",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from Gulf of Mannar to North Interior Karnataka now runs from the cyclonic circulation over Lakshadweep & adjoining southeast Arabian Sea to Marathwada across north Kerala and interior Karnatakaat 0.9 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Sub-Himalayan West Bengalto South Interior Karnataka now runs from East Uttar Pradesh to Rayalaseema",
+        "across": "East Madhya Pradesh, Chhattisgarh and Telangana",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough from Sub-Himalayan West Bengalto South Interior Karnataka now runs from East Uttar Pradesh to Rayalaseema across East Madhya Pradesh, Chhattisgarh and Telangana at 5.8 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "southwest Uttar Pradesh to Northwest Bay of Bengal",
+        "across": "northeast Madhya Pradesh, Chhattisgarh & Odisha",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The trough from southwest Uttar Pradesh to Northwest Bay of Bengal across northeast Madhya Pradesh, Chhattisgarh & Odisha at 1.5 km above mean sea level has been less marked."
+      }
+    ],
+    "suppressed_count": 2,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-08 04:19 IST"
+}
