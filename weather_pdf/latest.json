@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8c4d29a945d4eb823f32b85cec130697.pdf",
-  "last_updated": "04:26 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c1c9c15da4146986681549c5b6f8d7f0.pdf",
+  "last_updated": "08:59 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-10-08",
   "bulletin": {
     "morning": null,
@@ -20,7 +20,7 @@
       "lon": 72.0
     }
   ],
-  "met_analysis": "The upper air cyclonic circulation over northeast Bihar & neighbourhoodbetween 3.1 & 4.5 km above mean sea level persists.\nThe trough from the cyclonic circulation over northeast Bihar to Telangana across Jharkhand, Odisha and Chhattisgarhbetween 3.1 & 16.6 km above mean sea level tilting northwestwards with height persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhoodat 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh persists and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Haryana & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Kerala coast at 0.9 km above mean sea level persists.\nThe trough from the southeast Arabian Sea to South Interior Karnataka between 3.1 km & 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level persists.",
+  "met_analysis": "The upper air cyclonic circulation over northeast Assam & neighbourhood now lies over north Bangladesh & adjoining Assam between 1.5 & 3.1 km above mean sea level.\nThe trough from the cyclonic circulation over northeast Bihar to Telangana now runs from north Bangladesh & adjoining Assam to Telangana across Jharkhand, Odisha and Chhattisgarhbetween 3.1 & 16.6 km above mean sea level tilting northwestwards with height.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Haryana & neighbourhood now lies over northwest Uttar Pradesh at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over south Kerala coast at 0.9 km above mean sea level persists.\nThe trough from the southeast Arabian Sea to South Interior Karnataka between 3.1 km & 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Bihar & neighbourhoodbetween 3.1 & 4.5 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
@@ -38,44 +38,34 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Bihar & neighbourhood",
+        "location": "north Bangladesh & adjoining Assam",
         "level": {
           "type": "range",
-          "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over northeast Bihar & neighbourhoodbetween 3.1 & 4.5 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Assam & neighbourhood",
-        "level": {
-          "type": "single",
           "min": 1.5,
-          "display": "1.5 km above MSL"
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhoodat 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood now lies over north Bangladesh & adjoining Assam between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "East Uttar Pradesh",
+        "location": "East Uttar Pradesh & neighbourhood",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh persists and extends upto 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Haryana & neighbourhood",
+        "location": "northwest Uttar Pradesh",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Haryana & neighbourhood at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Haryana & neighbourhood now lies over northwest Uttar Pradesh at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -92,15 +82,14 @@
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the cyclonic circulation over northeast Bihar to Telangana",
-        "across": "Jharkhand, Odisha and Chhattisgarhbetween 3.1 & 16.6 km above mean sea level tilting northwestwards with height",
+        "extent": "the cyclonic circulation over northeast Bihar to Telangana now runs from north Bangladesh & adjoining Assam to Telangana",
         "level": {
           "type": "range",
           "min": 3.1,
           "max": 16.6,
           "display": "3.1–16.6 km above MSL"
         },
-        "raw_text": "The trough from the cyclonic circulation over northeast Bihar to Telangana across Jharkhand, Odisha and Chhattisgarhbetween 3.1 & 16.6 km above mean sea level tilting northwestwards with height persists."
+        "raw_text": "The trough from the cyclonic circulation over northeast Bihar to Telangana now runs from north Bangladesh & adjoining Assam to Telangana across Jharkhand, Odisha and Chhattisgarhbetween 3.1 & 16.6 km above mean sea level tilting northwestwards with height."
       },
       {
         "type": "Trough",
@@ -110,7 +99,7 @@
         "raw_text": "The trough from the southeast Arabian Sea to South Interior Karnataka between 3.1 km & 5.8 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -118,5 +107,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-08 17:53 IST"
+  "fetched_at": "2026-10-09 01:47 IST"
 }
