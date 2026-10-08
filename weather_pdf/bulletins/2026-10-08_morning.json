@@ -1,0 +1,103 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3926d8ba0e1c6811f96cc6575d4fbadf.pdf",
+  "last_updated": "07:55 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-10-08",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.5,
+      "lon": 86.5
+    },
+    {
+      "lat": 17.5,
+      "lon": 71.8
+    }
+  ],
+  "met_analysis": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 81°E to the north of Lat. 27°N.\nThe trough from East Uttar Pradesh to Rayalaseema across East Madhya Pradesh, Chhattisgarh and Telangana at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over Uttar Pradesh & neighbourhood now lies over East Uttar Pradesh and extends upto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Haryana & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over southeast Madhya Pradesh & adjoining Chhattisgarh at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Lakshadweep & adjoining southeast Arabian Sea at 0.9 km above mean sea level persists.\nThe trough from the cyclonic circulation over Lakshadweep & adjoining southeast Arabian Sea to Marathwada now runs from cyclonic circulation over Lakshadweep & adjoining southeast Arabian Sea to Rayalaseemaacross north Kerala and South interior Karnatakaat 0.9 km above mean sea level.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 81°E to the north of Lat. 27°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 81°E to the north of Lat. 27°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Uttar Pradesh & neighbourhood now lies over East Uttar Pradesh and extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Haryana & neighbourhood at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Lakshadweep & adjoining southeast Arabian Sea",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Lakshadweep & adjoining southeast Arabian Sea at 0.9 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "East Uttar Pradesh to Rayalaseema",
+        "across": "East Madhya Pradesh, Chhattisgarh and Telangana",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        },
+        "raw_text": "The trough from East Uttar Pradesh to Rayalaseema across East Madhya Pradesh, Chhattisgarh and Telangana at 5.8 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from the cyclonic circulation over Lakshadweep & adjoining southeast Arabian Sea to Marathwada now runs from cyclonic circulation over Lakshadweep & adjoining southeast Arabian Sea to Rayalaseemaacross north Kerala and South interior Karnatakaat 0.9 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-08 08:38 IST"
+}
