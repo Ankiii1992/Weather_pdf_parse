@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c1c9c15da4146986681549c5b6f8d7f0.pdf",
-  "last_updated": "08:59 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-10-08",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0916eae58a6b3b00f04692cebb67006e.pdf",
+  "last_updated": "01:02 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-10-09",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -20,7 +20,7 @@
       "lon": 72.0
     }
   ],
-  "met_analysis": "The upper air cyclonic circulation over northeast Assam & neighbourhood now lies over north Bangladesh & adjoining Assam between 1.5 & 3.1 km above mean sea level.\nThe trough from the cyclonic circulation over northeast Bihar to Telangana now runs from north Bangladesh & adjoining Assam to Telangana across Jharkhand, Odisha and Chhattisgarhbetween 3.1 & 16.6 km above mean sea level tilting northwestwards with height.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Haryana & neighbourhood now lies over northwest Uttar Pradesh at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over south Kerala coast at 0.9 km above mean sea level persists.\nThe trough from the southeast Arabian Sea to South Interior Karnataka between 3.1 km & 5.8 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Bihar & neighbourhoodbetween 3.1 & 4.5 km above mean sea level has become less marked.",
+  "met_analysis": "An upper air cyclonic circulation lies over Gulf of Thailand & neighbourhood and extends upto 7.6 km above mean sea level. it is likely to emergence in Andaman Sea around 11th October. Under its influence, a low- pressure area is likely to form over the Southeast Bay of Bengal around 13th October.\nThe upper air cyclonic circulation over north Bangladesh & adjoining Assam now lies over north Bangladesh & neighbourhood and extends upto 3.1 km above mean sea level.\nThe trough from north Bangladesh & adjoining Assam to Telangana, now runs from west Assam to Telangana across north Bangladesh, Sub-Himalayan West Bengal & Sikkim, Jharkhand, Odisha and Chhattisgarh at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood persists and now lies at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Haryana & adjoining northwest Uttar Pradesh now lies over south Haryana & neighbourhood at 0.9 km above mean sea level.\nThe trough from Comorin area to Marathwada now runs from Comorin area to North Interior Karnataka across Tamil Nadu, South Interior Karnataka at 0.9 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation lies over east Assam & neighbourhood at 1.5 km above mean sea level.",
   "systems": {
     "priority": [
       {
@@ -38,68 +38,82 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "north Bangladesh & adjoining Assam",
+        "location": "Gulf of Thailand & neighbourhood",
         "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 3.1,
-          "display": "1.5–3.1 km above MSL"
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood now lies over north Bangladesh & adjoining Assam between 1.5 & 3.1 km above mean sea level."
+        "raw_text": "An upper air cyclonic circulation lies over Gulf of Thailand & neighbourhood and extends upto 7.6 km above mean sea level. it is likely to emergence in Andaman Sea around 11th October. Under its influence, a low- pressure area is likely to form over the Southeast Bay of Bengal around 13th October."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Bangladesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Bangladesh & adjoining Assam now lies over north Bangladesh & neighbourhood and extends upto 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "East Uttar Pradesh & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood persists and now lies at 1.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Uttar Pradesh",
+        "location": "south Haryana & neighbourhood",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Haryana & neighbourhood now lies over northwest Uttar Pradesh at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Haryana & adjoining northwest Uttar Pradesh now lies over south Haryana & neighbourhood at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "south Kerala coast",
+        "location": "east Assam & neighbourhood",
         "level": {
           "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "min": 1.5,
+          "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over south Kerala coast at 0.9 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over east Assam & neighbourhood at 1.5 km above mean sea level."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the cyclonic circulation over northeast Bihar to Telangana now runs from north Bangladesh & adjoining Assam to Telangana",
+        "extent": "north Bangladesh & adjoining Assam to Telangana, now runs from west Assam to Telangana",
+        "across": "north Bangladesh, Sub-Himalayan West Bengal & Sikkim, Jharkhand, Odisha and Chhattisgarh",
         "level": {
-          "type": "range",
-          "min": 3.1,
-          "max": 16.6,
-          "display": "3.1–16.6 km above MSL"
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
         },
-        "raw_text": "The trough from the cyclonic circulation over northeast Bihar to Telangana now runs from north Bangladesh & adjoining Assam to Telangana across Jharkhand, Odisha and Chhattisgarhbetween 3.1 & 16.6 km above mean sea level tilting northwestwards with height."
+        "raw_text": "The trough from north Bangladesh & adjoining Assam to Telangana, now runs from west Assam to Telangana across north Bangladesh, Sub-Himalayan West Bengal & Sikkim, Jharkhand, Odisha and Chhattisgarh at 5.8 km above mean sea level."
       },
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the southeast Arabian Sea to South Interior Karnataka between 3.1 km & 5.8 km above mean sea level",
-        "level": "mean sea level",
-        "raw_text": "The trough from the southeast Arabian Sea to South Interior Karnataka between 3.1 km & 5.8 km above mean sea level persists."
+        "extent": "Comorin area to Marathwada now runs from Comorin area to North Interior Karnataka",
+        "across": "Tamil Nadu, South Interior Karnataka",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from Comorin area to Marathwada now runs from Comorin area to North Interior Karnataka across Tamil Nadu, South Interior Karnataka at 0.9 km above mean sea level."
       }
     ],
-    "suppressed_count": 1,
+    "suppressed_count": 0,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -107,5 +121,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-09 06:14 IST"
+  "fetched_at": "2026-10-09 15:12 IST"
 }
