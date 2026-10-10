@@ -1,0 +1,123 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c648cb0fb5f2395941837fd2974d5930.pdf",
+  "last_updated": "09:01 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-10-10",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.5,
+      "lon": 86.5
+    },
+    {
+      "lat": 15.0,
+      "lon": 72.0
+    }
+  ],
+  "met_analysis": "The upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists.\nThe trough from the cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu to North Madhya Maharashtra now runs from the above cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu to North Interior Karnataka across interior Tamil Nadu and interior Karnataka at 0.9 km above mean sea level.\nThe trough from Northwest Rajasthan to Southeast Madhya Pradesh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over South Bangladesh & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Haryana & neighbourhoodat 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 1.5 km above mean sea level persists.\nThe Western Disturbance over Himachal Pradesh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Strait of Malacca extending upto 9.4 km above mean sea level persists. it is likely to emerge in Andaman Sea around 11th October. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October.\nThe upper air cyclonic circulation over central parts of Odisha at 0.9 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance over Himachal Pradesh at 3.1 km above mean sea level persists.",
+        "form": "trough_in_westerlies",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gulf of Mannar & adjoining south Tamil Nadu coast",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Bangladesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over South Bangladesh & neighbourhood extending upto 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Haryana & neighbourhoodat 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Strait of Malacca",
+        "level": {
+          "type": "upto",
+          "max": 9.4,
+          "display": "upto 9.4 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Strait of Malacca extending upto 9.4 km above mean sea level persists. it is likely to emerge in Andaman Sea around 11th October. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "the cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu to North Madhya Maharashtra now runs from the above cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu to North Interior Karnataka",
+        "across": "interior Tamil Nadu and interior Karnataka",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from the cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu to North Madhya Maharashtra now runs from the above cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu to North Interior Karnataka across interior Tamil Nadu and interior Karnataka at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Northwest Rajasthan to Southeast Madhya Pradesh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from Northwest Rajasthan to Southeast Madhya Pradesh at 0.9 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-10 21:57 IST"
+}
