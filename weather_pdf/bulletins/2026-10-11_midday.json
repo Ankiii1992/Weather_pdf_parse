@@ -1,0 +1,136 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/86216fb056d6578e6b71e5893d6a6efd.pdf",
+  "last_updated": "01:33 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-10-11",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.5,
+      "lon": 86.5
+    },
+    {
+      "lat": 15.0,
+      "lon": 72.0
+    }
+  ],
+  "met_analysis": "The trough from northwest Rajasthan to northeast Madhya Pradesh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over South Bangladesh & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over central Pakistan & neighbourhoodbetween 0.9 & 1.5 km above mean sea level.\nA trough runs from upper air cyclonic circulation over central Pakistan & neighbourhood to north Madhya Pradesh across South Jammu division, Himachal Pradesh, Uttarakhand and West Uttar Pradesh at 0.9 km above mean sea level\nThe upper air cyclonic circulation over Haryana & neighbourhoodat 1.5 km above mean sea level has merged with above trough.\nThe Western Disturbance as a cyclonic circulation over Himachal Pradesh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Lakshadweep & neighbourhoodat 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Strait of Malacca extending upto 9.4 km above mean sea level persists. it is likely to emerge in Andaman Sea during next 24 hours. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 1.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Himachal Pradesh at 3.1 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "Himachal Pradesh",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Bangladesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over South Bangladesh & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Pakistan & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 0.9,
+          "max": 1.5,
+          "display": "0.9–1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over central Pakistan & neighbourhoodbetween 0.9 & 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Haryana & neighbourhoodat 1.5 km above mean sea level has merged with above trough."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gulf of Mannar & adjoining south Tamil Nadu coast",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Lakshadweep & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Lakshadweep & neighbourhoodat 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Strait of Malacca",
+        "level": {
+          "type": "upto",
+          "max": 9.4,
+          "display": "upto 9.4 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Strait of Malacca extending upto 9.4 km above mean sea level persists. it is likely to emerge in Andaman Sea during next 24 hours. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "northwest Rajasthan to northeast Madhya Pradesh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough from northwest Rajasthan to northeast Madhya Pradesh at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "central Pakistan & neighbourhood to north Madhya Pradesh",
+        "across": "South Jammu division, Himachal Pradesh, Uttarakhand and West Uttar Pradesh",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "A trough runs from upper air cyclonic circulation over central Pakistan & neighbourhood to north Madhya Pradesh across South Jammu division, Himachal Pradesh, Uttarakhand and West Uttar Pradesh at 0.9 km above mean sea level"
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-11 14:52 IST"
+}
