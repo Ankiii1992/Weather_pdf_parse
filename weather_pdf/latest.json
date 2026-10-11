@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/86216fb056d6578e6b71e5893d6a6efd.pdf",
-  "last_updated": "01:33 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/57240da3830b2fd9180ba0ef11532829.pdf",
+  "last_updated": "09:04 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-10-11",
   "bulletin": {
     "morning": null,
@@ -20,32 +20,40 @@
       "lon": 72.0
     }
   ],
-  "met_analysis": "The trough from northwest Rajasthan to northeast Madhya Pradesh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over South Bangladesh & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over central Pakistan & neighbourhoodbetween 0.9 & 1.5 km above mean sea level.\nA trough runs from upper air cyclonic circulation over central Pakistan & neighbourhood to north Madhya Pradesh across South Jammu division, Himachal Pradesh, Uttarakhand and West Uttar Pradesh at 0.9 km above mean sea level\nThe upper air cyclonic circulation over Haryana & neighbourhoodat 1.5 km above mean sea level has merged with above trough.\nThe Western Disturbance as a cyclonic circulation over Himachal Pradesh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Lakshadweep & neighbourhoodat 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Strait of Malacca extending upto 9.4 km above mean sea level persists. it is likely to emerge in Andaman Sea during next 24 hours. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The upper air cyclonic circulation over South Bangladesh & neighbourhood lies over northwest Bay of Bengal adjoining west Bengal north Odisha coast between 1.5 & 3.1 km above mean sea level.\nA trough runs from the above cyclonic circulation over northwest Bay of Bengal adjoining west Bengal north Odisha coast to East Uttar Pradesh across Bihar, Jharkhand and north Odisha between 1.5 to 3.1 km above mean sea level.\nThe upper air cyclonic circulation over central Pakistan & neighbourhoodbetween 0.9 & 1.5 km above mean sea level persists.\nAn upper air cyclonic circulation lies over east Rajasthan & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Lakshadweep & neighbourhood now lies over southeast Arabian Sea adjoining south Kerala coastat 0.9 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over Himachal Pradesh lies over Himachal Pradesh & adjoining north Haryana between 1.5 to 5.8 km above mean sea level, with a trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 75°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Strait of Malacca lies over south Andaman Sea & neighbourhood and extends upto 9.4 km above mean sea level. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October.\nThe trough from upper air cyclonic circulation over central Pakistan & neighbourhood to north Madhya Pradesh across South Jammu division, Himachal Pradesh, Uttarakhand and West Uttar Pradesh at 0.9 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over Himachal Pradesh at 3.1 km above mean sea level persists.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Himachal Pradesh lies over Himachal Pradesh & adjoining north Haryana between 1.5 to 5.8 km above mean sea level, with a trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 75°E to the north of Lat. 30°N.",
         "form": "cyclonic_circulation",
-        "location": "Himachal Pradesh",
+        "location": "Himachal Pradesh & adjoining north Haryana",
         "level": {
           "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "min": 7.6,
+          "display": "7.6 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 7.6,
+            "display": "7.6 km above MSL"
+          }
         }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "South Bangladesh & neighbourhood",
+        "location": "northwest Bay of Bengal adjoining west Bengal north Odisha coast",
         "level": {
           "type": "range",
           "min": 1.5,
           "max": 3.1,
           "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over South Bangladesh & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over South Bangladesh & neighbourhood lies over northwest Bay of Bengal adjoining west Bengal north Odisha coast between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -56,17 +64,17 @@
           "max": 1.5,
           "display": "0.9–1.5 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over central Pakistan & neighbourhoodbetween 0.9 & 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over central Pakistan & neighbourhoodbetween 0.9 & 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Haryana & neighbourhood",
+        "location": "east Rajasthan & neighbourhood",
         "level": {
           "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Haryana & neighbourhoodat 1.5 km above mean sea level has merged with above trough."
+        "raw_text": "An upper air cyclonic circulation lies over east Rajasthan & neighbourhood at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -80,48 +88,33 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Lakshadweep & neighbourhood",
+        "location": "southeast Arabian Sea adjoining south Kerala coast",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Lakshadweep & neighbourhoodat 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Lakshadweep & neighbourhood now lies over southeast Arabian Sea adjoining south Kerala coastat 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Strait of Malacca",
+        "location": "south Andaman Sea & neighbourhood",
         "level": {
           "type": "upto",
           "max": 9.4,
           "display": "upto 9.4 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Strait of Malacca extending upto 9.4 km above mean sea level persists. it is likely to emerge in Andaman Sea during next 24 hours. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October."
+        "raw_text": "The upper air cyclonic circulation over Strait of Malacca lies over south Andaman Sea & neighbourhood and extends upto 9.4 km above mean sea level. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "northwest Rajasthan to northeast Madhya Pradesh",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The trough from northwest Rajasthan to northeast Madhya Pradesh at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "central Pakistan & neighbourhood to north Madhya Pradesh",
-        "across": "South Jammu division, Himachal Pradesh, Uttarakhand and West Uttar Pradesh",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "A trough runs from upper air cyclonic circulation over central Pakistan & neighbourhood to north Madhya Pradesh across South Jammu division, Himachal Pradesh, Uttarakhand and West Uttar Pradesh at 0.9 km above mean sea level"
+        "extent": "northwest Bay of Bengal adjoining west Bengal north Odisha coast to East Uttar Pradesh",
+        "across": "Bihar, Jharkhand and north Odisha",
+        "level": "mean sea level",
+        "raw_text": "A trough runs from the above cyclonic circulation over northwest Bay of Bengal adjoining west Bengal north Odisha coast to East Uttar Pradesh across Bihar, Jharkhand and north Odisha between 1.5 to 3.1 km above mean sea level."
       }
     ],
     "suppressed_count": 1,
@@ -132,5 +125,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-11 14:52 IST"
+  "fetched_at": "2026-10-11 22:21 IST"
 }
