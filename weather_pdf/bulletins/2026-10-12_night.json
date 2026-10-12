@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1db1f2bd3044d42927a5df4b9d72ccdf.pdf",
+  "last_updated": "08:38 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-10-12",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.0,
+      "lon": 90.5
+    },
+    {
+      "lat": 14.0,
+      "lon": 73.0
+    }
+  ],
+  "met_analysis": "The Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh persists and now seen between 3.1 to 4.8 km above mean sea level with a trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 80°E to the north of Lat. 24°N tilting northwestwards with height.\nThe upper air cyclonic circulation over south Bangladesh adjoining Gangetic West Bengal at 1.5 km above mean sea level persists.\nThe trough from northwest Bay of Bengal to East Uttar Pradesh across north Odisha, Jharkhand and southwest Bihar at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over West Rajasthan & neighbourhood now lies over north Rajasthan and neighbourhood at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Andaman Sea & neighbourhood extending upto 5.8 km above mean sea level persists. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October, 2026.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh persists and now seen between 3.1 to 4.8 km above mean sea level with a trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 80°E to the north of Lat. 24°N tilting northwestwards with height.",
+        "form": "cyclonic_circulation",
+        "location": "northwest Uttar Pradesh",
+        "level": {
+          "type": "single",
+          "min": 7.6,
+          "display": "7.6 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 7.6,
+            "display": "7.6 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Bangladesh adjoining Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Bangladesh adjoining Gangetic West Bengal at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Rajasthan and neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over West Rajasthan & neighbourhood now lies over north Rajasthan and neighbourhood at 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 4.5,
+          "display": "4.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 4.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gulf of Mannar & adjoining south Tamil Nadu coast",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Andaman Sea & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Andaman Sea & neighbourhood extending upto 5.8 km above mean sea level persists. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October, 2026."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "northwest Bay of Bengal to East Uttar Pradesh",
+        "across": "north Odisha, Jharkhand and southwest Bihar",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from northwest Bay of Bengal to East Uttar Pradesh across north Odisha, Jharkhand and southwest Bihar at 3.1 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-13 01:59 IST"
+}
