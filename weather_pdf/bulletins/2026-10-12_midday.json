@@ -1,0 +1,123 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/71b84c997d908723bb4bbaa379d6517a.pdf",
+  "last_updated": "01:55 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-10-12",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": [
+    {
+      "lat": 27.0,
+      "lon": 90.5
+    },
+    {
+      "lat": 14.0,
+      "lon": 73.0
+    }
+  ],
+  "met_analysis": "The Western Disturbance as a cyclonic circulation over Himachal Pradesh & adjoining north Haryana now lies over northwest Uttar Pradesh between 1.5 to 5.8 km above mean sea level. However, trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 77°E to the north of Lat. 27°N has moved away northeastwards.\nA trough in upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 80°E to the north of Lat. 24°N tilting northwestwards with height.\nThe upper air cyclonic circulation over south Bangladesh adjoining Gangetic West Bengal at 1.5 km above mean sea level persists.\nThe trough from northwest Bay of Bengal to East Uttar Pradesh across north Odisha, Jharkhand and southwest Bihar at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central Pakistan & neighbourhood now lies over West Rajasthan & neighbourhood at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over East Rajasthan & neighbourhood at 0.9 km above mean sea level merged with the above cyclonic circulation.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Andaman Sea & neighbourhood persists and now extending upto 5.8 km above mean sea level. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October.\nThe upper air cyclonic circulation over south Kerala & neighbourhood at 0.9 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Bangladesh adjoining Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Bangladesh adjoining Gangetic West Bengal at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "West Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Pakistan & neighbourhood now lies over West Rajasthan & neighbourhood at 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Rajasthan & neighbourhood at 0.9 km above mean sea level merged with the above cyclonic circulation."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 4.5,
+          "display": "4.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood at 4.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gulf of Mannar & adjoining south Tamil Nadu coast",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gulf of Mannar & adjoining south Tamil Nadu coast at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Andaman Sea & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Andaman Sea & neighbourhood persists and now extending upto 5.8 km above mean sea level. Under its influence, a low-pressure area is likely to form over the Southeast Bay of Bengal around 13th October."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "westerlies",
+        "level": {
+          "type": "single",
+          "min": 7.6,
+          "display": "7.6 km above MSL"
+        },
+        "raw_text": "A trough in upper tropospheric westerlies with its axis at 7.6 km above mean sea level runs roughly along Long. 80°E to the north of Lat. 24°N tilting northwestwards with height."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "northwest Bay of Bengal to East Uttar Pradesh",
+        "across": "north Odisha, Jharkhand and southwest Bihar",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from northwest Bay of Bengal to East Uttar Pradesh across north Odisha, Jharkhand and southwest Bihar at 3.1 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 2,
+    "unclassified": [
+      "The Western Disturbance as a cyclonic circulation over Himachal Pradesh & adjoining north Haryana now lies over northwest Uttar Pradesh between 1.5 to 5.8 km above mean sea level. However, trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 77°E to the north of Lat. 27°N has moved away northeastwards."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-12 15:22 IST"
+}
