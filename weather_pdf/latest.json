@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a66a75b8cf7373cb59fa524ff103aebd.pdf",
-  "last_updated": "08:34 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-10-13",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8ab1240c436d5af591977cc1f014f163.pdf",
+  "last_updated": "08:04 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-10-14",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -20,7 +20,7 @@
       "lon": 73.0
     }
   ],
-  "met_analysis": "The Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh between 1.5 to 3.1 km above mean sea level persists.\nThe trough in upper tropospheric westerlies roughly along Long. 82°E to the north of Lat. 22°N between 5.8 to 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Bay of Bengal off south Sri Lanka coast extending upto 3.1 km above mean sea level persists.\nThe trough in easterlies from the above cyclonic circulation over southwest Bay of Bengal off south Sri Lanka coast to central Bay of Bengal extending upto 3.1 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu with a trough aloft runs roughly along Long. 67°E to the north of Lat. 32°N at 5.8 km above mean sea level.\nThe upper air cyclonic circulation over East Rajasthan & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood now lies over Northeast Uttar Pradesh & adjoining Bihar at 4.5 km above mean sea level persists.\nA trough runs from East Uttar Pradesh to north Coastal Andhra Pradesh across East Madhya Pradesh and Chhattisgarh at 3.1 km above mean sea level.",
+  "met_analysis": "The Western Disturbance as a cyclonic circulation over northwest Uttar Pradesh between 1.5 to 3.1 km above mean sea level persists.\nThe trough in upper tropospheric westerlies roughly along Long. 82°E to the north of Lat. 22°N between 5.8 to 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over southwest Bay of Bengal off south Sri Lanka now lies over Comorin area coasts & neighbourhood extending upto 1.5 km above mean sea level.\nThe trough in easterlies now runs from the Comorin area coasts neighbourhood to Westcentral Bay of Bengal across Sri Lanka, Gulf of Mannar, Southwest Bay of Bengal extending upto 1.5 km above mean sea level tilting southwards with height persists.\nThe Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu at 3.1 km above means sea level with a trough aloft roughly along Long. 67°E to the north of Lat. 32°N at 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over East Rajasthan & neighbourhood now lies over central parts of Rajasthan at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Northeast Uttar Pradesh & adjoining Bihar at 4.5 km above mean sea level persists.\nThe trough from East Uttar Pradesh to north Coastal Andhra Pradesh across East Madhya Pradesh and Chhattisgarh at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -32,13 +32,13 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu with a trough aloft runs roughly along Long. 67°E to the north of Lat. 32°N at 5.8 km above mean sea level.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over North Pakistan & adjoining Jammu at 3.1 km above means sea level with a trough aloft roughly along Long. 67°E to the north of Lat. 32°N at 5.8 km above mean sea level persists.",
         "form": "cyclonic_circulation",
-        "location": "North Pakistan & adjoining Jammu with a trough aloft runs roughly along Long. 67°E to the north of Lat. 32°N",
+        "location": "North Pakistan & adjoining Jammu",
         "level": {
           "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
+          "min": 3.1,
+          "display": "3.1 km above MSL"
         },
         "trough_aloft": {
           "axis": "Long"
@@ -48,23 +48,23 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "southwest Bay of Bengal off south Sri Lanka coast",
+        "location": "Comorin area coasts & neighbourhood",
         "level": {
           "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over southwest Bay of Bengal off south Sri Lanka coast extending upto 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over southwest Bay of Bengal off south Sri Lanka now lies over Comorin area coasts & neighbourhood extending upto 1.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "East Rajasthan & neighbourhood",
+        "location": "central parts of Rajasthan",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over East Rajasthan & neighbourhood at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over East Rajasthan & neighbourhood now lies over central parts of Rajasthan at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -74,7 +74,7 @@
           "min": 4.5,
           "display": "4.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood now lies over Northeast Uttar Pradesh & adjoining Bihar at 4.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northeast Uttar Pradesh & adjoining Bihar at 4.5 km above mean sea level persists."
       }
     ],
     "other_troughs": [
@@ -88,13 +88,14 @@
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "southwest Bay of Bengal off south Sri Lanka coast to central Bay of Bengal",
+        "extent": "the Comorin area coasts neighbourhood to Westcentral Bay of Bengal",
+        "across": "Sri Lanka, Gulf of Mannar, Southwest Bay of Bengal",
         "level": {
           "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The trough in easterlies from the above cyclonic circulation over southwest Bay of Bengal off south Sri Lanka coast to central Bay of Bengal extending upto 3.1 km above mean sea level tilting southwards with height persists."
+        "raw_text": "The trough in easterlies now runs from the Comorin area coasts neighbourhood to Westcentral Bay of Bengal across Sri Lanka, Gulf of Mannar, Southwest Bay of Bengal extending upto 1.5 km above mean sea level tilting southwards with height persists."
       },
       {
         "type": "Trough",
@@ -106,7 +107,7 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "A trough runs from East Uttar Pradesh to north Coastal Andhra Pradesh across East Madhya Pradesh and Chhattisgarh at 3.1 km above mean sea level."
+        "raw_text": "The trough from East Uttar Pradesh to north Coastal Andhra Pradesh across East Madhya Pradesh and Chhattisgarh at 3.1 km above mean sea level persists."
       }
     ],
     "suppressed_count": 0,
@@ -117,5 +118,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-14 05:30 IST"
+  "fetched_at": "2026-10-14 09:03 IST"
 }
