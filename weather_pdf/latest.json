@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6c69745a917fbac57eb7fb065fd43657.pdf",
-  "last_updated": "04:38 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/459640b11fa1bbef6dd4b4dea933d994.pdf",
+  "last_updated": "08:30 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-10-15",
   "bulletin": {
     "morning": null,
@@ -113,5 +113,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-15 19:15 IST"
+  "fetched_at": "2026-10-16 00:15 IST"
 }
