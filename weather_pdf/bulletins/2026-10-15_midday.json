@@ -1,0 +1,116 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/748e9e5d9a981a6a74f87f3168e9c4b2.pdf",
+  "last_updated": "01:05 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-10-15",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Western Disturbance as a cyclonic circulation over Jammu & Kashmir & adjoining north Pakistan now lies over north Punjab & neighbourhood between 3.1 & 4.5 km above mean sea level with the trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 30°N.\nAn upper air cyclonic circulation lies over south Haryana & neighbourhoodat 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Gulf of Mannar & neighbourhood now lies over south coastal Tamil Nadu and extends upto 1.5 km above mean sea level.\nThe trough now runsfrom upper air cyclonic circulation over south coastal Tamil Nadu to Northwest Bay of Bengal off Odisha coast across Southwest & Westcentral Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe trough from northeast Uttar Pradesh to Eastcentral Arabian sea across East Madhya Pradesh, Maharashtra at 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation lies over southeast Arabian Sea & adjoining Lakshadweep between 1.5 & 4.5 km above mean sea level.\nA trough runs from upper air cyclonic circulation lies over southeast Arabian Sea & adjoining Lakshadweep to northwest Arabian Sea at 0.9 km above mean sea level.\nThe cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 1.5 km above mean sea level has become less marked. The upper air cyclonic over southwest Rajasthan & neighbourhood extending upto 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Central Assam & neighbourhood at 1.5 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu & Kashmir & adjoining north Pakistan now lies over north Punjab & neighbourhood between 3.1 & 4.5 km above mean sea level with the trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 72°E to the north of Lat. 30°N.",
+        "form": "cyclonic_circulation",
+        "location": "north Punjab & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over south Haryana & neighbourhoodat 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south coastal Tamil Nadu",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gulf of Mannar & neighbourhood now lies over south coastal Tamil Nadu and extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Arabian Sea & adjoining Lakshadweep",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 4.5,
+          "display": "1.5–4.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over southeast Arabian Sea & adjoining Lakshadweep between 1.5 & 4.5 km above mean sea level."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "south coastal Tamil Nadu to Northwest Bay of Bengal off Odisha coast",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The trough now runsfrom upper air cyclonic circulation over south coastal Tamil Nadu to Northwest Bay of Bengal off Odisha coast across Southwest & Westcentral Bay of Bengal and extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "northeast Uttar Pradesh to Eastcentral Arabian sea",
+        "across": "East Madhya Pradesh, Maharashtra",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from northeast Uttar Pradesh to Eastcentral Arabian sea across East Madhya Pradesh, Maharashtra at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "upper air cyclonic circulation lies over southeast Arabian Sea & adjoining Lakshadweep to northwest Arabian Sea",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "A trough runs from upper air cyclonic circulation lies over southeast Arabian Sea & adjoining Lakshadweep to northwest Arabian Sea at 0.9 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 2,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-15 13:17 IST"
+}
