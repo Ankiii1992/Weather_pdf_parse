@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a7f137f996df6fa9a1d997ac3872a0b9.pdf",
-  "last_updated": "04:30 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/cfd70665dd4b5e3d78a84ada75baebb3.pdf",
+  "last_updated": "08:53 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-10-17",
   "bulletin": {
     "morning": null,
@@ -11,92 +11,93 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Rajasthan and adjoining south Madhya Pradesh at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over north Tamil Nadu and adjoining south Coastal Andhra Pradesh between 4.5 & 5.8 km above mean sea level persists.\nThe upper air cyclonic circulation over northern parts of Lakshadweep & neighbourhood extending upto 5.8 km above mean sea level persists.\nThe trough from upper air cyclonic circulation over northern parts of Lakshadweep to Southwest Bay of Bengal across Keralam, Tamilnadu between 1.5 & 3.1 km above mean sea level persists.\nThe trough from Eastcentral Arabian sea off Karnataka coasts to Comorian area upto 1.5 km above mean sea level persists.",
+  "met_analysis": "The upper air cyclonic circulation over north Tamil Nadu and adjoining south Coastal Andhra Pradesh lies over south coastal Andhra Pradesh & neighbourhood and seen between 1.5 & 4.5 km above mean sea level.\nThe upper air cyclonic circulation over northern parts of Lakshadweep & neighbourhood persists and now seen between 1.5 & 4.5 km above mean sea level.\nThe trough from upper air cyclonic circulation over northern parts of Lakshadweep to Southwest Bay of Bengal now runs from upper air cyclonic circulation over northern parts of Lakshadweep to westcentral Bay of Bengal across Karnataka, south Andhra Pradesh between 1.5 & 3.1 km above mean sea level.\nThe trough from Eastcentral Arabian sea off Karnataka coasts to Comorin area now runs from Eastcentral Arabian sea off Karnataka coasts to southwest Bay of Bengal across north Keralam and Tamil Nadu at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Southwest Arabian Sea extending upto 5.8 km above mean sea level persisted over the same region at 1730 hrs IST of today, the 17th October 2026. Under its influence, a Low Pressure Area is likely to form over the same region around 19th October.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now seen at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over southeast Rajasthan and adjoining south Madhya Pradesh lies over south Rajasthan & neighbourhood and extends upto at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood between 3.1 & 4.5 km above mean sea level persists.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood persists and now seen at 3.1 km above mean sea level.",
         "form": "cyclonic_circulation",
         "location": "north Haryana & neighbourhood",
         "level": {
-          "type": "range",
+          "type": "single",
           "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
+          "display": "3.1 km above MSL"
         }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "southeast Rajasthan and adjoining south Madhya Pradesh",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over southeast Rajasthan and adjoining south Madhya Pradesh at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Uttar Pradesh & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over northwest Uttar Pradesh & neighbourhood at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "north Tamil Nadu and adjoining south Coastal Andhra Pradesh",
+        "location": "south coastal Andhra Pradesh & neighbourhood and seen",
         "level": {
           "type": "range",
-          "min": 4.5,
-          "max": 5.8,
-          "display": "4.5–5.8 km above MSL"
+          "min": 1.5,
+          "max": 4.5,
+          "display": "1.5–4.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Tamil Nadu and adjoining south Coastal Andhra Pradesh between 4.5 & 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over north Tamil Nadu and adjoining south Coastal Andhra Pradesh lies over south coastal Andhra Pradesh & neighbourhood and seen between 1.5 & 4.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "northern parts of Lakshadweep & neighbourhood",
         "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 4.5,
+          "display": "1.5–4.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northern parts of Lakshadweep & neighbourhood persists and now seen between 1.5 & 4.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southwest Arabian Sea",
+        "level": {
           "type": "upto",
           "max": 5.8,
           "display": "upto 5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northern parts of Lakshadweep & neighbourhood extending upto 5.8 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Southwest Arabian Sea extending upto 5.8 km above mean sea level persisted over the same region at 1730 hrs IST of today, the 17th October 2026. Under its influence, a Low Pressure Area is likely to form over the same region around 19th October."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Rajasthan and adjoining south Madhya Pradesh lies over south Rajasthan & neighbourhood and extends upto at 1.5 km above mean sea level."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "northern parts of Lakshadweep to Southwest Bay of Bengal",
-        "across": "Keralam, Tamilnadu",
+        "extent": "northern parts of Lakshadweep to Southwest Bay of Bengal now runs from upper air cyclonic circulation over northern parts of Lakshadweep to westcentral Bay of Bengal",
+        "across": "Karnataka, south Andhra Pradesh",
         "level": {
           "type": "range",
           "min": 1.5,
           "max": 3.1,
           "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The trough from upper air cyclonic circulation over northern parts of Lakshadweep to Southwest Bay of Bengal across Keralam, Tamilnadu between 1.5 & 3.1 km above mean sea level persists."
+        "raw_text": "The trough from upper air cyclonic circulation over northern parts of Lakshadweep to Southwest Bay of Bengal now runs from upper air cyclonic circulation over northern parts of Lakshadweep to westcentral Bay of Bengal across Karnataka, south Andhra Pradesh between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "Eastcentral Arabian sea off Karnataka coasts to Comorian area upto 1.5 km above mean sea level",
+        "extent": "Eastcentral Arabian sea off Karnataka coasts to Comorin area now runs from Eastcentral Arabian sea off Karnataka coasts to southwest Bay of Bengal",
+        "across": "north Keralam and Tamil Nadu",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "The trough from Eastcentral Arabian sea off Karnataka coasts to Comorian area upto 1.5 km above mean sea level persists."
+        "raw_text": "The trough from Eastcentral Arabian sea off Karnataka coasts to Comorin area now runs from Eastcentral Arabian sea off Karnataka coasts to southwest Bay of Bengal across north Keralam and Tamil Nadu at 0.9 km above mean sea level."
       }
     ],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -104,5 +105,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-17 18:02 IST"
+  "fetched_at": "2026-10-17 23:06 IST"
 }
