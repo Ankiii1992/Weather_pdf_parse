@@ -1,0 +1,120 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4ada03dfe405ef1b9e181d38dffb3710.pdf",
+  "last_updated": "04:46 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-10-18",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The upper air cyclonic circulation over West central Bay of Bengal & adjoining south Andhra Pradesh and Tamil Nadu coasts extending upto 7.6 km above mean sea level persists.\nThe upper air cyclonic circulation over North Interior Karnataka & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from Lakshadweep to West central Bay of Bengal across Karnataka, south Andhra Pradesh between 1.5 & 3.1 km above mean sea level persists.\nThe Low Pressure Area over Southwest Arabian Sea persists over the same region at 1430 hrs IST of today, the 18th October 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is likely to become more marked during next 24 hours.\nThe Western Disturbance as a cyclonic circulation over Himachal Pradesh & adjoining Punjab at 3.1 km above mean sea level with a trough aloft in middle tropospheric levels with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the North of Lat. 28°N persists.\nThe upper air cyclonic circulation over south Rajasthan & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough from Southwest Rajasthan to Northeast Arabian sea at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Thailand & neighbourhood extending upto 1.5 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Southwest Arabian Sea",
+        "raw_text": "The Low Pressure Area over Southwest Arabian Sea persists over the same region at 1430 hrs IST of today, the 18th October 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is likely to become more marked during next 24 hours."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Himachal Pradesh & adjoining Punjab at 3.1 km above mean sea level with a trough aloft in middle tropospheric levels with its axis at 5.8 km above mean sea level roughly along Long. 70°E to the North of Lat. 28°N persists.",
+        "form": "cyclonic_circulation",
+        "location": "Himachal Pradesh & adjoining Punjab",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "West central Bay of Bengal & adjoining south Andhra Pradesh and Tamil Nadu coasts",
+        "level": {
+          "type": "upto",
+          "max": 7.6,
+          "display": "upto 7.6 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over West central Bay of Bengal & adjoining south Andhra Pradesh and Tamil Nadu coasts extending upto 7.6 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "North Interior Karnataka & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over North Interior Karnataka & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Rajasthan & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Rajasthan & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gulf of Thailand & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gulf of Thailand & neighbourhood extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Lakshadweep to West central Bay of Bengal",
+        "across": "Karnataka, south Andhra Pradesh",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "The trough from Lakshadweep to West central Bay of Bengal across Karnataka, south Andhra Pradesh between 1.5 & 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Southwest Rajasthan to Northeast Arabian sea",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from Southwest Rajasthan to Northeast Arabian sea at 3.1 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-18 18:21 IST"
+}
