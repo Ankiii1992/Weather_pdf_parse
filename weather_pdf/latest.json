@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6c0b2830c426034c5f667364d3c10578.pdf",
-  "last_updated": "01:15 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7aef05d3db765d33ed886ee0b9df717d.pdf",
+  "last_updated": "04:40 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-10-21",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure area over southwest Arabian sea persists over the same region at 0830 hrs IST of today, the 21st October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move west-northwestwards as a low pressure area on today, 21st October and then west- southwestwards towards Somalia coast on 22nd October.\nThe Low Pressure areaover Southwest Bay of Bengal off Tamil Nadu coast persists over the same region at 0830 hrs IST of today, the 21st October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Gulf of Thailand and adjoining Thailand & Myanmar persists and now extends upto 5.8 km above mean sea level at 0830 Hrs IST of today, 21st October. It is likely to emerge into north Andaman Sea by today, 21st October. Thereafter it will move west-north-westwards. Under its influence a low-pressure area is likely to form over Southeast and adjoining East-central Bay of Bengal around 23rd October, 2026. Then it is likely to move north-westwards and intensify further.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood persists and now lies at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over east Bangladesh and adjoining Tripura, now lies over Bangladesh at 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over north Haryana & neighbourhood at 1.5 km above mean sea level.\nA fresh Western disturbance is likely to affect Northwest India from 24th October, 2026.\nThe trough from the centre of low pressure area over southwest Bay of Bengal and adjoining Tamil Nadu coast to north coastal Andhra Pradesh at 3.1 km above mean sea level has become less marked.",
+  "met_analysis": "The Low Pressure area over southwest Arabian sea persists over the same region at 1430 hrs IST of today, the 21st October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move west-northwestwards as a low pressure area on today, 21st October and then west- southwestwards towards Somalia coast on 22nd October.\nThe Low Pressure areaover Southwest Bay of Bengal off Tamil Nadu coast persists over the same region at 1430 hrs IST of today, the 21st October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Gulf of Thailand and adjoining Thailand & Myanmar persists and now extends upto 5.8 km above mean sea level at 1430 Hrs IST of today, 21st October. It is likely to emerge into north Andaman Sea by today, 21st October. Thereafter it will move west-north-westwards. Under its influence a low-pressure area is likely to form over Southeast and adjoining East-central Bay of Bengal around 23rd October, 2026. Then it is likely to move north-westwards and intensify further.\nThe upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Bangladesh at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation lies over north Haryana & neighbourhood at 1.5 km above mean sea level persists.\nA fresh Western disturbance is likely to affect Northwest India from 24th October, 2026.",
   "systems": {
     "priority": [
       {
@@ -19,14 +19,14 @@
         "status": "active",
         "location": "southwest Arabian sea",
         "movement": "west-northwestwards",
-        "raw_text": "The Low Pressure area over southwest Arabian sea persists over the same region at 0830 hrs IST of today, the 21st October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move west-northwestwards as a low pressure area on today, 21st October and then west- southwestwards towards Somalia coast on 22nd October."
+        "raw_text": "The Low Pressure area over southwest Arabian sea persists over the same region at 1430 hrs IST of today, the 21st October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move west-northwestwards as a low pressure area on today, 21st October and then west- southwestwards towards Somalia coast on 22nd October."
       },
       {
         "type": "Low Pressure Area",
         "status": "active",
         "location": "the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure areaover Southwest Bay of Bengal off Tamil Nadu coast persists over the same region at 0830 hrs IST of today, the 21st October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level."
+        "raw_text": "The Low Pressure areaover Southwest Bay of Bengal off Tamil Nadu coast persists over the same region at 1430 hrs IST of today, the 21st October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level."
       }
     ],
     "uac": [
@@ -38,7 +38,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan & neighbourhood persists and now lies at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over southwest Rajasthan & neighbourhood at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -48,7 +48,7 @@
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over east Bangladesh and adjoining Tripura, now lies over Bangladesh at 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Bangladesh at 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -58,13 +58,13 @@
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over north Haryana & neighbourhood at 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation lies over north Haryana & neighbourhood at 1.5 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 3,
+    "suppressed_count": 2,
     "unclassified": [
-      "The upper air cyclonic circulation over Gulf of Thailand and adjoining Thailand & Myanmar persists and now extends upto 5.8 km above mean sea level at 0830 Hrs IST of today, 21st October. It is likely to emerge into north Andaman Sea by today, 21st October. Thereafter it will move west-north-westwards. Under its influence a low-pressure area is likely to form over Southeast and adjoining East-central Bay of Bengal around 23rd October, 2026. Then it is likely to move north-westwards and intensify further.",
+      "The upper air cyclonic circulation over Gulf of Thailand and adjoining Thailand & Myanmar persists and now extends upto 5.8 km above mean sea level at 1430 Hrs IST of today, 21st October. It is likely to emerge into north Andaman Sea by today, 21st October. Thereafter it will move west-north-westwards. Under its influence a low-pressure area is likely to form over Southeast and adjoining East-central Bay of Bengal around 23rd October, 2026. Then it is likely to move north-westwards and intensify further.",
       "A fresh Western disturbance is likely to affect Northwest India from 24th October, 2026."
     ],
     "validation": {
@@ -73,5 +73,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-21 13:37 IST"
+  "fetched_at": "2026-10-21 19:42 IST"
 }
