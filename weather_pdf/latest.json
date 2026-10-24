@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a491c91484265cfcad4e4efe281e8da6.pdf",
-  "last_updated": "08:58 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-10-23",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/5e372ffd39e492e7cf0c555ac07e19a5.pdf",
+  "last_updated": "08:41 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-10-24",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,22 +11,22 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over eastcentral and adjoining southeast Bay of Bengal persisted over the same region at 1730 hrs IST of today, the 23rd October 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is most likely to persist over the same region and intensify into a depression on 24th October, 2026. Thereafter, it is very likely to move west-northwestwards and intensify further into a deep depression on 25th October & into a cyclonic storm over the Westcentral Bay of Bengal by 26th October morning. It would then continue to intensify further and move west-northwestwards towards North Andhra Pradesh and adjoining South Odisha coasts during subsequent 2 days.\nThe Low Pressure areaover Southeast Arabian sea and adjoining Lakshadweep area persisted over the same region at 1730 hrs IST of today, the 23rd October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level.\nThe trough from the cyclonic circulation associated with Low Pressure areaover Southeast Arabian sea and adjoining Lakshadweep to north coastal Tamilnadu across Kerala and extends upto 1.5 km above mean sea level persists.\nA fresh Western disturbance as a cyclone circulation lies over north Pakistan and adjoining between 3.1 km & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Somalia coast extending upto 3.1 km above mean sea level persists. Theupper air cyclonic circulation over northeast Bangladesh & neighbourhood at0.9 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over Eastcentral and adjoining Southeast Bay of Bengal became Well Marked Low Pressure Area and lies over Eastcentral Bay of Bengal at 0530 hours IST of today, the 24th October, 2026. It is most likely to persist over the same region and intensify into a depression today, the 24th October, 2026. Thereafter, it is very likely to move west-northwestwards and intensify further into a deep depression on 25th October & into a cyclonic storm over the Westcentral Bay of Bengal by 26th October morning. Moving west- northwestwards, it would continue to intensify further and reach over Westcentral Bay of Bengal near Andhra Pradesh coast around morning of 28th October, 2026.\nThe Low Pressure areaover Southeast Arabian sea and adjoining Lakshadweep area persisted over the same region at 0530 hrs IST of today, the 23rd October, 2026. The associated cyclonic circulation extending upto 5.8 km above mean sea level.\nThe trough from the cyclonic circulation associated with Low Pressure areaover Southeast Arabian sea and adjoining Lakshadweep to north coastal Tamilnadu across Kerala and extends upto 1.5 km above mean sea level persists.\nA fresh Western disturbance as a cyclone circulation lies over north Pakistan and adjoining Jammu between 3.1 km & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Somalia coast extending upto 3.1 km above mean sea level persists. Theupper air cyclonic circulation over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "eastcentral and adjoining southeast Bay of Bengal persisted over the same region",
+        "location": "Eastcentral Bay of Bengal",
         "movement": "west-northwestwards",
-        "raw_text": "The Low Pressure Area over eastcentral and adjoining southeast Bay of Bengal persisted over the same region at 1730 hrs IST of today, the 23rd October 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is most likely to persist over the same region and intensify into a depression on 24th October, 2026. Thereafter, it is very likely to move west-northwestwards and intensify further into a deep depression on 25th October & into a cyclonic storm over the Westcentral Bay of Bengal by 26th October morning. It would then continue to intensify further and move west-northwestwards towards North Andhra Pradesh and adjoining South Odisha coasts during subsequent 2 days."
+        "raw_text": "The Low Pressure Area over Eastcentral and adjoining Southeast Bay of Bengal became Well Marked Low Pressure Area and lies over Eastcentral Bay of Bengal at 0530 hours IST of today, the 24th October, 2026. It is most likely to persist over the same region and intensify into a depression today, the 24th October, 2026. Thereafter, it is very likely to move west-northwestwards and intensify further into a deep depression on 25th October & into a cyclonic storm over the Westcentral Bay of Bengal by 26th October morning. Moving west- northwestwards, it would continue to intensify further and reach over Westcentral Bay of Bengal near Andhra Pradesh coast around morning of 28th October, 2026."
       },
       {
         "type": "Low Pressure Area",
         "status": "active",
         "location": "the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure areaover Southeast Arabian sea and adjoining Lakshadweep area persisted over the same region at 1730 hrs IST of today, the 23rd October, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level."
+        "raw_text": "The Low Pressure areaover Southeast Arabian sea and adjoining Lakshadweep area persisted over the same region at 0530 hrs IST of today, the 23rd October, 2026. The associated cyclonic circulation extending upto 5.8 km above mean sea level."
       }
     ],
     "uac": [
@@ -38,7 +38,7 @@
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Somalia coast extending upto 3.1 km above mean sea level persists. Theupper air cyclonic circulation over northeast Bangladesh & neighbourhood at0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Somalia coast extending upto 3.1 km above mean sea level persists. Theupper air cyclonic circulation over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists."
       }
     ],
     "other_troughs": [
@@ -57,7 +57,7 @@
     ],
     "suppressed_count": 1,
     "unclassified": [
-      "A fresh Western disturbance as a cyclone circulation lies over north Pakistan and adjoining between 3.1 km & 5.8 km above mean sea level."
+      "A fresh Western disturbance as a cyclone circulation lies over north Pakistan and adjoining Jammu between 3.1 km & 5.8 km above mean sea level."
     ],
     "validation": {
       "warnings_count": 0,
@@ -65,5 +65,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-24 07:38 IST"
+  "fetched_at": "2026-10-24 13:11 IST"
 }
