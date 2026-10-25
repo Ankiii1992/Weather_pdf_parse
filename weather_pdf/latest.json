@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b9e7931cbc349fc95f35b90856593cfc.pdf",
-  "last_updated": "04:39 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/73b2e53937108f0491c6757de2343b27.pdf",
+  "last_updated": "09:20 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-10-25",
   "bulletin": {
     "morning": null,
@@ -11,89 +11,91 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression over Eastcentral and adjoining Southeast Bay of Bengal moved southwestwards with speed of 5 kmph during past 6 hours, intensified into a Deep Depression and lies centered at 1130 hours IST of today, the 25th October, 2026 over the same region, near Latitude 15.1°N and Longitude 91.0°E, about 420 km north- northwest of Sri Vijaya Puram (Andaman Islands), 870 km east-southeast of Vishakhapatnam (Andhra Pradesh), 960 km east-southeast of Kakinada (Andhra Pradesh), 1060 km east-Southeast of Machilipatnam (Andhra Pradesh) and 1130 km east of Bapatla (Andhra Pradesh). It is very likely to move nearly southwestwards, and intensify further into a cyclonic storm over Eastcentral & adjoining Southeast Bay of Bengal by 26th October early morning. Then it is very likely to move west-northwestwards over the Eastcentral & adjoining Westcentral Bay of Bengal and intensify into a severe cyclonic storm over westcentral Bay of Bengal around morning of 27th October, 2026. Thereafter, it is very likely to move northwestwards, intensify further into a very severe cyclonic storm and reach Westcentral Bay of Bengal near Andhra Pradesh coast around morning of 28th October, 2026. It is very likely to cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam as a very severe cyclonic storm with the maximum sustained wind speed of 115-125 kmph gusting to 140 kmph by forenoon of 28th October, 2026.\nThe Low Pressure areaover Southeast Arabian sea & adjoining Kerala coast at persisted over the same region at 1430 hrs IST of today, the 25th October, 2026. The associated cyclonic circulation extends upto 3.1 km above mean sea level.\nThe trough from the cyclonic circulation associated with Low Pressure areaover Southeast Arabian sea & adjoining Kerala coast to north coastal Tamilnadu across Kerala extending upto 3.1 km above mean sea level persists. Theupper air cyclonic circulation Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Haryana between 3.1 & 4.5 km above mean sea level with the trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 30°N persists.\nThe induced upper cyclonic circulation over North Rajasthan & adjoining Haryana extending upto 0.9 km above mean sea level persists.\nA fresh Western Disturbance is likely to affect northwest India from the night of 27th October.",
+  "met_analysis": "The Deep Depression over Eastcentral and adjoining Southeast Bay of Bengal moved westwards with speed of 8 kmph during past 6 hours and lies centered at 1730 hours IST of today, the 25th October, 2026 over the same region, near Latitude 15.1°N and Longitude 90.5°E, about 450 km north-northwest of Sri Vijaya Puram (Andaman Islands), 820 km east-southeast of Vishakhapatnam (Andhra Pradesh), 910 km east-southeast of Kakinada (Andhra Pradesh), 1010 km east-Southeast of Machilipatnam (Andhra Pradesh) and 1080 km east of Bapatla (Andhra Pradesh). It is very likely to move nearly westwards, and intensify further into a Cyclonic Storm over Eastcentral & adjoining Southeast Bay of Bengal by 26th October early morning. Then it is very likely to move west-northwestwards and intensify into a Severe Cyclonic Storm over westcentral Bay of Bengal by 27th October, morning. Thereafter, it is very likely to move northwestwards, intensify further into a very Severe Cyclonic Storm and reach Westcentral Bay of Bengal near Andhra Pradesh coast around morning of 28th October, 2026. It is very likely to cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam as a very severe cyclonic storm with the maximum sustained wind speed of 115-125 kmph gusting to 140 kmph by forenoon of 28th October, 2026.\nThe Low Pressure areaover Southeast Arabian sea & adjoining Kerala coast moved eastwards and lies over coastal Tamil Nadu at 1730 hrs IST of today, the 25th October, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level.\nThe trough now runs from Lakshadweep Area to the cyclonic circulation associated with the low pressure area over coastal Tamil Nadu across Kerala extending upto 3.1 km above mean sea level. Theupper air cyclonic circulation Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance now seen as a cyclonic circulation over north Haryana at 4.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Southwest Rajasthan & neighbourhood and extends upto 1.5 km above mean sea level.\nA fresh Western Disturbance is likely to affect northwest India from the night of 27th October, 2026.\nThe induced upper cyclonic circulation over North Rajasthan & adjoining Haryana extending upto 0.9 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
-        "type": "Depression",
+        "type": "Deep Depression",
         "status": "active",
         "location": "the same region",
         "coords": {
           "lat": 15.1,
-          "lon": 91.0
+          "lon": 90.5
         },
         "distance_from": [
           {
             "place": "Sri Vijaya Puram (Andaman Islands",
-            "distance_km": 420,
-            "direction": "north- northwest"
+            "distance_km": 450,
+            "direction": "north-northwest"
           },
           {
             "place": "Vishakhapatnam (Andhra Pradesh",
-            "distance_km": 870,
+            "distance_km": 820,
             "direction": "east-southeast"
           },
           {
             "place": "Kakinada (Andhra Pradesh",
-            "distance_km": 960,
+            "distance_km": 910,
             "direction": "east-southeast"
           },
           {
-            "place": "Machilipatnam (Andhra Pradesh) and 1130 km east of Bapatla (Andhra Pradesh",
-            "distance_km": 1060,
+            "place": "Machilipatnam (Andhra Pradesh) and 1080 km east of Bapatla (Andhra Pradesh",
+            "distance_km": 1010,
             "direction": "east-southeast"
           }
         ],
-        "movement": "southwestwards",
-        "raw_text": "The Depression over Eastcentral and adjoining Southeast Bay of Bengal moved southwestwards with speed of 5 kmph during past 6 hours, intensified into a Deep Depression and lies centered at 1130 hours IST of today, the 25th October, 2026 over the same region, near Latitude 15.1°N and Longitude 91.0°E, about 420 km north- northwest of Sri Vijaya Puram (Andaman Islands), 870 km east-southeast of Vishakhapatnam (Andhra Pradesh), 960 km east-southeast of Kakinada (Andhra Pradesh), 1060 km east-Southeast of Machilipatnam (Andhra Pradesh) and 1130 km east of Bapatla (Andhra Pradesh). It is very likely to move nearly southwestwards, and intensify further into a cyclonic storm over Eastcentral & adjoining Southeast Bay of Bengal by 26th October early morning. Then it is very likely to move west-northwestwards over the Eastcentral & adjoining Westcentral Bay of Bengal and intensify into a severe cyclonic storm over westcentral Bay of Bengal around morning of 27th October, 2026. Thereafter, it is very likely to move northwestwards, intensify further into a very severe cyclonic storm and reach Westcentral Bay of Bengal near Andhra Pradesh coast around morning of 28th October, 2026. It is very likely to cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam as a very severe cyclonic storm with the maximum sustained wind speed of 115-125 kmph gusting to 140 kmph by forenoon of 28th October, 2026."
+        "movement": "westwards",
+        "raw_text": "The Deep Depression over Eastcentral and adjoining Southeast Bay of Bengal moved westwards with speed of 8 kmph during past 6 hours and lies centered at 1730 hours IST of today, the 25th October, 2026 over the same region, near Latitude 15.1°N and Longitude 90.5°E, about 450 km north-northwest of Sri Vijaya Puram (Andaman Islands), 820 km east-southeast of Vishakhapatnam (Andhra Pradesh), 910 km east-southeast of Kakinada (Andhra Pradesh), 1010 km east-Southeast of Machilipatnam (Andhra Pradesh) and 1080 km east of Bapatla (Andhra Pradesh). It is very likely to move nearly westwards, and intensify further into a Cyclonic Storm over Eastcentral & adjoining Southeast Bay of Bengal by 26th October early morning. Then it is very likely to move west-northwestwards and intensify into a Severe Cyclonic Storm over westcentral Bay of Bengal by 27th October, morning. Thereafter, it is very likely to move northwestwards, intensify further into a very Severe Cyclonic Storm and reach Westcentral Bay of Bengal near Andhra Pradesh coast around morning of 28th October, 2026. It is very likely to cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam as a very severe cyclonic storm with the maximum sustained wind speed of 115-125 kmph gusting to 140 kmph by forenoon of 28th October, 2026."
       },
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "the same region",
+        "location": "coastal Tamil Nadu",
         "on_land": true,
-        "raw_text": "The Low Pressure areaover Southeast Arabian sea & adjoining Kerala coast at persisted over the same region at 1430 hrs IST of today, the 25th October, 2026. The associated cyclonic circulation extends upto 3.1 km above mean sea level."
+        "movement": "eastwards",
+        "raw_text": "The Low Pressure areaover Southeast Arabian sea & adjoining Kerala coast moved eastwards and lies over coastal Tamil Nadu at 1730 hrs IST of today, the 25th October, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana between 3.1 & 4.5 km above mean sea level with the trough aloft in upper tropospheric westerlies with its axis at 7.6 km above mean sea level roughly along Long. 75°E to the north of Lat. 30°N persists.",
+        "raw_text": "The Western Disturbance now seen as a cyclonic circulation over north Haryana at 4.5 km above mean sea level.",
         "form": "cyclonic_circulation",
         "location": "north Haryana",
         "level": {
-          "type": "range",
-          "min": 3.1,
-          "max": 4.5,
-          "display": "3.1–4.5 km above MSL"
-        },
-        "trough_aloft": {
-          "axis": "Long",
-          "level": {
-            "type": "single",
-            "min": 7.6,
-            "display": "7.6 km above MSL"
-          }
+          "type": "single",
+          "min": 4.5,
+          "display": "4.5 km above MSL"
         }
       }
     ],
-    "uac": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southwest Rajasthan & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Southwest Rajasthan & neighbourhood and extends upto 1.5 km above mean sea level."
+      }
+    ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the cyclonic circulation associated with Low Pressure areaover Southeast Arabian sea & adjoining Kerala coast to north coastal Tamilnadu",
+        "extent": "Lakshadweep Area to the cyclonic circulation associated with the low pressure area over coastal Tamil Nadu",
         "across": "Kerala",
         "level": {
           "type": "upto",
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "The trough from the cyclonic circulation associated with Low Pressure areaover Southeast Arabian sea & adjoining Kerala coast to north coastal Tamilnadu across Kerala extending upto 3.1 km above mean sea level persists. Theupper air cyclonic circulation Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The trough now runs from Lakshadweep Area to the cyclonic circulation associated with the low pressure area over coastal Tamil Nadu across Kerala extending upto 3.1 km above mean sea level. Theupper air cyclonic circulation Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists."
       }
     ],
     "suppressed_count": 2,
     "unclassified": [
-      "The induced upper cyclonic circulation over North Rajasthan & adjoining Haryana extending upto 0.9 km above mean sea level persists.",
-      "A fresh Western Disturbance is likely to affect northwest India from the night of 27th October."
+      "A fresh Western Disturbance is likely to affect northwest India from the night of 27th October, 2026."
     ],
     "validation": {
       "warnings_count": 0,
@@ -101,5 +103,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-25 18:56 IST"
+  "fetched_at": "2026-10-25 23:26 IST"
 }
