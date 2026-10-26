@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/53eff1a720973cb7ad2398e2d08e7fa1.pdf",
-  "last_updated": "04:48 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8d0847f373e1d261109380a0e7e5b478.pdf",
+  "last_updated": "09:36 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-10-26",
   "bulletin": {
     "morning": null,
@@ -11,53 +11,53 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The cyclonic storm “Arnab” [Pronunciation :Ornab]” over Eastcentral and adjoining Westcentral Bay of Bengal moved nearly westwards with a speed of 13 kmph during last 6 hours and lies centered at 1130 hrs IST of today, the 26th October, 2026 over Westcentral & adjoining Eastcentral Bay of Bengal near latitude 15.5°N and longitude 88.2°E, 550 km southeast of Gopalpur (Odisha), 580 km east-southeast of Vishakhapatnam (Andhra Pradesh), 650 km northwest of Sri Vijaya Puram (Andaman Islands), 660 km east-southeast of Kakinada (Andhra Pradesh), 760 km east-southeast of Machilipatnam (Andhra Pradesh) and 830 km east- southeast of Bapatla (Andhra Pradesh). It is very likely to move west-northwestwards and intensify further into a severe cyclonic storm over westcentral Bay of Bengal by evening of today, the 26th October and into a very severe cyclonic storm over the same region on 27th October. Thereafter, it is very likely to move northwestwards and cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam close to Yanam as a very severe cyclonic storm with the maximum sustained wind speed of 115-125 kmph gusting to 140 kmph by forenoon of 28th October, 2026.\nThe Low Pressure areaover Southwest Bay of Bengal and adjoining south coastal Tamil Nadu persisted over the same region at 1430 hrs IST of today, the 26th October, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level.\nThe trough from Lakshadweep Area to the cyclonic circulation associated with the low pressure area over Southwest Bay of Bengal and adjoining south coastal Tamil Nadu across South Kerala extending upto 3.1 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Haryana between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Rajasthan & neighbourhood at 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 25°N. it is likely to affect northwest India from the night of 27th October, 2026.",
+  "met_analysis": "The cyclonic storm “Arnab” [Pronunciation :Ornab] over Westcentral and adjoining Eastcentral Bay of Bengal moved west-northwestwards with a speed of 17 kmph during past 6 hours, intensified into a severe cyclonic storm and lies centered at 1730 hrs IST of today, the 26th October, 2026 over Westcentral Bay of Bengal near latitude 15.6°N and longitude 87.3°E, 490 km south-southeast of Gopalpur (Odisha), 490 km east-southeast of Vishakhapatnam (Andhra Pradesh), 560 km east-southeast of Kakinada (Andhra Pradesh), 660 km east of Machilipatnam (Andhra Pradesh), 730 km east of Bapatla (Andhra Pradesh) and 730 km northwest of Sri Vijaya Puram (Andaman Islands). It is very likely to continue to move west-northwestwards and intensify further into a very severe cyclonic storm over the same region during next 12 hours. It is very likely to continue to move west-northwestwards till evening of 27th October and thereafter, it is very likely to move northwestwards and cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam, close to Yanam as a very severe cyclonic storm with the maximum sustained wind speed of 115-125 kmph gusting to 140 kmph by forenoon of 28th October, 2026\nThe Low Pressure areaover Southwest Bay of Bengal and adjoining south coastal Tamil Nadu persisted over the same region at 1730 hrs IST of today, the 26th October, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level.\nThe trough from Lakshadweep Area to the cyclonic circulation associated with the low pressure area over Southwest Bay of Bengal and adjoining south coastal Tamil Nadu across South Kerala extending upto 3.1 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Haryana between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Rajasthan & neighbourhood at 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 25°N. it is likely to affect northwest India from the night of 27th October, 2026.\nAn upper air cyclonic circulation lies over southeast Uttar Pradesh & adjoining Bihar and extends upto 3.1 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Cyclonic Storm",
         "status": "active",
-        "location": "Westcentral & adjoining Eastcentral Bay of Bengal",
+        "location": "Westcentral Bay of Bengal",
         "coords": {
-          "lat": 15.5,
-          "lon": 88.2
+          "lat": 15.6,
+          "lon": 87.3
         },
         "distance_from": [
           {
             "place": "Gopalpur (Odisha",
-            "distance_km": 550,
-            "direction": "southeast"
+            "distance_km": 490,
+            "direction": "south-southeast"
           },
           {
             "place": "Vishakhapatnam (Andhra Pradesh",
-            "distance_km": 580,
+            "distance_km": 490,
             "direction": "east-southeast"
-          },
-          {
-            "place": "Sri Vijaya Puram (Andaman Islands",
-            "distance_km": 650,
-            "direction": "northwest"
           },
           {
             "place": "Kakinada (Andhra Pradesh",
-            "distance_km": 660,
+            "distance_km": 560,
             "direction": "east-southeast"
           },
           {
-            "place": "Bapatla (Andhra Pradesh",
-            "distance_km": 830,
-            "direction": "east- southeast"
+            "place": "Machilipatnam (Andhra Pradesh",
+            "distance_km": 660,
+            "direction": "east"
+          },
+          {
+            "place": "Bapatla (Andhra Pradesh) and 730 km northwest of Sri Vijaya Puram (Andaman Islands",
+            "distance_km": 730,
+            "direction": "east"
           }
         ],
         "movement": "west-northwestwards",
-        "raw_text": "The cyclonic storm “Arnab” [Pronunciation :Ornab]” over Eastcentral and adjoining Westcentral Bay of Bengal moved nearly westwards with a speed of 13 kmph during last 6 hours and lies centered at 1130 hrs IST of today, the 26th October, 2026 over Westcentral & adjoining Eastcentral Bay of Bengal near latitude 15.5°N and longitude 88.2°E, 550 km southeast of Gopalpur (Odisha), 580 km east-southeast of Vishakhapatnam (Andhra Pradesh), 650 km northwest of Sri Vijaya Puram (Andaman Islands), 660 km east-southeast of Kakinada (Andhra Pradesh), 760 km east-southeast of Machilipatnam (Andhra Pradesh) and 830 km east- southeast of Bapatla (Andhra Pradesh). It is very likely to move west-northwestwards and intensify further into a severe cyclonic storm over westcentral Bay of Bengal by evening of today, the 26th October and into a very severe cyclonic storm over the same region on 27th October. Thereafter, it is very likely to move northwestwards and cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam close to Yanam as a very severe cyclonic storm with the maximum sustained wind speed of 115-125 kmph gusting to 140 kmph by forenoon of 28th October, 2026."
+        "raw_text": "The cyclonic storm “Arnab” [Pronunciation :Ornab] over Westcentral and adjoining Eastcentral Bay of Bengal moved west-northwestwards with a speed of 17 kmph during past 6 hours, intensified into a severe cyclonic storm and lies centered at 1730 hrs IST of today, the 26th October, 2026 over Westcentral Bay of Bengal near latitude 15.6°N and longitude 87.3°E, 490 km south-southeast of Gopalpur (Odisha), 490 km east-southeast of Vishakhapatnam (Andhra Pradesh), 560 km east-southeast of Kakinada (Andhra Pradesh), 660 km east of Machilipatnam (Andhra Pradesh), 730 km east of Bapatla (Andhra Pradesh) and 730 km northwest of Sri Vijaya Puram (Andaman Islands). It is very likely to continue to move west-northwestwards and intensify further into a very severe cyclonic storm over the same region during next 12 hours. It is very likely to continue to move west-northwestwards till evening of 27th October and thereafter, it is very likely to move northwestwards and cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam, close to Yanam as a very severe cyclonic storm with the maximum sustained wind speed of 115-125 kmph gusting to 140 kmph by forenoon of 28th October, 2026"
       },
       {
         "type": "Low Pressure Area",
         "status": "active",
         "location": "the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure areaover Southwest Bay of Bengal and adjoining south coastal Tamil Nadu persisted over the same region at 1430 hrs IST of today, the 26th October, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level."
+        "raw_text": "The Low Pressure areaover Southwest Bay of Bengal and adjoining south coastal Tamil Nadu persisted over the same region at 1730 hrs IST of today, the 26th October, 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level."
       },
       {
         "type": "Western Disturbance",
@@ -82,6 +82,16 @@
           "display": "1.5 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over Southwest Rajasthan & neighbourhood at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Uttar Pradesh & adjoining Bihar",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over southeast Uttar Pradesh & adjoining Bihar and extends upto 3.1 km above mean sea level."
       }
     ],
     "other_troughs": [
@@ -100,7 +110,7 @@
     ],
     "suppressed_count": 1,
     "unclassified": [
-      "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 25°N. it is likely to affect northwest India from the night of 27th October, 2026."
+      "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 25°N. it is likely to affect northwest India from the night of 27th October, 2026."
     ],
     "validation": {
       "warnings_count": 0,
@@ -108,5 +118,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-26 21:05 IST"
+  "fetched_at": "2026-10-27 03:29 IST"
 }
