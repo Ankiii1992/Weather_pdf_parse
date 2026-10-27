@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/83f59aa7feb1d8121a28e4faed015584.pdf",
+  "last_updated": "05:21 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-10-27",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The very severe cyclonic storm “Arnab” [Pronunciation :Ornab] over Westcentral Bay of Bengal moved west-northwestwards with a speed of 18 kmph during past 6 hours, and lies centered at 1430 hrs IST of today, the 27th October, 2026 over the same region near latitude 16.2°N and longitude 83.3°E, about 140 km southeast of Kakinada (Andhra Pradesh), 170 km south of Vishakhapatnam (Andhra Pradesh), 230 km east of Machilipatnam (Andhra Pradesh), 300 km east-northeast of Bapatla (Andhra Pradesh), and 380 km south- southwest of Gopalpur (Odisha). It is very likely to move nearly west-northwestwards during next few hours, then northwestwards and cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam, close to south of Yanam as a very severe cyclonic storm with the maximum sustained wind speed of 125-135 kmph gusting to 150 kmph by forenoon of 28th October, 2026.\nThe trough from southwest Bay of Bengal off Sri Lanka coast to cyclonic circulation associated with the very severe cyclonic storm “Arnab” over Westcentral Bay of Bengal extending upto 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation lies over south Andaman Sea and neighbourhood & extends upto 5.8 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over north Haryana over northwest Uttar Pradesh & neighbourhood between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Southwest Rajasthan & neighbourhood at 1.5 km above mean sea level persists. Another Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 28°N persists.\nThe upper air cyclonic circulation over southeast Uttar Pradesh & adjoining Bihar p at 3.1 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Very Severe Cyclonic Storm",
+        "status": "active",
+        "location": "the same region",
+        "coords": {
+          "lat": 16.2,
+          "lon": 83.3
+        },
+        "distance_from": [
+          {
+            "place": "Kakinada (Andhra Pradesh",
+            "distance_km": 140,
+            "direction": "southeast"
+          },
+          {
+            "place": "Vishakhapatnam (Andhra Pradesh",
+            "distance_km": 170,
+            "direction": "south"
+          },
+          {
+            "place": "Machilipatnam (Andhra Pradesh",
+            "distance_km": 230,
+            "direction": "east"
+          },
+          {
+            "place": "Gopalpur (Odisha",
+            "distance_km": 380,
+            "direction": "south- southwest"
+          }
+        ],
+        "movement": "west-northwestwards",
+        "raw_text": "The very severe cyclonic storm “Arnab” [Pronunciation :Ornab] over Westcentral Bay of Bengal moved west-northwestwards with a speed of 18 kmph during past 6 hours, and lies centered at 1430 hrs IST of today, the 27th October, 2026 over the same region near latitude 16.2°N and longitude 83.3°E, about 140 km southeast of Kakinada (Andhra Pradesh), 170 km south of Vishakhapatnam (Andhra Pradesh), 230 km east of Machilipatnam (Andhra Pradesh), 300 km east-northeast of Bapatla (Andhra Pradesh), and 380 km south- southwest of Gopalpur (Odisha). It is very likely to move nearly west-northwestwards during next few hours, then northwestwards and cross Andhra Pradesh & Yanam coasts between Bapatla and Visakhapatnam, close to south of Yanam as a very severe cyclonic storm with the maximum sustained wind speed of 125-135 kmph gusting to 150 kmph by forenoon of 28th October, 2026."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana over northwest Uttar Pradesh & neighbourhood between 3.1 & 4.5 km above mean sea level persists.",
+        "form": "cyclonic_circulation",
+        "location": "north Haryana over northwest Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Andaman Sea and neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over south Andaman Sea and neighbourhood & extends upto 5.8 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southwest Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southwest Rajasthan & neighbourhood at 1.5 km above mean sea level persists. Another Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 73°E to the north of Lat. 28°N persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Uttar Pradesh & adjoining Bihar p",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Uttar Pradesh & adjoining Bihar p at 3.1 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "southwest Bay of Bengal off Sri Lanka coast to cyclonic circulation associated with the very severe cyclonic storm “Arnab” over Westcentral Bay of Bengal",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The trough from southwest Bay of Bengal off Sri Lanka coast to cyclonic circulation associated with the very severe cyclonic storm “Arnab” over Westcentral Bay of Bengal extending upto 3.1 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-27 20:31 IST"
+}
