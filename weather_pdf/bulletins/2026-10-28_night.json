@@ -1,0 +1,100 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/9fb561b4841ffbbddc89c751a88703d1.pdf",
+  "last_updated": "09:04 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-10-28",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The severe cyclonic storm “Arnab” over Coastal Andhra Pradesh & Yanam and adjoining Westcentral Bay of Bengal, moved slowly north-northwestwards with the speed of 8 kmph during past 6 hours, weakened into a cyclonic storm and lies centered at 1730 hrs IST of today, the 28th October, over the same region near latitude 17.0°N and longitude 81.7°E, about 60 km north of Narsapur (Andhra Pradesh), 60 km west-northwest of Yanam (Puducherry UT), 60 km west of Kakinada (Andhra Pradesh), 100 km west-southwest of Tuni (Andhra Pradesh), 110 km north-northeast of Machilipatnam (Andhra Pradesh) and 110 km east-northeast of Gannavaram (Andhra Pradesh). It is very likely to move north-northwestwards during next 24 hours, it is very likely to weaken into a Deep Depression by midnight of today, the 28th October, 2026 and weaken gradually thereafter.\nThe upper air cyclonic circulation over south Andaman Sea & neighbourhood extending upto 5.8 km above mean sea level persists. Under its influence, a low pressure area is likely to form over the same region during next 24 hours.\nThe cyclonic circulation over northwest Uttar Pradesh & neighbourhood now lies over Haryana & adjoining Uttar Pradesh at 1.5 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over Jammu and neighbourhood between 3.1 and 4.5 km above mean sea level persists. Another Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 69°E to the north of Lat. 28°N persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Severe Cyclonic Storm",
+        "status": "weakening",
+        "location": "the same region",
+        "coords": {
+          "lat": 17.0,
+          "lon": 81.7
+        },
+        "distance_from": [
+          {
+            "place": "Narsapur (Andhra Pradesh",
+            "distance_km": 60,
+            "direction": "north"
+          },
+          {
+            "place": "Yanam (Puducherry UT",
+            "distance_km": 60,
+            "direction": "west-northwest"
+          },
+          {
+            "place": "Kakinada (Andhra Pradesh",
+            "distance_km": 60,
+            "direction": "west"
+          },
+          {
+            "place": "Tuni (Andhra Pradesh",
+            "distance_km": 100,
+            "direction": "west-southwest"
+          },
+          {
+            "place": "Gannavaram (Andhra Pradesh",
+            "distance_km": 110,
+            "direction": "east-northeast"
+          }
+        ],
+        "movement": "north-northwestwards",
+        "raw_text": "The severe cyclonic storm “Arnab” over Coastal Andhra Pradesh & Yanam and adjoining Westcentral Bay of Bengal, moved slowly north-northwestwards with the speed of 8 kmph during past 6 hours, weakened into a cyclonic storm and lies centered at 1730 hrs IST of today, the 28th October, over the same region near latitude 17.0°N and longitude 81.7°E, about 60 km north of Narsapur (Andhra Pradesh), 60 km west-northwest of Yanam (Puducherry UT), 60 km west of Kakinada (Andhra Pradesh), 100 km west-southwest of Tuni (Andhra Pradesh), 110 km north-northeast of Machilipatnam (Andhra Pradesh) and 110 km east-northeast of Gannavaram (Andhra Pradesh). It is very likely to move north-northwestwards during next 24 hours, it is very likely to weaken into a Deep Depression by midnight of today, the 28th October, 2026 and weaken gradually thereafter."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Jammu and neighbourhood between 3.1 and 4.5 km above mean sea level persists. Another Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 69°E to the north of Lat. 28°N persists.",
+        "form": "cyclonic_circulation",
+        "location": "Jammu and neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Andaman Sea & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Andaman Sea & neighbourhood extending upto 5.8 km above mean sea level persists. Under its influence, a low pressure area is likely to form over the same region during next 24 hours."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Haryana & adjoining Uttar Pradesh",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The cyclonic circulation over northwest Uttar Pradesh & neighbourhood now lies over Haryana & adjoining Uttar Pradesh at 1.5 km above mean sea level."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-28 23:06 IST"
+}
