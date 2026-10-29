@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2aaa7090f1b78be45c1efcc4f0857b9e.pdf",
-  "last_updated": "01:49 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3c2bc24ac351bd54a7ae95c319a0f24b.pdf",
+  "last_updated": "08:51 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-10-29",
   "bulletin": {
     "morning": null,
@@ -11,40 +11,19 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression (Remnant of Very Severe Cyclonic Storm “Arnab”) over south Chhattisgarh and adjoining south Odisha moved nearly northwards with the speed of 18 kmph during past 6 hours, and lies centered at 0830 hrs IST of today, the 29th October, over the same region near latitude 19.4°N and longitude 81.9°E, about 40 km north-northwest of Jagdalpur (Chhattisgarh), 180 km southwest of Titlagarh (Odisha), 150 km west- southwest of Bhawanipatna (Odisha), 200 km south of Raipur (Odisha), and 310 km southwest of Sambalpur (Odisha). It is very likely to continue to move nearly northwards, and weaken into a well marked low pressure area over North Chhattisgarh and adjoining Northwest Odisha around evening of today, the 29th October 2026.\nThe low pressure area over south Andaman Sea & neighbourhood persisted over the same region at 0830 Hrs IST of today, the 29th October 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and become a Well Marked Low Pressure Area over south Andaman Sea and adjoining Andaman & Nicobar Islands during next 24 hours. Thereafter, continuing to move west-northwestwards, it is very likely to concentrate into a depression over southeast Bay of Bengal and adjoining Andaman & Nicobar Islands and Andaman Sea during subsequent 24 hours.\nThe Western Disturbance as a cyclonic circulation over north Pakistan and neighbourhood between 3.1 and 4.5 km above mean sea level persists, with the trough aloft in middle & upper tropospheric westerlies with axis at 5.8 km above mean sea level now runs roughly along Long. 68°E to the north of Lat. 22°N.\nAn Induce upper air cyclonic circulation lies over south Punjab & neighbourhood at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over south Konkan and neighbourhood extending upto 3.1 km above mean sea level persists.\nA trough runs from the cyclonic circulation associated with the depression over south Chhattisgarh and adjoining south Odisha to the cyclonic circulation over south Konkan across Telangana and North Interior Karnataka & extends upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Haryana & adjoining Uttar Pradesh lies over north Haryana & neighbourhood at 0.9 km above mean sea level.",
+  "met_analysis": "The Depression (Remnant of Very Severe Cyclonic Storm “Arnab”) over central Chhattisgarh and adjoining Odisha moved nearly northwards and weakened into a Well Marked Low Pressure Area over central parts of Chhattisgarh and adjoining Odisha at 1730 hrs IST of 29th October, 2026. It is very likely to continue to move north-northeastwards, and weaken further into a low pressure area over Northeast Chhattisgarh & neighbourhood during next 24 hours.\nThe Low Pressure Area over south Andaman Sea & neighbourhood persisted over the same region at 1730 hrs IST of today, the 29th October 2026. It is very likely to move west-northwestwards and concentrate into a depression over southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea around 31st October. Thereafter, it is likely to intensify further and continue to move west-northwestwards towards Andhra Pradesh coast during subsequent 2 days.\nThe Western Disturbance as a cyclonic circulation over north Pakistan and neighbourhood between 3.1 and 4.5 km above mean sea level with the trough aloft in middle & upper tropospheric westerlies with axis at 5.8 km above mean sea level runs roughly along Long. 68°E to the north of Lat. 22°N persists.\nThe Induce upper air cyclonic circulation over south Punjab & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Konkan and neighbourhood extending upto 3.1 km above mean sea level persists.\nThe trough from the cyclonic circulation associated with the Wall marked low pressure area over central parts of Chhattisgarh and adjoining Odisha to the cyclonic circulation over south Konkan across Telangana and North Interior Karnataka extending upto 3.1 km above mean sea level.\nThe upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea levelpersists.",
   "systems": {
     "priority": [
       {
         "type": "Depression",
         "status": "active",
-        "location": "the same region",
-        "coords": {
-          "lat": 19.4,
-          "lon": 81.9
-        },
-        "distance_from": [
-          {
-            "place": "Jagdalpur (Chhattisgarh",
-            "distance_km": 40,
-            "direction": "north-northwest"
-          },
-          {
-            "place": "Titlagarh (Odisha",
-            "distance_km": 180,
-            "direction": "southwest"
-          },
-          {
-            "place": "Bhawanipatna (Odisha",
-            "distance_km": 150,
-            "direction": "west- southwest"
-          },
-          {
-            "place": "Sambalpur (Odisha",
-            "distance_km": 310,
-            "direction": "southwest"
-          }
-        ],
-        "raw_text": "The Depression (Remnant of Very Severe Cyclonic Storm “Arnab”) over south Chhattisgarh and adjoining south Odisha moved nearly northwards with the speed of 18 kmph during past 6 hours, and lies centered at 0830 hrs IST of today, the 29th October, over the same region near latitude 19.4°N and longitude 81.9°E, about 40 km north-northwest of Jagdalpur (Chhattisgarh), 180 km southwest of Titlagarh (Odisha), 150 km west- southwest of Bhawanipatna (Odisha), 200 km south of Raipur (Odisha), and 310 km southwest of Sambalpur (Odisha). It is very likely to continue to move nearly northwards, and weaken into a well marked low pressure area over North Chhattisgarh and adjoining Northwest Odisha around evening of today, the 29th October 2026."
+        "location": "central Chhattisgarh and adjoining Odisha moved nearly northwards and weakened into a Well Marked Low Pressure Area over central parts of Chhattisgarh and adjoining Odisha",
+        "on_land": true,
+        "movement": "north-northeastwards",
+        "raw_text": "The Depression (Remnant of Very Severe Cyclonic Storm “Arnab”) over central Chhattisgarh and adjoining Odisha moved nearly northwards and weakened into a Well Marked Low Pressure Area over central parts of Chhattisgarh and adjoining Odisha at 1730 hrs IST of 29th October, 2026. It is very likely to continue to move north-northeastwards, and weaken further into a low pressure area over Northeast Chhattisgarh & neighbourhood during next 24 hours.",
+        "_warnings": [
+          "location looks wrong (contains movement/timestamp text): 'central Chhattisgarh and adjoining Odisha moved nearly northwards and weakened i'"
+        ]
       },
       {
         "type": "Low Pressure Area",
@@ -52,11 +31,11 @@
         "location": "south Andaman Sea & neighbourhood persisted over the same region",
         "on_land": true,
         "movement": "west-northwestwards",
-        "raw_text": "The low pressure area over south Andaman Sea & neighbourhood persisted over the same region at 0830 Hrs IST of today, the 29th October 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and become a Well Marked Low Pressure Area over south Andaman Sea and adjoining Andaman & Nicobar Islands during next 24 hours. Thereafter, continuing to move west-northwestwards, it is very likely to concentrate into a depression over southeast Bay of Bengal and adjoining Andaman & Nicobar Islands and Andaman Sea during subsequent 24 hours."
+        "raw_text": "The Low Pressure Area over south Andaman Sea & neighbourhood persisted over the same region at 1730 hrs IST of today, the 29th October 2026. It is very likely to move west-northwestwards and concentrate into a depression over southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea around 31st October. Thereafter, it is likely to intensify further and continue to move west-northwestwards towards Andhra Pradesh coast during subsequent 2 days."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan and neighbourhood between 3.1 and 4.5 km above mean sea level persists, with the trough aloft in middle & upper tropospheric westerlies with axis at 5.8 km above mean sea level now runs roughly along Long. 68°E to the north of Lat. 22°N.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan and neighbourhood between 3.1 and 4.5 km above mean sea level with the trough aloft in middle & upper tropospheric westerlies with axis at 5.8 km above mean sea level runs roughly along Long. 68°E to the north of Lat. 22°N persists.",
         "form": "cyclonic_circulation",
         "location": "north Pakistan and neighbourhood",
         "level": {
@@ -94,31 +73,34 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Haryana & adjoining Uttar Pradesh lies over north Haryana & neighbourhood at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood at 0.9 km above mean sea levelpersists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "the cyclonic circulation associated with the depression over south Chhattisgarh and adjoining south Odisha to the cyclonic circulation over south Konkan",
+        "extent": "the cyclonic circulation associated with the Wall marked low pressure area over central parts of Chhattisgarh and adjoining Odisha to the cyclonic circulation over south Konkan",
+        "across": "Telangana and North Interior Karnataka",
         "level": {
           "type": "upto",
           "max": 3.1,
           "display": "upto 3.1 km above MSL"
         },
-        "raw_text": "A trough runs from the cyclonic circulation associated with the depression over south Chhattisgarh and adjoining south Odisha to the cyclonic circulation over south Konkan across Telangana and North Interior Karnataka & extends upto 3.1 km above mean sea level."
+        "raw_text": "The trough from the cyclonic circulation associated with the Wall marked low pressure area over central parts of Chhattisgarh and adjoining Odisha to the cyclonic circulation over south Konkan across Telangana and North Interior Karnataka extending upto 3.1 km above mean sea level."
       }
     ],
     "suppressed_count": 1,
     "unclassified": [
-      "An Induce upper air cyclonic circulation lies over south Punjab & neighbourhood at 1.5 km above mean sea level."
+      "The Induce upper air cyclonic circulation over south Punjab & neighbourhood at 1.5 km above mean sea level persists."
     ],
     "validation": {
-      "warnings_count": 0,
-      "systems_with_warnings": []
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Depression"
+      ]
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-29 14:59 IST"
+  "fetched_at": "2026-10-29 23:15 IST"
 }
