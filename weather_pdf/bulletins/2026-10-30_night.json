@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/423153f90f2089e1c92267018ab48a0e.pdf",
+  "last_updated": "09:37 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-10-30",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure Area (Remnant of Very Severe Cyclonic Storm “Arnab”) overnorth Chhattisgarh & adjoining East Madhya Pradesh lies over north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand at 1730 hrs IST of 30th October, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level.\nThe Low Pressure Area over South Andaman Sea and adjoining Andaman Nicobar Island lies over South Andaman Sea & adjoining North Andaman Sea and Andaman & Nicobar Islands at 1730 hrs IST of today, the 30th October 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move west-northwestwards and concentrate into a Depression over southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea around 31st October. Thereafter, it is likely to move west-northwestwards towards Andhra Pradesh coast during subsequent 2 days.\nThe Western Disturbance as a cyclonic circulation over north Punjab & neighbourhood lies over north Haryana & neighbourhood at 4.5 km above mean sea level with the trough aloft in middle & upper tropospheric westerlies with axis at 5.8 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 25°N.\nThe trough now runsfrom northwest Uttar Pradesh to the cyclonic circulation associated with the Low Pressure Area over north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over South Gujarat & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe trough now runs from eastcentral Arabian Sea off Maharashtra coast to cyclonic circulation associated with the Low Pressure area over north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand across Konkan & Goa, Madhya Maharashtra, Marathwada, Vidarbha at 1.5 km above mean sea level.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand",
+        "on_land": true,
+        "raw_text": "The Low Pressure Area (Remnant of Very Severe Cyclonic Storm “Arnab”) overnorth Chhattisgarh & adjoining East Madhya Pradesh lies over north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand at 1730 hrs IST of 30th October, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level."
+      },
+      {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "South Andaman Sea & adjoining North Andaman Sea and Andaman & Nicobar Islands",
+        "on_land": true,
+        "movement": "west-northwestwards",
+        "raw_text": "The Low Pressure Area over South Andaman Sea and adjoining Andaman Nicobar Island lies over South Andaman Sea & adjoining North Andaman Sea and Andaman & Nicobar Islands at 1730 hrs IST of today, the 30th October 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move west-northwestwards and concentrate into a Depression over southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea around 31st October. Thereafter, it is likely to move west-northwestwards towards Andhra Pradesh coast during subsequent 2 days."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Punjab & neighbourhood lies over north Haryana & neighbourhood at 4.5 km above mean sea level with the trough aloft in middle & upper tropospheric westerlies with axis at 5.8 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 25°N.",
+        "form": "cyclonic_circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 4.5,
+          "display": "4.5 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "Long",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Gujarat & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over South Gujarat & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Assam & neighbourhood at 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "northwest Uttar Pradesh to the cyclonic circulation associated with the Low Pressure Area over north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough now runsfrom northwest Uttar Pradesh to the cyclonic circulation associated with the Low Pressure Area over north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "eastcentral Arabian Sea off Maharashtra coast to cyclonic circulation associated with the Low Pressure area over north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand",
+        "across": "Konkan & Goa, Madhya Maharashtra, Marathwada, Vidarbha",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The trough now runs from eastcentral Arabian Sea off Maharashtra coast to cyclonic circulation associated with the Low Pressure area over north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand across Konkan & Goa, Madhya Maharashtra, Marathwada, Vidarbha at 1.5 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-10-30 22:50 IST"
+}
