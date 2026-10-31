@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/8f7ae5bb841a3120cf9b2eb903517e77.pdf",
-  "last_updated": "09:01 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e71f076601693263f976048487027ca8.pdf",
+  "last_updated": "04:41 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-10-31",
   "bulletin": {
     "morning": null,
@@ -11,81 +11,87 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area (Remnant of Very Severe Cyclonic Storm “Arnab”) overnorth Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand lies over southeast Uttar Pradesh & neighbourhood at 0530 hrs IST of 31st October, 2026. The associated cyclonic circulation extends upto 3.1 km above mean sea level.\nYesterday's Low Pressure Area over South Andaman Sea & adjoining North Andaman Sea and Andaman & Nicobar Islands moved west-northwestwards and lay as a Well Marked Low pressure area over southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea at 0530 hrs IST of today, the 31st October 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and concentrate into a Depression over the same region during next 12 hours. Thereafter, it is likely to intensify further and move west-northwestwards and reach over westcentral Bay of Bengal near Andhra Pradesh coast around evening of 2nd November 2026.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood at 4.5 km above mean sea level persists with the trough aloft in middle & upper tropospheric westerlies with axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 27°N.\nThe trough now runs from eastcentral Arabian Sea off Maharashtra coast to cyclonic circulation associated with the Low Pressure area over southeast Uttar Pradesh & neighbourhood across Konkan & Goa, Madhya Maharashtra, Marathwada, Vidarbha and Madhya Pradesh at 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over North Interior Karnataka & neighbourhood and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over South Gujarat & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Assam & neighbourhood at 1.5 km above mean sea level has become less marked.\nThe trough from northwest Uttar Pradesh to the cyclonic circulation associated with the Low Pressure Area over north Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand at 3.1 km above mean sea levelhas become less marked.",
+  "met_analysis": "The Low-Pressure Area (Remnant of Very Severe Cyclonic Storm “Arnab”) over southeast Uttar Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of 31st October, 2026. However, the associated cyclonic circulation now extends upto 1.5 km above mean sea level as the system is under the influence of extra tropical westerlies.\nThe Well Marked Low pressure area over Southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea moved west-northwestwards and concentrated into a depression at 1130 hrs IST of today, the 31st October 2026 over the same region near latitude 10.0N and 90.2E, about 330 km west-southwest of Sri Vijayapuram, 300 km west-northwest of Car Nicobar, 1140 km east-southeast of Chennai and 1200 km southeast of Machilipatnam. It is very likely to move west-northwestwards and intensify into a deep depression over Southeast Bay of Bengal during next 12 hours. Continuing to move west- northwestwards, it is very likely to intensify further into a cyclonic storm over Southeast & adjoining areas of Southwest & West-central Bay of Bengal during subsequent 12 hours and reach over Westcentral Bay of Bengal near Andhra Pradesh coast around evening of 2nd November 2026.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood at 4.5 km above mean sea level persists.\nThe fresh Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 65°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over south Maharashtra coast & neighbourhoodbetween 1.5 & 3.1 km above mean sea level persists.\nThe trough from Southeast Arabian sea off Kerala-Karnataka coast to the upper air cyclonic circulation over south Maharashtra coast & neighbourhoodat 1.5 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "southeast Uttar Pradesh & neighbourhood",
+        "location": "southeast Uttar Pradesh & neighbourhood persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure Area (Remnant of Very Severe Cyclonic Storm “Arnab”) overnorth Chhattisgarh & adjoining East Madhya Pradesh, southeast Uttar Pradesh and west Jharkhand lies over southeast Uttar Pradesh & neighbourhood at 0530 hrs IST of 31st October, 2026. The associated cyclonic circulation extends upto 3.1 km above mean sea level."
+        "raw_text": "The Low-Pressure Area (Remnant of Very Severe Cyclonic Storm “Arnab”) over southeast Uttar Pradesh & neighbourhood persisted over the same region at 1430 hrs IST of 31st October, 2026. However, the associated cyclonic circulation now extends upto 1.5 km above mean sea level as the system is under the influence of extra tropical westerlies."
       },
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "South Andaman Sea & adjoining North Andaman Sea and Andaman & Nicobar Islands moved west-northwestwards and lay as a Well Marked Low pressure area over southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea",
+        "location": "the same region",
+        "distance_from": [
+          {
+            "place": "Sri Vijayapuram",
+            "distance_km": 330,
+            "direction": "west-southwest"
+          },
+          {
+            "place": "Car Nicobar",
+            "distance_km": 300,
+            "direction": "west-northwest"
+          },
+          {
+            "place": "Chennai and 1200 km southeast of Machilipatnam",
+            "distance_km": 1140,
+            "direction": "east-southeast"
+          }
+        ],
         "movement": "west-northwestwards",
-        "raw_text": "Yesterday's Low Pressure Area over South Andaman Sea & adjoining North Andaman Sea and Andaman & Nicobar Islands moved west-northwestwards and lay as a Well Marked Low pressure area over southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea at 0530 hrs IST of today, the 31st October 2026. The associated cyclonic circulation extends upto 7.6 km above mean sea level. It is very likely to move west-northwestwards and concentrate into a Depression over the same region during next 12 hours. Thereafter, it is likely to intensify further and move west-northwestwards and reach over westcentral Bay of Bengal near Andhra Pradesh coast around evening of 2nd November 2026.",
-        "_warnings": [
-          "location looks wrong (contains movement/timestamp text): 'South Andaman Sea & adjoining North Andaman Sea and Andaman & Nicobar Islands mo'"
-        ]
+        "raw_text": "The Well Marked Low pressure area over Southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea moved west-northwestwards and concentrated into a depression at 1130 hrs IST of today, the 31st October 2026 over the same region near latitude 10.0N and 90.2E, about 330 km west-southwest of Sri Vijayapuram, 300 km west-northwest of Car Nicobar, 1140 km east-southeast of Chennai and 1200 km southeast of Machilipatnam. It is very likely to move west-northwestwards and intensify into a deep depression over Southeast Bay of Bengal during next 12 hours. Continuing to move west- northwestwards, it is very likely to intensify further into a cyclonic storm over Southeast & adjoining areas of Southwest & West-central Bay of Bengal during subsequent 12 hours and reach over Westcentral Bay of Bengal near Andhra Pradesh coast around evening of 2nd November 2026."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood at 4.5 km above mean sea level persists with the trough aloft in middle & upper tropospheric westerlies with axis at 5.8 km above mean sea level now runs roughly along Long. 78°E to the north of Lat. 27°N.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood at 4.5 km above mean sea level persists.",
         "form": "cyclonic_circulation",
         "location": "north Haryana & neighbourhood",
         "level": {
           "type": "single",
           "min": 4.5,
           "display": "4.5 km above MSL"
-        },
-        "trough_aloft": {
-          "axis": "Long",
-          "level": {
-            "type": "single",
-            "min": 5.8,
-            "display": "5.8 km above MSL"
-          }
         }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "North Interior Karnataka & neighbourhood",
+        "location": "south Maharashtra coast & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over North Interior Karnataka & neighbourhood and extends upto 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over south Maharashtra coast & neighbourhoodbetween 1.5 & 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "eastcentral Arabian Sea off Maharashtra coast to cyclonic circulation associated with the Low Pressure area over southeast Uttar Pradesh & neighbourhood",
-        "across": "Konkan & Goa, Madhya Maharashtra, Marathwada, Vidarbha and Madhya Pradesh",
+        "extent": "Southeast Arabian sea off Kerala-Karnataka coast to the upper air cyclonic circulation over south Maharashtra coast & neighbourhoodat 1.5 km above mean sea level",
         "level": {
           "type": "single",
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The trough now runs from eastcentral Arabian Sea off Maharashtra coast to cyclonic circulation associated with the Low Pressure area over southeast Uttar Pradesh & neighbourhood across Konkan & Goa, Madhya Maharashtra, Marathwada, Vidarbha and Madhya Pradesh at 1.5 km above mean sea level."
+        "raw_text": "The trough from Southeast Arabian sea off Kerala-Karnataka coast to the upper air cyclonic circulation over south Maharashtra coast & neighbourhoodat 1.5 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 3,
-    "unclassified": [],
+    "suppressed_count": 1,
+    "unclassified": [
+      "The fresh Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 65°E to the north of Lat. 29°N persists."
+    ],
     "validation": {
-      "warnings_count": 1,
-      "systems_with_warnings": [
-        "Low Pressure Area"
-      ]
+      "warnings_count": 0,
+      "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-10-31 14:31 IST"
+  "fetched_at": "2026-10-31 20:33 IST"
 }
