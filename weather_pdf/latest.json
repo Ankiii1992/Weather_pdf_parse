@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b3d2c5aa999ffae6cf2ed485c43e4b27.pdf",
-  "last_updated": "10:15 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-10-31",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/78bbc4bc6f59cbc05f9eed22ad348506.pdf",
+  "last_updated": "02:19 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-11-01",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,55 +11,47 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low-Pressure Area (Remnant of Very Severe Cyclonic Storm “Arnab”) over southeast Uttar Pradesh & neighbourhood persisted over the same region at 1730 hrs IST of 31st October, 2026. However, the associated cyclonic circulation now extends upto 1.5 km above mean sea level as the system is under the influence of extra tropical westerlies.\nThe Depression over Southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea moved west-northwestwards with speed of 30 kmph during past 6 hours and lies centered at 1730 hours IST of today, the 31st October, 2026 over southeast Bay of Bengal, near Latitude 10.5°N and Longitude 88.6°E, about 960 km east-southeast of Chennai (Chennai), 980 km southeast of Vishakhapatnam (Andhra Pradesh) and 1030 km southeast of Machilipatnam (Andhra Pradesh) and 1080 km east-southeast of Ongole (Andhra Pradesh). It is very likely to move west-northwestwards and intensify into a deep depression over Southeast Bay of Bengal by midnight of today, into a Cyclonic Storm over the same region on 1st November and into a Severe Cyclonic Storm over Westcentral Bay of Bengal on 2nd November. It is very likely to reach over westcentral Bay of Bengal near south Andhra Pradesh coast by early hours of 3rd November and cross south Andhra Pradesh coast as a Severe Cyclonic Storm with wind speed of 100 to 110 kmph gusting 120kmph between Nellore and Narsapur by morning of 3rd November 2026.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood at 4.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 65°E to the north of Lat. 29°N persists.\nThe upper air cyclonic circulation over south Maharashtra coast & neighbourhoodbetween 1.5 & 3.1 km above mean sea level persists.\nThe trough from Southeast Arabian sea off Kerala-Karnataka coast to the upper air cyclonic circulation over south Maharashtra coast & neighbourhoodat 1.5 km above mean sea level persists.",
+  "met_analysis": "The cyclonic circulation over west Bihar & adjoining Uttar Pradesh now lies over southeast Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level.\nThe Deep Depression over southeast and adjoining southwest Bay of Bengal moved west northwestwards and lies centered at 0830 hours IST of today, 01st November over southwest and adjoining southeast Bay of Bengal. It moved west-northwestwards with speed of 23 kmph during past 6 hours, intensified into the Cyclonic Storm “Murasu” [Pronunciation: Murasu]” and lies centered at 1130 hours IST of today, the 01st November, 2026 over Southwest & adjoining Westcentral Bay of Bengal, near Latitude 12.1°N and Longitude 85.3°E, about 560 km east-southeast of Chennai (Tamil Nadu), 660 km south-southeast of Vishakhapatnam (Andhra Pradesh), 630 km east-southeast of Nellore (Andhra Pradesh), 640 km southeast of Machilipatnam (Andhra Pradesh) and 680 km east-southeast of Ongole (Andhra Pradesh). It is very likely to move west-northwestwards and intensify further into a Severe Cyclonic Storm over Westcentral Bay of Bengal around 2nd November morning. Thereafter it is very likely to move northwestwards and cross south Andhra Pradesh coast as a Severe Cyclonic Storm with wind speed of 100 to 110 kmph gusting 120kmph between Nellore and Narsapurduring midnight (2330 Hrs IST) of 2nd to early hours (0400 Hrs IST) of 3rd November, 2026.\nThe Western Disturbance as a trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 67°E to the north of Lat. 20°N.\nThe upper air cyclonic circulation over Southeast Arabian Sea & adjoining Lakshadweep persists and extendsupto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Arunachal Pradesh & neighbourhood and extends upto 1.5 km above mean sea level.\nAn upper air cyclonic circulation lies over Eastcentral Arabian Sea & neighbourhood at 3.1 km above mean sea level.\nThe Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood at 4.5 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
-        "type": "Depression",
+        "type": "Deep Depression",
         "status": "active",
-        "location": "southeast Bay of Bengal",
+        "location": "Southwest & adjoining Westcentral Bay of Bengal",
         "coords": {
-          "lat": 10.5,
-          "lon": 88.6
+          "lat": 12.1,
+          "lon": 85.3
         },
         "distance_from": [
           {
-            "place": "Chennai (Chennai",
-            "distance_km": 960,
+            "place": "Chennai (Tamil Nadu",
+            "distance_km": 560,
+            "direction": "east-southeast"
+          },
+          {
+            "place": "Vishakhapatnam (Andhra Pradesh",
+            "distance_km": 660,
+            "direction": "south-southeast"
+          },
+          {
+            "place": "Nellore (Andhra Pradesh",
+            "distance_km": 630,
             "direction": "east-southeast"
           },
           {
             "place": "Ongole (Andhra Pradesh",
-            "distance_km": 1080,
+            "distance_km": 680,
             "direction": "east-southeast"
           }
         ],
         "movement": "west-northwestwards",
-        "raw_text": "The Depression over Southeast Bay of Bengal and adjoining areas of Andaman & Nicobar Islands and Andaman Sea moved west-northwestwards with speed of 30 kmph during past 6 hours and lies centered at 1730 hours IST of today, the 31st October, 2026 over southeast Bay of Bengal, near Latitude 10.5°N and Longitude 88.6°E, about 960 km east-southeast of Chennai (Chennai), 980 km southeast of Vishakhapatnam (Andhra Pradesh) and 1030 km southeast of Machilipatnam (Andhra Pradesh) and 1080 km east-southeast of Ongole (Andhra Pradesh). It is very likely to move west-northwestwards and intensify into a deep depression over Southeast Bay of Bengal by midnight of today, into a Cyclonic Storm over the same region on 1st November and into a Severe Cyclonic Storm over Westcentral Bay of Bengal on 2nd November. It is very likely to reach over westcentral Bay of Bengal near south Andhra Pradesh coast by early hours of 3rd November and cross south Andhra Pradesh coast as a Severe Cyclonic Storm with wind speed of 100 to 110 kmph gusting 120kmph between Nellore and Narsapur by morning of 3rd November 2026."
-      },
-      {
-        "type": "Low Pressure Area",
-        "status": "active",
-        "location": "southeast Uttar Pradesh & neighbourhood persisted over the same region",
-        "on_land": true,
-        "raw_text": "The Low-Pressure Area (Remnant of Very Severe Cyclonic Storm “Arnab”) over southeast Uttar Pradesh & neighbourhood persisted over the same region at 1730 hrs IST of 31st October, 2026. However, the associated cyclonic circulation now extends upto 1.5 km above mean sea level as the system is under the influence of extra tropical westerlies."
+        "raw_text": "The Deep Depression over southeast and adjoining southwest Bay of Bengal moved west northwestwards and lies centered at 0830 hours IST of today, 01st November over southwest and adjoining southeast Bay of Bengal. It moved west-northwestwards with speed of 23 kmph during past 6 hours, intensified into the Cyclonic Storm “Murasu” [Pronunciation: Murasu]” and lies centered at 1130 hours IST of today, the 01st November, 2026 over Southwest & adjoining Westcentral Bay of Bengal, near Latitude 12.1°N and Longitude 85.3°E, about 560 km east-southeast of Chennai (Tamil Nadu), 660 km south-southeast of Vishakhapatnam (Andhra Pradesh), 630 km east-southeast of Nellore (Andhra Pradesh), 640 km southeast of Machilipatnam (Andhra Pradesh) and 680 km east-southeast of Ongole (Andhra Pradesh). It is very likely to move west-northwestwards and intensify further into a Severe Cyclonic Storm over Westcentral Bay of Bengal around 2nd November morning. Thereafter it is very likely to move northwestwards and cross south Andhra Pradesh coast as a Severe Cyclonic Storm with wind speed of 100 to 110 kmph gusting 120kmph between Nellore and Narsapurduring midnight (2330 Hrs IST) of 2nd to early hours (0400 Hrs IST) of 3rd November, 2026."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Haryana & neighbourhood at 4.5 km above mean sea level persists.",
-        "form": "cyclonic_circulation",
-        "location": "north Haryana & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 4.5,
-          "display": "4.5 km above MSL"
-        }
-      },
-      {
-        "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 65°E to the north of Lat. 29°N persists.",
+        "raw_text": "The Western Disturbance as a trough aloft in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 67°E to the north of Lat. 20°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 65°E to the north of Lat. 29°N",
+        "axis": "along Long. 67°E to the north of Lat. 20°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -70,30 +62,48 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "south Maharashtra coast & neighbourhood",
+        "location": "southeast Uttar Pradesh & neighbourhood",
         "level": {
           "type": "range",
           "min": 1.5,
           "max": 3.1,
           "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over south Maharashtra coast & neighbourhoodbetween 1.5 & 3.1 km above mean sea level persists."
-      }
-    ],
-    "other_troughs": [
+        "raw_text": "The cyclonic circulation over west Bihar & adjoining Uttar Pradesh now lies over southeast Uttar Pradesh & neighbourhood between 1.5 & 3.1 km above mean sea level."
+      },
       {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "Southeast Arabian sea off Kerala-Karnataka coast to the upper air cyclonic circulation over south Maharashtra coast & neighbourhoodat 1.5 km above mean sea level",
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Arabian Sea & adjoining Lakshadweep",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southeast Arabian Sea & adjoining Lakshadweep persists and extendsupto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Arunachal Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Arunachal Pradesh & neighbourhood and extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Eastcentral Arabian Sea & neighbourhood",
         "level": {
           "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "min": 3.1,
+          "display": "3.1 km above MSL"
         },
-        "raw_text": "The trough from Southeast Arabian sea off Kerala-Karnataka coast to the upper air cyclonic circulation over south Maharashtra coast & neighbourhoodat 1.5 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over Eastcentral Arabian Sea & neighbourhood at 3.1 km above mean sea level."
       }
     ],
-    "suppressed_count": 0,
+    "other_troughs": [],
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -101,5 +111,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-01 08:17 IST"
+  "fetched_at": "2026-11-01 15:21 IST"
 }
