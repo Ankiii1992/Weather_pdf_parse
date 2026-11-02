@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e9ff40f362acfc2ed54f0f2493bdaead.pdf",
-  "last_updated": "01:16 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c0f07626d0fae6c04975fa492162e41e.pdf",
+  "last_updated": "08:30 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-02",
   "bulletin": {
     "morning": null,
@@ -11,47 +11,47 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Severe Cyclonic Storm “Murasu” [Pronunciation: Murasu]” over Westcentral & adjoining Southwest Bay of Bengal moved west-northwestwards with a speed of 22 kmph during past 06 hours and lies centered at 0830 hours IST of today, the 02nd November, 2026 over the Westcentral Bay of Bengal near Latitude 14.1°N and Longitude 81.4°E, about 160 km east-southeast of Nellore (Andhra Pradesh), 180 km northeast of Chennai (Tamil Nadu), 180 km east-southeast of Kavali (Andhra Pradesh), 210 km southeast of Ongole (Andhra Pradesh) and 240 km south of Machilipatnam (Andhra Pradesh). It is very likely to move northwestwards and cross south Andhra Pradesh coast as a Severe Cyclonic Storm with wind speed of 100 to 110 kmph gusting to 120 kmph between Nellore and Narsapur, to the south of Ongole during midnight (2330 Hrs IST) of today, the 02nd November to early hours (0400 Hrs IST) of tomorrow, the 3rd November, 2026.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Arunachal Pradesh & neighbourhood now lies over northeast Assam & neighbourhood at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over northeast Rajasthan & neighbourhood at 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over Eastcentral Arabian Sea adjoining Karnataka-south Maharashtra coasts at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over south Kerala & neighbourhood at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea & neighbourhood at 3.1 km above mean sea level persists.\nThe cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 1.5 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Southeast Arabian Sea & adjoining Lakshadweep extending upto 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The Severe Cyclonic Storm “Murasu” [Pronunciation: Murasu]” over Westcentral Bay of Bengal moved north- northwestwards with a speed of 12 kmph during past 06 hours and lies centered at 1730 hours IST of today, the 02nd November, 2026 over the same region near Latitude 14.7°N and Longitude 80.7°E, about 80 km east- northeast of Nellore (Andhra Pradesh), 80 km east-southeast of Kavali (Andhra Pradesh), 110 km southeast of Ongole (Andhra Pradesh), 190 km north-northeast of Chennai (Tamil Nadu) and 170 km south-southwest of Machilipatnam (Andhra Pradesh). It is very likely to move northwestwards and cross south Andhra Pradesh coast as a Severe Cyclonic Storm with wind speed of 100 to 110 kmph gusting to 120 kmph between Nellore and Narsapur, close to Ongole during midnight (2330 Hrs IST) of today, the 02nd November to early hours (0400 Hrs IST) of tomorrow, the 3rd November, 2026.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Rajasthan & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea adjoining Karnataka-south Maharashtra coasts at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Kerala & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea & neighbourhood at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Severe Cyclonic Storm",
         "status": "active",
-        "location": "the Westcentral Bay of Bengal",
+        "location": "the same region",
         "coords": {
-          "lat": 14.1,
-          "lon": 81.4
+          "lat": 14.7,
+          "lon": 80.7
         },
         "distance_from": [
           {
             "place": "Nellore (Andhra Pradesh",
-            "distance_km": 160,
-            "direction": "east-southeast"
-          },
-          {
-            "place": "Chennai (Tamil Nadu",
-            "distance_km": 180,
-            "direction": "northeast"
+            "distance_km": 80,
+            "direction": "east- northeast"
           },
           {
             "place": "Kavali (Andhra Pradesh",
-            "distance_km": 180,
+            "distance_km": 80,
             "direction": "east-southeast"
           },
           {
-            "place": "Ongole (Andhra Pradesh) and 240 km south of Machilipatnam (Andhra Pradesh",
-            "distance_km": 210,
+            "place": "Ongole (Andhra Pradesh",
+            "distance_km": 110,
             "direction": "southeast"
+          },
+          {
+            "place": "Machilipatnam (Andhra Pradesh",
+            "distance_km": 170,
+            "direction": "south-southwest"
           }
         ],
-        "movement": "west-northwestwards",
-        "raw_text": "The Severe Cyclonic Storm “Murasu” [Pronunciation: Murasu]” over Westcentral & adjoining Southwest Bay of Bengal moved west-northwestwards with a speed of 22 kmph during past 06 hours and lies centered at 0830 hours IST of today, the 02nd November, 2026 over the Westcentral Bay of Bengal near Latitude 14.1°N and Longitude 81.4°E, about 160 km east-southeast of Nellore (Andhra Pradesh), 180 km northeast of Chennai (Tamil Nadu), 180 km east-southeast of Kavali (Andhra Pradesh), 210 km southeast of Ongole (Andhra Pradesh) and 240 km south of Machilipatnam (Andhra Pradesh). It is very likely to move northwestwards and cross south Andhra Pradesh coast as a Severe Cyclonic Storm with wind speed of 100 to 110 kmph gusting to 120 kmph between Nellore and Narsapur, to the south of Ongole during midnight (2330 Hrs IST) of today, the 02nd November to early hours (0400 Hrs IST) of tomorrow, the 3rd November, 2026."
+        "movement": "northwestwards",
+        "raw_text": "The Severe Cyclonic Storm “Murasu” [Pronunciation: Murasu]” over Westcentral Bay of Bengal moved north- northwestwards with a speed of 12 kmph during past 06 hours and lies centered at 1730 hours IST of today, the 02nd November, 2026 over the same region near Latitude 14.7°N and Longitude 80.7°E, about 80 km east- northeast of Nellore (Andhra Pradesh), 80 km east-southeast of Kavali (Andhra Pradesh), 110 km southeast of Ongole (Andhra Pradesh), 190 km north-northeast of Chennai (Tamil Nadu) and 170 km south-southwest of Machilipatnam (Andhra Pradesh). It is very likely to move northwestwards and cross south Andhra Pradesh coast as a Severe Cyclonic Storm with wind speed of 100 to 110 kmph gusting to 120 kmph between Nellore and Narsapur, close to Ongole during midnight (2330 Hrs IST) of today, the 02nd November to early hours (0400 Hrs IST) of tomorrow, the 3rd November, 2026."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 72°E to the north of Lat. 30°N.",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 72°E to the north of Lat. 30°N",
+        "axis": "along Long. 74°E to the north of Lat. 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -68,7 +68,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Arunachal Pradesh & neighbourhood now lies over northeast Assam & neighbourhood at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -78,7 +78,7 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over northeast Rajasthan & neighbourhood at 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over northeast Rajasthan & neighbourhood at 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -88,7 +88,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Eastcentral Arabian Sea adjoining Karnataka-south Maharashtra coasts at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Eastcentral Arabian Sea adjoining Karnataka-south Maharashtra coasts at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -98,7 +98,7 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over south Kerala & neighbourhood at 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over south Kerala & neighbourhood at 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -112,7 +112,7 @@
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 2,
+    "suppressed_count": 0,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -120,5 +120,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-02 15:41 IST"
+  "fetched_at": "2026-11-03 02:28 IST"
 }
