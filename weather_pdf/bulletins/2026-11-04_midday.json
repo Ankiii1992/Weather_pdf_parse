@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/343c66ccef53ce4beae566b75bd70f87.pdf",
+  "last_updated": "01:07 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-11-04",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Depression (Remnant of Severe Cyclonic Storm “Murasu”) over east Telangana & adjoining Coastal Andhra Pradesh moved slowly, nearly northwards with a speed of 6 kmph during past 06 hours, and lies centered at 0830 hours IST of today, the 04th November, 2026, over the same region near Latitude 17.2°N and Longitude 80.1°E, about 10 km southwest of Khammam (Telangana), 50 km north-northwest of Nandigama (Andhra Pradesh), 90 km east-northeast of Nalgonda (Telangana), 90 km northwest of Vijayawada (Andhra Pradesh), and 100 km west-southwest of Bhadrachalam (Telangana). Continuing to move nearly northwards, it is very likely to weaken further into a Well Marked Low Pressure area during next 06 hours.\nThe upper air cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level.\nThe upper air cyclonic circulation over south Assam & adjoining Bangladesh at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Konkan & Goa & neighbourhood persists and now seen at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over South Tamil Nadu & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Lakshadweep & neighbourhood extending upto 3.1 km above mean sea level persists.\nA fresh Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 65°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Saurashtra & Kutch & neighbourhood at 3.1 km above mean sea level has become less marked.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Depression",
+        "status": "active",
+        "location": "the same region",
+        "coords": {
+          "lat": 17.2,
+          "lon": 80.1
+        },
+        "distance_from": [
+          {
+            "place": "Khammam (Telangana",
+            "distance_km": 10,
+            "direction": "southwest"
+          },
+          {
+            "place": "Nandigama (Andhra Pradesh",
+            "distance_km": 50,
+            "direction": "north-northwest"
+          },
+          {
+            "place": "Nalgonda (Telangana",
+            "distance_km": 90,
+            "direction": "east-northeast"
+          },
+          {
+            "place": "Bhadrachalam (Telangana",
+            "distance_km": 100,
+            "direction": "west-southwest"
+          }
+        ],
+        "raw_text": "The Depression (Remnant of Severe Cyclonic Storm “Murasu”) over east Telangana & adjoining Coastal Andhra Pradesh moved slowly, nearly northwards with a speed of 6 kmph during past 06 hours, and lies centered at 0830 hours IST of today, the 04th November, 2026, over the same region near Latitude 17.2°N and Longitude 80.1°E, about 10 km southwest of Khammam (Telangana), 50 km north-northwest of Nandigama (Andhra Pradesh), 90 km east-northeast of Nalgonda (Telangana), 90 km northwest of Vijayawada (Andhra Pradesh), and 100 km west-southwest of Bhadrachalam (Telangana). Continuing to move nearly northwards, it is very likely to weaken further into a Well Marked Low Pressure area during next 06 hours."
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Assam & adjoining Bangladesh",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Assam & adjoining Bangladesh at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Konkan & Goa & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Konkan & Goa & neighbourhood persists and now seen at 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "South Tamil Nadu & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over South Tamil Nadu & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Lakshadweep & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Lakshadweep & neighbourhood extending upto 3.1 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 2,
+    "unclassified": [
+      "A fresh Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along Long. 65°E to the north of Lat. 30°N."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-04 15:32 IST"
+}
