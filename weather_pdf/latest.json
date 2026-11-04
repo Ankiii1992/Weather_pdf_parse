@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/86bb96bee42190f71a1578f619140cea.pdf",
-  "last_updated": "01:28 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2a7d4c8196fffc15087306d5d84c2fa6.pdf",
+  "last_updated": "09:24 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-03",
   "bulletin": {
     "morning": null,
@@ -11,49 +11,40 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Severe Cyclonic Storm “Murasu” [Pronunciation: Murasu]” over south coastal Andhra Pradesh moved north-northwestwards with a speed of 08 kmph during past 06 hours and lies centered at 0830 hours IST of today the 03rd November, 2026 over the same region, near Latitude 15.7°N and Longitude 80.2°E about 30 km north-northeast of Ongole, 40 km southwest of Bapatla (Andhra Pradesh), 90 km north-northeast of Kavali (Andhra Pradesh), 100 km south-southwest of Vijayawada (Andhra Pradesh) and 120 km west-southwest of Machilipatnam (Andhra Pradesh). It is very likely to continue to move further north-northwestwards and weaken gradually into a cyclonic storm (wind speed reaching 80-90 kmph gusting to 100 kmph) by noon and further into\na deep depression (wind speed reaching 55-65 kmph gusting to 75 kmph) by midnight of today, the 3rd November,2026. It is under the continuous surveillance of Doppler Weather Radars at Machilipatnam and Visakhapatnam.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nAn upper air cyclonic circulation lies over North Haryana & neighbourhood between 1.5 & 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over Lakshadweep & neighbourhood and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea adjoining Karnataka-south Maharashtra coasts now lies over Coastal Karnataka at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Comorin area now lies over South Tamil Nadu at 0.9 km above mean sea level.\nThe Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 74°E to the north of Lat. 30°N has become less marked.\nThe upper air cyclonic circulation over east Rajasthan & neighbourhood at 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over East Arabian Sea & neighbourhood at 3.1 km above mean sea level has become less marked.",
+  "met_analysis": "The Cyclonic Storm “Murasu” [Pronunciation: Murasu]” over south coastal Andhra Pradesh moved north- northwestwards with a speed of 07 kmph during past 06 hours and lies centered at 1730 hours IST of today the 03rd November, 2026 over the same region, near Latitude 16.2°N and Longitude 80.0°E about 70 km west- southwest of Vijayawada (Andhra Pradesh), 70 km south-southwest of Nandigama (Andhra Pradesh), 120 km southeast of Nalgonda (Telangana), 120 km south of Khammam (Telangana) and 190 km south-southwest of Bhadrachalam (Telangana). The maximum sustained wind speed was 65-75 gusting to 85 kmph at 1730 hrs IST of today, the 3rd November 2026. The Cyclonic Storm is very likely to continue to move north- northwestwards and weaken into a deep depression (wind speed reaching 55-65 kmph gusting to 75 kmph) by midnight of today, the 3rd November, 2026.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over North Haryana & neighbourhood persists and now lies at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Lakshadweep & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Coastal Karnataka & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over South Tamil Nadu & neighbourhood upto 0.9 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
-        "type": "Severe Cyclonic Storm",
-        "status": "weakening",
+        "type": "Cyclonic Storm",
+        "status": "active",
         "location": "the same region",
         "coords": {
-          "lat": 15.7,
-          "lon": 80.2
+          "lat": 16.2,
+          "lon": 80.0
         },
         "distance_from": [
           {
-            "place": "Ongole",
-            "distance_km": 30,
-            "direction": "north-northeast"
+            "place": "Vijayawada (Andhra Pradesh",
+            "distance_km": 70,
+            "direction": "west- southwest"
           },
           {
-            "place": "Bapatla (Andhra Pradesh",
-            "distance_km": 40,
-            "direction": "southwest"
+            "place": "Nandigama (Andhra Pradesh",
+            "distance_km": 70,
+            "direction": "south-southwest"
           },
           {
-            "place": "Kavali (Andhra Pradesh",
-            "distance_km": 90,
-            "direction": "north-northeast"
-          },
-          {
-            "place": "Machilipatnam (Andhra Pradesh",
+            "place": "Nalgonda (Telangana",
             "distance_km": 120,
-            "direction": "west-southwest"
+            "direction": "southeast"
+          },
+          {
+            "place": "Bhadrachalam (Telangana",
+            "distance_km": 190,
+            "direction": "south-southwest"
           }
         ],
-        "movement": "north-northwestwards",
-        "raw_text": "The Severe Cyclonic Storm “Murasu” [Pronunciation: Murasu]” over south coastal Andhra Pradesh moved north-northwestwards with a speed of 08 kmph during past 06 hours and lies centered at 0830 hours IST of today the 03rd November, 2026 over the same region, near Latitude 15.7°N and Longitude 80.2°E about 30 km north-northeast of Ongole, 40 km southwest of Bapatla (Andhra Pradesh), 90 km north-northeast of Kavali (Andhra Pradesh), 100 km south-southwest of Vijayawada (Andhra Pradesh) and 120 km west-southwest of Machilipatnam (Andhra Pradesh). It is very likely to continue to move further north-northwestwards and weaken gradually into a cyclonic storm (wind speed reaching 80-90 kmph gusting to 100 kmph) by noon and further into"
-      },
-      {
-        "type": "Deep Depression",
-        "status": "active",
-        "raw_text": "a deep depression (wind speed reaching 55-65 kmph gusting to 75 kmph) by midnight of today, the 3rd November,2026. It is under the continuous surveillance of Doppler Weather Radars at Machilipatnam and Visakhapatnam.",
-        "_warnings": [
-          "Deep Depression missing location"
-        ]
+        "raw_text": "The Cyclonic Storm “Murasu” [Pronunciation: Murasu]” over south coastal Andhra Pradesh moved north- northwestwards with a speed of 07 kmph during past 06 hours and lies centered at 1730 hours IST of today the 03rd November, 2026 over the same region, near Latitude 16.2°N and Longitude 80.0°E about 70 km west- southwest of Vijayawada (Andhra Pradesh), 70 km south-southwest of Nandigama (Andhra Pradesh), 120 km southeast of Nalgonda (Telangana), 120 km south of Khammam (Telangana) and 190 km south-southwest of Bhadrachalam (Telangana). The maximum sustained wind speed was 65-75 gusting to 85 kmph at 1730 hrs IST of today, the 3rd November 2026. The Cyclonic Storm is very likely to continue to move north- northwestwards and weaken into a deep depression (wind speed reaching 55-65 kmph gusting to 75 kmph) by midnight of today, the 3rd November, 2026."
       }
     ],
     "uac": [
@@ -71,12 +62,11 @@
         "type": "Upper Air Cyclonic Circulation",
         "location": "North Haryana & neighbourhood",
         "level": {
-          "type": "range",
-          "min": 1.5,
-          "max": 3.1,
-          "display": "1.5–3.1 km above MSL"
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over North Haryana & neighbourhood between 1.5 & 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over North Haryana & neighbourhood persists and now lies at 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -86,39 +76,37 @@
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Lakshadweep & neighbourhood and extends upto 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Lakshadweep & neighbourhood extending upto 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Coastal Karnataka",
+        "location": "Coastal Karnataka & neighbourhood",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Eastcentral Arabian Sea adjoining Karnataka-south Maharashtra coasts now lies over Coastal Karnataka at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Coastal Karnataka & neighbourhood at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "South Tamil Nadu",
+        "location": "South Tamil Nadu & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "type": "upto",
+          "max": 0.9,
+          "display": "upto 0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Comorin area now lies over South Tamil Nadu at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over South Tamil Nadu & neighbourhood upto 0.9 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 3,
+    "suppressed_count": 0,
     "unclassified": [],
     "validation": {
-      "warnings_count": 1,
-      "systems_with_warnings": [
-        "Deep Depression"
-      ]
+      "warnings_count": 0,
+      "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-03 15:43 IST"
+  "fetched_at": "2026-11-04 06:29 IST"
 }
