@@ -1,0 +1,97 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4e394a69742f87d53a968d0c1e8ee628.pdf",
+  "last_updated": "08:56 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-11-05",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Western Disturbance as a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over southwest Uttarakhand between 1.5 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Sub-Himalayan West Bengal & Sikkim & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over east Telangana & adjoining Coastal Andhra Pradesh between 3.1 & 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Assam & adjoining Bangladesh extending upto 1.5 km above mean sea level persists.\nThe trough in easterlies from Southeast Arabian Sea off south Kerala coast to eastcentral Arabian Sea off Karnataka coast at 0.9 km above mean sea level persists.\nA fresh Western Disturbance likely to affect western Himalayan region from 10th November.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 70°E to the north of Lat. 28°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 70°E to the north of Lat. 28°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Uttarakhand",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 4.5,
+          "display": "1.5–4.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southwest Uttarakhand between 1.5 & 4.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Sub-Himalayan West Bengal & Sikkim & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Sub-Himalayan West Bengal & Sikkim & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "east Telangana & adjoining Coastal Andhra Pradesh",
+        "level": {
+          "type": "range",
+          "min": 3.1,
+          "max": 4.5,
+          "display": "3.1–4.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over east Telangana & adjoining Coastal Andhra Pradesh between 3.1 & 4.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Assam & adjoining Bangladesh",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Assam & adjoining Bangladesh extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Southeast Arabian Sea off south Kerala coast to eastcentral Arabian Sea off Karnataka coast",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough in easterlies from Southeast Arabian Sea off south Kerala coast to eastcentral Arabian Sea off Karnataka coast at 0.9 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [
+      "A fresh Western Disturbance likely to affect western Himalayan region from 10th November."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-06 00:39 IST"
+}
