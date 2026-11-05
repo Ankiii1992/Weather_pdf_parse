@@ -1,0 +1,87 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0f76f428431575e8c994eda8aeca7611.pdf",
+  "last_updated": "01:41 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-11-05",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Low Pressure Area (Remnant of Severe Cyclonic Storm “Murasu”) over east Telangana & adjoining Coastal Andhra Pradesh has become less marked at 0830 hours IST of today, the 05th November, 2026.\nHowever, the associated cyclonic circulation persisted over the same region and now seen between 3.1 & 4.5 km above mean sea level.\nThe upper air cyclonic circulation over north Haryana & neighbourhood lies over southwest Uttarakhand between 1.5 & 4.5 km above mean sea level.\nA trough in easterlies runs from Southeast Arabian Sea off south Kerala coast to eastcentral Arabian Sea off Karnataka coast at 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over Sub-Himalayan West Bengal & Sikkim & neighbourhood at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over south Assam & adjoining Bangladesh extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 69°E to the north of Lat. 28°N persists.\nThe upper air cyclonic circulation over South Tamil Nadu & neighbourhood at 0.9 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over Lakshadweep & neighbourhood extending upto 3.1 km above mean sea level has become less marked.\nA fresh Western Disturbance likely to affect western Himalayas from 10th November.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 69°E to the north of Lat. 28°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 69°E to the north of Lat. 28°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southwest Uttarakhand",
+        "level": {
+          "type": "range",
+          "min": 1.5,
+          "max": 4.5,
+          "display": "1.5–4.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood lies over southwest Uttarakhand between 1.5 & 4.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Sub-Himalayan West Bengal & Sikkim & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Sub-Himalayan West Bengal & Sikkim & neighbourhood at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Assam & adjoining Bangladesh",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Assam & adjoining Bangladesh extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Southeast Arabian Sea off south Kerala coast to eastcentral Arabian Sea off Karnataka coast",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "A trough in easterlies runs from Southeast Arabian Sea off south Kerala coast to eastcentral Arabian Sea off Karnataka coast at 0.9 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 5,
+    "unclassified": [
+      "However, the associated cyclonic circulation persisted over the same region and now seen between 3.1 & 4.5 km above mean sea level.",
+      "A fresh Western Disturbance likely to affect western Himalayas from 10th November."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-05 15:30 IST"
+}
