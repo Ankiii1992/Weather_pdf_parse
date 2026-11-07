@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a35dd6d2dfb2e51e9332cfea6321f810.pdf",
-  "last_updated": "08:35 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-11-06",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/89556725d8b4a29299dbca307a978e0c.pdf",
+  "last_updated": "01:40 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-11-07",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,41 +11,19 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Western Disturbance as a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 28°N persists.\nThe upper air cyclonic circulation over east Telangana & adjoining Coastal Andhra Pradesh at 4.5 km above mean sea level persists.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood now lies over northeast Bangladesh at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 3.1 km above mean sea level persists.\nThe trough in easterlies from Southeast Arabian Sea adjoining Kerala to South Interior Karnataka at 0.9 km above mean sea level persists.\nA fresh Western Disturbance likely to affect northwestern Himalayan region from 10th November.",
+  "met_analysis": "The upper air cyclonic circulation over northeast Bangladesh now lies over southeast Bangladesh & neighbourhood at 1.5 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Arabian Sea off south Kerala coast at 0.9 km above mean sea level persists.\nA fresh Western Disturbance likely to affect northwestern Himalayan region from 10th November.",
   "systems": {
-    "priority": [
-      {
-        "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 28°N persists.",
-        "form": "trough_in_westerlies",
-        "axis": "along Long. 78°E to the north of Lat. 28°N",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        }
-      }
-    ],
+    "priority": [],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "east Telangana & adjoining Coastal Andhra Pradesh",
-        "level": {
-          "type": "single",
-          "min": 4.5,
-          "display": "4.5 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over east Telangana & adjoining Coastal Andhra Pradesh at 4.5 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Bangladesh",
+        "location": "southeast Bangladesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over east Bangladesh & neighbourhood now lies over northeast Bangladesh at 1.5 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over northeast Bangladesh now lies over southeast Bangladesh & neighbourhood at 1.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -56,21 +34,19 @@
           "display": "3.1 km above MSL"
         },
         "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 3.1 km above mean sea level persists."
-      }
-    ],
-    "other_troughs": [
+      },
       {
-        "type": "Trough",
-        "subtype": "general",
-        "extent": "Southeast Arabian Sea adjoining Kerala to South Interior Karnataka",
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Southeast Arabian Sea off south Kerala coast",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The trough in easterlies from Southeast Arabian Sea adjoining Kerala to South Interior Karnataka at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Southeast Arabian Sea off south Kerala coast at 0.9 km above mean sea level persists."
       }
     ],
+    "other_troughs": [],
     "suppressed_count": 1,
     "unclassified": [
       "A fresh Western Disturbance likely to affect northwestern Himalayan region from 10th November."
@@ -81,5 +57,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-07 06:00 IST"
+  "fetched_at": "2026-11-07 14:51 IST"
 }
