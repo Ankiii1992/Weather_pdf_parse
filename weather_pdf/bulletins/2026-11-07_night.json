@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/e21c5c4ed4e90690da90dee5ffced71c.pdf",
+  "last_updated": "08:59 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-11-07",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "An upper air cyclonic circulation lies over Punjab & adjoining Himachal Pradesh at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over southeast Bangladesh & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Arabian Sea off south Kerala coast now lies over south Kerala & neighbourhood and extends upto 1.5 km above mean sea level.\nA fresh Western Disturbance likely to affect northwestern Himalayan region from 10th November.",
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Punjab & adjoining Himachal Pradesh",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Punjab & adjoining Himachal Pradesh at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Bangladesh & neighbourhood at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Kerala & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Southeast Arabian Sea off south Kerala coast now lies over south Kerala & neighbourhood and extends upto 1.5 km above mean sea level."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 1,
+    "unclassified": [
+      "A fresh Western Disturbance likely to affect northwestern Himalayan region from 10th November."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-07 22:34 IST"
+}
