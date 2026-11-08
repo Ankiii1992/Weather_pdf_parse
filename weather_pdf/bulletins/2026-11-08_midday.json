@@ -1,0 +1,116 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/4c76e0996caf0ee60b01ea02c285f386.pdf",
+  "last_updated": "01:45 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-11-08",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The upper air cyclonic circulation over north Haryana & neighbourhood persists at 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over Northwest Rajasthan & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over southeast Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over east Bihar & neighbourhood now lies over northeast Bihar at 3.1 km above mean sea level.\nA trough runs from south Chhattisgarh to the above cyclonic circulation across Jharkhand at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Comorin area & neighbourhood at 0.9 km above mean sea level persists.\nA trough runs from above cyclonic circulation to eastcentral Arabian sea across South Tamil Nadu-south Kerala & Southeast Arabian Sea at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea off Karnataka coast at 0.9 km above mean sea level has merged with the above trough.\nA fresh Western Disturbance likely to affect northwestern Himalayan region from 10th November.",
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood persists at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northwest Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over Northwest Rajasthan & neighbourhood at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Bangladesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Bihar",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over east Bihar & neighbourhood now lies over northeast Bihar at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Comorin area & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Comorin area & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Eastcentral Arabian Sea off Karnataka coast",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Eastcentral Arabian Sea off Karnataka coast at 0.9 km above mean sea level has merged with the above trough."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "south Chhattisgarh to cyclonic circulation",
+        "across": "Jharkhand",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "A trough runs from south Chhattisgarh to the above cyclonic circulation across Jharkhand at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "cyclonic circulation to eastcentral Arabian sea",
+        "across": "South Tamil Nadu-south Kerala & Southeast Arabian Sea",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "A trough runs from above cyclonic circulation to eastcentral Arabian sea across South Tamil Nadu-south Kerala & Southeast Arabian Sea at 0.9 km above mean sea level."
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [
+      "A fresh Western Disturbance likely to affect northwestern Himalayan region from 10th November."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-08 15:10 IST"
+}
