@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/78776d1fe4d176640f6d09dd72ebb6b7.pdf",
-  "last_updated": "05:00 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1f781c3f25b9bd5e9428fbc091f7c433.pdf",
+  "last_updated": "09:09 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-09",
   "bulletin": {
     "morning": null,
@@ -11,29 +11,42 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The upper air cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Rajasthan & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from north Coastal Andhra Pradesh to northeast Uttar Pradesh across Odisha, Chhattisgarh and Jharkhand at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Comorin area & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Konkan & neighbourhood at 3.1 km above mean sea level persists.\nA fresh Western Disturbance likely to affect northwestern Himalayan region from the night of 10th November.",
+  "met_analysis": "The upper air cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level.\nThe upper air cyclonic circulation over northwest Rajasthan & neighbourhood now lies over central Rajasthan & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over southeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from north Coastal Andhra Pradesh to northeast Uttar Pradesh across Odisha and Chhattisgarh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Comorin area, off south Kerala coast & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Konkan & neighbourhood at 3.1 km above mean sea level persists.\nA Western Disturbance is seen as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along long 50°E to the north of Lat 30°N.",
   "systems": {
-    "priority": [],
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "A Western Disturbance is seen as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along long 50°E to the north of Lat 30°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along long 50°E to the north of Lat 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "north Haryana & neighbourhood",
         "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "type": "range",
+          "min": 1.5,
+          "max": 3.1,
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northwest Rajasthan & neighbourhood",
+        "location": "central Rajasthan & neighbourhood",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northwest Rajasthan & neighbourhood at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over northwest Rajasthan & neighbourhood now lies over central Rajasthan & neighbourhood at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -47,13 +60,13 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Comorin area & neighbourhood",
+        "location": "Comorin area, off south Kerala coast & neighbourhood",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Comorin area & neighbourhood at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Comorin area, off south Kerala coast & neighbourhood at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -71,24 +84,22 @@
         "type": "Trough",
         "subtype": "general",
         "extent": "north Coastal Andhra Pradesh to northeast Uttar Pradesh",
-        "across": "Odisha, Chhattisgarh and Jharkhand",
+        "across": "Odisha and Chhattisgarh",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The trough from north Coastal Andhra Pradesh to northeast Uttar Pradesh across Odisha, Chhattisgarh and Jharkhand at 3.1 km above mean sea level persists."
+        "raw_text": "The trough from north Coastal Andhra Pradesh to northeast Uttar Pradesh across Odisha and Chhattisgarh at 3.1 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 1,
-    "unclassified": [
-      "A fresh Western Disturbance likely to affect northwestern Himalayan region from the night of 10th November."
-    ],
+    "suppressed_count": 0,
+    "unclassified": [],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-09 20:01 IST"
+  "fetched_at": "2026-11-10 05:10 IST"
 }
