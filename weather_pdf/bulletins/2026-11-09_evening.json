@@ -1,0 +1,94 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/78776d1fe4d176640f6d09dd72ebb6b7.pdf",
+  "last_updated": "05:00 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-11-09",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The upper air cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over northwest Rajasthan & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from north Coastal Andhra Pradesh to northeast Uttar Pradesh across Odisha, Chhattisgarh and Jharkhand at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Comorin area & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Konkan & neighbourhood at 3.1 km above mean sea level persists.\nA fresh Western Disturbance likely to affect northwestern Himalayan region from the night of 10th November.",
+  "systems": {
+    "priority": [],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Haryana & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Rajasthan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Rajasthan & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Bangladesh & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Comorin area & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Comorin area & neighbourhood at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Konkan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Konkan & neighbourhood at 3.1 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "north Coastal Andhra Pradesh to northeast Uttar Pradesh",
+        "across": "Odisha, Chhattisgarh and Jharkhand",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from north Coastal Andhra Pradesh to northeast Uttar Pradesh across Odisha, Chhattisgarh and Jharkhand at 3.1 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 1,
+    "unclassified": [
+      "A fresh Western Disturbance likely to affect northwestern Himalayan region from the night of 10th November."
+    ],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-09 20:01 IST"
+}
