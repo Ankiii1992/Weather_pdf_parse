@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1f781c3f25b9bd5e9428fbc091f7c433.pdf",
-  "last_updated": "09:09 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-11-09",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a262d746c928db595675d2db6f7d459d.pdf",
+  "last_updated": "09:03 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-11-10",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,14 +11,14 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The upper air cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level.\nThe upper air cyclonic circulation over northwest Rajasthan & neighbourhood now lies over central Rajasthan & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over southeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from north Coastal Andhra Pradesh to northeast Uttar Pradesh across Odisha and Chhattisgarh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Comorin area, off south Kerala coast & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Konkan & neighbourhood at 3.1 km above mean sea level persists.\nA Western Disturbance is seen as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along long 50°E to the north of Lat 30°N.",
+  "met_analysis": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along long 55°E to the north of Lat 30°N.\nThe upper air cyclonic circulation over north Haryana & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central Rajasthan & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Bangladesh & neighbourhood now lies over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level.\nThe trough from north Coastal Andhra Pradesh to northeast Uttar Pradesh across Odisha and Chhattisgarh at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Comorin area, off south Kerala coast & neighbourhood now lies over south Kerala coast & adjoining areas at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over south Konkan & neighbourhood at 3.1 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
-        "raw_text": "A Western Disturbance is seen as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level runs roughly along long 50°E to the north of Lat 30°N.",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along long 55°E to the north of Lat 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along long 50°E to the north of Lat 30°N",
+        "axis": "along long 55°E to the north of Lat 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -36,7 +36,7 @@
           "max": 3.1,
           "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over north Haryana & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -46,37 +46,27 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northwest Rajasthan & neighbourhood now lies over central Rajasthan & neighbourhood at 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over central Rajasthan & neighbourhood at 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "southeast Bangladesh & neighbourhood",
+        "location": "northeast Bangladesh & neighbourhood",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over southeast Bangladesh & neighbourhood at 0.9 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over southeast Bangladesh & neighbourhood now lies over northeast Bangladesh & neighbourhood at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Comorin area, off south Kerala coast & neighbourhood",
+        "location": "south Kerala coast & adjoining areas",
         "level": {
           "type": "single",
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Comorin area, off south Kerala coast & neighbourhood at 0.9 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "south Konkan & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over south Konkan & neighbourhood at 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Comorin area, off south Kerala coast & neighbourhood now lies over south Kerala coast & adjoining areas at 0.9 km above mean sea level."
       }
     ],
     "other_troughs": [
@@ -93,7 +83,7 @@
         "raw_text": "The trough from north Coastal Andhra Pradesh to northeast Uttar Pradesh across Odisha and Chhattisgarh at 3.1 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -101,5 +91,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-10 05:10 IST"
+  "fetched_at": "2026-11-10 10:25 IST"
 }
