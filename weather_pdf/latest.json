@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a42712a3a371374af80b0d30f5c8d501.pdf",
-  "last_updated": "04:30 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/822a2cdab6a26f439338c426e29ff519.pdf",
+  "last_updated": "08:32 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-10",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 55°E to the north of Lat 30°N persists.\nThe upper air cyclonic circulation over southeast Rajasthan & neighbourhood at 0.9 km above mean sea level persists.\nThe trough from northwest Uttar Pradesh to north Coastal Andhra Pradesh across Chhattisgarh and Odisha at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Arabian Sea & adjoining Lakshadweep area at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood between 1.5 and 3.1 km above mean sea level persists.\nA Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become well marked low pressure area during subsequent 24 hours.",
+  "met_analysis": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along long 57°E to the north of Lat 30°N.\nThe trough from northwest Uttar Pradesh to north Coastal Andhra Pradesh across Chhattisgarh and Odisha at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Arabian Sea & adjoining Lakshadweep area at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood between 1.5 and 3.1 km above mean sea level persists.\nA Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become well marked low pressure area during subsequent 24 hours.\nThe upper air cyclonic circulation over southeast Rajasthan & neighbourhood at 0.9 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
@@ -23,9 +23,9 @@
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 55°E to the north of Lat 30°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle & upper tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along long 57°E to the north of Lat 30°N.",
         "form": "trough_in_westerlies",
-        "axis": "along long 55°E to the north of Lat 30°N",
+        "axis": "along long 57°E to the north of Lat 30°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -34,16 +34,6 @@
       }
     ],
     "uac": [
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "southeast Rajasthan & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over southeast Rajasthan & neighbourhood at 0.9 km above mean sea level persists."
-      },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "southeast Arabian Sea & adjoining Lakshadweep area",
@@ -90,7 +80,7 @@
         "raw_text": "The trough from northwest Uttar Pradesh to north Coastal Andhra Pradesh across Chhattisgarh and Odisha at 3.1 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -98,5 +88,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-10 19:23 IST"
+  "fetched_at": "2026-11-11 02:37 IST"
 }
