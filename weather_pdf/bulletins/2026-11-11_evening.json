@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/04dc2297ae3105ec9895fb4bea8c0354.pdf",
+  "last_updated": "04:37 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-11-11",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 69°E to the north of Lat 30°N persists.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe trough from the above cyclonic circulation over East Uttar Pradesh & neighbourhood to Northwest Bay of Bengalacross Jharkhand, Gangetic West Bengal and Odisha at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Arabian Sea & adjoining Lakshadweep area at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & neighbourhood at 0.9 km above mean sea level persists. ?The upper air cyclonic circulation lies over south Andaman Sea & neighbourhood persisted over the same region at 1430-IST of today, 11th November, 2026 and extends upto middle tropospheric level. Under its influence a Low-Pressure Area is-likely to form over Southeast Bay of Bengal around 13th November, 2026. It is-likely to move northwestwards and-become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 69°E to the north of Lat 30°N persists.",
+        "form": "cyclonic_circulation",
+        "location": "north Pakistan & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "long 69°E to the north of Lat 30°N persists",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "East Uttar Pradesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 3.1,
+          "display": "upto 3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Sikkim & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Assam & neighbourhood at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Arabian Sea & adjoining Lakshadweep area",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Arabian Sea & adjoining Lakshadweep area at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Andaman Sea & neighbourhood persisted over the same region",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gulf of Mannar & neighbourhood at 0.9 km above mean sea level persists. ?The upper air cyclonic circulation lies over south Andaman Sea & neighbourhood persisted over the same region at 1430-IST of today, 11th November, 2026 and extends upto middle tropospheric level. Under its influence a Low-Pressure Area is-likely to form over Southeast Bay of Bengal around 13th November, 2026. It is-likely to move northwestwards and-become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "East Uttar Pradesh & neighbourhood to Northwest Bay of Bengalacross Jharkhand, Gangetic West Bengal and Odisha",
+        "across": "Jharkhand, Gangetic West Bengal and Odisha",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from the above cyclonic circulation over East Uttar Pradesh & neighbourhood to Northwest Bay of Bengalacross Jharkhand, Gangetic West Bengal and Odisha at 3.1 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-11 18:35 IST"
+}
