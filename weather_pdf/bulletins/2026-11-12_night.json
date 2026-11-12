@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/88be84a3c419c8616207362676d894b1.pdf",
+  "last_updated": "08:34 PM IST",
+  "slot": "night",
+  "bulletin_date": "2026-11-12",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Western Disturbance as a cyclonic circulation over Kashmir division & neighbourhood at 3.1 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 72°E to the north of Lat 32°N persists.\nThe upper air cyclonic circulation over central Andaman Sea & adjoining Andaman & Nicobar Islands persisted over the same region at 1730 hours IST of today, 12th November, 2026 and extends upto 5.8 km above mean sea level. Under its influence, a Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region.\nThe upper air cyclonic circulation over southeast Bay of Bengal extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists.\nThe trough from the above cyclonic circulation over Sikkim & neighbourhood to Northwest Bay of Bengalacross Bangladesh and Gangetic West Bengal at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Arabian Sea & adjoining south Lakshadweep area at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & neighbourhood at 0.9 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Kashmir division & neighbourhood at 3.1 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 72°E to the north of Lat 32°N persists.",
+        "form": "cyclonic_circulation",
+        "location": "Kashmir division & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "trough_aloft": {
+          "axis": "long 72°E to the north of Lat 32°N persists",
+          "level": {
+            "type": "single",
+            "min": 5.8,
+            "display": "5.8 km above MSL"
+          }
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "central Andaman Sea & adjoining Andaman & Nicobar Islands persisted over the same region",
+        "level": {
+          "type": "upto",
+          "max": 5.8,
+          "display": "upto 5.8 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over central Andaman Sea & adjoining Andaman & Nicobar Islands persisted over the same region at 1730 hours IST of today, 12th November, 2026 and extends upto 5.8 km above mean sea level. Under its influence, a Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Bay of Bengal",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Bay of Bengal extending upto 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Sikkim & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "southeast Arabian Sea & adjoining south Lakshadweep area",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over southeast Arabian Sea & adjoining south Lakshadweep area at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Gulf of Mannar & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gulf of Mannar & neighbourhood at 0.9 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Sikkim & neighbourhood to Northwest Bay of Bengalacross Bangladesh and Gangetic West Bengal",
+        "across": "Bangladesh and Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The trough from the above cyclonic circulation over Sikkim & neighbourhood to Northwest Bay of Bengalacross Bangladesh and Gangetic West Bengal at 3.1 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-13 03:11 IST"
+}
