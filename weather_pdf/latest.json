@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d16c3b5e4fc97809e725f2e8109bd6b2.pdf",
-  "last_updated": "04:30 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/88be84a3c419c8616207362676d894b1.pdf",
+  "last_updated": "08:34 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-12",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Western Disturbance as a cyclonic circulation over Kashmir division & neighbourhood at 3.1 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 72°E to the north of Lat 32°N persists.\nThe upper air cyclonic circulation over central Andaman Sea & adjoining Andaman & Nicobar Islands persisted over the same region at 1430 hours IST of today, 12th November, 2026 and extends upto 5.8 km above mean sea level. Under its influence, a Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region.\nThe upper air cyclonic circulation over southeast Bay of Bengal extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists.\nThe trough from the above cyclonic circulation over Sikkim & neighbourhood to Northwest Bay of Bengalacross Bangladesh and Gangetic West Bengal at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Arabian Sea & adjoining south Lakshadweep area at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & neighbourhood at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Western Disturbance as a cyclonic circulation over Kashmir division & neighbourhood at 3.1 km above mean sea level with the trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 72°E to the north of Lat 32°N persists.\nThe upper air cyclonic circulation over central Andaman Sea & adjoining Andaman & Nicobar Islands persisted over the same region at 1730 hours IST of today, 12th November, 2026 and extends upto 5.8 km above mean sea level. Under its influence, a Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region.\nThe upper air cyclonic circulation over southeast Bay of Bengal extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists.\nThe trough from the above cyclonic circulation over Sikkim & neighbourhood to Northwest Bay of Bengalacross Bangladesh and Gangetic West Bengal at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Arabian Sea & adjoining south Lakshadweep area at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & neighbourhood at 0.9 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -43,7 +43,7 @@
           "max": 5.8,
           "display": "upto 5.8 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over central Andaman Sea & adjoining Andaman & Nicobar Islands persisted over the same region at 1430 hours IST of today, 12th November, 2026 and extends upto 5.8 km above mean sea level. Under its influence, a Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region."
+        "raw_text": "The upper air cyclonic circulation over central Andaman Sea & adjoining Andaman & Nicobar Islands persisted over the same region at 1730 hours IST of today, 12th November, 2026 and extends upto 5.8 km above mean sea level. Under its influence, a Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -108,5 +108,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-12 19:35 IST"
+  "fetched_at": "2026-11-13 03:11 IST"
 }
