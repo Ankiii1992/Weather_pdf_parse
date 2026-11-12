@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/a0a9db9dcc5fea69cbb747512878ca14.pdf",
-  "last_updated": "09:03 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-11-11",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/0a38053289913d9e49b9601bda496f29.pdf",
+  "last_updated": "08:13 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-11-12",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,41 +11,40 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Western Disturbance now seen as a cyclonic circulation over Kashmir division & neighbourhood at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe trough from the above cyclonic circulation over East Uttar Pradesh & neighbourhood to Northwest Bay of Bengal across Bihar, Jharkhand, Gangetic West Bengal and Odisha at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over central Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Arabian Sea & adjoining Lakshadweep area at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation lies over South Andaman Sea & neighbourhood persisted over the same region at 1730 hours IST of today, 11th November, 2026 and extends upto middle tropospheric level. Under its influence, a Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region.",
+  "met_analysis": "The Western Disturbance as a cyclonic circulation over Kashmir division & neighbourhood persists and now lies between 3.1 & 5.8 km above mean sea level.\nThe upper air cyclonic circulation over Sikkim & neighbourhood lies over Sub-Himalayan West Bengal & neighbourhood between 1.5 & 3.1 km above mean sea level.\nA trough runs from the above cyclonic circulation over Sub-Himalayan West Bengal & neighbourhood to Northwest Bay of Bengal across Bangladesh and Gangetic West Bengal at 3.1 km above mean sea level\nThe upper air cyclonic circulation over central Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over southeast Arabian Sea & adjoining Lakshadweep area at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gulf of Mannar & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over South Andaman Sea & neighbourhood persisted over the same region at 0530 hours IST of today, 12th November, 2026 and extends upto middle tropospheric level. Under its influence,\na Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region.\nThe upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level has become less marked.\nThe trough from the above cyclonic circulation over East Uttar Pradesh & neighbourhood to Northwest Bay of Bengal across Bihar, Jharkhand, Gangetic West Bengal and Odisha at 3.1 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
+        "type": "Low Pressure Area",
+        "status": "active",
+        "location": "Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region",
+        "movement": "northwestwards",
+        "raw_text": "a Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region."
+      },
+      {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance now seen as a cyclonic circulation over Kashmir division & neighbourhood at 3.1 km above mean sea level.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over Kashmir division & neighbourhood persists and now lies between 3.1 & 5.8 km above mean sea level.",
         "form": "cyclonic_circulation",
         "location": "Kashmir division & neighbourhood",
         "level": {
-          "type": "single",
+          "type": "range",
           "min": 3.1,
-          "display": "3.1 km above MSL"
+          "max": 5.8,
+          "display": "3.1–5.8 km above MSL"
         }
       }
     ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "East Uttar Pradesh & neighbourhood",
+        "location": "Sub-Himalayan West Bengal & neighbourhood",
         "level": {
-          "type": "upto",
+          "type": "range",
+          "min": 1.5,
           "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over East Uttar Pradesh & neighbourhood extending upto 3.1 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "Sikkim & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Sikkim & neighbourhood at 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Sikkim & neighbourhood lies over Sub-Himalayan West Bengal & neighbourhood between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -80,7 +79,7 @@
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "South Andaman Sea & neighbourhood persisted over the same region",
-        "raw_text": "The upper air cyclonic circulation lies over South Andaman Sea & neighbourhood persisted over the same region at 1730 hours IST of today, 11th November, 2026 and extends upto middle tropospheric level. Under its influence, a Low Pressure Area is likely to form over Southeast Bay of Bengal around 13th November, 2026. It is likely to move northwestwards and become Well Marked Low pressure area around 14th November and Depression around 15th November over the same region.",
+        "raw_text": "The upper air cyclonic circulation over South Andaman Sea & neighbourhood persisted over the same region at 0530 hours IST of today, 12th November, 2026 and extends upto middle tropospheric level. Under its influence,",
         "_warnings": [
           "UAC missing level"
         ]
@@ -90,17 +89,17 @@
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "East Uttar Pradesh & neighbourhood to Northwest Bay of Bengal",
-        "across": "Bihar, Jharkhand, Gangetic West Bengal and Odisha",
+        "extent": "Sub-Himalayan West Bengal & neighbourhood to Northwest Bay of Bengal",
+        "across": "Bangladesh and Gangetic West Bengal",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The trough from the above cyclonic circulation over East Uttar Pradesh & neighbourhood to Northwest Bay of Bengal across Bihar, Jharkhand, Gangetic West Bengal and Odisha at 3.1 km above mean sea level persists."
+        "raw_text": "A trough runs from the above cyclonic circulation over Sub-Himalayan West Bengal & neighbourhood to Northwest Bay of Bengal across Bangladesh and Gangetic West Bengal at 3.1 km above mean sea level"
       }
     ],
-    "suppressed_count": 0,
+    "suppressed_count": 2,
     "unclassified": [],
     "validation": {
       "warnings_count": 1,
@@ -110,5 +109,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-12 03:10 IST"
+  "fetched_at": "2026-11-12 10:02 IST"
 }
