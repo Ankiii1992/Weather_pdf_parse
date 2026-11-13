@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/7d9d18a10450f947e1d7bc45e305c5a7.pdf",
-  "last_updated": "04:37 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/f0aef5458067daa7b364716605a174bc.pdf",
+  "last_updated": "08:58 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-13",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The low pressure area over Southeast Bay of Bengal persists over the same region at 1430 hours IST of today, the 13th November, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move northwestwards, become well marked low pressure area on 14th November and intensify into a depression over the same region around morning of 15th November, 2026. Thereafter, it is likely to move north-northwestwards and intensify further into a cyclonic storm over the central Bay of Bengal around 16th November evening.\nThe east-west trough from the cyclonic circulation associated with the above Low-Pressure Area over Southeast Bay of Bengal to northern parts of Maldives across Southwest Bay of Bengal & adjoining equatorial Indian Ocean and extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea & adjoining northern parts of Lakshadweep at 3.1 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 73°E to the north of Lat 32°N persists.\nA Fresh Western Disturbance is likely to affect Northwest India from 15th November, 2026.",
+  "met_analysis": "The low pressure area over Southeast Bay of Bengal persists over the same region at 1730 hours IST of today, the 13th November, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move northwestwards, become well marked low pressure area on 14th November and intensify into a depression over the same region around morning of 15th November, 2026. Thereafter, it is likely to move north-northwestwards and intensify further into a cyclonic storm over the central Bay of Bengal around 16th November evening.\nThe east-west trough from the cyclonic circulation associated with the above Low-Pressure Area over Southeast Bay of Bengal to northern parts of Maldives across Southwest Bay of Bengal & adjoining equatorial Indian Ocean and extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Eastcentral Arabian Sea & adjoining northern parts of Lakshadweep at 3.1 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along long 73°E to the north of Lat 32°N persists.\nA Fresh Western Disturbance is likely to affect Northwest India from 15th November, 2026.",
   "systems": {
     "priority": [
       {
@@ -19,7 +19,7 @@
         "status": "active",
         "location": "Southeast Bay of Bengal",
         "movement": "northwestwards",
-        "raw_text": "The low pressure area over Southeast Bay of Bengal persists over the same region at 1430 hours IST of today, the 13th November, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move northwestwards, become well marked low pressure area on 14th November and intensify into a depression over the same region around morning of 15th November, 2026. Thereafter, it is likely to move north-northwestwards and intensify further into a cyclonic storm over the central Bay of Bengal around 16th November evening."
+        "raw_text": "The low pressure area over Southeast Bay of Bengal persists over the same region at 1730 hours IST of today, the 13th November, 2026. The associated cyclonic circulation extends upto 5.8 km above mean sea level. It is very likely to move northwestwards, become well marked low pressure area on 14th November and intensify into a depression over the same region around morning of 15th November, 2026. Thereafter, it is likely to move north-northwestwards and intensify further into a cyclonic storm over the central Bay of Bengal around 16th November evening."
       },
       {
         "type": "East-West Trough",
@@ -67,5 +67,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-13 19:01 IST"
+  "fetched_at": "2026-11-14 02:34 IST"
 }
