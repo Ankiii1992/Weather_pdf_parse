@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ced9a99e13e3b42961d8b21ec01f38ae.pdf",
-  "last_updated": "01:58 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/cb741651c2554851bb1c80cab6212280.pdf",
+  "last_updated": "09:01 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-15",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression over Southeast & adjoining Southwest Bay of Bengal moved nearly northwards with the speed of 10 kmph during past 03 hours and lies centered at 0830 hours IST of today, the 15th November, 2026 over the same region, near Latitude 9.3°N and Longitude 86.9°E, about 630 km east of Trincomalee (Sri Lanka), 690 km west-southwest of Sri Vijaya Puram (Andaman & Nicobar Islands), 840 km east-southeast of Chennai (Tamil Nadu), 1010 km south-southeast of Visakhapatnam (Andhra Pradesh) and 1130 km south-southeast of Gopalpur (Odisha). It is very likely to move north-northwestwards, intensify further into a Cyclonic Storm over the central parts of south & adjoining westcentral Bay of Bengal on 16th November and into a Severe Cyclonic Storm over westcentral Bay of Bengal on 17th November, 2026. Thereafter, it is likely to intensify further and move northwestwards towards Andhra Pradesh coast during subsequent 2 days.\nThe east-west trough from the cyclonic circulation associated with the above Depression over Southeast & adjoining Southwest Bay of Bengal to northern parts of Maldives and extends upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along long 70°E to the north of Lat 32°N.\nAn upper air cyclonic circulation lies over Southwest Rajasthan & neighbourhoodat 0.9 km above mean sea level.\nAn upper air cyclonic circulation lies over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over Sub-Himalayan West Bengal & neighbourhood between 1.5 & 3.1 km above mean sea level.\nAn upper air cyclonic circulation lies over Southeast Arabian Sea off Kerala coast at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over south Tamilnadu & neighbourhood at 3.1 km above mean sea level has become less marked.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood extending upto 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The Depression over Southeast & adjoining Southwest Bay of Bengal moved north-northwestwards with the speed of 07 kmph during past 06 hours and lies centered at 1730 hours IST of today, the 15th November, 2026 over the same region, near Latitude 10.2°N and Longitude 86.8°E, about 630 km east-northeast of Trincomalee (Sri Lanka), 670 km west-southwest of Sri Vijaya Puram (Andaman & Nicobar Islands), 780 km east-southeast of Chennai (Tamil Nadu), 920 km south-southeast of Visakhapatnam (Andhra Pradesh) and 1030 km south-southeast of Gopalpur (Odisha). It is very likely to move north-northwestwards, intensify further into a Cyclonic Storm over the central parts of south & adjoining westcentral Bay of Bengal on evening of 16th November and into a Severe Cyclonic Storm over westcentral Bay of Bengal on evening of 17th November, 2026. Thereafter, it is likely to intensify further and move northwestwards towards Andhra Pradesh coast during subsequent 2 days.\nThe east-west trough from the cyclonic circulation associated with the above Depression over Southeast & adjoining Southwest Bay of Bengal to northern parts of Maldives extending upto 1.5 km above mean sea level persists.\nThe Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along long 72°E to the north of Lat 32°N.\nThe upper air cyclonic circulation over Southwest Rajasthan & neighbourhoodat 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Sub-Himalayan West Bengal & neighbourhood between 1.5 & 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Arabian Sea off Kerala coast at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -19,47 +19,47 @@
         "status": "active",
         "location": "the same region",
         "coords": {
-          "lat": 9.3,
-          "lon": 86.9
+          "lat": 10.2,
+          "lon": 86.8
         },
         "distance_from": [
           {
             "place": "Trincomalee (Sri Lanka",
             "distance_km": 630,
-            "direction": "east"
+            "direction": "east-northeast"
           },
           {
             "place": "Sri Vijaya Puram (Andaman & Nicobar Islands",
-            "distance_km": 690,
+            "distance_km": 670,
             "direction": "west-southwest"
           },
           {
             "place": "Chennai (Tamil Nadu",
-            "distance_km": 840,
+            "distance_km": 780,
             "direction": "east-southeast"
           },
           {
             "place": "Gopalpur (Odisha",
-            "distance_km": 1130,
+            "distance_km": 1030,
             "direction": "south-southeast"
           }
         ],
         "movement": "north-northwestwards",
-        "raw_text": "The Depression over Southeast & adjoining Southwest Bay of Bengal moved nearly northwards with the speed of 10 kmph during past 03 hours and lies centered at 0830 hours IST of today, the 15th November, 2026 over the same region, near Latitude 9.3°N and Longitude 86.9°E, about 630 km east of Trincomalee (Sri Lanka), 690 km west-southwest of Sri Vijaya Puram (Andaman & Nicobar Islands), 840 km east-southeast of Chennai (Tamil Nadu), 1010 km south-southeast of Visakhapatnam (Andhra Pradesh) and 1130 km south-southeast of Gopalpur (Odisha). It is very likely to move north-northwestwards, intensify further into a Cyclonic Storm over the central parts of south & adjoining westcentral Bay of Bengal on 16th November and into a Severe Cyclonic Storm over westcentral Bay of Bengal on 17th November, 2026. Thereafter, it is likely to intensify further and move northwestwards towards Andhra Pradesh coast during subsequent 2 days."
+        "raw_text": "The Depression over Southeast & adjoining Southwest Bay of Bengal moved north-northwestwards with the speed of 07 kmph during past 06 hours and lies centered at 1730 hours IST of today, the 15th November, 2026 over the same region, near Latitude 10.2°N and Longitude 86.8°E, about 630 km east-northeast of Trincomalee (Sri Lanka), 670 km west-southwest of Sri Vijaya Puram (Andaman & Nicobar Islands), 780 km east-southeast of Chennai (Tamil Nadu), 920 km south-southeast of Visakhapatnam (Andhra Pradesh) and 1030 km south-southeast of Gopalpur (Odisha). It is very likely to move north-northwestwards, intensify further into a Cyclonic Storm over the central parts of south & adjoining westcentral Bay of Bengal on evening of 16th November and into a Severe Cyclonic Storm over westcentral Bay of Bengal on evening of 17th November, 2026. Thereafter, it is likely to intensify further and move northwestwards towards Andhra Pradesh coast during subsequent 2 days."
       },
       {
         "type": "East-West Trough",
-        "extent": "the cyclonic circulation associated with the above Depression over Southeast & adjoining Southwest Bay of Bengal to northern parts of Maldives and extends upto 1.5 km above mean sea level",
+        "extent": "the cyclonic circulation associated with the above Depression over Southeast & adjoining Southwest Bay of Bengal to northern parts of Maldives",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The east-west trough from the cyclonic circulation associated with the above Depression over Southeast & adjoining Southwest Bay of Bengal to northern parts of Maldives and extends upto 1.5 km above mean sea level persists."
+        "raw_text": "The east-west trough from the cyclonic circulation associated with the above Depression over Southeast & adjoining Southwest Bay of Bengal to northern parts of Maldives extending upto 1.5 km above mean sea level persists."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along long 70°E to the north of Lat 32°N.",
+        "raw_text": "The Western Disturbance as a cyclonic circulation over north Pakistan & neighbourhood at 3.1 km above mean sea level persists with a trough aloft in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along long 72°E to the north of Lat 32°N.",
         "form": "cyclonic_circulation",
         "location": "north Pakistan & neighbourhood",
         "level": {
@@ -68,7 +68,7 @@
           "display": "3.1 km above MSL"
         },
         "trough_aloft": {
-          "axis": "long 70°E to the north of Lat 32°N",
+          "axis": "long 72°E to the north of Lat 32°N",
           "level": {
             "type": "single",
             "min": 5.8,
@@ -86,7 +86,7 @@
           "min": 0.9,
           "display": "0.9 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Southwest Rajasthan & neighbourhoodat 0.9 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Southwest Rajasthan & neighbourhoodat 0.9 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -97,7 +97,7 @@
           "max": 3.1,
           "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -108,7 +108,7 @@
           "max": 3.1,
           "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Sub-Himalayan West Bengal & neighbourhood between 1.5 & 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Sub-Himalayan West Bengal & neighbourhood between 1.5 & 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -118,11 +118,11 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "An upper air cyclonic circulation lies over Southeast Arabian Sea off Kerala coast at 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over Southeast Arabian Sea off Kerala coast at 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 2,
+    "suppressed_count": 0,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -130,5 +130,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-15 15:33 IST"
+  "fetched_at": "2026-11-15 23:35 IST"
 }
