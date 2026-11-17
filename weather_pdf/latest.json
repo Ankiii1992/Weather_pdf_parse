@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/b486c0d9e22dbb8d627d179337d58f38.pdf",
-  "last_updated": "08:35 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-11-16",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/42a432ac95f743ee10b133dcee4f9c3c.pdf",
+  "last_updated": "10:17 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-11-17",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,13 +11,13 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Deep Depression over Southeast & adjoining Southwest Bay of Bengal moved north-northwestwards with the speed of 10 kmph during past 06 hours, intensified into a cyclonic storm “Akvan” [Pronunciation :Akvan]” and lies centered at 1730 hours IST of today, the 16th November, 2026 over central parts of South and adjoining Westcentral Bay of Bengal, near Latitude 12.2°N and Longitude 85.7°E, about 610 km east of Chennai (Tamil Nadu), 630 km northeast of Trincomalee (Sri Lanka), 660 km southeast of Machilipatnam (Andhra Pradesh), 670 km south-southeast of Visakhapatnam (Andhra Pradesh) and 790 km south of Gopalpur (Odisha). It is very likely to continue to move north-northwestwards and intensify further into a Severe Cyclonic Storm over westcentral Bay of Bengal around evening of 17th November, 2026. Thereafter, it is likely to move northwestwards and intensify further into a very severe cyclonic storm around 19th November morning. Continuing to move northwestwards, it is likely to cross Andhra Pradesh & Yanam coasts between Nellore and Tuni, around noon of 20th November, 2026 as a very severe cyclonic storm with the maximum sustained wind speed of 120-130 kmph gusting to 145 kmph.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Sikkim & neighbourhood extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Arabian Sea & adjoining north Kerala coast at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over south Konkan & neighbourhoodat 3.1 km above mean sea level persists.",
+  "met_analysis": "The Cyclonic Storm “Akvan” [Pronunciation: Akvan] over central parts of South and adjoining Westcentral Bay of Bengal moved slowly north-northwestwards with the speed of 03 kmph during past 06 hours and lies centered at 0530 hours IST of today, the 17th November, 2026 over the same region, near Latitude 12.2°N and Longitude 85.7°E, about 610 km east of Chennai (Tamil Nadu), 630 km northeast of Trincomalee (Sri Lanka), 660 km southeast of Machilipatnam (Andhra Pradesh), 670 km south-southeast of Visakhapatnam (Andhra Pradesh) and 790 km south of Gopalpur (Odisha). It is very likely to move north-northwestwards and intensify further into a Severe Cyclonic Storm over westcentral Bay of Bengal around evening of 17th November, 2026. Thereafter, it is likely to move northwestwards and intensify further into a very severe cyclonic storm around 19th November morning. Continuing to move northwestwards, it is likely to cross Andhra Pradesh & Yanam coasts between Nellore and Tuni, around noon of 20th November, 2026 as a very severe cyclonic storm with the maximum sustained wind speed of 120-130 kmph gusting to 145 kmph.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood persists and now seen at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over Sikkim & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Southeast Arabian Sea & adjoining north Kerala coast now lies over Lakshadweep & neighbourhood at 4.5 km above mean sea level.\nThe upper air cyclonic circulation over south Konkan & neighbourhoodat 3.1 km above mean sea level has become less marked.",
   "systems": {
     "priority": [
       {
-        "type": "Deep Depression",
+        "type": "Cyclonic Storm",
         "status": "active",
-        "location": "Southeast & adjoining Southwest Bay of Bengal moved north-northwestwards with the speed of 10 kmph during past 06 hours, intensified into a cyclonic storm “Akvan” [Pronunciation :Akvan]” and lies centered",
+        "location": "the same region",
         "coords": {
           "lat": 12.2,
           "lon": 85.7
@@ -45,10 +45,7 @@
           }
         ],
         "movement": "north-northwestwards",
-        "raw_text": "The Deep Depression over Southeast & adjoining Southwest Bay of Bengal moved north-northwestwards with the speed of 10 kmph during past 06 hours, intensified into a cyclonic storm “Akvan” [Pronunciation :Akvan]” and lies centered at 1730 hours IST of today, the 16th November, 2026 over central parts of South and adjoining Westcentral Bay of Bengal, near Latitude 12.2°N and Longitude 85.7°E, about 610 km east of Chennai (Tamil Nadu), 630 km northeast of Trincomalee (Sri Lanka), 660 km southeast of Machilipatnam (Andhra Pradesh), 670 km south-southeast of Visakhapatnam (Andhra Pradesh) and 790 km south of Gopalpur (Odisha). It is very likely to continue to move north-northwestwards and intensify further into a Severe Cyclonic Storm over westcentral Bay of Bengal around evening of 17th November, 2026. Thereafter, it is likely to move northwestwards and intensify further into a very severe cyclonic storm around 19th November morning. Continuing to move northwestwards, it is likely to cross Andhra Pradesh & Yanam coasts between Nellore and Tuni, around noon of 20th November, 2026 as a very severe cyclonic storm with the maximum sustained wind speed of 120-130 kmph gusting to 145 kmph.",
-        "_warnings": [
-          "location looks wrong (contains movement/timestamp text): 'Southeast & adjoining Southwest Bay of Bengal moved north-northwestwards with th'"
-        ]
+        "raw_text": "The Cyclonic Storm “Akvan” [Pronunciation: Akvan] over central parts of South and adjoining Westcentral Bay of Bengal moved slowly north-northwestwards with the speed of 03 kmph during past 06 hours and lies centered at 0530 hours IST of today, the 17th November, 2026 over the same region, near Latitude 12.2°N and Longitude 85.7°E, about 610 km east of Chennai (Tamil Nadu), 630 km northeast of Trincomalee (Sri Lanka), 660 km southeast of Machilipatnam (Andhra Pradesh), 670 km south-southeast of Visakhapatnam (Andhra Pradesh) and 790 km south of Gopalpur (Odisha). It is very likely to move north-northwestwards and intensify further into a Severe Cyclonic Storm over westcentral Bay of Bengal around evening of 17th November, 2026. Thereafter, it is likely to move northwestwards and intensify further into a very severe cyclonic storm around 19th November morning. Continuing to move northwestwards, it is likely to cross Andhra Pradesh & Yanam coasts between Nellore and Tuni, around noon of 20th November, 2026 as a very severe cyclonic storm with the maximum sustained wind speed of 120-130 kmph gusting to 145 kmph."
       }
     ],
     "uac": [
@@ -56,53 +53,42 @@
         "type": "Upper Air Cyclonic Circulation",
         "location": "Northeast Assam & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood persists and now seen at 0.9 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "Sikkim & neighbourhood",
         "level": {
-          "type": "upto",
+          "type": "range",
+          "min": 1.5,
           "max": 3.1,
-          "display": "upto 3.1 km above MSL"
+          "display": "1.5–3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Sikkim & neighbourhood extending upto 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Sikkim & neighbourhood persists and now seen between 1.5 & 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Southeast Arabian Sea & adjoining north Kerala coast",
+        "location": "Lakshadweep & neighbourhood",
         "level": {
           "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
+          "min": 4.5,
+          "display": "4.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Southeast Arabian Sea & adjoining north Kerala coast at 3.1 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "south Konkan & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 3.1,
-          "display": "3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over south Konkan & neighbourhoodat 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Southeast Arabian Sea & adjoining north Kerala coast now lies over Lakshadweep & neighbourhood at 4.5 km above mean sea level."
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
-      "warnings_count": 1,
-      "systems_with_warnings": [
-        "Deep Depression"
-      ]
+      "warnings_count": 0,
+      "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-17 02:51 IST"
+  "fetched_at": "2026-11-17 10:54 IST"
 }
