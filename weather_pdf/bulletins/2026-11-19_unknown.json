@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3d893da97dabe7dc981d88927afeda26.pdf",
+  "last_updated": null,
+  "slot": null,
+  "bulletin_date": null,
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": null,
+  "systems": {
+    "priority": [],
+    "uac": [],
+    "other_troughs": [],
+    "suppressed_count": 0
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-19 03:57 IST"
+}
