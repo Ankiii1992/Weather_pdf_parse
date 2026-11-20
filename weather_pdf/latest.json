@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/2c20674b20c2a9829145f33265627913.pdf",
-  "last_updated": "08:00 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/eb65a8155292e210799e72d8e1b0d8f1.pdf",
+  "last_updated": "05:16 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-11-20",
   "bulletin": {
     "morning": null,
@@ -11,36 +11,42 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Severe Cyclonic Storm “Akvan” [Pronunciation: Akvan] over the westcentral Bay of Bengal weakened into a Cyclonic Storm over the same region at 0230 hours IST of today, the 20th November, 2026. Further, it moved north-northwestwards with the speed of 23 kmph during past 06 hours and lies centered at 0530 hours IST of today, the 20th November, 2026 over the same region, near Latitude 18.3°N and Longitude 84.8°E, about 70 km east of Kalingapatnam (Andhra Pradesh), 110 km south of Gopalpur (Odisha), 170 km east- northeast of Visakhapatnam (Andhra Pradesh), and 200 km south-southwest of Puri (Odisha). It is likely to continue to move north-northwestwards and cross North Andhra Pradesh and South Odisha coasts close to Gopalpur, by forenoon of 20th November, 2026 with the maximum sustained wind speed of 70-80 kmph gusting to 90 kmph.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over Southeast Arabian sea & adjoining south Lakshadweep area extending upto 3.1 km above mean sea level persists.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe feeble Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 33°N persists.",
+  "met_analysis": "The Deep Depression (Remnant of Severe Cyclonic Storm “Akvan”) over south coastal Odisha moved northwards with a speed of 15 kmph during past 06 hours and lies centered at 1430 hours IST of today, the 20th November, 2026, over the same region near latitude 20.0°N and longitude 84.9°E, about 80 km north of Gopalpur (Odisha), 90 km south-southwest of Angul (Odisha) and 100 km west-northwest of Puri (Odisha). It is likely to move nearly northwards over Odisha and weaken into a Depression during next 03 hours and into a Well-Marked Low Pressure Area during subsequent 06 hours.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 3.1 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 56°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
-        "type": "Severe Cyclonic Storm",
+        "type": "Deep Depression",
         "status": "active",
         "location": "the same region",
         "coords": {
-          "lat": 18.3,
-          "lon": 84.8
+          "lat": 20.0,
+          "lon": 84.9
         },
         "distance_from": [
           {
-            "place": "Kalingapatnam (Andhra Pradesh",
-            "distance_km": 70,
-            "direction": "east"
-          },
-          {
             "place": "Gopalpur (Odisha",
-            "distance_km": 110,
-            "direction": "south"
+            "distance_km": 80,
+            "direction": "north"
           },
           {
             "place": "Puri (Odisha",
-            "distance_km": 200,
-            "direction": "south-southwest"
+            "distance_km": 100,
+            "direction": "west-northwest"
           }
         ],
-        "movement": "north-northwestwards",
-        "raw_text": "The Severe Cyclonic Storm “Akvan” [Pronunciation: Akvan] over the westcentral Bay of Bengal weakened into a Cyclonic Storm over the same region at 0230 hours IST of today, the 20th November, 2026. Further, it moved north-northwestwards with the speed of 23 kmph during past 06 hours and lies centered at 0530 hours IST of today, the 20th November, 2026 over the same region, near Latitude 18.3°N and Longitude 84.8°E, about 70 km east of Kalingapatnam (Andhra Pradesh), 110 km south of Gopalpur (Odisha), 170 km east- northeast of Visakhapatnam (Andhra Pradesh), and 200 km south-southwest of Puri (Odisha). It is likely to continue to move north-northwestwards and cross North Andhra Pradesh and South Odisha coasts close to Gopalpur, by forenoon of 20th November, 2026 with the maximum sustained wind speed of 70-80 kmph gusting to 90 kmph."
+        "movement": "northwards",
+        "raw_text": "The Deep Depression (Remnant of Severe Cyclonic Storm “Akvan”) over south coastal Odisha moved northwards with a speed of 15 kmph during past 06 hours and lies centered at 1430 hours IST of today, the 20th November, 2026, over the same region near latitude 20.0°N and longitude 84.9°E, about 80 km north of Gopalpur (Odisha), 90 km south-southwest of Angul (Odisha) and 100 km west-northwest of Puri (Odisha). It is likely to move nearly northwards over Odisha and weaken into a Depression during next 03 hours and into a Well-Marked Low Pressure Area during subsequent 06 hours."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 56°E to the north of Lat. 32°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 56°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
       }
     ],
     "uac": [
@@ -56,16 +62,6 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Southeast Arabian sea & adjoining south Lakshadweep area",
-        "level": {
-          "type": "upto",
-          "max": 3.1,
-          "display": "upto 3.1 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over Southeast Arabian sea & adjoining south Lakshadweep area extending upto 3.1 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
         "location": "east Bangladesh & neighbourhood",
         "level": {
           "type": "upto",
@@ -76,15 +72,13 @@
       }
     ],
     "other_troughs": [],
-    "suppressed_count": 1,
-    "unclassified": [
-      "The feeble Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 75°E to the north of Lat. 33°N persists."
-    ],
+    "suppressed_count": 0,
+    "unclassified": [],
     "validation": {
       "warnings_count": 0,
       "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-20 10:03 IST"
+  "fetched_at": "2026-11-20 20:00 IST"
 }
