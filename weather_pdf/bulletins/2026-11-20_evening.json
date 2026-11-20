@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/eb65a8155292e210799e72d8e1b0d8f1.pdf",
+  "last_updated": "05:16 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-11-20",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Deep Depression (Remnant of Severe Cyclonic Storm “Akvan”) over south coastal Odisha moved northwards with a speed of 15 kmph during past 06 hours and lies centered at 1430 hours IST of today, the 20th November, 2026, over the same region near latitude 20.0°N and longitude 84.9°E, about 80 km north of Gopalpur (Odisha), 90 km south-southwest of Angul (Odisha) and 100 km west-northwest of Puri (Odisha). It is likely to move nearly northwards over Odisha and weaken into a Depression during next 03 hours and into a Well-Marked Low Pressure Area during subsequent 06 hours.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 3.1 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 56°E to the north of Lat. 32°N persists.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Deep Depression",
+        "status": "active",
+        "location": "the same region",
+        "coords": {
+          "lat": 20.0,
+          "lon": 84.9
+        },
+        "distance_from": [
+          {
+            "place": "Gopalpur (Odisha",
+            "distance_km": 80,
+            "direction": "north"
+          },
+          {
+            "place": "Puri (Odisha",
+            "distance_km": 100,
+            "direction": "west-northwest"
+          }
+        ],
+        "movement": "northwards",
+        "raw_text": "The Deep Depression (Remnant of Severe Cyclonic Storm “Akvan”) over south coastal Odisha moved northwards with a speed of 15 kmph during past 06 hours and lies centered at 1430 hours IST of today, the 20th November, 2026, over the same region near latitude 20.0°N and longitude 84.9°E, about 80 km north of Gopalpur (Odisha), 90 km south-southwest of Angul (Odisha) and 100 km west-northwest of Puri (Odisha). It is likely to move nearly northwards over Odisha and weaken into a Depression during next 03 hours and into a Well-Marked Low Pressure Area during subsequent 06 hours."
+      },
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 56°E to the north of Lat. 32°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 56°E to the north of Lat. 32°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northeast Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "east Bangladesh & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over east Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-20 20:00 IST"
+}
