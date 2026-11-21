@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/41b92974f67853a9335f45b71d43dd9c.pdf",
-  "last_updated": "08:00 AM IST",
-  "slot": "morning",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/79e27927a14354e7e290726129eacf3d.pdf",
+  "last_updated": "04:32 PM IST",
+  "slot": "evening",
   "bulletin_date": "2026-11-21",
   "bulletin": {
     "morning": null,
@@ -11,25 +11,21 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Depression (Remnant of Severe Cyclonic Storm “Akvan”) over south Odisha moved northwards and weakened into a Well Marked Low Pressure Area over central Odishaat 2330 hours IST of yesterday, the 20th November, 2026. It further moved northwards and weakened into a Low Pressure Area over north interior Odisha at 0530 hours IST of today, the 21st November, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level tilting southwestwards with height.\nThe upper air cyclonic circulation over Northeast Assam & neighbourhood at 3.1 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 63°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over east Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over north Chhattisgarh & neighbourhood at 1430 hours IST of today, the 21st November, 2026 persists. The associated cyclonic circulation extends upto 4.5 km above mean sea level tilting southwestwards with height.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 66°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over Nagaland & neighbourhoodat 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Marathwada & neighbourhood at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
-        "type": "Depression",
+        "type": "Low Pressure Area",
         "status": "active",
-        "location": "south Odisha moved northwards and weakened into a Well Marked Low Pressure Area over central Odisha",
+        "location": "north Chhattisgarh & neighbourhood",
         "on_land": true,
-        "movement": "northwards",
-        "raw_text": "The Depression (Remnant of Severe Cyclonic Storm “Akvan”) over south Odisha moved northwards and weakened into a Well Marked Low Pressure Area over central Odishaat 2330 hours IST of yesterday, the 20th November, 2026. It further moved northwards and weakened into a Low Pressure Area over north interior Odisha at 0530 hours IST of today, the 21st November, 2026. The associated cyclonic circulation extends upto 4.5 km above mean sea level tilting southwestwards with height.",
-        "_warnings": [
-          "location looks wrong (contains movement/timestamp text): 'south Odisha moved northwards and weakened into a Well Marked Low Pressure Area '"
-        ]
+        "raw_text": "The Low Pressure Area over north Chhattisgarh & neighbourhood at 1430 hours IST of today, the 21st November, 2026 persists. The associated cyclonic circulation extends upto 4.5 km above mean sea level tilting southwestwards with height."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 63°E to the north of Lat. 28°N.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 66°E to the north of Lat. 28°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 63°E to the north of Lat. 28°N",
+        "axis": "along Long. 66°E to the north of Lat. 28°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -40,35 +36,33 @@
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Northeast Assam & neighbourhood",
+        "location": "Nagaland & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Nagaland & neighbourhoodat 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Marathwada & neighbourhood",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Northeast Assam & neighbourhood at 3.1 km above mean sea level persists."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "east Bangladesh & neighbourhood",
-        "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over east Bangladesh & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Marathwada & neighbourhood at 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [],
     "suppressed_count": 0,
     "unclassified": [],
     "validation": {
-      "warnings_count": 1,
-      "systems_with_warnings": [
-        "Depression"
-      ]
+      "warnings_count": 0,
+      "systems_with_warnings": []
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-21 09:57 IST"
+  "fetched_at": "2026-11-21 19:19 IST"
 }
