@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/79e27927a14354e7e290726129eacf3d.pdf",
-  "last_updated": "04:32 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/c1d8af9ad6d36de76972b01d05e84b8a.pdf",
+  "last_updated": "08:45 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-21",
   "bulletin": {
     "morning": null,
@@ -11,7 +11,7 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over north Chhattisgarh & neighbourhood at 1430 hours IST of today, the 21st November, 2026 persists. The associated cyclonic circulation extends upto 4.5 km above mean sea level tilting southwestwards with height.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 66°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over Nagaland & neighbourhoodat 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Marathwada & neighbourhood at 3.1 km above mean sea level persists.",
+  "met_analysis": "The Low Pressure Area over north Chhattisgarh & neighbourhood at 1730 hours IST of today, the 21st November, 2026 persists. The associated cyclonic circulation extends upto 4.5 km above mean sea level tilting southwestwards with height.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 66°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over Nagaland & neighbourhoodat 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Marathwada & neighbourhood at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
@@ -19,7 +19,7 @@
         "status": "active",
         "location": "north Chhattisgarh & neighbourhood",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over north Chhattisgarh & neighbourhood at 1430 hours IST of today, the 21st November, 2026 persists. The associated cyclonic circulation extends upto 4.5 km above mean sea level tilting southwestwards with height."
+        "raw_text": "The Low Pressure Area over north Chhattisgarh & neighbourhood at 1730 hours IST of today, the 21st November, 2026 persists. The associated cyclonic circulation extends upto 4.5 km above mean sea level tilting southwestwards with height."
       },
       {
         "type": "Western Disturbance",
@@ -64,5 +64,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-21 19:19 IST"
+  "fetched_at": "2026-11-22 02:14 IST"
 }
