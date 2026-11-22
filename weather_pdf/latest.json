@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/91334bf76ddeae03350c0fb603cf8f3d.pdf",
-  "last_updated": "01:11 PM IST",
-  "slot": "midday",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/f58583a2f2d15622433dd9f18a11fbff.pdf",
+  "last_updated": "08:36 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-22",
   "bulletin": {
     "morning": null,
@@ -11,21 +11,21 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Low Pressure Area over north Chhattisgarh & neighbourhood lies over northeast Madhya Pradesh & neighbourhood at 0830 hours IST of today, the 22nd November, 2026. The associated cyclonic circulation extends upto 3.1 km above mean sea level.\nA trough runs from east Madhya Pradesh to Manipur across cyclonic circulation associated with northeast Madhya Pradesh & neighbourhood, Jharkhand, Bihar, north Gangetic West Bengal & Bangladesh at 1.5 km above mean sea level.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 71°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over Madhya Maharashtra & neighbourhood lies over south Gujrat and adjoining north Maharashtra at 3.1 km above mean sea level.\nA trough in easterlies runs from Southwest Bay of Bengal to north Coastal Andhra Pradesh across Westcentral Bay of Bengal and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over North coastal Andhra Pradesh and adjoining westcentral Bay of Bengal at 1.5 km above mean sea level merged with the above trough.\nThe upper air cyclonic circulation over Arunachal Pradesh & neighbourhood lies over northeast Assam & neighbourhood at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Nagaland & neighbourhoodat 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 1730 hours IST of today, the 22nd November, 2026. The associated cyclonic circulation extends upto 3.1 km above mean sea level.\nThe trough from east Madhya Pradesh to Manipur across the cyclonic circulation associated with the Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Jharkhand, Bihar, north Gangetic West Bengal & Bangladesh at 1.5 km above mean sea level persists.\nThe Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 32°N.\nThe upper air cyclonic circulation over south Gujrat and adjoining north Maharashtra at 3.1 km above mean sea level persists.\nThe trough in easterlies from Southwest Bay of Bengal to north Coastal Andhra Pradesh across Westcentral Bay of Bengal extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 3.1 km above mean sea level persists.",
   "systems": {
     "priority": [
       {
         "type": "Low Pressure Area",
         "status": "active",
-        "location": "northeast Madhya Pradesh & neighbourhood",
+        "location": "northeast Madhya Pradesh & neighbourhood persisted over the same region",
         "on_land": true,
-        "raw_text": "The Low Pressure Area over north Chhattisgarh & neighbourhood lies over northeast Madhya Pradesh & neighbourhood at 0830 hours IST of today, the 22nd November, 2026. The associated cyclonic circulation extends upto 3.1 km above mean sea level."
+        "raw_text": "The Low Pressure Area over northeast Madhya Pradesh & neighbourhood persisted over the same region at 1730 hours IST of today, the 22nd November, 2026. The associated cyclonic circulation extends upto 3.1 km above mean sea level."
       },
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 71°E to the north of Lat. 30°N.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 74°E to the north of Lat. 32°N.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 71°E to the north of Lat. 30°N",
+        "axis": "along Long. 74°E to the north of Lat. 32°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -42,17 +42,7 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Madhya Maharashtra & neighbourhood lies over south Gujrat and adjoining north Maharashtra at 3.1 km above mean sea level."
-      },
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "North coastal Andhra Pradesh and adjoining westcentral Bay of Bengal",
-        "level": {
-          "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over North coastal Andhra Pradesh and adjoining westcentral Bay of Bengal at 1.5 km above mean sea level merged with the above trough."
+        "raw_text": "The upper air cyclonic circulation over south Gujrat and adjoining north Maharashtra at 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -62,7 +52,7 @@
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Arunachal Pradesh & neighbourhood lies over northeast Assam & neighbourhood at 3.1 km above mean sea level."
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 3.1 km above mean sea level persists."
       }
     ],
     "other_troughs": [
@@ -70,27 +60,28 @@
         "type": "Trough",
         "subtype": "general",
         "extent": "east Madhya Pradesh to Manipur",
-        "across": "cyclonic circulation associated with northeast Madhya Pradesh & neighbourhood, Jharkhand, Bihar, north Gangetic West Bengal & Bangladesh",
+        "across": "the cyclonic circulation associated with the Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Jharkhand, Bihar, north Gangetic West Bengal & Bangladesh",
         "level": {
           "type": "single",
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "A trough runs from east Madhya Pradesh to Manipur across cyclonic circulation associated with northeast Madhya Pradesh & neighbourhood, Jharkhand, Bihar, north Gangetic West Bengal & Bangladesh at 1.5 km above mean sea level."
+        "raw_text": "The trough from east Madhya Pradesh to Manipur across the cyclonic circulation associated with the Low Pressure Area over northeast Madhya Pradesh & neighbourhood, Jharkhand, Bihar, north Gangetic West Bengal & Bangladesh at 1.5 km above mean sea level persists."
       },
       {
         "type": "Trough",
         "subtype": "general",
         "extent": "Southwest Bay of Bengal to north Coastal Andhra Pradesh",
+        "across": "Westcentral Bay of Bengal",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "A trough in easterlies runs from Southwest Bay of Bengal to north Coastal Andhra Pradesh across Westcentral Bay of Bengal and extends upto 1.5 km above mean sea level."
+        "raw_text": "The trough in easterlies from Southwest Bay of Bengal to north Coastal Andhra Pradesh across Westcentral Bay of Bengal extending upto 1.5 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 1,
+    "suppressed_count": 0,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -98,5 +89,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-22 15:58 IST"
+  "fetched_at": "2026-11-23 00:17 IST"
 }
