@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bfe8d0b5d58ab382cb42b67f10f8f4a7.pdf",
+  "last_updated": "04:25 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-11-23",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 82°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over northwest Bangladesh & adjoining Gangetic West Bengal at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gujarat and adjoining north Maharashtra at 3.1 km above mean sea level persists.\nThe trough in easterlies from Southwest Bay of Bengal to Westcentral Bay of Bengal at 0.9 km above mean sea level persists.\nThe trough in easterlies off North Keralam-Karnataka coasts at 0.9 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 82°E to the north of Lat. 30°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 82°E to the north of Lat. 30°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northwest Bangladesh & adjoining Gangetic West Bengal",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Bangladesh & adjoining Gangetic West Bengal at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Gujarat and adjoining north Maharashtra",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Gujarat and adjoining north Maharashtra at 3.1 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Southwest Bay of Bengal to Westcentral Bay of Bengal",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough in easterlies from Southwest Bay of Bengal to Westcentral Bay of Bengal at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough in easterlies off North Keralam-Karnataka coasts at 0.9 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-23 16:57 IST"
+}
