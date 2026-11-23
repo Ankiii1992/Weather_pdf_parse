@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/bfe8d0b5d58ab382cb42b67f10f8f4a7.pdf",
-  "last_updated": "04:25 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/144f1a817796c1fa2ee29cfed71d112c.pdf",
+  "last_updated": "08:41 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-23",
   "bulletin": {
     "morning": null,
@@ -11,12 +11,12 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 82°E to the north of Lat. 30°N.\nThe upper air cyclonic circulation over northwest Bangladesh & adjoining Gangetic West Bengal at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gujarat and adjoining north Maharashtra at 3.1 km above mean sea level persists.\nThe trough in easterlies from Southwest Bay of Bengal to Westcentral Bay of Bengal at 0.9 km above mean sea level persists.\nThe trough in easterlies off North Keralam-Karnataka coasts at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 82°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over northwest Bangladesh & adjoining Gangetic West Bengal at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gujarat and adjoining north Maharashtra lies over north Maharashtra & neighbourhood at 3.1 km above mean sea level.\nThe trough in easterlies from Southwest Bay of Bengal to Westcentral Bay of Bengal at 0.9 km above mean sea level persists.\nThe trough in easterlies off North Keralam-Karnataka coasts at 0.9 km above mean sea level persists.\nAn upper air cyclonic circulation lies over south Keralam & neighbourhoodat 0.9 km above mean sea level.",
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 82°E to the north of Lat. 30°N.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 82°E to the north of Lat. 30°N persists.",
         "form": "trough_in_westerlies",
         "axis": "along Long. 82°E to the north of Lat. 30°N",
         "level": {
@@ -49,13 +49,23 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "south Gujarat and adjoining north Maharashtra",
+        "location": "north Maharashtra & neighbourhood",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over south Gujarat and adjoining north Maharashtra at 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over south Gujarat and adjoining north Maharashtra lies over north Maharashtra & neighbourhood at 3.1 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Keralam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "An upper air cyclonic circulation lies over south Keralam & neighbourhoodat 0.9 km above mean sea level."
       }
     ],
     "other_troughs": [
@@ -89,5 +99,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-23 16:57 IST"
+  "fetched_at": "2026-11-24 04:31 IST"
 }
