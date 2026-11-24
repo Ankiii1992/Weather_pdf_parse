@@ -1,0 +1,103 @@
+{
+  "success": true,
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/94d16d737bd2e87e050425d68001e093.pdf",
+  "last_updated": "08:03 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-11-24",
+  "bulletin": {
+    "morning": null,
+    "midday": null,
+    "evening": null,
+    "night": null
+  },
+  "nlm_coords": null,
+  "met_analysis": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 89°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over northwest Bangladesh & adjoining Gangetic West Bengal lies over south Assam & neighbourhood at 0.9 km above mean sea level.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood persists and now extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over north Maharashtra & neighbourhood at 3.1 km above mean sea level persists.\nThe trough in easterlies from Southwest Bay of Bengal to Westcentral Bay of Bengal at 0.9 km above mean sea level persists.\nThe trough in easterlies off North Keralam-Karnataka coasts at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over south Keralam & neighbourhoodat 0.9 km above mean sea level persists.",
+  "systems": {
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 89°E to the north of Lat. 28°N.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 89°E to the north of Lat. 28°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
+    "uac": [
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Assam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northwest Bangladesh & adjoining Gangetic West Bengal lies over south Assam & neighbourhood at 0.9 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "northeast Assam & neighbourhood",
+        "level": {
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood persists and now extends upto 1.5 km above mean sea level."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "north Maharashtra & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 3.1,
+          "display": "3.1 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over north Maharashtra & neighbourhood at 3.1 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "south Keralam & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over south Keralam & neighbourhoodat 0.9 km above mean sea level persists."
+      }
+    ],
+    "other_troughs": [
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "extent": "Southwest Bay of Bengal to Westcentral Bay of Bengal",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough in easterlies from Southwest Bay of Bengal to Westcentral Bay of Bengal at 0.9 km above mean sea level persists."
+      },
+      {
+        "type": "Trough",
+        "subtype": "general",
+        "level": {
+          "type": "single",
+          "min": 0.9,
+          "display": "0.9 km above MSL"
+        },
+        "raw_text": "The trough in easterlies off North Keralam-Karnataka coasts at 0.9 km above mean sea level persists."
+      }
+    ],
+    "suppressed_count": 0,
+    "unclassified": [],
+    "validation": {
+      "warnings_count": 0,
+      "systems_with_warnings": []
+    }
+  },
+  "mjo": null,
+  "fetched_at": "2026-11-24 12:49 IST"
+}
