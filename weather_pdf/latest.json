@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/1cb7e423d8d5b2732ad5e4b0347346cf.pdf",
-  "last_updated": "08:38 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-11-24",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/d5071e67043e7e76a86a3a0b853d6877.pdf",
+  "last_updated": "07:56 AM IST",
+  "slot": "morning",
+  "bulletin_date": "2026-11-25",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,14 +11,14 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 90°E to the north of Lat. 28°N persists. Another Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 62°E to the north of Lat. 30°N persists.\nThe upper air cyclonic circulation over south Assam & neighbourhood at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists.\nThe trough in easterlies from Southwest Bay of Bengal to Westcentral Bay of Bengal at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gujarat & adjoining Southwest Rajasthan at 1.5 km above mean sea level persists\nThe upper air cyclonic circulation over Konkan & Goa at 3.1 km above mean sea level persists\nThe upper air cyclonic circulation over south Keralam & neighbourhoodat 0.9 km above mean sea level persists.\nThe trough ineasterlies from Comorin area to Rayalaseema across interior Tamil Nadu at 0.9 km above mean sea level persists.",
+  "met_analysis": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 68°E to the north of Lat. 28°N persists.\nThe upper air cyclonic circulation over south Assam & neighbourhood at 0.9 km above mean sea level persists.\nAn upper air cyclonic circulation lies over South Bangladesh & neighbourhoodat 1.5 km above mean sea level.\nThe trough in easterlies from Southwest Bay of Bengal to Westcentral Bay of Bengal at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gujarat & adjoining Southwest Rajasthan persists and now seen at 3.1 km above mean sea level.\nThe upper air cyclonic circulation over Konkan & Goa at 3.1 km above mean sea level persists\nThe upper air cyclonic circulation over south Keralam & neighbourhoodat 0.9 km above mean sea level persists.\nThe trough ineasterlies from Comorin area to Rayalaseema across interior Tamil Nadu at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level has become less marked. The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea levelroughly along Long. 90°E to the north of Lat. 28°N has moved away eastwards.",
   "systems": {
     "priority": [
       {
         "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 90°E to the north of Lat. 28°N persists. Another Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 62°E to the north of Lat. 30°N persists.",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 68°E to the north of Lat. 28°N persists.",
         "form": "trough_in_westerlies",
-        "axis": "along Long. 90°E to the north of Lat. 28°N",
+        "axis": "along Long. 68°E to the north of Lat. 28°N",
         "level": {
           "type": "single",
           "min": 5.8,
@@ -39,23 +39,23 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "northeast Assam & neighbourhood",
+        "location": "South Bangladesh & neighbourhood",
         "level": {
-          "type": "upto",
-          "max": 1.5,
-          "display": "upto 1.5 km above MSL"
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over northeast Assam & neighbourhood extending upto 1.5 km above mean sea level persists."
+        "raw_text": "An upper air cyclonic circulation lies over South Bangladesh & neighbourhoodat 1.5 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "Gujarat & adjoining Southwest Rajasthan",
         "level": {
           "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
+          "min": 3.1,
+          "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Gujarat & adjoining Southwest Rajasthan at 1.5 km above mean sea level persists"
+        "raw_text": "The upper air cyclonic circulation over Gujarat & adjoining Southwest Rajasthan persists and now seen at 3.1 km above mean sea level."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -103,7 +103,7 @@
         "raw_text": "The trough ineasterlies from Comorin area to Rayalaseema across interior Tamil Nadu at 0.9 km above mean sea level persists."
       }
     ],
-    "suppressed_count": 0,
+    "suppressed_count": 1,
     "unclassified": [],
     "validation": {
       "warnings_count": 0,
@@ -111,5 +111,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-25 01:19 IST"
+  "fetched_at": "2026-11-25 09:23 IST"
 }
