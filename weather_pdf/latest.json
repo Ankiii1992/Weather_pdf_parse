@@ -1,8 +1,8 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/97c1823ae760d01ca6053c12f06ff0b6.pdf",
-  "last_updated": "04:31 PM IST",
-  "slot": "evening",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/6396c59226e1763497ccee8753ad9e92.pdf",
+  "last_updated": "08:32 PM IST",
+  "slot": "night",
   "bulletin_date": "2026-11-26",
   "bulletin": {
     "morning": null,
@@ -11,9 +11,21 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The trough in easterlies from Comorian area to South Interior Karnataka across Tamilnadu & Keralam extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over South Bangladesh & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gujarat & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Bay of Bengal and adjoining north Odisha- south Gangetic West Bengal coasts at 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation is likely to emerge over South Andaman Sea around 29th November 2026.",
+  "met_analysis": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 28°N persists.\nThe trough in easterlies from Comorian area to South Interior Karnataka across Tamilnadu & Keralam extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over South Bangladesh & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gujarat & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Bay of Bengal and adjoining north Odisha- south Gangetic West Bengal coasts at 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation is likely to emerge over South Andaman Sea around 29th November 2026.",
   "systems": {
-    "priority": [],
+    "priority": [
+      {
+        "type": "Western Disturbance",
+        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level roughly along Long. 78°E to the north of Lat. 28°N persists.",
+        "form": "trough_in_westerlies",
+        "axis": "along Long. 78°E to the north of Lat. 28°N",
+        "level": {
+          "type": "single",
+          "min": 5.8,
+          "display": "5.8 km above MSL"
+        }
+      }
+    ],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -78,5 +90,5 @@
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-26 17:09 IST"
+  "fetched_at": "2026-11-27 02:09 IST"
 }
