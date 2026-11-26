@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/26573b47614a14b384446f358b0bad57.pdf",
-  "last_updated": "08:24 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-11-25",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/97c1823ae760d01ca6053c12f06ff0b6.pdf",
+  "last_updated": "04:31 PM IST",
+  "slot": "evening",
+  "bulletin_date": "2026-11-26",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,21 +11,9 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 76°E to the north of Lat. 28°N.\nThe upper air cyclonic circulation over South Bangladesh & neighbourhoodat 1.5 km above mean sea level persists.\nThe trough in easterlies from Gulf of Mannar to Southwest Bay of Bengal off Tamil Nadu coast at 0.9 km above mean sea level persists.\nThe upper air cyclonic circulation over Gujarat & adjoining Southwest Rajasthan at 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation lies over Lakshadweep & neighbourhoodat 0.9 km above mean sea level.",
+  "met_analysis": "The trough in easterlies from Comorian area to South Interior Karnataka across Tamilnadu & Keralam extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over South Bangladesh & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gujarat & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Northwest Bay of Bengal and adjoining north Odisha- south Gangetic West Bengal coasts at 3.1 km above mean sea level persists.\nAn upper air cyclonic circulation is likely to emerge over South Andaman Sea around 29th November 2026.",
   "systems": {
-    "priority": [
-      {
-        "type": "Western Disturbance",
-        "raw_text": "The Western Disturbance as a trough in middle tropospheric westerlies with its axis at 5.8 km above mean sea level now runs roughly along Long. 76°E to the north of Lat. 28°N.",
-        "form": "trough_in_westerlies",
-        "axis": "along Long. 76°E to the north of Lat. 28°N",
-        "level": {
-          "type": "single",
-          "min": 5.8,
-          "display": "5.8 km above MSL"
-        }
-      }
-    ],
+    "priority": [],
     "uac": [
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -35,49 +23,60 @@
           "min": 1.5,
           "display": "1.5 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over South Bangladesh & neighbourhoodat 1.5 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over South Bangladesh & neighbourhood at 1.5 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Gujarat & adjoining Southwest Rajasthan",
+        "location": "Gujarat & neighbourhood",
+        "level": {
+          "type": "single",
+          "min": 1.5,
+          "display": "1.5 km above MSL"
+        },
+        "raw_text": "The upper air cyclonic circulation over Gujarat & neighbourhood at 1.5 km above mean sea level persists."
+      },
+      {
+        "type": "Upper Air Cyclonic Circulation",
+        "location": "Northwest Bay of Bengal and adjoining north Odisha- south Gangetic West Bengal coasts",
         "level": {
           "type": "single",
           "min": 3.1,
           "display": "3.1 km above MSL"
         },
-        "raw_text": "The upper air cyclonic circulation over Gujarat & adjoining Southwest Rajasthan at 3.1 km above mean sea level persists."
+        "raw_text": "The upper air cyclonic circulation over Northwest Bay of Bengal and adjoining north Odisha- south Gangetic West Bengal coasts at 3.1 km above mean sea level persists."
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "Lakshadweep & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "An upper air cyclonic circulation lies over Lakshadweep & neighbourhoodat 0.9 km above mean sea level."
+        "location": "South Andaman Sea around 29th November 2026",
+        "raw_text": "An upper air cyclonic circulation is likely to emerge over South Andaman Sea around 29th November 2026.",
+        "_warnings": [
+          "UAC missing level"
+        ]
       }
     ],
     "other_troughs": [
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "Gulf of Mannar to Southwest Bay of Bengal off Tamil Nadu coast",
+        "extent": "Comorian area to South Interior Karnataka",
+        "across": "Tamilnadu & Keralam",
         "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
+          "type": "upto",
+          "max": 1.5,
+          "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The trough in easterlies from Gulf of Mannar to Southwest Bay of Bengal off Tamil Nadu coast at 0.9 km above mean sea level persists."
+        "raw_text": "The trough in easterlies from Comorian area to South Interior Karnataka across Tamilnadu & Keralam extending upto 1.5 km above mean sea level persists."
       }
     ],
     "suppressed_count": 0,
     "unclassified": [],
     "validation": {
-      "warnings_count": 0,
-      "systems_with_warnings": []
+      "warnings_count": 1,
+      "systems_with_warnings": [
+        "Upper Air Cyclonic Circulation"
+      ]
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-26 06:45 IST"
+  "fetched_at": "2026-11-26 17:09 IST"
 }
