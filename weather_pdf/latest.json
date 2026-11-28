@@ -1,9 +1,9 @@
 {
   "success": true,
-  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/3674f43ee8387247f5ff66fe24bf4780.pdf",
-  "last_updated": "08:56 PM IST",
-  "slot": "night",
-  "bulletin_date": "2026-11-27",
+  "pdf_url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/ac256651013b1a9a49ab55bb7c894c9e.pdf",
+  "last_updated": "01:13 PM IST",
+  "slot": "midday",
+  "bulletin_date": "2026-11-28",
   "bulletin": {
     "morning": null,
     "midday": null,
@@ -11,20 +11,10 @@
     "night": null
   },
   "nlm_coords": null,
-  "met_analysis": "The trough in easterlies from southern parts of Lakshadweep to Coastal Karnataka across Eastcentral Arabian Sea extending upto 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over south Gujarat & neighbourhood at 1.5 km above mean sea level persists.\nThe upper air cyclonic circulation over Gangetic West Bengal & neighbourhood at 1.5 km above mean sea level persists.\nAn upper air cyclonic circulation lies over south Keralam & neighbourhood at 0.9 km above mean sea level.\nAn upper air cyclonic circulation is likely to emerge over South Andaman Sea around 29th November 2026.\nThe trough from South Madhya Maharashtra to North Gujarat at 1.5 km above mean sea level has become less marked.",
+  "met_analysis": "The upper air cyclonic circulation over Gangetic West Bengal & neighbourhood at 1.5 km above mean sea level persists.\nA trough runs from North Interior Karnataka to south Gujarat across Madhya Maharashtra and extends upto 1.5 km above mean sea level.\nThe upper air cyclonic circulation over Madhya Maharashtra and neighbourhood has merged with the above mentioned trough from North Interior Karnataka to south Gujarat.\nAn upper air cyclonic circulation is likely to emerge over South Andaman Sea around 29th November 2026.\nA fresh Western Disturbance likely to affect western Himalaya region from night of 2nd December.\nThe trough in easterlies from southern parts of Lakshadweep to Coastal Karnataka across Eastcentral Arabian Sea extending upto 1.5 km above mean sea level has become less marked.",
   "systems": {
     "priority": [],
     "uac": [
-      {
-        "type": "Upper Air Cyclonic Circulation",
-        "location": "south Gujarat & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 1.5,
-          "display": "1.5 km above MSL"
-        },
-        "raw_text": "The upper air cyclonic circulation over south Gujarat & neighbourhood at 1.5 km above mean sea level persists."
-      },
       {
         "type": "Upper Air Cyclonic Circulation",
         "location": "Gangetic West Bengal & neighbourhood",
@@ -37,13 +27,11 @@
       },
       {
         "type": "Upper Air Cyclonic Circulation",
-        "location": "south Keralam & neighbourhood",
-        "level": {
-          "type": "single",
-          "min": 0.9,
-          "display": "0.9 km above MSL"
-        },
-        "raw_text": "An upper air cyclonic circulation lies over south Keralam & neighbourhood at 0.9 km above mean sea level."
+        "location": "Madhya Maharashtra and neighbourhood has merged with the above mentioned trough from North Interior Karnataka to south Gujarat",
+        "raw_text": "The upper air cyclonic circulation over Madhya Maharashtra and neighbourhood has merged with the above mentioned trough from North Interior Karnataka to south Gujarat.",
+        "_warnings": [
+          "UAC missing level"
+        ]
       },
       {
         "type": "Upper Air Cyclonic Circulation",
@@ -58,25 +46,27 @@
       {
         "type": "Trough",
         "subtype": "general",
-        "extent": "southern parts of Lakshadweep to Coastal Karnataka",
-        "across": "Eastcentral Arabian Sea",
+        "extent": "North Interior Karnataka to south Gujarat",
         "level": {
           "type": "upto",
           "max": 1.5,
           "display": "upto 1.5 km above MSL"
         },
-        "raw_text": "The trough in easterlies from southern parts of Lakshadweep to Coastal Karnataka across Eastcentral Arabian Sea extending upto 1.5 km above mean sea level persists."
+        "raw_text": "A trough runs from North Interior Karnataka to south Gujarat across Madhya Maharashtra and extends upto 1.5 km above mean sea level."
       }
     ],
-    "suppressed_count": 1,
-    "unclassified": [],
+    "suppressed_count": 2,
+    "unclassified": [
+      "A fresh Western Disturbance likely to affect western Himalaya region from night of 2nd December."
+    ],
     "validation": {
-      "warnings_count": 1,
+      "warnings_count": 2,
       "systems_with_warnings": [
+        "Upper Air Cyclonic Circulation",
         "Upper Air Cyclonic Circulation"
       ]
     }
   },
   "mjo": null,
-  "fetched_at": "2026-11-28 06:18 IST"
+  "fetched_at": "2026-11-28 16:32 IST"
 }
